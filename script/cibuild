@@ -17,7 +17,7 @@ mkdir _site
 git clone https://${GITHUB_TOKEN}@github.com/OpenBazaar/official_site.git --branch gh-pages _site
 
 # build with Jekyll into "_site"
-bundle exec jekyll build
+bundle exec jekyll build JEKYLL_ENV=production
 
 # push
 cd _site
