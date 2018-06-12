@@ -196,13 +196,13 @@
 
 <p>One approach is to break up the reputation score, of the Vendor or Moderator, into 3 classes or the ‘3 seashells’.</p>
 
-<p>[caption id=”attachment_634” align=”aligncenter” width=”648”]<a href="https://blog.openbazaar.org/wp-content/uploads/2015/10/3-Seashells.jpg"><img src="3-Seashells.jpg" alt="The 3 Seashells… yes I’m a fan of Demolition Man" /></a> The 3 Seashells… yes I’m a fan of Demolition Man[/caption]</p>
+<p>[caption id=”attachment_634” align=”aligncenter” width=”648”]<a href="3-Seashells.jpg"><img src="3-Seashells.jpg" alt="The 3 Seashells… yes I’m a fan of Demolition Man" /></a> The 3 Seashells… yes I’m a fan of Demolition Man[/caption]</p>
 
 <h4 id="seashell-1-all-red-low-reliability"><strong>Seashell 1: All (red; low reliability)</strong></h4>
 
 <p>The reputation score is calculated from <strong>all <em>transaction summaries</em></strong> that can be found on the network for a Vendor or Moderator. The GUID of the Buyer does not need to be disclosed. Equal weight is assigned to all <em>transaction summaries</em> on the assumption they are all from authentic trades_._</p>
 
-<p>[caption id=”attachment_635” align=”aligncenter” width=”648”]<a href="https://blog.openbazaar.org/wp-content/uploads/2015/10/Red-Seashell.png"><img src="Red-Seashell.png" alt="All transaction summaries are counted, even if the Buyer’s GUID isn’t not disclosed." /></a> All transaction summaries are counted, even if the Buyer’s GUID isn’t not disclosed.[/caption]</p>
+<p>[caption id=”attachment_635” align=”aligncenter” width=”648”]<a href="Red-Seashell.png"><img src="Red-Seashell.png" alt="All transaction summaries are counted, even if the Buyer’s GUID isn’t not disclosed." /></a> All transaction summaries are counted, even if the Buyer’s GUID isn’t not disclosed.[/caption]</p>
 
 <p>If Buyer’s GUID is undisclosed, they are represented by the Bitcoin address (and signature) from the payout transaction from multisignature escrow address or input address in a direct transaction.</p>
 
@@ -210,7 +210,7 @@
 
 <p>The reputation score is calculated from <em>transaction summaries</em> where the <strong>GUID of the Buyer is disclosed</strong>. Any <em>transaction summaries</em> where the Buyer is <strong>only</strong> represented by a Bitcoin address (i.e. an anonymous transaction) are discarded.</p>
 
-<p>[caption id=”attachment_636” align=”aligncenter” width=”648”]<a href="https://blog.openbazaar.org/wp-content/uploads/2015/10/Yellow-Seashell.png"><img src="Yellow-Seashell.png" alt="Transaction summaries without the Buyer GUID disclosed are discarded." /></a> Transaction summaries without the Buyer GUID disclosed are discarded.[/caption]</p>
+<p>[caption id=”attachment_636” align=”aligncenter” width=”648”]<a href="Yellow-Seashell.png"><img src="Yellow-Seashell.png" alt="Transaction summaries without the Buyer GUID disclosed are discarded." /></a> Transaction summaries without the Buyer GUID disclosed are discarded.[/caption]</p>
 
 <p>The assumption here is that the requirement of the Buyer’s GUID subjects the rating to:</p>
 
@@ -224,7 +224,7 @@
 
 <p>The reputation score is calculated from <em>transaction summaries</em> where the<strong>Buyer’s GUID is within the user’s web-of-trust</strong> <strong>graph</strong> (WoT).</p>
 
-<p>[caption id=”attachment_637” align=”aligncenter” width=”648”]<a href="https://blog.openbazaar.org/wp-content/uploads/2015/10/Green-Seashell.png"><img src="Green-Seashell.png" alt="If Alice is the target and Ed is the observer, only the transaction summaries in Ed’s web-of-trust are accepted when calculating Alice’s reputation score." /></a> If Alice is the target and Ed is the observer, only the transaction summaries in Ed’s web-of-trust are accepted when calculating Alice’s reputation score.[/caption]</p>
+<p>[caption id=”attachment_637” align=”aligncenter” width=”648”]<a href="Green-Seashell.png"><img src="Green-Seashell.png" alt="If Alice is the target and Ed is the observer, only the transaction summaries in Ed’s web-of-trust are accepted when calculating Alice’s reputation score." /></a> If Alice is the target and Ed is the observer, only the transaction summaries in Ed’s web-of-trust are accepted when calculating Alice’s reputation score.[/caption]</p>
 
 <p>The assumption here is that you are more likely to believe ratings made by people you trust compared to pseudonymous or random identities on the network.</p>
 
@@ -234,7 +234,7 @@
 
 <h4 id="web-of-trust-1-zindros"><strong><em>Web-of-trust #1:</em></strong> <em>Zindros</em></h4>
 
-<p>[caption id=”attachment_638” align=”aligncenter” width=”648”]<a href="https://blog.openbazaar.org/wp-content/uploads/2015/10/Dio-WoT.jpg"><img src="Dio-WoT.jpg" alt="Zindros web-of-trust" /></a> Zindros web-of-trust[/caption]</p>
+<p>[caption id=”attachment_638” align=”aligncenter” width=”648”]<a href="Dio-WoT.jpg"><img src="Dio-WoT.jpg" alt="Zindros web-of-trust" /></a> Zindros web-of-trust[/caption]</p>
 
 <p>This approach was named after OpenBazaar core contributor <a href="https://twitter.com/dionyziz">Dionysis Zindros</a>, who wrote up a comprehensive specification <a href="https://gist.github.com/dionyziz/e3b296861175e0ebea4b">outlined here</a>.</p>
 
