@@ -1,28 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://127.0.0.1:8080/official_site/feed.xml" rel="self" type="application/atom+xml" /><link href="http://127.0.0.1:8080/official_site/" rel="alternate" type="text/html" /><updated>2018-06-12T06:23:49+00:00</updated><id>http://127.0.0.1:8080/official_site/</id><title type="html">OpenBazaar</title><entry><title type="html">This is a title</title><link href="http://127.0.0.1:8080/official_site/blog/this-is-a-title" rel="alternate" type="text/html" title="This is a &lt;span class='post-title-extra-alternative'&gt;title&lt;/span&gt;" /><published>2018-06-06T03:30:00+00:00</published><updated>2018-06-06T03:30:00+00:00</updated><id>http://127.0.0.1:8080/official_site/blog/this-is-a-title</id><content type="html" xml:base="http://127.0.0.1:8080/official_site/blog/this-is-a-title">&lt;h2 id=&quot;this-is-the-title&quot;&gt;This is the title&lt;/h2&gt;
-
-&lt;p&gt;Hello this is some text&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This is a quote&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;bla bla bla&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;hello&lt;/li&gt;
-  &lt;li&gt;another item&lt;/li&gt;
-  &lt;li&gt;bla bla&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;img src=&quot;gears.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;bla&quot;&gt;bla&lt;/h3&gt;
-
-&lt;div class=&quot;embed-responsive embed-responsive-16by9 mb-5&quot;&gt;
-    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/92AOVPrm6MA&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;hello&lt;/p&gt;</content><author><name></name></author><summary type="html">This is the title</summary></entry><entry><title type="html">Valuing Privacy &amp;amp; still Getting Data from a Decentralized Network</title><link href="http://127.0.0.1:8080/official_site/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network" rel="alternate" type="text/html" title="Valuing Privacy &lt;span class='post-title-extra'&gt;&amp; still Getting Data&lt;/span&gt; from a Decentralized Network" /><published>2018-05-30T03:30:00+00:00</published><updated>2018-05-30T03:30:00+00:00</updated><id>http://127.0.0.1:8080/official_site/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network</id><content type="html" xml:base="http://127.0.0.1:8080/official_site/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network">&lt;p&gt;Facebook knows exactly how many users are on their platform. Amazon knows exactly how many products are sold. Instagram knows exactly how many photos are shared.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://127.0.0.1:8080/official_site/feed.xml" rel="self" type="application/atom+xml" /><link href="http://127.0.0.1:8080/official_site/" rel="alternate" type="text/html" /><updated>2018-06-12T06:31:25+00:00</updated><id>http://127.0.0.1:8080/official_site/</id><title type="html">OpenBazaar</title><entry><title type="html">Valuing Privacy &amp;amp; still Getting Data from a Decentralized Network</title><link href="http://127.0.0.1:8080/official_site/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network" rel="alternate" type="text/html" title="Valuing Privacy &lt;span class='post-title-extra'&gt;&amp; still Getting Data&lt;/span&gt; from a Decentralized Network" /><published>2018-05-30T03:30:00+00:00</published><updated>2018-05-30T03:30:00+00:00</updated><id>http://127.0.0.1:8080/official_site/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network</id><content type="html" xml:base="http://127.0.0.1:8080/official_site/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network">&lt;p&gt;Facebook knows exactly how many users are on their platform. Amazon knows exactly how many products are sold. Instagram knows exactly how many photos are shared.&lt;/p&gt;
 
 &lt;p&gt;In contrast, no one knows how many people use Bitcoin. No one knows how many files have been shared over Bittorrent. No one knows how many trades happen on OpenBazaar.&lt;/p&gt;
 
@@ -443,4 +419,41 @@
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;strong&gt;Want to learn more about coin integrations in OpenBazaar?&lt;/strong&gt;&lt;br /&gt;
-Please join us on &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt;!&lt;/p&gt;</content><author><name></name></author><summary type="html">OpenBazaar has integrated Bitcoin Cash and Zcash (Beta) for payments. Why?</summary></entry></feed>
+Please join us on &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt;!&lt;/p&gt;</content><author><name></name></author><summary type="html">OpenBazaar has integrated Bitcoin Cash and Zcash (Beta) for payments. Why?</summary></entry><entry><title type="html">Bitcoin Cash Giveaway - How to Claim your $10 in BCH</title><link href="http://127.0.0.1:8080/official_site/blog/bitcoin-cash-giveaway-how-to-claim-your-$10-in-bch" rel="alternate" type="text/html" title="Bitcoin Cash Giveaway - &lt;span class=&quot;post-title-extra-alternative&quot;&gt;How to Claim your $10 in BCH&lt;/span&gt;" /><published>2018-02-07T03:30:00+00:00</published><updated>2018-02-07T03:30:00+00:00</updated><id>http://127.0.0.1:8080/official_site/blog/bitcoin-cash-giveaway-%E2%80%93-how-to-claim-your-$10-in-bch</id><content type="html" xml:base="http://127.0.0.1:8080/official_site/blog/bitcoin-cash-giveaway-how-to-claim-your-$10-in-bch">&lt;h2 id=&quot;due-to-overwhelming-response-the-bch-giveaway-promotion-is-now-closed-as-of-8am-cst-saturday-february-10th-we-are-working-through-sending-payouts-for-existing-submissions-so-your-patience-is-appreciated&quot;&gt;Due to overwhelming response the BCH giveaway promotion is now closed as of 8am CST Saturday, February 10th. We are working through sending payouts for existing submissions so your patience is appreciated!&lt;/h2&gt;
+
+&lt;div class=&quot;media post-media&quot;&gt;
+  &lt;div&gt;
+    &lt;p&gt;&lt;img src=&quot;bitcoin-cash.png&quot; alt=&quot;Bitcoin cash&quot; class=&quot;mr-3 post-media-image&quot; /&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;media-body mt-3&quot;&gt;
+    &lt;p&gt;To celebrate the launch of &lt;a href=&quot;https://www.bitcoincash.org&quot;&gt;Bitcoin Cash&lt;/a&gt; and &lt;a href=&quot;https://z.cash./&quot;&gt;Zcash&lt;/a&gt; (Beta) integrations on OpenBazaar last week we are doing something fun!&lt;/p&gt;
+    &lt;p&gt;This week we will be giving away $10 in Bitcoin Cash to users who set up a new BCH node on OpenBazaar.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;heres-how-to-claim-yours&quot;&gt;Here’s how to claim yours:&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;First&lt;/strong&gt;, start a Bitcoin Cash node on OpenBazaar! Here’s how:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Next&lt;/strong&gt;, tag &lt;a href=&quot;https://twitter.com/openbazaar&quot;&gt;@OpenBazaar&lt;/a&gt; in a tweet including &lt;strong&gt;these 4 things:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Your &lt;strong&gt;OpenBazaar Peer ID&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Your &lt;strong&gt;BCH wallet address&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;The hashtag &lt;strong&gt;#OpenBazaarBCH&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;A &lt;strong&gt;screengrab&lt;/strong&gt; of your home page&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;tweet.png&quot; alt=&quot;OpenBazaar BCH Giveaway Tweet Example&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Here’s the copy that you can select and fill with your own information to enter! Just make sure to also add your screengrab to the tweet:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Hey @OpenBazaar, I want my $BCH! My Peer ID is ob://QmSkkZpNFzWubxE4p9Ejjo2CLqq61jxuRF26ZzCmCKaHcJ and my OB BCH wallet is bitcoincash:qqt0cgqnaypju2h2mu8awg40er3yuys2j50qvpkpgd #OpenBazaarBCH&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Tweets that do not include &lt;strong&gt;ALL FOUR&lt;/strong&gt; of these items will be considered invalid. Contest runs from 9am CST Wednesday, February 7th until we announce the end on Twitter. Coins will be sent manually so please allow for up to 24 hours for receipt of your coins. One entry per user. Recently created Twitter accounts that appear to be auto-generated or spam will also be disqualified.&lt;/p&gt;
+
+&lt;h2 id=&quot;need-help-finding-your-bch-wallet&quot;&gt;Need help finding your BCH wallet?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;Find-Your-BCH-Wallet-Address-in-OpenBazar.png&quot; alt=&quot;Find Your BCH Wallet Address in OpenBazar&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Due to overwhelming response the BCH giveaway promotion is now closed as of 8am CST Saturday, February 10th. We are working through sending payouts for existing submissions so your patience is appreciated!</summary></entry></feed>
