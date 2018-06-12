@@ -33,6 +33,8 @@ defaults:
       image: true
 
 permalink: /blog/:title
+
+google_analytics: 'GTM-P8J7H5F'
    
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
