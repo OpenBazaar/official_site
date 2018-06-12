@@ -2,7 +2,7 @@
 
 ## Tips
 
-## To run local site
+## To run site locally
 
 `bundle exec jekyll serve`
 
