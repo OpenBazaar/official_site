@@ -222,6 +222,7 @@ hr.title-separator {
   &.download {
     @include links(white, white, white, white);
     background-image: linear-gradient(to bottom, #54d547, #2bad23);
+    margin-top: 2px;
   }
   &.big {
     width: 202px;
