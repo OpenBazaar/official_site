@@ -1,7 +1,0 @@
----
-title: "Giveaway: Win 1 of 3 Copies of \"The Internet of Money\" by Andreas Antonopoulos" 
-layout: post
-date: '2016-09-14 00:30:00 -0300'
----
-        
-  [![AndreasBook](AndreasBook.jpg)](https://blog.openbazaar.org/wp-content/uploads/2016/09/AndreasBook.jpg)Last week we were excited to hear Andreas Antonopoulos – security expert, author and Bitcoin evangelist – announce his new book for sale on the Joe Rogan Experience podcast! (ICYMI here it is: [Andreas Antonopoulos Introduces Joe Rogan to OpenBazaar](https://blog.openbazaar.org/andreas-antonopoulos-introduces-joe-rogan-to-openbazaar/)) Now can find _The Internet of Money_ on his [OpenBazaar store](https://duosear.ch/efece349f9830a6d6167c3bbc6ed3ce855277a8f)--AND for the next week you can also **enter to win one of 3 copies** that we are giving away! Just check out your options for entering below. You can comment on Twitter & Reddit once per day for the next week to gain even more entries! Winners will be announced next Thursday, September 22nd. (This giveaway is US only. Sorry international friends; we are working up policies to be able to include you in future giveaways!)     [a Rafflecopter giveaway](http://www.rafflecopter.com/rafl/display/197fa0c21/)  If you have a book – or anything else – that you’d like to sell for Bitcoin, try out [OpenBazaar](https://openbazaar.org/). If you need help, join our [Slack community](http://slack.openbazaar.org/) and let us know.

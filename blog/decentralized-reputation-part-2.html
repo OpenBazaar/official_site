@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Decentralized Reputation - Part 2 | OpenBazaar</title>
+<meta name="generator" content="Jekyll v3.8.3" />
+<meta property="og:title" content="Decentralized Reputation - Part 2" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="In part 1, we introduced the reputation system for OpenBazaar." />
+<meta property="og:description" content="In part 1, we introduced the reputation system for OpenBazaar." />
+<link rel="canonical" href="http://127.0.0.1:8080/openbazaar/blog/decentralized-reputation-part-2" />
+<meta property="og:url" content="http://127.0.0.1:8080/openbazaar/blog/decentralized-reputation-part-2" />
+<meta property="og:site_name" content="OpenBazaar" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2015-10-15T03:30:00+00:00" />
+<script type="application/ld+json">
+{"description":"In part 1, we introduced the reputation system for OpenBazaar.","@type":"BlogPosting","url":"http://127.0.0.1:8080/openbazaar/blog/decentralized-reputation-part-2","headline":"Decentralized Reputation - Part 2","dateModified":"2015-10-15T03:30:00+00:00","datePublished":"2015-10-15T03:30:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://127.0.0.1:8080/openbazaar/blog/decentralized-reputation-part-2"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="shortcut icon" type="image/png" href="/openbazaar/favicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="/openbazaar/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://127.0.0.1:8080/openbazaar/feed.xml" title="OpenBazaar" /></head>
+<body><header class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="/openbazaar/">
+            <img class="openbazaar-logo" alt="openbazaar logo" src="/openbazaar/assets/home/openbazaar-logo-316bbba492da4a2a44a7ad012f1054fdf0c47c1068d5a949f86bab5ab23a5980.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-top" aria-controls="navbar-top"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span> Menu
+        </button>
+        <div class="collapse navbar-collapse text-center text-lg-left" id="navbar-top">
+            
+            <ul class="navbar-nav ml-auto"><li class="nav-item ml-md-2 ">
+                    <a class="nav-link" href="/openbazaar/features/">Features
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2 ">
+                    <a class="nav-link" href="/openbazaar/applications/">
+                        Applications
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2">
+                    <a class="nav-link" href="https://api.openbazaar.org/" target="_blank">API</a>
+                </li>
+                <li class="nav-item ml-md-2 ">
+                    <a class="nav-link" href="/openbazaar/developers/">
+                        Developers
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2 ">
+                    <a class="nav-link" href="/openbazaar/support/">
+                        Support
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2 active ">
+                    <a class="nav-link" href="/openbazaar/blog/">
+                        Blog
+                        
+                            <span class="sr-only">(current)</span>
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2">
+                    <a href="/openbazaar/mobile-updates/" class="button small download d-lg-none">Get It for Desktop</a>
+                    <a href="/openbazaar/download/" class="button small download d-none d-lg-inline-flex">DOWNLOAD</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header><main class="page-content" aria-label="Content">
+      <div class="wrapper content">
+        <article class="container limited">
+    <div class="row">
+        <div class="col-12">
+            <section class="row pt-0 ">
+    
+        <div class="col-12 post-heading-image w-100 border-bottom">
+
+        </div>
+        <img class="post-openbazaar-logo mx-auto" alt="openbazaar-log0" src="/openbazaar/assets/blog/openbazaar-logo-ab0938d7ea392ca8dc078be92a0f5be81a3a2ff9550ebd304da2d5fa1e4d8870.png">
+    
+    <div class="col-12">
+        <div class="row text-center mt-4">
+            
+                <div class="col"></div>
+                <div class="col-8">
+                    <a href="/openbazaar/blog/decentralized-reputation-part-2">
+                        <h3 class="post-title">
+                            Decentralized Reputation - Part 2
+                        </h3>
+                    </a>
+                </div>
+                <div class="col"></div>
+                <div class="col-12 d-flex justify-content-between my-4">
+                    <div class="post-emojis">
+                        <i class="fab fa-bitcoin post-icon-bitcoin"></i>
+                        <img draggable="false" class="emoji medium post-emoji" alt="world emoji" src="https://s.w.org/images/core/emoji/2.4/svg/1f30e.svg">
+                        <img draggable="false" class="emoji medium post-emoji" alt="✌" src="https://s.w.org/images/core/emoji/2.4/svg/270c.svg">
+                    </div>
+                    <a class="post-openbazaar-link" href="/openbazaar/">OpenBazaar.org</a>
+                </div>
+            
+            <div class="col-12 post-date text-left mb-3">
+                Oct 15, 2015
+            </div>
+            
+                <div class="col-12 text-left post-container">
+                    <p>In <a href="https://medium.com/@therealopenbazaar/decentralized-reputation-in-openbazaar-4e3a3d0b0899">part 1</a>, we introduced the reputation system for OpenBazaar.</p>
+
+<p>We learned that Vendor or Moderator reputation is composed of individual <em>transaction ratings</em>. Transaction ratings feed into a <strong>reputation score</strong>, with granular detail related to their activity as either a Vendor or Moderator. Transaction ratings are tied to a bitcoin transaction and recorded as a JSON-formatted <em>transaction summary</em> of the trade.</p>
+
+<p><a href="Tx-summary.png"><img src="Tx-summary.png" alt="Tx summary" /></a></p>
+
+<p><em>Transaction summaries</em> contain the minimum amount of metadata required to provably link a Vendor to a bitcoin transaction and listing contract, while maintaining the privacy of the Buyer by default.</p>
+
+<p>Users that desire to know the reputation of a Vendor can download the full history of <em>transaction summaries</em> directly from the Vendor or a third party (e.g. Moderator).</p>
+
+<p>Towards the end of the article, I hinted that third parties could take the <em>transaction summaries</em> as ‘units of reputation data’ to calculate their own version of a reputation score, which would be different from OpenBazaar’s native algorithm.</p>
+
+<p>In this article we will explore these concepts in greater detail, and unpack how <em>transaction summaries</em> can be processed to add value to reputation score in OpenBazaar.</p>
+
+<h2 id="cost-of-identity">Cost of Identity</h2>
+
+<p>A frequent obstacle in any system where reputation is involved is the threat of <em>Sybil</em> attacks.</p>
+
+<blockquote>
+  <p>In a <a href="https://en.wikipedia.org/wiki/Sybil_attack">Sybil attack</a> the attacker subverts the <a href="https://en.wikipedia.org/wiki/Reputation_system" title="Reputation system">reputation system</a> of a <a href="https://en.wikipedia.org/wiki/Peer-to-peer" title="Peer-to-peer">peer-to-peer</a> <a href="https://en.wikipedia.org/wiki/Computer_network" title="Computer network">network</a> by creating a large number of <a href="https://en.wikipedia.org/wiki/Pseudonymity" title="Pseudonymity">pseudonymous</a> identities, using them to gain a disproportionately large influence. A reputation system’s vulnerability to a Sybil attack depends on how cheaply identities can be generated, the degree to which the reputation system accepts inputs from entities that do not have a chain of trust linking them to a trusted entity, and whether the reputation system treats all entities identically. (<a href="https://en.wikipedia.org/wiki/Sybil_attack">Source</a>)</p>
+</blockquote>
+
+<p><a href="https://medium.com/@therealopenbazaar/decentralized-reputation-in-openbazaar-4e3a3d0b0899">Previously</a> we described the first-line of defense against Sybil attack in OpenBazaar, which was the proof-of-work required to generate a global unique identifier (GUID) for the network. Using non-specialized hardware, generating a GUID will take approximately 30 seconds. However, given the prevalence of a specialized hardware related to various proof-of-work systems, we cannot exclusively depend on this approach to impose a cost per identity.</p>
+
+<p>A <em>financial</em> cost can be associated with an OpenBazaar GUID to help combat <em>Sybil</em> attacks and enhance the value of a reputation score (when the GUID of the Buyer is disclosed in the <em>transaction summary</em>).</p>
+
+<p>Like a proof of work, a <em>financial</em> cost for a GUID means that contributing data to the network, in the form of ratings and reviews, is <strong>not free</strong>. This cost or <strong><em>reputation pledge</em></strong>, at some point, makes it economically irrational to create fake identities and thus fake ratings.</p>
+
+<p>There are a variety of ways to make a <strong>reputation pledge</strong>:</p>
+
+<ol>
+  <li>Proof of burn</li>
+  <li>CHECKLOCKTIMEVERIFY</li>
+  <li>Security deposit</li>
+</ol>
+
+<p>We will briefly touch on each approach below with an example of a market price of $5 (~0.02 BTC at the time of writing) for a reputation pledge.</p>
+
+<h3 id="proof-of-burn">Proof of Burn</h3>
+
+<p>Proof of burn involves sending bitcoin to an address where the private key will be virtually impossible to calculate. The funds sent to this address are permanently unspendable and represent the <em>purest</em> form of commitment. Nevertheless, for many (including the author) there is an unsettling emotional cost, despite the net economic benefit it gives to all users.</p>
+
+<p>For example, an attacking Vendor would need to burn $100 (0.4 BTC) to create 20 <strong>reputation pledges</strong> for each fake identity making a positive rating. However, the $100 burn only represents the <em>present cost</em> to creating these identities. There is a future cost, in terms of deflationary value, in losing 0.4 BTC that may be worth significantly more than $100 months or years from now.</p>
+
+<p>In terms of implementation, OpenBazaar may support this feature, but would be unsurprised if few use it in favor over other alternatives.</p>
+
+<h3 id="checklocktimeverify">CHECKLOCKTIMEVERIFY</h3>
+
+<p><a href="https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki">CHECKLOCKTIMEVERIFY</a> would have a user send bitcoin to themselves (i.e. another address that the user controls) in such a way that these funds would be ‘unspendable’ until a future date. The funds in this type of transaction will not be accepted into a block until a specific Unix time or block height.</p>
+
+<p>Unlike proof of burn, the $100 reputation pledge would not be permanently lost but temporarily inaccessible to a Vendor. The time period may be anywhere from weeks, months, or even years.</p>
+
+<p>This approach isn’t particularly effective against attackers with a long time preference, but should be sufficient for most users when the value of items being traded are less than the locked funds.</p>
+
+<h3 id="security-deposit">Security Deposit</h3>
+
+<p>A third party, or federation of third parties, hold a sum of funds from a user in multisignature escrow for a period of time as a <em>security deposit</em>. In the event of poor behavior by the user in a transaction or interaction, damages can be deducted from the security deposit to: 1) compensate the offended party, or 2) impose a punitive action.</p>
+
+<p>The weakness of this approach is that the user must trust the third party, and the rest of the network must value the integrity of the third party. While certainly not ideal from a pure decentralist, zero-trust point of view, this service may emerge as a popular choice if reputable players enter this market.</p>
+
+<h3 id="counting-the-cost">Counting the Cost</h3>
+
+<p>Irrespective of the approach used to make a reputation pledge, we can arrive at an estimate of the <em>total cost</em> of a Sybil attack for the overall reputation score of a Vendor or Moderator. This is calculated by:</p>
+
+<ol>
+  <li>Assuming all users that contributed to the reputation score are sockpuppets</li>
+  <li>Summing the reputation pledges of each identity.</li>
+</ol>
+
+<p>[caption id=”attachment_633” align=”aligncenter” width=”678”]<a href="Reputation-Pledge-Calc.png"><img src="Reputation-Pledge-Calc.png" alt="Assuming each identity is secretly created by Alice, it would have cost her $100 in reputation pledges." /></a> Assuming each identity is secretly created by Alice, it would have cost her $100 in reputation pledges.[/caption]</p>
+
+<p>The <em>Sybil cost</em> represents the maximum amount Alice would have paid to create a 100% fake reputation score; the <em>actual</em> cost may be lower if other users have legitimately rated her positively. Ancillary costs involved in a Sybil attack are not included in this estimate, only the <strong>reputation pledge</strong> values for each identity.</p>
+
+<p>Users can have some assurance when dealing with a counterparty that has a <em>Sybil cost</em> larger than the value to be traded. For example, if Fred wanted to sell a music track to Alice for $3, it is economically irrational for Alice to spend $100 to defraud Bob out of a $3 item. If the value of the item was $1000, then Bob would need to carefully consider his counterparty risk if Alice’s _Sybil cost _is only $100.</p>
+
+<p>While seemingly complex, this economic reputation calculation exists in TaoBao, where Vendors put up security deposits in exchange for a badge to solicit trust from potential Buyers. The larger the security deposit, the more likely Buyers will feel safer transacting with the Vendor.</p>
+
+<h2 id="transaction-summaries">Transaction Summaries</h2>
+
+<p>The aggregate history of <em>transaction summaries</em> of a user is the data-set to calculate the <strong>reputation score</strong>. However, <em>transaction summaries</em> can be excluded from the calculation based on certain criteria. The purpose of this is to enhance the value of a reputation score to more accurately predict the integrity of a user in future trades.</p>
+
+<h3 id="the-3-seashells">The 3 Seashells</h3>
+
+<p>One approach is to break up the reputation score, of the Vendor or Moderator, into 3 classes or the ‘3 seashells’.</p>
+
+<p>[caption id=”attachment_634” align=”aligncenter” width=”648”]<a href="https://blog.openbazaar.org/wp-content/uploads/2015/10/3-Seashells.jpg"><img src="3-Seashells.jpg" alt="The 3 Seashells… yes I’m a fan of Demolition Man" /></a> The 3 Seashells… yes I’m a fan of Demolition Man[/caption]</p>
+
+<h4 id="seashell-1-all-red-low-reliability"><strong>Seashell 1: All (red; low reliability)</strong></h4>
+
+<p>The reputation score is calculated from <strong>all <em>transaction summaries</em></strong> that can be found on the network for a Vendor or Moderator. The GUID of the Buyer does not need to be disclosed. Equal weight is assigned to all <em>transaction summaries</em> on the assumption they are all from authentic trades_._</p>
+
+<p>[caption id=”attachment_635” align=”aligncenter” width=”648”]<a href="https://blog.openbazaar.org/wp-content/uploads/2015/10/Red-Seashell.png"><img src="Red-Seashell.png" alt="All transaction summaries are counted, even if the Buyer’s GUID isn’t not disclosed." /></a> All transaction summaries are counted, even if the Buyer’s GUID isn’t not disclosed.[/caption]</p>
+
+<p>If Buyer’s GUID is undisclosed, they are represented by the Bitcoin address (and signature) from the payout transaction from multisignature escrow address or input address in a direct transaction.</p>
+
+<h4 id="seashell-2-public-yellow-some-reliability"><strong>Seashell 2: Public (yellow: some reliability)</strong></h4>
+
+<p>The reputation score is calculated from <em>transaction summaries</em> where the <strong>GUID of the Buyer is disclosed</strong>. Any <em>transaction summaries</em> where the Buyer is <strong>only</strong> represented by a Bitcoin address (i.e. an anonymous transaction) are discarded.</p>
+
+<p>[caption id=”attachment_636” align=”aligncenter” width=”648”]<a href="https://blog.openbazaar.org/wp-content/uploads/2015/10/Yellow-Seashell.png"><img src="Yellow-Seashell.png" alt="Transaction summaries without the Buyer GUID disclosed are discarded." /></a> Transaction summaries without the Buyer GUID disclosed are discarded.[/caption]</p>
+
+<p>The assumption here is that the requirement of the Buyer’s GUID subjects the rating to:</p>
+
+<ol>
+  <li>A minimum proof-of-work to create an OpenBazaar identity</li>
+  <li>Transparency on the network</li>
+  <li>An association of a GUID with a bitcoin transaction; coin analysis can be performed</li>
+</ol>
+
+<h4 id="seashell-3-web-of-trust-green-excellent-reliability"><strong>Seashell 3: Web-of-Trust (green: excellent reliability)</strong></h4>
+
+<p>The reputation score is calculated from <em>transaction summaries</em> where the<strong>Buyer’s GUID is within the user’s web-of-trust</strong> <strong>graph</strong> (WoT).</p>
+
+<p>[caption id=”attachment_637” align=”aligncenter” width=”648”]<a href="https://blog.openbazaar.org/wp-content/uploads/2015/10/Green-Seashell.png"><img src="Green-Seashell.png" alt="If Alice is the target and Ed is the observer, only the transaction summaries in Ed’s web-of-trust are accepted when calculating Alice’s reputation score." /></a> If Alice is the target and Ed is the observer, only the transaction summaries in Ed’s web-of-trust are accepted when calculating Alice’s reputation score.[/caption]</p>
+
+<p>The assumption here is that you are more likely to believe ratings made by people you trust compared to pseudonymous or random identities on the network.</p>
+
+<h3 id="web-of-trust">Web-of-Trust</h3>
+
+<p>There are several WoT architectures to choose from. In OpenBazaar, the WoT can be as simple as a graph of nodes that the user follows. Alternatively, there are more complex proposals that we will briefly touch on below.</p>
+
+<h4 id="web-of-trust-1-zindros"><strong><em>Web-of-trust #1:</em></strong> <em>Zindros</em></h4>
+
+<p>[caption id=”attachment_638” align=”aligncenter” width=”648”]<a href="https://blog.openbazaar.org/wp-content/uploads/2015/10/Dio-WoT.jpg"><img src="Dio-WoT.jpg" alt="Zindros web-of-trust" /></a> Zindros web-of-trust[/caption]</p>
+
+<p>This approach was named after OpenBazaar core contributor <a href="https://twitter.com/dionyziz">Dionysis Zindros</a>, who wrote up a comprehensive specification <a href="https://gist.github.com/dionyziz/e3b296861175e0ebea4b">outlined here</a>.</p>
+
+<p>The <em>Zindros</em> WoT uses proof-of-burn to introduce a cost to create an identity. Only partial knowledge of the whole web-of-trust graph is known by any one user.</p>
+
+<p>To calculate the reputation score of a target node Bob (in context of transaction summaries used in OpenBazaar), Alice queries her friends (i.e. nodes within her WoT) to return:</p>
+
+<ol>
+  <li><em>Transaction summaries</em> of Bob</li>
+  <li><em>Transaction summaries</em> of Bob that their friends and friends-of-friends (up to <em>n</em> degrees of freedom) may have</li>
+</ol>
+
+<p>The overall <strong>reputation score</strong> would be calculated based transaction ratings <em>weighted</em> based on the proximity of the target (Bob) to Alice’s friends in her WoT.</p>
+
+<h4 id="web-of-trust-2-line-of-credit"><strong><em>Web-of-trust #2:</em></strong> <em>Line of Credit</em></h4>
+
+<p>This designs differs from traditional web-of-trust designs in that is uses a Bitcoin <em>line of credit</em> as the trust edges (i.e. the connections between nodes) rather than <em>esoteric</em> ratings, vouches, or points. If a user on the network has large and multiple lines of credit from other nodes, then this would be a quantifiable <em>financial</em> indicator of trust.</p>
+
+<p>The line-of-credit (LoC) may either be a 1-of-2 (high liquidity, high trust) <strong>or </strong>2-of-2 (low liquidity, low trust) escrow address where funds are deposited between two nodes. If Alice is added to Bob’s WoT, Bob would deposit bitcoin in a 1-of-2 escrow address that Alice can draw from at any time for any purpose.</p>
+
+<p>[caption id=”attachment_639” align=”aligncenter” width=”777”]<a href="LoC-WoT.png"><img src="LoC-WoT.png" alt="Trust is measured by the total amount of credit a user can draw from other users on the network." /></a> Trust is measured by the total amount of credit a user can draw from other users on the network.[/caption]</p>
+
+<p>The OpenBazaar application would keep track of funds borrowed, interest levels, repayment schedules etc, which would contribute to more public metadata to assess the <em>trustworthiness</em> of a user_._ Users are incentivized to open a <em>line of credit</em> to a reputable Vendor, who is likely to earn them interest.</p>
+
+<p>One advantage of this approach is that it simultaneously requires a cost for each identity to establish trust, creating a financial disincentive for _Sybil _attacks.</p>
+
+<p>Some variations of this idea may be extended to bi-directional micropayment channels to be used in the <a href="https://lightning.network/">lightning network</a>.</p>
+
+<h3 id="filters">Filters</h3>
+
+<p>In addition to the three major classes above, <em>transaction summaries</em> can be filtered according various parameters to calculate the reputation score.</p>
+
+<h4 id="blockchain-id"><strong>Blockchain ID</strong></h4>
+
+<p>Only <em>transaction summaries</em> with a disclosed GUID <strong>and</strong> a Blockchain ID are included in the reputation score calculation. Furthermore, transaction ratings may be weighted based on the number of external verified accounts associated with a Blockchain ID (i.e. Facebook, Twitter, PGP etc). This approach would attempt to favor transaction ratings from verifiable real world identities rather than anonymous or purely pseudonymous users.</p>
+
+<h4 id="coin-analysis"><strong>Coin Analysis</strong></h4>
+
+<p>Each <em>transaction summary</em> is tied to bitcoin transaction where funds are released to the Vendor as a result of a successful OpenBazaar trade. This transaction can be analysed in conjunction with other transactions associated with the user to assess the likelihood the same coins were used for both transactions.</p>
+
+<p>If the same coins were used, then there is a high chance that the user is attempting to fake a rating, and the associated <em>transaction summary</em> with the rating data can be discarded from calculating the reputation score (in addition to any punitive measures).</p>
+
+<p>This filter may become less effective as tools such as JoinMarket and confidential transactions are deployed.</p>
+
+<h2 id="reputation-score-algorithm">Reputation Score Algorithm</h2>
+
+<p>Irrespective of what pool of <em>transaction summaries</em> will be sampled for ratings, users or items will need to be sorted from <em>most reputable</em> to <em>least reputable</em>. The reputation score can be a contentious issue, but there are several factors to consider when selecting a reputation score algorithm. These factors are reviewed in this <a href="http://www.evanmiller.org/how-not-to-sort-by-average-rating.html">excellent article</a>, and a slightly easier to understand version <a href="http://alecb.me/blog/how-to-sort-ratings/">here</a>.</p>
+
+<p>In short, OpenBazaar will use the <strong>lower bound of the Wilson score</strong> confidence interval, for a Bernoulli parameter, calculate the <em>reputation score</em> of a user. Incidentally, Reddit also <a href="http://amix.dk/blog/post/19588">uses this approach</a> to rank stories.</p>
+
+<p>Third party services can collect <em>transaction summaries</em>, filter, and experiment with alternative algorithms to calculate the <strong>reputation score</strong> of a user.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p><em>Transaction summaries</em> are units of reputation data in OpenBazaar. This data can be parsed in a variety of ways to either enhance the reputation score or form an alternative reputation score that is more relevant to a subset of users. Thus, OpenBazaar is a platform for developing decentralized reputation systems as well as for marketplaces.</p>
+
+<p>While most of these ideas will not be implemented in time for our upcoming release, they may serve as a foundation/inspiration for new contributors and/or third party developers to build on the reputation platform.</p>
+
+<h2 id="acknowledgements">Acknowledgements</h2>
+
+<ul>
+  <li><a href="https://twitter.com/dionyziz">Dionysis Zindros</a></li>
+  <li><a href="https://twitter.com/onewayfunction">Austin Williams</a></li>
+  <li><a href="https://twitter.com/ChrisPacia">Chris Pacia</a></li>
+  <li><a href="https://www.linkedin.com/pub/david-strayhorn/2/7a9/52">Dr David Strayhorn</a></li>
+  <li><a href="https://twitter.com/iang_fc">Ian Grigg</a></li>
+  <li><a href="https://twitter.com/ChristopherA">Chrisopher Allen</a></li>
+  <li><a href="https://twitter.com/drBuluM">Dr Bulukani Mlalazi</a></li>
+</ul>
+
+
+                </div>
+            
+        </div>
+    </div>
+</section>
+        </div>
+    </div>
+</article>
+<div class="container-fluid mb-5">
+    <div class="row">
+        <div class="col-12 pb-4">
+            <hr class="help-us-separator">
+            <div class="container limited">
+                <p>
+                    <strong>Do you want to help build this with us?</strong>
+                </p>
+                <p>
+                    <a href="/openbazaar/download/" class="general-link">Download OpenBazaar</a> right now to get buying or selling in minutes or join us on
+                    <a class="general-link" href="https://github.com/openbazaar">Github</a> to contribute to the development of this open-source project!
+                </p>
+                <p>
+                    <!-- AddToAny BEGIN -->
+                    <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                        <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+                        <a class="a2a_button_tumblr"></a>
+                        <a class="a2a_button_facebook"></a>
+                        <a class="a2a_button_twitter"></a>
+                    </div>
+                    <script async src="https://static.addtoany.com/menu/page.js"></script>
+                    <!-- AddToAny END -->
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row recent-updates-wrapper border-bottom border-top">
+    <div class="col-12">
+        <section class="container">
+            <div class="row">
+                <div class="col-12 mb-4 emphasis-text">
+                    <h3 class="recent-updates-heading">Recent updates</h3>
+                </div>
+                <div class="col-12">
+                    <div class="card-deck text-center">
+                        
+                            <div class="card p-3 mb-4">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <a href="/openbazaar/blog/this-is-a-title">
+                                        <h5 class="recent-updates-title">This is a title</h5>
+                                    </a>
+                                    <div class="recent-updates-body mt-2">
+                                        <h2 id="this-is-the-title">This is the title</h2>
+
+
+                                    </div>
+
+                                    <a href="/openbazaar/blog/this-is-a-title" class="button small mt-4 mx-auto">read more</a>
+                                </div>
+                            </div>
+                        
+                            <div class="card p-3 mb-4">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <a href="/openbazaar/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network">
+                                        <h5 class="recent-updates-title">Valuing Privacy & still Getting Data from a Decentralized Network</h5>
+                                    </a>
+                                    <div class="recent-updates-body mt-2">
+                                        <p>Facebook knows exactly how many users are on their platform. Amazon knows exactly how many products are sold. Instagram knows exactly how many photos are shared.</p>
+
+
+                                    </div>
+
+                                    <a href="/openbazaar/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network" class="button small mt-4 mx-auto">read more</a>
+                                </div>
+                            </div>
+                        
+                            <div class="card p-3 mb-4">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <a href="/openbazaar/blog/what-do-moderators-&-moderated-payments-do-on-openbazaar">
+                                        <h5 class="recent-updates-title">What Do Moderators & Moderated Payments Do on OpenBazaar?</h5>
+                                    </a>
+                                    <div class="recent-updates-body mt-2">
+                                        <p>Decentralizing ecommerce is an important part of the future we believe in. We are working to build a world with greater access to global commerce and more opportunities for people everywhere to build the lives they want. We believe this...
+                                    </div>
+
+                                    <a href="/openbazaar/blog/what-do-moderators-&-moderated-payments-do-on-openbazaar" class="button small mt-4 mx-auto">read more</a>
+                                </div>
+                            </div>
+                        
+                            <div class="card p-3 mb-4">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <a href="/openbazaar/blog/cryptocurrency-trading-now-available-on-openbazaar">
+                                        <h5 class="recent-updates-title">Cryptocurrency Trading Now Available on OpenBazaar</h5>
+                                    </a>
+                                    <div class="recent-updates-body mt-2">
+                                        <p>OpenBazaar <strong>version 2.2.0</strong> was released today. For the full list of new features and improvements in this release, check out the release notes at the end of the post.</p>
+
+
+                                    </div>
+
+                                    <a href="/openbazaar/blog/cryptocurrency-trading-now-available-on-openbazaar" class="button small mt-4 mx-auto">read more</a>
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+</div>
+      </div>
+    </main><div class="container">
+    <footer class="row pb-4">
+        <div class="col-12 col-md-8">
+            <nav class="navbar navbar-expand-sm navbar-light">
+                <div class="collapse show navbar-collapse text-center text-sm-left" id="navbar-bottom">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link " href="/openbazaar/about/">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/openbazaar/events/">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/openbazaar/newsletter/">Newsletter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/openbazaar/contributors/">Contributors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/openbazaar/bitcoin/">Need Bitcoin?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/openbazaar/donate/">Donate</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/openbazaar/privacy/">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="col-12 col-md-4 d-flex flex-row justify-content-md-end justify-content-center">
+            <a href="https://twitter.com/openbazaar">
+                <i class="social-icon ml-2 fab fa-twitter d-flex align-items-center"></i>
+            </a>
+            <a href="/openbazaar/slack">
+                <i class="social-icon ml-2 fab fa-slack-hash d-flex align-items-center"></i>
+            </a>
+            <a href="https://www.reddit.com/r/OpenBazaar/">
+                <i class="social-icon ml-2 fab fa-reddit-alien d-flex align-items-center"></i>
+            </a>
+            <a href="https://github.com/openbazaar">
+                <i class="social-icon ml-2 fab fa-github d-flex align-items-center"></i>
+            </a>
+            <a href="mailto:project@openbazaar.org" target="_top">
+                <i class="social-icon ml-2 fas fa-envelope d-flex align-items-center"></i>
+            </a>
+        </div>
+    </footer>
+</div><script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="/openbazaar/assets/app-9011f493fc09e558e0b2bb00d1785f4117a54fcaae843db425deeb4a18cbb515.js" type="text/javascript"></script>
+  </body>
+
+</html>
