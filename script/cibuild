@@ -14,8 +14,7 @@ rm -rf _site
 mkdir _site
 
 # clone remote repo to "_site"
-echo ${GITHUB_TOKEN}
-git clone https://${GITHUB_TOKEN}@github.com/trufavarela/openbazaar.git --branch gh-pages _site
+git clone https://${GITHUB_TOKEN}@github.com/OpenBazaar/official_site.git --branch gh-pages _site
 
 # build with Jekyll into "_site"
 bundle exec jekyll build
