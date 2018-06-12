@@ -21,4 +21,3 @@ At the root of the project run:
 ### Markdown tips
 
 Quick reference guide [here](https://gist.github.com/roachhd/779fa77e9b90fe945b0c)
-
