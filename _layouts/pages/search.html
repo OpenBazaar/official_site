@@ -21,7 +21,7 @@ layout: default
         {% for post in site.pages %} 
             {% if post.layout contains 'pages/' %} 
                 "{{ post.url | slugify }}": { 
-                    "title": "{{ post.title | strip_html }}", 
+                    "title": {{ post.title | strip_html | jsonify }}, 
                     "content": {{ post.content | strip_html | strip_newlines | jsonify }}, 
                     "url": "{{ post.url | xml_escape }}" 
                 }, 
@@ -29,7 +29,7 @@ layout: default
       {% endfor %} 
       {% for post in site.posts %} 
             "{{ post.url | slugify }}": { 
-                "title": "{{ post.title | strip_html}}", 
+                "title": {{ post.title | strip_html | jsonify}}, 
                 "content": {{ post.content | strip_html | strip_newlines | jsonify }}, 
                 "url": "{{ post.url | xml_escape }}" 
             } 
