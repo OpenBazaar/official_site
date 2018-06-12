@@ -17,7 +17,7 @@ Many new features and changes were made for upcoming 1.1.8 release. **Significa
 6.  Addresses are now more flexible. The street, state/territory/region and postal code fields are all optional, and a contact field has been added, where buyers can add information like an email address or phone number.
 7.   Changed stores to list the most recently saved listings first, after pinned listings \[frequently requested by vendors\].
 
-\[caption id="attachment_1111" align="aligncenter" width="648"\][![New listing features shown in red](NewfeaturesOB.png)](https://blog.openbazaar.org/wp-content/uploads/2016/09/NewfeaturesOB.png) New listing features shown in red\[/caption\] **Minor changes**:
+\[caption id="attachment_1111" align="aligncenter" width="648"\][![New listing features shown in red](NewfeaturesOB.png)](NewfeaturesOB.png) New listing features shown in red\[/caption\] **Minor changes**:
 
 1.  Uploaded photos for listings will now auto-rotate based on their EXIF data. Photos that are sideways due to being taken on a mobile device will not have the correct orientation.
 2.  A bug was fixed with the review stars that caused fraction in the reviews to add an extra star.

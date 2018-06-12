@@ -4,7 +4,7 @@ layout: post
 date: '2016-11-23 00:30:00 -0300'
 ---
         
-[![Bitcoin Black Friday Deals on OpenBazaar](Bitcoin-Black-Friday-Deals1.png)](https://blog.openbazaar.org/wp-content/uploads/2016/11/Bitcoin-Black-Friday-Deals1.png) [Bitcoin Black Friday](http://bitcoinblackfriday.com) is almost here again which is great, right? It's an excellent opportunity for vendors and buyers to promote the regular use of Bitcoin while kicking off the holiday shopping frenzy in the U.S. Unfortunately though there is not much information available telling us specifically _what kinds_ of deals and offers to expect so we can plan ahead.
+[![Bitcoin Black Friday Deals on OpenBazaar](Bitcoin-Black-Friday-Deals1.png)](Bitcoin-Black-Friday-Deals1.png) [Bitcoin Black Friday](http://bitcoinblackfriday.com) is almost here again which is great, right? It's an excellent opportunity for vendors and buyers to promote the regular use of Bitcoin while kicking off the holiday shopping frenzy in the U.S. Unfortunately though there is not much information available telling us specifically _what kinds_ of deals and offers to expect so we can plan ahead.
 
 > Hey, getting the most out of Black Friday is difficult, and moreso when planning where to spend your precious cryptocurrencies!
 

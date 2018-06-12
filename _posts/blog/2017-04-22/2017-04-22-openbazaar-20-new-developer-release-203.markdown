@@ -20,7 +20,7 @@ Yesterday we released a new developer release – **[version 2.0.3](https://gith
 *   The listing format was updated to return an object instead of an array.
 *   Endpoints were added to get the avatar and header of a user via their peerID.
 
-[![Wallet in Version 2.0.3 of OpenBazaar](Wallet-in-Version-2.0.3.png)](https://blog.openbazaar.org/wp-content/uploads/2017/04/Wallet-in-Version-2.0.3.png)
+[![Wallet in Version 2.0.3 of OpenBazaar](Wallet-in-Version-2.0.3.png)](Wallet-in-Version-2.0.3.png)
 
 **Front End:**
 

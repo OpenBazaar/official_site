@@ -4,7 +4,7 @@ layout: post
 date: '2015-01-08 00:30:00 -0300'
 ---
         
-The OpenBazaar team is going to [**FOSDEM 2015**](5606606522_f2b12f52bf_z.jpg) in **Brussels, Belgium** on **January 31st** and **February 1st**. [![5606606522_f2b12f52bf_z](https://blog.openbazaar.org/wp-content/uploads/2015/01/5606606522_f2b12f52bf_z.jpg)](https://blog.openbazaar.org/wp-content/uploads/2015/01/5606606522_f2b12f52bf_z.jpg) Several core members of the team and contributors are going to be there. We're joining forces from all over the world:
+The OpenBazaar team is going to [**FOSDEM 2015**](5606606522_f2b12f52bf_z.jpg) in **Brussels, Belgium** on **January 31st** and **February 1st**. [![5606606522_f2b12f52bf_z](5606606522_f2b12f52bf_z.jpg)](5606606522_f2b12f52bf_z.jpg) Several core members of the team and contributors are going to be there. We're joining forces from all over the world:
 
 *   Project leader [Brian Hoffman](https://github.com/hoffmabc) from Washington DC
 *   Operations leader [Sam Patterson](https://onename.io/sampatt) from Virginia

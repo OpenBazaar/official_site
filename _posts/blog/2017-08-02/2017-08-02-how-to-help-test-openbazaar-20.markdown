@@ -101,7 +101,7 @@ There are multiple ways to report your feedback to the OpenBazaar development te
 
 During testing, the OpenBazaar client includes a built-in tool for giving feedback. Click the “Feedback” button on the bottom right of the client, and you’ll see a form appear:
 
-![](OpenBazaar-2.0-Testing-Feedback-Form.png) ![](https://www.openbazaar.org/wp-content/uploads/2017/08/OpenBazaar-2.0-Testing-Feedback-Form.png)
+![](OpenBazaar-2.0-Testing-Feedback-Form.png) ![](OpenBazaar-2.0-Testing-Feedback-Form.png)
 
 This is the preferred reporting method when you’ve found bugs or something not working correctly during testing. _Please include your operating system, a description of what happened, and what you were doing when it happened_.
 

@@ -22,7 +22,7 @@ Current version
 
 *   Code was added to solve an issue with a port that could be blocked in some edge cases.
 
-[![Buy now screen in OpenBazaar 2.0](Screen-Shot-2016-10-28-at-1.21.54-PM.png)](https://blog.openbazaar.org/wp-content/uploads/2016/10/Screen-Shot-2016-10-28-at-1.21.54-PM.png)
+[![Buy now screen in OpenBazaar 2.0](Screen-Shot-2016-10-28-at-1.21.54-PM.png)](Screen-Shot-2016-10-28-at-1.21.54-PM.png)
 
 2.0
 ---
@@ -35,7 +35,7 @@ Current version
 *   Progress continues on listing editing
 *   Progress continues on avatar and header image uploading in Settings
 
-[![Screenshot of OpenBazaar 2.0 Checkout Process ](Screen-Shot-2016-10-28-at-1.24.33-PM.png)](https://blog.openbazaar.org/wp-content/uploads/2016/10/Screen-Shot-2016-10-28-at-1.24.33-PM.png) **Back End**
+[![Screenshot of OpenBazaar 2.0 Checkout Process ](Screen-Shot-2016-10-28-at-1.24.33-PM.png)](Screen-Shot-2016-10-28-at-1.24.33-PM.png) **Back End**
 
 *   Continuing to make progress on crawler development
 *   Continuing to make progress on the v2 store page--preliminary version of it is in peer review

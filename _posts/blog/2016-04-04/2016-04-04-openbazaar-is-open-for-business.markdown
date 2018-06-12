@@ -6,7 +6,7 @@ date: '2016-04-04 00:30:00 -0300'
         
 OpenBazaar is now released on the mainnet and is ready for real transactions. You can download the program on the [OpenBazaar website](https://openbazaar.org/download.html). You can read our [user tutorial](https://blog.openbazaar.org/openbazaar-user-tutorial/) explaining how to use OpenBazaar for the first time. If you need help, [join our Slack](http://slack.openbazaar.org/) or visit our [help center](https://openbazaar.zendesk.com/hc/en-us). If you're not familiar with OpenBazaar, it's a decentralized peer-to-peer network for trade that uses Bitcoin. That trade happens directly between buyers and sellers with no one in the middle - and no fees or restrictions on trade. You can read more about it at [this post](https://blog.openbazaar.org/what-is-openbazaar/). Below is a press release with more details on the release.
 
-[![OpenBazaar store](Screenshot-from-2016-04-04-13-14-36.png)](https://blog.openbazaar.org/wp-content/uploads/2016/04/Screenshot-from-2016-04-04-13-14-36.png)
+[![OpenBazaar store](Screenshot-from-2016-04-04-13-14-36.png)](Screenshot-from-2016-04-04-13-14-36.png)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Press release

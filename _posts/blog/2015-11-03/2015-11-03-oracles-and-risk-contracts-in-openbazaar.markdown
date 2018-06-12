@@ -4,7 +4,7 @@ layout: post
 date: '2015-11-03 00:30:00 -0300'
 ---
         
-[![1-oWCGi1RYfyMAbKpobLkolA](1-oWCGi1RYfyMAbKpobLkolA.png)](https://blog.openbazaar.org/wp-content/uploads/2015/10/1-oWCGi1RYfyMAbKpobLkolA.png)
+[![1-oWCGi1RYfyMAbKpobLkolA](1-oWCGi1RYfyMAbKpobLkolA.png)](1-oWCGi1RYfyMAbKpobLkolA.png)
 
 OpenBazaar is, among other things, a contracting platform that enables two or more parties to trade any _thing._ But if there is a common theme to the last few articles we have published, it is that the applications don’t stop at traditional e-commerce.
 

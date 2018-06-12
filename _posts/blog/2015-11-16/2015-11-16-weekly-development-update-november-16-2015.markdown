@@ -12,7 +12,7 @@ Notifications fixes for UI integration. Chat/messaging work underway.
 
 #### Front end
 
-Notifications integrated into UI (note top right of image). [![OBnotifications](OBnotifications.png)](https://blog.openbazaar.org/wp-content/uploads/2015/11/OBnotifications.png) Made improvements to error messaging and translations added to errors. Multiple shipping addresses added to the admin panel. Bitcoin prices down to 0.0001 allowed on items. Progress on the buying system. Initial integration of the settings page. Added pre-set templates to onboarding. Created the [Chat UI documentation](https://redpen.io/czc811ce55b4ea9bab). Improved the application loading experience (video below). Fixed issues with custom text colors not rendering throughout the application. Added filters to the discover experience (show listings only from stores I follow, show listings from the entire network, etc). Many bugs fixed. 
+Notifications integrated into UI (note top right of image). [![OBnotifications](OBnotifications.png)](OBnotifications.png) Made improvements to error messaging and translations added to errors. Multiple shipping addresses added to the admin panel. Bitcoin prices down to 0.0001 allowed on items. Progress on the buying system. Initial integration of the settings page. Added pre-set templates to onboarding. Created the [Chat UI documentation](https://redpen.io/czc811ce55b4ea9bab). Improved the application loading experience (video below). Fixed issues with custom text colors not rendering throughout the application. Added filters to the discover experience (show listings only from stores I follow, show listings from the entire network, etc). Many bugs fixed. 
 
 #### Other
 

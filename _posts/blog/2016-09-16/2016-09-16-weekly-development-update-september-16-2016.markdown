@@ -13,7 +13,7 @@ Current version update: made address fields flexible, added a contact field to 
 
 ### Designs
 
-Designed the [listing detail](Screenshot-from-2016-09-16-16-36-13.png) screen to open in an overlay instead of a new page. This will provide a better experience for the user and ensure they do not lose their spot within a store or channel grid view of listings. Also worked in listing variant options and touched up the checkout modal to work well with these new changes. [![Listing modal design](https://blog.openbazaar.org/wp-content/uploads/2016/09/Screenshot-from-2016-09-16-16-36-13-950x1024.png)](https://blog.openbazaar.org/wp-content/uploads/2016/09/Screenshot-from-2016-09-16-16-36-13.png)    
+Designed the [listing detail](Screenshot-from-2016-09-16-16-36-13.png) screen to open in an overlay instead of a new page. This will provide a better experience for the user and ensure they do not lose their spot within a store or channel grid view of listings. Also worked in listing variant options and touched up the checkout modal to work well with these new changes. [![Listing modal design](Screenshot-from-2016-09-16-16-36-13.png)](Screenshot-from-2016-09-16-16-36-13.png)    
 
 Back End
 --------

@@ -13,7 +13,7 @@ Basic listing creation and editing are now added. Continued work on the followin
 
 ### Design
 
-Continued work on the [transaction dashboard](checkout.png) and [checkout process](https://invis.io/PE8F38SAU#/184735730_Openbazaar-2-0-Page-Listing-Detail). [![Checkout design](https://blog.openbazaar.org/wp-content/uploads/2016/09/checkout.png)](https://blog.openbazaar.org/wp-content/uploads/2016/09/checkout.png)
+Continued work on the [transaction dashboard](checkout.png) and [checkout process](checkout.png). [![Checkout design](checkout.png)](checkout.png)
 
 Back End
 --------

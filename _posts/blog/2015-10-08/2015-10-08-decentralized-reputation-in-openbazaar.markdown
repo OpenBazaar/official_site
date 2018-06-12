@@ -385,11 +385,11 @@ Reputation Score
 
 The reputation score of a Vendor is the average **feedback rating** from all of their transactions. A user can expand the reputation score to see a Vendor’s average ratings for item quality, listing description, delivery time, and customer service.
 
-[![Vendor Reputation Score](Vendor-Reputation-Score.png)](https://blog.openbazaar.org/wp-content/uploads/2015/10/Vendor-Reputation-Score.png)
+[![Vendor Reputation Score](Vendor-Reputation-Score.png)](Vendor-Reputation-Score.png)
 
 The reputation scores of a Moderator are the average **feedback ratings** from the winning and losing sides of disputed transactions. As with the Vendors, the average ratings for each criteria can be expanded from both sides.
 
-[![Moderation Reputation Score](Moderation-Reputation-Score.png)](https://blog.openbazaar.org/wp-content/uploads/2015/10/Moderation-Reputation-Score.png)
+[![Moderation Reputation Score](Moderation-Reputation-Score.png)](Moderation-Reputation-Score.png)
 
 Challenges
 ==========

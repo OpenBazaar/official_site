@@ -9,7 +9,7 @@ OpenBazaar version 1.1.7 has been released. Installers can be downloaded [here](
 Changes
 -------
 
-Transactions that have updates to their status that need attention now have an indicator bar and are moved to the top of the transactions list. This allows users to quickly see which transactions need attention. [![unreadtransactions](unreadtransactions.png)](https://blog.openbazaar.org/wp-content/uploads/2016/06/unreadtransactions.png)  
+Transactions that have updates to their status that need attention now have an indicator bar and are moved to the top of the transactions list. This allows users to quickly see which transactions need attention. [![unreadtransactions](unreadtransactions.png)](unreadtransactions.png)  
 
 ### Image fixes
 

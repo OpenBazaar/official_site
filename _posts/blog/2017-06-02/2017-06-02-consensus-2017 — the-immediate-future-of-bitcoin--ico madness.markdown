@@ -22,11 +22,11 @@ We have our own thoughts about this and were also excited to soft launch a new c
 
 To conclude, we also wanted to share few other exciting thing that were shared by some of our excellent partners at the event!
 
-[![Shapeshift](Shapeshift.jpg)](https://blog.openbazaar.org/wp-content/uploads/2017/06/Shapeshift.jpg)
+[![Shapeshift](Shapeshift.jpg)](Shapeshift.jpg)
 
 [Prism](https://prism.exchange/) is a new service from [Shapeshift](https://shapeshift.io) that uses [Ethereum](https://www.ethereum.org/) to allow users to invest in a basket of cryptocurrencies of their choosing. In their words, “Prism is a platform upon which humans and machines can acquire exposure to portfolios of digital assets without trusting a counterparty.” We think non-custodian exchanges like this is a big step in the right direction to protect users and provide more privacy and security to traders. More details [here](https://news.bitcoin.com/shapeshift-launches-prism-portfolio-platform/)
 
-[![Protocol Labs](Protocol-Labs.jpg)](https://blog.openbazaar.org/wp-content/uploads/2017/06/Protocol-Labs.jpg)
+[![Protocol Labs](Protocol-Labs.jpg)](Protocol-Labs.jpg)
 
 [Protocol Labs](https://protocol.ai/), the company behind [IPFS](https://ipfs.io), teamed up with AngelList to create a new platform for token sales, called [CoinList](http://coinlist.co/). We’re interested to see more of their work here which is aiming to legitimize crowdfunding crypto projects through ICOs within the United States and providing opportunities for them to stay here instead of moving offshore. More details [here](https://www.forbes.com/sites/laurashin/2017/05/18/want-to-hold-an-ico-coinlist-makes-it-easy-and-legal/#7daa28f77ce5)
 

@@ -4,7 +4,7 @@ layout: post
 date: '2017-04-17 00:30:00 -0300'
 ---
         
-[![The Inclusive Future of Cryptocurrency, Bitcoin, Altcoin and other Payment Types in OpenBazaar](The-Inclusive-Future-of-Payment-Types-in-OpenBazaar.png)](https://blog.openbazaar.org/wp-content/uploads/2017/04/The-Inclusive-Future-of-Payment-Types-in-OpenBazaar.png)
+[![The Inclusive Future of Cryptocurrency, Bitcoin, Altcoin and other Payment Types in OpenBazaar](The-Inclusive-Future-of-Payment-Types-in-OpenBazaar.png)](The-Inclusive-Future-of-Payment-Types-in-OpenBazaar.png)
 
 > **OpenBazaar is committed to making global peer-to-peer decentralized ecommerce happen.**
 

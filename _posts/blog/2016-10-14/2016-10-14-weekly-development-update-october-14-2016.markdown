@@ -20,7 +20,7 @@ Current version
 2.0
 ---
 
-**Front End** [![OpenBazaar 2.0 Onboarding Screen](Screen-Shot-2016-10-14-at-10.01.02-AM.png)](https://blog.openbazaar.org/wp-content/uploads/2016/10/Screen-Shot-2016-10-14-at-10.01.02-AM.png)
+**Front End** [![OpenBazaar 2.0 Onboarding Screen](Screen-Shot-2016-10-14-at-10.01.02-AM.png)](Screen-Shot-2016-10-14-at-10.01.02-AM.png)
 
 *   Completed designs on the About OpenBazaar modal
 *   Started designing the Onboarding process

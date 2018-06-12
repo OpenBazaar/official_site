@@ -4,7 +4,7 @@ layout: post
 date: '2017-06-07 00:30:00 -0300'
 ---
         
-[![OpenBazaar's Bigger Picture in the Bitcoin Debates](OpenBazaars-Bigger-Picture-in-the-Bitcoin-Debates.png)](https://blog.openbazaar.org/wp-content/uploads/2017/06/OpenBazaars-Bigger-Picture-in-the-Bitcoin-Debates.png)
+[![OpenBazaar's Bigger Picture in the Bitcoin Debates](OpenBazaars-Bigger-Picture-in-the-Bitcoin-Debates.png)](OpenBazaars-Bigger-Picture-in-the-Bitcoin-Debates.png)
 
 You could get whiplash trying to track the what’s-what and the who’s-who of Bitcoin. Just as the value is regularly breaking records now the debates are hotter than ever over the future of this blockchain that spawned a thousand blockchains.
 

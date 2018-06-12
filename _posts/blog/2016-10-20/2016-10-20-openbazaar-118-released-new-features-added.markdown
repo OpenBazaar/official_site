@@ -19,7 +19,7 @@ Vendors can now create Hidden listings. When creating a listing, or edit an exis
 
 #### Maximum Quantity
 
-Vendors can now set a maximum quantity on their listings, which prevents a buyer from purchasing more than the number of items they specify in one order. This gives vendors a simple inventory management system. If the Max Quantity is set to zero, the item is still visible, but cannot be purchased. \[caption id="attachment_1111" align="aligncenter" width="648"\][![New listing features shown in red](NewfeaturesOB.png)](https://blog.openbazaar.org/wp-content/uploads/2016/09/NewfeaturesOB.png) New listing features shown in red\[/caption\]
+Vendors can now set a maximum quantity on their listings, which prevents a buyer from purchasing more than the number of items they specify in one order. This gives vendors a simple inventory management system. If the Max Quantity is set to zero, the item is still visible, but cannot be purchased. \[caption id="attachment_1111" align="aligncenter" width="648"\][![New listing features shown in red](NewfeaturesOB.png)](NewfeaturesOB.png) New listing features shown in red\[/caption\]
 
 Improvements
 ------------

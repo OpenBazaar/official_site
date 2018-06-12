@@ -8,7 +8,7 @@ Development of the OpenBazaar 2.0 software continues according to [our roadmap](
 
 Milestone 2 focuses on discoverability of listings / stores, as well as communication. Third party search is now accessible within the client. Chat is also fully functional. Channels were planned for Milestone 2, but have been moved to later in development. Full release notes below.
 
-[![Search in v2 client](Screenshot-from-2017-05-19-15-18-03.png)](https://blog.openbazaar.org/wp-content/uploads/2017/05/Screenshot-from-2017-05-19-15-18-03.png)
+[![Search in v2 client](Screenshot-from-2017-05-19-15-18-03.png)](Screenshot-from-2017-05-19-15-18-03.png)
 
 Release notes
 -------------

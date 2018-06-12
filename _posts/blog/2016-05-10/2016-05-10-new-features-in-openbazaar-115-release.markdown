@@ -9,7 +9,7 @@ OpenBazaar version 1.1.5 has just been released ([download here](https://openbaz
 Email notifications
 -------------------
 
-Users can now enter the details of an SMTP server in Settings > Advanced, and the server will connect to it to send email notifications about their OpenBazaar store. This feature is still early in development; users will need to have knowledge of their SMTP server to get this working, and the emails received are very simple. We will be making email notification easier to use in future releases, and the email notifications themselves will be more robust (we welcome help on improving this feature). [![OB Email](OBEmail.png)](https://blog.openbazaar.org/wp-content/uploads/2016/05/Screenshot-from-2016-05-10-15-19-36.png)   \[caption id="attachment_986" align="aligncenter" width="826"\][![Example email when an OB store receives an order](https://blog.openbazaar.org/wp-content/uploads/2016/05/OBEmail.png)](https://blog.openbazaar.org/wp-content/uploads/2016/05/OBEmail.png) Example email when an OB store receives an order\[/caption\]  
+Users can now enter the details of an SMTP server in Settings > Advanced, and the server will connect to it to send email notifications about their OpenBazaar store. This feature is still early in development; users will need to have knowledge of their SMTP server to get this working, and the emails received are very simple. We will be making email notification easier to use in future releases, and the email notifications themselves will be more robust (we welcome help on improving this feature). [![OB Email](OBEmail.png)](OBEmail.png)   \[caption id="attachment_986" align="aligncenter" width="826"\][![Example email when an OB store receives an order](OBEmail.png)](OBEmail.png) Example email when an OB store receives an order\[/caption\]  
 
 Server management
 -----------------
@@ -24,7 +24,7 @@ Stores with a large number of products or orders need the ability to take data f
 Listing information
 -------------------
 
-Listings now have more information about them available when viewing them in the Discover section. New listings created will now have a tag in the top right corner which shows the type of listing they are: Physical, Digital, or a Service. \[caption id="attachment_992" align="aligncenter" width="648"\][![Listings with the Physical item tag](noshipping.png)](https://blog.openbazaar.org/wp-content/uploads/2016/05/Listingtag.png) Listings with the Physical item tag\[/caption\] Users will also know now if the vendor isn't able to ship the item to their location with a new tag in the bottom right of the image. [![noshipping](https://blog.openbazaar.org/wp-content/uploads/2016/05/noshipping.png)](https://blog.openbazaar.org/wp-content/uploads/2016/05/noshipping.png)
+Listings now have more information about them available when viewing them in the Discover section. New listings created will now have a tag in the top right corner which shows the type of listing they are: Physical, Digital, or a Service. \[caption id="attachment_992" align="aligncenter" width="648"\][![Listings with the Physical item tag](noshipping.png)](noshipping.png) Listings with the Physical item tag\[/caption\] Users will also know now if the vendor isn't able to ship the item to their location with a new tag in the bottom right of the image. [![noshipping](noshipping.png)](noshipping.png)
 
 [Changelog](https://github.com/OpenBazaar/OpenBazaar-Installer/releases/tag/v1.1.5)
 -----------------------------------------------------------------------------------

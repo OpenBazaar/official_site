@@ -4,7 +4,7 @@ layout: post
 date: '2016-11-04 00:30:00 -0300'
 ---
         
-[![Marketing Your OpenBazaar Shop - Online Webinar](Screen-Shot-2016-11-05-at-10.40.33-AM.png)](https://blog.openbazaar.org/wp-content/uploads/2016/11/Screen-Shot-2016-11-05-at-10.40.33-AM.png)
+[![Marketing Your OpenBazaar Shop - Online Webinar](Screen-Shot-2016-11-05-at-10.40.33-AM.png)](Screen-Shot-2016-11-05-at-10.40.33-AM.png)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Special Event

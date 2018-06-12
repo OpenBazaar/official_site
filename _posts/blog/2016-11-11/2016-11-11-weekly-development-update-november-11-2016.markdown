@@ -4,7 +4,7 @@ layout: post
 date: '2016-11-11 00:30:00 -0300'
 ---
         
-[![Marketing Your OpenBazaar Shop - Online Webinar](Screen-Shot-2016-11-05-at-10.40.33-AM.png)](https://blog.openbazaar.org/wp-content/uploads/2016/11/Screen-Shot-2016-11-05-at-10.40.33-AM.png)
+[![Marketing Your OpenBazaar Shop - Online Webinar](Screen-Shot-2016-11-05-at-10.40.33-AM.png)](Screen-Shot-2016-11-05-at-10.40.33-AM.png)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Special Event
@@ -20,7 +20,7 @@ Current version
 2.0
 ---
 
-[![OpenBazaar 2.0 Transaction Screen](Screen-Shot-2016-11-11-at-1.20.45-PM.png)](https://blog.openbazaar.org/wp-content/uploads/2016/11/Screen-Shot-2016-11-11-at-1.20.45-PM.png) **Front End:**
+[![OpenBazaar 2.0 Transaction Screen](Screen-Shot-2016-11-11-at-1.20.45-PM.png)](Screen-Shot-2016-11-11-at-1.20.45-PM.png) **Front End:**
 
 *   Cleaned up the Transaction section
 *   Wired in the ability to delete a listing from both the Listing Card and the Listing Detail modal

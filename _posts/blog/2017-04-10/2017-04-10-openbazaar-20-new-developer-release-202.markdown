@@ -14,7 +14,7 @@ Yesterday we released a new developer release – [version 2.0.2](https://github
 
 Most of the recent work was dedicated to wallet stability.
 
-[![OpenBazaar 2.0.2 Developer Release Wallet Screengrab](OpenBazaar-2.0.2-Developer-Release-Wallet-Screengrab.png)](https://blog.openbazaar.org/wp-content/uploads/2017/04/OpenBazaar-2.0.2-Developer-Release-Wallet-Screengrab.png)
+[![OpenBazaar 2.0.2 Developer Release Wallet Screengrab](OpenBazaar-2.0.2-Developer-Release-Wallet-Screengrab.png)](OpenBazaar-2.0.2-Developer-Release-Wallet-Screengrab.png)
 
 **Front End:**
 

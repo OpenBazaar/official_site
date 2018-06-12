@@ -16,7 +16,7 @@ Front end
 *   The zoom and rotate buttons on the avatar in Settings/Page are disabled until one is loaded
 *   Multiple minor bugs were fixed
 
-[![Client commits](Screenshot-from-2016-10-07-14-08-17.png)](https://blog.openbazaar.org/wp-content/uploads/2016/10/Screenshot-from-2016-10-07-14-08-17.png)
+[![Client commits](Screenshot-from-2016-10-07-14-08-17.png)](Screenshot-from-2016-10-07-14-08-17.png)
 
 Back End
 --------

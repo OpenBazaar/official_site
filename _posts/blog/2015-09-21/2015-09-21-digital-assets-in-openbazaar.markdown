@@ -20,7 +20,7 @@ The applications of digital assets are limited by a combination of tools and cre
 2.  [CoinSpark ](http://coinspark.org/)
 3.  [Colored coins ](http://coloredcoins.org/)
 
-\[caption id="attachment_578" align="aligncenter" width="648"\][![DAP Transaction Share](DAP-Transaction-Share.jpg)](https://blog.openbazaar.org/wp-content/uploads/2015/09/DAP-Transaction-Share.jpg) Transaction share covers the past week\[/caption\] These protocols generally share the same approach: \[caption id="" align="aligncenter" width="646"\]![](https://i.imgur.com/sSDzI4m.jpg) Generalised Digital Asset Protocol\[/caption\] Bitcoin transactions make use of `OP_RETURN` to embed metadata to create or transfer digital assets to an output(s). These outputs can be audited for transactions on the blockchain to determine who the rightful owner of a digital asset is and how much of it they have.  
+\[caption id="attachment_578" align="aligncenter" width="648"\][![DAP Transaction Share](DAP-Transaction-Share.jpg)](DAP-Transaction-Share.jpg) Transaction share covers the past week\[/caption\] These protocols generally share the same approach: \[caption id="" align="aligncenter" width="646"\]![](https://i.imgur.com/sSDzI4m.jpg) Generalised Digital Asset Protocol\[/caption\] Bitcoin transactions make use of `OP_RETURN` to embed metadata to create or transfer digital assets to an output(s). These outputs can be audited for transactions on the blockchain to determine who the rightful owner of a digital asset is and how much of it they have.  
 
 ### The Bottleneck
 

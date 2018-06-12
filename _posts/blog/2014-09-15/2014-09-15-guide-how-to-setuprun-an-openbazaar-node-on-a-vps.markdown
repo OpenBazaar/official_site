@@ -8,13 +8,13 @@ _Note: This blog post is outdated. Read [this article](https://blog.openbazaar.o
 
 ### Configuring Your SSH Client
 
-For your desktop or laptop, I recommend using [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/ "Putty"). vSSH is the clear winner for [iPhone](Putty-02.png) or [Android](https://play.google.com/store/apps/details?id=com.velestar.vssh "vSSH"); please purchase the full featured app to support the devs for making an excellent application. The configuration is somewhat similar for PuTTY and vSSH. Firstly, add in the host IP address of your VPS (remember to save your configuration once your done to save time): [![Putty 01](https://blog.openbazaar.org/wp-content/uploads/2014/09/Putty-01-300x288.png)](https://blog.openbazaar.org/wp-content/uploads/2014/09/Putty-01.png) Depending on how you configured your VPS above, you may have a password or private key for authenticating your session. If you have a ppk (like me), select the file's location on laptop or mobile device (this may be more difficult with iOS as it lacks any sort of accessible file system, so you may be better off going with a password): [![Putty 02](https://blog.openbazaar.org/wp-content/uploads/2014/09/Putty-02-300x288.png)](https://blog.openbazaar.org/wp-content/uploads/2014/09/Putty-02.png) Setup your port forwarding so that port 8888 from your VPS is forwarded to your localhost port 8888.
+For your desktop or laptop, I recommend using [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/ "Putty"). vSSH is the clear winner for [iPhone](Putty-02.png) or [Android](Putty-02.png); please purchase the full featured app to support the devs for making an excellent application. The configuration is somewhat similar for PuTTY and vSSH. Firstly, add in the host IP address of your VPS (remember to save your configuration once your done to save time): [![Putty 01](Putty-02.png)](Putty-02.png) Depending on how you configured your VPS above, you may have a password or private key for authenticating your session. If you have a ppk (like me), select the file's location on laptop or mobile device (this may be more difficult with iOS as it lacks any sort of accessible file system, so you may be better off going with a password): [![Putty 02](Putty-02.png)](Putty-02.png) Setup your port forwarding so that port 8888 from your VPS is forwarded to your localhost port 8888.
 
 *   Your **source port** is '8888' and **source IP** is 127.0.0.1
 *   Your **destination port** is '8888' and **destination IP** is 127.0.0.1
 *   Type = Local
 
-[![Putty 03](Putty-04.png)](https://blog.openbazaar.org/wp-content/uploads/2014/09/Putty-03.png) In PuTTY, the end result should look like this: [![Putty 04](https://blog.openbazaar.org/wp-content/uploads/2014/09/Putty-04-300x288.png)](https://blog.openbazaar.org/wp-content/uploads/2014/09/Putty-04.png)
+[![Putty 03](Putty-04.png)](Putty-04.png) In PuTTY, the end result should look like this: [![Putty 04](Putty-04.png)](Putty-04.png)
 
 Running Your Node
 -----------------

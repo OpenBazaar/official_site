@@ -23,7 +23,7 @@ This guide is meant to get buyers set up and shopping for goods and services as 
 
 #### Step Two: Set Communication Information
 
-[![communicationOB](communicationOB.png)](https://blog.openbazaar.org/wp-content/uploads/2015/04/communicationOB.png)
+[![communicationOB](communicationOB.png)](communicationOB.png)
 
 1.  Click on the Communication section.
 2.  Enter an email address if you want to communicate with other parties via email.
@@ -33,7 +33,7 @@ This guide is meant to get buyers set up and shopping for goods and services as 
 
 #### Step Three: Create Backup
 
-[![backupOB](backupOB.png)](https://blog.openbazaar.org/wp-content/uploads/2015/04/backupOB.png)
+[![backupOB](backupOB.png)](backupOB.png)
 
 1.  Click on the Backup section.
 2.  Click Create New Backup.
@@ -44,11 +44,11 @@ This guide is meant to get buyers set up and shopping for goods and services as 
 
 #### Step Five: Find & Purchase Goods or Services
 
-[![PipeExampleOB](orderdetailsOB.png)](https://blog.openbazaar.org/wp-content/uploads/2015/04/PipeExampleOB.png) If you click on an item in a store in the Home tab, a new window opens to give more product details, including the product title, price in Bitcoin, product description, cost of shipping and handling, quantity available, the item's condition, and up to three photos. There is also a "Raw Contract" button which allows users to view the contract details directly. [![orderdetailsOB](https://blog.openbazaar.org/wp-content/uploads/2015/04/orderdetailsOB-1024x621.png)](https://blog.openbazaar.org/wp-content/uploads/2015/04/orderdetailsOB.png) Clicking on "Order Details" on the bottom left will bring you to a screen that allows you to purchase the product. You can determine the quantity desired, and attach a comment for the merchant to see along with your order. If you haven't entered your shipping address in Settings already, a red warning will ask you to do so before proceeding. The price for the product and shipping and handling are displayed again. At the bottom the user needs to input a Bitcoin Address that they control. This will be used in case of a refund. Once this section is completed, the user selects "Choose a Notary." A list of online notaries that the user has trusted is displayed. If the user hasn't trusted any notaries, or if none of those notaries are online, they must choose another notary in order to continue. The user then completes the order by selecting "Submit Order." This sends the order to the notary and merchant.
+[![PipeExampleOB](orderdetailsOB.png)](orderdetailsOB.png) If you click on an item in a store in the Home tab, a new window opens to give more product details, including the product title, price in Bitcoin, product description, cost of shipping and handling, quantity available, the item's condition, and up to three photos. There is also a "Raw Contract" button which allows users to view the contract details directly. [![orderdetailsOB](orderdetailsOB.png)](orderdetailsOB.png) Clicking on "Order Details" on the bottom left will bring you to a screen that allows you to purchase the product. You can determine the quantity desired, and attach a comment for the merchant to see along with your order. If you haven't entered your shipping address in Settings already, a red warning will ask you to do so before proceeding. The price for the product and shipping and handling are displayed again. At the bottom the user needs to input a Bitcoin Address that they control. This will be used in case of a refund. Once this section is completed, the user selects "Choose a Notary." A list of online notaries that the user has trusted is displayed. If the user hasn't trusted any notaries, or if none of those notaries are online, they must choose another notary in order to continue. The user then completes the order by selecting "Submit Order." This sends the order to the notary and merchant.
 
 #### Step Six: Finish the Purchase
 
-When a buyer views "My Purchases" it will display the status of their orders. If they've just submitted an order, the status will indicate "Need to Pay" and the buyer needs to open the order to complete payment. [![needtopayOB](needtopayOB.png)](https://blog.openbazaar.org/wp-content/uploads/2015/04/needtopayOB.png) A QR code is displayed which, if scanned, will input the multisignature address and amount. If the user selects "Pay in your Wallet," it will open a wallet on their device and pull in the same information. Once the payment is completed, the buyer must manually select "Mark as Paid." This lets the merchant know to ship the item. If the buyer marked the order as paid, but the merchant didn't receive this message due to being offline, the buyer can re-open the order and click on "Resend Payment Notice" when the merchant is online. Once the item has arrived or service is provided, the buyer can then release the funds from multisig by opening the order and selecting "Release Payment to Merchant." Again, if the merchant didn't receive this message due to being offline, the buyer can try releasing again when they are online.
+When a buyer views "My Purchases" it will display the status of their orders. If they've just submitted an order, the status will indicate "Need to Pay" and the buyer needs to open the order to complete payment. [![needtopayOB](needtopayOB.png)](needtopayOB.png) A QR code is displayed which, if scanned, will input the multisignature address and amount. If the user selects "Pay in your Wallet," it will open a wallet on their device and pull in the same information. Once the payment is completed, the buyer must manually select "Mark as Paid." This lets the merchant know to ship the item. If the buyer marked the order as paid, but the merchant didn't receive this message due to being offline, the buyer can re-open the order and click on "Resend Payment Notice" when the merchant is online. Once the item has arrived or service is provided, the buyer can then release the funds from multisig by opening the order and selecting "Release Payment to Merchant." Again, if the merchant didn't receive this message due to being offline, the buyer can try releasing again when they are online.
 
 #### Step Seven: Give Feedback
 

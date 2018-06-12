@@ -52,7 +52,7 @@ There are six tabs in the OpenBazaar client:
 Settings
 ========
 
-[![OBstore](OBstore.png)](https://blog.openbazaar.org/wp-content/uploads/2015/04/OBstore.png) In settings you have six sections to manage your client.
+[![OBstore](OBstore.png)](OBstore.png) In settings you have six sections to manage your client.
 
 1.  Store Info
 2.  Keys
@@ -148,7 +148,7 @@ The Home tab displays Other Markets, allows the user to search for products, and
 
 #### Other Markets
 
-[![merchantOB](merchantOB.png)](https://blog.openbazaar.org/wp-content/uploads/2015/04/merchantOB.png) You can view the other stores connected to you by clicking on them. Stores with a checkmark should be visible. Stores with an X were visible once, but are now offline. The client should automatically pull in new stores as they become available, but occasionally refreshing the page may help. When viewing a store, there are three sections.
+[![merchantOB](merchantOB.png)](merchantOB.png) You can view the other stores connected to you by clicking on them. Stores with a checkmark should be visible. Stores with an X were visible once, but are now offline. The client should automatically pull in new stores as they become available, but occasionally refreshing the page may help. When viewing a store, there are three sections.
 
 1.  **Store**. This displays the merchant's products. Clicking on the image displays more details.
 2.  **Details**. This displays information about the merchant, including their OB public key, PGP key, amount of their reputation pledge, and any communication information they've displayed.
@@ -166,12 +166,12 @@ This is a simple chat that any node can use to communicate with all other nodes 
 
 #### Purchasing a Product
 
-[![PipeExampleOB](orderdetailsOB.png)](https://blog.openbazaar.org/wp-content/uploads/2015/04/PipeExampleOB.png) If you click on an item in a store, a new window opens to give more product details, including the product title, price in Bitcoin, product description, cost of shipping and handling, quantity available, the item's condition, and up to three photos. There is also a "Raw Contract" button which allows users to view the contract details directly. [![orderdetailsOB](https://blog.openbazaar.org/wp-content/uploads/2015/04/orderdetailsOB-1024x621.png)](https://blog.openbazaar.org/wp-content/uploads/2015/04/orderdetailsOB.png) Clicking on "Order Details" on the bottom left will bring you to a screen that allows you to purchase the product. You can determine the quantity desired, and attach a comment for the merchant to see along with your order. If you haven't entered your shipping address in Settings already, a red warning will ask you to do so before proceeding. The price for the product and shipping and handling are displayed again. At the bottom the user needs to input a Bitcoin Address that they control. This will be used in case of a refund. Once this section is completed, the user selects "Choose a Notary." A list of online notaries that the user has trusted is displayed. If the user hasn't trusted any notaries, or if none of those notaries are online, they must choose another notary in order to continue. The user then completes the order by selecting "Submit Order." This sends the order to the notary and merchant.
+[![PipeExampleOB](orderdetailsOB.png)](orderdetailsOB.png) If you click on an item in a store, a new window opens to give more product details, including the product title, price in Bitcoin, product description, cost of shipping and handling, quantity available, the item's condition, and up to three photos. There is also a "Raw Contract" button which allows users to view the contract details directly. [![orderdetailsOB](orderdetailsOB.png)](orderdetailsOB.png) Clicking on "Order Details" on the bottom left will bring you to a screen that allows you to purchase the product. You can determine the quantity desired, and attach a comment for the merchant to see along with your order. If you haven't entered your shipping address in Settings already, a red warning will ask you to do so before proceeding. The price for the product and shipping and handling are displayed again. At the bottom the user needs to input a Bitcoin Address that they control. This will be used in case of a refund. Once this section is completed, the user selects "Choose a Notary." A list of online notaries that the user has trusted is displayed. If the user hasn't trusted any notaries, or if none of those notaries are online, they must choose another notary in order to continue. The user then completes the order by selecting "Submit Order." This sends the order to the notary and merchant.
 
 Contracts
 =========
 
-[![mycontracts](mycontracts.png)](https://blog.openbazaar.org/wp-content/uploads/2015/04/mycontracts.png) The contracts tab is where a merchant manages their products. The merchant can create new contracts, edit existing contracts, or delete them.
+[![mycontracts](mycontracts.png)](mycontracts.png) The contracts tab is where a merchant manages their products. The merchant can create new contracts, edit existing contracts, or delete them.
 
 #### Add Contract
 
@@ -191,7 +191,7 @@ The orders tab keeps track of the activity of buyers and merchants through the "
 
 #### My Sales
 
-If a merchant has a sale, the details of that sale are listed here. An order number is created, along with the time and date of the purchase and the buyer's details. [![sellerOB](sellerOB.png)](https://blog.openbazaar.org/wp-content/uploads/2015/04/sellerOB.png) A merchant should take the following steps once they've received an order.
+If a merchant has a sale, the details of that sale are listed here. An order number is created, along with the time and date of the purchase and the buyer's details. [![sellerOB](sellerOB.png)](sellerOB.png) A merchant should take the following steps once they've received an order.
 
 1.  Click on the order to display details.
 2.  If someone purchases your product, the item will display "Buyer Paid." **Please double check** the linked multisig account in the order description to verify; at this point a buyer can mark an item as paid without actually paying.
@@ -202,17 +202,17 @@ If a merchant has a sale, the details of that sale are listed here. An order num
 
 #### My Purchases
 
-When a buyer views "My Purchases" it will display the status of their orders. If they've just submitted an order, the status will indicate "Need to Pay" and the buyer needs to open the order to complete payment. [![needtopayOB](needtopayOB.png)](https://blog.openbazaar.org/wp-content/uploads/2015/04/needtopayOB.png) A QR code is displayed which, if scanned, will input the multisignature address and amount. If the user selects "Pay in your Wallet," it will open a wallet on their device and pull in the same information. Once the payment is completed, the buyer must manually select "Mark as Paid." This lets the merchant know to ship the item. If the buyer marked the order as paid, but the merchant didn't receive this message due to being offline, the buyer can re-open the order and click on "Resend Payment Notice" when the merchant is online. Once the item has arrived or service is provided, the buyer can then release the funds from multisig by opening the order and selecting "Release Payment to Merchant." Again, if the merchant didn't receive this message due to being offline, the buyer can try releasing again when they are online.
+When a buyer views "My Purchases" it will display the status of their orders. If they've just submitted an order, the status will indicate "Need to Pay" and the buyer needs to open the order to complete payment. [![needtopayOB](needtopayOB.png)](needtopayOB.png) A QR code is displayed which, if scanned, will input the multisignature address and amount. If the user selects "Pay in your Wallet," it will open a wallet on their device and pull in the same information. Once the payment is completed, the buyer must manually select "Mark as Paid." This lets the merchant know to ship the item. If the buyer marked the order as paid, but the merchant didn't receive this message due to being offline, the buyer can re-open the order and click on "Resend Payment Notice" when the merchant is online. Once the item has arrived or service is provided, the buyer can then release the funds from multisig by opening the order and selecting "Release Payment to Merchant." Again, if the merchant didn't receive this message due to being offline, the buyer can try releasing again when they are online.
 
 Notarizations
 =============
 
-Notaries manage their orders through the notarizations tab. This is the same as the My Purchases and My Sales tabs, except it tracks the contracts which the notary has been selected for. Note that at this point, offering notary services means you automatically accept all transactions which choose you as a notary. In the future, notaries will be able to screen transactions, or only accept them manually. If a buyer or seller contacts a notary asking for funds to be released, it's the notary's responsibility to do their best to determine which party should receive funds. Once they've made their decision and contacted the parties, they can release funds by opening up the order in the notarizations tab. [![OBnotary](OBnotary.png)](https://blog.openbazaar.org/wp-content/uploads/2015/04/OBnotary.png) In the 0.4 client, the notary has two options. "Refund the Buyer" releases all the funds from multisig to the buyer, minus the percentage fee which is paid to the notary for dispute resolution. "Release money to the Merchant" does the same for the merchant. The notary must click "Send Resolution" for the transaction to process.
+Notaries manage their orders through the notarizations tab. This is the same as the My Purchases and My Sales tabs, except it tracks the contracts which the notary has been selected for. Note that at this point, offering notary services means you automatically accept all transactions which choose you as a notary. In the future, notaries will be able to screen transactions, or only accept them manually. If a buyer or seller contacts a notary asking for funds to be released, it's the notary's responsibility to do their best to determine which party should receive funds. Once they've made their decision and contacted the parties, they can release funds by opening up the order in the notarizations tab. [![OBnotary](OBnotary.png)](OBnotary.png) In the 0.4 client, the notary has two options. "Refund the Buyer" releases all the funds from multisig to the buyer, minus the percentage fee which is paid to the notary for dispute resolution. "Release money to the Merchant" does the same for the merchant. The notary must click "Send Resolution" for the transaction to process.
 
 Messages
 ========
 
-[![OBmessage](OBmessage.png)](https://blog.openbazaar.org/wp-content/uploads/2015/04/OBmessage.png) The messages tab is a place to communicate with other OpenBazaar users who are online. You can send simple messages (text only at this point) by clicking the "Send a Message" button and selecting another user from the dropdown list. Messages you've received can be read by clicking on them, and replied to by hitting the blue "Reply" button on the right.
+[![OBmessage](OBmessage.png)](OBmessage.png) The messages tab is a place to communicate with other OpenBazaar users who are online. You can send simple messages (text only at this point) by clicking the "Send a Message" button and selecting another user from the dropdown list. Messages you've received can be read by clicking on them, and replied to by hitting the blue "Reply" button on the right.
 
 Terminal Commands
 =================

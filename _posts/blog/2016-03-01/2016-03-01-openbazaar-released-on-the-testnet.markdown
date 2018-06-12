@@ -4,7 +4,7 @@ layout: post
 date: '2016-03-01 00:30:00 -0300'
 ---
         
-[![downloadOpenBazaar](downloadOpenBazaar.png)](https://blog.openbazaar.org/wp-content/uploads/2016/03/downloadOpenBazaar.png) OpenBazaar is now fully functional on the testnet. We welcome rigorous testing from the community to ensure everything is functioning properly. You can download the testnet version [here](http://openbazaar.org/). After we're confident of the stability and functionality of the product, we'll transition to the main net and OpenBazaar will be open for business.
+[![downloadOpenBazaar](downloadOpenBazaar.png)](downloadOpenBazaar.png) OpenBazaar is now fully functional on the testnet. We welcome rigorous testing from the community to ensure everything is functioning properly. You can download the testnet version [here](http://openbazaar.org/). After we're confident of the stability and functionality of the product, we'll transition to the main net and OpenBazaar will be open for business.
 
 ### Guides
 

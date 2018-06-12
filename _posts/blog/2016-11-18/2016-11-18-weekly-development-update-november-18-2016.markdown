@@ -16,7 +16,7 @@ date: '2016-11-18 00:30:00 -0300'
 *   The ability to see a list of connected Peers in the settings/advanced tab was added by contributor **Amelia Goodman**
 *   The ability to set which bitcoin units you want to use was added by contributor **Richard Schneider**
 
-[![OpenBazaar versio 2.0 Onboarding First Screen](Screen-Shot-2016-11-18-at-1.25.37-PM.png)](https://blog.openbazaar.org/wp-content/uploads/2016/11/Screen-Shot-2016-11-18-at-1.25.37-PM.png)
+[![OpenBazaar versio 2.0 Onboarding First Screen](Screen-Shot-2016-11-18-at-1.25.37-PM.png)](Screen-Shot-2016-11-18-at-1.25.37-PM.png)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 2.0

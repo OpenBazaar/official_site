@@ -16,4 +16,4 @@ Made updates to how local data is stored, enhanced validation, added a fallback 
 
 #### Other
 
-The Spells of Genesis game [released](OBSOGcard.jpg) an OpenBazaar card today! [![OBSOGcard](https://blog.openbazaar.org/wp-content/uploads/2015/10/OBSOGcard.jpg)](https://blog.openbazaar.org/wp-content/uploads/2015/10/OBSOGcard.jpg)
+The Spells of Genesis game [released](OBSOGcard.jpg) an OpenBazaar card today! [![OBSOGcard](OBSOGcard.jpg)](OBSOGcard.jpg)

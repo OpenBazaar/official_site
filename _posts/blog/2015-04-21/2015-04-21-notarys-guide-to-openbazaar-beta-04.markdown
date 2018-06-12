@@ -23,7 +23,7 @@ This guide is meant to get notaries set up and offering their services to buyers
 
 #### Step Two: Set Communication Information
 
-[![communicationOB](communicationOB.png)](https://blog.openbazaar.org/wp-content/uploads/2015/04/communicationOB.png)
+[![communicationOB](communicationOB.png)](communicationOB.png)
 
 1.  Click on the Communication section.
 2.  Enter an email address if you want to communicate with other parties via email.
@@ -33,7 +33,7 @@ This guide is meant to get notaries set up and offering their services to buyers
 
 #### Step Three: Create Backup
 
-[![backupOB](backupOB.png)](https://blog.openbazaar.org/wp-content/uploads/2015/04/backupOB.png)
+[![backupOB](backupOB.png)](backupOB.png)
 
 1.  Click on the Backup section.
 2.  Click Create New Backup.
@@ -48,7 +48,7 @@ In Settings, select the Notary section.
 
 #### Step Five: Manage your Orders
 
-Note that at this point, offering notary services means you automatically accept all transactions which choose you as a notary. In the future, notaries will be able to screen transactions, or only accept them manually. If a buyer or seller contacts a notary asking for funds to be released, it's the notary's responsibility to do their best to determine which party should receive funds. Once they've made their decision and contacted the parties, they can release funds by opening up the order in the notarizations tab. [![OBnotary](OBnotary.png)](https://blog.openbazaar.org/wp-content/uploads/2015/04/OBnotary.png) In the 0.4 client, the notary has two options. "Refund the Buyer" releases all the funds from multisig to the buyer, minus the percentage fee which is paid to the notary for dispute resolution. "Release money to the Merchant" does the same for the merchant. The notary must click "Send Resolution" for the transaction to process.
+Note that at this point, offering notary services means you automatically accept all transactions which choose you as a notary. In the future, notaries will be able to screen transactions, or only accept them manually. If a buyer or seller contacts a notary asking for funds to be released, it's the notary's responsibility to do their best to determine which party should receive funds. Once they've made their decision and contacted the parties, they can release funds by opening up the order in the notarizations tab. [![OBnotary](OBnotary.png)](OBnotary.png) In the 0.4 client, the notary has two options. "Refund the Buyer" releases all the funds from multisig to the buyer, minus the percentage fee which is paid to the notary for dispute resolution. "Release money to the Merchant" does the same for the merchant. The notary must click "Send Resolution" for the transaction to process.
 
 #### Step Six: Give Feedback
 
