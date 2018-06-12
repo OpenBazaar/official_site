@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: OpenBazaar
-baseurl: "/openbazaar" # the subpath of your site, e.g. /blog
+baseurl: "/official_site" # the subpath of your site, e.g. /blog
 url: "http://127.0.0.1:8080" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
