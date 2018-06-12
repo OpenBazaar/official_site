@@ -223,6 +223,7 @@ hr.title-separator {
     @include links(white, white, white, white);
     background-image: linear-gradient(to bottom, #54d547, #2bad23);
     margin-top: 2px;
+    font-weight: bold;
   }
   &.big {
     width: 202px;
