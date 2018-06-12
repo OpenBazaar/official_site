@@ -1,0 +1,35 @@
+--- 
+layout: default 
+---
+<div class="container limited">
+    <section class="row">
+        <div class="col-12 text-left">
+            {% include modules/page-title.html subTitle="MEETUPS, HACKATHONS, TALKS…" title="Events" wrapperClass="text-center" %}
+        </div>
+        <div class="col-12">
+            {% for eventGroup in site.data.events %}
+                <div class="row top-border-separator py-4">
+                    <div class="col-12">
+                        <h3 class="event-group-title">{{eventGroup.title}}</h3>
+                    </div>
+                </div>
+                {% for event in eventGroup.events %}
+                    <div class="row top-border-separator py-4">
+                        <div class="col-3">
+                            <div class="event-date">
+                                {{event.date}}
+                            </div>
+                            <div class="event-location">
+                                {{event.location}}
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <a class="event-title" href="{{event.link}}" target="_blank">{{event.title}}</a>
+                            <div class="event-body">{{event.body}}</div>
+                        </div>
+                    </div>
+                {% endfor %}
+            {% endfor %}
+        </div>
+    </section>
+</div>

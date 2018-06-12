@@ -1,0 +1,33 @@
+[
+  {
+    "title": "September 2017",
+    "events": [
+      {
+        "date": "SEPTEMBER 29",
+        "location": "Virtual",
+        "title": "Crypto Is Currency Day",
+        "link": "https://cryptoiscurrency.com/",
+        "body": "We believe in people being able to buy products and services in a secure, private, decentralized, and uncensored way, from anywhere in the world, using money that shares their values. This September we will show the world the true value of Crypto AS currency, because Crypto IS Currency. Join us on September 29th!"
+      }
+    ]
+  },
+  {
+    "title": "Past Events",
+    "events": [
+      {
+        "date": "JUNE 12",
+        "location": "Zürich, Switzerland",
+        "title": "Challenging Amazon: Why We Need a Peer to Peer Market Place – Brian Hoffman",
+        "link": "https://www.meetup.com/Bitcoin-Meetup-Switzerland/events/240547976/?a=socialmedia",
+        "body": "OB1 CEO, Brian Hoffmann, will talk about why we need a true peer to peer market place, what OpenBazaar is and it’s potential to disrupt traditional ecommerce on the web through privacy and freedom."
+      },
+      {
+        "date": "MAY 22 – 24",
+        "location": "Virtual",
+        "title": "Crypto Is Currency Day",
+        "link": "http://www.coindesk.com/events/consensus-2017/",
+        "body": "CoinDesk’s presents the 3rd annual blockchain technology summit, May 22-24, 2017 at the New York Marriott Marquis. Consensus 2017 will feature 100+ speakers and 2,000+ attendees from the leading industry startups, investors, financial institutions, enterprise tech leaders, and academic and policy groups who are building the foundations of the blockchain and digital currency economy."
+      }
+    ]
+  }
+]

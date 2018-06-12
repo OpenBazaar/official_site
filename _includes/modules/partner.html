@@ -1,0 +1,13 @@
+<div class="partner p-3 col-12 mb-4">
+    <div class="d-flex flex-row">
+        <h3 class="partner-title p-2">{{ include.title }}</h3>
+        <h4 class="partner-subtitle p-2">{{ include.subTitle }}</h4>
+        <a href="{{ include.link }}" class="general-link p-2 ml-auto partner-link">Visit website</a>
+    </div>
+    <a href="{{ include.link }}">
+        {% asset '{{include.imgSrc}}' alt="{{include.imgAlt}}" align="left" class="mr-3 mb-1 mt-1 partner-image" %}
+    </a>
+    <div class="partner-body">
+        {{ include.body }}
+    </div>
+</div>

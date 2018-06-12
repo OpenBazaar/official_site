@@ -1,0 +1,32 @@
+--- 
+layout: default 
+---
+<div class="container limited">
+    <section class="row">
+        <div class="col-12 text-left">
+            {% include modules/page-title.html subTitle="MIC CHECK 1..2.." title="The OpenBazaar Blog" wrapperClass="text-center" %}
+        </div>
+    </section>
+
+    {%- if paginator.posts.size > 0 -%}
+        {%- for post in paginator.posts -%}
+            {% include modules/post.html post=post onlyExcerpt=true %}
+        {%- endfor -%}
+    {%- endif -%}
+    
+    <section class="row pt-0">
+        <div class="col-12">
+            <div class="">
+                {% if paginator.total_pages > 1 %}
+                    {% if paginator.next_page %}
+                        <a href="{{site.baseurl}}/{{ paginator.next_page_path }}" class="alternative-link">&lt;&lt; Older Entries</a>
+                    {% endif %}
+                    {% if paginator.previous_page %}
+                        <a href="{{site.baseurl}}/{{ paginator.previous_page_path }}" class="alternative-link float-right">Newer Entries &gt;&gt;</a>
+                    {% endif %}
+                    
+                {% endif %}
+            </div>
+        </div>
+    </section>
+</div>

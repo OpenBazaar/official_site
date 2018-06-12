@@ -1,0 +1,598 @@
+//Variables
+$primary-color: #9a9a9a;
+$paragraph-color: #333333;
+$emphasis-color: #252525;
+$mild-color: #5E5E5E;
+$light-color: #535f65;
+$secondary-emphasis-color: #ffffff;
+$bitcoin-color: #f8940d;
+$check-color: #8ED86C;
+$section-padding: 40px 0;
+$section-extra-padding: 60px 0;
+$separator-color: #E1E8E8;
+$section-primary-background: #f5f6f6;
+$secondary-section-background: #293243;
+$secondary-feature-background: #364359;
+$section-primary-border: #cccccc;
+$list-border-color: #DEDEDE;
+$button-text-color: #535f65;
+$social-icons-color: #A8B6B5;
+$general-link-color: #28a11b;
+$partner-color: #3f4f59;
+$alternative-link-color: #2ea3f2;
+$mailchimp-sucess-color: #529214;
+$alternative-text-color: #333333;
+$extra-color: #3274B7;
+$extra-color-alternative: #A6B5B4;
+$recent-updates-color: #F2F2F2;
+
+//Mixins
+@mixin links ($link, $visit, $hover, $active) {
+  text-decoration: none;
+  color: $link;
+  &:visited {
+    text-decoration: none;
+    color: $visit;
+  }
+  &:hover {
+    text-decoration: none;
+    color: $hover;
+  }
+  &:active {
+    text-decoration: none;
+    color: $active;
+  }
+}
+
+//Extensions
+%primary-text {
+  color: $primary-color;
+}
+
+%emphasis-text {
+  color: $emphasis-color;
+}
+
+%primary-links {
+  @include links($primary-color, $primary-color, $primary-color, $primary-color);
+}
+
+%list-border {
+  border-radius: 3px;
+  border: 1px solid $list-border-color;
+}
+
+//Boostrap Mods
+
+.container.limited {
+  max-width: 800px;
+}
+
+//Mailchimp styles
+.email-field {
+  width: 100% ;
+  max-width: 540px;
+  height: 52px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 0 0 rgba(222, 222, 222, 0.5);
+  border: solid 1px #dedede;
+  padding: 0 0 0 10px;
+  text-align: left;
+  margin: 0 0 0 0;
+}
+
+.email-submit {
+  cursor: pointer;
+}
+
+.mce_inline_error {
+  margin-top: 20px !important;
+}
+
+#mce-success-response {
+  color: $mailchimp-sucess-color;
+}
+
+//Styles
+html, body {
+  font-family: 'Noto Sans';
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+header {
+  padding: 20px 0;
+}
+
+section {
+  padding: $section-padding;
+  font-size: 1rem;
+  &.extra {
+    padding: $section-extra-padding;
+  }
+}
+
+footer {
+  font-size: 1rem;
+}
+
+a {
+  @include links($general-link-color, $general-link-color, $general-link-color, $general-link-color);
+}
+
+blockquote {
+  border-left: 5px solid;
+  border-color: #2ea3f2;
+  padding-left: 20px;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.general-link {
+  @include links($general-link-color, $general-link-color, $general-link-color, $general-link-color);
+}
+
+span.bold {
+  font-weight: 700;
+}
+
+.emphasis-text {
+  @extend %emphasis-text;
+}
+
+.list-border {
+  @extend %list-border;
+}
+
+.navbar {
+  @extend %primary-text;
+  font-size: 1rem;
+}
+
+a.nav-link {
+  @extend %primary-links;
+  font-weight: 700;
+  font-size: 0.8125em;
+}
+
+.nav-item {
+  line-height: 1.15em;
+}
+
+.openbazaar-logo {
+  width: 160px;
+}
+
+.fa-bitcoin {
+  color: $bitcoin-color;
+}
+
+.fa-check {
+  color: $check-color;
+}
+
+h3 { 
+  @extend %primary-text;
+  font-weight: 400;
+  &.subtitle {
+    font-size: 1.125em;
+    &.subtitle-smaller {
+      font-weight: 700;
+      font-size: 0.9375em;
+    }
+  }
+  &.section-sub-title {
+    font-size: 1.4375em;
+    color: $emphasis-color;
+  }
+}
+
+h1.title, h2.title {
+  @extend %emphasis-text;
+  font-weight: 400;
+  font-size: 2.5em;
+  &.secondary-title {
+    color: $secondary-emphasis-color;
+  }
+}
+
+hr.title-separator {
+  border: none;
+  height: 2px;
+  background-color: $separator-color;
+  width: 50px;
+}
+
+.button {
+  border-radius: 2px;
+  box-shadow: 0 0 3px 0 rgba(149, 149, 149, 0.5);
+  border: solid 2px #ffffff;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+  padding: 0 0 2px 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  @include links($button-text-color, $button-text-color, $button-text-color, $button-text-color);
+  &.download {
+    @include links(white, white, white, white);
+    background-image: linear-gradient(to bottom, #54d547, #2bad23);
+  }
+  &.big {
+    width: 202px;
+    height: 46px;
+    font-size: 0.9375em;
+  }
+  &.small {
+    width: 118px;
+    height: 30px;
+    font-size: 0.75em;
+  }
+  &.arrow-animation:after {
+    content: ">";
+    transition: 0.5s;
+    font-size: 1.5em;
+    margin-left: 0;
+    opacity: 0;
+  }
+  &.arrow-animation:hover:after{
+    opacity: 1;
+    margin-left: 13px;
+  }
+}
+
+.pull-upwards {
+  margin-top: -40px;
+}
+
+.pull-upwards-extra {
+  margin-top: -60px;
+}
+
+.mild-text {
+  color: $mild-color;
+}
+
+.button-subtitle {
+  @extend %primary-text;
+  font-size: 0.8125em;
+  margin-top: 2px;
+}
+
+img.big-centered-image {
+  width: 100%;
+  max-width: 850px;
+  box-shadow: 0 0 9px #c7c7c7;
+}
+
+.primary-background {
+  background-color: $section-primary-background;
+  border-top: 1px solid $section-primary-border;
+}
+
+.secondary-background {
+  background-color: $secondary-section-background;
+}
+
+.feature-list {
+  font-size: 0.875em;
+  padding: 0;
+
+}
+
+.feature-list-item {
+  @extend %list-border;
+  height: 52px;
+  background-color: white;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  &.secondary-feature {
+    background-color: $secondary-feature-background;
+    border: none;
+    color: #ffffff;
+  }
+}
+
+.feature-check {
+  margin: 0 20px;
+}
+
+.testimonial {
+  @extend %list-border;
+  color: $mild-color;
+}
+
+.testimonial-image {
+  width: 60px;
+}
+
+.testimonial-name {
+  font-size: 0.75em;
+  font-weight: 700;
+}
+
+.testimonial-text {
+  font-size: 0.8125em;
+}
+
+.emoji {
+  width: 15px;
+  &.medium {
+    width: 23px;
+  }
+}
+
+.faq-title {
+  font-size: 1.125em;
+  font-weight: 700;
+}
+
+.give-it-a-try {
+  @extend %list-border;
+}
+
+.social-icon {
+  font-size: 1.25em;
+  color: $social-icons-color;
+}
+
+.partner {
+  @extend %list-border;
+}
+
+.partner-body, .partner-link {
+  font-size: 0.875em;
+}
+
+.partner-subtitle {
+  font-size: 0.875em;
+  color: $primary-color;
+}
+
+.partner-title {
+  font-size: 0.9375em;
+  font-weight: 700;
+  color: $partner-color;
+}
+
+.partner-image {
+  width: 62px;
+}
+
+iframe.typeform {
+  height: 350px;
+  border: 0px;
+}
+
+a.alternative-link {
+  @include links($alternative-link-color, $alternative-link-color, $alternative-link-color, $alternative-link-color);
+}
+
+.list-date {
+  font-size: 0.875em;
+}
+
+.list-date {
+  font-size: 0.875em;
+}
+
+.content {
+  & p {
+    font-size: 1em;
+    color: $paragraph-color;
+    &.small {
+      font-size: 0.9375em;
+    }
+    &.medium {
+      font-size: 1em;
+    }
+  }
+}
+
+.top-border-separator {
+  border-top: 1px solid $list-border-color;
+}
+
+.event-group-title {
+  @extend %emphasis-text;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.event-date {
+  font-size: 0.875em;
+  font-weight: 700;
+}
+
+.event-location {
+  font-size: 0.75em;
+  color: $primary-color;
+}
+
+.event-title {
+  font-size: 1em;
+  @include links($general-link-color, $general-link-color, $general-link-color, $general-link-color);
+}
+
+.event-body {
+  font-size: 0.875em;
+}
+
+.download-logo {
+  max-height: 60px;
+  max-width: 60px;
+}
+
+.download-title {
+  font-size: 0.9375em;
+  color: $emphasis-color;
+}
+
+.download-link {
+  font-size: 0.9375em;
+}
+
+.collapsable-title {
+  font-size: 1.125em;
+  color: $emphasis-color;
+}
+
+.collapsable-toggler {
+  @include links($primary-color, $primary-color, $primary-color, $primary-color);
+}
+
+.collapse-body {
+  color: $alternative-text-color;
+}
+
+@include media-breakpoint-up(md) {
+  .contributors-list {
+    columns: 2;
+    list-style-position: inside;
+  }
+}
+
+.donate-title {
+  font-size: 1.25em;
+  color: $alternative-text-color
+}
+
+.donate-address {
+  font-size: 1.0625em;
+  word-break: break-word;
+  color: $primary-color;
+}
+
+.post-heading-image {
+  height: 110px;
+  background-color: #FBFBFB;
+}
+
+.post-openbazaar-logo {
+  width: 85px;
+  height: 85px;
+  margin-top: -50px;
+  z-index: 99;
+}
+
+.post-title {
+  font-size: 2.1875em;
+  color: $emphasis-color;
+  &.alone {
+    font-size: 1.4375em;
+  }
+}
+
+.post-title-extra {
+  color: $extra-color;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.post-title-extra-alternative {
+  color: $extra-color-alternative;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+.post-icon-bitcoin {
+  font-size: 1.4375em;
+}
+
+.post-openbazaar-link {
+  font-size: 1.4375em;
+  @include links($emphasis-color, $emphasis-color, $emphasis-color, $emphasis-color);
+}
+
+//TODO: this is hacky
+.post-emoji {
+  margin-top: -9px;
+}
+
+.post-date {
+  font-size: 0.875em;
+  color: $primary-color;
+  font-weight: 700;
+}
+
+.post-container ul {
+  color: $light-color;
+}
+
+.post-container {
+  a{
+    @include links($general-link-color, $general-link-color, $general-link-color, $general-link-color)
+  }
+  img{
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    margin: 15px 0;
+    color: $emphasis-color;
+  }
+  twitterwidget {
+    //!important to go over twitter's style
+    margin: 20px auto !important;
+  }
+}
+
+hr.help-us-separator {
+  width: 80%;
+}
+
+.recent-updates-wrapper {
+  background-color: $recent-updates-color;
+}
+
+.recent-updates-title {
+  font-size: 0.9375em;
+  font-weight: 700;
+  @include links($emphasis-color, $emphasis-color, $emphasis-color, $emphasis-color);
+}
+
+.recent-updates-body {
+  font-size: 0.8125em;
+  color: $light-color;
+}
+
+@include media-breakpoint-down(lg) {
+  .card-deck {
+    flex-direction: column;
+  }
+}
+
+.recent-updates-heading {
+  color: $emphasis-color;
+}
+
+.token-content {
+  box-shadow: 0 0 10px 0 rgba(134,134,134,0.50);
+  background-color: white;
+}
+
+.dotted-bg {
+  background-image: url("img/token/dot-grid.png");
+  background-repeat: repeat-x;
+  background-position: center; 
+}
+
+.search-box {
+  &.big {
+    height: 63px;
+    display: block;
+    width: 100%;
+  }
+}
+
+.post-media-image {
+  width: 150px;
+}

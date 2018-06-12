@@ -1,0 +1,18 @@
+---
+title: "OpenBazaar is Open for Business" 
+layout: post
+date: '2016-04-04 00:30:00 -0300'
+---
+        
+OpenBazaar is now released on the mainnet and is ready for real transactions. You can download the program on the [OpenBazaar website](https://openbazaar.org/download.html). You can read our [user tutorial](https://blog.openbazaar.org/openbazaar-user-tutorial/) explaining how to use OpenBazaar for the first time. If you need help, [join our Slack](http://slack.openbazaar.org/) or visit our [help center](https://openbazaar.zendesk.com/hc/en-us). If you're not familiar with OpenBazaar, it's a decentralized peer-to-peer network for trade that uses Bitcoin. That trade happens directly between buyers and sellers with no one in the middle - and no fees or restrictions on trade. You can read more about it at [this post](https://blog.openbazaar.org/what-is-openbazaar/). Below is a press release with more details on the release.
+
+[![OpenBazaar store](Screenshot-from-2016-04-04-13-14-36.png)](https://blog.openbazaar.org/wp-content/uploads/2016/04/Screenshot-from-2016-04-04-13-14-36.png)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Press release
+-------------
+
+“OpenBazaar Team Releases First Version of Decentralized Marketplace”
+---------------------------------------------------------------------
+
+**Washington, DC -- April 4th, 2016** \- OpenBazaar - the decentralized marketplace that uses Bitcoin - is now open for business. Today, the core developers of OpenBazaar released the first version of their peer-to-peer marketplace. Project leader Brian Hoffman stated, “Trade was meant to be free. This idea inspired us to spend the last two years building OpenBazaar. Starting today, anyone in the world with access to an Internet connection can use Bitcoin and OpenBazaar to exchange goods and services freely. We can’t wait to see how people will use this tool.” Unlike the online marketplace giants Alibaba, Amazon, or eBay, this new model of online commerce isn’t controlled by any company or organization. OpenBazaar is a fully peer-to-peer marketplace where buyers and sellers engage in trade directly with each other. Because there are no middleman in the trade, users don’t pay any fees to use the network, and there are no terms and conditions to sign. OpenBazaar is permissionless trade. There are also no central authorities that act as gatekeepers and restrict trade. OpenBazaar launched a test version of their software March 1st, and saw more than 25,000 downloads from 126 countries. Users posted more than 3,000 listings to test out the software in preparation for the public release. In 2015, the OpenBazaar core-developers received funding from Union Square Ventures, Andreessen-Horowitz, and angel investor William Mougayar to form a company, enabling full-time development of the protocol and software. The company, named ‘OB1’, will continue releasing improved versions of the software over the coming months, and will begin offering services to users on the network. Users who want to join OpenBazaar can download the program for free on the [OpenBazaar website](https://openbazaar.org/). Follow OpenBazaar on [Twitter](https://twitter.com/OpenBazaar), [Reddit](http://www.reddit.com/r/OpenBazaar/), [GitHub](http://github.com/OpenBazaar), and on their [Blog.](http://blog.openbazaar.org/)

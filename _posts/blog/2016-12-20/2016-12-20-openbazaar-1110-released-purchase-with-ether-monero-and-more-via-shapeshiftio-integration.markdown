@@ -1,0 +1,17 @@
+---
+title: "OpenBazaar 1.1.10 Released - Purchase with Ether, Monero and More Via ShapeShift.io Integration" 
+layout: post
+date: '2016-12-20 00:30:00 -0300'
+---
+        
+[![OpenBazaar 1.1.10 Released - Purchase with Ether, Monero and More Via ShapeShift.io Integration](OpenBazaar-1.1.10-Released-Purchase-with-Ether-Monero-and-More-Via-ShapeShift.io-Integration1.png)](OpenBazaar-1.1.10-Released-Purchase-with-Ether-Monero-and-More-Via-ShapeShift.io-Integration1.png)   Today we've released [version 1.1.10](http://openbazaar.org/download.html) with a special integration that we are excited to share. Since our launch we have received many requests for the ability to use other cryptocurrencies within OpenBazaar and [ShapeShift's Shifty Button](https://info.shapeshift.io/tools/shifty-button) provides a simple solution. A workable demonstration of this functionality was produced at the [hackathon OB1 co-hosted with Duosearch in London](https://blog.openbazaar.org/openbazaar-hackathon-with-duosearch-and-blockchain-money-in-london/#.WFlQ2bYrKV4) by Justin of [Duosearch](http://duosear.ch) and community member Barry.  
+
+> Second hackathon demo: integrating [@ShapeShift_io](https://twitter.com/ShapeShift_io) into [@openbazaar](https://twitter.com/openbazaar). & a bit of creativity to work around demo screen adapter problems! [pic.twitter.com/iyE2RvRuSq](https://t.co/iyE2RvRuSq)
+> 
+> — OB1 (@OB1Company) [November 5, 2016](https://twitter.com/OB1Company/status/794956215574990848)
+
+  We have an incredible community full of people with excellent ideas and skills and this build wouldn't be possible without them. **Here is a summary of the new update from the press release issued by our friends at ShapeShift:**
+
+> "Today [ShapeShift.io](http://ShapeShift.io), a blockchain asset exchange platform, has partnered with online bitcoin-enabled marketplace OpenBazaar via their integration of the ShapeShift Shifty Button. This integration allows OpenBazaar shoppers to purchase items from the decentralized, peer-to-peer site with Ethereum, Zcash, Ripple and dozens of other leading digital currencies beyond Bitcoin."
+
+OpenBazaar shoppers are now able to purchase from OpenBazaar shops using Ethereum, Zcash or any of a variety of other cryptocurrencies. The integration is a great match for our decentralized marketplace as the Button’s code is free and open source and has been integrated by dozens of bitcoin-friendly merchants to broaden customer payment needs quickly and easily. Read more in the [full press release](http://www.prweb.com/releases/2016/openbazaar/prweb13936818.htm) and check out this great tutorial video they've recorded below:   https://www.youtube.com/watch?v=X8ztyzH5W-k&feature=youtu.be   **About ShapeShift** ShapeShift is a crucial piece of infrastructure in the world of Bitcoin. From start to finish, users can exchange blockchain tokens in seconds, with no account required. No emails or passwords. No lengthy sign­up process. No accounts. No bid and ask orders. No friction. ShapeShift's goal is the fastest, safest, and most convenient way to swap digital assets. See more at: [https://shapeshift.io](https://shapeshift.io) **Ready to ShapeShift?** _Download version 1.1.10 now on [openbazaar.org](https://openbazaar.org/download.html)!_

@@ -1,0 +1,26 @@
+--- 
+layout: default 
+---
+<div class="container limited">
+    <section class="row">
+        <div class="col-12 text-left">
+            {% include modules/page-title.html title="Donate" subTitle="THANK YOU" wrapperClass="text-center" %}
+        </div>
+        <div class="col-12">
+            <div class="media list-border p-4 flex-column flex-lg-row">
+                {% asset donate/donate-qr.png class="mr-lg-4 mx-auto" alt="donate QR" %}
+                <div class="media-body donate-body w-100 mt-4 mt-lg-0">
+                    <h3 class="mt-0 donate-title text-center text-lg-left">500+ Donations Received!</h3>
+                    <div class="donate-address mb-4 mx-auto text-center text-lg-left">3BDbGsH5h5ctDiFtWMmZawcf3E7iWirVms</div>
+                    <p class="mx-auto text-center text-lg-left">
+                        
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-12 mt-5">
+            {{content}}
+        </div>
+    </section>
+</div>

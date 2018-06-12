@@ -1,0 +1,38 @@
+--- 
+layout: default
+---
+<article class="container limited">
+    <div class="row">
+        <div class="col-12">
+            {% include modules/post.html post=page %}
+        </div>
+    </div>
+</article>
+<div class="container-fluid mb-5">
+    <div class="row">
+        <div class="col-12 pb-4">
+            <hr class="help-us-separator">
+            <div class="container limited">
+                <p>
+                    <strong>Do you want to help build this with us?</strong>
+                </p>
+                <p>
+                    <a href="{{site.baseurl}}/download/" class="general-link">Download OpenBazaar</a> right now to get buying or selling in minutes or join us on
+                    <a class="general-link" href="https://github.com/openbazaar">Github</a> to contribute to the development of this open-source project!
+                </p>
+                <p>
+                    <!-- AddToAny BEGIN -->
+                    <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                        <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+                        <a class="a2a_button_tumblr"></a>
+                        <a class="a2a_button_facebook"></a>
+                        <a class="a2a_button_twitter"></a>
+                    </div>
+                    <script async src="https://static.addtoany.com/menu/page.js"></script>
+                    <!-- AddToAny END -->
+                </p>
+            </div>
+        </div>
+    </div>
+    {% include modules/recent-updates.html %}
+</div>

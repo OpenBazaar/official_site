@@ -1,0 +1,11 @@
+---
+title: "OpenBazaar Ecosystem: Kimchi Clothing" 
+layout: post
+date: '2016-12-12 00:30:00 -0300'
+---
+        
+ In these posts we take a look at some unique members of the OpenBazaar ecosystem. Today we are featuring Kimchi Clothing (Director Nola), a brand new store on OpenBazaar that will be featuring socks and hand-tailored clothing. You can find Kimchi Clothing (Director Nola) on OpenBazaar [here.](ob://3e8f4632c02499a7573973eb7589c7584fc85aa3/store)   [![Director Nola/Kimchi Clothing on OpenBazaar](Screen-Shot-2016-12-12-at-1.36.25-PM.png)](Screen-Shot-2016-12-12-at-1.36.25-PM.png)   **Tell us a bit about yourself?** I'm Jason, originally from New Orleans, Louisiana but been living in South Korea since 2013. I been living outside of the U.S. since 2008. **Why are you selling your product on OpenBazaar?** I am selling on open OB because I want to earn income in bitcoin that will cover my living expenses and build a savings. I believe in Bitcoin and the movement. I want to become an advocate for the community. **What do you make/sell?** I sell socks and I tailor suits from South Korea right now. **How has your experience been with OpenBazaar so far?** I need to setup hosting my store on a server instead of my laptop. That way I can be open 24/7. (**UPDATE**: the shop has been moved to a Digital Ocean VPS using [OB1](http://ob1.io)'s [Deploy](http://deploy.ob1.io) tool!) **How familiar are you with Bitcoin?** I am super familiar in bitcoin. I am saving and doing business with bitcoin. **What changes would you like to see to OpenBazaar to make it more useful for you?** Right now, I don't see any changes since I am still learning how to use it like a pro.   _**BONUS**: Check out this special video Jason made that is the first in his new series discussing blockchain!_ https://youtu.be/j2GMPwVSORE
+
+* * *
+
+_**Would you like to have a store on OpenBazaar?** Becoming a vendor is easy and completely free! Check out our [Vendor's Guide to OpenBazaar](https://blog.openbazaar.org/vendors-guide-to-openbazaar/)_ _**Would you like your store to be featured on our blog?** Awesome, we'd love to know your story! Please email [jenn@ob1.io](mailto:jenn@ob1.io)_    
