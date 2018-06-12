@@ -6918,7 +6918,8 @@ hr.title-separator {
   .button.download {
     text-decoration: none;
     color: white;
-    background-image: linear-gradient(to bottom, #54d547, #2bad23); }
+    background-image: linear-gradient(to bottom, #54d547, #2bad23);
+    margin-top: 2px; }
     .button.download:visited {
       text-decoration: none;
       color: white; }
