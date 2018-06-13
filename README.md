@@ -1,8 +1,10 @@
-# This is the OpenBazaar site 
+# This is the OpenBazaar site
 
 ## Tips
 
 ## To run local site
+
+Install Jekyll by following these [instructions](https://jekyllrb.com/docs/installation/).
 
 `bundle exec jekyll serve`
 
@@ -14,10 +16,11 @@ At the root of the project run:
 
 `python create.py --title=example-title --date-2018-08-22`
 
-### Include an embed youtube video 
+### Include an embed youtube video
 
 `{% include modules/embeded-video.html url="https://www.youtube.com/embed/92AOVPrm6MA" %}`
 
 ### Markdown tips
 
 Quick reference guide [here](https://gist.github.com/roachhd/779fa77e9b90fe945b0c)
+
