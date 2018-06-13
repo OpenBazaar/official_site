@@ -14,7 +14,7 @@ Check out this video [OB1](https://ob1.io) Co-Founder, **Sam Patterson**, made t
 
 These were the first cryptocurrencies other than Bitcoin to be natively integrated which means that sellers can now receive their payments in these coins. Buyers can also pay with any of dozens of coins as supported by [Shapeshift](https://shapeshift.io) and both of these features give users even more opportunities for customization and control in this decentralized marketplace.
 
-Bitcoin Cash and [Zcash](https://z.cash) were chosen to integrate first due to their general technical compatibility with OpenBazaar–being similar to Bitcoin–and the availability of shared development support. Additional coin integrations are coming soon!
+Bitcoin Cash and [Zcash](https://z.cash) were chosen to integrate first due to their general technical compatibility with OpenBazaar – being similar to Bitcoin – and the availability of shared development support. Additional coin integrations are coming soon!
 
 * * *
 

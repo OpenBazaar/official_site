@@ -1,7 +1,10 @@
 ---
-title: "Valuing Privacy <span class='post-title-extra'>& still Getting Data</span> from a Decentralized Network" 
+title: "Valuing Privacy <span class='post-title-extra'>& still Getting Data</span> from a Decentralized Network"
 layout: post
 date: '2018-05-30 00:30:00 -0300'
+social_title: 'Valuing Privacy & still Getting Data from a Decentralized Network'
+social_description: 'Facebook knows exactly how many users are on their platform. Amazon knows exactly how many products are sold. Instagram knows exactly how many photos are shared.'
+social_image: conectivity.png
 ---
 
 Facebook knows exactly how many users are on their platform. Amazon knows exactly how many products are sold. Instagram knows exactly how many photos are shared.
@@ -46,7 +49,7 @@ One of the difficulties in collecting stats from distributed networks is the fac
 
 This means that getting an overview of the entire network is difficult, and requires lots of nodes that are connected to different peers. Or it requires a method to “crawl” through the network and look at the state over time and not as a single snapshot.
 
-![OpenBazar is a Peer to Peer Decentralized Network that Connects Individuals to Each Other across a Network](19-1024x512.png)
+![OpenBazar is a Peer to Peer Decentralized Network that Connects Individuals to Each Other across a Network](conectivity.png)
 
 Distributed networks also present another difficulty in stats gathering: churn. Nodes can join and leave the network at any time because users can set up or delete their stores at any time. In centralized systems people joining and leaving is simple to notice, since they are either communicating with the central point of control or they aren’t. In distributed networks you don’t see all other nodes simultaneously and won’t know what’s happening on another part of the network. Even if you were able to perfectly capture the state of the network at one moment, it will likely change in the next moment.
 
