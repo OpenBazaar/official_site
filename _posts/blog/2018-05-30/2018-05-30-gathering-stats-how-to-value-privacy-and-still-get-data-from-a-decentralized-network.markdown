@@ -2,8 +2,8 @@
 title: "Valuing Privacy <span class='post-title-extra'>& still Getting Data</span> from a Decentralized Network"
 layout: post
 date: '2018-05-30 00:30:00 -0300'
-social_title: 'This is the social title'
-social_description: 'This is the social description, bla bla example example example'
+social_title: 'Valuing Privacy & still Getting Data from a Decentralized Network'
+social_description: 'Facebook knows exactly how many users are on their platform. Amazon knows exactly how many products are sold. Instagram knows exactly how many photos are shared.'
 social_image: conectivity.png
 ---
 
