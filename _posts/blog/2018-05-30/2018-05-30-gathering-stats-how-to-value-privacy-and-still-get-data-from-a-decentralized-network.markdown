@@ -10,7 +10,7 @@ In contrast, no one knows how many people use Bitcoin. No one knows how many fil
 
 Why can some networks give precise statistics about how they’re being used, while others can only give estimations or have no data at all? It comes down to the architecture of the networks.
 
-**Centralized networks**
+**Centralized Networks**
 
 If you build a centralized network – and you control the center of the network – you then have access to information about everything that is happening. Centralized systems require all users to connect to a central point of control, and whoever sits at point of control is able to monitor and collect as much data as they please.
 
