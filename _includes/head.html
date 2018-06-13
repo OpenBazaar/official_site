@@ -7,6 +7,11 @@
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  {% if page.layout == 'post' %}
+    <meta property="og:image" content="{{site.url}}{{site.baseurl}}/blog/{{page.social_image}}">
+    <meta property="og:title" content="{{page.social_title}}">
+    <meta property="og:description" content="{{page.social_description}}">
+  {% endif %}
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
