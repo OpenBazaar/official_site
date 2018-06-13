@@ -1,5 +1,5 @@
 ---
-title: "Valuing Privacy <span class='post-title-extra'>& still Getting Data</span> from a Decentralized Network" 
+title: "Valuing Privacy <span class='post-title-extra'>& still Getting Data</span> from a Decentralized Network"
 layout: post
 date: '2018-05-30 00:30:00 -0300'
 ---
@@ -79,3 +79,5 @@ OpenBazaar is a network that exists for its users and is run by its users. In th
 **Help us all make OpenBazaar better and drive forward the capabilities of decentralized platforms by opting into sharing anonymized usage stats.**
 
 _Download it now by clicking [here.](https://openbazaar.org/download)_
+
+Test
