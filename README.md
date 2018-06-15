@@ -20,6 +20,13 @@ At the root of the project run:
 
 `{% include modules/embeded-video.html url="https://www.youtube.com/embed/92AOVPrm6MA" %}`
 
+### To add captions
+
+```
+![](an-image.png)
+*The image captions goes here, immediately afterwards*
+```
+
 ### Markdown tips
 
 Quick reference guide [here](https://gist.github.com/roachhd/779fa77e9b90fe945b0c)
