@@ -2,7 +2,7 @@
 
 ## Tips
 
-## To run local site
+## To run site locally
 
 Install Jekyll by following these [instructions](https://jekyllrb.com/docs/installation/).
 
