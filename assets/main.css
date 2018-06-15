@@ -7216,6 +7216,12 @@ a.alternative-link {
   color: #252525; }
 .post-container twitterwidget {
   margin: 20px auto !important; }
+.post-container img + em {
+  text-align: center;
+  font-size: 0.875em;
+  display: block;
+  font-style: normal;
+  font-weight: bold; }
 
 hr.help-us-separator {
   width: 80%; }

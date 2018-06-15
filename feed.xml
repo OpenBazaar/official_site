@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="https://openbazaar.github.io/official_site/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.github.io/official_site/" rel="alternate" type="text/html" /><updated>2018-06-13T23:28:27+00:00</updated><id>https://openbazaar.github.io/official_site/</id><title type="html">OpenBazaar</title><entry><title type="html">Valuing Privacy &amp;amp; still Getting Data from a Decentralized Network</title><link href="https://openbazaar.github.io/official_site/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network" rel="alternate" type="text/html" title="Valuing Privacy &lt;span class='post-title-extra'&gt;&amp; still Getting Data&lt;/span&gt; from a Decentralized Network" /><published>2018-05-30T03:30:00+00:00</published><updated>2018-05-30T03:30:00+00:00</updated><id>https://openbazaar.github.io/official_site/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network</id><content type="html" xml:base="https://openbazaar.github.io/official_site/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network">&lt;p&gt;Facebook knows exactly how many users are on their platform. Amazon knows exactly how many products are sold. Instagram knows exactly how many photos are shared.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="https://openbazaar.github.io/official_site/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.github.io/official_site/" rel="alternate" type="text/html" /><updated>2018-06-15T17:39:26+00:00</updated><id>https://openbazaar.github.io/official_site/</id><title type="html">OpenBazaar</title><entry><title type="html">Valuing Privacy &amp;amp; still Getting Data from a Decentralized Network</title><link href="https://openbazaar.github.io/official_site/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network" rel="alternate" type="text/html" title="Valuing Privacy &lt;span class='post-title-extra'&gt;&amp; still Getting Data&lt;/span&gt; from a Decentralized Network" /><published>2018-05-30T03:30:00+00:00</published><updated>2018-05-30T03:30:00+00:00</updated><id>https://openbazaar.github.io/official_site/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network</id><content type="html" xml:base="https://openbazaar.github.io/official_site/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network">&lt;p&gt;Facebook knows exactly how many users are on their platform. Amazon knows exactly how many products are sold. Instagram knows exactly how many photos are shared.&lt;/p&gt;
 
 &lt;p&gt;In contrast, no one knows how many people use Bitcoin. No one knows how many files have been shared over Bittorrent. No one knows how many trades happen on OpenBazaar.&lt;/p&gt;
 
@@ -8,9 +8,8 @@
 
 &lt;p&gt;If you build a centralized network – and you control the center of the network – you then have access to information about everything that is happening. Centralized systems require all users to connect to a central point of control, and whoever sits at point of control is able to monitor and collect as much data as they please.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;Centralized-network.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Centralized network with central point of control&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;Centralized-network.png&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;Centralized network with central point of control&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Most platforms on the internet today are centralized, and the central point of control is managed by a company. This is how Facebook, Amazon, and most platforms operate. Those companies sit in the center and collect as much information as they can about their users.&lt;/p&gt;
 
@@ -24,9 +23,8 @@
 
 &lt;p&gt;Few platforms on the internet today are distributed, but they are growing in number. Bitcoin and other cryptocurrencies are distributed networks. OpenBazaar is distributed, as is Bittorrent. No one can sit in the center and collect information about users on these networks; there is no center at all.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;Decentralized-network.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Distributed network with no center&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;Decentralized-network.png&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;Distributed network with no center&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;On the positive side, this means that users have much more privacy on distributed networks. They aren’t required to connect and share information with a central point of control. They connect directly to other peers and exchange information directly, without necessarily informing others on the network about what they’re doing.&lt;/p&gt;
 
