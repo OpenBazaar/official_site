@@ -546,6 +546,13 @@ a.alternative-link {
     //!important to go over twitter's style
     margin: 20px auto !important;
   }
+  img + em { //Image captions
+    text-align: center;
+    font-size: 0.875em;
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+  }
 }
 
 hr.help-us-separator {

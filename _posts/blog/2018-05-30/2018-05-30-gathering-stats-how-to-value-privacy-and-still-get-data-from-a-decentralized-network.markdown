@@ -18,8 +18,7 @@ Why can some networks give precise statistics about how they’re being used, wh
 If you build a centralized network – and you control the center of the network – you then have access to information about everything that is happening. Centralized systems require all users to connect to a central point of control, and whoever sits at point of control is able to monitor and collect as much data as they please.
 
 ![](Centralized-network.png)
-
-Centralized network with central point of control
+*Centralized network with central point of control*
 
 Most platforms on the internet today are centralized, and the central point of control is managed by a company. This is how Facebook, Amazon, and most platforms operate. Those companies sit in the center and collect as much information as they can about their users.
 
@@ -34,8 +33,7 @@ Distributed networks are fundamentally different from centralized networks. Ther
 Few platforms on the internet today are distributed, but they are growing in number. Bitcoin and other cryptocurrencies are distributed networks. OpenBazaar is distributed, as is Bittorrent. No one can sit in the center and collect information about users on these networks; there is no center at all.
 
 ![](Decentralized-network.png)
-
-Distributed network with no center
+*Distributed network with no center*
 
 On the positive side, this means that users have much more privacy on distributed networks. They aren’t required to connect and share information with a central point of control. They connect directly to other peers and exchange information directly, without necessarily informing others on the network about what they’re doing.
 
