@@ -1,4 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="https://openbazaar.github.io/official_site/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.github.io/official_site/" rel="alternate" type="text/html" /><updated>2018-06-19T18:18:06+00:00</updated><id>https://openbazaar.github.io/official_site/</id><title type="html">OpenBazaar</title><entry><title type="html">Valuing Privacy &amp;amp; still Getting Data from a Decentralized Network</title><link href="https://openbazaar.github.io/official_site/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network" rel="alternate" type="text/html" title="Valuing Privacy &lt;span class='post-title-extra'&gt;&amp; still Getting Data&lt;/span&gt; from a Decentralized Network" /><published>2018-05-30T03:30:00+00:00</published><updated>2018-05-30T03:30:00+00:00</updated><id>https://openbazaar.github.io/official_site/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network</id><content type="html" xml:base="https://openbazaar.github.io/official_site/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network">&lt;p&gt;Facebook knows exactly how many users are on their platform. Amazon knows exactly how many products are sold. Instagram knows exactly how many photos are shared.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="https://openbazaar.github.io/official_site/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.github.io/official_site/" rel="alternate" type="text/html" /><updated>2018-06-28T21:00:23+00:00</updated><id>https://openbazaar.github.io/official_site/</id><title type="html">OpenBazaar</title><entry><title type="html">The Difference Between Cryptocurrency Payments and Cryptocurrency Trading in OpenBazaar</title><link href="https://openbazaar.github.io/official_site/blog/the-difference-between-cryptocurrency-payments-and-cryptocurrency-trading-in-openbazaar" rel="alternate" type="text/html" title="The Difference Between &lt;span class='post-title-extra'&gt;Cryptocurrency Payments&lt;/span&gt; and &lt;span class='post-title-extra'&gt;Cryptocurrency Trading&lt;/span&gt; in OpenBazaar" /><published>2018-06-23T14:30:00+00:00</published><updated>2018-06-23T14:30:00+00:00</updated><id>https://openbazaar.github.io/official_site/blog/the-difference-between-cryptocurrency-payments-and-cryptocurrency-trading-in-openbazaar</id><content type="html" xml:base="https://openbazaar.github.io/official_site/blog/the-difference-between-cryptocurrency-payments-and-cryptocurrency-trading-in-openbazaar">&lt;p&gt;Cryptocurrencies are very exciting to us, which we think we’ve made pretty apparent. We did, after all, build the &lt;strong&gt;world’s first fully decentralized marketplace&lt;/strong&gt; to help cryptocurrency users find each other and buy and sell goods and services anywhere in the world using this groundbreaking new kind of money.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;While the “currency” part of cryptocurrency is particularly important to us, there are quite a few things other you can do with this technology, too.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Another important attribute they have is how they store and move value even when not measured against things like physical items or government-controlled currencies. With OpenBazaar we’ve been working hard to help users to do more things with the cryptocurrencies they love which now includes &lt;strong&gt;trading coins&lt;/strong&gt; as well as &lt;strong&gt;buying things&lt;/strong&gt;, both completely peer-to-peer. These two particular features are distinct though and we wanted to tell you a bit more about how they work.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;Setting-Up-a-New-Server-Node-Wallet-on-OpenBazaar-1.gif&quot; alt=&quot;Setting Up a New Server Node Wallet on OpenBazaar&quot; title=&quot;Setting Up a New Server Node Wallet on OpenBazaar&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;cryptocurrency-payments-in-openbazaar&quot;&gt;Cryptocurrency Payments in OpenBazaar&lt;/h2&gt;
+
+&lt;p&gt;Right now, sending and receiving payments for listings in OpenBazaar can be done with &lt;a href=&quot;https://bitcoin.org/&quot;&gt;Bitcoin&lt;/a&gt;, &lt;a href=&quot;https://bitcoin.org/&quot;&gt;Bitcoin Cash&lt;/a&gt; or &lt;a href=&quot;https://z.cash/&quot;&gt;Zcash&lt;/a&gt; (this integration is in Beta). These payments require that both the buyer and seller have wallets running the same coin.&lt;/p&gt;
+
+&lt;p&gt;Users can &lt;strong&gt;choose which of these 3 coins&lt;/strong&gt; they would like to run when they first set up their profile and/or store. If they would like to add additional coins they can easily set up additional profiles/stores to do so that are easy to switch between.&lt;/p&gt;
+
+&lt;h2 id=&quot;setting-up-a-new-server-node-wallet-on-openbazaar&quot;&gt;Setting Up a New Server Node Wallet on OpenBazaar&lt;/h2&gt;
+
+&lt;p&gt;They can also choose to add funds to their OpenBazaar wallets using any other coin they may have in an external wallet as enabled by the &lt;a href=&quot;https://shapeshift.io/&quot;&gt;Shapeshift&lt;/a&gt; Shifty Button integration. The coins will change and resolve to whichever of the 3 integrated coins the wallet is set to.&lt;/p&gt;
+
+&lt;p&gt;On the development side, integrating additional coins for payments like these 3 coins are is complicated to add and maintain with the current infrastructure. OpenBazaar requires that coins have certain technical attributes to be compatible with the checkout flow, they must have their own separate wallets within OpenBazaar, and users must run separate OpenBazaar nodes in order to support them.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;While we’ve made it easy to set up &amp;amp; toggle between different nodes running these different coins, we know this setup is far from ideal.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;why-is-it-set-up-this-way&quot;&gt;Why is it set up this way?&lt;/h2&gt;
+
+&lt;p&gt;This setup is the result of a choice we made to bridge a gap that opened up with Bitcoin when network transaction fees jumped very high at the end of 2017. We integrated Bitcoin Cash and Zcash quickly because of their technical similarity to Bitcoin, their supportive community and the ease of their implementation just to give users a couple more payment options that could allow them to circumvent these high fees if they wanted to.&lt;/p&gt;
+
+&lt;p&gt;Our plans now are to phase the network into a more inclusive structure starting with first &lt;strong&gt;combining these 3 payment coins into just one wallet&lt;/strong&gt;. This &lt;strong&gt;multicoin wallet&lt;/strong&gt; will allow users to easily use multiple coins at once rather than in separate nodes.&lt;/p&gt;
+
+&lt;p&gt;The long term goal is to expand the interface allow for any individual user to easily decide and set up whatever payment coins they would like to use.&lt;/p&gt;
+
+&lt;h2 id=&quot;cryptocurrency-trading-in-openbazaar&quot;&gt;Cryptocurrency Trading in OpenBazaar&lt;/h2&gt;
+
+&lt;p&gt;Cryptocurrency trading is a completely separate feature from the payment coins available in OpenBazaar. It’s enabled by a custom listing type that makes it easy for users to list and search for they coins they want to sell and buy. Users can buy and sell a variety of other coins but again, right now, they must use Bitcoin, Bitcoin Cash or Zcash for the actual payments.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;Setting-up-a-cryptocurrency-listing-on-OpenBazaar.gif&quot; alt=&quot;Setting Up a Cryptocurrency Listing for Sale on OpenBazaar&quot; title=&quot;Setting Up a Cryptocurrency Listing for Sale on OpenBazaar&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Right now OpenBazaar uses third parties to pull in token information for our cryptocurrency trading. We started with &lt;a href=&quot;https://bitcoinaverage.com/&quot;&gt;BitcoinAverage&lt;/a&gt; which provides 44 different coins users can list. Soon we will also be adding &lt;a href=&quot;https://coinmarketcap.com/&quot;&gt;CoinMarketCap&lt;/a&gt;’s index which will shoot the available coins up to over 1,500. All coins available on these two platforms will also be available in OpenBazaar for trading. In the future we will also be able to add individual coins and we will soon be sharing a process for getting your coin listed if it is not already available through these providers.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;Cryptocurrency-Trading-on-OpenBazaar-Home-Page.png&quot; alt=&quot;Cryptocurrency Trading on The OpenBazaar.com Home Page&quot; title=&quot;Cryptocurrency Trading on The OpenBazaar.com Home Page&quot; /&gt;
+&lt;em&gt;See how it works on OpenBazaar.com!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Now that you’re an expert in the existing structure of payment coins vs. trading coins, perhaps you’d be interested in what our development team is doing next with &lt;a href=&quot;http://bit.ly/2tynK31&quot;&gt;Ethereum&lt;/a&gt;?&lt;/p&gt;
+
+&lt;p&gt;If you’re ready put your cryptocurrencies to work, &lt;a href=&quot;https://openbazaar.org/download&quot;&gt;download OpenBazaar&lt;/a&gt; now!&lt;/p&gt;</content><author><name></name></author><summary type="html">Cryptocurrencies are very exciting to us, which we think we’ve made pretty apparent. We did, after all, build the world’s first fully decentralized marketplace to help cryptocurrency users find each other and buy and sell goods and services anywhere in the world using this groundbreaking new kind of money.</summary></entry><entry><title type="html">Does Toronto Have a Great Crypto Community – or The GREATEST Crypto Community?</title><link href="https://openbazaar.github.io/official_site/blog/does-toronto-have-a-great-crypto-community-or-the-greatest-crypto-community" rel="alternate" type="text/html" title="Does Toronto Have a Great Crypto Community – or &lt;span class='post-title-extra'&gt;The GREATEST &lt;/span&gt; Crypto Community?" /><published>2018-06-15T14:30:00+00:00</published><updated>2018-06-15T14:30:00+00:00</updated><id>https://openbazaar.github.io/official_site/blog/does-toronto-have-a-great-crypto-community-or-the-greatest-crypto-community</id><content type="html" xml:base="https://openbazaar.github.io/official_site/blog/does-toronto-have-a-great-crypto-community-or-the-greatest-crypto-community">&lt;p&gt;OB1 CEO and OpenBazaar Project Lead Brian Hoffman and I (OB1/OpenBazaar Marketing and Community Manager, Jenn Cloud), were pleased to spend some time last week with the excellent crypto community in Toronto, Ontario.&lt;/p&gt;
+
+&lt;p&gt;Thanks to a great idea from our Series A leading investor, &lt;a href=&quot;https://www.omersventures.com/&quot;&gt;OMERS Ventures&lt;/a&gt;, we hosted an OpenBazaar meetup on Wednesday night at &lt;a href=&quot;https://www.art-square.ca/&quot;&gt;Art Square Gallery&lt;/a&gt; across from the Art Gallery of Ontario in the heart of downtown Toronto. We had almost 130 people register for the event and over 70 showed up and packed the space to standing room only!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;OB1 CEO Brian Hoffman and Toronto Crypto Community.png&quot; alt=&quot;OpenBazaar Meetup - June 6 2018 - Toronto&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Brian presented a brief history of OpenBazaar (did you know that the &lt;a href=&quot;http://www.openbazaar.org/about/&quot;&gt;original codebase&lt;/a&gt; that was forked to become OpenBazaar was produced in Toronto?), shared the latest feature releases which are &lt;a href=&quot;https://www.openbazaar.org/blog/cryptocurrency-trading-now-available-on-openbazaar/&quot;&gt;cryptocurrency trading&lt;/a&gt; and &lt;a href=&quot;http://openbazaar.com/&quot;&gt;web browsing&lt;/a&gt;, and discussed &lt;a href=&quot;https://www.openbazaar.org/blog/openbazaar-2018-roadmap/&quot;&gt;future plans&lt;/a&gt; for the network. There was a great question and answer session at the end, people were very interested in the governance structures of the network and our upcoming token release, about which we know we’ve been quiet, but we will have more to share very soon.&lt;/p&gt;
+
+&lt;p&gt;Here’s a pro tip for when there is an OpenBazaar event near you: we gave out 3 deluxe swag bags to 3 attendees who had either bought or sold something on the marketplace so make sure you &lt;a href=&quot;https://www.openbazaar.org/download/&quot;&gt;check it out for yourself&lt;/a&gt;!&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Fab Toronto event w/ &lt;a href=&quot;https://twitter.com/brianchoffman?ref_src=twsrc%5Etfw&quot;&gt;@brianchoffman&lt;/a&gt; &lt;a href=&quot;https://twitter.com/openbazaar?ref_src=twsrc%5Etfw&quot;&gt;@openbazaar&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://twitter.com/wmougayar?ref_src=twsrc%5Etfw&quot;&gt;@wmougayar&lt;/a&gt;, diving into the case for &lt;a href=&quot;https://twitter.com/hashtag/decentralized?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#decentralized&lt;/a&gt; marketplaces&lt;br /&gt;- Censorship resistant p2p network&lt;br /&gt;- Marketplace &amp;amp; rules controlled by users&lt;br /&gt;- Privacy &amp;amp; no middlemen&lt;br /&gt;- Community driven innovation &amp;amp; network growth&lt;a href=&quot;https://twitter.com/hashtag/crypto?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#crypto&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/Bitcoin?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Bitcoin&lt;/a&gt; &lt;a href=&quot;https://t.co/7YhQIAI1D7&quot;&gt;pic.twitter.com/7YhQIAI1D7&lt;/a&gt;&lt;/p&gt;&amp;mdash; Mags (@Crypto_Mags) &lt;a href=&quot;https://twitter.com/Crypto_Mags/status/1004558004581122048?ref_src=twsrc%5Etfw&quot;&gt;June 7, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Thanks to Mags for this great tweet! I had the opportunity to meet her and so many great, SMART people including but not at all limited to Ibrahim, Ana, Mike, Brad, John, OpenBazaar vendor Sanda and a couple from Brazil, Michael and Samara, who helped with the Portuguese translation of OpenBazaar. They even had a photo of the postcard I hand wrote and sent to them with their thank you t-shirts!&lt;/p&gt;
+
+&lt;p&gt;This event wouldn’t have been possible without the help of Lukas Royal and his team who located and secured an event space in record time near the OMERS office, set up the event on Meetup and established a Telegram group for community discussion. Special thanks also goes to one of our investors, &lt;a href=&quot;https://twitter.com/wmougayar&quot;&gt;William Mougayar&lt;/a&gt;, who shared this event with his network and created a spike of RSVPs. You all are wonderful and we thank you so much for your support and really making this event a success!&lt;/p&gt;
+
+&lt;p&gt;Are you interested in hosting an OpenBazaar event near you? Please &lt;a href=&quot;https://openbazaar.org/meet&quot;&gt;get in touch&lt;/a&gt;!&lt;/p&gt;</content><author><name></name></author><summary type="html">OB1 CEO and OpenBazaar Project Lead Brian Hoffman and I (OB1/OpenBazaar Marketing and Community Manager, Jenn Cloud), were pleased to spend some time last week with the excellent crypto community in Toronto, Ontario.</summary></entry><entry><title type="html">Valuing Privacy &amp;amp; still Getting Data from a Decentralized Network</title><link href="https://openbazaar.github.io/official_site/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network" rel="alternate" type="text/html" title="Valuing Privacy &lt;span class='post-title-extra'&gt;&amp; still Getting Data&lt;/span&gt; from a Decentralized Network" /><published>2018-05-30T03:30:00+00:00</published><updated>2018-05-30T03:30:00+00:00</updated><id>https://openbazaar.github.io/official_site/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network</id><content type="html" xml:base="https://openbazaar.github.io/official_site/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network">&lt;p&gt;Facebook knows exactly how many users are on their platform. Amazon knows exactly how many products are sold. Instagram knows exactly how many photos are shared.&lt;/p&gt;
 
 &lt;p&gt;In contrast, no one knows how many people use Bitcoin. No one knows how many files have been shared over Bittorrent. No one knows how many trades happen on OpenBazaar.&lt;/p&gt;
 
@@ -400,58 +464,4 @@
 
 &lt;p&gt;OB1 CEO Brian Hoffman said, “We are pleased to be partnering with both OMERS Ventures and Bitmain, adding them to a powerhouse international team of investors that are helping our team continue to build the future of free trade on the Internet worldwide. Our goal is to see the OpenBazaar protocol and software empower business owners and consumers alike to shift away from the corporate-controlled legacy systems and engage in ecommerce in a free, fair and independent way.”&lt;/p&gt;
 
-&lt;p&gt;Users and fans can follow the progress of this open source project and join their community on &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/openbazaar&quot;&gt;Twitter&lt;/a&gt;, and &lt;a href=&quot;https://reddit.com/r/openbazaar&quot;&gt;Reddit&lt;/a&gt; and download the desktop application at &lt;a href=&quot;/official_site/download/&quot;&gt;OpenBazaar.org&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Washington, D.C. – March 13, 2018 – OB1, the company building OpenBazaar, today announced a series A round of $5 million. The funds will help capitalize on the explosive growth that OpenBazaar has seen as blockchain and cryptocurrencies have become mainstream. OpenBazaar is the only e-commerce marketplace that offers secure, commission-free trade for both buyers and sellers.</summary></entry><entry><title type="html">[VIDEO] Why OpenBazaar is Integrating New Cryptocurrencies</title><link href="https://openbazaar.github.io/official_site/blog/why-openbazaar-is-integrating-new-cryptocurrencies" rel="alternate" type="text/html" title="[VIDEO] Why OpenBazaar is &lt;span class=&quot;post-title-extra-alternative&quot;&gt;Integrating New Cryptocurrencies&lt;/span&gt;" /><published>2018-02-20T03:49:16+00:00</published><updated>2018-02-20T03:49:16+00:00</updated><id>https://openbazaar.github.io/official_site/blog/why-openbazaar-is-integrating-new-cryptocurrencies</id><content type="html" xml:base="https://openbazaar.github.io/official_site/blog/why-openbazaar-is-integrating-new-cryptocurrencies">&lt;p&gt;OpenBazaar has integrated Bitcoin Cash and Zcash (Beta) for payments. Why?&lt;/p&gt;
-
-&lt;p&gt;For a few reasons, but two important ones at the core. The first relates to the vision of what we want OpenBazaar to become and the second was just &lt;em&gt;practical&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Check out this video &lt;a href=&quot;https://ob1.io&quot;&gt;OB1&lt;/a&gt; Co-Founder, &lt;strong&gt;Sam Patterson&lt;/strong&gt;, made to explain:&lt;/p&gt;
-
-&lt;div class=&quot;embed-responsive embed-responsive-16by9 mb-5&quot;&gt;
-    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/H4yW20txnB0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;These were the first cryptocurrencies other than Bitcoin to be natively integrated which means that sellers can now receive their payments in these coins. Buyers can also pay with any of dozens of coins as supported by &lt;a href=&quot;https://shapeshift.io&quot;&gt;Shapeshift&lt;/a&gt; and both of these features give users even more opportunities for customization and control in this decentralized marketplace.&lt;/p&gt;
-
-&lt;p&gt;Bitcoin Cash and &lt;a href=&quot;https://z.cash&quot;&gt;Zcash&lt;/a&gt; were chosen to integrate first due to their general technical compatibility with OpenBazaar – being similar to Bitcoin – and the availability of shared development support. Additional coin integrations are coming soon!&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Want to learn more about coin integrations in OpenBazaar?&lt;/strong&gt;&lt;br /&gt;
-Please join us on &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt;!&lt;/p&gt;</content><author><name></name></author><summary type="html">OpenBazaar has integrated Bitcoin Cash and Zcash (Beta) for payments. Why?</summary></entry><entry><title type="html">Bitcoin Cash Giveaway - How to Claim your $10 in BCH</title><link href="https://openbazaar.github.io/official_site/blog/bitcoin-cash-giveaway-how-to-claim-your-$10-in-bch" rel="alternate" type="text/html" title="Bitcoin Cash Giveaway - &lt;span class=&quot;post-title-extra-alternative&quot;&gt;How to Claim your $10 in BCH&lt;/span&gt;" /><published>2018-02-07T03:30:00+00:00</published><updated>2018-02-07T03:30:00+00:00</updated><id>https://openbazaar.github.io/official_site/blog/bitcoin-cash-giveaway-%E2%80%93-how-to-claim-your-$10-in-bch</id><content type="html" xml:base="https://openbazaar.github.io/official_site/blog/bitcoin-cash-giveaway-how-to-claim-your-$10-in-bch">&lt;h2 id=&quot;due-to-overwhelming-response-the-bch-giveaway-promotion-is-now-closed-as-of-8am-cst-saturday-february-10th-we-are-working-through-sending-payouts-for-existing-submissions-so-your-patience-is-appreciated&quot;&gt;Due to overwhelming response the BCH giveaway promotion is now closed as of 8am CST Saturday, February 10th. We are working through sending payouts for existing submissions so your patience is appreciated!&lt;/h2&gt;
-
-&lt;div class=&quot;media post-media&quot;&gt;
-  &lt;div&gt;
-    &lt;p&gt;&lt;img src=&quot;bitcoin-cash.png&quot; alt=&quot;Bitcoin cash&quot; class=&quot;mr-3 post-media-image&quot; /&gt;&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;media-body mt-3&quot;&gt;
-    &lt;p&gt;To celebrate the launch of &lt;a href=&quot;https://www.bitcoincash.org&quot;&gt;Bitcoin Cash&lt;/a&gt; and &lt;a href=&quot;https://z.cash./&quot;&gt;Zcash&lt;/a&gt; (Beta) integrations on OpenBazaar last week we are doing something fun!&lt;/p&gt;
-    &lt;p&gt;This week we will be giving away $10 in Bitcoin Cash to users who set up a new BCH node on OpenBazaar.&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;heres-how-to-claim-yours&quot;&gt;Here’s how to claim yours:&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;First&lt;/strong&gt;, start a Bitcoin Cash node on OpenBazaar! Here’s how:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Next&lt;/strong&gt;, tag &lt;a href=&quot;https://twitter.com/openbazaar&quot;&gt;@OpenBazaar&lt;/a&gt; in a tweet including &lt;strong&gt;these 4 things:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Your &lt;strong&gt;OpenBazaar Peer ID&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Your &lt;strong&gt;BCH wallet address&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;The hashtag &lt;strong&gt;#OpenBazaarBCH&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;A &lt;strong&gt;screengrab&lt;/strong&gt; of your home page&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;tweet.png&quot; alt=&quot;OpenBazaar BCH Giveaway Tweet Example&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Here’s the copy that you can select and fill with your own information to enter! Just make sure to also add your screengrab to the tweet:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Hey @OpenBazaar, I want my $BCH! My Peer ID is ob://QmSkkZpNFzWubxE4p9Ejjo2CLqq61jxuRF26ZzCmCKaHcJ and my OB BCH wallet is bitcoincash:qqt0cgqnaypju2h2mu8awg40er3yuys2j50qvpkpgd #OpenBazaarBCH&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Tweets that do not include &lt;strong&gt;ALL FOUR&lt;/strong&gt; of these items will be considered invalid. Contest runs from 9am CST Wednesday, February 7th until we announce the end on Twitter. Coins will be sent manually so please allow for up to 24 hours for receipt of your coins. One entry per user. Recently created Twitter accounts that appear to be auto-generated or spam will also be disqualified.&lt;/p&gt;
-
-&lt;h2 id=&quot;need-help-finding-your-bch-wallet&quot;&gt;Need help finding your BCH wallet?&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;Find-Your-BCH-Wallet-Address-in-OpenBazar.png&quot; alt=&quot;Find Your BCH Wallet Address in OpenBazar&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Due to overwhelming response the BCH giveaway promotion is now closed as of 8am CST Saturday, February 10th. We are working through sending payouts for existing submissions so your patience is appreciated!</summary></entry></feed>
+&lt;p&gt;Users and fans can follow the progress of this open source project and join their community on &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/openbazaar&quot;&gt;Twitter&lt;/a&gt;, and &lt;a href=&quot;https://reddit.com/r/openbazaar&quot;&gt;Reddit&lt;/a&gt; and download the desktop application at &lt;a href=&quot;/official_site/download/&quot;&gt;OpenBazaar.org&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Washington, D.C. – March 13, 2018 – OB1, the company building OpenBazaar, today announced a series A round of $5 million. The funds will help capitalize on the explosive growth that OpenBazaar has seen as blockchain and cryptocurrencies have become mainstream. OpenBazaar is the only e-commerce marketplace that offers secure, commission-free trade for both buyers and sellers.</summary></entry></feed>
