@@ -5,7 +5,7 @@ branches:
 rvm:
 - 2.3.3
 before_deploy:
-- openssl aes-256-cbc -K $encrypted_<...>_key -iv $encrypted_<...>_iv -in deploy_rsa.enc
+- openssl aes-256-cbc -K $encrypted_10978a7f2d99_key -iv $encrypted_10978a7f2d99_iv -in deploy_rsa.enc
   -out /tmp/deploy_rsa -d
 - eval "$(ssh-agent -s)"
 - chmod 600 /tmp/deploy\_rsa
@@ -17,9 +17,6 @@ script: "./script/cibuild"
 exclude:
 - vendor
 sudo: false
-before_install:
-- openssl aes-256-cbc -K $encrypted_10978a7f2d99_key -iv $encrypted_10978a7f2d99_iv
-  -in deploy_rsa.enc -out deploy_rsa -d
 env:
   global:
   - secure: mDA4W9Y7MtHEaB7/eNo7qkfEMSMR60RrXHyUQph7hI2vAPmKRW+kbfKRR6nWj43dxpxGuHMOLzLqNSPbIMAVk0Ag/Lgi9OFBBNbyjDp102IVWlOiU12LpWZUVDrlArdxtDh0blxz6nZlgSJ2D+k6d5T8+LxlV/w3eHoElw9uTdMybLTVXabPaiB9toUhsSfh02r3VziFClUluOc8Omw6ACqaIHc1NuKrticM2b4LQaTvT25RsaXabdIK/iCwFwRRvuE+JGjJRagca89Wk25RxCpW8LzA+zy9fS5SHvIWHukjFxpK3ikJNy8QuuVrWjXtoYSBx6KpoO3VmLInsBnva24OgUPLzdJ6xAkBr9iK9SWbQmFkUsG6mvCJaOgvmvKmndhoBZJWY9kUxack0pWIpel3VoMGrmUPSt+QZfZTu2YiokqQ57mOgZiHMvyUNuc+JiQGMtlcZZ2/Bkm0tLmvFlMa+W/n6UVl+Xlb2MpOYPzqYisyENo4EiINQJoCeuvDrFQPZMGN/e8WLPyGU2XdtHgiqQIaIWKAIpKvo5m7YYViF5eVf4L5Fj0r8uooIeBRdQTGVDmx+EEBGleAqMMadFkGs3fUpYBTX3wPGgkBSwO9hbM0IKI4+xJYcUNtyofBllNjFxcAOtR5rMW4VhsGmBFc4ZIVjPgOurifb3URf0E=
