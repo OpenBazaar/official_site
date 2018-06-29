@@ -1,15 +1,33 @@
 language: ruby
-# only run CI-builds on master branch
 branches:
   only:
   - master
 rvm:
 - 2.3.3
-# set execution permission on our build script
+before_deploy:
+- openssl aes-256-cbc -K $encrypted_<...>_key -iv $encrypted_<...>_iv -in deploy_rsa.enc
+  -out /tmp/deploy_rsa -d
+- eval "$(ssh-agent -s)"
+- chmod 600 /tmp/deploy\_rsa
+- ssh-add /tmp/deploy\_rsa
+- echo -e "Host $DEPLOY_HOST\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 before_script:
- - chmod +x ./script/cibuild
-# path to our build script. 
-# Travis will run `bundle install` by default before running our script
-script: ./script/cibuild
-exclude: [vendor]
+- chmod +x ./script/cibuild
+script: "./script/cibuild"
+exclude:
+- vendor
 sudo: false
+before_install:
+- openssl aes-256-cbc -K $encrypted_10978a7f2d99_key -iv $encrypted_10978a7f2d99_iv
+  -in deploy_rsa.enc -out deploy_rsa -d
+env:
+  global:
+  - secure: mDA4W9Y7MtHEaB7/eNo7qkfEMSMR60RrXHyUQph7hI2vAPmKRW+kbfKRR6nWj43dxpxGuHMOLzLqNSPbIMAVk0Ag/Lgi9OFBBNbyjDp102IVWlOiU12LpWZUVDrlArdxtDh0blxz6nZlgSJ2D+k6d5T8+LxlV/w3eHoElw9uTdMybLTVXabPaiB9toUhsSfh02r3VziFClUluOc8Omw6ACqaIHc1NuKrticM2b4LQaTvT25RsaXabdIK/iCwFwRRvuE+JGjJRagca89Wk25RxCpW8LzA+zy9fS5SHvIWHukjFxpK3ikJNy8QuuVrWjXtoYSBx6KpoO3VmLInsBnva24OgUPLzdJ6xAkBr9iK9SWbQmFkUsG6mvCJaOgvmvKmndhoBZJWY9kUxack0pWIpel3VoMGrmUPSt+QZfZTu2YiokqQ57mOgZiHMvyUNuc+JiQGMtlcZZ2/Bkm0tLmvFlMa+W/n6UVl+Xlb2MpOYPzqYisyENo4EiINQJoCeuvDrFQPZMGN/e8WLPyGU2XdtHgiqQIaIWKAIpKvo5m7YYViF5eVf4L5Fj0r8uooIeBRdQTGVDmx+EEBGleAqMMadFkGs3fUpYBTX3wPGgkBSwO9hbM0IKI4+xJYcUNtyofBllNjFxcAOtR5rMW4VhsGmBFc4ZIVjPgOurifb3URf0E=
+  - secure: Un7m3+k40Z9fgfUzjtYayVE7RzjBVGgQWOTHiq9E5DeS2sLTlLwYHx6a2iovPONMX0/YLfpAhqxjdWUC/G/8sKJ8BUUd28qgwwRTSKHXgP1L01+5EE+i6H3aQwO4dyrfbS0pGj5XunVWPwiFRcoQQ+6mxuwX6mYe4zxeZm+kzvk1XvkPq3uQoSweN8yK67GCFeZJxNj1JBMuZ4vfORQmfmRd3VaaQlnR6YX54ctTEAXbFo65d7xIPLIck/cQ5avPDfg+/stAsr7QZ7G5trIKn/G3CCUvivUgot2HjKeZNT/0GO/FTAyxharbKCpdZZEDdEvnxgTWNMlJJtL93MEp9c0eN9UxARKL10hfwx4aRgOsDBY/ZZy1VrxPeLYHWY3k+Y3g2+xd1ZZ+YbF6jZXpMYwzk0M56RuOGBGURbaSV6Ewt3yW892CX3iOw6lONhtXa8scq4WbIHWpK2IP7eoclONdHTCL/9ZDjKC0tCnLDRkpCIfiImXvPX8UnaKaujiPwguNpshHvHqr5R2hwsEGJhwU1KFa4cruN51tvLEQ/0h8NRJl5/oShCylPneVe2G5qu6KFc+RBliAYFnCxnJFGj1lwKJrScKXdSGbQo9rykRQkKq+Ku6a4K7KVkkrkXHKhuO4kIAQv++LzGkH+J8k+NOG3VVDT/SeC6bVpiumDsY=
+  - secure: sewRiUNpCzJC4GHY7dKfG2FlBFvuYmCkI8ugTBhMC2y+6Zx6Txay3xKYpRF7n66kIgrbxN6QKoOary4zOHnuurIUIX6Lp0SZ+nDCkOopJnduP0VkIGL4O8zMMjRdbTfejU9WCc+YBUMvhSDl6TdN2FlkG2iZ5zUdB7SFySkJJJ53NLVHjWdM2LHuV/Dxt5g4hoHrpWct2B1MMx0JASG46+PqSTp09zmSsWHWKR9cw4XME9K31eM1RyGr6s87lq0a+W0RC0CfczpW/ItU3kp6BTpThWeysb7Z42Ap2rtEF3D88SKpRA1CHmMNLJTiPrAfYxxIxBRCgCwVaw5Yu8Y97jAqay6VU1OxtkDfoAqzTbRlVHTOifSgYYoHoI5kmv3svlwAV/oQLMX91D4vAJZ3M32MDiX7PPQClKKa79qSJbW2oSTadFcwtkNkab1SnqA9c+bj9InwXMkoeRw9pKR95i9WxMbcmOrQWwUz272kO37A0aMierYAqPHEYc8Ix5H8wDjzireiYhMtHFfzyW/Y8B94oS+/n+Qe69prPupG2iUzwiChmBXCwo20DLc4qdXQZGh7Cm/fYzQD4SXPtHc/TDw5Ida7aDWyFvH/ltdI2+pRdoDnt4TGuTiDoU7Xjd0LoTq8qoWfUiRqvVcKfQLCJcJjUEp73Rw97DoG8QFsX08=
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: rsync -r --quiet --delete-after _site/* $DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_DIRECTORY
+  on:
+    branch: master
