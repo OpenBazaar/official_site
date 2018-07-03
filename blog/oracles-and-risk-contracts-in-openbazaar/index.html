@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Oracles and Risk Contracts in OpenBazaar | OpenBazaar</title>
+<meta name="generator" content="Jekyll v3.8.3" />
+<meta property="og:title" content="Oracles and Risk Contracts in OpenBazaar" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="https://openbazaar.github.io/blog/oracles-and-risk-contracts-in-openbazaar/" />
+<meta property="og:url" content="https://openbazaar.github.io/blog/oracles-and-risk-contracts-in-openbazaar/" />
+<meta property="og:site_name" content="OpenBazaar" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2015-11-03T03:30:00+00:00" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","url":"https://openbazaar.github.io/blog/oracles-and-risk-contracts-in-openbazaar/","headline":"Oracles and Risk Contracts in OpenBazaar","dateModified":"2015-11-03T03:30:00+00:00","datePublished":"2015-11-03T03:30:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://openbazaar.github.io/blog/oracles-and-risk-contracts-in-openbazaar/"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="shortcut icon" type="image/png" href="/favicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/main.css">
+  
+    <meta property="og:image" content="https://openbazaar.github.io/blog/">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+  <link type="application/atom+xml" rel="alternate" href="https://openbazaar.github.io/feed.xml" title="OpenBazaar" /><script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-P8J7H5F');
+</script>
+
+</head>
+<body><header class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="/">
+            <img class="openbazaar-logo" alt="openbazaar logo" src="/assets/home/openbazaar-logo-316bbba492da4a2a44a7ad012f1054fdf0c47c1068d5a949f86bab5ab23a5980.png" integrity="sha256-MWu7pJLaSipEp60BLxBU/fDEfBBo1alJ+GurWrI6WYA=" crossorigin="anonymous">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-top" aria-controls="navbar-top"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span> Menu
+        </button>
+        <div class="collapse navbar-collapse text-center text-lg-left" id="navbar-top">
+            
+            <ul class="navbar-nav ml-auto"><li class="nav-item ml-md-2 ">
+                    <a class="nav-link" href="/features/">Features
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2 ">
+                    <a class="nav-link" href="/applications/">
+                        Applications
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2">
+                    <a class="nav-link" href="https://api.openbazaar.org/" target="_blank">API</a>
+                </li>
+                <li class="nav-item ml-md-2 ">
+                    <a class="nav-link" href="/developers/">
+                        Developers
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2 ">
+                    <a class="nav-link" href="/support/">
+                        Support
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2 active ">
+                    <a class="nav-link" href="/blog/">
+                        Blog
+                        
+                            <span class="sr-only">(current)</span>
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2">
+                    <a href="/mobile-updates/" class="button small download d-lg-none">Get It for Desktop</a>
+                    <a href="/download/" class="button small download d-none d-lg-inline-flex">DOWNLOAD</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header><main class="page-content" aria-label="Content">
+      <div class="wrapper content">
+        <article class="container limited">
+    <div class="row">
+        <div class="col-12">
+            <section class="row pt-0 ">
+    
+        <div class="col-12 post-heading-image w-100 border-bottom">
+
+        </div>
+        <img class="post-openbazaar-logo mx-auto" alt="openbazaar-log0" src="/assets/blog/openbazaar-logo-9bc1d7020f444dc7e779cd01ca965d93105c47c54b6a58bd4d9df0592cf640f9.png" integrity="sha256-m8HXAg9ETcfnec0BypZdkxBcR8VLali9TZ3wWSz2QPk=" crossorigin="anonymous">
+    
+    <div class="col-12">
+        <div class="row text-center mt-4">
+            
+                <div class="col"></div>
+                <div class="col-8">
+                    <a href="/blog/oracles-and-risk-contracts-in-openbazaar/">
+                        <h3 class="post-title">
+                            Oracles and Risk Contracts in OpenBazaar
+                        </h3>
+                    </a>
+                </div>
+                <div class="col"></div>
+                <div class="col-12 d-flex justify-content-between my-4">
+                    <div class="post-emojis">
+                        <i class="fab fa-bitcoin post-icon-bitcoin"></i>
+                        <img draggable="false" class="emoji medium post-emoji" alt="world emoji" src="https://s.w.org/images/core/emoji/2.4/svg/1f30e.svg">
+                        <img draggable="false" class="emoji medium post-emoji" alt="✌" src="https://s.w.org/images/core/emoji/2.4/svg/270c.svg">
+                    </div>
+                    <a class="post-openbazaar-link" href="/">OpenBazaar.org</a>
+                </div>
+            
+            <div class="col-12 post-date text-left mb-3">
+                Nov 3, 2015
+            </div>
+            
+                <div class="col-12 text-left post-container">
+                    <p><a href="1-oWCGi1RYfyMAbKpobLkolA.png"><img src="1-oWCGi1RYfyMAbKpobLkolA.png" alt="1-oWCGi1RYfyMAbKpobLkolA" /></a></p>
+
+<p>OpenBazaar is, among other things, a contracting platform that enables two or more parties to trade any <em>thing.</em> But if there is a common theme to the last few articles we have published, it is that the applications don’t stop at traditional e-commerce.</p>
+
+<p>One application of particular interest is the formation of speculative contracts that depend on the unknown future <em>state</em> of an object or event.</p>
+
+<p>Speculative contracts are a fundamental component of the market economy. They form the basis of insurance policies, loans, and futures markets just to name a few.</p>
+
+<p>Typically, enforcement of speculative contracts are handled through the courts or trusted third parties that have exclusive control of funds. With Bitcoin and Ricardian contracts, speculative contracts can be resolved directly between two parties, or in cooperation with a mutually selected third party in the event of a dispute.</p>
+
+<p>To achieve this in OpenBazaar, we need to define a new user role on the network, an <em>Oracle,</em> who will report on the <em>state</em> of an object or event in the future. Secondly, we will need a Ricardian contract schema for various types of speculative contracts, which we will refer to as <strong>risk contracts</strong>.</p>
+
+<p>This article will review the role of <em>Oracles</em> in OpenBazaar and how risk contracts will be settled on the platform.</p>
+
+<h2 id="oracles">Oracles</h2>
+
+<p><strong>Oracles</strong> are nodes on the OpenBazaar network that report on the <em>state</em> of any object or event in the future. Based on the Oracle’s report, a <strong>risk contract</strong> is settled in favor of the user who correctly predicted the future <em>state</em>.</p>
+
+<p>In OpenBazaar, the responsibilities of an Oracle will depend on the individual user. In short, they can either serve as a:</p>
+
+<ol>
+  <li>Reporter</li>
+  <li>Escrow agent (i.e. Moderator)</li>
+</ol>
+
+<p>As a <strong>reporter</strong>, the <em>Oracle</em> can publicly report on the <em>state</em> of an object or event over time, which will serve as a data input for risk contracts between other users. These users may have little or no interaction with the Oracle directly, who can serve <em>state</em> reports in plain-text publicly or via OpenBazaar’s instant messaging service. <em>Oracles</em> may even report the <em>state</em> of an object or event using their own sophisticated APIs similar to <a href="https://www.realitykeys.com/">Reality Keys</a>. Critically, <strong>reporter</strong><em>Oracles</em> do not handle any user funds and are not Moderators.</p>
+
+<p><em>Oracles</em> can also serve as the escrow agent or <strong>Moderators</strong>, where the future_state_ of the object or event, which they report on, is the basis of releasing funds from multisignature escrow to the appropriate party. Releasing funds would be done in cooperation with the winning party. This service may only be necessary if the losing party is a <em>sore loser</em>, refusing to release funds for immature reasons. Ideally, <em>Oracles</em> would only be required to release funds in the event of a dispute.</p>
+
+<p>Just as with Moderators, an open market for <em>Oracles</em> introduces competitive forces and diversity to improve the quality and range of data sources. <em>Oracles_can advertise what categories of objects or events they will report on, and why they are uniquely qualified over their peers. The _Oracle’s</em> reputation system will reflect how accurately they report <em>state</em> and citing reputable sources.</p>
+
+<p>Any user can become an <em>Oracle</em>.</p>
+
+<h2 id="risk-contracts">Risk Contracts</h2>
+
+<p><strong>Risk contracts</strong> are a class of Ricardian contract that settle the transfer of funds to a party based on the future <em>state</em> of an object or event. There are four types of risk contracts that OpenBazaar will support:</p>
+
+<ol>
+  <li><strong>Lending and Bonds</strong> (peer-to-peer loans, debt securities)</li>
+  <li><strong>Insurance</strong> (dispute insurance, traditional consumer/business insurance)</li>
+  <li><strong>Forward and Futures</strong> (asset price speculation)</li>
+  <li><strong>Prediction/Information</strong> (object or event state speculation)</li>
+</ol>
+
+<p>For nearly all of these classes of risk contracts, an Oracle is required to validate the state of an object or event. In some contracts, the Moderator will act as the Oracle.</p>
+
+<p>The <strong>risk contract</strong> schema is comparable to that of typical e-commerce Ricardian contracts in OpenBazaar. As a quick refresher, every _listing contract_has the following objects that are filled with data:</p>
+
+<ol>
+  <li><strong>Metadata</strong> object — related to the type of contract and version of the contract</li>
+  <li><strong>ID of the Vendor</strong> object — e.g. GUID, blockchain ID (if stated), public keys</li>
+  <li><strong>Market</strong> object — semantic properties of the <em>thing</em> being sold</li>
+  <li><strong>Policy</strong> object— Terms and conditions, returns (if relevant)</li>
+  <li><strong>Moderator</strong> object— ID and public keys of the Moderator</li>
+</ol>
+
+<p>All of the above objects are signed with the Vendor’s GUID to complete the listing contract that is published to the network.</p>
+
+<p>In e-commerce contracts, the <strong>market object</strong> describes the physical/digital good or the type of service the user will perform. For example, this is the market object for a physical item:</p>
+
+<p>“item” : {
+    “title” : “”,
+    “description” : “”,
+    “condition” : “”,
+    “price_per_unit” : {
+       “bitcoin” : “”,
+       “fiat” : {
+          “price” : “”,
+          “currency_code” : “”
+       }
+    },
+    “item_properties” : “”,
+    “quantity” : “”,
+    “category” : [ “” ],
+    “image_hashes” : [ “” ],
+    “keywords” : [ “” ],
+    “process_time” : “”,
+    “sku” : “”
+}</p>
+
+<p>The <strong>market object</strong> will list specific contract details depending on the type of risk contract it is (e.g. loans: principal, interest, term; insurance: policy T&amp;Cs, premiums, excess etc). The reference market object, which captures the details for all types of risk contracts, is:</p>
+
+<p>“<strong>risk</strong>” : {
+   “type” : “”,                <strong>// Risk contract type</strong>
+   “description” : “”,         <strong>// Description of loan, policy, etc</strong>
+   “loan” : {                  <strong>// Denominated in bitcoin or fiat</strong>
+      “bitcoin” : “”,
+      “fiat” : {
+         “price” : “”,
+         “currency_code” : “”
+      }
+   },
+   “loan_repayments” : {
+      “interest_rate_pa”: 0,   <strong>// % per annum</strong>
+      “interest_calc”: “”,     <strong>// Daily, monthly, year</strong>
+      “repayments_sched”: “”,  <strong>// Repayment schedule</strong>
+      “bitcoin” : “”,          <strong>// Denominated in bitcoin or fiat</strong>
+      “fiat” : {
+         “price” : “”,
+         “currency_code” : “”
+      }
+   },
+   “loan_collateral” : {       <strong>// Denominated in bitcoin or fiat</strong>
+      “bitcoin” : “”,
+      “fiat” : {
+         “price” : “”,
+         “currency_code” : “”
+      }
+   },
+   “insurance_type” : “”,      <strong>// Full, partial, zero-limit</strong>
+   “policy_limit” : {          <strong>// Denominated in bitcoin or fiat</strong>
+      “bitcoin” : “”,
+      “fiat” : {
+         “price” : “”,
+         “currency_code” : “”
+      }
+   },
+   “insurance_reserve” : 0,    <strong>// % collateral to be kept in escrow</strong>
+   “insurance_coverage” : “”,  <strong>// What the policy covers</strong>
+   “insurance_premium” : {   <br />
+      “type” : “”,             <strong>// One-off or regular</strong>
+      “schedule” : “”,         <strong>// Payment frequency</strong>
+      “bitcoin” : “”,          <strong>// Denominated in bitcoin or fiat</strong>
+      “fiat” : {
+         “price” : “”,
+         “currency_code” : “”
+      }
+   },
+   “insurance_excess” : {      <strong>// Denominated in bitcoin or fiat</strong>
+      “bitcoin” : “”,
+      “fiat” : {
+         “price” : “”,
+         “currency_code” : “”
+      }
+   },
+   “futures_asset” : “”,       <strong>// Name of the asset</strong>
+   “limit_per_unit”: {         <strong>// Max up/down exposure</strong>
+      “bitcoin” : “”,
+      “fiat” : {
+         “price” : “”,
+         “currency_code” : “”
+      }
+   },
+   “prediction_state” : “”,    <strong>// Future state of object/event</strong>
+   “units” : “”,               <strong>// Quantity of asset/shares</strong> <strong>purchased</strong>
+   “price_per_unit” : {        <strong>// Future price; bitcoin or fiat</strong>
+      “bitcoin” : “”,
+      “fiat” : {
+         “price” : “”,
+         “currency_code” : “”
+      }
+   },
+   “position” : “”,            <strong>// Short, long</strong>
+   “term_days”: “”,            <strong>// Term of the contract</strong>
+   “oracle_source” : “”,       <strong>// Oracle user ID + sources</strong>
+   “keywords”: []              <strong>// Enhanced search</strong>
+}</p>
+
+<p>For each type of risk contract discussed below, we will examine the schema of the <strong>market</strong> <strong>object</strong> and briefly touch on the mechanics of the trade flow.</p>
+
+<h3 id="lending-and-bonds">Lending and Bonds</h3>
+
+<p><em>Peer-to-peer loans</em> and <em>bonds</em> can be offered in OpenBazaar using the following <strong>market object</strong>:</p>
+
+<p>“<strong>risk</strong>” : {
+   “type” : “loan”,
+   “description” : “”,         <strong>// Description of the loan</strong>
+   “loan_repayments” : {
+      “interest_rate_pa”: 0,   <strong>// % per annum</strong>
+      “interest_calc”: “”,     <strong>// Daily, monthly, year</strong>
+      “repayments_sched”: “”,  <strong>// Repayment schedule</strong>
+      “bitcoin” : “”,          <strong>// Denominated in bitcoin or fiat</strong>
+      “fiat” : {
+         “price” : “”,
+         “currency_code” : “”
+      }
+   },
+   “term”: “”,                 <strong>// Term of the loan</strong>
+   “loan_collateral” : {       <strong>// Denominated in bitcoin or fiat</strong>
+      “bitcoin” : “”,
+      “fiat” : {
+         “price” : “”,
+         “currency_code” : “”
+      }
+   },
+   “keywords”: []
+}</p>
+
+<p>For this type of contract, the Moderator acts as the <em>Oracle</em>, as the repayments are made to the Lender from the Buyer in bitcoin. The role of the <em>Oracle</em> in this scenario is to regulate the release of <em>collateral</em> (i.e. a reserve requirement) from the multisignature escrow address once the loan is repaid <strong>or</strong> the borrower has defaulted.</p>
+
+<p>In terms of discovery, the borrower may place an <em>invitation to tender</em> for a loan, where the above listing contract is a tender proposal. Creditors can submit their <em>loan offers</em> to the borrower, who sorts through the competing offers to select one with the best terms.</p>
+
+<p>This approach would give creditors a great deal of flexibility to tailor and compete on parameters such as the interest rate, reserve requirement, term, and repayment schedule <strong>based</strong> on the <em>reputation</em> of the borrower. Indeed, the creditor may require higher interest rates and collateral for pseudonymous users with a limited or poor reputation, relative to pseudonymous users with a high reputation or users with several public endpoints connected to their Blockchain ID.</p>
+
+<p>An alternate approach is for the creditor to offer standardized loans (i.e. bonds) on the network. Other users can purchase these bonds from the creditor, receiving interest repayments as per a normal bond. As this market matures, users will buy and sell bonds as a typical financial asset on the OpenBazaar network.</p>
+
+<p>Unlike physical or digital goods, or services, the <em>trade flow</em> is more straightforward after the loan is approved/bond purchased. Bitcoin repayments on principal and interest payments are made to addresses specified in the contract (<a href="https://blog.openbazaar.org/decentralized-reputation-in-openbazaar/">stage 3 of the trade flow</a>).</p>
+
+<p>The OpenBazaar application will keep track of repayments and manage dispute resolution through the Moderator as per normal.</p>
+
+<h3 id="insurance">Insurance</h3>
+
+<p><em>Insurance contracts</em> in OpenBazaar can be offered in one of three forms:</p>
+
+<ol>
+  <li>Fully collateralized</li>
+  <li>Partially collateralized</li>
+  <li>No limit</li>
+</ol>
+
+<p>A <strong>fully collateralized</strong> insurance contract would lock the entire value of the policy (i.e. the maximum coverage limit) in multisignature escrow, while the policyholder pays regular premiums to the insurer.</p>
+
+<p>Theoretically, the accrued premiums plus collateral would be equal to the policy limit, but this may place the insurer at a financial disadvantage given that the policy funds are locked and are not yielding any interest.</p>
+
+<p>However, if there is no claim on the policy, the insurer will collect premiums that can be loosely considered a <em>financial</em> coupon that yields the insurer a reward for risking funds up-front for the policyholder. The <em>pseudo</em> coupon rate may be higher than low-yield government bonds, but significantly more risky. This may also turn insurance policies in OpenBazaar into tradeable financial instruments.</p>
+
+<p>Premiums for this type of insurance contract may be higher than standard policies, and may even exceed the policy limit. However, in exchange for the higher premiums, the policyholder is secure in the knowledge that if the policy is triggered, all of the funds are accessible.</p>
+
+<p>Unlike partially collateralized insurance contracts, there is <strong>zero chance</strong> <strong>of the insurer defaulting</strong> due to an inability to pay the policy limit, at the cost of the policyholder. This represents a significant technological advance in the insurance industry.</p>
+
+<p>A <strong>partially collateralized</strong> insurance contract only locks a percentage of the policy’s value in multisignature escrow throughout the life of the policy.</p>
+
+<p>As the full limit of the insurance policy is no longer locked in a multisignature escrow, the policyholder is now trusting the insurer to transfer the necessary amount of funds in the event of a claim. There is a risk of the insurer defaulting, which may be caused by financial mismanagement, higher than expected frequency/severity of claims, or simply fraud. A combination of regulation, reinsurance contracts, and transparent proof of reserves could potentially be used to mitigate the risk of the insurer defaulting.</p>
+
+<p>Partially collateralized insurance contracts characterizes the modern regulated insurance industry. This is only possible for traditional insurance companies because of the pooling of contracts, regulation, and access to reinsurance.</p>
+
+<p>A <strong>no limit</strong> insurance contracts technically fall under the ‘partially collateralized’ category. This contract doesn’t set a maximum coverage (i.e. the insurer is fully exposed to the total value of the item insured). Any amount of funds may be locked in multisignature escrow as collateral.</p>
+
+<p>The <strong>market object</strong> for all insurance contracts:</p>
+
+<p>“<strong>risk</strong>” : {
+   “type” : “insurance”,
+   “description” : “”,         <strong>// Description of policy</strong>
+   “insurance_type” : “”,      <strong>// Full, partial, zero-limit</strong>
+   “policy_limit” : {          <strong>// Denominated in bitcoin or fiat</strong>
+      “bitcoin” : “”,
+      “fiat” : {
+         “price” : “”,
+         “currency_code” : “”
+      }
+   },
+   “insurance_reserve” : 0,    <strong>// % collateral to be kept in escrow</strong>
+   “insurance_coverage” : “”,  <strong>// What the policy covers</strong>
+   “insurance_premium” : {   <br />
+      “type” : “”,             <strong>// One-off or regular</strong>
+      “schedule” : “”,         <strong>// Payment frequency</strong>
+      “bitcoin” : “”,          <strong>// Denominated in bitcoin or fiat</strong>
+      “fiat” : {
+         “price” : “”,
+         “currency_code” : “”
+      }
+   },
+   “insurance_excess” : {      <strong>// Denominated in bitcoin or fiat</strong>
+      “bitcoin” : “”,
+      “fiat” : {
+         “price” : “”,
+         “currency_code” : “”
+      }
+   },
+   “term_days”: “”,            <strong>// Term of the contract</strong>
+   “keywords”: []              <strong>// Enhanced search</strong>
+}</p>
+
+<p>If a claim is triggered, it may require the existing insurance contract to be replaced with a new insurance contract.</p>
+
+<p>Insurance contracts could be created for several applications such as:</p>
+
+<ol>
+  <li><strong>Dispute resolution insurance</strong> — in the event that a Vendor loses a disputed transaction in OpenBazaar</li>
+  <li><strong>Traditional consumer/commercial insurance </strong>— e.g. car insurance, house insurance, health insurance</li>
+  <li><strong>Credit default swaps</strong> — an <em>insurance</em> risk contract can be taken out to hedge against the risk of a <em>loan/bond</em> defaulting.</li>
+</ol>
+
+<p>Some of these contracts may require interaction with legacy stakeholders (i.e. the government), which will be the subject of a future article.</p>
+
+<h3 id="forward-and-futures">Forward and Futures</h3>
+
+<p>Forward and futures contracts allow two parties to speculate or hedge against the price of any asset.</p>
+
+<p>For example, a wheat farmer may take out a forward contract locking a sell order at a price of $100/bushel a year from now. This price would presumably guarantee the farmer to profit by an acceptable margin (provided at least X bushels are sold at that time), irrespective of whatever the actual market price is at the time.</p>
+
+<p>With the forward contract, the farmer <em>sacrifices</em> any profit that he might have gained had he risked selling at the market price a year later, <strong>if</strong> the market price had risen (e.g. $150/bush). Simultaneously, the forward contract_protects_ the farmer from potential losses <strong>if</strong> the market price decreases a year from now (e.g. $50/bushel).</p>
+
+<p>Typically, neither party intend to physically purchase/sell the underlying asset. Rather, they <em>novate</em> to settle the contract. Pure price speculation/hedging is the common purpose of forward/futures contracts.</p>
+
+<p><a href="https://gist.github.com/drwasho/04dbaf19da4f4a8ae512">The unique design of forward/futures contracts in OpenBazaar is described in some detail here</a>. The <em>updated</em> <strong>market object</strong> schema for forward/futures contracts:</p>
+
+<p>“<strong>risk</strong>” : {
+   “type” : “forward/futures”, 
+   “description” : “”,         <strong>// Description of forward/future</strong>
+   “futures_asset” : “”,       <strong>// Name of the asset</strong>
+   “price_per_unit” : {        <strong>// Future price; bitcoin or fiat</strong>
+      “bitcoin” : “”,
+      “fiat” : {
+         “price” : “”,
+         “currency_code” : “”
+      }
+   }, <br />
+   “limit_per_unit”: {         <strong>// Max up/down exposure</strong>
+      “bitcoin” : “”,
+      “fiat” : {
+         “price” : “”,
+         “currency_code” : “”
+      }
+   },
+   “units” : “”,               <strong>// Quantity of asset</strong> <strong>purchased</strong>
+   “position” : “”,            <strong>// Short, long, moderator</strong>
+   “term_days”: “”,            <strong>// Term of the contract</strong>
+   “oracle_source” : “”,       <strong>// Oracle user ID + sources</strong>
+   “keywords”: []              <strong>// Enhanced search</strong>
+}</p>
+
+<p>Under the ‘spot_price_source’ object, either an API source or an Oracle ID can be added to establish consensus on the tie-breaking rules governing the settlement of the contract.</p>
+
+<h3 id="predictioninformation">Prediction/Information</h3>
+
+<p>While forward and futures contract speculate and hedge against the price of an asset, <strong>prediction markets</strong> speculate and hedge against the future state any object or event.</p>
+
+<p>For example, a prediction contract can be established between Alice and Bob based on whether it will rain the next day in Brisbane, Australia. Alice and Bob deposit 0.5 bitcoin into 2-of-3 multisignature escrow (Moderator as backup); the total value in escrow is 1 bitcoin. Alice <em>goes long</em> (i.e. predicts rain) while Bob goes short on rain tomorrow. The next day comes and it rains; 1 bitcoin is paid out to Alice from escrow. If Bob doesn’t live in Brisbane, he may check with the Oracle (or the Weather Channel) to confirm that it did indeed rain before releasing the funds.</p>
+
+<p>In this example, the chance of rain was 50%. But imagine that Alice and Bob both know that the chances of rain the next day, according to the Weather Channel, is 90%. Alice, predicting rain, deposits 0.9 bitcoin into multisignature escrow, while Bob deposits 0.1 bitcoin. As before, the winner is paid out 1 bitcoin from escrow. While ostensibly it seems that Alice is risking more than Bob, in reality her risk is lower than Bob based on the knowledge provided by the Weather Channel. In other words, the odds are overwhelmingly in Alice’s favor to collect Bob’s 0.1 bitcoin. Another way to see it is that Alice is paying a premium, in terms of risk, to entice Bob to risk his bitcoin on the outcome of an event that is unlikely to go in his favor.</p>
+
+<p>There are a few key components to <strong>prediction markets</strong>:</p>
+
+<ol>
+  <li>Selecting an appropriate <em>Oracle</em></li>
+  <li>Listing and/or discovering available prediction contracts</li>
+</ol>
+
+<p><strong><em>Selecting an Oracle</em></strong></p>
+
+<p>The OpenBazaar application will allow users to query the network for nodes that have identified themselves as <em>Oracles</em>, much in the same way that Moderators will be selected.</p>
+
+<p>Users will be able to sort through Oracles based on reputation, category (e.g. Oracles dedicated to reporting sports games, weather, news etc), or fees. Oracles can also describe on their store-front in detail what type of reporting they perform and the sources they rely on.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/1200/1*jLRM0egPuDZ9qJrTdpqg2w.png" alt="" /></p>
+
+<p>As stated earlier, an <em>Oracle</em> may act as either a reporting source or Moderator in a prediction contract.</p>
+
+<p><strong><em>Discovering Prediction Contracts</em></strong></p>
+
+<p>Discovery of prediction contracts is a key challenge to form an efficient prediction market.</p>
+
+<p>Prediction contracts can be formed between two users on an <em>ad hoc</em> basis, with the details negotiated directly between them. In this case, either party can create the listing contract.</p>
+
+<p>Alternatively, prediction contracts could be created by <em>Oracles</em> who commit to: 1) reporting on the state of a future event, and 2) acting as a Moderator for any prediction contracts that arise from that report. Oracles would create the contract as a Moderator, leaving open slots for a long and short position on the event. The price per share of each contract, which reflects the likelihood of the event occurring, can be dynamically updated by the <em>Oracle</em> in real time based on their ability to match users going long or short.</p>
+
+<p>OpenBazaar has a ‘follow’ feature to enable notifications, which means that a user can be notified from the <em>Oracle</em> when new events will be reported on or new prediction contracts become available.</p>
+
+<p>To minimize trust, prediction contracts can be coordinated by neutral Moderators who are not <em>Oracles</em>, who rather cite a user(s) or source as the_Oracle._</p>
+
+<p>The <strong>market object</strong> for prediction contracts:</p>
+
+<p>“<strong>risk</strong>” : {
+   “type” : “prediction”,
+   “description” : “”,         <strong>// Description of prediction</strong>
+   “prediction_state” : “”,    <strong>// Future state of object/event</strong>
+   “units” : “”,               <strong>// Quantity of shares purchased</strong>
+   “price_per_unit” : {        <strong>// Future price; bitcoin or fiat</strong>
+      “bitcoin” : “”,
+      “fiat” : {
+         “price” : “”,
+         “currency_code” : “”
+      }
+   },
+   “position” : “”,            <strong>// Short, long</strong>
+   “term_days”: “”,            <strong>// Term of the contract</strong>
+   “oracle_source” : “”,       <strong>// Oracle user ID + sources</strong>
+   “keywords”: []              <strong>// Enhanced search</strong>
+}</p>
+
+<p>There are several projects attempting to create decentralized prediction markets, such as <a href="http://www.augur.net/">Augur</a> and <a href="http://www.truthcoin.info/">Truthcoin</a>. Undoubtedly there are potential collaborative opportunities, particularly when it comes to resolving <em>state</em> in a decentralized manner.</p>
+
+<p>What is the key difference between what we hope to implement in OpenBazaar versus say Augur? The core difference is mostly philosophical: we believe that low friction markets for third party Oracles can create a supply of highly reputable <em>state</em> reporting, at near marginal cost and at scale, over time.</p>
+
+<p>While Augur is attempting to create the purest form of near-trustless state reporting (kudos to them!), we believe that markets for third party _Oracles_can solve most of the challenges associated with creating a decentralized prediction market at a fraction of the technical difficulty. High value prediction contracts may benefit from the more sophisticated and lower trust-dependent approach taken by Augur.</p>
+
+<h2 id="deployment">Deployment</h2>
+
+<p>Implementation of risk contracts by OB1 developers is not expected until sometime next year. However, deployment may occur sooner with the help of volunteer and/or commercial contributors or partners.</p>
+
+<p>That said, the existing contract schema can be tailored to include the semantic data required for most risk contracts described in this article. Moderators can also include <em>Oracle</em>-based services in their store description. As a result, we may see some early experiments in risk contracts <em>in lieu</em> of an official implementation.</p>
+
+<h2 id="tldr">TL;DR</h2>
+
+<ul>
+  <li>OpenBazaar will enable a new user role: Oracles</li>
+  <li>Anyone can be an Oracle</li>
+  <li>Oracles can choose the level of involvement in individual transactions, from reporting to Moderating transactions</li>
+  <li>Risk contracts to be supported by OpenBazaar that will enable lending, insurance, forward/futures, and prediction markets</li>
+</ul>
+
+<h2 id="acknowledgements">Acknowledgements</h2>
+
+<ul>
+  <li><a href="https://twitter.com/onewayfunction">Austin Williams</a></li>
+  <li><a href="https://twitter.com/michaelfolkson">Michael Folkson</a></li>
+  <li>Dr Joseph Clark</li>
+  <li><a href="https://www.linkedin.com/pub/david-strayhorn/2/7a9/52">Dr David Strayhorn</a></li>
+  <li><a href="https://twitter.com/SamuelPatt">Sam Patterson</a></li>
+  <li><a href="https://twitter.com/iang_fc">Ian Grigg</a></li>
+</ul>
+
+                </div>
+            
+        </div>
+    </div>
+</section>
+        </div>
+    </div>
+</article>
+<div class="container-fluid mb-5">
+    <div class="row">
+        <div class="col-12 pb-4">
+            <hr class="help-us-separator">
+            <div class="container limited">
+                <p>
+                    <strong>Do you want to help build this with us?</strong>
+                </p>
+                <p>
+                    <a href="/download/" class="general-link">Download OpenBazaar</a> right now to get buying or selling in minutes or join us on
+                    <a class="general-link" href="https://github.com/openbazaar">Github</a> to contribute to the development of this open-source project!
+                </p>
+                <p>
+                    <!-- AddToAny BEGIN -->
+                    <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                        <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+                        <a class="a2a_button_tumblr"></a>
+                        <a class="a2a_button_facebook"></a>
+                        <a class="a2a_button_twitter"></a>
+                    </div>
+                    <script async src="https://static.addtoany.com/menu/page.js"></script>
+                    <!-- AddToAny END -->
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row recent-updates-wrapper border-bottom border-top">
+    <div class="col-12">
+        <section class="container">
+            <div class="row">
+                <div class="col-12 mb-4 emphasis-text">
+                    <h3 class="recent-updates-heading">Recent updates</h3>
+                </div>
+                <div class="col-12">
+                    <div class="card-deck text-center">
+                        
+                            <div class="card p-3 mb-4">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <a href="/blog/the-difference-between-cryptocurrency-payments-and-cryptocurrency-trading-in-openbazaar/">
+                                        <h5 class="recent-updates-title">The Difference Between Cryptocurrency Payments and Cryptocurrency Trading in OpenBazaar</h5>
+                                    </a>
+                                    <div class="recent-updates-body mt-2">
+                                        Cryptocurrencies are very exciting to us, which we think we’ve made pretty apparent. We did, after all, build the world’s first fully decentralized marketplace to help cryptocurrency users find each other and buy and sell goods and services anywhere in...
+                                    </div>
+
+                                    <a href="/blog/the-difference-between-cryptocurrency-payments-and-cryptocurrency-trading-in-openbazaar/" class="button small mt-4 mx-auto">read more</a>
+                                </div>
+                            </div>
+                        
+                            <div class="card p-3 mb-4">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <a href="/blog/does-toronto-have-a-great-crypto-community-or-the-greatest-crypto-community/">
+                                        <h5 class="recent-updates-title">Does Toronto Have a Great Crypto Community – or The GREATEST  Crypto Community?</h5>
+                                    </a>
+                                    <div class="recent-updates-body mt-2">
+                                        OB1 CEO and OpenBazaar Project Lead Brian Hoffman and I (OB1/OpenBazaar Marketing and Community Manager, Jenn Cloud), were pleased to spend some time last week with the excellent crypto community in Toronto, Ontario.
+
+
+                                    </div>
+
+                                    <a href="/blog/does-toronto-have-a-great-crypto-community-or-the-greatest-crypto-community/" class="button small mt-4 mx-auto">read more</a>
+                                </div>
+                            </div>
+                        
+                            <div class="card p-3 mb-4">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <a href="/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network/">
+                                        <h5 class="recent-updates-title">Valuing Privacy & still Getting Data from a Decentralized Network</h5>
+                                    </a>
+                                    <div class="recent-updates-body mt-2">
+                                        Facebook knows exactly how many users are on their platform. Amazon knows exactly how many products are sold. Instagram knows exactly how many photos are shared.
+
+
+                                    </div>
+
+                                    <a href="/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network/" class="button small mt-4 mx-auto">read more</a>
+                                </div>
+                            </div>
+                        
+                            <div class="card p-3 mb-4">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <a href="/blog/what-do-moderators-&-moderated-payments-do-on-openbazaar/">
+                                        <h5 class="recent-updates-title">What Do Moderators & Moderated Payments Do on OpenBazaar?</h5>
+                                    </a>
+                                    <div class="recent-updates-body mt-2">
+                                        Decentralizing ecommerce is an important part of the future we believe in. We are working to build a world with greater access to global commerce and more opportunities for people everywhere to build the lives they want. We believe this...
+                                    </div>
+
+                                    <a href="/blog/what-do-moderators-&-moderated-payments-do-on-openbazaar/" class="button small mt-4 mx-auto">read more</a>
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+</div>
+      </div>
+    </main><div class="container">
+    <footer class="row pb-4">
+        <div class="col-12 col-md-8">
+            <nav class="navbar navbar-expand-sm navbar-light">
+                <div class="collapse show navbar-collapse text-center text-sm-left" id="navbar-bottom">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link " href="/about/">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/events/">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/newsletter/">Newsletter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/contributors/">Contributors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/bitcoin/">Need Bitcoin?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/donate/">Donate</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/privacy/">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="col-12 col-md-4 d-flex flex-row justify-content-md-end justify-content-center">
+            <a href="https://twitter.com/openbazaar">
+                <i class="social-icon ml-2 fab fa-twitter d-flex align-items-center"></i>
+            </a>
+            <a href="/slack">
+                <i class="social-icon ml-2 fab fa-slack-hash d-flex align-items-center"></i>
+            </a>
+            <a href="https://www.reddit.com/r/OpenBazaar/">
+                <i class="social-icon ml-2 fab fa-reddit-alien d-flex align-items-center"></i>
+            </a>
+            <a href="https://github.com/openbazaar">
+                <i class="social-icon ml-2 fab fa-github d-flex align-items-center"></i>
+            </a>
+            <a href="mailto:project@openbazaar.org" target="_top">
+                <i class="social-icon ml-2 fas fa-envelope d-flex align-items-center"></i>
+            </a>
+        </div>
+    </footer>
+</div><!-- Google Tag Manager (noscript) -->
+<noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P8J7H5F" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="/assets/app-9011f493fc09e558e0b2bb00d1785f4117a54fcaae843db425deeb4a18cbb515.js" integrity="sha256-kBH0k/wJ5VjgsrsA0XhfQRelT8quhD20Jd7rShjLtRU=" crossorigin="anonymous" type="text/javascript"></script>
+  </body>
+
+</html>

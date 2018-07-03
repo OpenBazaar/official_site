@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>OpenBazaar Tester’s Guide | OpenBazaar</title>
+<meta name="generator" content="Jekyll v3.8.3" />
+<meta property="og:title" content="OpenBazaar Tester’s Guide" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="This article is to help OpenBazaar testers install the software, test it, and report any bugs or feedback to the development team. Thank you to all the testers out there helping us make OpenBazaar the best it can be! If you’ve already been testing and have a bug report to file or feedback to deliver, you can skip right to the reporting bugs section." />
+<meta property="og:description" content="This article is to help OpenBazaar testers install the software, test it, and report any bugs or feedback to the development team. Thank you to all the testers out there helping us make OpenBazaar the best it can be! If you’ve already been testing and have a bug report to file or feedback to deliver, you can skip right to the reporting bugs section." />
+<link rel="canonical" href="https://openbazaar.github.io/blog/openbazaar-testers-guide/" />
+<meta property="og:url" content="https://openbazaar.github.io/blog/openbazaar-testers-guide/" />
+<meta property="og:site_name" content="OpenBazaar" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2016-02-29T03:30:00+00:00" />
+<script type="application/ld+json">
+{"description":"This article is to help OpenBazaar testers install the software, test it, and report any bugs or feedback to the development team. Thank you to all the testers out there helping us make OpenBazaar the best it can be! If you’ve already been testing and have a bug report to file or feedback to deliver, you can skip right to the reporting bugs section.","@type":"BlogPosting","url":"https://openbazaar.github.io/blog/openbazaar-testers-guide/","headline":"OpenBazaar Tester’s Guide","dateModified":"2016-02-29T03:30:00+00:00","datePublished":"2016-02-29T03:30:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://openbazaar.github.io/blog/openbazaar-testers-guide/"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="shortcut icon" type="image/png" href="/favicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/main.css">
+  
+    <meta property="og:image" content="https://openbazaar.github.io/blog/">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+  <link type="application/atom+xml" rel="alternate" href="https://openbazaar.github.io/feed.xml" title="OpenBazaar" /><script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-P8J7H5F');
+</script>
+
+</head>
+<body><header class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="/">
+            <img class="openbazaar-logo" alt="openbazaar logo" src="/assets/home/openbazaar-logo-316bbba492da4a2a44a7ad012f1054fdf0c47c1068d5a949f86bab5ab23a5980.png" integrity="sha256-MWu7pJLaSipEp60BLxBU/fDEfBBo1alJ+GurWrI6WYA=" crossorigin="anonymous">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-top" aria-controls="navbar-top"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span> Menu
+        </button>
+        <div class="collapse navbar-collapse text-center text-lg-left" id="navbar-top">
+            
+            <ul class="navbar-nav ml-auto"><li class="nav-item ml-md-2 ">
+                    <a class="nav-link" href="/features/">Features
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2 ">
+                    <a class="nav-link" href="/applications/">
+                        Applications
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2">
+                    <a class="nav-link" href="https://api.openbazaar.org/" target="_blank">API</a>
+                </li>
+                <li class="nav-item ml-md-2 ">
+                    <a class="nav-link" href="/developers/">
+                        Developers
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2 ">
+                    <a class="nav-link" href="/support/">
+                        Support
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2 active ">
+                    <a class="nav-link" href="/blog/">
+                        Blog
+                        
+                            <span class="sr-only">(current)</span>
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2">
+                    <a href="/mobile-updates/" class="button small download d-lg-none">Get It for Desktop</a>
+                    <a href="/download/" class="button small download d-none d-lg-inline-flex">DOWNLOAD</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header><main class="page-content" aria-label="Content">
+      <div class="wrapper content">
+        <article class="container limited">
+    <div class="row">
+        <div class="col-12">
+            <section class="row pt-0 ">
+    
+        <div class="col-12 post-heading-image w-100 border-bottom">
+
+        </div>
+        <img class="post-openbazaar-logo mx-auto" alt="openbazaar-log0" src="/assets/blog/openbazaar-logo-9bc1d7020f444dc7e779cd01ca965d93105c47c54b6a58bd4d9df0592cf640f9.png" integrity="sha256-m8HXAg9ETcfnec0BypZdkxBcR8VLali9TZ3wWSz2QPk=" crossorigin="anonymous">
+    
+    <div class="col-12">
+        <div class="row text-center mt-4">
+            
+                <div class="col"></div>
+                <div class="col-8">
+                    <a href="/blog/openbazaar-testers-guide/">
+                        <h3 class="post-title">
+                            OpenBazaar Tester's Guide
+                        </h3>
+                    </a>
+                </div>
+                <div class="col"></div>
+                <div class="col-12 d-flex justify-content-between my-4">
+                    <div class="post-emojis">
+                        <i class="fab fa-bitcoin post-icon-bitcoin"></i>
+                        <img draggable="false" class="emoji medium post-emoji" alt="world emoji" src="https://s.w.org/images/core/emoji/2.4/svg/1f30e.svg">
+                        <img draggable="false" class="emoji medium post-emoji" alt="✌" src="https://s.w.org/images/core/emoji/2.4/svg/270c.svg">
+                    </div>
+                    <a class="post-openbazaar-link" href="/">OpenBazaar.org</a>
+                </div>
+            
+            <div class="col-12 post-date text-left mb-3">
+                Feb 29, 2016
+            </div>
+            
+                <div class="col-12 text-left post-container">
+                    <p>This article is to help OpenBazaar testers install the software, test it, and report any bugs or feedback to the development team. Thank you to all the testers out there helping us make OpenBazaar the best it can be! If you’ve already been testing and have a bug report to file or feedback to deliver, you can skip right to the <a href="#bugs">reporting bugs</a> section.</p>
+
+<h2 id="overview">Overview</h2>
+
+<p>To use OpenBazaar, you will need to run the OpenBazaar server and client. If you use the pre-built packages, these will be installed together. If you build OpenBazaar manually, they will be installed separately. The server is the program doing the work of communicating with other OpenBazaar nodes and managing your Bitcoin keys. The client is the visual interface you need to interact with the rest of the network. The server and client do not need to be run on the same machine; you can set up a server on a remote machine, run your client locally, and connect them together. In the initial testing period, the OpenBazaar network will solely be running on the testnet and using testnet Bitcoins. You can receive a small amount of testnet coins from <a href="https://tpfaucet.appspot.com/">this faucet</a>; please return them when done with testing. You can use a mobile app such as <a href="https://itunes.apple.com/us/app/copay-bitcoin-wallet/id951330296?mt=8">Copay</a> or <a href="https://play.google.com/store/apps/details?id=de.schildbach.wallet_test&amp;hl=en">testnet3</a> to receive and spend the testnet coins. Listings, sales, and purchases on the testnet should be assumed to be for testing purposes only. After this period we’ll transition to testing with real Bitcoin and real listings; please read the disclaimer at the beginning of the onboarding process. There are three user roles on the OpenBazaar network. Any user can fill any role or any combination of roles.</p>
+
+<h3 id="buyer">Buyer</h3>
+
+<p>A buyer will access the network solely to purchase goods or services, check on their order status, release funds to the vendor or dispute a transaction they’re involved with, and leave reviews on vendors. Buyers don’t need to run the OpenBazaar server or client regularly. They only run them when they want to access the network.</p>
+
+<h3 id="vendor">Vendor</h3>
+
+<p>A vendor will access the network in order to manage their online store. This include listing their goods or services, tracking order status, marking products as shipped, engaging in communication with buyers about open orders (or prospective clients’ questions), and managing disputes with the buyer and/or the moderator. Vendors need to run the OpenBazaar server continually in order for other users to see their listings. This can be done by running the server on local computer (anything from a typical PC to a Raspberry Pi Zero) and keeping it running 24/7, or by using a VPS such as <a href="https://www.digitalocean.com/">Digital Ocean</a> to host the server for them. Here is a <a href="https://openbazaar.zendesk.com/hc/en-us/articles/207852873-Guide-to-Setting-up-OpenBazaar-Server-on-a-VPS">guide</a> to installing the server on a VPS. The server is not a ‘heavy-duty’ server but a lightweight program that shouldn’t interfere with the normal operation of your computer, but if users have an unstable internet connection or aren’t willing to run their computer continually, they should consider hosted solutions. A vendor can run the client locally and connect to a server running locally or running remotely. The client doesn’t need to run for other users to see their store, purchase items, or receive chat messages, but without the client running you will be unaware of these events occurring until you connect the client to server later.</p>
+
+<h3 id="moderators">Moderators</h3>
+
+<p>A moderator will access the network in order to offer dispute resolution services to vendors and buyers, engage in dispute resolution if it occurs, and join with the winning party to release funds from the multisignature account. OpenBazaar uses a 2-of-3 multisig escrow to prevent scams on the network. Instead of a buyer sending Bitcoin directly to a vendor (which is also an option for buyers if they want to), the default transaction in OpenBazaar is to have the vendor choose a third party called a moderator. If the buyer agrees with the vendor’s choice of moderator, then they buy the item and send the Bitcoin to a multisig address with all three parties containing one signing key. If the transaction goes smoothly and the product is delivered or service rendered, then both buyer and vendor sign to release the money to the vendor (two of three signatures). If there’s a dispute, then both buyer and vendor make their case to the moderator. The moderator makes a decision and joins with the winning party to release the funds to them, or splits funds among the parties. This means the moderator plays a vital role in preventing bad actors from scamming people, and both vendors and buyers should select them with care. Just like vendors, moderators need to have their server running in order for other users to see them. They cannot be chosen to provide dispute resolution services if their store is offline.</p>
+
+<h2 id="installation">Installation</h2>
+
+<p>You can install OpenBazaar either by using a prebuilt package, or by manually installing via the command line. We want testers to use whichever they prefer, though we anticipate that most people will install OpenBazaar with a package. If you encounter an error with a package, installer, or manual installation, skip to the <a href="#bugs">reporting bugs</a> section to learn how to file a bug report.</p>
+
+<h3 id="packages">Packages</h3>
+
+<p>The packages for release can be found on our Github releases page at this link:</p>
+
+<h2 id="download-openbazaar"><a href="https://github.com/OpenBazaar/OpenBazaar-Installer/releases">Download OpenBazaar</a></h2>
+
+<p>Windows users use the OpenBazaar-1.X.X_Setup.<strong>exe</strong> file. After downloading and opening the file, Windows users will be guided through an installation process which should go very quickly. OS X users use the OpenBazaar-1.X.X.<strong>dmg</strong> file. Linux users use the .<strong>deb</strong> file. Once downloaded, open your terminal, change directory to where the .deb is located, and run “<em>sudo dpkg -i [deb package]</em>”. Then enter “openbazaar” in terminal and it will load.</p>
+
+<h3 id="manual-installation">Manual installation</h3>
+
+<p>Manual installation uses the command line, and git. Users will need to use git in order to update their code; it will not update automatically. We recommend manual installation only for users who are familiar with using the command line. If you have some technical expertise and want to manually install OpenBazaar, read <a href="https://slack-files.com/T02FPGBKB-F0KJU1CLX-cbbcf8a02c">these instructions</a>.</p>
+
+<h2 id="testing">Testing</h2>
+
+<p>Once OpenBazaar is properly installed, you can begin testing. Please ensure you are testing the latest code; if using the Windows installer or OSX package then the client should ask you to restart the client in order to use the latest code automatically. If using a manual installation on any platforms, please make sure to run ‘git pull’ on both server and client occasionally to keep updated. Feel free to play any role on the network, or all of them at once. If you are already a vendor online, consider trying to set up a store as you would if the platform were live. If you want a more methodical approach, you can use this <a href="https://docs.google.com/document/d/1GrgCz6GWUxjYlNEut4Ee20krCqhm1ypWZ9ays8HWI7k/edit?usp=sharing">testing script</a>. You will first go through a brief on-boarding process where the client asks a few questions to create a better commerce experience. After that you can set up your own store and begin listing products, or start buying products from other stores (or both). Keep in mind that if you are still early in the testing phase that the network will still be using the Bitcoin testnet (using testnet coins which have no value), and all products and services should be considered only examples for testing. If a user tests off the testnet and uses real Bitcoin, they are recommended to engage in smaller trades to reduce risk of lost coins. While testing you should be keeping an eye out for two things: 1. <strong>Bugs</strong>. These are problems with the software that prevent it from acting as it is supposed to. It might be a visual bug in the client which inhibits the user experience, or it might be a bug in the back end which prevents a user from participating in the network properly. Whatever the bug is, follow the instructions below about reporting bugs. 2. <strong>Suggestions for improvement</strong>. We don’t only want to know when something goes wrong. We’re building OpenBazaar to allow anyone to engage in trade for free with anyone else in the world. That’s an ambitious goal, and we don’t expect that the first version of the software will have everything users want. We want to hear from you how we can improve the platform. This includes both small and big-picture improvements. What feature is missing? Which feature isn’t necessary? We will be releasing new versions constantly after the initial release, and we want to hear from you in order to know what is most important to work on next besides bug fixes.</p>
+
+<h2 id="reporting-bugs-and-feedback">Reporting Bugs and Feedback</h2>
+
+<p> </p>
+
+<h3 id="bugs">Bugs</h3>
+
+<p>You’ve found a bug and want to report it. Thanks for your help! Please follow these steps to make the process easier for you and for the developers. 1. <strong>Check to see if this bug has already been reported</strong>. You don’t want to waste your own time or the time of the developers if this bug is already a known issue. Take note of the details around the bug, and then take two steps to ensure this bug isn’t already known. First, ask users in the #testers-room channel in the OpenBazaar Slack if they’ve seen the bug. Other testers or developers will be in the room and should be able to respond if it’s a known issue. If those users are unfamiliar with the bug, or if you don’t get a response, then the next step is to check the Github issues to look for the bug. You can view issues for the <a href="https://github.com/OpenBazaar/OpenBazaar-Client/issues">Client here</a> and issues for the <a href="https://github.com/OpenBazaar/OpenBazaar-Server/issues">Server here</a>. Scan the titles of the last few dozen issues, and/or use the search feature to find keywords related to your issue. If you find someone has already filed your issue, you can leave a Github comment in the thread mentioning that you have encountered the same issue. Include details of your operating system and any other details which might be helpful. If you don’t find the issue, continue to step two. 2. <strong>Gather as much information as you can about the problem</strong>. Take note of what you were doing before you noticed the problem, during it, and after as well. Try to be specific. If it’s a visual bug in the client, take a screenshot or video if possible. If you are able to view the terminal readout, include any errors you can see along with ~20 lines before and after the error (errors will usually start with ‘Traceback’). If you don’t use the terminal, you can check for errors in the debug log (debug.log file in the /home/OpenBazaar/ folder). You can include the error messages in the bug report, or if it is a lot of text, you can upload the error text to <a href="http://pastebin.com/">Pastebin</a> or other services and include a link to them in the report. 3. <strong>File the issue on Github</strong>. This requires you to create an account on Github if you don’t already have one. You can open new issues for the <a href="https://github.com/OpenBazaar/OpenBazaar-Client/issues/new">Client here</a> and for the <a href="https://github.com/OpenBazaar/OpenBazaar-Server/issues/new">Server here</a>. Bug reports should include all the information mentioned in step two, as well as information about your operating system (which type and version), how you installed OpenBazaar and what version of the code you’re currently running, and how severe you consider the bug. Attach the ‘bug’ label to the issue and then decide which other labels to apply, ranging from ‘low priority’ for minor problems to ‘showstopper’ for bugs that completely block functionality. Use your judgement as to how severe the problem is; if they developers disagree they’ll simply change the label you’ve added. If the bug is a major security flaw, please contact the developer team in <a href="https://openbazaar-slackin-drwasho.herokuapp.com/">Slack</a> to ensure it is addressed properly and in a timely manner. If you’re unable to file an issue yourself for some reason, please contact a developer in the Slack and relay your information to them directly. They will file an issue.</p>
+
+<h3 id="feedback">Feedback</h3>
+
+<p>You have some feedback for us on how to make OpenBazaar better. Excellent; we want to hear it. Please use the following format to make it easier to review incoming feedback. <strong>New feature or change to existing feature</strong>: <em>(Do you want new functionality completely or a change to something that already exists?)</em> <strong>Back-end or the front-end</strong>: <em>(Is this change in how OB works at the core, or in what the end user sees, or both?)</em> <strong>Magnitude of change</strong>: <em>(Trivial, Significant, or Massive. What type of effort would it take to bring about these changes?)</em> <strong>Description of suggestion</strong>: <em>Describe your suggestion</em>. You have several options for delivering this feedback. 1. <strong>Github issues</strong>. You can open a new issue with your feedback. We recommend this option for users who have a specific and detailed feature request or enhancement, and one that doesn’t describe a massive magnitude of change. Please use the “enhancement” label. 2. <strong>Subreddit post</strong>. You can post to our <a href="https://www.reddit.com/r/OpenBazaar">subreddit</a> with your feedback. We recommend this for feedback that doesn’t have a specific feature request in mind, or for changes describing a massive magnitude of change. Please begin the title of your post with the tag [Feedback]. 3. <strong>Slack</strong>. You can give feedback in our <a href="https://openbazaar-slackin-drwasho.herokuapp.com/">community Slack</a>. Use the #feedback channel. We recommend using Slack if the feedback doesn’t describe a specific feature request, and is more general feedback (‘overview’ type comments). 4. <strong>Email</strong>. If for some reason you prefer for your feedback to be private instead of public, you can email the developers at project@openbazaar.org with your thoughts.</p>
+
+<h3 id="reminder">Reminder</h3>
+
+<p>Please be patient during the testing phase; it’s possible that bugs may require you to delete your current installation entirely and reinstall. Also don’t forget that your page, store or listings will not transition from the testnet over to the live net. Thanks again for your help.</p>
+
+                </div>
+            
+        </div>
+    </div>
+</section>
+        </div>
+    </div>
+</article>
+<div class="container-fluid mb-5">
+    <div class="row">
+        <div class="col-12 pb-4">
+            <hr class="help-us-separator">
+            <div class="container limited">
+                <p>
+                    <strong>Do you want to help build this with us?</strong>
+                </p>
+                <p>
+                    <a href="/download/" class="general-link">Download OpenBazaar</a> right now to get buying or selling in minutes or join us on
+                    <a class="general-link" href="https://github.com/openbazaar">Github</a> to contribute to the development of this open-source project!
+                </p>
+                <p>
+                    <!-- AddToAny BEGIN -->
+                    <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                        <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+                        <a class="a2a_button_tumblr"></a>
+                        <a class="a2a_button_facebook"></a>
+                        <a class="a2a_button_twitter"></a>
+                    </div>
+                    <script async src="https://static.addtoany.com/menu/page.js"></script>
+                    <!-- AddToAny END -->
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row recent-updates-wrapper border-bottom border-top">
+    <div class="col-12">
+        <section class="container">
+            <div class="row">
+                <div class="col-12 mb-4 emphasis-text">
+                    <h3 class="recent-updates-heading">Recent updates</h3>
+                </div>
+                <div class="col-12">
+                    <div class="card-deck text-center">
+                        
+                            <div class="card p-3 mb-4">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <a href="/blog/the-difference-between-cryptocurrency-payments-and-cryptocurrency-trading-in-openbazaar/">
+                                        <h5 class="recent-updates-title">The Difference Between Cryptocurrency Payments and Cryptocurrency Trading in OpenBazaar</h5>
+                                    </a>
+                                    <div class="recent-updates-body mt-2">
+                                        Cryptocurrencies are very exciting to us, which we think we’ve made pretty apparent. We did, after all, build the world’s first fully decentralized marketplace to help cryptocurrency users find each other and buy and sell goods and services anywhere in...
+                                    </div>
+
+                                    <a href="/blog/the-difference-between-cryptocurrency-payments-and-cryptocurrency-trading-in-openbazaar/" class="button small mt-4 mx-auto">read more</a>
+                                </div>
+                            </div>
+                        
+                            <div class="card p-3 mb-4">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <a href="/blog/does-toronto-have-a-great-crypto-community-or-the-greatest-crypto-community/">
+                                        <h5 class="recent-updates-title">Does Toronto Have a Great Crypto Community – or The GREATEST  Crypto Community?</h5>
+                                    </a>
+                                    <div class="recent-updates-body mt-2">
+                                        OB1 CEO and OpenBazaar Project Lead Brian Hoffman and I (OB1/OpenBazaar Marketing and Community Manager, Jenn Cloud), were pleased to spend some time last week with the excellent crypto community in Toronto, Ontario.
+
+
+                                    </div>
+
+                                    <a href="/blog/does-toronto-have-a-great-crypto-community-or-the-greatest-crypto-community/" class="button small mt-4 mx-auto">read more</a>
+                                </div>
+                            </div>
+                        
+                            <div class="card p-3 mb-4">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <a href="/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network/">
+                                        <h5 class="recent-updates-title">Valuing Privacy & still Getting Data from a Decentralized Network</h5>
+                                    </a>
+                                    <div class="recent-updates-body mt-2">
+                                        Facebook knows exactly how many users are on their platform. Amazon knows exactly how many products are sold. Instagram knows exactly how many photos are shared.
+
+
+                                    </div>
+
+                                    <a href="/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network/" class="button small mt-4 mx-auto">read more</a>
+                                </div>
+                            </div>
+                        
+                            <div class="card p-3 mb-4">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <a href="/blog/what-do-moderators-&-moderated-payments-do-on-openbazaar/">
+                                        <h5 class="recent-updates-title">What Do Moderators & Moderated Payments Do on OpenBazaar?</h5>
+                                    </a>
+                                    <div class="recent-updates-body mt-2">
+                                        Decentralizing ecommerce is an important part of the future we believe in. We are working to build a world with greater access to global commerce and more opportunities for people everywhere to build the lives they want. We believe this...
+                                    </div>
+
+                                    <a href="/blog/what-do-moderators-&-moderated-payments-do-on-openbazaar/" class="button small mt-4 mx-auto">read more</a>
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+</div>
+      </div>
+    </main><div class="container">
+    <footer class="row pb-4">
+        <div class="col-12 col-md-8">
+            <nav class="navbar navbar-expand-sm navbar-light">
+                <div class="collapse show navbar-collapse text-center text-sm-left" id="navbar-bottom">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link " href="/about/">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/events/">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/newsletter/">Newsletter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/contributors/">Contributors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/bitcoin/">Need Bitcoin?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/donate/">Donate</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/privacy/">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="col-12 col-md-4 d-flex flex-row justify-content-md-end justify-content-center">
+            <a href="https://twitter.com/openbazaar">
+                <i class="social-icon ml-2 fab fa-twitter d-flex align-items-center"></i>
+            </a>
+            <a href="/slack">
+                <i class="social-icon ml-2 fab fa-slack-hash d-flex align-items-center"></i>
+            </a>
+            <a href="https://www.reddit.com/r/OpenBazaar/">
+                <i class="social-icon ml-2 fab fa-reddit-alien d-flex align-items-center"></i>
+            </a>
+            <a href="https://github.com/openbazaar">
+                <i class="social-icon ml-2 fab fa-github d-flex align-items-center"></i>
+            </a>
+            <a href="mailto:project@openbazaar.org" target="_top">
+                <i class="social-icon ml-2 fas fa-envelope d-flex align-items-center"></i>
+            </a>
+        </div>
+    </footer>
+</div><!-- Google Tag Manager (noscript) -->
+<noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P8J7H5F" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="/assets/app-9011f493fc09e558e0b2bb00d1785f4117a54fcaae843db425deeb4a18cbb515.js" integrity="sha256-kBH0k/wJ5VjgsrsA0XhfQRelT8quhD20Jd7rShjLtRU=" crossorigin="anonymous" type="text/javascript"></script>
+  </body>
+
+</html>

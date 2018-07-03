@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>OpenBazaar State of the Code; August 2014 | OpenBazaar</title>
+<meta name="generator" content="Jekyll v3.8.3" />
+<meta property="og:title" content="OpenBazaar State of the Code; August 2014" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="To help keep the community aware of OpenBazaar’s progress, I will occasionally publish an overview of where we are at in the project. Here’s our first “State of the Code”." />
+<meta property="og:description" content="To help keep the community aware of OpenBazaar’s progress, I will occasionally publish an overview of where we are at in the project. Here’s our first “State of the Code”." />
+<link rel="canonical" href="https://openbazaar.github.io/blog/openbazaar-state-of-the-code-august-2014/" />
+<meta property="og:url" content="https://openbazaar.github.io/blog/openbazaar-state-of-the-code-august-2014/" />
+<meta property="og:site_name" content="OpenBazaar" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2014-08-20T03:30:00+00:00" />
+<script type="application/ld+json">
+{"description":"To help keep the community aware of OpenBazaar’s progress, I will occasionally publish an overview of where we are at in the project. Here’s our first “State of the Code”.","@type":"BlogPosting","url":"https://openbazaar.github.io/blog/openbazaar-state-of-the-code-august-2014/","headline":"OpenBazaar State of the Code; August 2014","dateModified":"2014-08-20T03:30:00+00:00","datePublished":"2014-08-20T03:30:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://openbazaar.github.io/blog/openbazaar-state-of-the-code-august-2014/"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="shortcut icon" type="image/png" href="/favicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/main.css">
+  
+    <meta property="og:image" content="https://openbazaar.github.io/blog/">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+  <link type="application/atom+xml" rel="alternate" href="https://openbazaar.github.io/feed.xml" title="OpenBazaar" /><script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-P8J7H5F');
+</script>
+
+</head>
+<body><header class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="/">
+            <img class="openbazaar-logo" alt="openbazaar logo" src="/assets/home/openbazaar-logo-316bbba492da4a2a44a7ad012f1054fdf0c47c1068d5a949f86bab5ab23a5980.png" integrity="sha256-MWu7pJLaSipEp60BLxBU/fDEfBBo1alJ+GurWrI6WYA=" crossorigin="anonymous">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-top" aria-controls="navbar-top"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span> Menu
+        </button>
+        <div class="collapse navbar-collapse text-center text-lg-left" id="navbar-top">
+            
+            <ul class="navbar-nav ml-auto"><li class="nav-item ml-md-2 ">
+                    <a class="nav-link" href="/features/">Features
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2 ">
+                    <a class="nav-link" href="/applications/">
+                        Applications
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2">
+                    <a class="nav-link" href="https://api.openbazaar.org/" target="_blank">API</a>
+                </li>
+                <li class="nav-item ml-md-2 ">
+                    <a class="nav-link" href="/developers/">
+                        Developers
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2 ">
+                    <a class="nav-link" href="/support/">
+                        Support
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2 active ">
+                    <a class="nav-link" href="/blog/">
+                        Blog
+                        
+                            <span class="sr-only">(current)</span>
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2">
+                    <a href="/mobile-updates/" class="button small download d-lg-none">Get It for Desktop</a>
+                    <a href="/download/" class="button small download d-none d-lg-inline-flex">DOWNLOAD</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header><main class="page-content" aria-label="Content">
+      <div class="wrapper content">
+        <article class="container limited">
+    <div class="row">
+        <div class="col-12">
+            <section class="row pt-0 ">
+    
+        <div class="col-12 post-heading-image w-100 border-bottom">
+
+        </div>
+        <img class="post-openbazaar-logo mx-auto" alt="openbazaar-log0" src="/assets/blog/openbazaar-logo-9bc1d7020f444dc7e779cd01ca965d93105c47c54b6a58bd4d9df0592cf640f9.png" integrity="sha256-m8HXAg9ETcfnec0BypZdkxBcR8VLali9TZ3wWSz2QPk=" crossorigin="anonymous">
+    
+    <div class="col-12">
+        <div class="row text-center mt-4">
+            
+                <div class="col"></div>
+                <div class="col-8">
+                    <a href="/blog/openbazaar-state-of-the-code-august-2014/">
+                        <h3 class="post-title">
+                            OpenBazaar State of the Code; August 2014
+                        </h3>
+                    </a>
+                </div>
+                <div class="col"></div>
+                <div class="col-12 d-flex justify-content-between my-4">
+                    <div class="post-emojis">
+                        <i class="fab fa-bitcoin post-icon-bitcoin"></i>
+                        <img draggable="false" class="emoji medium post-emoji" alt="world emoji" src="https://s.w.org/images/core/emoji/2.4/svg/1f30e.svg">
+                        <img draggable="false" class="emoji medium post-emoji" alt="✌" src="https://s.w.org/images/core/emoji/2.4/svg/270c.svg">
+                    </div>
+                    <a class="post-openbazaar-link" href="/">OpenBazaar.org</a>
+                </div>
+            
+            <div class="col-12 post-date text-left mb-3">
+                Aug 20, 2014
+            </div>
+            
+                <div class="col-12 text-left post-container">
+                    <p>To help keep the community aware of <em>OpenBazaar’s</em> progress, I will occasionally publish an overview of where we are at in the project. Here’s our first “State of the Code”.</p>
+
+<h2 id="beta-release"><a href="https://gist.github.com/drwasho/e0b38474587df7379d67#beta-release"></a>Beta Release</h2>
+
+<p>Two months ago at the Bitcoin in the Beltway Conference I stood in front of the audience and presented our development roadmap for <em>OpenBazaar</em>. The first major milestone was an ambitious one: Beta Release at the end of August. [caption id=”attachment_60” align=”aligncenter” width=”1023”]<a href="BrianBeltway.jpg"><img src="BrianBeltway.jpg" alt="Brian presenting at Bitcoin Beltway - Image: Magnus" /></a> Brian presenting at Bitcoin Beltway - Image: Magnus[/caption] When I announced we would be releasing the first beta version of the product I envisioned a fairly small scope and was leveraging the teamwork of just a few individuals. Fortunately, since then our team has grown in size and expertise and that scope has grown. This will make <em>OpenBazaar</em> much more viable as a scalable and powerful solution. Therefore, we have decided to migrate from a simplified Beta then Full Release schedule to a much more nimble and continuous development process. This means that instead of simply launching a product and hoping the community finds it valuable, we are now able to continually work on the development and incorporate feedback from the community as we move forward. If you’ve been looking forward to testing <em>OpenBazaar</em> out, don’t worry: we will be releasing a version of the software that can be installed on Mac OSX, Linux and Windows on August 31st. As it’s the first Beta, it will be fairly limited in functionality and Sam Patterson will be posting a more detailed outline of this when we release.</p>
+
+<h2 id="other-updates"><a href="https://gist.github.com/drwasho/e0b38474587df7379d67#other-updates"></a>Other updates</h2>
+
+<p>I won’t even try to list all the developments and progress we’ve made since this project began. To summarize, we have been encouraged by the community support displayed, which has increased our appetite for making this project succeed.</p>
+
+<h3 id="team-member-updates"><a href="https://gist.github.com/drwasho/e0b38474587df7379d67#team-member-updates"></a>Team Member Updates</h3>
+
+<p>[caption id=”attachment_61” align=”aligncenter” width=”857”]<a href="OBteam.png"><img src="OBteam.png" alt="OpenBazaar Team Members" /></a> OpenBazaar Team Members[/caption] We are so excited to have so many great people helping out the project, and to see the number of contributors continue to increase. All of our team members participate for no payment and have contributed a massive amount of personal effort and time to get us where we are now, and for that I know I am grateful and I am pledging as much as I can to the project as well. If you know of others who are interested in assisting, please get in touch with us at <a href="mailto:project@openbazaar.org">project@openbazaar.org</a> so that we can help you figure out where it would be possible.</p>
+
+<h3 id="formalizing-the-organization"><a href="https://gist.github.com/drwasho/e0b38474587df7379d67#formalizing-the-organization"></a>Formalizing the Organization</h3>
+
+<p>Our team is currently looking at different ways to legitimize the project in ways that would benefit the community as a whole. We are not quite sure how this will happen, but rest assured our principles of <strong>zero fee</strong> operation and openness will remain. That being said, we are considering ways to bolster development and operational support in ways other than a funding address. We will let everyone know if any decisions are made one way or another.</p>
+
+<h3 id="partnerships"><a href="https://gist.github.com/drwasho/e0b38474587df7379d67#partnerships"></a>Partnerships</h3>
+
+<p>Over the last few months we have received many emails and messages from businesses small and large, who want to start using <em>OpenBazaar</em> as soon as possible. As we approach the Public Release of <em>OpenBazaar</em> at the end of the year (notional), we will be working with groups to line up some Day 1 merchants, notaries, and arbitration participants. If you are interested in this process please contact us at <a href="mailto:project@openbazaar.org">project@openbazaar.org</a> so that we can get you on our follow up list and help you find out more about how this will work. We have also been approached daily by almost every altcoin outside of Doge to incorporate it into the project. For the record, we aim to support altcoins capable of multisignature transactions. However, we have no definite timeline for altcoin support to give at this time. Many of you have donated to the cause (over 5 BTC raised), contributed to our development or written articles or tweets about us and we thank you graciously for all of that.</p>
+
+<h2 id="final-comments"><a href="https://gist.github.com/drwasho/e0b38474587df7379d67#final-comments"></a>Final Comments</h2>
+
+<p>Overall, the project is heading in a great direction. With the Bitcoin community’s help (and patience), we can deliver a product that will change how we use our Bitcoin for the better. Our goal remains simple: provide an easy to use application that anyone in the world can use to spend Bitcoin (or other crypto-currencies) on goods and services without an intermediary. There is no one way to accomplish this goal. We hope to innovate and inspire others to follow our lead in creating more decentralized services so that we can one day live and interact with each other with true freedom.</p>
+
+<p>-- <strong>Brian Hoffman</strong> <em>Project Lead</em></p>
+
+                </div>
+            
+        </div>
+    </div>
+</section>
+        </div>
+    </div>
+</article>
+<div class="container-fluid mb-5">
+    <div class="row">
+        <div class="col-12 pb-4">
+            <hr class="help-us-separator">
+            <div class="container limited">
+                <p>
+                    <strong>Do you want to help build this with us?</strong>
+                </p>
+                <p>
+                    <a href="/download/" class="general-link">Download OpenBazaar</a> right now to get buying or selling in minutes or join us on
+                    <a class="general-link" href="https://github.com/openbazaar">Github</a> to contribute to the development of this open-source project!
+                </p>
+                <p>
+                    <!-- AddToAny BEGIN -->
+                    <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                        <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+                        <a class="a2a_button_tumblr"></a>
+                        <a class="a2a_button_facebook"></a>
+                        <a class="a2a_button_twitter"></a>
+                    </div>
+                    <script async src="https://static.addtoany.com/menu/page.js"></script>
+                    <!-- AddToAny END -->
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row recent-updates-wrapper border-bottom border-top">
+    <div class="col-12">
+        <section class="container">
+            <div class="row">
+                <div class="col-12 mb-4 emphasis-text">
+                    <h3 class="recent-updates-heading">Recent updates</h3>
+                </div>
+                <div class="col-12">
+                    <div class="card-deck text-center">
+                        
+                            <div class="card p-3 mb-4">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <a href="/blog/the-difference-between-cryptocurrency-payments-and-cryptocurrency-trading-in-openbazaar/">
+                                        <h5 class="recent-updates-title">The Difference Between Cryptocurrency Payments and Cryptocurrency Trading in OpenBazaar</h5>
+                                    </a>
+                                    <div class="recent-updates-body mt-2">
+                                        Cryptocurrencies are very exciting to us, which we think we’ve made pretty apparent. We did, after all, build the world’s first fully decentralized marketplace to help cryptocurrency users find each other and buy and sell goods and services anywhere in...
+                                    </div>
+
+                                    <a href="/blog/the-difference-between-cryptocurrency-payments-and-cryptocurrency-trading-in-openbazaar/" class="button small mt-4 mx-auto">read more</a>
+                                </div>
+                            </div>
+                        
+                            <div class="card p-3 mb-4">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <a href="/blog/does-toronto-have-a-great-crypto-community-or-the-greatest-crypto-community/">
+                                        <h5 class="recent-updates-title">Does Toronto Have a Great Crypto Community – or The GREATEST  Crypto Community?</h5>
+                                    </a>
+                                    <div class="recent-updates-body mt-2">
+                                        OB1 CEO and OpenBazaar Project Lead Brian Hoffman and I (OB1/OpenBazaar Marketing and Community Manager, Jenn Cloud), were pleased to spend some time last week with the excellent crypto community in Toronto, Ontario.
+
+
+                                    </div>
+
+                                    <a href="/blog/does-toronto-have-a-great-crypto-community-or-the-greatest-crypto-community/" class="button small mt-4 mx-auto">read more</a>
+                                </div>
+                            </div>
+                        
+                            <div class="card p-3 mb-4">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <a href="/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network/">
+                                        <h5 class="recent-updates-title">Valuing Privacy & still Getting Data from a Decentralized Network</h5>
+                                    </a>
+                                    <div class="recent-updates-body mt-2">
+                                        Facebook knows exactly how many users are on their platform. Amazon knows exactly how many products are sold. Instagram knows exactly how many photos are shared.
+
+
+                                    </div>
+
+                                    <a href="/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network/" class="button small mt-4 mx-auto">read more</a>
+                                </div>
+                            </div>
+                        
+                            <div class="card p-3 mb-4">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <a href="/blog/what-do-moderators-&-moderated-payments-do-on-openbazaar/">
+                                        <h5 class="recent-updates-title">What Do Moderators & Moderated Payments Do on OpenBazaar?</h5>
+                                    </a>
+                                    <div class="recent-updates-body mt-2">
+                                        Decentralizing ecommerce is an important part of the future we believe in. We are working to build a world with greater access to global commerce and more opportunities for people everywhere to build the lives they want. We believe this...
+                                    </div>
+
+                                    <a href="/blog/what-do-moderators-&-moderated-payments-do-on-openbazaar/" class="button small mt-4 mx-auto">read more</a>
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+</div>
+      </div>
+    </main><div class="container">
+    <footer class="row pb-4">
+        <div class="col-12 col-md-8">
+            <nav class="navbar navbar-expand-sm navbar-light">
+                <div class="collapse show navbar-collapse text-center text-sm-left" id="navbar-bottom">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link " href="/about/">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/events/">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/newsletter/">Newsletter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/contributors/">Contributors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/bitcoin/">Need Bitcoin?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/donate/">Donate</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/privacy/">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="col-12 col-md-4 d-flex flex-row justify-content-md-end justify-content-center">
+            <a href="https://twitter.com/openbazaar">
+                <i class="social-icon ml-2 fab fa-twitter d-flex align-items-center"></i>
+            </a>
+            <a href="/slack">
+                <i class="social-icon ml-2 fab fa-slack-hash d-flex align-items-center"></i>
+            </a>
+            <a href="https://www.reddit.com/r/OpenBazaar/">
+                <i class="social-icon ml-2 fab fa-reddit-alien d-flex align-items-center"></i>
+            </a>
+            <a href="https://github.com/openbazaar">
+                <i class="social-icon ml-2 fab fa-github d-flex align-items-center"></i>
+            </a>
+            <a href="mailto:project@openbazaar.org" target="_top">
+                <i class="social-icon ml-2 fas fa-envelope d-flex align-items-center"></i>
+            </a>
+        </div>
+    </footer>
+</div><!-- Google Tag Manager (noscript) -->
+<noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P8J7H5F" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="/assets/app-9011f493fc09e558e0b2bb00d1785f4117a54fcaae843db425deeb4a18cbb515.js" integrity="sha256-kBH0k/wJ5VjgsrsA0XhfQRelT8quhD20Jd7rShjLtRU=" crossorigin="anonymous" type="text/javascript"></script>
+  </body>
+
+</html>

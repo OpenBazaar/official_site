@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>OpenBazaar User Tutorial | OpenBazaar</title>
+<meta name="generator" content="Jekyll v3.8.3" />
+<meta property="og:title" content="OpenBazaar User Tutorial" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="This tutorial will show users how to install OpenBazaar, navigate the network, and make purchases. If you have problems along the way, visit our help desk. If you want to chat with someone from the OpenBazaar community for help, or to give feedback on how OpenBazaar is working for you, join our Slack community." />
+<meta property="og:description" content="This tutorial will show users how to install OpenBazaar, navigate the network, and make purchases. If you have problems along the way, visit our help desk. If you want to chat with someone from the OpenBazaar community for help, or to give feedback on how OpenBazaar is working for you, join our Slack community." />
+<link rel="canonical" href="https://openbazaar.github.io/blog/openbazaar-user-tutorial/" />
+<meta property="og:url" content="https://openbazaar.github.io/blog/openbazaar-user-tutorial/" />
+<meta property="og:site_name" content="OpenBazaar" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2016-03-01T03:30:00+00:00" />
+<script type="application/ld+json">
+{"description":"This tutorial will show users how to install OpenBazaar, navigate the network, and make purchases. If you have problems along the way, visit our help desk. If you want to chat with someone from the OpenBazaar community for help, or to give feedback on how OpenBazaar is working for you, join our Slack community.","@type":"BlogPosting","url":"https://openbazaar.github.io/blog/openbazaar-user-tutorial/","headline":"OpenBazaar User Tutorial","dateModified":"2016-03-01T03:30:00+00:00","datePublished":"2016-03-01T03:30:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://openbazaar.github.io/blog/openbazaar-user-tutorial/"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="shortcut icon" type="image/png" href="/favicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/main.css">
+  
+    <meta property="og:image" content="https://openbazaar.github.io/blog/">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+  <link type="application/atom+xml" rel="alternate" href="https://openbazaar.github.io/feed.xml" title="OpenBazaar" /><script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-P8J7H5F');
+</script>
+
+</head>
+<body><header class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="/">
+            <img class="openbazaar-logo" alt="openbazaar logo" src="/assets/home/openbazaar-logo-316bbba492da4a2a44a7ad012f1054fdf0c47c1068d5a949f86bab5ab23a5980.png" integrity="sha256-MWu7pJLaSipEp60BLxBU/fDEfBBo1alJ+GurWrI6WYA=" crossorigin="anonymous">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-top" aria-controls="navbar-top"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span> Menu
+        </button>
+        <div class="collapse navbar-collapse text-center text-lg-left" id="navbar-top">
+            
+            <ul class="navbar-nav ml-auto"><li class="nav-item ml-md-2 ">
+                    <a class="nav-link" href="/features/">Features
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2 ">
+                    <a class="nav-link" href="/applications/">
+                        Applications
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2">
+                    <a class="nav-link" href="https://api.openbazaar.org/" target="_blank">API</a>
+                </li>
+                <li class="nav-item ml-md-2 ">
+                    <a class="nav-link" href="/developers/">
+                        Developers
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2 ">
+                    <a class="nav-link" href="/support/">
+                        Support
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2 active ">
+                    <a class="nav-link" href="/blog/">
+                        Blog
+                        
+                            <span class="sr-only">(current)</span>
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2">
+                    <a href="/mobile-updates/" class="button small download d-lg-none">Get It for Desktop</a>
+                    <a href="/download/" class="button small download d-none d-lg-inline-flex">DOWNLOAD</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header><main class="page-content" aria-label="Content">
+      <div class="wrapper content">
+        <article class="container limited">
+    <div class="row">
+        <div class="col-12">
+            <section class="row pt-0 ">
+    
+        <div class="col-12 post-heading-image w-100 border-bottom">
+
+        </div>
+        <img class="post-openbazaar-logo mx-auto" alt="openbazaar-log0" src="/assets/blog/openbazaar-logo-9bc1d7020f444dc7e779cd01ca965d93105c47c54b6a58bd4d9df0592cf640f9.png" integrity="sha256-m8HXAg9ETcfnec0BypZdkxBcR8VLali9TZ3wWSz2QPk=" crossorigin="anonymous">
+    
+    <div class="col-12">
+        <div class="row text-center mt-4">
+            
+                <div class="col"></div>
+                <div class="col-8">
+                    <a href="/blog/openbazaar-user-tutorial/">
+                        <h3 class="post-title">
+                            OpenBazaar User Tutorial
+                        </h3>
+                    </a>
+                </div>
+                <div class="col"></div>
+                <div class="col-12 d-flex justify-content-between my-4">
+                    <div class="post-emojis">
+                        <i class="fab fa-bitcoin post-icon-bitcoin"></i>
+                        <img draggable="false" class="emoji medium post-emoji" alt="world emoji" src="https://s.w.org/images/core/emoji/2.4/svg/1f30e.svg">
+                        <img draggable="false" class="emoji medium post-emoji" alt="✌" src="https://s.w.org/images/core/emoji/2.4/svg/270c.svg">
+                    </div>
+                    <a class="post-openbazaar-link" href="/">OpenBazaar.org</a>
+                </div>
+            
+            <div class="col-12 post-date text-left mb-3">
+                Mar 1, 2016
+            </div>
+            
+                <div class="col-12 text-left post-container">
+                    <p>This tutorial will show users how to install OpenBazaar, navigate the network, and make purchases. If you have problems along the way, visit our <a href="https://openbazaar.zendesk.com/hc/en-us">help desk</a>. If you want to chat with someone from the OpenBazaar community for help, or to give feedback on how OpenBazaar is working for you, <a href="http://slack.openbazaar.org/">join our Slack</a> community.</p>
+
+<h1 id="step-1---download-and-install-openbazaar">Step #1 - Download and install OpenBazaar</h1>
+
+<p>Most users will want to download a package for their operating system, which makes installation as simple as downloading and opening a file. If you have some technical expertise and want to manually install OpenBazaar, read <a href="https://slack-files.com/T02FPGBKB-F0KJU1CLX-cbbcf8a02c">these instructions</a>. The packages for release can be found on our Github releases page at this link:</p>
+
+<h2 id="download-openbazaar"><a href="https://github.com/OpenBazaar/OpenBazaar-Installer/releases">Download OpenBazaar</a></h2>
+
+<p>Windows users use the OpenBazaar-1.X.X_Setup.<strong>exe</strong> file. After downloading and opening the file, Windows users will be guided through an installation process which should go very quickly. OS X users use the OpenBazaar-1.X.X.<strong>dmg</strong> file. Linux users use the .<strong>deb</strong> file. Download and open the file.</p>
+
+<h1 id="step-2---run-openbazaar-for-the-first-time">Step #2 - Run OpenBazaar for the first time</h1>
+
+<p>The first time you run OpenBazaar you will be guided through an onboarding process to personalize your experience. You will be asked a few questions such as your language, country, and preferred currency. <a href="newuserpageOBID.png"><img src="newuserpageOBID.png" alt="onboarding1" /></a> Each user has their own page on the OpenBazaar network. You can choose a specific theme to make your store unique. <a href="newuserpageOBID.png"><img src="newuserpageOBID.png" alt="onboarding2" /></a> You also have the opportunity to upload an avatar for your store. Click on “Select Avatar” to choose a file from your computer. <a href="newuserpageOBID.png"><img src="newuserpageOBID.png" alt="onboarding3" /></a> The last part of the onboarding process is a disclaimer about using the OpenBazaar software, which you should read before continuing. After finishing onboarding, you’ll now see your own OpenBazaar page. Here’s what an example page looks like. <a href="newuserpageOBID.png"><img src="newuserpageOBID.png" alt="newuserpage" /></a> Notice the long string of characters below your name, and in the navigation bar at the top of the client. This is your OpenBazaar ID, which is an address that every page on the network has. You can learn more about OpenBazaar IDs <a href="newuserpageOBID.png">here</a>, and how to create simpler names called “handles” <a href="listingaddress2.png">here</a>. <a href="newuserpageOBID.png"><img src="newuserpageOBID.png" alt="newuserpageOBID" /></a></p>
+
+<h1 id="step-3---view-openbazaar-listings-and-stores">Step #3 - View OpenBazaar listings and stores</h1>
+
+<p>OpenBazaar is a network of users all over the world who host their own stores, and sell goods and services for Bitcoin. To view a random sampling of other stores, click on the “Discover” icon (looks like an eye) on the top right of the client. This will bring you to the main Discover page where you can view listings and stores on the OpenBazaar network. <a href="blockuser2.png"><img src="blockuser2.png" alt="discoverlistings" /></a> By default you’ll see listings, but if you click on the “Pages” tab you’ll be shown a list of pages which you can connect to. This isn’t a complete list of all the pages on the network; at any one time your own computer only connects to a subset of the overall network. <a href="blockuser2.png"><img src="blockuser2.png" alt="discoverpages2" /></a> Note that, by default, users will have a NSFW filter turned on that will hide listings which have been labeled NSFW by the vendor. You can turn off this filter by going into Settings &gt; General tab &gt; clicking “No” on the “Display NSFW Content?” option at the bottom &gt; Saving changes. If you see a listing which is inappropriate or offensive, you can block that user. Blocking another user means you will not see their items or store on your discover page. You can block a user by hovering over the listing and clicking “Block.” <a href="blockuser2.png"><img src="blockuser2.png" alt="blockuser2" /></a></p>
+
+<h3 id="navigation-bar">Navigation bar</h3>
+
+<p>You can also use the navigation bar to find other stores or listings. Every listing and store has an address on the network, and putting in that address will take you there, just like a website. For example, take note of the navigation bar on this image. By default, all pages have an address like this, called the OpenBazaar ID. Putting this address into the navigation bar will take you to their page if it’s online. <a href="listingaddress2.png"><img src="listingaddress2.png" alt="storenavigationbar2" /></a> Since this address isn’t memorable (similar to a Bitcoin address) there is a simpler way. OpenBazaar IDs can be tied to “Handles,” which are short names that can easily be entered into the navigation bar. For example, here’s a store with the handle @drwasho. If you want to set up your own handle, read <a href="listingaddress2.png">this article</a>. <a href="listingaddress2.png"><img src="listingaddress2.png" alt="storeHandle2" /></a> Listings have addresses as well. The address first contains the OpenBazaar ID or Handle of the store, and then /item/ followed by the address of the specific item. For example, this listing has the following address: <code class="highlighter-rouge">8ed937277cad44f4bda553bb2bc6b47e4b4a246e/item/86fda502a9175b8173cd540a355a23eecf20ea62</code> <a href="listingaddress2.png"><img src="listingaddress2.png" alt="listingaddress2" /></a> Copy these addresses in client with Ctrl+C, and paste them with Ctrl+V. You can use share these addresses on the web and other OpenBazaar users can navigate directly to the addresses by pasting them in their navigation bars.</p>
+
+<h3 id="chat-and-following">Chat and following</h3>
+
+<p>OpenBazaar isn’t a giant ecommerce site; it’s a group of people who all want to engage in peer to peer trade. If you want to talk with those people, you can by using the built-in chat function. Chat is encrypted end-to-end for user’s privacy. On any OpenBazaar page, you can message the owner of the page by clicking the “message” button. <a href="following.png"><img src="following.png" alt="storepagechat2" /></a> This opens the chat bar on the right of the client. You’ll see the user and their avatar at the top, your messages in the middle, and then a text field to type at the bottom. There’s also a dropdown on the right which allows you to view the users page and also block the user if they are harassing you. <a href="following.png"><img src="following.png" alt="storepagechatexample" /></a> If you want to remember a store you found, you can follow them, which will add them to your following list. On their page, click the follow button. <a href="following.png"><img src="following.png" alt="follow2" /></a> Then on your own page, you can click the following tab and see the stores you’ve followed. <a href="following.png"><img src="following.png" alt="following" /></a></p>
+
+<h1 id="step-4---buy-something">Step #4 - Buy something</h1>
+
+<p>OpenBazaar is all about creating a new peer to peer network for trade, using Bitcoin. So let’s buy something! Find an item you like and click the big “BUY NOW” button. The first time you purchase something on OpenBazaar, you’re going to be asked if you have a Bitcoin wallet or not. <a href="buyflowpaymentsuccess.png"><img src="buyflowpaymentsuccess.png" alt="buyflow1" /></a> If you don’t, you’ll get a list of wallet providers to choose from. You’ll need Bitcoin to buy anything on OpenBazaar, so if you don’t have Bitcoin yet then you should either become a vendor on OpenBazaar and sell some items to earn some Bitcoin, or buy some elsewhere. If you have Bitcoin, then you can proceed. If the vendor has chosen moderators, you’ll be asked to select from one of two payment types: 1. <strong>Direct Payment</strong> - The buyer sends the bitcoin directly to the vendor. 2. <strong>Moderated Payment</strong> - The buyer sends the bitcoin into an escrow account and they are released when the transaction is finished. You can read more about moderators and moderated payments <a href="buyflowpaymentsuccess.png">here</a>. The bottom line is this: Moderated payments give the buyer some protection against the vendor taking the money and not delivering the product. But it’s important to choose a trustworthy moderator. Forums such as <a href="buyflowpaymentsuccess.png">OpenBazaar Moderators</a> give people a place to discuss good or bad moderators. If you choose moderated payments, then your bitcoins will be sent into an escrow account (using a unique feature of Bitcoin called multisignature addresses) that will only allow the funds to move if two out of three parties agree. Those parties are the buyer, vendor, and the moderator. This is more secure than a direct payment, in which the vendor receives payment as soon as they process the order. After you choose which payment type you want, you will be asked to enter a Bitcoin address that you control. This address is only used in case there is a refund. Once you’ve entered this refund address the first time, you will not be asked again, but you can change it in settings. If you choose to create a temporary address with RushWallet, please <em>don’t forget to save the URL</em> so that you don’t lose it. If you are buying a physical item, you’ll now be asked to enter a shipping address. If the vendor doesn’t ship to your country then you’ll be unable to purchase the item. <a href="buyflowpaymentsuccess.png"><img src="buyflowpaymentsuccess.png" alt="buyflowshipping" /></a> You’ll then be shown a summary screen with details of your order, and quantity, shipping information and moderator details (if it’s a moderated payment). If you are satisfied and want to place and order, click the “Pay for Order” button. <a href="buyflowpaymentsuccess.png"><img src="buyflowpaymentsuccess.png" alt="buyflowfinal2" /></a> You’ll now be shown the last step in the purchasing process, the payment screen. If you’re familiar with Bitcoin then you’ve seen these QR codes many times. If you have a mobile Bitcoin wallet, simply scan the code and pay. If you have a local wallet, you can click “Open in Local Wallet” and you can finish payment there, or click “Copy to Clipboard” to get the payment address easily. <a href="buyflowpaymentsuccess.png"><img src="buyflowpaymentsuccess.png" alt="buyflowpayment" /></a> After paying you should see the payment screen change to indicate successful payment in only a few seconds. <a href="buyflowpaymentsuccess.png"><img src="buyflowpaymentsuccess.png" alt="buyflowpaymentsuccess" /></a> If you don’t see anything change within a few minutes, then you can click the “Refresh Payment Status” button to manually check for payment again. You’ve bought something, what now?</p>
+
+<h1 id="step-5---managing-orders">Step #5 - Managing orders</h1>
+
+<p>You can view your purchases by clicking on the menu on the top right of the client, and then on the “Purchases” section of the dropdown menu. <a href="purchasereleasefunds2.png"><img src="purchasereleasefunds2.png" alt="purchasesmenu2" /></a> This brings you to your transactions page, which shows you all of your purchases, sales (if a vendor) and cases (if a moderator). To view more details about a purchase, click on “Order Details.” <a href="purchasereleasefunds2.png"><img src="purchasereleasefunds2.png" alt="purchasesorderdetails2" /></a> In this window you’ll see several tabs. The first is a summary tab which gives you an overview of the order. The second is a funds tab which shows the details of all the Bitcoin transactions. The third is a Discussion tab which allows you to have a conversation with the vendor, as well as open a dispute with the moderator if it was a moderated transaction. <a href="purchasereleasefunds2.png"><img src="purchasereleasefunds2.png" alt="purchasemodaldiscussion" /></a> You may also have a shipping tab if you ordered a physical item. This tab will show the shipping address you provided. This window is also where you’ll finish up your orders if you selected a moderated payment. If the vendor shipped the item or delivered the service to your satisfaction, then you should complete the order releasing the funds to the vendor. This also gives you an opportunity to leave a rating for your transaction. After the vendor confirms the order on their end, you’ll have the opportunity press the “Complete this order” on the top left of the window. <a href="purchasereleasefunds2.png"><img src="purchasereleasefunds2.png" alt="purchasereleasefunds2" /></a> You’ll then be asked for the rating, and can scroll down to enter a text review as well. Click save and your rating will be left on the product, and funds will be released.</p>
+
+<h3 id="disputes">Disputes</h3>
+
+<p>What if the vendor never sends the product, or they sent something broken? If you have a problem with the vendor, the first step should be to contact them and ask for them to resolve the situation or ask for a refund. If the vendor is unresponsive or won’t cooperate, and you’ve selected a moderated transaction, you can then open a dispute and bring your case to the moderator. To do this, open the Discussion tab (we showed this above) on the order you placed. You’ll then be able to open a dispute by making your case to the moderator in the chat area, and checking a box on the bottom right labeled “Start a Dispute” then sending the message. <a href="disputeaccept2.png"><img src="disputeaccept2.png" alt="disputeopen2" /></a> The moderator will then be able to see the conversation from that point out. They should work with both buyer and seller to determine who will receive the funds in the escrow. Eventually the moderator should close the transaction, which will display the message “END DISPUTE” in the chat and also give you the option to accept the payout if you were the winning party. Notice in this example the payout amounts mentioned on the top of the window. If they look right, then you can click the “Accept Dispute Payout” button. <a href="disputeaccept2.png"><img src="disputeaccept2.png" alt="disputeaccept2" /></a> As soon as you accept the payout the funds will be released to you. Note that the moderator will be paid a percentage of the overall transaction if they are called upon to settle a dispute.</p>
+
+<h1 id="reminders">Reminders</h1>
+
+<p>If you want to go beyond just buying goods and services on OpenBazaar and become a vendor, you can learn more at the <a href="https://blog.openbazaar.org/vendors-guide-to-openbazaar/">Vendor’s Guide</a>. If you’re still using OpenBazaar in the test phase, you’ll need to use a testnet address and testnet coins instead of regular Bitcoin. There are more instructions in the <a href="https://blog.openbazaar.org/openbazaar-testers-guide/">tester’s guide</a>. If you need help, visit our <a href="https://openbazaar.zendesk.com/hc/en-us">help desk</a>. If you want to chat with someone from the OpenBazaar community for help, or to give feedback on how OpenBazaar is working for you, <a href="http://slack.openbazaar.org/">join our Slack</a> community. Let’s make trade free!</p>
+
+                </div>
+            
+        </div>
+    </div>
+</section>
+        </div>
+    </div>
+</article>
+<div class="container-fluid mb-5">
+    <div class="row">
+        <div class="col-12 pb-4">
+            <hr class="help-us-separator">
+            <div class="container limited">
+                <p>
+                    <strong>Do you want to help build this with us?</strong>
+                </p>
+                <p>
+                    <a href="/download/" class="general-link">Download OpenBazaar</a> right now to get buying or selling in minutes or join us on
+                    <a class="general-link" href="https://github.com/openbazaar">Github</a> to contribute to the development of this open-source project!
+                </p>
+                <p>
+                    <!-- AddToAny BEGIN -->
+                    <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                        <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+                        <a class="a2a_button_tumblr"></a>
+                        <a class="a2a_button_facebook"></a>
+                        <a class="a2a_button_twitter"></a>
+                    </div>
+                    <script async src="https://static.addtoany.com/menu/page.js"></script>
+                    <!-- AddToAny END -->
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row recent-updates-wrapper border-bottom border-top">
+    <div class="col-12">
+        <section class="container">
+            <div class="row">
+                <div class="col-12 mb-4 emphasis-text">
+                    <h3 class="recent-updates-heading">Recent updates</h3>
+                </div>
+                <div class="col-12">
+                    <div class="card-deck text-center">
+                        
+                            <div class="card p-3 mb-4">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <a href="/blog/the-difference-between-cryptocurrency-payments-and-cryptocurrency-trading-in-openbazaar/">
+                                        <h5 class="recent-updates-title">The Difference Between Cryptocurrency Payments and Cryptocurrency Trading in OpenBazaar</h5>
+                                    </a>
+                                    <div class="recent-updates-body mt-2">
+                                        Cryptocurrencies are very exciting to us, which we think we’ve made pretty apparent. We did, after all, build the world’s first fully decentralized marketplace to help cryptocurrency users find each other and buy and sell goods and services anywhere in...
+                                    </div>
+
+                                    <a href="/blog/the-difference-between-cryptocurrency-payments-and-cryptocurrency-trading-in-openbazaar/" class="button small mt-4 mx-auto">read more</a>
+                                </div>
+                            </div>
+                        
+                            <div class="card p-3 mb-4">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <a href="/blog/does-toronto-have-a-great-crypto-community-or-the-greatest-crypto-community/">
+                                        <h5 class="recent-updates-title">Does Toronto Have a Great Crypto Community – or The GREATEST  Crypto Community?</h5>
+                                    </a>
+                                    <div class="recent-updates-body mt-2">
+                                        OB1 CEO and OpenBazaar Project Lead Brian Hoffman and I (OB1/OpenBazaar Marketing and Community Manager, Jenn Cloud), were pleased to spend some time last week with the excellent crypto community in Toronto, Ontario.
+
+
+                                    </div>
+
+                                    <a href="/blog/does-toronto-have-a-great-crypto-community-or-the-greatest-crypto-community/" class="button small mt-4 mx-auto">read more</a>
+                                </div>
+                            </div>
+                        
+                            <div class="card p-3 mb-4">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <a href="/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network/">
+                                        <h5 class="recent-updates-title">Valuing Privacy & still Getting Data from a Decentralized Network</h5>
+                                    </a>
+                                    <div class="recent-updates-body mt-2">
+                                        Facebook knows exactly how many users are on their platform. Amazon knows exactly how many products are sold. Instagram knows exactly how many photos are shared.
+
+
+                                    </div>
+
+                                    <a href="/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network/" class="button small mt-4 mx-auto">read more</a>
+                                </div>
+                            </div>
+                        
+                            <div class="card p-3 mb-4">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <a href="/blog/what-do-moderators-&-moderated-payments-do-on-openbazaar/">
+                                        <h5 class="recent-updates-title">What Do Moderators & Moderated Payments Do on OpenBazaar?</h5>
+                                    </a>
+                                    <div class="recent-updates-body mt-2">
+                                        Decentralizing ecommerce is an important part of the future we believe in. We are working to build a world with greater access to global commerce and more opportunities for people everywhere to build the lives they want. We believe this...
+                                    </div>
+
+                                    <a href="/blog/what-do-moderators-&-moderated-payments-do-on-openbazaar/" class="button small mt-4 mx-auto">read more</a>
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+</div>
+      </div>
+    </main><div class="container">
+    <footer class="row pb-4">
+        <div class="col-12 col-md-8">
+            <nav class="navbar navbar-expand-sm navbar-light">
+                <div class="collapse show navbar-collapse text-center text-sm-left" id="navbar-bottom">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link " href="/about/">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/events/">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/newsletter/">Newsletter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/contributors/">Contributors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/bitcoin/">Need Bitcoin?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/donate/">Donate</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/privacy/">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="col-12 col-md-4 d-flex flex-row justify-content-md-end justify-content-center">
+            <a href="https://twitter.com/openbazaar">
+                <i class="social-icon ml-2 fab fa-twitter d-flex align-items-center"></i>
+            </a>
+            <a href="/slack">
+                <i class="social-icon ml-2 fab fa-slack-hash d-flex align-items-center"></i>
+            </a>
+            <a href="https://www.reddit.com/r/OpenBazaar/">
+                <i class="social-icon ml-2 fab fa-reddit-alien d-flex align-items-center"></i>
+            </a>
+            <a href="https://github.com/openbazaar">
+                <i class="social-icon ml-2 fab fa-github d-flex align-items-center"></i>
+            </a>
+            <a href="mailto:project@openbazaar.org" target="_top">
+                <i class="social-icon ml-2 fas fa-envelope d-flex align-items-center"></i>
+            </a>
+        </div>
+    </footer>
+</div><!-- Google Tag Manager (noscript) -->
+<noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P8J7H5F" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="/assets/app-9011f493fc09e558e0b2bb00d1785f4117a54fcaae843db425deeb4a18cbb515.js" integrity="sha256-kBH0k/wJ5VjgsrsA0XhfQRelT8quhD20Jd7rShjLtRU=" crossorigin="anonymous" type="text/javascript"></script>
+  </body>
+
+</html>

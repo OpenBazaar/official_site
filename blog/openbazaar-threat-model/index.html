@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>OpenBazaar Threat Model | OpenBazaar</title>
+<meta name="generator" content="Jekyll v3.8.3" />
+<meta property="og:title" content="OpenBazaar Threat Model" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="This blog post outlines the security model and policies of OpenBazaar. It is written for contributors with push access who are asked to review and merge pull requests, external developers who are interested in submitting pull requests, and end-users who are interested in understanding the security model of OpenBazaar. We will also be including this threat model in our project documentation, but we are sharing on our blog first to solicit feedback from our users and security experts in the field. Every contributor with push access must read this document." />
+<meta property="og:description" content="This blog post outlines the security model and policies of OpenBazaar. It is written for contributors with push access who are asked to review and merge pull requests, external developers who are interested in submitting pull requests, and end-users who are interested in understanding the security model of OpenBazaar. We will also be including this threat model in our project documentation, but we are sharing on our blog first to solicit feedback from our users and security experts in the field. Every contributor with push access must read this document." />
+<link rel="canonical" href="https://openbazaar.github.io/blog/openbazaar-threat-model/" />
+<meta property="og:url" content="https://openbazaar.github.io/blog/openbazaar-threat-model/" />
+<meta property="og:site_name" content="OpenBazaar" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2015-04-17T03:30:00+00:00" />
+<script type="application/ld+json">
+{"description":"This blog post outlines the security model and policies of OpenBazaar. It is written for contributors with push access who are asked to review and merge pull requests, external developers who are interested in submitting pull requests, and end-users who are interested in understanding the security model of OpenBazaar. We will also be including this threat model in our project documentation, but we are sharing on our blog first to solicit feedback from our users and security experts in the field. Every contributor with push access must read this document.","@type":"BlogPosting","url":"https://openbazaar.github.io/blog/openbazaar-threat-model/","headline":"OpenBazaar Threat Model","dateModified":"2015-04-17T03:30:00+00:00","datePublished":"2015-04-17T03:30:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://openbazaar.github.io/blog/openbazaar-threat-model/"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="shortcut icon" type="image/png" href="/favicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/main.css">
+  
+    <meta property="og:image" content="https://openbazaar.github.io/blog/">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+  <link type="application/atom+xml" rel="alternate" href="https://openbazaar.github.io/feed.xml" title="OpenBazaar" /><script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-P8J7H5F');
+</script>
+
+</head>
+<body><header class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="/">
+            <img class="openbazaar-logo" alt="openbazaar logo" src="/assets/home/openbazaar-logo-316bbba492da4a2a44a7ad012f1054fdf0c47c1068d5a949f86bab5ab23a5980.png" integrity="sha256-MWu7pJLaSipEp60BLxBU/fDEfBBo1alJ+GurWrI6WYA=" crossorigin="anonymous">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-top" aria-controls="navbar-top"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span> Menu
+        </button>
+        <div class="collapse navbar-collapse text-center text-lg-left" id="navbar-top">
+            
+            <ul class="navbar-nav ml-auto"><li class="nav-item ml-md-2 ">
+                    <a class="nav-link" href="/features/">Features
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2 ">
+                    <a class="nav-link" href="/applications/">
+                        Applications
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2">
+                    <a class="nav-link" href="https://api.openbazaar.org/" target="_blank">API</a>
+                </li>
+                <li class="nav-item ml-md-2 ">
+                    <a class="nav-link" href="/developers/">
+                        Developers
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2 ">
+                    <a class="nav-link" href="/support/">
+                        Support
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2 active ">
+                    <a class="nav-link" href="/blog/">
+                        Blog
+                        
+                            <span class="sr-only">(current)</span>
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2">
+                    <a href="/mobile-updates/" class="button small download d-lg-none">Get It for Desktop</a>
+                    <a href="/download/" class="button small download d-none d-lg-inline-flex">DOWNLOAD</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header><main class="page-content" aria-label="Content">
+      <div class="wrapper content">
+        <article class="container limited">
+    <div class="row">
+        <div class="col-12">
+            <section class="row pt-0 ">
+    
+        <div class="col-12 post-heading-image w-100 border-bottom">
+
+        </div>
+        <img class="post-openbazaar-logo mx-auto" alt="openbazaar-log0" src="/assets/blog/openbazaar-logo-9bc1d7020f444dc7e779cd01ca965d93105c47c54b6a58bd4d9df0592cf640f9.png" integrity="sha256-m8HXAg9ETcfnec0BypZdkxBcR8VLali9TZ3wWSz2QPk=" crossorigin="anonymous">
+    
+    <div class="col-12">
+        <div class="row text-center mt-4">
+            
+                <div class="col"></div>
+                <div class="col-8">
+                    <a href="/blog/openbazaar-threat-model/">
+                        <h3 class="post-title">
+                            OpenBazaar Threat Model
+                        </h3>
+                    </a>
+                </div>
+                <div class="col"></div>
+                <div class="col-12 d-flex justify-content-between my-4">
+                    <div class="post-emojis">
+                        <i class="fab fa-bitcoin post-icon-bitcoin"></i>
+                        <img draggable="false" class="emoji medium post-emoji" alt="world emoji" src="https://s.w.org/images/core/emoji/2.4/svg/1f30e.svg">
+                        <img draggable="false" class="emoji medium post-emoji" alt="✌" src="https://s.w.org/images/core/emoji/2.4/svg/270c.svg">
+                    </div>
+                    <a class="post-openbazaar-link" href="/">OpenBazaar.org</a>
+                </div>
+            
+            <div class="col-12 post-date text-left mb-3">
+                Apr 17, 2015
+            </div>
+            
+                <div class="col-12 text-left post-container">
+                    <p>This blog post outlines the security model and policies of OpenBazaar. It is written for contributors with push access who are asked to review and merge pull requests, external developers who are interested in submitting pull requests, and end-users who are interested in understanding the security model of OpenBazaar. We will also be including this threat model in our project documentation, but we are sharing on our blog first to solicit feedback from our users and security experts in the field. Every contributor with push access must read this document.</p>
+
+<h1 id="threat-model">Threat model</h1>
+
+<p>OpenBazaar makes important assumptions about the strength of its adversaries. To understand how to properly develop code for OpenBazaar, it is crucial to understand who the adversaries of OpenBazaar can be, what resources they are able to employ, and what their goals are. Furthermore, it is important to understand what the adversaries are not capable of.</p>
+
+<h2 id="assumed-adversaries"><strong>Assumed adversaries</strong></h2>
+
+<p>Our adversaries can be broadly categorized as 4 different entities:</p>
+
+<ol>
+  <li>Malicious users</li>
+  <li>Malicious corporations</li>
+  <li>Malicious governments</li>
+  <li>Malicious developers</li>
+</ol>
+
+<p>Each of these constitutes a separate entity with different resources and different goals. These are explained below.</p>
+
+<h2 id="malicious-users"><strong>Malicious users</strong></h2>
+
+<p>A malicious user is a user who tries to break the security of OpenBazaar, usually for financial gain. We treat malicious users as game-theoretic agents who are able to invest approximately as much as they would win out of a security breach, as long as their winnings are significantly larger than their losses. The goal of malicious users is to make money. The two primary ways of making money by breaking the security of OpenBazaar are these:</p>
+
+<ul>
+  <li>Being able to receive a product without making a proper payment</li>
+  <li>Being able to receive money without delivering a product</li>
+</ul>
+
+<p>As these attacks are financially incentivized, there is no limit as to what capital can be invested in such attacks if it’s possible to earn it back. However, for our purposes, we assume that such attackers are limited to up-front investments of $1,000,000 per year collectively. Thus, they are not able to, for example, break the bitcoin network security, or attack 1024-bit RSA keys. These attackers are the easiest to model, as they play within the closed OpenBazaar system and can be treated game-theoretically. Generally, in our games, these agents can be assumed to be ε-good, meaning they will not attempt a malicious strategy if there is no financial gain in it. We aim to fully protect users from such malicious actors.</p>
+
+<h2 id="malicious-corporations"><strong>Malicious corporations</strong></h2>
+
+<p>Certain corporations may find the OpenBazaar network undesirable and may want to break its security in order to bring it down. Their financial incentive may not be part of the closed OpenBazaar system: They may be able to make profits outside of OpenBazaar by making OpenBazaar unreliable and insecure. The goals of such agents are the following:</p>
+
+<ul>
+  <li>Bringing down the majority of OpenBazaar nodes</li>
+  <li>Disrupting the majority of connectivity of the OpenBazaar network</li>
+  <li>Breaking the trust people have on the OpenBazaar network</li>
+</ul>
+
+<p>“Breaking the trust” here means creating arbitrary buyers and sellers that do not follow the expected strategy and default on their payments or shipping. The incentive for such corporations may be that they are losing money because of competitive sales on the OpenBazaar network. We currently assume that such corporations are able to spend similar monetary amounts as malicious users to attack the network. However, malicious corporations cannot be modeled as ε-good, as they wish to cause harm on the network through external incentives. We aim to partially protect our users from such malicious actors, through reputation systems and positive margins in our nash equilibria that can decentivize such malicious actors. Reputation systems which require proof-of-burn or similar sybil-resistant schemes help in making these attacks more costly. Webs-of-trust can fully protect careful users from such malicious actors, although great care is required from the user side.</p>
+
+<h2 id="malicious-governments"><strong>Malicious governments</strong></h2>
+
+<p>As the OpenBazaar software can be operated worldwide, malicious governments should be taken into account. Malicious governments may wish to bring the network down for censorship reasons or for legal reasons. The goals of such agents are similar to the goals of malicious corporations. In addition, a malicious government has the following goals:</p>
+
+<ul>
+  <li>Unmask the anonymity of an OpenBazaar user</li>
+  <li>Block certain categories of products or individual products from being traded</li>
+</ul>
+
+<p>A malicious government has similar resources as a malicious corporation. Malicious governments can be categorized into active and passive based on their willingness to interfere with networks. A passive government is unwilling to manipulate data as a man-in-the-middle at the network level, and is only willing to be a passive eavesdropper. An active government is happy to interfere with network traffic by manipulating it. A passive government has access to these additional resources:</p>
+
+<ul>
+  <li>They can manipulate the legal framework of their country</li>
+  <li>They can introduce new laws</li>
+  <li>They can issue arbitrary subpoenas and warrants</li>
+  <li>They can issue secret warrants and take decisions in secret courts</li>
+</ul>
+
+<p>An active government has, in addition, access to the following resources:</p>
+
+<ul>
+  <li>They can sybil-attack the issue of identification documents such as passports</li>
+  <li>They can man-in-the-middle Internet connections within their country (up to the Tor security assumptions)</li>
+  <li>They can break Internet connectivity within their country</li>
+  <li>They can issue arbitrary PKI certificates for HTTPS and TLS protocols</li>
+</ul>
+
+<p>Malicious governments are the hardest attack to guard against. While our goal is to be able to defend against malicious governments, we are not able to do this currently. Our decentralization efforts are oriented around the idea that basic protection from malicious governments should be possible. We aim to provide full protection against a passive malicious government, and partial protection against active malicious governments. On the topic of denial-of-service attacks by breaking network connectivity completely, we do not have a mechanism of defence. We rely on the fact that countries will prefer to keep Internet connectivity for the most part of their users. Mesh networks can be used to guard against such attacks, but these are beyond the scope of our threat model.</p>
+
+<h2 id="malicious-developers"><strong>Malicious developers</strong></h2>
+
+<p>The last malicious actor is a malicious developer with commit access. These developers are manipulated by one of the above actors through law (secret subpoenas) or bribery in order to achieve their end-goals. Therefore, the goals of a malicious developer are aligned with the goals of those above. We prefer to list this malicious actor separately, as they have access to a different arsenal of attacks. In particular, a malicious developer has access to the following resources:</p>
+
+<ul>
+  <li>They can merge arbitrary pull requests, in effect writing arbitrary code</li>
+</ul>
+
+<p>Our primary means of defence against malicious developers are secure development practices, some of which we explain later in this document.</p>
+
+<h1 id="security-assumptions">Security assumptions</h1>
+
+<p>We rely on the assumption that certain systems are secure. We make the assumption that the following constituent parts of our system are secure:</p>
+
+<ul>
+  <li>RSA, ECDSA, SHA256, AES and the rest of the cryptographic primitives used by the software</li>
+  <li>GPG</li>
+  <li>Bitcoin</li>
+  <li>Namecoin</li>
+  <li>Tor (including its assumptions on network monitoring)</li>
+  <li>The browser used by the user</li>
+  <li>The user’s computer</li>
+  <li>Our implementation languages and frameworks (Python, Javascript, Angular)</li>
+  <li>The libraries we rely on which are listed here: https://github.com/OpenBazaar/OpenBazaar/blob/master/requirements.txt</li>
+</ul>
+
+<h1 id="beta-status">Beta status</h1>
+
+<p>OpenBazaar is currently in beta and is <a href="https://github.com/OpenBazaar/OpenBazaar/issues?q=is%3Aopen+is%3Aissue+label%3ASecurity">facing multiple security issues</a>, in addition to the assumptions above. These issues can cause your transactions to be compromised, your money not to go through or be stolen, or your products not to be delivered, even by attackers with very limited resources. We estimate that an attacker could possibly compromise the system’s security for less than a few thousand dollars. Please be careful when using OpenBazaar at this stage. If you’re using the regular bitcoin network, <strong>keep the amounts exchanged low</strong> (less than a few hundred dollars). Don’t sell your car on OpenBazaar yet! For the beta version, we rely on the security of HTTPS and PKI. This is needed, as we rely on pip for securely fetching python packages, which relies on HTTPS. Therefore, an active malicious government is able to interfere with OpenBazaar. The specific assumptions are listed below. However, we are interested in dropping this requirement for stable versions. We are still unsure of the distribution channels to achieve this. As part of our beta status, <strong>we also rely on a few centralized pieces of infrastructure</strong>, all of which we would like to replace with decentralized systems. These are our assumptions for the beta version:</p>
+
+<ul>
+  <li>PKI is secure. CAs are not compromised or government-controlled.</li>
+  <li>HTTPS is secure.</li>
+  <li>The operators of seed servers are not interested in performing denial-of-service attacks.</li>
+  <li>Obelisk and the official obelisk servers are secure and their owners not malicious.</li>
+  <li>The official DNSChain servers are secure and their owners not malicious.</li>
+</ul>
+
+<p>The last two requirements are strong. A user who is concerned with these last points can lift these requirements by running their own Obelisk server or using a trusted Obelisk server, which requires maintaining a bitcoin blockchain copy, and their own DNSChain server, which requires maintaining a namecoin blockchain copy. We have plans to use SVP systems as a replacement for these. We may introduce additional points of centralization for future beta versions in order to create a working product, which we plan to lift later. As part of our Beta status, we do not currently employ any anonymity-preserving mechanisms. All transactions are completely trackable. Therefore, malicious governments with the goal of uncovering your identity will succeed trivially.</p>
+
+<h1 id="development-infrastructure">Development infrastructure</h1>
+
+<p>We also rely on certain pieces of centralized infrastructure for development. Here are our assumptions about services we use for development and we assume are secure and with no malicious operators:</p>
+
+<ul>
+  <li>GitHub</li>
+  <li>Slack</li>
+  <li>Gmail</li>
+</ul>
+
+<p>We also rely on OTR and GPG for secure development-related communications.</p>
+
+<h1 id="development-process">Development process</h1>
+
+<p>In order to guard against actors such as malicious developers, we are publishing all of the source code of OpenBazaar as open source under the <a href="https://github.com/OpenBazaar/OpenBazaar/blob/master/LICENSE.md">MIT license</a>. We encourage security experts to audit our code for security vulnerabilities. Don’t take our word on the security of OpenBazaar; inspect the code yourself. <strong>Don’t trust the OpenBazaar developers.</strong> While we’re doing our best to provide secure software, the reason it’s open source is so that it can be reviewed and audited. Our development process is transparent and security-oriented. We follow certain contributing guidelines which require code reviews and follow proper release cycles. The details of our contributing procedures can be found in the <a href="https://github.com/OpenBazaar/OpenBazaar/blob/master/CONTRIBUTING.md">CONTRIBUTING</a> document. We don’t just make our code open source. Our reviews and commit history are also available for inspection, so that differential audits are possible. We GPG-sign our releases with contributor keys in the strong GPG set. Currently, Dionysis Zindros signs releases. The signature signifies that the release maintainer believes the source code to be secure at the time of release, and that it was intentionally released by the team, without backdoors or intentional vulnerabilities as far as we know. These signatures are hard to fake by someone who wishes to introduce backdoors in the future. If you require strong security, do not run releases that have not been GPG-signed, or manually inspect the code. Otherwise, at least make sure your binaries and sources are at least downloaded via HTTPS. Our decision-making procedure is transparent too. We use 2-of-4 multisig decision-making for financial decisions. The details of our transparency in decision making can be found in our <a href="https://blog.openbazaar.org/migration-of-our-project-funds-to-a-multisig-address/">transparency post</a>. Some of our commits are GPG-signed. The GPG-signed commits signify that:</p>
+
+<ul>
+  <li>The code introduced in the commit is believed to be secure by the signer</li>
+  <li>The parent of the commit is the currently available branch to the signer</li>
+</ul>
+
+<p>Please note that signing a commit, <a href="http://git.661346.n2.nabble.com/GPG-signing-for-git-commit-td2582986.html">contrary to popular belief</a>, does not indicate that all the previous commits have been checked by the committer. It only indicates that the particular commit code really is written by the person who signed the commit, and this is it. It is very easy to introduce fake commits on git and GitHub, using usernames and e-mails of existing contributors. Therefore, we prefer signing individual commits instead of tagging and signing only occassionally to show a full good history. It’s impractical to create a tag for every commit one creates.</p>
+
+                </div>
+            
+        </div>
+    </div>
+</section>
+        </div>
+    </div>
+</article>
+<div class="container-fluid mb-5">
+    <div class="row">
+        <div class="col-12 pb-4">
+            <hr class="help-us-separator">
+            <div class="container limited">
+                <p>
+                    <strong>Do you want to help build this with us?</strong>
+                </p>
+                <p>
+                    <a href="/download/" class="general-link">Download OpenBazaar</a> right now to get buying or selling in minutes or join us on
+                    <a class="general-link" href="https://github.com/openbazaar">Github</a> to contribute to the development of this open-source project!
+                </p>
+                <p>
+                    <!-- AddToAny BEGIN -->
+                    <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                        <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+                        <a class="a2a_button_tumblr"></a>
+                        <a class="a2a_button_facebook"></a>
+                        <a class="a2a_button_twitter"></a>
+                    </div>
+                    <script async src="https://static.addtoany.com/menu/page.js"></script>
+                    <!-- AddToAny END -->
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row recent-updates-wrapper border-bottom border-top">
+    <div class="col-12">
+        <section class="container">
+            <div class="row">
+                <div class="col-12 mb-4 emphasis-text">
+                    <h3 class="recent-updates-heading">Recent updates</h3>
+                </div>
+                <div class="col-12">
+                    <div class="card-deck text-center">
+                        
+                            <div class="card p-3 mb-4">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <a href="/blog/the-difference-between-cryptocurrency-payments-and-cryptocurrency-trading-in-openbazaar/">
+                                        <h5 class="recent-updates-title">The Difference Between Cryptocurrency Payments and Cryptocurrency Trading in OpenBazaar</h5>
+                                    </a>
+                                    <div class="recent-updates-body mt-2">
+                                        Cryptocurrencies are very exciting to us, which we think we’ve made pretty apparent. We did, after all, build the world’s first fully decentralized marketplace to help cryptocurrency users find each other and buy and sell goods and services anywhere in...
+                                    </div>
+
+                                    <a href="/blog/the-difference-between-cryptocurrency-payments-and-cryptocurrency-trading-in-openbazaar/" class="button small mt-4 mx-auto">read more</a>
+                                </div>
+                            </div>
+                        
+                            <div class="card p-3 mb-4">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <a href="/blog/does-toronto-have-a-great-crypto-community-or-the-greatest-crypto-community/">
+                                        <h5 class="recent-updates-title">Does Toronto Have a Great Crypto Community – or The GREATEST  Crypto Community?</h5>
+                                    </a>
+                                    <div class="recent-updates-body mt-2">
+                                        OB1 CEO and OpenBazaar Project Lead Brian Hoffman and I (OB1/OpenBazaar Marketing and Community Manager, Jenn Cloud), were pleased to spend some time last week with the excellent crypto community in Toronto, Ontario.
+
+
+                                    </div>
+
+                                    <a href="/blog/does-toronto-have-a-great-crypto-community-or-the-greatest-crypto-community/" class="button small mt-4 mx-auto">read more</a>
+                                </div>
+                            </div>
+                        
+                            <div class="card p-3 mb-4">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <a href="/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network/">
+                                        <h5 class="recent-updates-title">Valuing Privacy & still Getting Data from a Decentralized Network</h5>
+                                    </a>
+                                    <div class="recent-updates-body mt-2">
+                                        Facebook knows exactly how many users are on their platform. Amazon knows exactly how many products are sold. Instagram knows exactly how many photos are shared.
+
+
+                                    </div>
+
+                                    <a href="/blog/gathering-stats-how-to-value-privacy-and-still-get-data-from-a-decentralized-network/" class="button small mt-4 mx-auto">read more</a>
+                                </div>
+                            </div>
+                        
+                            <div class="card p-3 mb-4">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <a href="/blog/what-do-moderators-&-moderated-payments-do-on-openbazaar/">
+                                        <h5 class="recent-updates-title">What Do Moderators & Moderated Payments Do on OpenBazaar?</h5>
+                                    </a>
+                                    <div class="recent-updates-body mt-2">
+                                        Decentralizing ecommerce is an important part of the future we believe in. We are working to build a world with greater access to global commerce and more opportunities for people everywhere to build the lives they want. We believe this...
+                                    </div>
+
+                                    <a href="/blog/what-do-moderators-&-moderated-payments-do-on-openbazaar/" class="button small mt-4 mx-auto">read more</a>
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+</div>
+      </div>
+    </main><div class="container">
+    <footer class="row pb-4">
+        <div class="col-12 col-md-8">
+            <nav class="navbar navbar-expand-sm navbar-light">
+                <div class="collapse show navbar-collapse text-center text-sm-left" id="navbar-bottom">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link " href="/about/">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/events/">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/newsletter/">Newsletter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/contributors/">Contributors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/bitcoin/">Need Bitcoin?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/donate/">Donate</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/privacy/">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="col-12 col-md-4 d-flex flex-row justify-content-md-end justify-content-center">
+            <a href="https://twitter.com/openbazaar">
+                <i class="social-icon ml-2 fab fa-twitter d-flex align-items-center"></i>
+            </a>
+            <a href="/slack">
+                <i class="social-icon ml-2 fab fa-slack-hash d-flex align-items-center"></i>
+            </a>
+            <a href="https://www.reddit.com/r/OpenBazaar/">
+                <i class="social-icon ml-2 fab fa-reddit-alien d-flex align-items-center"></i>
+            </a>
+            <a href="https://github.com/openbazaar">
+                <i class="social-icon ml-2 fab fa-github d-flex align-items-center"></i>
+            </a>
+            <a href="mailto:project@openbazaar.org" target="_top">
+                <i class="social-icon ml-2 fas fa-envelope d-flex align-items-center"></i>
+            </a>
+        </div>
+    </footer>
+</div><!-- Google Tag Manager (noscript) -->
+<noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P8J7H5F" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="/assets/app-9011f493fc09e558e0b2bb00d1785f4117a54fcaae843db425deeb4a18cbb515.js" integrity="sha256-kBH0k/wJ5VjgsrsA0XhfQRelT8quhD20Jd7rShjLtRU=" crossorigin="anonymous" type="text/javascript"></script>
+  </body>
+
+</html>
