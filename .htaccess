@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^scamprevention.openbazaar.org$ [NC]
+RewriteRule ^(.*)$ https://openbazaar.org/scam-prevention%{REQUEST_URI} [R=301,NC,L,QSA]
