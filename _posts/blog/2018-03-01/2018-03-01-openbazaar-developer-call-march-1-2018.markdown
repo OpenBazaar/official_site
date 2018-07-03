@@ -1,7 +1,7 @@
 ---
 title: "OpenBazaar Developer Call - March 1, 2018" 
 layout: post
-date: '2018-01-05 00:30:00 -0300'
+date: '2018-03-01 08:30:00 -0500'
 excerpt: OpenBazaar Developer Call - March 1, 2018
 ---
         
