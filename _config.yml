@@ -32,7 +32,7 @@ defaults:
     values:
       image: true
 
-permalink: /blog/:title
+permalink: /blog/:title/
 
 google_analytics: 'GTM-P8J7H5F'
    
