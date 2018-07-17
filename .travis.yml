@@ -9,7 +9,6 @@ addons:
     packages:
     - sshpass
 before_deploy:
-- echo $TRAVIS_PULL_REQUEST
 - echo -e "Host $DEPLOY_HOST\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 - openssl aes-256-cbc -K $encrypted_10978a7f2d99_key -iv $encrypted_10978a7f2d99_iv
   -in deploy_rsa.enc -out deploy_rsa -d
@@ -29,7 +28,7 @@ env:
   - secure: JfZvf8UC3eZOtNycRntHvTCaCz27VJf+5IhcF8w+QsoZ9fpWzYpvZRYfu5ABXgkcIKSPGMAdzL/PAH+vyMc74SUUo6RvjkNNdQFKxBsrN+yJi0wVMbIexy5z76j11nt316cVy/P3DO64NdobLk5HzzGQs5WLDDOSmuilXBR91ywAf07Q9pgo/V8MJDlJ+6vWwc05tfji0RLHAYi5oF0WnuXe62Y4LExS/QjghNuiFngDkBOg4gj5oozd6Z3iEQQxs67aZ1YOW0vsHjaar9mzyQvtnq9OooLGMbEoSsB18cbMAQ4ZPJjf2laCVF8WKtJ6BgtNK5xXVfva89WLAZCbJxCqPgqKA8eCeQKfkLhoOdJlWqfGhr34vnhc0yRRaneto0RJl043qJAyqidSc9VhCm/ICVbxBx/jcusjJuzyyAEIDKPtaFp7mea+4G+/usnbY5OjLwvI+qAaUsYG4KDVcY9vd2yMbY6vclziu56/JS2GewPFJGPS2LqOF8YoHYqqZ94EKcLppQGcoGi1U2PISnoLDN0LznXyqCfQNXmlDfydakak8074r1Vil9br+bs3v0VPknvQ2zmnOkixh8TofCllCU1ubch2mxqXhV8mBU45IUuJksze8OIWTbltF2hRsMdibrl0w/yHHeMNCTIftbbRwmlyZWZRh1eWtxnBuho=
 before_script:
 - chmod +x ./script/cibuild
-script: "./script/cibuild"
+script: if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then "./script/cibuild" fi
 deploy:
   provider: script
   skip_cleanup: true
