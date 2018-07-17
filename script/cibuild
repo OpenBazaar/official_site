@@ -2,7 +2,7 @@
 
 # skip if build is triggered by pull request
 if [ $TRAVIS_PULL_REQUEST = "true" ]; then
-  echo "this is PR, exiting"
+  echo "this is a pull request, exiting"
   exit 0
 fi
 
