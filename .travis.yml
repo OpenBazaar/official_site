@@ -9,6 +9,8 @@ addons:
     packages:
     - sshpass
 before_deploy:
+- chmod +x ./script/cibuild
+- "./script/cibuild"
 - echo -e "Host $DEPLOY_HOST\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 - openssl aes-256-cbc -K $encrypted_10978a7f2d99_key -iv $encrypted_10978a7f2d99_iv
   -in deploy_rsa.enc -out deploy_rsa -d
@@ -17,9 +19,6 @@ before_deploy:
 - eval "$(ssh-agent -s)"
 - chmod 600 /tmp/deploy\_rsa
 - sshpass -p $SSH_PASSWORD ssh-add /tmp/deploy\_rsa
-before_script:
-- chmod +x ./script/cibuild
-script: "./script/cibuild"
 exclude:
 - vendor
 sudo: false
