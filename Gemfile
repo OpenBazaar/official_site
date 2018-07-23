@@ -26,6 +26,7 @@ group :jekyll_plugins do
   gem "bootstrap", "~> 4.1"
   gem 'jekyll-postfiles'
   gem 'jekyll-paginate-v2'
+  gem 'jekyll-sitemap'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
