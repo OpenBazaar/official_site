@@ -15,12 +15,14 @@ The first is the ability for users offering to trade coins to mark up or discoun
 
 The software constantly is updating the market price of the cryptocurrencies involved in the trade, and will add the markup or discount at the moment the trade happens.
 
-![Setting a markup or discount on OpenBazaar](Cryptocurrency Listing Type Chose from Over 1500 Coins.gif "Setting a markup or discount on OpenBazaar")  
+![Setting a markup or discount on OpenBazaar](Cryptocurrency Listing Type Price Modifier.gif "Setting a markup or discount on OpenBazaar")  
 
 
-The second improvement to cryptocurrency listings is a major expansion of how many coins can be bought and sold on the platform. Previously there were about 60 available. Now we're integrated price data from [CoinMarketCap](https://coinmarketcap.com/) and there are more than 1,500 coins you can trade on OpenBazaar.  
+The second improvement to cryptocurrency listings is a major expansion of how many coins can be bought and sold on the platform. Previously there were about 60 available. Now we're integrated price data from [CoinMarketCap](https://coinmarketcap.com/) and there are more than 1,500 coins you can trade on OpenBazaar.
 
-![Choosing from over 1500 cryptocurrencies](Cryptocurrency Listing Type Price Modifier.gif "Choosing from over 1,500 cryptocurrencies")  
+If you want to see if a specific coin is available, [download OpenBazaar](https://openbazaar.org/download) and start the process of creating a cryptocurrency listing. You'll see the full list of coins in this dropdown menu:
+
+![Choosing from over 1500 cryptocurrencies](Cryptocurrency Listing Type Chose from Over 1500 Coins.gif "Choosing from over 1,500 cryptocurrencies")  
 
 As always, there are no fees to pay and no accounts to sign up for. It's a direct swap of cryptocurrencies between you and the other party, and if you choose a moderated payment (highly recommended) then there's a third party available in case of dispute.
 
