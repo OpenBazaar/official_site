@@ -18,7 +18,7 @@ The software constantly is updating the market price of the cryptocurrencies inv
 ![Setting a markup or discount on OpenBazaar](Cryptocurrency Listing Type Chose from Over 1500 Coins.gif "Setting a markup or discount on OpenBazaar")  
 
 
-The second improvement to cryptocurrency listings is a major expansion of how many coins can be bought and sold on the platform. Previously there were about 60 available. Now we're integrated price data from CoinMarketCap and there are more than 1,500 coins you can trade on OpenBazaar.  
+The second improvement to cryptocurrency listings is a major expansion of how many coins can be bought and sold on the platform. Previously there were about 60 available. Now we're integrated price data from [CoinMarketCap](https://coinmarketcap.com/) and there are more than 1,500 coins you can trade on OpenBazaar.  
 
 ![Choosing from over 1500 cryptocurrencies](Cryptocurrency Listing Type Price Modifier.gif "Choosing from over 1,500 cryptocurrencies")  
 
