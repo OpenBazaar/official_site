@@ -6,12 +6,10 @@ social_title: 'IPFS & Libp2p Developer Meetings - Growing The Decentralized Tech
 social_description: 'OB1 Lead Developer Chris Pacia gives a recap of the IPFS & Libp2p Developer Meetings in Berlin.'
 ---
 
-![IPFS and Libp2p Developer Meetings in Berlin 2018](IPFS and Libp2p Developer Meetings in Berlin 2018.jpg "IPFS and Libp2p Developer Meetings in Berlin 2018")
-
-
 This month I had the opportunity to attend the [IPFS/Libp2p Developer Meeting](https://github.com/ipfs/conf) in Berlin. [IPFS](https://ipfs.io/) development is of great importance to us as OpenBazaar is built on top of it and relies heavily on it for most of its functionality. Overall the meeting was very productive. It was nice to meet the new members of the [Protocol Labs](https://protocol.ai/) team and see how they are growing. They have an enormous amount of talent on their team and in the IPFS community and they’re genuinely solving very hard problems in decentralized web development. 
 
-![IPFS and Libp2p Developer Meetings in Berlin 2018 - Presentation](IPFS and Libp2p Developer Meetings in Berlin 2018-2.jpg "IPFS and Libp2p Developer Meetings in Berlin 2018 - Presentation")
+![IPFS and Libp2p Developer Meetings in Berlin 2018](IPFS and Libp2p Developer Meetings in Berlin 2018.jpg "IPFS and Libp2p Developer Meetings in Berlin 2018")
+
 
 Here are some of the key takeaways from this event as they relate directly to OpenBazaar:
 
@@ -22,6 +20,9 @@ They’ve been able to integrate [QUIC](https://www.chromium.org/quic) as a tran
 ## IPNS Pubsub
 
 Pubsub isn’t yet hooked up in the IPFS coreapi package but will be shortly. While we will still need to make a DHT crawl the first time an IPNS query is made as well as when coming back from absence, all subsequent queries will return the most up-to-date record instantly. We should see a nice speed boost in browsing as a result. 
+
+![IPFS and Libp2p Developer Meetings in Berlin 2018 - Presentation](IPFS and Libp2p Developer Meetings in Berlin 2018-2.jpg "IPFS and Libp2p Developer Meetings in Berlin 2018 - Presentation")
+
 
 ## NAT Traversal
 
