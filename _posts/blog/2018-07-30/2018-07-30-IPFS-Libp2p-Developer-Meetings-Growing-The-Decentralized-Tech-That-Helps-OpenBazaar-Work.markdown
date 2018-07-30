@@ -11,7 +11,7 @@ This month I had the opportunity to attend the [IPFS/Libp2p Developer Meeting](h
 ![IPFS and Libp2p Developer Meetings in Berlin 2018](IPFS and Libp2p Developer Meetings in Berlin 2018.jpg "IPFS and Libp2p Developer Meetings in Berlin 2018")
 
 
-Here are some of the key takeaways from this event as they relate directly to OpenBazaar:
+**Here are some of the key takeaways from this event as they relate directly to OpenBazaar:**
 
 ## QUIC
 
