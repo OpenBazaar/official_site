@@ -30,7 +30,7 @@ I learned that IPFS is already doing more for NAT traversal than I realized but 
 
 ## New onion-transport
 
-They’ve done some preliminary work on a new onion transport for libp2p. Our currentl transport was written by me and will at minimum need to be changed to conform to planned changes to the transport interface. I believe the goal, however, will be to have the new transport ready by the time that new interface goes live so we can easily make their switch. There’s also a possibility we can use a library which statically compiles the Tor daemon and maybe resolve some issues running OpenBazaar on Tails and Whonix. 
+They’ve done some preliminary work on a new onion transport for libp2p. Our current transport was written by me and will at minimum need to be changed to conform to planned changes to the transport interface. I believe the goal, however, will be to have the new transport ready by the time that new interface goes live so we can easily make the switch. There’s also a possibility we can use a library which statically compiles the Tor daemon and maybe resolve some issues running OpenBazaar on Tails and Whonix. 
 
 There was plenty more talked about and presented, some of which will likely be in OpenBazaar under the hood but also plenty of projects that are genuinely interesting in the own right. 
 
