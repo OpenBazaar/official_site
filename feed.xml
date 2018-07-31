@@ -1,4 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-07-27T16:56:59+00:00</updated><id>https://openbazaar.org/</id><title type="html">OpenBazaar</title><entry><title type="html">New OpenBazaar Release Enables Trading 1500+ Cryptocurrencies</title><link href="https://openbazaar.org/blog/New-OpenBazaar-Release-Enables-Trading-1500-Cryptocurrencies/" rel="alternate" type="text/html" title="New OpenBazaar Release Enables &lt;span class='post-title-extra'&gt;Trading 1500+ Cryptocurrencies&lt;/span&gt;" /><published>2018-07-27T14:30:00+00:00</published><updated>2018-07-27T14:30:00+00:00</updated><id>https://openbazaar.org/blog/New-OpenBazaar-Release-Enables-Trading-1500-Cryptocurrencies</id><content type="html" xml:base="https://openbazaar.org/blog/New-OpenBazaar-Release-Enables-Trading-1500-Cryptocurrencies/">&lt;p&gt;OpenBazaar &lt;a href=&quot;https://github.com/OpenBazaar/openbazaar-desktop/releases/tag/v2.2.2&quot;&gt;version 2.2.2&lt;/a&gt; was just released, and this update gives users several new improvements to the cryptocurrency trading feature. This release also includes other improvements and bug fixes; for full details read the release notes posted below.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-07-31T15:04:43+00:00</updated><id>https://openbazaar.org/</id><title type="html">OpenBazaar</title><entry><title type="html">IPFS &amp;amp; Libp2p Developer Meetings - Growing The Decentralized Tech That Helps OpenBazaar Work</title><link href="https://openbazaar.org/blog/IPFS-Libp2p-Developer-Meetings-Growing-The-Decentralized-Tech-That-Helps-OpenBazaar-Work/" rel="alternate" type="text/html" title="IPFS &amp; Libp2p Developer Meetings - Growing The &lt;span class='post-title-extra'&gt;Decentralized Tech&lt;/span&gt; That Helps OpenBazaar Work" /><published>2018-07-30T14:30:00+00:00</published><updated>2018-07-30T14:30:00+00:00</updated><id>https://openbazaar.org/blog/IPFS-Libp2p-Developer-Meetings-Growing-The-Decentralized-Tech-That-Helps-OpenBazaar-Work</id><content type="html" xml:base="https://openbazaar.org/blog/IPFS-Libp2p-Developer-Meetings-Growing-The-Decentralized-Tech-That-Helps-OpenBazaar-Work/">&lt;p&gt;This month I had the opportunity to attend the &lt;a href=&quot;https://github.com/ipfs/conf&quot;&gt;IPFS/Libp2p Developer Meeting&lt;/a&gt; in Berlin. &lt;a href=&quot;https://ipfs.io/&quot;&gt;IPFS&lt;/a&gt; development is of great importance to us as OpenBazaar is built on top of it and relies heavily on it for most of its functionality. Overall the meeting was very productive. It was nice to meet the new members of the &lt;a href=&quot;https://protocol.ai/&quot;&gt;Protocol Labs&lt;/a&gt; team and see how they are growing. They have an enormous amount of talent on their team and in the IPFS community and they’re genuinely solving very hard problems in decentralized web development.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;IPFS and Libp2p Developer Meetings in Berlin 2018.jpg&quot; alt=&quot;IPFS and Libp2p Developer Meetings in Berlin 2018&quot; title=&quot;IPFS and Libp2p Developer Meetings in Berlin 2018&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Here are some of the key takeaways from this event as they relate directly to OpenBazaar:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quic&quot;&gt;QUIC&lt;/h2&gt;
+
+&lt;p&gt;They’ve been able to integrate &lt;a href=&quot;https://www.chromium.org/quic&quot;&gt;QUIC&lt;/a&gt; as a transport for IPFS. For those who don’t what QUIC is, it’s a new transport created by Google which offers all around better performance than TCP. Not only will QUIC make OpenBazaar faster, but it will help slightly with NAT traversal.&lt;/p&gt;
+
+&lt;h2 id=&quot;ipns-pubsub&quot;&gt;IPNS Pubsub&lt;/h2&gt;
+
+&lt;p&gt;Pubsub isn’t yet hooked up in the IPFS coreapi package but will be shortly. While we will still need to make a DHT crawl the first time an IPNS query is made as well as when coming back from absence, all subsequent queries will return the most up-to-date record instantly. We should see a nice speed boost in browsing as a result.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;IPFS and Libp2p Developer Meetings in Berlin 2018-2.jpg&quot; alt=&quot;IPFS and Libp2p Developer Meetings in Berlin 2018 - Presentation&quot; title=&quot;IPFS and Libp2p Developer Meetings in Berlin 2018 - Presentation&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;nat-traversal&quot;&gt;NAT Traversal&lt;/h2&gt;
+
+&lt;p&gt;I learned that IPFS is already doing more for NAT traversal than I realized but more work is still needed. Currently a high percentage of nodes on the IPFS network are not reachable and I presume it’s probably a similar percentage of OpenBazaar nodes. We had some nice discussion about improving NAT traversal. The first action item is to wire up the libp2p-autonat package which will help detect if users are behind restricted NATs. Moving forward we’d like to develop some heuristics for deciding if and how to relay packets through other nodes using the libp2p-circuit-relay.&lt;/p&gt;
+
+&lt;h2 id=&quot;new-onion-transport&quot;&gt;New onion-transport&lt;/h2&gt;
+
+&lt;p&gt;They’ve done some preliminary work on a new onion transport for libp2p. Our current transport was written by me and will at minimum need to be changed to conform to planned changes to the transport interface. I believe the goal, however, will be to have the new transport ready by the time that new interface goes live so we can easily make the switch. There’s also a possibility we can use a library which statically compiles the Tor daemon and maybe resolve some issues running OpenBazaar on Tails and Whonix.&lt;/p&gt;
+
+&lt;p&gt;There was plenty more talked about and presented, some of which will likely be in OpenBazaar under the hood but also plenty of projects that are genuinely interesting in the own right.&lt;/p&gt;
+
+&lt;p&gt;We’ll look forward to seeing everyone again for IPFS conference in Lisbon in November.&lt;/p&gt;</content><author><name></name></author><summary type="html">This month I had the opportunity to attend the IPFS/Libp2p Developer Meeting in Berlin. IPFS development is of great importance to us as OpenBazaar is built on top of it and relies heavily on it for most of its functionality. Overall the meeting was very productive. It was nice to meet the new members of the Protocol Labs team and see how they are growing. They have an enormous amount of talent on their team and in the IPFS community and they’re genuinely solving very hard problems in decentralized web development.</summary></entry><entry><title type="html">New OpenBazaar Release Enables Trading 1500+ Cryptocurrencies</title><link href="https://openbazaar.org/blog/New-OpenBazaar-Release-Enables-Trading-1500-Cryptocurrencies/" rel="alternate" type="text/html" title="New OpenBazaar Release Enables &lt;span class='post-title-extra'&gt;Trading 1500+ Cryptocurrencies&lt;/span&gt;" /><published>2018-07-27T14:30:00+00:00</published><updated>2018-07-27T14:30:00+00:00</updated><id>https://openbazaar.org/blog/New-OpenBazaar-Release-Enables-Trading-1500-Cryptocurrencies</id><content type="html" xml:base="https://openbazaar.org/blog/New-OpenBazaar-Release-Enables-Trading-1500-Cryptocurrencies/">&lt;p&gt;OpenBazaar &lt;a href=&quot;https://github.com/OpenBazaar/openbazaar-desktop/releases/tag/v2.2.2&quot;&gt;version 2.2.2&lt;/a&gt; was just released, and this update gives users several new improvements to the cryptocurrency trading feature. This release also includes other improvements and bug fixes; for full details read the release notes posted below.&lt;/p&gt;
 
 &lt;h2 id=&quot;cryptocurrency-trading&quot;&gt;Cryptocurrency trading&lt;/h2&gt;
 
@@ -409,56 +435,4 @@ The first is the ability for users offering to trade coins to mark up or discoun
   &lt;li&gt;If you have not yet gotten on the call list please do so here as we will be sending the call link a few minutes ahead of time.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;See you on Thursday!&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">We are looking forward to seeing you this Thursday, April 26th at 11am EST to discuss the 2018 development roadmap and determine some priorities together as a community! Since we are expecting quite a few attendees, we want to share a brief agenda so everyone knows what to expect and we can keep things sane(ish!)</summary></entry><entry><title type="html">Why Do I Have to Download OpenBazaar?</title><link href="https://openbazaar.org/blog/why-do-i-have-to-download-openbazaar/" rel="alternate" type="text/html" title="Why Do I Have to &lt;span class='post-title-extra'&gt;Download&lt;/span&gt; OpenBazaar?" /><published>2018-04-23T03:49:16+00:00</published><updated>2018-04-23T03:49:16+00:00</updated><id>https://openbazaar.org/blog/why-do-i-have-to-download-openbazaar</id><content type="html" xml:base="https://openbazaar.org/blog/why-do-i-have-to-download-openbazaar/">&lt;p&gt;To use OpenBazaar right now you need to download and install a program on your computer. This is quite different from other marketplaces, which you access by visiting a website. Why the difference?&lt;/p&gt;
-
-&lt;p&gt;OpenBazaar is a fundamentally different way to do ecommerce. It’s built to let you take control of your own store &amp;amp; profile and connect with other users without any middlemen involved.&lt;/p&gt;
-
-&lt;h3 id=&quot;what-middlemen-are-involved-in-traditional-ecommerce&quot;&gt;What middlemen are involved in traditional ecommerce?&lt;/h3&gt;
-
-&lt;p&gt;When shopping or selling online, users encounters layers of middlemen that provide some convenience, but also force fees on users and tightly control all transactions.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The first layer is the money itself, government currencies such as the Dollar, Pound or Euro. They are produced by individual governments around the world and require exchanges to be translated into another global currency.&lt;/li&gt;
-  &lt;li&gt;The second is banks and credit card companies. These institutions are designed to hold and move these currencies and are also regulated by governments.&lt;/li&gt;
-  &lt;li&gt;The third is payment processors. These are companies like Stripe or PayPal that link your bank account or credit card to others so that you can make payments and send money more easily.&lt;/li&gt;
-  &lt;li&gt;Then finally are marketplaces like Amazon, Ebay or Alibaba. These companies own websites and apps where users can shop. This means they own not only the servers on which all buyer and seller profile information and content lives but also the experience that you are having and all of the data any user generates.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;To break free of all of these middlemen you have to break free of a lot of infrastructure.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;And that simply wasn’t possible 10 years ago.&lt;/p&gt;
-
-&lt;p&gt;The real breakthrough came with development of cryptocurrencies like Bitcoin. These cryptographic coins open up the first two layers of money itself to allow people to exchange value in a currency that isn’t generated by any government and can easily be used internationally.&lt;/p&gt;
-
-&lt;p&gt;With OpenBazaar, we wanted to harness this power of Bitcoin and take it a step further, removing layers 3 and 4. Instead of asking people to connect to each other &lt;em&gt;through a website or network that we owned&lt;/em&gt;, we wanted to just let users &lt;em&gt;connect directly to each other&lt;/em&gt;, exactly how they do with Bitcoin and other cryptocurrencies, but with a nice interface that felt like the payment processors and marketplaces they were used to.&lt;/p&gt;
-
-&lt;p&gt;Getting rid of servers in general isn’t an option as the internet still requires machines that can store and serve information to users all around the world–but they don’t necessarily need to be collected in specific locations, or, more importantly, &lt;em&gt;centrally owned&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Servers can be broken down and divided up between the users that participate in a certain network.&lt;/p&gt;
-
-&lt;h3 id=&quot;the-openbazaar-download-bundle&quot;&gt;&lt;strong&gt;The OpenBazaar download bundle&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;OpenBazaar is two programs in one:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;OpenBazaar server&lt;/strong&gt; – The server is the back end application which allows OpenBazaar to function. Each user runs a server to connect them to the network and allow them to participate. It can both store and share their own public and private data, and help store and share the public data of others. This is the primary reason you have to download OpenBazaar right now.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;OpenBazaar client&lt;/strong&gt; – The client is the front end application and allows the user to communicate and control the server, similar to a remote control. The client is the visual interface; it’s what you’re looking at when you run OpenBazaar.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;By default, the OpenBazaar packages and installers will install both server and client locally on your machine. However, you can choose to run just the server elsewhere, such as on a Raspberry Pi or use a virtual private server (VPS).&lt;/p&gt;
-
-&lt;p&gt;This creates a distributed peer-to-peer network with the power of big, centralized servers but that isn’t controlled by any one company or organization – just a community of people who want to engage in trade directly with each other.&lt;/p&gt;
-
-&lt;h3 id=&quot;web-30-in-action&quot;&gt;Web 3.0 in action&lt;/h3&gt;
-
-&lt;p&gt;The next evolution of the web is underway now and this sort of restructuring is what that’s all about. The coming years are about building the technology that eliminates the necessity of existing infrastructures to give a high level of control back to users.&lt;/p&gt;
-
-&lt;p&gt;People who are doing this work believe in a world where people are able to run their own internet experience for themselves, with a level of privacy and control that was not possible, before.&lt;/p&gt;
-
-&lt;p&gt;Downloading OpenBazaar is a choice to discover a new way to buy and sell online. It represents a willingness to explore and understand more about how the internet will be structured in the coming years.&lt;/p&gt;
-
-&lt;p&gt;This download represents choice and ownership and a step out from under the heavy hand of centralized power structures.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Do you want to help build this future where individuals are in control? &lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Check out &lt;a href=&quot;/download/&quot;&gt;OpenBazaar&lt;/a&gt; today.&lt;/p&gt;</content><author><name></name></author><summary type="html">To use OpenBazaar right now you need to download and install a program on your computer. This is quite different from other marketplaces, which you access by visiting a website. Why the difference?</summary></entry></feed>
+&lt;p&gt;&lt;strong&gt;See you on Thursday!&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">We are looking forward to seeing you this Thursday, April 26th at 11am EST to discuss the 2018 development roadmap and determine some priorities together as a community! Since we are expecting quite a few attendees, we want to share a brief agenda so everyone knows what to expect and we can keep things sane(ish!)</summary></entry></feed>
