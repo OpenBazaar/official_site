@@ -10,6 +10,8 @@ This is a video recording of the OpenBazaar Developer call on August 2, 2018.
 
 Want to join the call in real time? Sign up at [openbazaar.org/developers](https://openbazaar.org/developers)
 
+Join our ongoing conversations on Slack at [openbazaar.org/slack](https://openbazaar.org/slack)
+
 {% include modules/embeded-video.html url="https://www.youtube.com/embed/pZRYFsMgQLI"%}
 
 **Chat log:**
