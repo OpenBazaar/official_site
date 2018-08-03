@@ -1,4 +1,82 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-08-02T20:46:48+00:00</updated><id>https://openbazaar.org/</id><title type="html">OpenBazaar</title><entry><title type="html">IPFS &amp;amp; Libp2p Developer Meetings - Growing The Decentralized Tech That Helps OpenBazaar Work</title><link href="https://openbazaar.org/blog/IPFS-Libp2p-Developer-Meetings-Growing-The-Decentralized-Tech-That-Helps-OpenBazaar-Work/" rel="alternate" type="text/html" title="IPFS &amp; Libp2p Developer Meetings - Growing The &lt;span class='post-title-extra'&gt;Decentralized Tech&lt;/span&gt; That Helps OpenBazaar Work" /><published>2018-07-30T14:30:00+00:00</published><updated>2018-07-30T14:30:00+00:00</updated><id>https://openbazaar.org/blog/IPFS-Libp2p-Developer-Meetings-Growing-The-Decentralized-Tech-That-Helps-OpenBazaar-Work</id><content type="html" xml:base="https://openbazaar.org/blog/IPFS-Libp2p-Developer-Meetings-Growing-The-Decentralized-Tech-That-Helps-OpenBazaar-Work/">&lt;p&gt;&lt;em&gt;By OB1 Lead Backend Developer Chris Pacia&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-08-03T16:38:26+00:00</updated><id>https://openbazaar.org/</id><title type="html">OpenBazaar</title><entry><title type="html">OpenBazaar Developer Call - August 2, 2018</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-August-2-2018/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - August 2, 2018" /><published>2018-08-02T14:30:00+00:00</published><updated>2018-08-02T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-August-2-2018</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-August-2-2018/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on August 2, 2018.&lt;/p&gt;
+
+&lt;p&gt;Want to join the call in real time? Sign up at &lt;a href=&quot;https://openbazaar.org/developers&quot;&gt;openbazaar.org/developers&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Join our ongoing conversations on Slack at &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;openbazaar.org/slack&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;embed-responsive embed-responsive-16by9 mb-5&quot;&gt;
+    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/pZRYFsMgQLI&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Chat log:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;11:13 chris.troutner: Would love an update on the user metrics and if that’s been giving OB1 good feedback.&lt;/p&gt;
+
+&lt;p&gt;11:14 mg (OB1): Heard.&lt;/p&gt;
+
+&lt;p&gt;11:18 chris.troutner: Thanks Sam&lt;/p&gt;
+
+&lt;p&gt;11:21 Matt: Sorry I missed that, who is when in Berlin? (since I would like to meet up there)&lt;/p&gt;
+
+&lt;p&gt;11:21 Matt: ahh ok&lt;/p&gt;
+
+&lt;p&gt;11:23 chris.troutner: ‘Wallet developers’ &amp;lt;– I like that. One you guys come out with the new multicurrency wallet, I’m going to want to create a plugin for my ERC20 token.&lt;/p&gt;
+
+&lt;p&gt;11:24 crasch: Is anyone working on porting Monero to work with OB?  I know it’s often difficult to incorporate due it’s non-BTC derived code base.&lt;/p&gt;
+
+&lt;p&gt;11:24 chris.troutner: Very appriciated! I love the uptick on blog posts!&lt;/p&gt;
+
+&lt;p&gt;11:26 Daniel: Does zcash still require you to run a node?&lt;/p&gt;
+
+&lt;p&gt;11:26 crasch: * nods *   Thanks for the update re: Monero, plugin architecture.&lt;/p&gt;
+
+&lt;p&gt;11:27 Daniel: Ok&lt;/p&gt;
+
+&lt;p&gt;11:28 Daniel: Thanks&lt;/p&gt;
+
+&lt;p&gt;11:28 chris.troutner: Not sure if you guys want to go down that rabbit hole, but I’m very excited at the prospect of OB working with arbitrary tokens, be they ERC20 or soon-to-be colored coins on the BCH network.&lt;/p&gt;
+
+&lt;p&gt;11:30 chris.troutner: Ya, Chris Pacia on on the forefront of that. BCH colored coins are not nailed down yet.&lt;/p&gt;
+
+&lt;p&gt;11:30 Daniel: Would these tokens be used for payments only? Or something else?&lt;/p&gt;
+
+&lt;p&gt;11:31 Daniel: Ok thanks.&lt;/p&gt;
+
+&lt;p&gt;11:32 crasch: Have there been any changes to your roadmap that was published 3 months ago?&lt;/p&gt;
+
+&lt;p&gt;11:35 Daniel: What do you see when you go to openbazaar.com?&lt;/p&gt;
+
+&lt;p&gt;11:36 Daniel: Oh, it wasn’t resolving the URL for a while&lt;/p&gt;
+
+&lt;p&gt;11:36 Daniel: it’s working now&lt;/p&gt;
+
+&lt;p&gt;11:37 Daniel: yes&lt;/p&gt;
+
+&lt;p&gt;11:37 crasch: Where do you think community members who wanted to contribute to documentation could best help?&lt;/p&gt;
+
+&lt;p&gt;11:37 Daniel: are you targeting specific communities yet?&lt;/p&gt;
+
+&lt;p&gt;11:37 Daniel: for example, people that play magic the gathering&lt;/p&gt;
+
+&lt;p&gt;11:38 Daniel: i.e. getting OpenBazaar popular within a single community (maybe a non-crypto related community) to find out the blocks to adoption&lt;/p&gt;
+
+&lt;p&gt;11:38 Daniel: or do you only expect people to use OpenBazaar if they already hold crypto?&lt;/p&gt;
+
+&lt;p&gt;11:39 crasch: Thanks for the info:  re: doc channel on Slack, mg.&lt;/p&gt;
+
+&lt;p&gt;11:39 chris.troutner: Ya, for those interested, just type #documentation_2-0 in slack to join the channel.&lt;/p&gt;
+
+&lt;p&gt;11:40 mg (OB1): Thanks Chris&lt;/p&gt;
+
+&lt;p&gt;11:41 crasch: What would be your pitch to use OB1 for crypto trading vs say, bisq?&lt;/p&gt;
+
+&lt;p&gt;11:41 Daniel: Ok, so only people that hold crypto so far. Makes sense.&lt;/p&gt;
+
+&lt;p&gt;11:45 chris.troutner: Great summary, Sam.&lt;/p&gt;
+
+&lt;p&gt;11:45 crasch: Thanks!&lt;/p&gt;
+
+&lt;p&gt;11:45 Daniel: Thank you&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on August 2, 2018.</summary></entry><entry><title type="html">IPFS &amp;amp; Libp2p Developer Meetings - Growing The Decentralized Tech That Helps OpenBazaar Work</title><link href="https://openbazaar.org/blog/IPFS-Libp2p-Developer-Meetings-Growing-The-Decentralized-Tech-That-Helps-OpenBazaar-Work/" rel="alternate" type="text/html" title="IPFS &amp; Libp2p Developer Meetings - Growing The &lt;span class='post-title-extra'&gt;Decentralized Tech&lt;/span&gt; That Helps OpenBazaar Work" /><published>2018-07-30T14:30:00+00:00</published><updated>2018-07-30T14:30:00+00:00</updated><id>https://openbazaar.org/blog/IPFS-Libp2p-Developer-Meetings-Growing-The-Decentralized-Tech-That-Helps-OpenBazaar-Work</id><content type="html" xml:base="https://openbazaar.org/blog/IPFS-Libp2p-Developer-Meetings-Growing-The-Decentralized-Tech-That-Helps-OpenBazaar-Work/">&lt;p&gt;&lt;em&gt;By OB1 Lead Backend Developer Chris Pacia&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;This month I had the opportunity to attend the &lt;a href=&quot;https://github.com/ipfs/conf&quot;&gt;IPFS/Libp2p Developer Meeting&lt;/a&gt; in Berlin. &lt;a href=&quot;https://ipfs.io/&quot;&gt;IPFS&lt;/a&gt; development is of great importance to us as OpenBazaar is built on top of it and relies heavily on it for most of its functionality. Overall the meeting was very productive. It was nice to meet the new members of the &lt;a href=&quot;https://protocol.ai/&quot;&gt;Protocol Labs&lt;/a&gt; team and see how they are growing. They have an enormous amount of talent on their team and in the IPFS community and they’re genuinely solving very hard problems in decentralized web development.&lt;/p&gt;
 
@@ -372,63 +450,4 @@ The first is the ability for users offering to trade coins to mark up or discoun
 
 &lt;p&gt;&lt;strong&gt;Choose your own adventure&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;There are a lot of choices involved in using OpenBazaar, and that’s on purpose. We know it is different from what you may be used to but we are building a marketplace where each user gets to be in control of their own experience with more features and opportunities being built all the time. To see some of the other things the OB1 team is working on to make OpenBazaar the most accessible and expandable ecommerce marketplace on the planet, check out the &lt;a href=&quot;https://www.openbazaar.org/blog/openbazaar-2018-roadmap/&quot;&gt;2018 Roadmap&lt;/a&gt; and make sure to sign up for the &lt;a href=&quot;/newsletter/&quot;&gt;email newsletter&lt;/a&gt; to get the latest updates!&lt;/p&gt;</content><author><name></name></author><summary type="html">Decentralizing ecommerce is an important part of the future we believe in. We are working to build a world with greater access to global commerce and more opportunities for people everywhere to build the lives they want. We believe this is made possible with decentralized money like Bitcoin and decentralized marketplaces like OpenBazaar.</summary></entry><entry><title type="html">Cryptocurrency Trading Now Available on OpenBazaar</title><link href="https://openbazaar.org/blog/cryptocurrency-trading-now-available-on-openbazaar/" rel="alternate" type="text/html" title="Cryptocurrency Trading &lt;span class='post-title-extra-alternative'&gt;Now Available on OpenBazaar&lt;/span&gt;" /><published>2018-05-13T03:49:16+00:00</published><updated>2018-05-13T03:49:16+00:00</updated><id>https://openbazaar.org/blog/cryptocurrency-trading-now-available-on-openbazaar</id><content type="html" xml:base="https://openbazaar.org/blog/cryptocurrency-trading-now-available-on-openbazaar/">&lt;p&gt;OpenBazaar &lt;strong&gt;version 2.2.0&lt;/strong&gt; was released today. For the full list of new features and improvements in this release, check out the release notes at the end of the post.&lt;/p&gt;
-
-&lt;p&gt;The biggest new feature is the ability to ** buy and sell cryptocurrencies**.&lt;/p&gt;
-
-&lt;h2 id=&quot;cryptocurrency-trading-on-openbazaar&quot;&gt;Cryptocurrency Trading on OpenBazaar&lt;/h2&gt;
-
-&lt;div class=&quot;embed-responsive embed-responsive-16by9 mb-5&quot;&gt;
-    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/q6ki3_1Io-U&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Vendors are now able to use a special new listing type to &lt;strong&gt;sell cryptocurrencies on OpenBazaar&lt;/strong&gt;. They can choose from 44 different cryptocurrencies right now and more will be added over time. Payment must be settled in whichever coin they have chosen for their OpenBazaar store, either Bitcoin, Bitcoin Cash, or Zcash.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;cryptolistings.gif&quot; alt=&quot;crypto listings&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Because OpenBazaar is completely peer-to-peer, &lt;strong&gt;this is not an exchange&lt;/strong&gt;. This new feature doesn’t include an order book with the ability to choose a target price for buying or selling. This new feature only allows people to trade cryptocurrencies directly with each other at market prices. It benefits from OpenBazaar’s main advantages; users trading cryptocurrencies on the platform &lt;strong&gt;won’t need to pay any fees&lt;/strong&gt; and &lt;strong&gt;they aren’t forced to reveal any identifying information&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;We’ve released this new feature with the goal of listening to the community about how they believe cryptocurrency trading on OpenBazaar can be improved. We plan to rapidly iterate as we receive feedback from users.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Please join us on &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/openbazaar&quot;&gt;Twitter&lt;/a&gt; to give us your thoughts on this new feature!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;opt-in-analytics&quot;&gt;Opt-in Analytics&lt;/h2&gt;
-&lt;p&gt;Because OpenBazaar has been built with privacy in mind, the development team isn’t able to gain much information about how people use the software. This is good for privacy, but can sometimes hinder development. In order to gain more insight on how OpenBazaar is being used – and how to improve it – we’re introducing an &lt;strong&gt;opt-in analytics package&lt;/strong&gt;. Users who choose to opt in will share non-identifying data with the development team. The list of data being shared is displayed when opening the new release for the first time. Users can start or stop sharing data at any time in their Settings.&lt;/p&gt;
-
-&lt;h2 id=&quot;release-notes&quot;&gt;Release Notes&lt;/h2&gt;
-&lt;p&gt;This is a major release, which adds buying and selling cryptocurrencies, opt in analytics, and many optimizations and bug fixes.&lt;/p&gt;
-
-&lt;h2 id=&quot;new-features&quot;&gt;New Features&lt;/h2&gt;
-&lt;p&gt;– The ability to buy and sell cryptocurrencies was added. The currencies can be sold at market rates. This feature is experimental, and is expected to be rapidly iterated on as we recieve feedback from users. #1308
-– An opt-in analytics package was added. Users are able to choose to share non-identifying data with the development team. This will facilitate identifying bugs and improving the app. Users can start or stop sharing data at any time. #1277&lt;/p&gt;
-
-&lt;h2 id=&quot;improvements&quot;&gt;Improvements&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Norweigan, Polish, and Ukranian translations reached the 80% translated requirement, and were added as options for the client. #1324&lt;/li&gt;
-  &lt;li&gt;When viewing your sales, unfunded orders will now be hidden by default, since you cannot take action on those orders, and they clutter up the list of orders. You can still chose to view those orders. #1310&lt;/li&gt;
-  &lt;li&gt;Listing card image loads will now cancel when the image card is no longer on the screen. This primarily improves the experience when changing pages in the search results or navigating away from a page of search results that hasn’t finished loading. #1309&lt;/li&gt;
-  &lt;li&gt;Verified moderators are now lazy-loaded. This will speed up startup, and notify the user if the list of verified moderators changes while they are looking at information that will be affected by that change. #1298&lt;/li&gt;
-  &lt;li&gt;Verified moderators are loaded from a Tor endpoint if the user is in Tor mode. #1284&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;bug-fixes&quot;&gt;Bug Fixes&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Blockdozer changed their URL for viewing BCH transactions, the URL used when viewing details of transactions has been updated. #1320&lt;/li&gt;
-  &lt;li&gt;An issue where the no valid moderators error would show on an error at the same time as the no verified moderators message, and with the wrong formatting, was corrected. #1307&lt;/li&gt;
-  &lt;li&gt;A problem where invalid mods would never stop loading was fixed. #1306&lt;/li&gt;
-  &lt;li&gt;Error messages meant for only the purchase flow no longer appear in the settings/store tab. #1306&lt;/li&gt;
-  &lt;li&gt;Some layout issues with moderator cards were corrected. #1300&lt;/li&gt;
-  &lt;li&gt;In the settings/store tab, if a moderator assigned to your store has become invalid, now the only option is to de-select them. #1300&lt;/li&gt;
-  &lt;li&gt;An unused memo parameter was removed from the purchase call. #1314&lt;/li&gt;
-  &lt;li&gt;A minor layout issue was corrected in the transactions list. #1285&lt;/li&gt;
-  &lt;li&gt;The bug where pages stats are changed to zero in the page tabs on the user page when the page settings are updated was fixed. #1287&lt;/li&gt;
-  &lt;li&gt;A layout issue with verified moderators was fixed. #1270&lt;/li&gt;
-  &lt;li&gt;Store pages will now open if one of the listings in them has an unrecognized currency value. #1269&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;internationalization&quot;&gt;Internationalization&lt;/h2&gt;
-&lt;p&gt;We are actively translating the text in the OpenBazaar reference client. If you are interested in volunteering as a translator, you can sign up &lt;a href=&quot;https://www.transifex.com/ob1/openbazaar&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;special-thanks&quot;&gt;Special Thanks&lt;/h2&gt;
-&lt;p&gt;A special thank you goes out to the many volunteers that provide translations, and to our testers that discovered important issues.&lt;/p&gt;</content><author><name></name></author><summary type="html">OpenBazaar version 2.2.0 was released today. For the full list of new features and improvements in this release, check out the release notes at the end of the post.</summary></entry></feed>
+&lt;p&gt;There are a lot of choices involved in using OpenBazaar, and that’s on purpose. We know it is different from what you may be used to but we are building a marketplace where each user gets to be in control of their own experience with more features and opportunities being built all the time. To see some of the other things the OB1 team is working on to make OpenBazaar the most accessible and expandable ecommerce marketplace on the planet, check out the &lt;a href=&quot;https://www.openbazaar.org/blog/openbazaar-2018-roadmap/&quot;&gt;2018 Roadmap&lt;/a&gt; and make sure to sign up for the &lt;a href=&quot;/newsletter/&quot;&gt;email newsletter&lt;/a&gt; to get the latest updates!&lt;/p&gt;</content><author><name></name></author><summary type="html">Decentralizing ecommerce is an important part of the future we believe in. We are working to build a world with greater access to global commerce and more opportunities for people everywhere to build the lives they want. We believe this is made possible with decentralized money like Bitcoin and decentralized marketplaces like OpenBazaar.</summary></entry></feed>
