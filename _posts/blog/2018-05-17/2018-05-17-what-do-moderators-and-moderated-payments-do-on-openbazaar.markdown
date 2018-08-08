@@ -1,5 +1,5 @@
 ---
-title: What Do Moderators <span class='post-title-extra'>& Moderated Payments</span>
+title: What Do Moderators <span class='post-title-extra'>and Moderated Payments</span>
   Do on OpenBazaar?
 layout: post
 date: '2018-05-17 00:49:16 -0300'
