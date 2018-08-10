@@ -10,25 +10,25 @@ Hello and welcome! We’re glad you want to buy goods and services on OpenBazaar
 
 You can start by casually browsing what’s available in this brand new kind of decentralized marketplace at [openbazaar.com](https://openbazaar.com). When you’re ready to buy, this handy guide will show you how you can set up an OpenBazaar profile, step by step. It only takes a few minutes!
 
-If you have any difficulties along the way, please visit our [Support](https://openbazaar.org/support) page for ways to get in touch with us and let us know. If you want to chat with someone from the OpenBazaar community for help, or to give feedback on how OpenBazaar is working for you, join our Slack community.
+If you have any difficulties along the way, please visit our [Support](https://openbazaar.org/support) page for ways to get in touch with us and let us know. If you want to chat with someone from the OpenBazaar community for help, or to give feedback on how OpenBazaar is working for you, join our [Slack](https://openbazaar.org/slack) community.
 
-## Step #1 – Download and Install OpenBazaar
+## Step 1 – Download and Install OpenBazaar
 
 Most users will want to download the package that matches their operating system from our website at [openbazaar.org/download](https://openbazaar.org/download)
 
 If you have some technical expertise and want to manually install OpenBazaar, read these instructions: https://github.com/OpenBazaar/openbazaar-go/tree/master/docs/ 
 
-## Step #2 – Run OpenBazaar
+## Step 2 – Run OpenBazaar
 
-The first time you run OpenBazaar you will be guided through a short onboarding process to setup and personalize your node. 
+The first time you run OpenBazaar you will be guided through a short **onboarding process** to setup and personalize your **node**. 
 
-Your OpenBazaar node is similar to an account or profile on a traditional website but with an important difference: you own it. 
+Your OpenBazaar **node** is similar to an account or profile on a traditional website but with an important difference: _you own it._ 
 
 With websites, you create your user account on a server that someone else, like Amazon or Ebay, owns entirely. This is kind of like renting an apartment in a building that they own. When you are “leasing” space on a regular website this way, they control how you access it, too.They give you “keys” that you use to access your account--your login and password--and they can also revoke them at any time.
 
-With OpenBazaar, you create and own your own server--your node!--that participates in the marketplace network, and all data you create lives on your own computer. This is like building your own independent house that has a private entrance only you can find so no login or password are necessary.
+With OpenBazaar, you create and own **your own server**--your **node!**--that participates in the marketplace network, and all data you create lives on **your own computer**. This is like building your own independent house that has a private entrance only you can find so no login or password are necessary.
 
-Since your node and profile live entirely on your own computer, someone would have to access your computer directly in order to make changes to it or take it down. This is more secure than how websites operate though it requires a little bit more knowledge to manage. For example, if you want to access your profile from another computer, you have to move all of your files to that other computer. To “close” your account, you simply delete your files from your computer following these instructions.
+Since your node and profile live entirely on your own computer, someone would have to access your computer directly in order to make changes to it or take it down. This is more secure than how websites operate though it requires a little bit more knowledge to manage. For example, if you want to access your profile from another computer, you have to move all of your files to that other computer. To “close” your account, you simply **delete your files from your computer** following [these instructions](https://openbazaar.zendesk.com/hc/en-us/articles/360012910151).
 
 We are working to make this more flexible in the future so that you have the option to set up your profile or store to be accessible from various devices. 
 
@@ -36,23 +36,21 @@ We are working to make this more flexible in the future so that you have the opt
 
 You will be asked a few questions such as your language, country, and preferred currency, including preferred cryptocurrency which will be the type of wallet your OpenBazaar node has. Right now this includes Bitcoin, Bitcoin Cash or Zcash (beta).
 
-You also have the opportunity to upload an avatar for your profile. Click on Select Avatar to choose a file from your computer. Recommendations here are to choose a nice, uncomplicated avatar that scales well into a circle frame as it will appear around the application. Avatars should be a square at least 280px by 280px or larger for best visual appearance.
+You also have the opportunity to upload an avatar for your profile. Click on **Select Avatar** to choose a file from your computer. Recommendations here are to choose a nice, uncomplicated avatar that scales well into a circle frame as it will appear around the application. Avatars should be a square at least 280px by 280px or larger for best visual appearance.
 
 Then there is a disclaimer about using the OpenBazaar software, which you should read before continuing because OpenBazaar is an unique and new kind of marketplace.
 
-Finally, you will see a screen asking you to opt into totally optional analytics collection. This is your choice and even if you change your mind you can always opt in or out again at any time in your Settings.
+Finally, you will see a screen asking you to opt into **optional analytics collection**. This is your choice and even if you change your mind you can always opt in or out again at any time in your **Settings**.
 
-After finishing onboarding, you’ll now see your own OpenBazaar Store page. Each user has their own profile and store on the OpenBazaar network by default though if you are just joining as a buyer you don’t need to add listings or build out the store component. Click on Home in the menu near the top to see your regular profile page and make changes as you’d like.
+After finishing onboarding, you’ll now see your own **OpenBazaar Store page**. Each user has their own profile and store on the OpenBazaar network by default but if you are just joining as a buyer you don’t need Click on **Home** in the menu near the top to see your regular profile page and make changes as you’d like.
 
-## Step #3 – Search & Buy
+## Step 3 – Search & Buy
 
-To browse items, click the OpenBazaar tent icon to the right of the address bar at the top of your client window to Discover.
+To browse items, click the **OpenBazaar tent icon** to the right of the address bar at the top of your client window to **Discover**.
 
-You will see the Discover bar at the top which shows the integrated search engines you can use to browse items. It defaults to OB1, which is underlined. OB1 is the company leading the development of OpenBazaar and we have built our own search engine to help users navigate the network. We will be walking through this search engine only in this overview. Other search engines built by third parties may also be integrated & some may be available here. At this time Blockbooth is also available.
+You will see the **Discover** bar at the top which shows the integrated search engines you can use to browse items. It defaults to [OB1](https://ob1.io), which is underlined. OB1 is the company leading the development of OpenBazaar and we have built our own search engine to help users navigate the network. We will be walking through this search engine only in this overview. Other search engines built by third parties may also be integrated & some may be available here.
 
-Anyone can build a search engine for browsing OpenBazaar though to be integrated by default they need to agree to certain terms [LINK] and agree to keep up with managing their application. Other search engines may be available to find on the web and add at a user’s own discretion though we do not index or catalog these.
-
-Below that is the search bar where you can search for keywords and terms you may want to see like tshirt or art. This search pulls from the keyword tags that sellers add to their listings and not the titles, descriptions or store names at this time. For best results sellers are encouraged to add all the relevant tags they can think of to help buyers find their items.
+Below that is the search bar where you can search for **keywords** and **terms** you may want to see like **shirt** or **art**. This search pulls from the keyword tags that sellers add to their listings and not the titles, descriptions or store names at this time. For best results sellers are encouraged to add all the relevant tags they can think of to help buyers find their items.
 
 You can also choose from the Suggestions just below the search bar to browse.
 
