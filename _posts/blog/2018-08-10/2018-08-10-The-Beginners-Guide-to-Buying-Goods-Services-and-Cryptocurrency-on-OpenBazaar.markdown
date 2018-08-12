@@ -16,7 +16,7 @@ If you have any difficulties along the way, please visit our [Support](https://o
 
 Most users will want to download the package that matches their operating system from our website at [openbazaar.org/download](https://openbazaar.org/download)
 
-If you have some technical expertise and want to manually install OpenBazaar, read these instructions: https://github.com/OpenBazaar/openbazaar-go/tree/master/docs/ 
+If you have some technical expertise and want to manually install OpenBazaar, read [these instructions](https://github.com/OpenBazaar/openbazaar-go/tree/master/docs/).
 
 ## Step 2 – Run OpenBazaar
 
@@ -24,7 +24,7 @@ The first time you run OpenBazaar you will be guided through a short **onboardin
 
 Your OpenBazaar **node** is similar to an account or profile on a traditional website but with an important difference: _you own it._ 
 
-With websites, you create your user account on a server that someone else, like Amazon or Ebay, owns entirely. This is kind of like renting an apartment in a building that they own. When you are “leasing” space on a regular website this way, they control how you access it, too.They give you “keys” that you use to access your account--your login and password--and they can also revoke them at any time.
+With websites, you create your user account on a server that someone else, like Amazon or Ebay, owns entirely. This is kind of like renting an apartment in a building that they own. When you are “leasing” space on a regular website this way, they control how you access it, too. They give you “keys” that you use to access your account--your login and password--and they can also revoke them at any time.
 
 With OpenBazaar, you create and own **your own server**--your **node!**--that participates in the marketplace network, and all data you create lives on **your own computer**. This is like building your own independent house that has a private entrance only you can find so no login or password are necessary.
 
@@ -109,6 +109,12 @@ Did you find something that you would like to buy but that requires a different 
 Simply hover over your avatar in the top right corner and then your store name. Click the option **New Server**. This will take you to a module where you can select the new type of node you’d like to set up. 
 
 After setup, you can then quickly toggle between your nodes by doing basically this same thing again: hovering over your avatar, then your store name, then selecting your additional nodes from the menu that pops up.
+
+#### Want To See More?
+
+Check out this video tutorial of the OpenBazaar setup process which is a bit older but still shows a lot of the basics in action:
+
+{% include modules/embeded-video.html url="https://www.youtube.com/embed/VzlerMJMOu8"%}
 
 #### Talk To Us!
 
