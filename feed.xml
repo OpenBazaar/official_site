@@ -1,4 +1,120 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-08-09T16:17:38+00:00</updated><id>https://openbazaar.org/</id><title type="html">OpenBazaar</title><entry><title type="html">OpenBazaar Developer Call - August 2, 2018</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-August-2-2018/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - August 2, 2018" /><published>2018-08-02T14:30:00+00:00</published><updated>2018-08-02T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-August-2-2018</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-August-2-2018/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on August 2, 2018.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-08-12T12:45:52+00:00</updated><id>https://openbazaar.org/</id><title type="html">OpenBazaar</title><entry><title type="html">The Beginner’s Guide to Buying Goods, Services and Cryptocurrency on OpenBazaar</title><link href="https://openbazaar.org/blog/The-Beginners-Guide-to-Buying-Goods-Services-and-Cryptocurrency-on-OpenBazaar/" rel="alternate" type="text/html" title="The Beginner’s Guide to &lt;span class='post-title-extra'&gt;Buying Goods, Services&lt;/span&gt; and &lt;span class='post-title-extra'&gt;Cryptocurrency&lt;/span&gt; on OpenBazaar" /><published>2018-08-10T14:30:00+00:00</published><updated>2018-08-10T14:30:00+00:00</updated><id>https://openbazaar.org/blog/The-Beginners-Guide-to-Buying-Goods-Services-and-Cryptocurrency-on-OpenBazaar</id><content type="html" xml:base="https://openbazaar.org/blog/The-Beginners-Guide-to-Buying-Goods-Services-and-Cryptocurrency-on-OpenBazaar/">&lt;p&gt;Hello and welcome! We’re glad you want to buy goods, services and cryptocurrency on OpenBazaar.&lt;/p&gt;
+
+&lt;p&gt;You can start by casually browsing what’s available in this decentralized marketplace at &lt;a href=&quot;https://openbazaar.com&quot;&gt;openbazaar.com&lt;/a&gt;. When you’re ready to buy, this handy guide will show you how you can set up an OpenBazaar profile, step by step. It only takes a few minutes!&lt;/p&gt;
+
+&lt;p&gt;If you have any difficulties along the way, please visit our &lt;a href=&quot;https://openbazaar.org/support&quot;&gt;Support&lt;/a&gt; page for ways to get in touch with us and let us know. If you want to chat with someone from the OpenBazaar community for help, or to give feedback on how OpenBazaar is working for you, join our &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt; community.&lt;/p&gt;
+
+&lt;h2 id=&quot;step-1--download-and-install-openbazaar&quot;&gt;Step 1 – Download and Install OpenBazaar&lt;/h2&gt;
+
+&lt;p&gt;Most users will want to download the package that matches their operating system from our website at &lt;a href=&quot;https://openbazaar.org/download&quot;&gt;openbazaar.org/download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you have some technical expertise and want to manually install OpenBazaar, read &lt;a href=&quot;https://github.com/OpenBazaar/openbazaar-go/tree/master/docs/&quot;&gt;these instructions&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;step-2--run-openbazaar&quot;&gt;Step 2 – Run OpenBazaar&lt;/h2&gt;
+
+&lt;p&gt;The first time you run OpenBazaar you will be guided through a short &lt;strong&gt;onboarding process&lt;/strong&gt; to setup and personalize your &lt;strong&gt;node&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Your OpenBazaar &lt;strong&gt;node&lt;/strong&gt; is similar to an account or profile on a traditional website but with an important difference: &lt;em&gt;you own it.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;With websites, you create your user account on a server that someone else, like Amazon or Ebay, owns entirely. This is kind of like renting an apartment in a building that they own. When you are “leasing” space on a regular website this way, they control how you access it, too. They give you “keys” that you use to access your account–your login and password–and they can also revoke them at any time.&lt;/p&gt;
+
+&lt;p&gt;With OpenBazaar, you create and own &lt;strong&gt;your own server&lt;/strong&gt;–your &lt;strong&gt;node!&lt;/strong&gt;–that participates in the marketplace network, and all data you create lives on &lt;strong&gt;your own computer&lt;/strong&gt;. This is like building your own independent house that has a private entrance only you can find so no login or password are necessary.&lt;/p&gt;
+
+&lt;p&gt;Since your node and profile live entirely on your own computer, someone would have to access your computer directly in order to make changes to it or take it down. This is more secure than how websites operate though it requires a little bit more knowledge to manage. For example, if you want to access your profile from another computer, you have to move all of your files to that other computer. To “close” your account, you simply &lt;strong&gt;delete your files from your computer&lt;/strong&gt; following &lt;a href=&quot;https://openbazaar.zendesk.com/hc/en-us/articles/360012910151&quot;&gt;these instructions&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We are working to make this more flexible in the future so that you have the option to set up your profile or store to be accessible from various devices.&lt;/p&gt;
+
+&lt;h4 id=&quot;onboarding-setup&quot;&gt;Onboarding Setup&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;OpenBazaar Onboarding Screen - Get Started.png&quot; alt=&quot;OpenBazaar Onboarding Screen - Get Started&quot; title=&quot;OpenBazaar Onboarding Screen - Get Started&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here you go! Time to Get Started.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;OpenBazaar Onboarding Screen - Cryptocurrency Wallet Setup.png&quot; alt=&quot;OpenBazaar Onboarding Screen - Cryptocurrency Wallet Setup&quot; title=&quot;OpenBazaar Onboarding Screen - Cryptocurrency Wallet Setup&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;First you will be asked to set up your integrated cryptocurrency wallet. Right now this includes Bitcoin, Bitcoin Cash or Zcash (beta). At this time you can only select one to start but if you would like the option to shop with more of the available currencies you can add additional wallets after this first setup which is described later in this tutorial.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;OpenBazaar Onboarding Screen - Add Your Info.png&quot; alt=&quot;OpenBazaar Onboarding Screen - Add Your Info&quot; title=&quot;OpenBazaar Onboarding Screen - Add Your Info&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then you will be asked a few questions such as your name, description of your profile/store, country, and preferred display currency.&lt;/p&gt;
+
+&lt;p&gt;You also have the opportunity to upload an avatar for your profile. Click on &lt;strong&gt;Select Avatar&lt;/strong&gt; to choose a file from your computer. Recommendations here are to choose a nice, uncomplicated avatar that scales well into a circle frame as it will appear around the application. Avatars should be a square at least 280px by 280px or larger for best visual appearance.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;OpenBazaar Onboarding Screen - Terms of Service.png&quot; alt=&quot;OpenBazaar Onboarding Screen - Terms of Service&quot; title=&quot;OpenBazaar Onboarding Screen - Terms of Service&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then there is a disclaimer about using the OpenBazaar software, which you should read before continuing because OpenBazaar is an unique and new kind of marketplace.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;OpenBazaar Onboarding Screen - Optional Opt-In Metrics.png&quot; alt=&quot;OpenBazaar Onboarding Screen - Optional Opt-In Metrics&quot; title=&quot;OpenBazaar Onboarding Screen - Optional Opt-In Metrics&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, you will see a screen asking you to opt into &lt;strong&gt;optional analytics collection&lt;/strong&gt;. This is your choice and even if you change your mind you can always opt in or out again at any time in your &lt;strong&gt;Settings&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;OpenBazaar Onboarding - Your New Profile Store Page.png&quot; alt=&quot;OpenBazaar Onboarding Screen - Your New Profile Store Page&quot; title=&quot;OpenBazaar Onboarding Screen - Your New Profile Store Page&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After finishing onboarding, you’ll now see your own &lt;strong&gt;OpenBazaar Store page&lt;/strong&gt;. Each user has their own profile and store on the OpenBazaar network by default but if you are just joining as a buyer you don’t need Click on &lt;strong&gt;Home&lt;/strong&gt; in the menu near the top to see your regular profile page and make changes as you’d like.&lt;/p&gt;
+
+&lt;h2 id=&quot;step-3--search--buy&quot;&gt;Step 3 – Search &amp;amp; Buy&lt;/h2&gt;
+
+&lt;p&gt;To browse items, click the &lt;strong&gt;OpenBazaar tent icon&lt;/strong&gt; to the right of the address bar at the top of your client window to &lt;strong&gt;Discover&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;OpenBazaar Discover Screen.png&quot; alt=&quot;OpenBazaar Discover Screen&quot; title=&quot;OpenBazaar Discover Screen&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You will see the &lt;strong&gt;Discover&lt;/strong&gt; bar at the top which shows the integrated search engines you can use to browse items. It defaults to &lt;a href=&quot;https://ob1.io&quot;&gt;OB1&lt;/a&gt;, which is underlined. OB1 is the company leading the development of OpenBazaar and we have built our own search engine to help users navigate the network. We will be walking through this search engine only in this overview. Other search engines built by third parties may also be integrated &amp;amp; some may be available here.&lt;/p&gt;
+
+&lt;p&gt;Below that is the search bar where you can search for &lt;strong&gt;keywords&lt;/strong&gt; and &lt;strong&gt;terms&lt;/strong&gt; you may want to see like &lt;strong&gt;shirt&lt;/strong&gt; or &lt;strong&gt;art&lt;/strong&gt;. This search pulls from the keyword tags that sellers add to their listings and not the titles, descriptions or store names at this time. For best results sellers are encouraged to add all the relevant tags they can think of to help buyers find their items.&lt;/p&gt;
+
+&lt;p&gt;You can also choose from the Suggestions just below the search bar to browse.&lt;/p&gt;
+
+&lt;p&gt;Below the search bar on the left side are different criteria you can use to help search &amp;amp; sort listings to your preferences. By default the Accepted Currency will match the currency you selected for your wallet on setup so it’s easier to see items available that you can pay for using your OpenBazaar wallet. You are able to change this setting to browse other items available but you will not be able to pay for them unless you set up an additional wallet supporting that currency.&lt;/p&gt;
+
+&lt;h4 id=&quot;make-a-purchase&quot;&gt;Make a purchase&lt;/h4&gt;
+
+&lt;p&gt;When you find something you’d like to purchase, click &lt;strong&gt;BUY NOW&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;The order process is a 4 (sometimes 5) step process that begins when you click &lt;strong&gt;BUY NOW&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;OpenBazaar Order Process.png&quot; alt=&quot;OpenBazaar Order Process&quot; title=&quot;OpenBazaar Order Process&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This initiates the purchase channel that you then can choose to &lt;strong&gt;Fund&lt;/strong&gt; by sending your coins. If you simply click Buy and do not Fund a purchase, no coins are transferred and it functionally becomes a cancelled order.&lt;/p&gt;
+
+&lt;p&gt;The next phases of the purchase may include &lt;strong&gt;Accepted&lt;/strong&gt; then will always have &lt;strong&gt;Fulfilled&lt;/strong&gt; and &lt;strong&gt;Complete&lt;/strong&gt;. The &lt;strong&gt;Accepted&lt;/strong&gt; action must be completed by the seller to open the payment connection if required.&lt;/p&gt;
+
+&lt;p&gt;When the seller sends your order they will then set the status to &lt;strong&gt;Fulfilled&lt;/strong&gt;. Then you must Complete the order and leave a review when your purchase has been completed.&lt;/p&gt;
+
+&lt;h4 id=&quot;payment-types-in-openbazaar&quot;&gt;Payment Types in OpenBazaar&lt;/h4&gt;
+
+&lt;p&gt;There are three types of payments in OpenBazaar:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Direct payments&lt;/strong&gt; - Coins are sent directly from the buyer to the seller.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Moderated payments&lt;/strong&gt; - Coins are sent to a 2-of-3 multisignature account that works like escrow. A third party moderator, who is another regular user type within OpenBazaar, is added to this kind of transaction to help in case of a dispute.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Offline payments&lt;/strong&gt; - when a seller is offline, coins are sent to a 1-of-2 multisig address that they can accept when they return.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Read more about how the different payment types work &lt;a href=&quot;https://openbazaar.zendesk.com/hc/en-us/articles/360000303371-What-are-the-different-payment-types-in-OpenBazaar-&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;wallets&quot;&gt;Wallets&lt;/h4&gt;
+
+&lt;p&gt;You can use an external cryptocurrency wallet to pay for listings or use the &lt;strong&gt;integrated wallet&lt;/strong&gt; by sending funds to it first. Click &lt;strong&gt;Receive Money&lt;/strong&gt; and either send coins from a mobile wallet using the QR code or copy and paste the text address below into your your desktop wallet.&lt;/p&gt;
+
+&lt;h4 id=&quot;setting-up-additional-coin-type-wallets&quot;&gt;Setting Up Additional Coin Type Wallets&lt;/h4&gt;
+
+&lt;p&gt;Did you find something that you would like to buy but that requires a different type of cryptocurrency wallet than your node has? At this time additional wallets can be added by creating additional nodes you can easily toggle between on your computer.&lt;/p&gt;
+
+&lt;p&gt;Simply hover over your avatar in the top right corner and then your store name. Click the option &lt;strong&gt;New Server&lt;/strong&gt;. This will take you to a module where you can select the new type of node you’d like to set up.&lt;/p&gt;
+
+&lt;p&gt;After setup, you can then quickly toggle between your nodes by doing basically this same thing again: hovering over your avatar, then your store name, then selecting your additional nodes from the menu that pops up.&lt;/p&gt;
+
+&lt;h4 id=&quot;want-to-see-more&quot;&gt;Want To See More?&lt;/h4&gt;
+
+&lt;p&gt;Check out this video tutorial of the OpenBazaar setup process which is a bit older but still shows a lot of the basics in action:&lt;/p&gt;
+
+&lt;div class=&quot;embed-responsive embed-responsive-16by9 mb-5&quot;&gt;
+    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/VzlerMJMOu8&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;talk-to-us&quot;&gt;Talk To Us!&lt;/h4&gt;
+
+&lt;p&gt;We hope this guide was helpful for getting started using OpenBazaar. Please let us know what you think in our &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt; and let us know any additional questions that you may have that would make this even easier for you!&lt;/p&gt;</content><author><name></name></author><summary type="html">Hello and welcome! We’re glad you want to buy goods, services and cryptocurrency on OpenBazaar.</summary></entry><entry><title type="html">OpenBazaar Developer Call - August 2, 2018</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-August-2-2018/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - August 2, 2018" /><published>2018-08-02T14:30:00+00:00</published><updated>2018-08-02T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-August-2-2018</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-August-2-2018/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on August 2, 2018.&lt;/p&gt;
 
 &lt;p&gt;Want to join the call in real time? Sign up at &lt;a href=&quot;https://openbazaar.org/developers&quot;&gt;openbazaar.org/developers&lt;/a&gt;&lt;/p&gt;
 
@@ -400,54 +516,4 @@ The first is the ability for users offering to trade coins to mark up or discoun
 
 &lt;p&gt;&lt;strong&gt;Help us all make OpenBazaar better and drive forward the capabilities of decentralized platforms by opting into sharing anonymized usage stats.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Download it now by clicking &lt;a href=&quot;https://openbazaar.org/download&quot;&gt;here.&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Facebook knows exactly how many users are on their platform. Amazon knows exactly how many products are sold. Instagram knows exactly how many photos are shared.</summary></entry><entry><title type="html">What Do Moderators and Moderated Payments Do on OpenBazaar?</title><link href="https://openbazaar.org/blog/what-do-moderators-and-moderated-payments-do-on-openbazaar/" rel="alternate" type="text/html" title="What Do Moderators &lt;span class='post-title-extra'&gt;and Moderated Payments&lt;/span&gt; Do on OpenBazaar?" /><published>2018-05-17T03:49:16+00:00</published><updated>2018-05-17T03:49:16+00:00</updated><id>https://openbazaar.org/blog/what-do-moderators-and-moderated-payments-do-on-openbazaar</id><content type="html" xml:base="https://openbazaar.org/blog/what-do-moderators-and-moderated-payments-do-on-openbazaar/">&lt;p&gt;Decentralizing ecommerce is an important part of the future we believe in. We are working to build a world with greater access to global commerce and more opportunities for people everywhere to build the lives they want. We believe this is made possible with decentralized money like Bitcoin and decentralized marketplaces like OpenBazaar.&lt;/p&gt;
-
-&lt;p&gt;It’s a big vision. Much of the work we are doing right now is largely untangling some of the technological and psychological knots the infrastructure and assumptions of the last 20 years have made for us all.&lt;/p&gt;
-
-&lt;p&gt;One of the first and biggest knots we knew had to be untangled for a decentralized marketplace like OpenBazaar to be feasible was a pretty basic service other marketplaces and storefronts have historically provided: &lt;strong&gt;dispute resolution&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Think about it: in a decentralized network that’s made only of the individual people that participate in it, and transactions exist only between the people engaged in them, what happens when something goes wrong with an order?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;Payments in OpenBazaar&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;For a bit of background, OpenBazaar currently uses 3 different cryptocurrency payment types:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Direct&lt;/li&gt;
-  &lt;li&gt;Offline&lt;/li&gt;
-  &lt;li&gt;Moderated&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Generally, if a buyer trusts a seller they can just send their coins directly to them in a direct payment. If the seller is offline at the time of payment, that creates a slightly different payment type where they just have to claim their coins when they return to their store. (You can read more details about each of these payment types &lt;a href=&quot;https://openbazaar.zendesk.com/hc/en-us/articles/360000303371-What-are-the-different-payment-types-in-OpenBazaar-&quot;&gt;here&lt;/a&gt;.)&lt;/p&gt;
-
-&lt;p&gt;Then there are moderated payments, which is what a buyer can use to send coins to a vendor they do not yet know or trust or to provide an extra layer of security for higher cost transactions.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What is a moderated payment?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Moderated payments are an important part of the OpenBazaar checkout experience and something that we believe is a valuable application of a unique feature that Bitcoin and related cryptocurrencies have: multisignature (multisig) addresses.&lt;/p&gt;
-
-&lt;p&gt;Multisig addresses work like an escrow account between a buyer and a seller by pulling an objective third party into the checkout process, called a moderator. These addresses require 2 of these 3 parties to agree in order to release the coins at the end of a transaction. Typically transactions just go smoothly between buyers and sellers and a moderator’s help isn’t ever needed, but it sure is nice to know they are there just in case! If something does go wrong, moderators will help figure out who gets the payment coins when the buyer or seller opens a dispute.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;moderated.png&quot; alt=&quot;Moderated payment&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What is a moderator?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Again, a decentralized marketplace means that the entire platform is made up only of people connecting to other people with no large organizations sitting in the middle to dictate how anyone uses the platform–nor step in to provide things like dispute resolution. In a decentralized network, the individual users are each responsible for their own experiences which includes contributing positively to the community by building their business and reputation as well as protecting themselves.&lt;/p&gt;
-
-&lt;p&gt;Like a buyer or a seller, a moderator is also just another type of user on the OpenBazaar network. Anyone can choose to become one and make their services as a moderator available on the network. And as you may know, since it’s pretty easy to get started on the OpenBazaar network, figuring out which users are more likely to be trustworthy requires a little scrutiny, first.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;How do I pick a good moderator?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;As a buyer or seller, it’s important to choose a trustworthy moderator to add to your transactions if you are choosing a moderated payment. Here are some tips for &lt;a href=&quot;https://www.openbazaar.org/blog/how-to-choose-a-good-moderator-on-openbazaar/&quot;&gt;choosing a good moderator&lt;/a&gt; and &lt;a href=&quot;https://ob1.io/&quot;&gt;OB1&lt;/a&gt;, the company leading the development of OpenBazaar, now has a &lt;a href=&quot;https://ob1.io/verified-moderators.html&quot;&gt;Verified Moderators program&lt;/a&gt; that is integrated into OpenBazaar to help users find someone that OB1 has reviewed who has shown themselves more likely to be trustworthy when helping settle disputes.&lt;/p&gt;
-
-&lt;div class=&quot;embed-responsive embed-responsive-16by9 mb-5&quot;&gt;
-    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/vLn9dQu9Zp0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Also, it’s always good to check out &lt;a href=&quot;http://www.openbazaar.org/scam-prevention/&quot;&gt;these scam prevention tips&lt;/a&gt; to help you stay safe and smart when buying and selling on OpenBazaar.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Choose your own adventure&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;There are a lot of choices involved in using OpenBazaar, and that’s on purpose. We know it is different from what you may be used to but we are building a marketplace where each user gets to be in control of their own experience with more features and opportunities being built all the time. To see some of the other things the OB1 team is working on to make OpenBazaar the most accessible and expandable ecommerce marketplace on the planet, check out the &lt;a href=&quot;https://www.openbazaar.org/blog/openbazaar-2018-roadmap/&quot;&gt;2018 Roadmap&lt;/a&gt; and make sure to sign up for the &lt;a href=&quot;/newsletter/&quot;&gt;email newsletter&lt;/a&gt; to get the latest updates!&lt;/p&gt;</content><author><name></name></author><summary type="html">Decentralizing ecommerce is an important part of the future we believe in. We are working to build a world with greater access to global commerce and more opportunities for people everywhere to build the lives they want. We believe this is made possible with decentralized money like Bitcoin and decentralized marketplaces like OpenBazaar.</summary></entry></feed>
+&lt;p&gt;&lt;em&gt;Download it now by clicking &lt;a href=&quot;https://openbazaar.org/download&quot;&gt;here.&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Facebook knows exactly how many users are on their platform. Amazon knows exactly how many products are sold. Instagram knows exactly how many photos are shared.</summary></entry></feed>
