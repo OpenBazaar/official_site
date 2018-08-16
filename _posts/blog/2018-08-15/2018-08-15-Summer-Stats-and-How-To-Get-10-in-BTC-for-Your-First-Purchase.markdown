@@ -14,9 +14,9 @@ For those of us in the northern hemisphere, summer is waning - and we miss it al
 * **Built** [a whole new website](https://openbazaar.com) just for browsing OpenBazaar on the web
 * **Welcomed** thousands of new users from over 125 different countries into the OpenBazaar network
 
-We are excited to see people trading cryptocurrencies and easily sharing their stores and listings on social media and very soon being able to make and take payments easily in one wallet with their choice of **five** different coins!
+We are excited to see people trading cryptocurrencies and easily sharing their stores and listings on social media. Very soon they will also be able to make and take payments in **one** wallet with their choice of **five** different coins!
 
-We are constantly working to make decentralized ecommerce extremely beautiful and accessible for everyone, everywhere on earth. And we couldn’t do it without people from all so many different places developing, trading and participating right alongside us, telling us what they think and helping us constantly make this thing even better.
+We are constantly working to make decentralized ecommerce extremely beautiful and accessible for everyone, everywhere on earth. And we couldn’t do it without people from so many different places developing, trading and participating right alongside us, telling us what they think and helping us make this thing better every day.
 
 We want you to try it and tell us about it, too. To sweeten the already awesome deal of checking out the future of ecommerce, we want to give you [$10 BTC toward your first purchase on OpenBazaar](https://openbazaar.com/bitcoin-promotion).
 
