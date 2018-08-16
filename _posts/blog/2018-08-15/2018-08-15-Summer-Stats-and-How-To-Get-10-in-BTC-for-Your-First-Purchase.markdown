@@ -24,7 +24,7 @@ We want you to try it and tell us about it, too. To sweeten the already awesome 
 
 **Yeah, we’re just _giving away $10 in bitcoin_ so you can try OpenBazaar for yourself.** 
 
-And we aren’t even being creepy about it. You don’t need to send _us_ bitcoin before we send _you_ bitcoin or spam everyone you’ve ever met or anything, you just need to [follow the short instructions](https://openbazaar.com/bitcoin-promotion) and have send some BTC to your OpenBazaar wallet so you can shop.
+And we aren’t even being creepy about it. You don’t need to already have or send bitcoin to anybody else nor spam everyone you’ve ever met. You just need to [follow these short instructions](https://openbazaar.com/bitcoin-promotion) and we will send $10 BTC to your OpenBazaar wallet so you can shop.
 
 That’s all we have for now. Grab your **free bitcoin** and we'll see you in the marketplace!
 
