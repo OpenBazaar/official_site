@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="zI3sAn6GTCII6X2rmUMR1uHZG5crfyuVmzRoaqXmDq4" /><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Decentralized Search and Content Discovery on OpenBazaar | OpenBazaar</title>
+<meta name="generator" content="Jekyll v3.8.3" />
+<meta property="og:title" content="Decentralized Search and Content Discovery on OpenBazaar" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Content discovery is a crucial component to any ecommerce system, especially 2-sided marketplaces where users are both the buyers and the sellers. Even if vendors have listed a number of great products, if users can’t find things they want then they won’t become buyers. Centralized 2-sided marketplaces like Amazon and Etsy have been able to build robust discovery tools because they control the platform and are able to collect every bit of user data generated there." />
+<meta property="og:description" content="Content discovery is a crucial component to any ecommerce system, especially 2-sided marketplaces where users are both the buyers and the sellers. Even if vendors have listed a number of great products, if users can’t find things they want then they won’t become buyers. Centralized 2-sided marketplaces like Amazon and Etsy have been able to build robust discovery tools because they control the platform and are able to collect every bit of user data generated there." />
+<link rel="canonical" href="https://openbazaar.org/blog/decentralized-search-and-content-discovery-on-openbazaar/" />
+<meta property="og:url" content="https://openbazaar.org/blog/decentralized-search-and-content-discovery-on-openbazaar/" />
+<meta property="og:site_name" content="OpenBazaar" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-08-21T14:30:00+00:00" />
+<script type="application/ld+json">
+{"description":"Content discovery is a crucial component to any ecommerce system, especially 2-sided marketplaces where users are both the buyers and the sellers. Even if vendors have listed a number of great products, if users can’t find things they want then they won’t become buyers. Centralized 2-sided marketplaces like Amazon and Etsy have been able to build robust discovery tools because they control the platform and are able to collect every bit of user data generated there.","@type":"BlogPosting","url":"https://openbazaar.org/blog/decentralized-search-and-content-discovery-on-openbazaar/","headline":"Decentralized Search and Content Discovery on OpenBazaar","dateModified":"2018-08-21T14:30:00+00:00","datePublished":"2018-08-21T14:30:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://openbazaar.org/blog/decentralized-search-and-content-discovery-on-openbazaar/"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="shortcut icon" type="image/png" href="/favicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/main.css">
+  
+    <meta property="og:image" content="https://openbazaar.org/blog/">
+    <meta property="og:title" content="Decentralized Search and Content Discovery on OpenBazaar">
+    <meta property="og:description" content="Decentralized Search and Content Discovery on OpenBazaar">
+  <link type="application/atom+xml" rel="alternate" href="https://openbazaar.org/feed.xml" title="OpenBazaar" /><script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-P8J7H5F');
+</script>
+
+</head>
+<body><!-- Google Tag Manager (noscript) -->
+<noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P8J7H5F" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<header class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="/">
+            <img class="openbazaar-logo" alt="openbazaar logo" src="/assets/home/openbazaar-logo-316bbba492da4a2a44a7ad012f1054fdf0c47c1068d5a949f86bab5ab23a5980.png" integrity="sha256-MWu7pJLaSipEp60BLxBU/fDEfBBo1alJ+GurWrI6WYA=" crossorigin="anonymous">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-top" aria-controls="navbar-top"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span> Menu
+        </button>
+        <div class="collapse navbar-collapse text-center text-lg-left" id="navbar-top">
+            
+            <ul class="navbar-nav ml-auto"><li class="nav-item ml-md-2 ">
+                    <a class="nav-link" href="/features/">Features
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2 ">
+                    <a class="nav-link" href="/applications/">
+                        Applications
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2">
+                    <a class="nav-link" href="https://api.openbazaar.org/" target="_blank">API</a>
+                </li>
+                <li class="nav-item ml-md-2 ">
+                    <a class="nav-link" href="/developers/">
+                        Developers
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2 ">
+                    <a class="nav-link" href="/support/">
+                        Support
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2 active ">
+                    <a class="nav-link" href="/blog/">
+                        Blog
+                        
+                            <span class="sr-only">(current)</span>
+                        
+                    </a>
+                </li>
+                <li class="nav-item ml-md-2">
+                    <a href="/mobile-updates/" class="button small download d-lg-none">Get It for Desktop</a>
+                    <a href="/download/" class="button small download d-none d-lg-inline-flex">DOWNLOAD</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header><main class="page-content" aria-label="Content">
+      <div class="wrapper content">
+        <article class="container limited">
+    <div class="row">
+        <div class="col-12">
+            <section class="row pt-0 ">
+    
+        <div class="col-12 post-heading-image w-100 border-bottom">
+
+        </div>
+        <img class="post-openbazaar-logo mx-auto" alt="openbazaar-log0" src="/assets/blog/openbazaar-logo-9bc1d7020f444dc7e779cd01ca965d93105c47c54b6a58bd4d9df0592cf640f9.png" integrity="sha256-m8HXAg9ETcfnec0BypZdkxBcR8VLali9TZ3wWSz2QPk=" crossorigin="anonymous">
+    
+    <div class="col-12">
+        <div class="row text-center mt-4">
+            
+                <div class="col"></div>
+                <div class="col-8">
+                    <a href="/blog/decentralized-search-and-content-discovery-on-openbazaar/">
+                        <h3 class="post-title">
+                            Decentralized <span class='post-title-extra'>Search and Content Discovery</span> on OpenBazaar
+                        </h3>
+                    </a>
+                </div>
+                <div class="col"></div>
+                <div class="col-12 d-flex justify-content-between my-4">
+                    <div class="post-emojis">
+                        <i class="fab fa-bitcoin post-icon-bitcoin"></i>
+                        <img draggable="false" class="emoji medium post-emoji" alt="world emoji" src="https://s.w.org/images/core/emoji/2.4/svg/1f30e.svg">
+                        <img draggable="false" class="emoji medium post-emoji" alt="✌" src="https://s.w.org/images/core/emoji/2.4/svg/270c.svg">
+                    </div>
+                    <a class="post-openbazaar-link" href="/">OpenBazaar.org</a>
+                </div>
+            
+            <div class="col-12 post-date text-left mb-3">
+                Aug 21, 2018
+            </div>
+            
+                <div class="col-12 text-left post-container">
+                    <p><strong>Content discovery</strong> is a crucial component to any ecommerce system, especially 2-sided marketplaces where users are both the buyers and the sellers. Even if vendors have listed a number of great products, if users can’t find things they want then they won’t become buyers. <strong>Centralized</strong> 2-sided marketplaces like Amazon and Etsy have been able to build robust discovery tools because they control the platform and are able to collect every bit of user data generated there.</p>
+
+<p>A <strong>decentralized</strong> marketplace like OpenBazaar removes the opportunity for a single organization to own and control all data which creates advantages for users in giving them more freedom and privacy but it also presents some challenges for creating a good content discovery system.</p>
+
+<p>A truly decentralized answer to easy and elegant content discovery does not yet exist but we have developed an approach to help buyers find things they want and need in this growing marketplace while still honoring a valuable principle that decentralization provides: <strong>choice.</strong></p>
+
+<p><img src="Search Providers in OpenBazaar.gif" alt="Search Providers in OpenBazaar" title="Search Providers in OpenBazaar" /></p>
+
+<h3 id="federation-a-stop-between-centralization-and-full-decentralization">Federation: A stop between centralization and full decentralization</h3>
+<p>In version 1.0 of OpenBazaar we tried our hand at a truly decentralized search index but the results were less than ideal. The technology is just not there yet. In response to the search deficiencies then, the market acted in the form of DuoSearch, which was a company that decided to build a crawler for the network and maintain their own centralized index. Users had to leave the OpenBazaar app and go to the DuoSearch website to easily browse items. Once they discovered items they wanted to by, they had to return to the app to make the purchase.</p>
+
+<p>For version 2.0 we knew we wanted a system that could be as nice to use as DuoSearch, from inside the app, and without requiring all users to use a single, centralized search engine. The solution is <strong>a federated search system</strong> that anybody can participate in. In version 2.0, each search provider can build and maintain their own view of the network but conform with a common interface that allows them to be used interchangably in systems. Nobody has an upper hand and everybody can compete on quality and features.</p>
+
+<h3 id="basics-of-building-a-search-api-for-openbazaar">Basics of building a search API for OpenBazaar</h3>
+<p>Anybody can build a search provider that can be added to the client by ensuring their API is compliant with <a href="https://gist.github.com/tyler-smith/44b5cc8065042f221630cb5c8be505bf">OBIP2</a> which defines a spec for how the OpenBazaar client and search providers interact. Any API following the spec can be consumed by OBIP2 clients which means anybody can build their own search engine any way they’d like to. They show any listings they want, any filters they want, and score results any way they want.</p>
+
+<p>In order to serve search results a, search developer needs to crawl the network using the OpenBazaar server API and index the results into a system like <a href="https://www.elastic.co/">Elasticsearch</a> or <a href="https://www.algolia.com/">Algolia</a>. They also need to frequently re-check their data to ensure the content is still available on the network.</p>
+
+<p>After indexing all the data they need to build an API satisfying the OBIP2 interface so that OpenBazaar users can add the root URL to their client and begin using the search engine.</p>
+
+<h3 id="customizing-your-search-experience">Customizing your search experience</h3>
+<p>A search provider could be completely free for use, monetize their search by selling paid promotion slots, or sell premium search endpoints. It’s entirely up to them how they’d like to run it.</p>
+
+<p>Every provider decides what results to show for any given query and they define their own filtering and sorting options. This allows them do things like experiment with new features or specialize in only certain types of listings.</p>
+
+<p>Someone could create a food-oriented search where users can filter by types of food or ingredients and sort by nutritional value. Or a search engine for clothing with options related sizes and styles. The OpenBazaar protocol and applications have no concern for what data is being served, as long as it’s being served in the proper format for users to access.</p>
+
+<h3 id="common-issues-and-future-improvements">Common issues and future improvements</h3>
+<p>Crawling the network and keeping the data fresh is the most challenging part of building a search provider. Search providers want to make sure everything they serve is still available on the network. They also don’t want to serve listings whose names have expired on the network which can be tricky to track.</p>
+
+<p>In the future we plan to make this much easier and more reliable by utilizing <a href="https://ipfs.io/blog/25-pubsub/">PubSub in IPFS</a> to broadcast updates that anybody can listen for. Providers will only need to listen on the update channel to get all the information necessary to update their index.</p>
+
+<p>We’re aware that the tooling and documentation around the lower level details on how to build a working crawler could stand to be improved. We are working on a future post that goes into more technical details and explanations and are considering how we can create open tooling to make it as easy as possible for anybody to participate in the OpenBazaar content provider ecosystem.</p>
+
+                </div>
+            
+        </div>
+    </div>
+</section>
+        </div>
+    </div>
+</article>
+<div class="container-fluid mb-5">
+    <div class="row">
+        <div class="col-12 pb-4">
+            <hr class="help-us-separator">
+            <div class="container limited">
+                <p>
+                    <strong>Do you want to help build this with us?</strong>
+                </p>
+                <p>
+                    <a href="/download/" class="general-link">Download OpenBazaar</a> right now to get buying or selling in minutes or join us on
+                    <a class="general-link" href="https://github.com/openbazaar">Github</a> to contribute to the development of this open-source project!
+                </p>
+                <p>
+                    <!-- AddToAny BEGIN -->
+                    <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                        <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+                        <a class="a2a_button_tumblr"></a>
+                        <a class="a2a_button_facebook"></a>
+                        <a class="a2a_button_twitter"></a>
+                    </div>
+                    <script async src="https://static.addtoany.com/menu/page.js"></script>
+                    <!-- AddToAny END -->
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row recent-updates-wrapper border-bottom border-top">
+    <div class="col-12">
+        <section class="container">
+            <div class="row">
+                <div class="col-12 mb-4 emphasis-text">
+                    <h3 class="recent-updates-heading">Recent updates</h3>
+                </div>
+                <div class="col-12">
+                    <div class="card-deck text-center">
+                        
+                            <div class="card p-3 mb-4">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <a href="/blog/decentralized-search-and-content-discovery-on-openbazaar/">
+                                        <h5 class="recent-updates-title">Decentralized Search and Content Discovery on OpenBazaar</h5>
+                                    </a>
+                                    <div class="recent-updates-body mt-2">
+                                        Content discovery is a crucial component to any ecommerce system, especially 2-sided marketplaces where users are both the buyers and the sellers. Even if vendors have listed a number of great products, if users can’t find things they want then...
+                                    </div>
+
+                                    <a href="/blog/decentralized-search-and-content-discovery-on-openbazaar/" class="button small mt-4 mx-auto">read more</a>
+                                </div>
+                            </div>
+                        
+                            <div class="card p-3 mb-4">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <a href="/blog/OpenBazaar-Developer-Call-August-16-2018/">
+                                        <h5 class="recent-updates-title">OpenBazaar Developer Call - August 16, 2018</h5>
+                                    </a>
+                                    <div class="recent-updates-body mt-2">
+                                        This is a video recording of the OpenBazaar Developer call on August 16, 2018.
+
+
+                                    </div>
+
+                                    <a href="/blog/OpenBazaar-Developer-Call-August-16-2018/" class="button small mt-4 mx-auto">read more</a>
+                                </div>
+                            </div>
+                        
+                            <div class="card p-3 mb-4">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <a href="/blog/Summer-Stats-and-How-To-Get-10-in-BTC-for-Your-First-Purchase/">
+                                        <h5 class="recent-updates-title">Summer Stats and How To Get $10 in BTC for Your First Purchase on OpenBazaar</h5>
+                                    </a>
+                                    <div class="recent-updates-body mt-2">
+                                        For those of us in the northern hemisphere, summer is waning - and we miss it already. We’ve had an excellent season so far with the release of some new features and seeing a pop of new users come in....
+                                    </div>
+
+                                    <a href="/blog/Summer-Stats-and-How-To-Get-10-in-BTC-for-Your-First-Purchase/" class="button small mt-4 mx-auto">read more</a>
+                                </div>
+                            </div>
+                        
+                            <div class="card p-3 mb-4">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <a href="/blog/The-Beginners-Guide-to-Buying-Goods-Services-and-Cryptocurrency-on-OpenBazaar/">
+                                        <h5 class="recent-updates-title">The Beginner’s Guide to Buying Goods, Services and Cryptocurrency on OpenBazaar</h5>
+                                    </a>
+                                    <div class="recent-updates-body mt-2">
+                                        Hello and welcome! We’re glad you want to buy goods, services and cryptocurrency on OpenBazaar.
+
+
+                                    </div>
+
+                                    <a href="/blog/The-Beginners-Guide-to-Buying-Goods-Services-and-Cryptocurrency-on-OpenBazaar/" class="button small mt-4 mx-auto">read more</a>
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+</div>
+      </div>
+    </main><div class="container">
+    <footer class="row pb-4">
+        <div class="col-12 col-md-8">
+            <nav class="navbar navbar-expand-sm navbar-light">
+                <div class="collapse show navbar-collapse text-center text-sm-left" id="navbar-bottom">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link " href="/about/">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/events/">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/newsletter/">Newsletter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/contributors/">Contributors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/bitcoin/">Need Bitcoin?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/donate/">Donate</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/privacy/">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="col-12 col-md-4 d-flex flex-row justify-content-md-end justify-content-center">
+            <a href="https://twitter.com/openbazaar">
+                <i class="social-icon ml-2 fab fa-twitter d-flex align-items-center"></i>
+            </a>
+            <a href="/slack">
+                <i class="social-icon ml-2 fab fa-slack-hash d-flex align-items-center"></i>
+            </a>
+            <a href="https://www.reddit.com/r/OpenBazaar/">
+                <i class="social-icon ml-2 fab fa-reddit-alien d-flex align-items-center"></i>
+            </a>
+            <a href="https://github.com/openbazaar">
+                <i class="social-icon ml-2 fab fa-github d-flex align-items-center"></i>
+            </a>
+            <a href="mailto:project@openbazaar.org" target="_top">
+                <i class="social-icon ml-2 fas fa-envelope d-flex align-items-center"></i>
+            </a>
+        </div>
+    </footer>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="/assets/app-ba007b8d37398caa366192f41c1b411f124639d50f517aca5b698dce5d8cc992.js" integrity="sha256-ugB7jTc5jKo2YZL0HBtBHxJGOdUPUXrKW2mNzl2MyZI=" crossorigin="anonymous" type="text/javascript"></script>
+  </body>
+
+</html>
