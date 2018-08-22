@@ -6,6 +6,8 @@ social_title: 'Decentralized Search and Content Discovery on OpenBazaar'
 social_description: 'Decentralized Search and Content Discovery on OpenBazaar'
 ---
 
+_by OpenBazaar Developer Tyler Smith_
+
 **Content discovery** is a crucial component to any ecommerce system, especially 2-sided marketplaces where users are both the buyers and the sellers. Even if vendors have listed a number of great products, if users can't find things they want then they won't become buyers. **Centralized** 2-sided marketplaces like Amazon and Etsy have been able to build robust discovery tools because they control the platform and are able to collect every bit of user data generated there. 
 
 A **decentralized** marketplace like OpenBazaar removes the opportunity for a single organization to own and control all data which creates advantages for users in giving them more freedom and privacy but it also presents some challenges for creating a good content discovery system.
