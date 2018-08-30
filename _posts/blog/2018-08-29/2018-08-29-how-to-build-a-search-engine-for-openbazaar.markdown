@@ -8,7 +8,7 @@ social_description: 'How To Build a Search Engine for OpenBazaar'
 
 _by OpenBazaar Lead Backend Developer Chris Pacia_
 
-When we were designing [OpenBazaar](https://openbazaar.org/download), now the world's largest decentralized marketplace, we knew the general approach to creating a **search engine** that delivered high quality results was to use a centralized server to index listings and run search queries. A centralized search experience, however, was completely out of line with the **freedom** and **flexibility** this open-source marketplace represents. We knew there had to still be some intermediate step we could take.
+When we were designing [OpenBazaar](https://openbazaar.org/download), now the world's largest decentralized marketplace, we knew the general approach to creating a **search engine** that delivered high quality results was to use a centralized server to index listings and run search queries. A centralized search experience, however, was completely out of line with the **freedom** and **flexibility** this open-source marketplace represents. We knew there had to be some intermediate step we could take.
 
 ### A Federated Approach
 
@@ -63,7 +63,7 @@ You will also need the user’s profile which you can get from `/ob/profile/<pee
 
 ![ob profile peerid - How To Build a Search Engine on OpenBazaar](ob profile peerid.png "ob profile peerid - How To Build a Search Engine on OpenBazaar")
 
-From there you can put the listings in whatever database you please to index and search on them. Your API just needs to conform to the specification in [OBIP2](https://github.com/OpenBazaar/obips/blob/master/obip-0002.md) and it will be compatible with the client.
+Then you can put the listings in whatever database you please to index and search them. Your API just needs to conform to the specification in [OBIP2](https://github.com/OpenBazaar/obips/blob/master/obip-0002.md) and it will be compatible with the client.
 
 To see your search engine when your stores are indexed, enter the URL here in the OpenBazaar client:
 
@@ -71,13 +71,13 @@ To see your search engine when your stores are indexed, enter the URL here in th
 
 ### Step 3 - Keeping Content Fresh
 
-The biggest challenge with running a search engine is avoiding serving stale content. Given that OpenBazaar is still fairly new, users may come and go fairly quickly. You want to avoid serving listings for stores where the owner has not been online in a long time to make sure to give potential buyers a fresh discovery experience.
+The biggest challenge with running a search engine is avoiding serving stale content. Given that OpenBazaar is still fairly new, users may come and go frequently. You want to avoid serving listings for stores where the owner has not been online in a long time to make sure to give potential buyers a fresh discovery experience.
 
 Further, listings are not guaranteed to persist on the network longer than a week after a vendor has gone offline. It still _may_ be visible to some users due to caching, but not everyone may be able to see the listing. If you serve old listings, a potential buyer might click on it only to get a Not Found error. We recommend not serving listings from vendors which have not been identified as being online at least once within the past week. 
 
 How do you determine that? Admittedly this is an area where we are still working to improve but there are a few ways. 
 
-First, make sure your database of peerIDs also tracks the last seen or last good timestamp for the peer. From there you have several ways you could update the timestamp:
+First, make sure your database of peerIDs also tracks the last seen or last good timestamp for the peer. Next, you have several ways you could update the timestamp:
 
 **1) Ping each peer**
 
@@ -99,7 +99,7 @@ Additionally, you’ll likely also want to set `"BackUpAPI": ""` in the config a
 
 **4) Use IPNS record validity**
 
-Every time a user publishes new content they publish an IPNS record containing an expiration date in the DHT. That expiration date is the time at which the user’s listings will drop out of the network absent them re-publishing which happens automatically at startup and once a day thereafter. 
+Every time a user publishes new content they publish an IPNS record containing an expiration date in the DHT. That expiration date is the time at which the user’s listings will drop out of the network absent them re-publishing which happens automatically when their node starts up and once a day thereafter. 
 
 When you query for a user’s listings or profile or anything else, your node looks up the IPNS record. You could theoretically use this expiration date as a proxy for the last good timestamp for the peer and beyond that stop serving their listings. 
 
@@ -113,7 +113,7 @@ Currently, disabling cache--3) above--also disables pubsub and would make this m
 
 ### Step 4 - Making Money!
 
-It's entirely possible for you to monetize your work on an OpenBazaar search engine by adding paid ads in your search results. In fact, you could pretty easy sell ad space for your search engine through your own OpenBazaar store! The only real missing piece is we’d like to create an ad badge for the UI that calls out which listings are ads. This would just require adding a single piece of data to the listing JSON in your search results. 
+It's entirely possible for you to monetize your work on an OpenBazaar search engine by adding paid ads in your search results. In fact, you could pretty easy sell ad space for your search engine through your own OpenBazaar store!
 
 ### Issues and Improvements
 
