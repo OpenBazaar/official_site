@@ -16,7 +16,7 @@ We decided to do what few other platforms have done and open it up so that [anyo
 
 ### Building a Search Engine for OpenBazaar
 
-I have written a brief overview of how to build a search engine for OpenBazaar and described some of the outstanding issues we are still working on. It does take some technical skill to build a search engine, but it’s not difficult, and anyone with limited software development skills should be able to do so. 
+I have written a brief overview of how to build a search engine for OpenBazaar and described some of the outstanding issues we are still working on. It does take some technical skill to build a search engine, but developers with previous experience building and maintaining online infrastructure should be able to create a simple version without too much difficulty.
 
 ### Step 1 - Finding Peers
 
@@ -55,11 +55,11 @@ Now that you have a list of stores it’s time to index them. `/ob/listings/<pee
 
 ![Indexing Stores on OpenBazaar](indexing stores on openbazaar.png "Indexing Stores on OpenBazaar")
 
-And if you grab the hash from of a listing you can get the full details by using `/ob/listing/<peerID>/<hash>`
+And if you grab the hash from a listing you can get the full details by using `/ob/listing/<peerID>/<hash>`
 
 ![ob listing peerid hash - How To Build a Search Engine on OpenBazaar](ob listing peerid hash.png "ob listing peerid hash - How To Build a Search Engine on OpenBazaar")
 
-You’re also going to need the user’s profile which you can get from `/ob/profile/<peerID>`
+You will also need the user’s profile which you can get from `/ob/profile/<peerID>`
 
 ![ob profile peerid - How To Build a Search Engine on OpenBazaar](ob profile peerid.png "ob profile peerid - How To Build a Search Engine on OpenBazaar")
 
