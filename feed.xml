@@ -1,4 +1,117 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-08-24T21:56:00+00:00</updated><id>https://openbazaar.org/</id><title type="html">OpenBazaar</title><entry><title type="html">Decentralized Search and Content Discovery on OpenBazaar</title><link href="https://openbazaar.org/blog/decentralized-search-and-content-discovery-on-openbazaar/" rel="alternate" type="text/html" title="Decentralized &lt;span class='post-title-extra'&gt;Search and Content Discovery&lt;/span&gt; on OpenBazaar" /><published>2018-08-21T14:30:00+00:00</published><updated>2018-08-21T14:30:00+00:00</updated><id>https://openbazaar.org/blog/decentralized-search-and-content-discovery-on-openbazaar</id><content type="html" xml:base="https://openbazaar.org/blog/decentralized-search-and-content-discovery-on-openbazaar/">&lt;p&gt;&lt;em&gt;by OpenBazaar Developer Tyler Smith&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-08-30T18:06:18+00:00</updated><id>https://openbazaar.org/</id><title type="html">OpenBazaar</title><entry><title type="html">How To Build a Search Engine for OpenBazaar</title><link href="https://openbazaar.org/blog/how-to-build-a-search-engine-for-openbazaar/" rel="alternate" type="text/html" title="How To Build a &lt;span class='post-title-extra'&gt;Search Engine&lt;/span&gt; for OpenBazaar" /><published>2018-08-21T14:30:00+00:00</published><updated>2018-08-21T14:30:00+00:00</updated><id>https://openbazaar.org/blog/how-to-build-a-search-engine-for-openbazaar</id><content type="html" xml:base="https://openbazaar.org/blog/how-to-build-a-search-engine-for-openbazaar/">&lt;p&gt;&lt;em&gt;by OpenBazaar Lead Backend Developer Chris Pacia&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;When we were designing &lt;a href=&quot;https://openbazaar.org/download&quot;&gt;OpenBazaar&lt;/a&gt;, now the world’s largest decentralized marketplace, we knew the general approach to creating a &lt;strong&gt;search engine&lt;/strong&gt; that delivered high quality results was to use a centralized server to index listings and run search queries. A centralized search experience, however, was completely out of line with the &lt;strong&gt;freedom&lt;/strong&gt; and &lt;strong&gt;flexibility&lt;/strong&gt; this open-source marketplace represents. We knew there had to be some intermediate step we could take.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-federated-approach&quot;&gt;A Federated Approach&lt;/h3&gt;
+
+&lt;p&gt;We decided to do what few other platforms have done and open it up so that &lt;a href=&quot;https://openbazaar.org/blog/decentralized-search-and-content-discovery-on-openbazaar/&quot;&gt;anyone can create a search engine that is compatible with the OpenBazaar app&lt;/a&gt;. This would allow us to start by building our own search engine to help users navigate the network but would relieve their total reliance on it. All the data that needs to be indexed is &lt;strong&gt;public&lt;/strong&gt; and anyone can create and run a search engine of their own.&lt;/p&gt;
+
+&lt;h3 id=&quot;building-a-search-engine-for-openbazaar&quot;&gt;Building a Search Engine for OpenBazaar&lt;/h3&gt;
+
+&lt;p&gt;I have written a brief overview of how to build a search engine for OpenBazaar and described some of the outstanding issues we are still working on. It does take some technical skill to build a search engine, but developers with previous experience building and maintaining online infrastructure should be able to create a simple version without too much difficulty.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-1---finding-peers&quot;&gt;Step 1 - Finding Peers&lt;/h3&gt;
+
+&lt;p&gt;Step one is to build a database of all the peers you want index. There are several ways you can do this:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1) Actively crawl the network&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The openbazaar-go API provides a couple of APIs to make this easy. &lt;code class=&quot;highlighter-rouge&quot;&gt;/ob/peers&lt;/code&gt; returns a list of peers you’re connected to:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;ob peers.png&quot; alt=&quot;ob peers - How To Build a Search Engine on OpenBazaar&quot; title=&quot;ob peers - How To Build a Search Engine on OpenBazaar&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And &lt;code class=&quot;highlighter-rouge&quot;&gt;/ob/closestpeers/&amp;lt;peerID&amp;gt;&lt;/code&gt; returns a list of “closer” peers from the DHT. One can crawl the network for more nodes just by iterating over your current peer database and fetching closer peers.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;ob closest peers.png&quot; alt=&quot;ob closest peers - How To Build a Search Engine on OpenBazaar&quot; title=&quot;ob closest peers - How To Build a Search Engine on OpenBazaar&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can also use the &lt;code class=&quot;highlighter-rouge&quot;&gt;/ob/peerinfo/&amp;lt;peerID&amp;gt;&lt;/code&gt; endpoint to look at their IP address if you wanted to index only Tor stores, for example.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2) Passively listen for new peers&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;For this you’d likely want several nodes running at the same time. From there you could stream
+peerIDs to your database every time one of your nodes receives a new connection. You might not get all peers this way but you should find most. &lt;code class=&quot;highlighter-rouge&quot;&gt;openbazaar-go&lt;/code&gt; nodes do not expose an API which streams new peer connections so you’d have to patch a node to get this data. Creating such an API should be relatively easy and it’s something we are considering doing.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3) Subscribe to pubsub&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We are just now starting to make use of the libp2p’s pubsub capabilities. Currently only IPNS data is broadcast to pubsub channels but hopefully relatively soon we will have all nodes announce new publishes over a pubsub channel. Normal users will not be subscribed to this data–as it is a lot of data–but for people who are building search engines this would be perfect.&lt;/p&gt;
+
+&lt;p&gt;Depending on what data we include in the publish, you should be able to subscribe to the appropriate channel and receive streaming updates from every peer. We’ll be sure to announce and document this functionality when it is available.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4) Manual curation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You could also just manually enter the peerIDs of stores you find interesting in your database. This isn’t actually a bad strategy if you want your search engine to target specific types of products. Complex machine learning algorithms would likely also work for this if you are particularly adventurous.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-2---indexing-stores&quot;&gt;Step 2 - Indexing Stores&lt;/h3&gt;
+
+&lt;p&gt;Now that you have a list of stores it’s time to index them. &lt;code class=&quot;highlighter-rouge&quot;&gt;/ob/listings/&amp;lt;peerID&amp;gt;&lt;/code&gt; will give you a list of all the store’s listings.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;indexing stores on openbazaar.png&quot; alt=&quot;Indexing Stores on OpenBazaar&quot; title=&quot;Indexing Stores on OpenBazaar&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And if you grab the hash from a listing you can get the full details by using &lt;code class=&quot;highlighter-rouge&quot;&gt;/ob/listing/&amp;lt;peerID&amp;gt;/&amp;lt;hash&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;ob listing peerid hash.png&quot; alt=&quot;ob listing peerid hash - How To Build a Search Engine on OpenBazaar&quot; title=&quot;ob listing peerid hash - How To Build a Search Engine on OpenBazaar&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You will also need the user’s profile which you can get from &lt;code class=&quot;highlighter-rouge&quot;&gt;/ob/profile/&amp;lt;peerID&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;ob profile peerid.png&quot; alt=&quot;ob profile peerid - How To Build a Search Engine on OpenBazaar&quot; title=&quot;ob profile peerid - How To Build a Search Engine on OpenBazaar&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then you can put the listings in whatever database you please to index and search them. Your API just needs to conform to the specification in &lt;a href=&quot;https://github.com/OpenBazaar/obips/blob/master/obip-0002.md&quot;&gt;OBIP2&lt;/a&gt; and it will be compatible with the client.&lt;/p&gt;
+
+&lt;p&gt;To see your search engine when your stores are indexed, enter the URL here in the OpenBazaar client:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;add your search engine to openbazaar.png&quot; alt=&quot;Add your search engine to OpenBazaar - How To Build a Search Engine on OpenBazaar&quot; title=&quot;Add your search engine to OpenBazaar - How To Build a Search Engine on OpenBazaar&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-3---keeping-content-fresh&quot;&gt;Step 3 - Keeping Content Fresh&lt;/h3&gt;
+
+&lt;p&gt;The biggest challenge with running a search engine is avoiding serving stale content. Given that OpenBazaar is still fairly new, users may come and go frequently. You want to avoid serving listings for stores where the owner has not been online in a long time to make sure to give potential buyers a fresh discovery experience.&lt;/p&gt;
+
+&lt;p&gt;Further, listings are not guaranteed to persist on the network longer than a week after a vendor has gone offline. It still &lt;em&gt;may&lt;/em&gt; be visible to some users due to caching, but not everyone may be able to see the listing. If you serve old listings, a potential buyer might click on it only to get a Not Found error. We recommend not serving listings from vendors which have not been identified as being online at least once within the past week.&lt;/p&gt;
+
+&lt;p&gt;How do you determine that? Admittedly this is an area where we are still working to improve but there are a few ways.&lt;/p&gt;
+
+&lt;p&gt;First, make sure your database of peerIDs also tracks the last seen or last good timestamp for the peer. Next, you have several ways you could update the timestamp:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1) Ping each peer&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;/ob/status/&amp;lt;peerID&amp;gt;&lt;/code&gt; endpoint will attempt to ping them and tell you if they are online.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;ob status peerid endpoint.png&quot; alt=&quot;ob status peerid endpoint - How To Build a Search Engine on OpenBazaar&quot; title=&quot;ob status peerid endpoint - How To Build a Search Engine on OpenBazaar&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The problem, however, is that about 60% of nodes on the network are unreachable due to NAT traversal issues. Tor nodes tend to have even worse issues as many users run on operating systems like Tails and Whonix which lock down the control port and make it difficult to accept incoming connections. So this only gets you part of the way there.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2) Passively listen for incoming connections&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This is similar to 2) above in Finding Peers. You could update the timestamp for a peer every time they connect to you but again this will either require patching your node or for us to provide an API to get the data. This also will not cover every peer you’re interested in unless you run many nodes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3) Disable caching&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you set &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;UsePersistentCache&quot;: false&lt;/code&gt; in your node’s config file it will stop returning from cache and will do a new DHT crawl each time you request user data. If the data has dropped out of the network, you will know about it as the data will return not found. If it’s not found, you should generally not serve up that peer’s data.&lt;/p&gt;
+
+&lt;p&gt;Additionally, you’ll likely also want to set &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;BackUpAPI&quot;: &quot;&quot;&lt;/code&gt; in the config as by default it will try to get the record from our gateway’s cache if the record cannot be found in the DHT.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4) Use IPNS record validity&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Every time a user publishes new content they publish an IPNS record containing an expiration date in the DHT. That expiration date is the time at which the user’s listings will drop out of the network absent them re-publishing which happens automatically when their node starts up and once a day thereafter.&lt;/p&gt;
+
+&lt;p&gt;When you query for a user’s listings or profile or anything else, your node looks up the IPNS record. You could theoretically use this expiration date as a proxy for the last good timestamp for the peer and beyond that stop serving their listings.&lt;/p&gt;
+
+&lt;p&gt;This data is not yet exposed in our API and it’s something that we have on our list to develop.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5) Use pubsub&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Currently, whenever you query for a peer’s data, it subscribes to streaming updates for that peer. This means you’ll be notified immediately whenever they publish a new IPNS record. Not only does this tell you when they have signed online, but you could also get the latest IPNS record validity.&lt;/p&gt;
+
+&lt;p&gt;Currently, disabling cache–3) above–also disables pubsub and would make this method ineffective. This is another issue that we are working on improving.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-4---making-money&quot;&gt;Step 4 - Making Money!&lt;/h3&gt;
+
+&lt;p&gt;It’s entirely possible for you to monetize your work on an OpenBazaar search engine by adding paid ads in your search results. In fact, you could pretty easy sell ad space for your search engine through your own OpenBazaar store!&lt;/p&gt;
+
+&lt;h3 id=&quot;issues-and-improvements&quot;&gt;Issues and Improvements&lt;/h3&gt;
+
+&lt;p&gt;This is a general overview of the technical work required for building an OpenBazaar search engine. We’re aware of some areas we would like to improve upon such as creating an API that allows us to stream newly found peerIDs and also have APIs that allow us to inspect IPNS records or pubsub publishes to update our timestamp associated with each peer. We could likely combine all of this into one streaming API that pulls data from all these sources and streams not only new peerIDs that it finds, but also the most up-to-date timestamp for that peer that it is able to decipher. This way search engines only need a single API to update their peers database.&lt;/p&gt;
+
+&lt;p&gt;We are constantly working to make it easier for anyone to jump right in and start building on the OpenBazaar platform. If you have any questions or comments about any of this, please join our conversation in &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt; and tell us what you think.&lt;/p&gt;</content><author><name></name></author><summary type="html">by OpenBazaar Lead Backend Developer Chris Pacia</summary></entry><entry><title type="html">Decentralized Search and Content Discovery on OpenBazaar</title><link href="https://openbazaar.org/blog/decentralized-search-and-content-discovery-on-openbazaar/" rel="alternate" type="text/html" title="Decentralized &lt;span class='post-title-extra'&gt;Search and Content Discovery&lt;/span&gt; on OpenBazaar" /><published>2018-08-21T14:30:00+00:00</published><updated>2018-08-21T14:30:00+00:00</updated><id>https://openbazaar.org/blog/decentralized-search-and-content-discovery-on-openbazaar</id><content type="html" xml:base="https://openbazaar.org/blog/decentralized-search-and-content-discovery-on-openbazaar/">&lt;p&gt;&lt;em&gt;by OpenBazaar Developer Tyler Smith&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Content discovery&lt;/strong&gt; is a crucial component to any ecommerce system, especially 2-sided marketplaces where users are both the buyers and the sellers. Even if vendors have listed a number of great products, if users can’t find things they want then they won’t become buyers. &lt;strong&gt;Centralized&lt;/strong&gt; 2-sided marketplaces like Amazon and Etsy have been able to build robust discovery tools because they control the platform and are able to collect every bit of user data generated there.&lt;/p&gt;
 
@@ -412,54 +525,4 @@ The first is the ability for users offering to trade coins to mark up or discoun
 
 &lt;div class=&quot;embed-responsive embed-responsive-16by9 mb-5&quot;&gt;
     &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/yuYRcmdPoDI&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on July 19, 2018.</summary></entry><entry><title type="html">Zcon0 Recap - A 3-Day Look at the Zcash Community and the Future of OpenBazaar Governance</title><link href="https://openbazaar.org/blog/zcon0-recap-a-3-day-look-at-the-zcash-community-and-the-future-of-openbazaar-governance/" rel="alternate" type="text/html" title="Zcon0 Recap - A 3-Day Look at the &lt;span class='post-title-extra'&gt;Zcash Community&lt;/span&gt; and the Future of OpenBazaar Governance" /><published>2018-07-13T14:30:00+00:00</published><updated>2018-07-13T14:30:00+00:00</updated><id>https://openbazaar.org/blog/zcon0-recap-a-3-day-look-at-the-zcash-community-and-the-future-of-openbazaar-governance</id><content type="html" xml:base="https://openbazaar.org/blog/zcon0-recap-a-3-day-look-at-the-zcash-community-and-the-future-of-openbazaar-governance/">&lt;p&gt;The Zcash Foundation held their first major conference since inception, called Zcon0, in Montreal at the end of June. I was able to attend and wanted to briefly give my own recap.&lt;/p&gt;
-
-&lt;p&gt;Zcash is one of the three cryptocurrencies that are currently accepted inside OpenBazaar. Their focus on financial privacy aligns with the goals of OpenBazaar as a platform where people can choose how private they want their transactions to be.&lt;/p&gt;
-
-&lt;p&gt;The Zcash Foundation is a relatively young organization, formed to take a leadership role in the Zcash community which has primarily been guided by the Zcash Company. OpenBazaar and OB1 are in a similar situation, where the OB1 company has been leading development on OpenBazaar for years, and we’re now looking to create an OpenBazaar Foundation to move stewardship of the project into a more community-focused nonprofit organization. Part of my interest in attending Zcon0 was to see a community going through an organizational change and see what issues presented themselves and what I could learn.&lt;/p&gt;
-
-&lt;p&gt;This was my first trip to Montreal. Everyone says it’s a beautiful city, and they’re right. I arrived the day before the conference and visited Mont Royal, a large hill with a park and a stunning view of the city. My phone’s camera doesn’t quite do it justice.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;montroyal.jpg&quot; alt=&quot;Mont Royal&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;day-1&quot;&gt;Day 1&lt;/h2&gt;
-
-&lt;p&gt;The director of the Foundation, Josh Cincinnati, was unable to attend for family reasons, but he kicked off the conference with a humorous and thoughtful pre-recorded message (and several of these were presented throughout the conference) welcoming us.&lt;/p&gt;
-
-&lt;p&gt;Zooko spoke next, discussing the general state of Zcash and the company, as well as diving into financial details. I was surprised at how open he was with these details. It set the tone of being honest and open with each other about how things really stood in the Zcash community.&lt;/p&gt;
-
-&lt;p&gt;Other speakers gave a history of how Zcash came to exist, and then discussed where it was going, with special emphasis on the next big update (named Sapling) coming in the fall.&lt;/p&gt;
-
-&lt;p&gt;Perhaps the most valuable presentation that morning was “Using Zcash” by Linda Naeun Lee. She was tasked with trying to buy things with Zcash and reporting on her experience. Though she has a computer science background, she wasn’t familiar with the world of cryptocurrency, and she found it a very confusing experience. Zcash simply doesn’t have good wallets, nor does it have good places to spend the coins either.&lt;/p&gt;
-
-&lt;p&gt;However, Linda did take some time to explain one positive experience she had spending Zcash: on OpenBazaar! She explained how she used OpenBazaar to buy a tshirt for someone in Venezuela with Zcash. I was glad to see OpenBazaar working for its intended purpose.&lt;/p&gt;
-
-&lt;p&gt;The afternoon was workshops. We got to choose which workshops we attended, and I chose ones on improving user experience and how to achieve wallet scalability. I was able to contribute some thoughts on the UX discussion based on my experience with OpenBazaar, but mostly listened to much more technically knowledgeable people in the wallet scalability discussion. The workshops were intended for the leaders of the sessions to come away from them with new ideas or poll the groups for their opinions on specific issues; I’m not sure they achieved those goals in such a relatively short period of time.&lt;/p&gt;
-
-&lt;h2 id=&quot;day-2&quot;&gt;Day 2&lt;/h2&gt;
-
-&lt;p&gt;The second day was focused on the technical side of Zcash development. I’m not a developer, and while I’m fairly knowledgeable about how Bitcoin is designed, how distributed networks work, and with the rudimentary basics of cryptography, the majority of these presentations were beyond my grasp.&lt;/p&gt;
-
-&lt;p&gt;ZK-SNARKS are interesting - as best I can understand them! - and I appreciated that they also had presentations from other similar efforts, such as the Coda Protocol and Bulletproofs.&lt;/p&gt;
-
-&lt;p&gt;This day was mostly me following presentations for the first ten minutes and then losing the speakers entirely when they started discussing the math or code. Still, I got a general sense for who was working on what, and why they were doing so.&lt;/p&gt;
-
-&lt;p&gt;That night there was a “Gala Dinner” for attendees. Zooko and Matthew Green had an informal chat with each other on stage while the audience tossed out some conversation ideas. It was a nice idea, but the conversation was unfocused and largely consisted of off-the-cuff personal opinions instead of well-considered thoughts on issues people wanted to hear discussed. But with good food and good company everyone seemed to be having a good time.&lt;/p&gt;
-
-&lt;h2 id=&quot;day-3&quot;&gt;Day 3&lt;/h2&gt;
-
-&lt;p&gt;This day was devoted to governance, the issue I was most interested in, and I’m glad they took the time to focus on it. They were looking to fill two board seats in the foundation and they explained the voting process they used and their rationale for their approach. The results of the voting were revealed, and it wasn’t only for the board seats, they also asked community members questions about direction of the project.&lt;/p&gt;
-
-&lt;p&gt;A few members of the group questioned whether or not this voting system was truly representative of the Zcash community as a whole. It was acknowledged that the system wasn’t ideal, but that it was better than the known alternatives.&lt;/p&gt;
-
-&lt;p&gt;Eric Meltzer briefly spoke and proposed creating an investment fund from the founder’s reward. The presentation itself wasn’t particularly notable, but his idea was proposed in the Zcash forums as well, and the thread was soon locked by a Zcash company employee, creating some drama in the community over the past few weeks. It seems like most people are against changing the founder’s reward, but they also are against the Zcash Company controlling the platforms where people discuss these ideas. I believe efforts are underway to transition these forums’ moderation to the Zcash Foundation now.&lt;/p&gt;
-
-&lt;p&gt;A speaker gave an illuminating overview of where the foundation had given out grants the year before, and where it was looking to give out grants in the future.&lt;/p&gt;
-
-&lt;p&gt;The morning session ended with a panel on governance with Peter Van Valkenburgh, Jill Carlson, Zooko Wilcox, Jameson Lopp, and Vitalik Buterin. There were some disagreements on what proper governance entailed, with Jameson favoring a more anarchic position like Bitcoin. Zooko spoke of his concept of consent, which wasn’t perfectly clear to me; it sounded essentially like “take it or leave it” and everyone voting with their feet.&lt;/p&gt;
-
-&lt;p&gt;The conference wrapped up, and I Ieft Montreal with a better understanding of Zcash from several perspectives: historical, technical,  and communal, as well as a better idea of what they hope it can become moving forward. I was encouraged to see people thinking deeply about the differences between the company and nonprofit organizations and what roles they should be playing.&lt;/p&gt;
-
-&lt;p&gt;If you want to watch some of the presentations from Zcon0, check out &lt;a href=&quot;https://www.youtube.com/playlist?list=PL40dyJ0UYTLK507afWUMgzUYeh-i4qQWS&quot;&gt;this playlist&lt;/a&gt; on Youtube.&lt;/p&gt;
-
-&lt;p&gt;I appreciate the opportunity to attend and I plan on attending next year.&lt;/p&gt;</content><author><name></name></author><summary type="html">The Zcash Foundation held their first major conference since inception, called Zcon0, in Montreal at the end of June. I was able to attend and wanted to briefly give my own recap.</summary></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on July 19, 2018.</summary></entry></feed>
