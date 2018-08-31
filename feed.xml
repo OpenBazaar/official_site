@@ -1,4 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-08-30T18:06:18+00:00</updated><id>https://openbazaar.org/</id><title type="html">OpenBazaar</title><entry><title type="html">How To Build a Search Engine for OpenBazaar</title><link href="https://openbazaar.org/blog/how-to-build-a-search-engine-for-openbazaar/" rel="alternate" type="text/html" title="How To Build a &lt;span class='post-title-extra'&gt;Search Engine&lt;/span&gt; for OpenBazaar" /><published>2018-08-21T14:30:00+00:00</published><updated>2018-08-21T14:30:00+00:00</updated><id>https://openbazaar.org/blog/how-to-build-a-search-engine-for-openbazaar</id><content type="html" xml:base="https://openbazaar.org/blog/how-to-build-a-search-engine-for-openbazaar/">&lt;p&gt;&lt;em&gt;by OpenBazaar Lead Backend Developer Chris Pacia&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-08-31T21:56:13+00:00</updated><id>https://openbazaar.org/</id><title type="html">OpenBazaar</title><entry><title type="html">OpenBazaar Developer Call - August 30, 2018</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-August-30-2018/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - August 30, 2018" /><published>2018-08-30T14:30:00+00:00</published><updated>2018-08-30T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-August-30-2018</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-August-30-2018/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on August 30, 2018.&lt;/p&gt;
+
+&lt;p&gt;Want to join the call in real time? Sign up at &lt;a href=&quot;https://openbazaar.org/developers&quot;&gt;openbazaar.org/developers&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Join our ongoing conversations on Slack at &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;openbazaar.org/slack&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;embed-responsive embed-responsive-16by9 mb-5&quot;&gt;
+    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/p-lmdS07mxc&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Chat log:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:12] &lt;a href=&quot;https://openbazaar.github.io/wns/&quot;&gt;https://openbazaar.github.io/wns/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:12] chris.troutner: Very excited about a naming system!&lt;/p&gt;
+
+&lt;p&gt;[10:13] chris.troutner: Is this ready to use?&lt;/p&gt;
+
+&lt;p&gt;[10:13] chris.troutner: Ok. Might clarify that it’s using the Ethereum test network.&lt;/p&gt;
+
+&lt;p&gt;[10:14] chris.troutner: Can you provide a link to the mobile wallet?&lt;/p&gt;
+
+&lt;p&gt;[10:17] Sameep: &lt;a href=&quot;https://github.com/OpenBazaar/smart-contracts&quot;&gt;https://github.com/OpenBazaar/smart-contracts&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:19] chris.troutner: &lt;a href=&quot;https://p2pvps.org/august-2018-project-update/&quot;&gt;https://p2pvps.org/august-2018-project-update/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:20] Yeshe: I think you guys are doing great.  Im setting up a web hosting vps business. Wish to help you guys out. But dont know how to&lt;/p&gt;
+
+&lt;p&gt;[10:21] Yeshe: Dont like how some of the big boys overcharge ppl&lt;/p&gt;
+
+&lt;p&gt;[10:21] chris.troutner: &lt;a href=&quot;https://developer.bitcoin.com/learn.html&quot;&gt;https://developer.bitcoin.com/learn.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:23] chris.troutner: &lt;a href=&quot;https://lbry.io/&quot;&gt;https://lbry.io/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:26] chris.troutner: I’d love to see someone offer OB store hosting&lt;/p&gt;
+
+&lt;p&gt;[10:27] Sameep: I like that idea&lt;/p&gt;
+
+&lt;p&gt;[10:29] Yeshe: Yes i will be glad to help out …i will join the slack.  Will chat with chris …    Thanks guys&lt;/p&gt;
+
+&lt;p&gt;[10:29] chris.troutner: My handle on different platforms is usually @chris.troutner or @christroutner&lt;/p&gt;
+
+&lt;p&gt;[10:30] Yeshe: Thanks all&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on August 30, 2018.</summary></entry><entry><title type="html">How To Build a Search Engine for OpenBazaar</title><link href="https://openbazaar.org/blog/how-to-build-a-search-engine-for-openbazaar/" rel="alternate" type="text/html" title="How To Build a &lt;span class='post-title-extra'&gt;Search Engine&lt;/span&gt; for OpenBazaar" /><published>2018-08-21T14:30:00+00:00</published><updated>2018-08-21T14:30:00+00:00</updated><id>https://openbazaar.org/blog/how-to-build-a-search-engine-for-openbazaar</id><content type="html" xml:base="https://openbazaar.org/blog/how-to-build-a-search-engine-for-openbazaar/">&lt;p&gt;&lt;em&gt;by OpenBazaar Lead Backend Developer Chris Pacia&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;When we were designing &lt;a href=&quot;https://openbazaar.org/download&quot;&gt;OpenBazaar&lt;/a&gt;, now the world’s largest decentralized marketplace, we knew the general approach to creating a &lt;strong&gt;search engine&lt;/strong&gt; that delivered high quality results was to use a centralized server to index listings and run search queries. A centralized search experience, however, was completely out of line with the &lt;strong&gt;freedom&lt;/strong&gt; and &lt;strong&gt;flexibility&lt;/strong&gt; this open-source marketplace represents. We knew there had to be some intermediate step we could take.&lt;/p&gt;
 
@@ -519,10 +561,4 @@ The first is the ability for users offering to trade coins to mark up or discoun
 
 &lt;p&gt;Further, the OB1 team is committed to seeing OpenBazaar as a protocol of trade which is agnostic of the currency it uses for trade. Any time invested into wallet maintenance is only distracting us from our goals. This was made painfully obvious by the questions raised when the third-party wallet contributions began rolling in. It was unclear who would provide a fix when a bug compromises funds in a user’s wallet. Or decide when a wallet implementation was valuable enough to offer as an option. Nor did we want to be the ones conjuring arbitrary rules for approval.&lt;/p&gt;
 
-&lt;p&gt;Then, the obvious question was asked: How could we offer the choice of currency and wallet directly to the user? More on that in an upcoming post!&lt;/p&gt;</content><author><name></name></author><summary type="html">OpenBazaar is the most free marketplace available on the planet. That freedom implies choice: the right to choose who to trade with, to choose how to protect your purchase, or to choose the visibility of your listings. That freedom should also extend to your choice of currency. And more than that! For your choice to be independent of any one developer’s motives, including OB1. This is the first of two posts which share the motivation and direction our team will take as we explore how to make OpenBazaar work with any currency users choose.</summary></entry><entry><title type="html">OpenBazaar Developer Call - July 19, 2018</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-July-19-2018/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - July 19, 2018" /><published>2018-07-19T14:30:00+00:00</published><updated>2018-07-19T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-July-19-2018</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-July-19-2018/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on July 19, 2018.&lt;/p&gt;
-
-&lt;p&gt;Want to join the call in real time? Sign up at &lt;a href=&quot;https://openbazaar.org/developers&quot;&gt;openbazaar.org/developers&lt;/a&gt;&lt;/p&gt;
-
-&lt;div class=&quot;embed-responsive embed-responsive-16by9 mb-5&quot;&gt;
-    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/yuYRcmdPoDI&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on July 19, 2018.</summary></entry></feed>
+&lt;p&gt;Then, the obvious question was asked: How could we offer the choice of currency and wallet directly to the user? More on that in an upcoming post!&lt;/p&gt;</content><author><name></name></author><summary type="html">OpenBazaar is the most free marketplace available on the planet. That freedom implies choice: the right to choose who to trade with, to choose how to protect your purchase, or to choose the visibility of your listings. That freedom should also extend to your choice of currency. And more than that! For your choice to be independent of any one developer’s motives, including OB1. This is the first of two posts which share the motivation and direction our team will take as we explore how to make OpenBazaar work with any currency users choose.</summary></entry></feed>
