@@ -1,4 +1,117 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-08-31T21:56:13+00:00</updated><id>https://openbazaar.org/</id><title type="html">OpenBazaar</title><entry><title type="html">OpenBazaar Developer Call - August 30, 2018</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-August-30-2018/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - August 30, 2018" /><published>2018-08-30T14:30:00+00:00</published><updated>2018-08-30T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-August-30-2018</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-August-30-2018/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on August 30, 2018.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-09-06T21:01:27+00:00</updated><id>https://openbazaar.org/</id><title type="html">OpenBazaar</title><entry><title type="html">Troubleshooting and How to Help with The Development of OpenBazaar</title><link href="https://openbazaar.org/blog/troubleshooting-and-how-to-help-with-development-on-openbazaar/" rel="alternate" type="text/html" title="&lt;span class='post-title-extra'&gt;Troubleshooting&lt;/span&gt; and How to Help with The &lt;span class='post-title-extra'&gt;Development&lt;/span&gt; of OpenBazaar" /><published>2018-09-05T14:30:00+00:00</published><updated>2018-09-05T14:30:00+00:00</updated><id>https://openbazaar.org/blog/troubleshooting-and-how-to-help-with-development-on-openbazaar</id><content type="html" xml:base="https://openbazaar.org/blog/troubleshooting-and-how-to-help-with-development-on-openbazaar/">&lt;p&gt;&lt;em&gt;By Mike Greenberg, OpenBazaar Backend Developer&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;When we use any kind of software we are likely to encounter issues from time to time. With closed-source software, or software that we generally pay for, there’s usually an easy way to contact someone for support as needed. You pay them, they fix your issues and it’s a very closed, one-on-one discussion.&lt;/p&gt;
+
+&lt;p&gt;But there’s a tradeoff: if that company changes their policies, pumps up their prices, or shuts down, that will have some effect on your ability to get that help—or even &lt;em&gt;keep using the software at all.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://coincenter.org/entry/what-is-open-source-and-why-is-it-important-for-cryptocurrency-and-open-blockchain-projects&quot;&gt;Open source software&lt;/a&gt; is a different kind of animal. It’s the result of many people coming together, sometimes from all around the world, to build programs that are transparent and inclusive, where contribution to the code base is easy and collaborative. This decentralization of technology is a major part of what we love about cryptocurrencies like &lt;a href=&quot;https://bitcoin.org/&quot;&gt;Bitcoin&lt;/a&gt; because &lt;strong&gt;it’s all about giving power back to individual users and contributors&lt;/strong&gt;. It allows them to be in control and make decisions for themselves.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://openbazaar.org/download&quot;&gt;OpenBazaar&lt;/a&gt; is an open source application that is designed to be the fabric of future ecommerce with no middlemen involved and sometimes it presents some unique challenges. As the development leaders of this marketplace, we at &lt;a href=&quot;https://ob1.io&quot;&gt;OB1&lt;/a&gt; are focused on providing a quality user experience &lt;em&gt;within&lt;/em&gt; the app but also want to ensure users are empowered &lt;em&gt;outside&lt;/em&gt; of it as well so they can troubleshoot issues and help the platform keep growing. Which brings us to today’s topic…&lt;/p&gt;
+
+&lt;h4 id=&quot;troubleshooting-and-reporting-issues-with-openbazaar-cue-applause&quot;&gt;Troubleshooting and Reporting Issues with OpenBazaar! (Cue applause)&lt;/h4&gt;
+
+&lt;p&gt;OpenBazaar not only has the benefit of a company like OB1 ensuring its team is available, transparent and engaged with the community when people need assistance, it also has the communal benefits of an open source project.&lt;/p&gt;
+
+&lt;p&gt;Being able to navigate the resources of an open source project efficiently could save you time and headaches but may be different than what you’re accustomed to. This post should help clear up the support options that are available when you need help and show you how to give back to the OpenBazaar community at the same time.&lt;/p&gt;
+
+&lt;p&gt;Let’s dig in.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-just-happened&quot;&gt;What Just Happened?&lt;/h3&gt;
+
+&lt;p&gt;Uh oh. Your screen is displaying a cryptic error or the thing you expected never happened. Now what? The next steps are important to follow specifically in order to get to the bottom of it.&lt;/p&gt;
+
+&lt;p&gt;The first thing to do is record the specific error messages you see and/or take screenshots of the problem. &lt;strong&gt;This part is critical for the developers to properly identify the root cause&lt;/strong&gt;. You are an archeologist making an archive of this bizarre behavior and you need to ensure it is preserved perfectly.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Text errors should always be copied and pasted where possible.&lt;/li&gt;
+  &lt;li&gt;Visual anomalies should be screen captured.&lt;/li&gt;
+  &lt;li&gt;Original file output relevant to the failure should be saved.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Capturing these artifacts up-front will make sure they don’t accidentally get lost by the application changing state automatically or losing power on your computer.&lt;/p&gt;
+
+&lt;h3 id=&quot;finding-solutions&quot;&gt;Finding Solutions&lt;/h3&gt;
+
+&lt;p&gt;Now that you have the details of the problem, we should make sure that someone else hasn’t already reported the problem or found a fix. Often a problem has already been discussed and it’s just a matter of using the right tools to find some answers. As a developer on the project, I usually spend 2-3 minutes searching for unique phrases in the error or picking search terms which are going to identify my problem uniquely from other problems.&lt;/p&gt;
+
+&lt;p&gt;For example, consider the following error message:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;There was an error following.png&quot; alt=&quot;OpenBazaar error message indicating error following&quot; title=&quot;OpenBazaar error message indicating error following&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The unique parts of this error are &lt;strong&gt;error following&lt;/strong&gt; and the phrase &lt;strong&gt;cannot start a transaction within a transaction&lt;/strong&gt;. Pay extra attention for developer misspellings if you’re transcribing an error from a screengrab too. While misspellings are embarrassing, they may occur sometimes. Pasting these search phrases into your search engine of choice should reveal pretty quickly if anyone else has reported this issue yet. Making use of double-quotes around phrases which should match exactly is recommended to filter out unrelated results.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;Searching for OpenBazaar error following.png&quot; alt=&quot;Searching for OpenBazaar error message indicating error following&amp;quot;&quot; title=&quot;Searching for OpenBazaar error message indicating error following&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A search for &lt;strong&gt;OpenBazaar “error following”&lt;/strong&gt; produced a Github issue which was reporting the same error. However, when we open the issue we find that the cause of the error is due to something different and probably not related to our problem. I will leave a search for the other phrase as an exercise for you to try. Finding a discussion around an existing problem could lead to a solution that you might be able to apply yourself.&lt;/p&gt;
+
+&lt;h3 id=&quot;researching-resources&quot;&gt;Researching Resources&lt;/h3&gt;
+
+&lt;p&gt;If a solution doesn’t already exist, you will need to get your new problem report into the right hands. We have quite a few places across the internet where the OpenBazaar community offers help to each other. Take advantage of the open community by sharing your challenge in the appropriate channel.&lt;/p&gt;
+
+&lt;p&gt;Let’s quickly walk through the &lt;strong&gt;common resources&lt;/strong&gt; available and how they may be useful.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1) &lt;a href=&quot;https://openbazaar.zendesk.com/&quot;&gt;Frequently Asked Questions and Knowledge Base&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Here we keep instructions for common tasks such as software setup, establishing your store, and handling moderation tasks. There’s also information about features which are unique to OpenBazaar like our multi-signature escrow or how vacation mode is used. This is primarily a read-only site which will surface the most regular questions from our users.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2) Active Updates on &lt;a href=&quot;https://twitter.com/openbazaar&quot;&gt;Twitter&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Twitter can be a good source of up-to-the-minute news as well as a way to reach out to our team for urgent requests. Here you can find dialogue with fans, critics, news, updates, and promotions from our marketing team. It is an open platform for discussion with a short-form approach to dialogue.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3) Community Discussion on &lt;a href=&quot;https://reddit.com/r/openbazaar&quot;&gt;Reddit&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Reddit allows for topical, threaded discussions and lets users discuss all sorts of things. Some leading topics in the OpenBazaar subreddit include: new stores, decentralized ecommerce news, cryptocurrency mechanics and issues which are hard to track down. The discussion on Reddit shifts over time but its persistence gives a good archive of past issues and thought-provoking conversation. Participating in the OpenBazaar subreddit can be anonymous and has no barrier to posting a question or comment short of creating a Reddit account. Most anything even slightly related to OpenBazaar can be posted here.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4) Real-time Discussion on &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt; and &lt;a href=&quot;https://t.me/OpenBazaarGroup&quot;&gt;Telegram&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;For high-bandwidth conversation with other users and contributors, our team and community congregate in these 2 discussion forums that function a lot like real-time chatrooms. Some areas of these communities focus on 3rd party search providers, moderators and escrow, and new ideas being tested on OpenBazaar, as well as offering each other help and support on common issues. Slack, by far the more popular of the two, has the most regular activity, as the OB1 team and many other developers are engaged there. Telegram is not quite as active but is a nice addition to Slack were people can pop in to ask quick questions about OpenBazaar or determine their next steps troubleshooting an issue.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5) Development on &lt;a href=&quot;https://github.com/openbazaar&quot;&gt;Github&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Github contains the technical discussions and objectives of our various projects. Each repository contains a history of commits from previous contributors, a list of issues that represent pending work, and in some cases further technical documentation which is coupled to the software. This is where the rubber meets road as far as where improvements are discussed and added. It’s safe to assume if a problem or issue is not being tracked in Github, it is not being worked on.&lt;/p&gt;
+
+&lt;h3 id=&quot;reporting-the-problem&quot;&gt;Reporting The Problem&lt;/h3&gt;
+
+&lt;p&gt;Okay, so what happens when you have exhausted all avenues of personal research and are still stumped? OB1 funnels all code changes through &lt;a href=&quot;https://github.com/OpenBazaar/openbazaar-desktop/issues&quot;&gt;Github’s issue tracker&lt;/a&gt;. When providing a bug report, including enough information in order to reproduce–and then fix–the problem is the primary objective.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Here is a brief checklist of useful information that should be included in the report:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Mention your &lt;strong&gt;operating system (OS) and version&lt;/strong&gt;. If the OS type and version is unknown for your computer, you can visit &lt;a href=&quot;http://whatsmyos.com/&quot;&gt;http://whatsmyos.com&lt;/a&gt; to help. (ex: Windows 10, MacOS 10.12.16, Ubuntu 16.04)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Mention your &lt;strong&gt;OpenBazar software version&lt;/strong&gt;. This is indicated in the top right corner of the About screen, which can be launched from the navigation menu in the upper right. (ex: client 2.2.4, server 0.12.3)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Share any &lt;strong&gt;specific error messages and screenshots&lt;/strong&gt; you have previously recorded.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Describe any &lt;strong&gt;context or steps leading up to the error&lt;/strong&gt;. A bug may be unique to the original environment it was created in or it may only be triggered by following steps in a specific order. Developers will use this information to attempt to reproduce the error in a controlled environment. Only once the problem can be demonstrated can developers begin to isolate and repair the root cause.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Clearly indicate &lt;strong&gt;what you expected to happen&lt;/strong&gt;. The error you’re experiencing may not be completely obvious to the developer that is reading your report. You may consider including your reason for wanting the problem to be solved the way you described. A developer may value this insight for improving the user experience of the feature.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Reporting a bug is as simple as opening an issue in the appropriate Github repository, which will most often be &lt;a href=&quot;https://github.com/OpenBazaar/openbazaar-go&quot;&gt;openbazaar-go&lt;/a&gt; or &lt;a href=&quot;https://github.com/OpenBazaar/openbazaar-desktop&quot;&gt;openbazaar-desktop&lt;/a&gt;. OB1 separates the repositories for the frontend user interface and the backend server. If you are unsure which repository a report should be put into, take a good guess and we’ll fix it if necessary. Once you have the information prepared, you can visit the Issues tab and click “New Issue” and paste the prepared information.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;Submitting an OpenBazaar Issue on Github.png&quot; alt=&quot;Submitting an OpenBazaar Issue on Github&quot; title=&quot;Submitting an OpenBazaar Issue on Github&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;What if you don’t have a Github account to report the issue? That’s okay. 
+If you are unfamiliar with Github then you may also file a report using &lt;a href=&quot;https://openbazaar.zendesk.com/hc/en-us/requests/new&quot;&gt;Zendesk&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Posting your report in Github is likely to get a faster solution, but you can also share your issue in any of the other official channels mentioned to begin a discussion. Who knows, you might even find another user is having the same issue later and puts both of your reports into Github. Our community IS pretty helpful!&lt;/p&gt;
+
+&lt;h3 id=&quot;following-up-and-fixing&quot;&gt;Following Up and Fixing&lt;/h3&gt;
+
+&lt;p&gt;There may be some additional questions the team has. Please be sure to check back on your report from time to time to see if progress on your fix is being made and if more information about your problem may be needed.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;Reporting an issue to the OpenBazar community can be a bit of work but you can be an active part of finding or even building the solution. Since OpenBazaar is open source software, this is a huge part of how the marketplace grows. By taking the time to share your experiences with OB1 and other community developers you can contribute to making this software better for everyone—and maybe make some friends along the way.&lt;/p&gt;
+
+&lt;p&gt;If you haven’t already, please make sure you come join us on &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt;, our most active community forum, and say hello!&lt;/p&gt;</content><author><name></name></author><summary type="html">By Mike Greenberg, OpenBazaar Backend Developer</summary></entry><entry><title type="html">OpenBazaar Developer Call - August 30, 2018</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-August-30-2018/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - August 30, 2018" /><published>2018-08-30T14:30:00+00:00</published><updated>2018-08-30T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-August-30-2018</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-August-30-2018/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on August 30, 2018.&lt;/p&gt;
 
 &lt;p&gt;Want to join the call in real time? Sign up at &lt;a href=&quot;https://openbazaar.org/developers&quot;&gt;openbazaar.org/developers&lt;/a&gt;&lt;/p&gt;
 
@@ -525,40 +638,4 @@ The first is the ability for users offering to trade coins to mark up or discoun
 
 &lt;h2 id=&quot;special-thanks&quot;&gt;Special Thanks&lt;/h2&gt;
 
-&lt;p&gt;A special thank you goes out to the many volunteers that provide translations, contributor rhcastilhos, and to our testers that discovered important issues.&lt;/p&gt;</content><author><name></name></author><summary type="html">OpenBazaar version 2.2.2 was just released, and this update gives users several new improvements to the cryptocurrency trading feature. This release also includes other improvements and bug fixes; for full details read the release notes posted below.</summary></entry><entry><title type="html">Freedom To Trade Means Freedom To Choose Currencies: The OpenBazaar Multiwallet</title><link href="https://openbazaar.org/blog/Freedom-To-Trade-Means-Freedom-To-Choose-Currencies-The-OpenBazaar-Multiwallet/" rel="alternate" type="text/html" title="Freedom To &lt;span class='post-title-extra'&gt;Trade&lt;/span&gt; Means Freedom To &lt;span class='post-title-extra'&gt;Choose Currencies:&lt;/span&gt; The OpenBazaar Multiwallet" /><published>2018-07-25T14:30:00+00:00</published><updated>2018-07-25T14:30:00+00:00</updated><id>https://openbazaar.org/blog/Freedom-To-Trade-Means-Freedom-To-Choose-Currencies-The-OpenBazaar-Multiwallet</id><content type="html" xml:base="https://openbazaar.org/blog/Freedom-To-Trade-Means-Freedom-To-Choose-Currencies-The-OpenBazaar-Multiwallet/">&lt;p&gt;OpenBazaar is the most free marketplace available on the planet. That freedom implies choice: the right to choose who to trade with, to choose how to protect your purchase, or to choose the visibility of your listings. That freedom should also extend to your choice of currency. And more than that! For your choice to be independent of any one developer’s motives, including &lt;a href=&quot;https://ob1.io&quot;&gt;OB1&lt;/a&gt;. This is the first of two posts which share the motivation and direction our team will take as we explore how to make OpenBazaar work with any currency users choose.&lt;/p&gt;
-
-&lt;h2 id=&quot;why-the-wallet&quot;&gt;Why The Wallet?&lt;/h2&gt;
-
-&lt;p&gt;Right around the time &lt;a href=&quot;https://openbazaar.org/blog/openbazaar-20-is-live/&quot;&gt;OpenBazaar 2.0 launched&lt;/a&gt;, &lt;a href=&quot;https://bitcoin.org&quot;&gt;Bitcoin&lt;/a&gt; – the default payment option of OpenBazaar at the time – was experiencing high transaction volume lasting several months resulting in network congestion and a poor user experience. All of this created significant friction during a small window where many first impressions would be established. With the landscape of growing alternative cryptocurrencies simultaneously booming around Bitcoin’s shortcomings, it punctuated the need for a choice in payment inside OpenBazaar.&lt;/p&gt;
-
-&lt;h2 id=&quot;seeking-currency-nirvana&quot;&gt;Seeking Currency Nirvana&lt;/h2&gt;
-
-&lt;p&gt;Making OpenBazaar capable of trading with multiple simultaneous currencies affects many aspects of the application: the &lt;strong&gt;Seller&lt;/strong&gt; and &lt;strong&gt;Moderator&lt;/strong&gt; both have concerns for the types of currencies they can accept on the network; the &lt;strong&gt;Buyer&lt;/strong&gt; has concerns in the refund scenarios; the &lt;strong&gt;Wallet&lt;/strong&gt; implementation manipulates the state of the ledger with the current currency’s representation in mind; there are concerns for the protocol in how certain listings shall be validated; and many screens of interface which need to be reconsidered. With lot of ground to cover, we needed a solution in user’s hands with the least development effort required.&lt;/p&gt;
-
-&lt;p&gt;A solution was devised that many wallet implementations (along with their respective currency’s representations) would be provided along with the application and the user would be able to select one on startup. The additional options for currency usage would include &lt;a href=&quot;https://www.bitcoincash.org/&quot;&gt;Bitcoin Cash&lt;/a&gt; and &lt;a href=&quot;https://z.cash&quot;&gt;Zcash&lt;/a&gt; and would make the application’s active currency interchangeable while touching very few of the related details. A seamless experience for the user with just a restart between each currency in use. Only a few screens in the interface would need a change to represent the currently active currency. The server would allow each configuration to be maintained side-by-side facilitating the simple switching from one currency to another without needing to break any of the previously made design decisions.&lt;/p&gt;
-
-&lt;p&gt;In January 2018, OB1 released &lt;a href=&quot;https://openbazaar.org/blog/openbazaar-21-released-bitcoin-cash-and-zcash-integrated/&quot;&gt;version 2.1&lt;/a&gt;. This release was a half-step which allowed our team to quickly respond to the unexpected market conditions, but it also created many new challenges. The release proved that the option of other currencies were welcome and being requested on the network. At the time of publishing this article, 12% of crawlable listings have selected Bitcoin Cash as the accepted currency. But it also educated us on the limitations of adopting third-party wallets as we attempted to support multiple contributions; each presenting their own technical and social challenges.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;Setting-Up-a-New-Server-Node-Wallet-on-OpenBazaar-1.gif&quot; alt=&quot;Setting Up a New Server Node Wallet on OpenBazaar&quot; title=&quot;Setting Up a New Server Node Wallet on OpenBazaar&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;When the OpenBazaar wallet was designed, we assumed quite a few time-saving details. The biggest of these assumptions was that Bitcoin would be the only currency in use. This, of course, had side-effects in our design such as a ledger which only tracks UTXO-based currencies as well as displaying values in other currencies from values represented in Bitcoin. We also made the assumption that users would prefer wallets which could independently verify their own transactions as a matter of ensuring the user need not trust the protocol or even the UI. As such, our wallet implementations default to using &lt;strong&gt;Simple Payment Verification (SPV)&lt;/strong&gt; to ensure the user’s own transactions are highly unlikely to be invalid with the option for users to operate full Bitcoin or Bitcoin Cash nodes if they preferred.&lt;/p&gt;
-
-&lt;p&gt;Many of these design decisions needed reconsideration. The maturing mobile experience which the OB1 team was exploring in the background needed a better solution and the existing 2.0 desktop experience was certainly ready to see a simpler interface when using multiple currencies. The existing answer would have lead toward running an SPV wallet (or full node) for each currency simultaneously, but would not scale in resource-constrained environments such as mobile and older-generation computers. OB1 is also integrating Ethereum as a currency for trade on the network and this has highlighted limitations in our UTXO-based ledger and wallet interface.&lt;/p&gt;
-
-&lt;h2 id=&quot;formalizing-the-multiwallet&quot;&gt;Formalizing the Multiwallet&lt;/h2&gt;
-
-&lt;p&gt;Needing to make a decision with some urgency, internal discussion landed us on a solution in pursuit of an API backend driving interactions on the blockchain. Each API would handle the concerns for handling their respective currency’s blockchain which would reduce the responsibility of the OB1 team in maintaining currency-specific logic. Users would no longer need to provide the computing resources for transacting on the currency’s blockchain at the expense of the API operator (currently OB1, but more on this later).&lt;/p&gt;
-
-&lt;p&gt;The APIs of the existing currencies that we already support abstract nicely into our existing wallet-interface with a minor change of adding an additional dimension to a few of the requests (so the wallet knows to which currency’s blockchain a transaction should be applied). With only very minor technical concerns that seemed solvable, the biggest obstacle was that we were sacrificing the user’s default expectation that they can trustlessly engage with their built-in wallet without any other alternatives. Still an imperfect solution for the security-conscious, but a good next step toward supporting multiple simultaneous currencies.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;openbazaar-multiwallet-design.png&quot; alt=&quot;OpenBazaar Multi Wallet Design&quot; title=&quot;OpenBazaar Multi Wallet Design&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;h5 id=&quot;want-to-see-more-click-here-for-an-interactive-demo&quot;&gt;Want to see more? Click &lt;a href=&quot;https://projects.invisionapp.com/share/5XMZC8DT8HM#/screens/308962050_Openbazaar-2-0-Wallet&quot;&gt;here&lt;/a&gt; for an interactive demo!&lt;/h5&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;We expect that different use cases will change the user’s expectations of the wallet. For example, a vendor might care more about the verifiability of their transactions than a buyer, and a mobile user may prefer to utilize an API-based wallet to save on limited device resources. It would be difficult to build the ideal wallet for all of our users.&lt;/p&gt;
-
-&lt;p&gt;Further, the OB1 team is committed to seeing OpenBazaar as a protocol of trade which is agnostic of the currency it uses for trade. Any time invested into wallet maintenance is only distracting us from our goals. This was made painfully obvious by the questions raised when the third-party wallet contributions began rolling in. It was unclear who would provide a fix when a bug compromises funds in a user’s wallet. Or decide when a wallet implementation was valuable enough to offer as an option. Nor did we want to be the ones conjuring arbitrary rules for approval.&lt;/p&gt;
-
-&lt;p&gt;Then, the obvious question was asked: How could we offer the choice of currency and wallet directly to the user? More on that in an upcoming post!&lt;/p&gt;</content><author><name></name></author><summary type="html">OpenBazaar is the most free marketplace available on the planet. That freedom implies choice: the right to choose who to trade with, to choose how to protect your purchase, or to choose the visibility of your listings. That freedom should also extend to your choice of currency. And more than that! For your choice to be independent of any one developer’s motives, including OB1. This is the first of two posts which share the motivation and direction our team will take as we explore how to make OpenBazaar work with any currency users choose.</summary></entry></feed>
+&lt;p&gt;A special thank you goes out to the many volunteers that provide translations, contributor rhcastilhos, and to our testers that discovered important issues.&lt;/p&gt;</content><author><name></name></author><summary type="html">OpenBazaar version 2.2.2 was just released, and this update gives users several new improvements to the cryptocurrency trading feature. This release also includes other improvements and bug fixes; for full details read the release notes posted below.</summary></entry></feed>
