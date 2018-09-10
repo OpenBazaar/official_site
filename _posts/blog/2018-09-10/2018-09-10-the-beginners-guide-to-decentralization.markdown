@@ -7,16 +7,16 @@ social_description: 'Centralized and decentralized systems exist on a spectrum a
 social_image: Decentralized-network.png
 ---
 
-OpenBazaar is a decentralized marketplace. What does _decentralized_ mean, and why does it matter though? This article will explain the concept of decentralization without any technical jargon.
+OpenBazaar is a decentralized marketplace. What does _decentralized_ mean, and why does it matter? This article will explain the concept of decentralization without any technical jargon.
 
-Decentralization is a way to describe how a system works. These systems can be nearly anything, such as:
+Decentralization is a way to describe how a system works. These systems can be nearly anything:
 
-* A political system, like a government
-* A technical system, like a computer network
-* A corporate system, like the structure of a company
-* A legal system, like the laws of a particular nation
+* A political system, such as a government
+* A technical system, such as a computer network
+* A corporate system, such as the structure of a company
+* A legal system, such as the laws of a particular nation
 
-Here’s the quick definition: _decentralized_ means that no single person or organization has control over everyone else in a given system.
+Here’s a quick definition: _decentralized_ means that no single person or organization has control over everyone else in a given system.
 
 To better understand the concept I’ll give you some examples, but first, you need to understand decentralization’s opposite: _centralization_.
 
@@ -51,14 +51,14 @@ Participants in decentralized systems have the ability to make decisions themsel
 
 > **A decentralized political system** is one where no person or organization has the ability to govern everyone else. A completely decentralized political system would be an anarchy (absence of a governing structure). Modern democratic systems have some elements of decentralization, where participants in the system do have some control over the decision-making process and there are multiple organizations which exist to ensure power doesn’t become centralized within one portion of the government.
 
-> **A decentralized computer network** is a system where the computers talk directly to each other and there is no central point of control. Most online platforms today work by having a lot of computers called servers that their users are forced to connect to if they want to use the service. They are centralized and completely control the system. A decentralized computer network has no central servers that control access to the network; each users’ computer connects directly to other users’ computers, making a network of computers that no one controls. OpenBazaar is such a network, as are networks like Bitcoin and Bittorrent.
+> **A decentralized computer network** is a system where the computers talk directly to each other and there is no central point of control. Most online platforms today work by having a lot of computers called servers that their users are forced to connect to if they want to use the service. They are centralized and completely control the system. A decentralized computer network has no central servers that control access to the network: each users’ computer connects directly to other users’ computers, making a network of computers that no one controls. OpenBazaar is such a network, as are networks like Bitcoin and Bittorrent.
 
 This image shows what a decentralized system looks like. The participants in the system are equal and connect with each other instead of depending on a central party.
 
 ![Visual model of a decentralized network](Decentralized-network.png "Visual model of a decentralized network")
 *Decentralized network with no center*
 
-Decentralized systems are _permissionless_. Since no one controls the system, there’s no one to stop people from joining or forcing them to leave. You can join or leave the OpenBazaar or Bitcoin networks anytime you want to.
+Decentralized systems are _permissionless_. Since no one controls the system, there’s no one who can stop people from joining it nor force them to leave. You can join or leave the OpenBazaar or Bitcoin networks anytime you want to.
 
 Decentralization has its benefits. There are no gatekeepers preventing you from doing what you want to do. Decentralized systems offer more freedom than centralized systems. There is no single point of failure which makes decentralized systems more resilient. Since there’s no one in charge there is no one that everyone depends on. 
 
@@ -76,7 +76,7 @@ It’s also true that the same system can have strong decentralized elements and
 
 ### The Importance of Decentralization on OpenBazaar
 
-OpenBazaar is unique because of its decentralization, but that alone though isn’t what makes it excellent. What’s important about OpenBazaar being decentralized is _what it enables users to do_.
+OpenBazaar is unique because of its decentralization, but that alone though isn’t what makes it compelling. What’s important about OpenBazaar being decentralized is _what it enables users to do_.
 
 There is no company or organization that runs the OpenBazaar network. It’s a collection of people around the world connecting directly to each other to engage in free trade using cryptocurrencies. This lack of gatekeepers means OpenBazaar is permissionless, has no fees, is private, and has no censorship.
 
@@ -94,4 +94,4 @@ If a company controlled the OpenBazaar network then...
 
 **Centralized** and **decentralized** systems exist on a spectrum and each have pros and cons. No current human system is completely one or the other. One thing they share though is that neither structure is an end goal in itself. What's important is _how these structures enable the participation of all involved parties_.
 
-OpenBazaar is not excellent because it's decentralized. OpenBazaar is excellent because the decentralization of the network gives users incredible freedom, privacy and autonomy in how they buy and sell online. 
+OpenBazaar is not compelling _just_ because it's decentralized. OpenBazaar is excellent because the decentralization of the network gives users incredible freedom, privacy and autonomy in how they buy and sell online. 
