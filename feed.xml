@@ -1,4 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-09-06T21:01:27+00:00</updated><id>https://openbazaar.org/</id><title type="html">OpenBazaar</title><entry><title type="html">Troubleshooting and How to Help with The Development of OpenBazaar</title><link href="https://openbazaar.org/blog/troubleshooting-and-how-to-help-with-development-on-openbazaar/" rel="alternate" type="text/html" title="&lt;span class='post-title-extra'&gt;Troubleshooting&lt;/span&gt; and How to Help with The &lt;span class='post-title-extra'&gt;Development&lt;/span&gt; of OpenBazaar" /><published>2018-09-05T14:30:00+00:00</published><updated>2018-09-05T14:30:00+00:00</updated><id>https://openbazaar.org/blog/troubleshooting-and-how-to-help-with-development-on-openbazaar</id><content type="html" xml:base="https://openbazaar.org/blog/troubleshooting-and-how-to-help-with-development-on-openbazaar/">&lt;p&gt;&lt;em&gt;By Mike Greenberg, OpenBazaar Backend Developer&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-09-10T22:25:50+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">The Beginner’s Guide to Decentralization</title><link href="https://openbazaar.org/blog/the-beginners-guide-to-decentralization/" rel="alternate" type="text/html" title="The Beginner's Guide to &lt;span class='post-title-extra'&gt;Decentralization&lt;/span&gt;" /><published>2018-09-10T03:30:00+00:00</published><updated>2018-09-10T03:30:00+00:00</updated><id>https://openbazaar.org/blog/the-beginners-guide-to-decentralization</id><content type="html" xml:base="https://openbazaar.org/blog/the-beginners-guide-to-decentralization/">&lt;p&gt;OpenBazaar is a decentralized marketplace. What does &lt;em&gt;decentralized&lt;/em&gt; mean, and why does it matter? This article will explain the concept of decentralization without any technical jargon.&lt;/p&gt;
+
+&lt;p&gt;Decentralization is a way to describe how a system works. These systems can be nearly anything:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A political system, such as a government&lt;/li&gt;
+  &lt;li&gt;A technical system, such as a computer network&lt;/li&gt;
+  &lt;li&gt;A corporate system, such as the structure of a company&lt;/li&gt;
+  &lt;li&gt;A legal system, such as the laws of a particular nation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here’s a quick definition: &lt;em&gt;decentralized&lt;/em&gt; means that no single person or organization has control over everyone else in a given system.&lt;/p&gt;
+
+&lt;p&gt;To better understand the concept I’ll give you some examples, but first, you need to understand decentralization’s opposite: &lt;em&gt;centralization&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;defining-centralized-systems&quot;&gt;Defining Centralized Systems&lt;/h3&gt;
+
+&lt;p&gt;If a system is “centralized,” that means one person or organization has control over everyone else. This means that the person or organization in control is able to make decisions on behalf of other people within the system, whether they like it or not. Let’s look at two examples.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;A centralized political system&lt;/strong&gt; is one where one person or organization has control over everyone else and can make decisions for them. Monarchies and dictatorships are examples of highly centralized political systems where the leader of the nation is in control.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;A centralized marketplace&lt;/strong&gt; is one where the owner of the marketplace has control over all their users and can make decisions for them. Amazon, eBay, Etsy, Alibaba and all the popular ecommerce platforms are centralized. These companies get to make and enforce the rules for all the users on their platform, such as taking a cut of every transaction, monitoring all their data, and censoring trade whenever they choose.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Centralized systems are &lt;em&gt;permissioned&lt;/em&gt;. You need the permission of the person or organization in control in order to participate. In a country with a highly centralized political system, permission must be granted for things like printing newspapers or even traveling. If you try to use a centralized payment system such as PayPal you need their permission. Most social media platforms are centralized and require the permission of the company to use them. Permission can be granted or revoked at any time.&lt;/p&gt;
+
+&lt;p&gt;This image shows what a centralized system looks like. The participants in the system are on the outside, and there is one person or organization in the middle that everyone else is dependent upon.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;Centralized-network.png&quot; alt=&quot;Visual model of a centralized network&quot; title=&quot;Visual model of a centralized network&quot; /&gt;
+&lt;em&gt;Centralized network with a central point of control&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Centralization has its benefits. It removes ambiguity about who is in control and allows for swift action to remedy problems. For computer networks, it’s much easier to build and maintain centralized systems than decentralized ones. Having a strong leader controlling a company can help keep everyone focused.&lt;/p&gt;
+
+&lt;p&gt;Centralization also has drawbacks. There may not be ambiguity about who is in control, but that doesn’t mean those in control are actually competent, or moral. Centralized systems are easier to build technically, but they are also more fragile, since they have a single point of failure (if the person / organization in charge is gone, so is the system). Being permissioned means that those in power might exclude people they don’t like or agree with.&lt;/p&gt;
+
+&lt;p&gt;Centralized systems can change based on who is in control. Even if the system is run well by competent and moral people today, it could be run poorly by different people tomorrow.&lt;/p&gt;
+
+&lt;p&gt;There is an alternative to having systems so tightly controlled: Decentralization.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-are-decentralized-systems&quot;&gt;What Are Decentralized Systems?&lt;/h3&gt;
+
+&lt;p&gt;As we’ve said, &lt;em&gt;decentralized&lt;/em&gt; means that there is no single person or organization that has control over everyone else in a given system.&lt;/p&gt;
+
+&lt;p&gt;Participants in decentralized systems have the ability to make decisions themselves and aren’t forced to rely on anyone who controls the system. Let’s look at two examples.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;A decentralized political system&lt;/strong&gt; is one where no person or organization has the ability to govern everyone else. A completely decentralized political system would be an anarchy (absence of a governing structure). Modern democratic systems have some elements of decentralization, where participants in the system do have some control over the decision-making process and there are multiple organizations which exist to ensure power doesn’t become centralized within one portion of the government.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;A decentralized computer network&lt;/strong&gt; is a system where the computers talk directly to each other and there is no central point of control. Most online platforms today work by having a lot of computers called servers that their users are forced to connect to if they want to use the service. They are centralized and completely control the system. A decentralized computer network has no central servers that control access to the network: each users’ computer connects directly to other users’ computers, making a network of computers that no one controls. OpenBazaar is such a network, as are networks like Bitcoin and Bittorrent.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This image shows what a decentralized system looks like. The participants in the system are equal and connect with each other instead of depending on a central party.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;Decentralized-network.png&quot; alt=&quot;Visual model of a decentralized network&quot; title=&quot;Visual model of a decentralized network&quot; /&gt;
+&lt;em&gt;Decentralized network with no center&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Decentralized systems are &lt;em&gt;permissionless&lt;/em&gt;. Since no one controls the system, there’s no one who can stop people from joining it nor force them to leave. You can join or leave the OpenBazaar or Bitcoin networks anytime you want to.&lt;/p&gt;
+
+&lt;p&gt;Decentralization has its benefits. There are no gatekeepers preventing you from doing what you want to do. Decentralized systems offer more freedom than centralized systems. There is no single point of failure which makes decentralized systems more resilient. Since there’s no one in charge there is no one that everyone depends on.&lt;/p&gt;
+
+&lt;p&gt;Decentralization also has drawbacks. Designing systems that have no one in control is difficult to do, and if not done properly will mean the system won’t work. Being permissionless does prevent gatekeepers from excluding people, but it’s also difficult (or even impossible) to remove bad actors from the system. Decentralized networks also tend to be more difficult to use than their centralized counterparts.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-spectrum-of-decentralization&quot;&gt;The Spectrum of Decentralization&lt;/h3&gt;
+
+&lt;p&gt;Centralization and decentralization aren’t black and white. It’s not one or the other. Most systems have a mix of centralized and decentralized attributes that fall on a spectrum. When I say “centralized systems” I mean systems that have a clear central point of control. When I say “decentralized systems” I mean systems with no clear central point of control. In practice, there are gray areas.&lt;/p&gt;
+
+&lt;p&gt;For example, a monarchy is a highly centralized form of governance.  However, there are historical examples of monarchs’ power being constrained by other groups, such as aristocracy or religious groups, so even the most centralized form of governance imaginable isn’t fully centralized in practice.&lt;/p&gt;
+
+&lt;p&gt;The same is true with decentralized systems. One criticism of “flat hierarchies” within companies (an attempt at eliminating management) is that they remain flat in name only, while some people effectively become managers again over time. Or when computers in decentralized networks communicate peer-to-peer for most communications but are forced to connect to a specific server the first time they start up (called a “bootstrap node”). Maintaining perfect decentralization within a given system is nearly impossible.&lt;/p&gt;
+
+&lt;p&gt;It’s also true that the same system can have strong decentralized elements and strong centralized elements at the same time. This can happen in open source software projects. The software itself might be built to communicate in a fully decentralized manner, but the development process itself is completely centralized within a small group or even an individual. There are some companies who offer a platform for users which they fully control and is completely centralized, but their corporate structure itself is decentralized. In these cases, you can’t label the entire system centralized or decentralized, but only certain attributes such as governance or technical architecture.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-importance-of-decentralization-on-openbazaar&quot;&gt;The Importance of Decentralization on OpenBazaar&lt;/h3&gt;
+
+&lt;p&gt;OpenBazaar is unique because of its decentralization, but that alone though isn’t what makes it compelling. What’s important about OpenBazaar being decentralized is &lt;em&gt;what it enables users to do&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;There is no company or organization that runs the OpenBazaar network. It’s a collection of people around the world connecting directly to each other to engage in free trade using cryptocurrencies. This lack of gatekeepers means OpenBazaar is permissionless, has no fees, is private, and has no censorship.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It wouldn’t be possible to have these attributes without being decentralized.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If a company controlled the OpenBazaar network then…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;It wouldn’t be &lt;strong&gt;permissionless&lt;/strong&gt;, since they could deny access.&lt;/li&gt;
+  &lt;li&gt;It wouldn’t be &lt;strong&gt;private&lt;/strong&gt;, since they could watch users’ actions on their servers.&lt;/li&gt;
+  &lt;li&gt;It wouldn’t be &lt;strong&gt;free to use&lt;/strong&gt;, since they would own the infrastructure and need to take a cut to pay for it.&lt;/li&gt;
+  &lt;li&gt;It wouldn’t be &lt;strong&gt;censorship-resistant&lt;/strong&gt;, since the company would need to control the network based on business and market pressures.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Centralized&lt;/strong&gt; and &lt;strong&gt;decentralized&lt;/strong&gt; systems exist on a spectrum and each have pros and cons. No current human system is completely one or the other. One thing they share though is that neither structure is an end goal in itself. What’s important is &lt;em&gt;how these structures enable the participation of all involved parties&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;OpenBazaar is not compelling &lt;em&gt;just&lt;/em&gt; because it’s decentralized. OpenBazaar is excellent because the decentralization of the network gives users incredible freedom, privacy and autonomy in how they buy and sell online.&lt;/p&gt;</content><author><name></name></author><summary type="html">OpenBazaar is a decentralized marketplace. What does decentralized mean, and why does it matter? This article will explain the concept of decentralization without any technical jargon.</summary></entry><entry><title type="html">Troubleshooting and How to Help with The Development of OpenBazaar</title><link href="https://openbazaar.org/blog/troubleshooting-and-how-to-help-with-development-on-openbazaar/" rel="alternate" type="text/html" title="&lt;span class='post-title-extra'&gt;Troubleshooting&lt;/span&gt; and How to Help with The &lt;span class='post-title-extra'&gt;Development&lt;/span&gt; of OpenBazaar" /><published>2018-09-05T14:30:00+00:00</published><updated>2018-09-05T14:30:00+00:00</updated><id>https://openbazaar.org/blog/troubleshooting-and-how-to-help-with-development-on-openbazaar</id><content type="html" xml:base="https://openbazaar.org/blog/troubleshooting-and-how-to-help-with-development-on-openbazaar/">&lt;p&gt;&lt;em&gt;By Mike Greenberg, OpenBazaar Backend Developer&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;When we use any kind of software we are likely to encounter issues from time to time. With closed-source software, or software that we generally pay for, there’s usually an easy way to contact someone for support as needed. You pay them, they fix your issues and it’s a very closed, one-on-one discussion.&lt;/p&gt;
 
@@ -153,7 +253,41 @@ If you are unfamiliar with Github then you may also file a report using &lt;a hr
 
 &lt;p&gt;[10:29] chris.troutner: My handle on different platforms is usually @chris.troutner or @christroutner&lt;/p&gt;
 
-&lt;p&gt;[10:30] Yeshe: Thanks all&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on August 30, 2018.</summary></entry><entry><title type="html">How To Build a Search Engine for OpenBazaar</title><link href="https://openbazaar.org/blog/how-to-build-a-search-engine-for-openbazaar/" rel="alternate" type="text/html" title="How To Build a &lt;span class='post-title-extra'&gt;Search Engine&lt;/span&gt; for OpenBazaar" /><published>2018-08-21T14:30:00+00:00</published><updated>2018-08-21T14:30:00+00:00</updated><id>https://openbazaar.org/blog/how-to-build-a-search-engine-for-openbazaar</id><content type="html" xml:base="https://openbazaar.org/blog/how-to-build-a-search-engine-for-openbazaar/">&lt;p&gt;&lt;em&gt;by OpenBazaar Lead Backend Developer Chris Pacia&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;[10:30] Yeshe: Thanks all&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on August 30, 2018.</summary></entry><entry><title type="html">Decentralized Search and Content Discovery on OpenBazaar</title><link href="https://openbazaar.org/blog/decentralized-search-and-content-discovery-on-openbazaar/" rel="alternate" type="text/html" title="Decentralized &lt;span class='post-title-extra'&gt;Search and Content Discovery&lt;/span&gt; on OpenBazaar" /><published>2018-08-21T14:30:00+00:00</published><updated>2018-08-21T14:30:00+00:00</updated><id>https://openbazaar.org/blog/decentralized-search-and-content-discovery-on-openbazaar</id><content type="html" xml:base="https://openbazaar.org/blog/decentralized-search-and-content-discovery-on-openbazaar/">&lt;p&gt;&lt;em&gt;by OpenBazaar Developer Tyler Smith&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Content discovery&lt;/strong&gt; is a crucial component to any ecommerce system, especially 2-sided marketplaces where users are both the buyers and the sellers. Even if vendors have listed a number of great products, if users can’t find things they want then they won’t become buyers. &lt;strong&gt;Centralized&lt;/strong&gt; 2-sided marketplaces like Amazon and Etsy have been able to build robust discovery tools because they control the platform and are able to collect every bit of user data generated there.&lt;/p&gt;
+
+&lt;p&gt;A &lt;strong&gt;decentralized&lt;/strong&gt; marketplace like OpenBazaar removes the opportunity for a single organization to own and control all data which creates advantages for users in giving them more freedom and privacy but it also presents some challenges for creating a good content discovery system.&lt;/p&gt;
+
+&lt;p&gt;A truly decentralized answer to easy and elegant content discovery does not yet exist but we have developed an approach to help buyers find things they want and need in this growing marketplace while still honoring a valuable principle that decentralization provides: &lt;strong&gt;choice.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;Search Providers in OpenBazaar.gif&quot; alt=&quot;Search Providers in OpenBazaar&quot; title=&quot;Search Providers in OpenBazaar&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;federation-a-stop-between-centralization-and-full-decentralization&quot;&gt;Federation: A stop between centralization and full decentralization&lt;/h3&gt;
+&lt;p&gt;In version 1.0 of OpenBazaar we tried our hand at a truly decentralized search index but the results were less than ideal. The technology is just not there yet. In response to the search deficiencies then, the market acted in the form of DuoSearch, which was a company that decided to build a crawler for the network and maintain their own centralized index. Users had to leave the OpenBazaar app and go to the DuoSearch website to easily browse items. Once they discovered items they wanted to by, they had to return to the app to make the purchase.&lt;/p&gt;
+
+&lt;p&gt;For version 2.0 we knew we wanted a system that could be as nice to use as DuoSearch, from inside the app, and without requiring all users to use a single, centralized search engine. The solution is &lt;strong&gt;a federated search system&lt;/strong&gt; that anybody can participate in. In version 2.0, each search provider can build and maintain their own view of the network but conform with a common interface that allows them to be used interchangably in systems. Nobody has an upper hand and everybody can compete on quality and features.&lt;/p&gt;
+
+&lt;h3 id=&quot;basics-of-building-a-search-api-for-openbazaar&quot;&gt;Basics of building a search API for OpenBazaar&lt;/h3&gt;
+&lt;p&gt;Anybody can build a search provider that can be added to the client by ensuring their API is compliant with &lt;a href=&quot;https://gist.github.com/tyler-smith/44b5cc8065042f221630cb5c8be505bf&quot;&gt;OBIP2&lt;/a&gt; which defines a spec for how the OpenBazaar client and search providers interact. Any API following the spec can be consumed by OBIP2 clients which means anybody can build their own search engine any way they’d like to. They show any listings they want, any filters they want, and score results any way they want.&lt;/p&gt;
+
+&lt;p&gt;In order to serve search results a, search developer needs to crawl the network using the OpenBazaar server API and index the results into a system like &lt;a href=&quot;https://www.elastic.co/&quot;&gt;Elasticsearch&lt;/a&gt; or &lt;a href=&quot;https://www.algolia.com/&quot;&gt;Algolia&lt;/a&gt;. They also need to frequently re-check their data to ensure the content is still available on the network.&lt;/p&gt;
+
+&lt;p&gt;After indexing all the data they need to build an API satisfying the OBIP2 interface so that OpenBazaar users can add the root URL to their client and begin using the search engine.&lt;/p&gt;
+
+&lt;h3 id=&quot;customizing-your-search-experience&quot;&gt;Customizing your search experience&lt;/h3&gt;
+&lt;p&gt;A search provider could be completely free for use, monetize their search by selling paid promotion slots, or sell premium search endpoints. It’s entirely up to them how they’d like to run it.&lt;/p&gt;
+
+&lt;p&gt;Every provider decides what results to show for any given query and they define their own filtering and sorting options. This allows them do things like experiment with new features or specialize in only certain types of listings.&lt;/p&gt;
+
+&lt;p&gt;Someone could create a food-oriented search where users can filter by types of food or ingredients and sort by nutritional value. Or a search engine for clothing with options related sizes and styles. The OpenBazaar protocol and applications have no concern for what data is being served, as long as it’s being served in the proper format for users to access.&lt;/p&gt;
+
+&lt;h3 id=&quot;common-issues-and-future-improvements&quot;&gt;Common issues and future improvements&lt;/h3&gt;
+&lt;p&gt;Crawling the network and keeping the data fresh is the most challenging part of building a search provider. Search providers want to make sure everything they serve is still available on the network. They also don’t want to serve listings whose names have expired on the network which can be tricky to track.&lt;/p&gt;
+
+&lt;p&gt;In the future we plan to make this much easier and more reliable by utilizing &lt;a href=&quot;https://ipfs.io/blog/25-pubsub/&quot;&gt;PubSub in IPFS&lt;/a&gt; to broadcast updates that anybody can listen for. Providers will only need to listen on the update channel to get all the information necessary to update their index.&lt;/p&gt;
+
+&lt;p&gt;We’re aware that the tooling and documentation around the lower level details on how to build a working crawler could stand to be improved. We are working on a future post that goes into more technical details and explanations and are considering how we can create open tooling to make it as easy as possible for anybody to participate in the OpenBazaar content provider ecosystem.&lt;/p&gt;</content><author><name></name></author><summary type="html">by OpenBazaar Developer Tyler Smith</summary></entry><entry><title type="html">How To Build a Search Engine for OpenBazaar</title><link href="https://openbazaar.org/blog/how-to-build-a-search-engine-for-openbazaar/" rel="alternate" type="text/html" title="How To Build a &lt;span class='post-title-extra'&gt;Search Engine&lt;/span&gt; for OpenBazaar" /><published>2018-08-21T14:30:00+00:00</published><updated>2018-08-21T14:30:00+00:00</updated><id>https://openbazaar.org/blog/how-to-build-a-search-engine-for-openbazaar</id><content type="html" xml:base="https://openbazaar.org/blog/how-to-build-a-search-engine-for-openbazaar/">&lt;p&gt;&lt;em&gt;by OpenBazaar Lead Backend Developer Chris Pacia&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;When we were designing &lt;a href=&quot;https://openbazaar.org/download&quot;&gt;OpenBazaar&lt;/a&gt;, now the world’s largest decentralized marketplace, we knew the general approach to creating a &lt;strong&gt;search engine&lt;/strong&gt; that delivered high quality results was to use a centralized server to index listings and run search queries. A centralized search experience, however, was completely out of line with the &lt;strong&gt;freedom&lt;/strong&gt; and &lt;strong&gt;flexibility&lt;/strong&gt; this open-source marketplace represents. We knew there had to be some intermediate step we could take.&lt;/p&gt;
 
@@ -266,41 +400,7 @@ peerIDs to your database every time one of your nodes receives a new connection.
 
 &lt;p&gt;This is a general overview of the technical work required for building an OpenBazaar search engine. We’re aware of some areas we would like to improve upon such as creating an API that allows us to stream newly found peerIDs and also have APIs that allow us to inspect IPNS records or pubsub publishes to update our timestamp associated with each peer. We could likely combine all of this into one streaming API that pulls data from all these sources and streams not only new peerIDs that it finds, but also the most up-to-date timestamp for that peer that it is able to decipher. This way search engines only need a single API to update their peers database.&lt;/p&gt;
 
-&lt;p&gt;We are constantly working to make it easier for anyone to jump right in and start building on the OpenBazaar platform. If you have any questions or comments about any of this, please join our conversation in &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt; and tell us what you think.&lt;/p&gt;</content><author><name></name></author><summary type="html">by OpenBazaar Lead Backend Developer Chris Pacia</summary></entry><entry><title type="html">Decentralized Search and Content Discovery on OpenBazaar</title><link href="https://openbazaar.org/blog/decentralized-search-and-content-discovery-on-openbazaar/" rel="alternate" type="text/html" title="Decentralized &lt;span class='post-title-extra'&gt;Search and Content Discovery&lt;/span&gt; on OpenBazaar" /><published>2018-08-21T14:30:00+00:00</published><updated>2018-08-21T14:30:00+00:00</updated><id>https://openbazaar.org/blog/decentralized-search-and-content-discovery-on-openbazaar</id><content type="html" xml:base="https://openbazaar.org/blog/decentralized-search-and-content-discovery-on-openbazaar/">&lt;p&gt;&lt;em&gt;by OpenBazaar Developer Tyler Smith&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Content discovery&lt;/strong&gt; is a crucial component to any ecommerce system, especially 2-sided marketplaces where users are both the buyers and the sellers. Even if vendors have listed a number of great products, if users can’t find things they want then they won’t become buyers. &lt;strong&gt;Centralized&lt;/strong&gt; 2-sided marketplaces like Amazon and Etsy have been able to build robust discovery tools because they control the platform and are able to collect every bit of user data generated there.&lt;/p&gt;
-
-&lt;p&gt;A &lt;strong&gt;decentralized&lt;/strong&gt; marketplace like OpenBazaar removes the opportunity for a single organization to own and control all data which creates advantages for users in giving them more freedom and privacy but it also presents some challenges for creating a good content discovery system.&lt;/p&gt;
-
-&lt;p&gt;A truly decentralized answer to easy and elegant content discovery does not yet exist but we have developed an approach to help buyers find things they want and need in this growing marketplace while still honoring a valuable principle that decentralization provides: &lt;strong&gt;choice.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;Search Providers in OpenBazaar.gif&quot; alt=&quot;Search Providers in OpenBazaar&quot; title=&quot;Search Providers in OpenBazaar&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;federation-a-stop-between-centralization-and-full-decentralization&quot;&gt;Federation: A stop between centralization and full decentralization&lt;/h3&gt;
-&lt;p&gt;In version 1.0 of OpenBazaar we tried our hand at a truly decentralized search index but the results were less than ideal. The technology is just not there yet. In response to the search deficiencies then, the market acted in the form of DuoSearch, which was a company that decided to build a crawler for the network and maintain their own centralized index. Users had to leave the OpenBazaar app and go to the DuoSearch website to easily browse items. Once they discovered items they wanted to by, they had to return to the app to make the purchase.&lt;/p&gt;
-
-&lt;p&gt;For version 2.0 we knew we wanted a system that could be as nice to use as DuoSearch, from inside the app, and without requiring all users to use a single, centralized search engine. The solution is &lt;strong&gt;a federated search system&lt;/strong&gt; that anybody can participate in. In version 2.0, each search provider can build and maintain their own view of the network but conform with a common interface that allows them to be used interchangably in systems. Nobody has an upper hand and everybody can compete on quality and features.&lt;/p&gt;
-
-&lt;h3 id=&quot;basics-of-building-a-search-api-for-openbazaar&quot;&gt;Basics of building a search API for OpenBazaar&lt;/h3&gt;
-&lt;p&gt;Anybody can build a search provider that can be added to the client by ensuring their API is compliant with &lt;a href=&quot;https://gist.github.com/tyler-smith/44b5cc8065042f221630cb5c8be505bf&quot;&gt;OBIP2&lt;/a&gt; which defines a spec for how the OpenBazaar client and search providers interact. Any API following the spec can be consumed by OBIP2 clients which means anybody can build their own search engine any way they’d like to. They show any listings they want, any filters they want, and score results any way they want.&lt;/p&gt;
-
-&lt;p&gt;In order to serve search results a, search developer needs to crawl the network using the OpenBazaar server API and index the results into a system like &lt;a href=&quot;https://www.elastic.co/&quot;&gt;Elasticsearch&lt;/a&gt; or &lt;a href=&quot;https://www.algolia.com/&quot;&gt;Algolia&lt;/a&gt;. They also need to frequently re-check their data to ensure the content is still available on the network.&lt;/p&gt;
-
-&lt;p&gt;After indexing all the data they need to build an API satisfying the OBIP2 interface so that OpenBazaar users can add the root URL to their client and begin using the search engine.&lt;/p&gt;
-
-&lt;h3 id=&quot;customizing-your-search-experience&quot;&gt;Customizing your search experience&lt;/h3&gt;
-&lt;p&gt;A search provider could be completely free for use, monetize their search by selling paid promotion slots, or sell premium search endpoints. It’s entirely up to them how they’d like to run it.&lt;/p&gt;
-
-&lt;p&gt;Every provider decides what results to show for any given query and they define their own filtering and sorting options. This allows them do things like experiment with new features or specialize in only certain types of listings.&lt;/p&gt;
-
-&lt;p&gt;Someone could create a food-oriented search where users can filter by types of food or ingredients and sort by nutritional value. Or a search engine for clothing with options related sizes and styles. The OpenBazaar protocol and applications have no concern for what data is being served, as long as it’s being served in the proper format for users to access.&lt;/p&gt;
-
-&lt;h3 id=&quot;common-issues-and-future-improvements&quot;&gt;Common issues and future improvements&lt;/h3&gt;
-&lt;p&gt;Crawling the network and keeping the data fresh is the most challenging part of building a search provider. Search providers want to make sure everything they serve is still available on the network. They also don’t want to serve listings whose names have expired on the network which can be tricky to track.&lt;/p&gt;
-
-&lt;p&gt;In the future we plan to make this much easier and more reliable by utilizing &lt;a href=&quot;https://ipfs.io/blog/25-pubsub/&quot;&gt;PubSub in IPFS&lt;/a&gt; to broadcast updates that anybody can listen for. Providers will only need to listen on the update channel to get all the information necessary to update their index.&lt;/p&gt;
-
-&lt;p&gt;We’re aware that the tooling and documentation around the lower level details on how to build a working crawler could stand to be improved. We are working on a future post that goes into more technical details and explanations and are considering how we can create open tooling to make it as easy as possible for anybody to participate in the OpenBazaar content provider ecosystem.&lt;/p&gt;</content><author><name></name></author><summary type="html">by OpenBazaar Developer Tyler Smith</summary></entry><entry><title type="html">OpenBazaar Developer Call - August 16, 2018</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-August-16-2018/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - August 16, 2018" /><published>2018-08-16T14:30:00+00:00</published><updated>2018-08-16T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-August-16-2018</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-August-16-2018/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on August 16, 2018.&lt;/p&gt;
+&lt;p&gt;We are constantly working to make it easier for anyone to jump right in and start building on the OpenBazaar platform. If you have any questions or comments about any of this, please join our conversation in &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt; and tell us what you think.&lt;/p&gt;</content><author><name></name></author><summary type="html">by OpenBazaar Lead Backend Developer Chris Pacia</summary></entry><entry><title type="html">OpenBazaar Developer Call - August 16, 2018</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-August-16-2018/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - August 16, 2018" /><published>2018-08-16T14:30:00+00:00</published><updated>2018-08-16T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-August-16-2018</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-August-16-2018/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on August 16, 2018.&lt;/p&gt;
 
 &lt;p&gt;Want to join the call in real time? Sign up at &lt;a href=&quot;https://openbazaar.org/developers&quot;&gt;openbazaar.org/developers&lt;/a&gt;&lt;/p&gt;
 
@@ -572,70 +672,4 @@ peerIDs to your database every time one of your nodes receives a new connection.
 
 &lt;p&gt;There was plenty more talked about and presented, some of which will likely be in OpenBazaar under the hood but also plenty of projects that are genuinely interesting in the own right.&lt;/p&gt;
 
-&lt;p&gt;We’ll look forward to seeing everyone again for IPFS conference in Lisbon in November.&lt;/p&gt;</content><author><name></name></author><summary type="html">By OB1 Lead Backend Developer Chris Pacia</summary></entry><entry><title type="html">New OpenBazaar Release Enables Trading 1500+ Cryptocurrencies</title><link href="https://openbazaar.org/blog/New-OpenBazaar-Release-Enables-Trading-1500-Cryptocurrencies/" rel="alternate" type="text/html" title="New OpenBazaar Release Enables &lt;span class='post-title-extra'&gt;Trading 1500+ Cryptocurrencies&lt;/span&gt;" /><published>2018-07-27T14:30:00+00:00</published><updated>2018-07-27T14:30:00+00:00</updated><id>https://openbazaar.org/blog/New-OpenBazaar-Release-Enables-Trading-1500-Cryptocurrencies</id><content type="html" xml:base="https://openbazaar.org/blog/New-OpenBazaar-Release-Enables-Trading-1500-Cryptocurrencies/">&lt;p&gt;OpenBazaar &lt;a href=&quot;https://github.com/OpenBazaar/openbazaar-desktop/releases/tag/v2.2.2&quot;&gt;version 2.2.2&lt;/a&gt; was just released, and this update gives users several new improvements to the cryptocurrency trading feature. This release also includes other improvements and bug fixes; for full details read the release notes posted below.&lt;/p&gt;
-
-&lt;h2 id=&quot;cryptocurrency-trading&quot;&gt;Cryptocurrency trading&lt;/h2&gt;
-
-&lt;p&gt;This release includes two major improvements to the cryptocurrency trading feature within OpenBazaar.
-The first is the ability for users offering to trade coins to mark up or discount their price. Instead of only being able to offer a trade at market price, they can choose to add a markup, which will automatically increase the price to the buyer based on the percentage they choose. They can also choose to offer a discount from market price.&lt;/p&gt;
-
-&lt;p&gt;The software constantly is updating the market price of the cryptocurrencies involved in the trade, and will add the markup or discount at the moment the trade happens.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;Cryptocurrency Listing Type Price Modifier.gif&quot; alt=&quot;Setting a markup or discount on OpenBazaar&quot; title=&quot;Setting a markup or discount on OpenBazaar&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The second improvement to cryptocurrency listings is a major expansion of how many coins can be bought and sold on the platform. Previously there were about 60 available. Now we’re integrated price data from &lt;a href=&quot;https://coinmarketcap.com/&quot;&gt;CoinMarketCap&lt;/a&gt; and there are more than 1,500 coins you can trade on OpenBazaar.&lt;/p&gt;
-
-&lt;p&gt;If you want to see if a specific coin is available, &lt;a href=&quot;https://openbazaar.org/download&quot;&gt;download OpenBazaar&lt;/a&gt; and start the process of creating a cryptocurrency listing. You’ll see the full list of coins in this dropdown menu:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;Cryptocurrency Listing Type Chose from Over 1500 Coins.gif&quot; alt=&quot;Choosing from over 1500 cryptocurrencies&quot; title=&quot;Choosing from over 1,500 cryptocurrencies&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;As always, there are no fees to pay and no accounts to sign up for. It’s a direct swap of cryptocurrencies between you and the other party, and if you choose a moderated payment (highly recommended) then there’s a third party available in case of dispute.&lt;/p&gt;
-
-&lt;p&gt;If you want to buy or sell coins without fees or without signing up for an account, &lt;a href=&quot;https://www.openbazaar.org/download/&quot;&gt;give OpenBazaar a try&lt;/a&gt; and let us know what you think.&lt;/p&gt;
-
-&lt;h1 id=&quot;release-notes&quot;&gt;Release Notes&lt;/h1&gt;
-
-&lt;p&gt;This is a minor release, focused on adding improvements to cryptocurrency listings, such as the ability to set their price above or below the market.&lt;/p&gt;
-
-&lt;h2 id=&quot;new-features&quot;&gt;New Features&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The ability to adjust the price of a cryptocurrency listing by a percentage relative to the market is now available. #1416, #1438&lt;/li&gt;
-  &lt;li&gt;A view on web feature was added to several screens. This provides a link to the same data on openbazaar.com. #1403, #1413, #1430, #1441&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;improvements&quot;&gt;Improvements&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The name of each address in the settings modal is now bold. #1459&lt;/li&gt;
-  &lt;li&gt;The order of the items in the nav menu was adjusted, and your name is now clickable. #1459&lt;/li&gt;
-  &lt;li&gt;New details were added to the opt-in metrics. #1440, #1446&lt;/li&gt;
-  &lt;li&gt;The trumbowyg text editor will now be translated if it has the required language files. #1436&lt;/li&gt;
-  &lt;li&gt;Moderators that don’t use the same cryptocurrency as the user cannot be added as a moderator. If they were already added, they will be marked as invalid so they can be removed. #1420&lt;/li&gt;
-  &lt;li&gt;Non-translated text is now translated. #1392, #1382, #1435&lt;/li&gt;
-  &lt;li&gt;When a cryptocurrency order is fulfilled, the tx sent by the seller can be clicked if it is a URL. If HTML is included in the data, the HTML is removed. The data is validated to not be more than 512 characters. #1386, #1396, #1397&lt;/li&gt;
-  &lt;li&gt;A script to download and implement new cryptocurrency data for cryptocurrency listings was implemented. This is run manually before each release. #1384, #1422, #1423, #1429, #1479&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;bug-fixes&quot;&gt;Bug Fixes&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A rare problem where the debug log can have an error has been corrected. #1480&lt;/li&gt;
-  &lt;li&gt;A new node will now have a default value of 0 for their reviews instead of showing an error. #1477&lt;/li&gt;
-  &lt;li&gt;A bug preventing a user from looking at their own moderator details modal has been fixed. #1473&lt;/li&gt;
-  &lt;li&gt;The memo in a purchase will no longer be cleared on a screen rerender. #1467&lt;/li&gt;
-  &lt;li&gt;When an order times out, but has not been fulfilled, when the seller claims the payment the buyer will no longer be told they can complete the order. #1463&lt;/li&gt;
-  &lt;li&gt;A potential race condition in the order details screen was corrected. #1452&lt;/li&gt;
-  &lt;li&gt;Some minor issues with disputes when only one party’s contract has been received by the moderator were cleaned up. #1448&lt;/li&gt;
-  &lt;li&gt;BCH QR codes will not always have the proper prefix. #1418&lt;/li&gt;
-  &lt;li&gt;A problem with the shipping option selection resetting when interacting with the purchase page was corrected. #1402, #1442, #1447&lt;/li&gt;
-  &lt;li&gt;An issue with the free shipping tag not being horizontally aligned in the store screen was fixed. #1385&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;internationalization&quot;&gt;Internationalization&lt;/h2&gt;
-
-&lt;p&gt;We are actively translating the text in the OpenBazaar reference client. If you are interested in volunteering as a translator, you can sign up at https://www.transifex.com/ob1/openbazaar&lt;/p&gt;
-
-&lt;h2 id=&quot;special-thanks&quot;&gt;Special Thanks&lt;/h2&gt;
-
-&lt;p&gt;A special thank you goes out to the many volunteers that provide translations, contributor rhcastilhos, and to our testers that discovered important issues.&lt;/p&gt;</content><author><name></name></author><summary type="html">OpenBazaar version 2.2.2 was just released, and this update gives users several new improvements to the cryptocurrency trading feature. This release also includes other improvements and bug fixes; for full details read the release notes posted below.</summary></entry></feed>
+&lt;p&gt;We’ll look forward to seeing everyone again for IPFS conference in Lisbon in November.&lt;/p&gt;</content><author><name></name></author><summary type="html">By OB1 Lead Backend Developer Chris Pacia</summary></entry></feed>
