@@ -1,4 +1,133 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-09-11T13:51:08+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">The Beginner’s Guide to Decentralization</title><link href="https://openbazaar.org/blog/the-beginners-guide-to-decentralization/" rel="alternate" type="text/html" title="The Beginner's Guide to &lt;span class='post-title-extra'&gt;Decentralization&lt;/span&gt;" /><published>2018-09-10T03:30:00+00:00</published><updated>2018-09-10T03:30:00+00:00</updated><id>https://openbazaar.org/blog/the-beginners-guide-to-decentralization</id><content type="html" xml:base="https://openbazaar.org/blog/the-beginners-guide-to-decentralization/">&lt;p&gt;OpenBazaar is a decentralized marketplace. What does &lt;em&gt;decentralized&lt;/em&gt; mean, and why does it matter? This article will explain the concept of decentralization without any technical jargon.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-09-13T02:07:24+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">How To Get More Buyers on OpenBazaar with Categories and Tags</title><link href="https://openbazaar.org/blog/how-to-get-more-buyers-on-openbazaar-with-categories-and-tags/" rel="alternate" type="text/html" title="How To Get &lt;span class='post-title-extra'&gt;More Buyers&lt;/span&gt; on OpenBazaar with &lt;span class='post-title-extra'&gt;Categories and Tags&lt;/span&gt;" /><published>2018-09-12T03:30:00+00:00</published><updated>2018-09-12T03:30:00+00:00</updated><id>https://openbazaar.org/blog/how-to-get-more-buyers-on-openbazaar-with-categories-and-tags</id><content type="html" xml:base="https://openbazaar.org/blog/how-to-get-more-buyers-on-openbazaar-with-categories-and-tags/">&lt;p&gt;&lt;em&gt;by Jason Hotelling, OpenBazaar Front End Developer&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Hello! We hope you’re having a great time selling and sharing on the OpenBazaar platform.&lt;/p&gt;
+
+&lt;p&gt;OpenBazaar stores boast the fastest setup time of any ecommerce platform. With very little effort, you can set up your store and add listings in minutes. Then, a little extra work can give buyers an exceptional experience to make them want to visit again and again.&lt;/p&gt;
+
+&lt;p&gt;Today we are going to talk about how to use tags and categories to help users find and browse your store with ease.&lt;/p&gt;
+
+&lt;h3 id=&quot;before-we-get-started&quot;&gt;Before We Get Started&lt;/h3&gt;
+
+&lt;p&gt;If you haven’t already, please follow our guides to getting started with OpenBazaar. They contain instructions and tutorials that span from &lt;em&gt;Download&lt;/em&gt; through &lt;em&gt;Browsing&lt;/em&gt; and &lt;em&gt;Selling&lt;/em&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://openbazaar.org/blog/The-Beginners-Guide-to-Buying-Goods-Services-and-Cryptocurrency-on-OpenBazaar/&quot;&gt;The Beginner’s Guide to Buying Goods, Services and Cryptocurrency on Openbazaar&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you are new to OpenBazaar, we also recommend watching our &lt;a href=&quot;https://www.youtube.com/watch?v=VzlerMJMOu8&quot;&gt;OpenBazaar 2.0 Tutorial&lt;/a&gt; on YouTube.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;embed-responsive embed-responsive-16by9 mb-5&quot;&gt;
+    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/VzlerMJMOu8&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;step-1-tags-are-for-search&quot;&gt;Step 1: Tags Are for Search&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Tags&lt;/strong&gt; are one of the things search engines use to determine which listings to show to a potential buyer. Most users will discover your store through a listing that they find in search. For example, if a user is looking for t-shirts, they first navigate to the &lt;strong&gt;Discover&lt;/strong&gt; tab in OpenBazaar. Then they will select a search provider and enter a search term such as “t-shirt” or “t shirt”. In order for potential buyers to find &lt;em&gt;your shirts&lt;/em&gt;, you must enter any relevant tags on your listings.&lt;/p&gt;
+
+&lt;p&gt;In this example, we have entered tags that may match what users enter in Search in the OpenBazaar Discover view.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;Add tags to your OpenBazaar listing.gif&quot; alt=&quot;Add tags to your OpenBazaar listing&quot; title=&quot;Add tags to your OpenBazaar listing&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Tip: Make sure to add your store name as a tag too so when people search for your store name, your listings will show up.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;step-2-categories-and-filters-in-your-store&quot;&gt;Step 2: Categories and Filters in Your Store&lt;/h3&gt;
+
+&lt;p&gt;Once users click on your listing, they have the opportunity to visit your store by clicking “Go To Store” in the top left corner. This is where you have an opportunity to hook them and encourage them to shop around more. Your &lt;strong&gt;Store View&lt;/strong&gt; will show potential customers all your available listings.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;OpenBazaar demo store - How To Get More Buyers on OpenBazar with Categories and Tags.png&quot; alt=&quot;OpenBazaar demo store - How to get more buyers on OpenBazaar with categories and tags&quot; title=&quot;OpenBazaar demo store - How to get more buyers on OpenBazaar with categories and tags&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It will make it easier for buyers to shop if you classify your listings. You should take time to become familiar with the Store View browsing experience. It will aid you later in planning and creating your store.&lt;/p&gt;
+
+&lt;h4 id=&quot;classify-your-listings-for-easy-store-browsing&quot;&gt;Classify Your Listings for Easy Store Browsing&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;Category radio buttons on OpenBazaar.png&quot; alt=&quot;Category radio buttons on OpenBazaar&quot; title=&quot;Category radio buttons on OpenBazaar&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A little planning and foresight can make listing creation much easier. Determine which &lt;strong&gt;categories&lt;/strong&gt; and possible subcategories you’ll support in the beginning.&lt;/p&gt;
+
+&lt;p&gt;In our example store, Variety Bazaar, we have a wide variety of listings. We ensure a potential buyer can what they want through useful categories.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;Add categories to your OpenBazaar listing.gif&quot; alt=&quot;Add categories to your OpenBazaar listing&quot; title=&quot;Add categories to your OpenBazaar listing&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Enter clear, concise and unique category names for your listings. For our example store, we sell clothing, antiques, comic books and fidget spinners. We decided to represent subcategories within clothing by applying more than one category. We also sell retro items within separate categories. These items are all given the extra category ‘retro’.&lt;/p&gt;
+
+&lt;p&gt;It is important not to confuse tags with categories. Categories are for organizing your store and providing a simple store browsing experience. They are only used for filtering on the store view.&lt;/p&gt;
+
+&lt;h4 id=&quot;browsing-using-listing-filters&quot;&gt;Browsing Using Listing Filters&lt;/h4&gt;
+
+&lt;p&gt;When potential buyers browse your store, they will see a few useful filters to aid them. Understanding these filters will help you plan your store well.&lt;/p&gt;
+
+&lt;h4 id=&quot;store-search&quot;&gt;Store Search&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;Store search bar on OpenBazaar.png&quot; alt=&quot;Store search bar on OpenBazaar&quot; title=&quot;Store search bar on OpenBazaar&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Text entered into this &lt;strong&gt;store search&lt;/strong&gt; filters your listings based only on their titles.&lt;/p&gt;
+
+&lt;h4 id=&quot;shipping&quot;&gt;Shipping&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;Shipping to country and free shipping filter on OpenBazaar.png&quot; alt=&quot;Shipping to country and free shipping filter on OpenBazaar&quot; title=&quot;Shipping to country and free shipping filter on OpenBazaar&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;Ships to&lt;/strong&gt; filter limits listings based on countries to which your listings ship.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;Free Shipping&lt;/strong&gt; filter will toggle display of listings based on this option.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Note: This filter displays even if no listings offer free shipping. We encourage you to use it where you can! It makes a purchase more compelling for a buyer if they know they won’t also have to deal with extra shipping costs at checkout.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;category&quot;&gt;Category&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;Clothing category selected on OpenBazaar.png&quot; alt=&quot;Clothing category selected on OpenBazaar&quot; title=&quot;Clothing category selected on OpenBazaar&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;category&lt;/strong&gt; filter is the primary method for which buyers will hone in on specific types of 
+items.&lt;/p&gt;
+
+&lt;h4 id=&quot;type&quot;&gt;Type&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;Listing type radio buttons on OpenBazaar.png&quot; alt=&quot;Listing type radio buttons on OpenBazaar&quot; title=&quot;Listing type radio buttons on OpenBazaar&quot; /&gt; 
+&lt;em&gt;New Feature in OpenBazaar Desktop 2.2.5&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;type&lt;/strong&gt; filter allows buyers to view store listings based on the current supported types:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Physical Good&lt;/li&gt;
+  &lt;li&gt;Digital Good&lt;/li&gt;
+  &lt;li&gt;Cryptocurrency&lt;/li&gt;
+  &lt;li&gt;Service&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;toggle-view&quot;&gt;Toggle View&lt;/h4&gt;
+
+&lt;p&gt;Over on the right side of your store users can toggle between list or grid view. &lt;strong&gt;Grid view&lt;/strong&gt; shows a much larger image providing a better visual shopping experience. This is the default view.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;Grid view of an OpenBazaar store.png&quot; alt=&quot;Grid view of an OpenBazaar store&quot; title=&quot;Grid view of an OpenBazaar store&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In &lt;strong&gt;List view&lt;/strong&gt; your listings are condensed so you can see more of them at one time. Each listing shows a small thumbnail of your product to the left and their prices on the right.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;List view of an OpenBazaar store.png&quot; alt=&quot;List view of an OpenBazaar store&quot; title=&quot;List view of an OpenBazaar store&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Note: It’s important for your listings to have &lt;strong&gt;descriptive titles&lt;/strong&gt; as well as &lt;strong&gt;great photos&lt;/strong&gt; to draw in buyers.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;sort-by&quot;&gt;Sort By&lt;/h4&gt;
+
+&lt;p&gt;This dropdown menu allows users to sort your store listings based on price or title. Sorting can be by highest to lowest price or vice-versa; alphabetical or reverse-alphabetical.&lt;/p&gt;
+
+&lt;p&gt;Spend time browsing other stores and take notes on your experience. Once you’re comfortable, its time to ensure your listings reflect a positive experience.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Tip: Once you have a listing or two up, you can &lt;strong&gt;clone&lt;/strong&gt; them to spare yourself from duplicating redundant listing information. Remember to make sure you don’t leave any incorrect fields from the original listing.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;Taking a bit of extra time to plan and set up your store with care is important to drive its success. Achieving discoverability and browse-ability gets buyers in and keeps them around. Relevant tags added to your listings will increase discovery in search. Providing proper categories helps browsing users see what you offer. Finally, being familiar with your buyers’ experience will inform the best listing setup for your store.&lt;/p&gt;
+
+&lt;p&gt;This is the first in a series focused on getting the most out of your OpenBazaar store experience. Check back soon for the next installments!&lt;/p&gt;</content><author><name></name></author><summary type="html">by Jason Hotelling, OpenBazaar Front End Developer</summary></entry><entry><title type="html">The Beginner’s Guide to Decentralization</title><link href="https://openbazaar.org/blog/the-beginners-guide-to-decentralization/" rel="alternate" type="text/html" title="The Beginner's Guide to &lt;span class='post-title-extra'&gt;Decentralization&lt;/span&gt;" /><published>2018-09-10T03:30:00+00:00</published><updated>2018-09-10T03:30:00+00:00</updated><id>https://openbazaar.org/blog/the-beginners-guide-to-decentralization</id><content type="html" xml:base="https://openbazaar.org/blog/the-beginners-guide-to-decentralization/">&lt;p&gt;OpenBazaar is a decentralized marketplace. What does &lt;em&gt;decentralized&lt;/em&gt; mean, and why does it matter? This article will explain the concept of decentralization without any technical jargon.&lt;/p&gt;
 
 &lt;p&gt;Decentralization is a way to describe how a system works. These systems can be nearly anything:&lt;/p&gt;
 
@@ -644,32 +773,4 @@ peerIDs to your database every time one of your nodes receives a new connection.
 
 &lt;p&gt;11:45 crasch: Thanks!&lt;/p&gt;
 
-&lt;p&gt;11:45 Daniel: Thank you&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on August 2, 2018.</summary></entry><entry><title type="html">IPFS &amp;amp; Libp2p Developer Meetings - Growing The Decentralized Tech That Helps OpenBazaar Work</title><link href="https://openbazaar.org/blog/IPFS-Libp2p-Developer-Meetings-Growing-The-Decentralized-Tech-That-Helps-OpenBazaar-Work/" rel="alternate" type="text/html" title="IPFS &amp; Libp2p Developer Meetings - Growing The &lt;span class='post-title-extra'&gt;Decentralized Tech&lt;/span&gt; That Helps OpenBazaar Work" /><published>2018-07-30T14:30:00+00:00</published><updated>2018-07-30T14:30:00+00:00</updated><id>https://openbazaar.org/blog/IPFS-Libp2p-Developer-Meetings-Growing-The-Decentralized-Tech-That-Helps-OpenBazaar-Work</id><content type="html" xml:base="https://openbazaar.org/blog/IPFS-Libp2p-Developer-Meetings-Growing-The-Decentralized-Tech-That-Helps-OpenBazaar-Work/">&lt;p&gt;&lt;em&gt;By OB1 Lead Backend Developer Chris Pacia&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;This month I had the opportunity to attend the &lt;a href=&quot;https://github.com/ipfs/conf&quot;&gt;IPFS/Libp2p Developer Meeting&lt;/a&gt; in Berlin. &lt;a href=&quot;https://ipfs.io/&quot;&gt;IPFS&lt;/a&gt; development is of great importance to us as OpenBazaar is built on top of it and relies heavily on it for most of its functionality. Overall the meeting was very productive. It was nice to meet the new members of the &lt;a href=&quot;https://protocol.ai/&quot;&gt;Protocol Labs&lt;/a&gt; team and see how they are growing. They have an enormous amount of talent on their team and in the IPFS community and they’re genuinely solving very hard problems in decentralized web development.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;IPFS and Libp2p Developer Meetings in Berlin 2018.jpg&quot; alt=&quot;IPFS and Libp2p Developer Meetings in Berlin 2018&quot; title=&quot;IPFS and Libp2p Developer Meetings in Berlin 2018&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Here are some of the key takeaways from this event as they relate directly to OpenBazaar:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quic&quot;&gt;QUIC&lt;/h2&gt;
-
-&lt;p&gt;They’ve been able to integrate &lt;a href=&quot;https://www.chromium.org/quic&quot;&gt;QUIC&lt;/a&gt; as a transport for IPFS. For those who don’t what QUIC is, it’s a new transport created by Google which offers all around better performance than TCP. Not only will QUIC make OpenBazaar faster, but it will help slightly with NAT traversal.&lt;/p&gt;
-
-&lt;h2 id=&quot;ipns-pubsub&quot;&gt;IPNS Pubsub&lt;/h2&gt;
-
-&lt;p&gt;Pubsub isn’t yet hooked up in the IPFS coreapi package but will be shortly. While we will still need to make a DHT crawl the first time an IPNS query is made as well as when coming back from absence, all subsequent queries will return the most up-to-date record instantly. We should see a nice speed boost in browsing as a result.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;IPFS and Libp2p Developer Meetings in Berlin 2018-2.jpg&quot; alt=&quot;IPFS and Libp2p Developer Meetings in Berlin 2018 - Presentation&quot; title=&quot;IPFS and Libp2p Developer Meetings in Berlin 2018 - Presentation&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;nat-traversal&quot;&gt;NAT Traversal&lt;/h2&gt;
-
-&lt;p&gt;I learned that IPFS is already doing more for NAT traversal than I realized but more work is still needed. Currently a high percentage of nodes on the IPFS network are not reachable and I presume it’s probably a similar percentage of OpenBazaar nodes. We had some nice discussion about improving NAT traversal. The first action item is to wire up the libp2p-autonat package which will help detect if users are behind restricted NATs. Moving forward we’d like to develop some heuristics for deciding if and how to relay packets through other nodes using the libp2p-circuit-relay.&lt;/p&gt;
-
-&lt;h2 id=&quot;new-onion-transport&quot;&gt;New onion-transport&lt;/h2&gt;
-
-&lt;p&gt;They’ve done some preliminary work on a new onion transport for libp2p. Our current transport was written by me and will at minimum need to be changed to conform to planned changes to the transport interface. I believe the goal, however, will be to have the new transport ready by the time that new interface goes live so we can easily make the switch. There’s also a possibility we can use a library which statically compiles the Tor daemon and maybe resolve some issues running OpenBazaar on Tails and Whonix.&lt;/p&gt;
-
-&lt;p&gt;There was plenty more talked about and presented, some of which will likely be in OpenBazaar under the hood but also plenty of projects that are genuinely interesting in the own right.&lt;/p&gt;
-
-&lt;p&gt;We’ll look forward to seeing everyone again for IPFS conference in Lisbon in November.&lt;/p&gt;</content><author><name></name></author><summary type="html">By OB1 Lead Backend Developer Chris Pacia</summary></entry></feed>
+&lt;p&gt;11:45 Daniel: Thank you&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on August 2, 2018.</summary></entry></feed>
