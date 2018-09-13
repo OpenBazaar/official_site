@@ -49,7 +49,7 @@ It will make it easier for buyers to shop if you classify your listings. You sho
 
 A little planning and foresight can make listing creation much easier. Determine which **categories** and possible subcategories you'll support in the beginning. 
 
-In our example store, Variety Bazaar, we have a wide variety of listings. We ensure a potential buyer can what they want through useful categories.
+In our example store, Variety Bazaar, we have a wide variety of listings. We ensure a potential buyer can find what they want through useful categories.
 
 ![Add categories to your OpenBazaar listing](Add categories to your OpenBazaar listing.gif "Add categories to your OpenBazaar listing")
 
