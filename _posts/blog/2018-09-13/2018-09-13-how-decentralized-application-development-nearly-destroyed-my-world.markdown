@@ -37,7 +37,7 @@ The speed difference is significant between retrieving a single piece of data fr
 
 Consider a popular centralized app like Facebook. How often do you enter a legitimate url and have some type of error return? I would venture to say hardly ever. In a decentralized app this world is destroyed because quite regularly calls for data fail. Perhaps the user isn't online, nor are any seeders of the data? Perhaps some are online, but are unreachable? Perhaps you're even making a call for a piece of data that no longer exists (e.g. a deleted listing)? Further complicating the issue is that we often don't know the root cause of the failure. The error message could basically just be a large "shrug" emoji.
 
-![Shrug Emoji](Shrug Emoji.png)
+![Shrug Emoji](Shrug Emoji.png "Shrug Emoji")
 
 - **Browsers live in a centralized world**
 
@@ -55,7 +55,7 @@ OpenBazaar has an integrated chat section that's really an app within an app. Th
 
 - **Latency**
 
-The server stores a list of your conversations. Within that data set is the peerId of each person you are chatting with and the last message in the conversation. This allows us to create a chat head with a default avatar and use the peerId as the name. The peerId is also enough to make a link to the user's page. While it may take up to a minute for the user's avatar and name show up, at least you'll have something showing in the client and you won't be prevented from starting the conversation.
+The server stores a list of your conversations. Within that data set is the peer ID of each person you are chatting with and the last message in the conversation. This allows us to create a chat head with a default avatar and use the peer ID as the name. The peer ID is also enough to make a link to the user's page. While it may take up to a minute for the user's avatar and name show up, at least you'll have something showing in the client and you won't be prevented from starting the conversation.
 
 Additionally, we implement multiple layers of caching. We can't do this for all requests because for some it's important you have fresh data. In this case, however, the user's name and avatar will likely not change that often and if you do see data that is a few minutes (or occasionally a few days) old, it doesn't degrade your experience.
 
@@ -65,13 +65,13 @@ The other layer of cache is an in-memory client cache. The next time you request
 
 - **Frequent data retrieval errors**
 
-Our approach here is exactly the same as our approach to latency: The user will initially see a default avatar and a peerId but still have everything they need to start a conversation. The fact that the profile fetch may not succeed is really just a visual shortcoming. This is a form of progressive enhancement where we are starting with the bare minimum functionality and attempting to augment the experience along the way.
+Our approach here is exactly the same as our approach to latency: The user will initially see a default avatar and a peer ID but still have everything they need to start a conversation. The fact that the profile fetch may not succeed is really just a visual shortcoming. This is a form of progressive enhancement where we are starting with the bare minimum functionality and attempting to augment the experience along the way.
 
 - **Browsers live in a centralized world**
 
 This challenge was almost literally a world destroyer. If my memory serves me well, in OpenBazaar version 1.0 we had the chat app initialize before other important start-up functionality. For instance, while the chat app would be waiting on it's multiple profiles to come back, the Notifications mini-app would be showing you a spinner. Even worse, if you wanted to actually navigate to a page in the app, the data needed to show the page would be queued until all those profile calls finished...which, lest we forget, could be minutes.
 
-It was a user experience deal breaker for those requests to be clogging up the queue and preventing critical functionality. But, our hands were tied. If the browser imposes such a restriction, what could we do? Eventually, we stumbled upon the fact that the restriction is limited to HTTP requests. Incoming socket messages (which use TCP) have no such restriction. We added an `async` flag to most of our APIs so that the HTTP request would immediately return with a unique `requestId`. Subsequently, the profiles would come individually via socket messages. They would each include the `requestId` so we could map the profile to the initial request.
+It was a user experience deal breaker for those requests to be clogging up the queue and preventing critical functionality. But our hands were tied. If the browser imposes such a restriction, what could we do? Eventually, we stumbled upon the fact that the restriction is limited to HTTP requests. Incoming socket messages (which use TCP) have no such restriction. We added an `async` flag to most of our APIs so that the HTTP request would immediately return with a unique `requestId`. Subsequently, the profiles would come individually via socket messages. They would each include the `requestId` so we could map the profile to the initial request.
 
 Boom! We could kick off as many profile calls as we wanted and have virtually no impact on the HTTP request queue.
 
