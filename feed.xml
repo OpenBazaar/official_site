@@ -1,4 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-09-13T18:21:13+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">How To Get More Buyers on OpenBazaar with Categories and Tags</title><link href="https://openbazaar.org/blog/how-to-get-more-buyers-on-openbazaar-with-categories-and-tags/" rel="alternate" type="text/html" title="How To Get &lt;span class='post-title-extra'&gt;More Buyers&lt;/span&gt; on OpenBazaar with &lt;span class='post-title-extra'&gt;Categories and Tags&lt;/span&gt;" /><published>2018-09-12T03:30:00+00:00</published><updated>2018-09-12T03:30:00+00:00</updated><id>https://openbazaar.org/blog/how-to-get-more-buyers-on-openbazaar-with-categories-and-tags</id><content type="html" xml:base="https://openbazaar.org/blog/how-to-get-more-buyers-on-openbazaar-with-categories-and-tags/">&lt;p&gt;&lt;em&gt;by Jason Hotelling, OpenBazaar Front End Developer&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-09-14T20:42:23+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">How Decentralized Application Development Nearly Destroyed My World</title><link href="https://openbazaar.org/blog/how-decentralized-application-development-nearly-destroyed-my-world/" rel="alternate" type="text/html" title="How &lt;span class='post-title-extra'&gt;Decentralized Application Development&lt;/span&gt; Nearly &lt;span class='post-title-extra'&gt;Destroyed My World&lt;/span&gt;" /><published>2018-09-13T11:30:00+00:00</published><updated>2018-09-13T11:30:00+00:00</updated><id>https://openbazaar.org/blog/how-decentralized-application-development-nearly-destroyed-my-world</id><content type="html" xml:base="https://openbazaar.org/blog/how-decentralized-application-development-nearly-destroyed-my-world/">&lt;p&gt;&lt;em&gt;By Rob Misiorowski, OpenBazaar Front End Developer&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Ok, that title is a little hyperbolic, but decentralized applications with modern user experiences are few and far between and present some unique challenges for front-end developers. In this post I’ll describe some of these challenges and give examples of how we addressed them when developing the OpenBazaar desktop client.&lt;/p&gt;
+
+&lt;h3 id=&quot;fundamentally-different-paradigms&quot;&gt;Fundamentally Different Paradigms&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In a &lt;strong&gt;centralized application&lt;/strong&gt;, the data is primarily stored in and retrieved from one central source.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For example, an app has 10,000 thing-a-magoos and they are all stored on a central server that’s administered by professional engineers and has professional quality hardware and software behind it. It’s optimized to process large numbers of client requests for data in a highly streamlined way.&lt;/p&gt;
+
+&lt;p&gt;This is useful when you need to retrieve and organize many pieces of data, like on a webpage that displays the top 50 thing-a-magoos on the network. With a centralized server, a client can efficiently retrieve the data it needs for all 50 thing-a-magoos in one single call.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Now, let’s consider a similar app, but one that is &lt;strong&gt;decentralized&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The data doesn’t live in one central location. Each user stores their own data and distributes it to other peers on the network as those peers view the data. Instead of highly optimized hardware, this is a blend of computers ranging from Joe’s 8 year old desktop PC to Jennie’s brand new macbook pro. While some of these may be high end, it’s doubtful that most of these users will have production server level hardware or software. Now, instead of retrieving data from one central location, you likely have to go through all types of home routers and firewalls to get it.&lt;/p&gt;
+
+&lt;p&gt;Going back to our landing page example from above, instead of making a &lt;em&gt;single&lt;/em&gt; call to retrieve data for 50 thing-a-magoos, now we need to make &lt;em&gt;50 calls&lt;/em&gt; (one to each user) to retrieve the data. Actually, it will almost certainly be many multiple multiples of 50, since P2P libraries like &lt;a href=&quot;https://ipfs.io&quot;&gt;IPFS&lt;/a&gt; will retrieve the same pieces of data from multiple nodes to compare for authenticity.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-challenges-does-this-cause&quot;&gt;What Challenges Does This Cause?&lt;/h3&gt;
+
+&lt;p&gt;It’s hopefully getting clearer why there is much more leg-work involved in retrieving data in a decentralized way, but what challenges does this pose for clients?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Latency&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The speed difference is significant between retrieving a single piece of data from a highly optimized production server verses from the home computer of the average person. For example, in the centralized world, if the average server request takes more than a fraction of a second to return—let’s say 250ms—it would often be considered slow and teams of engineers would be having meetings on how to reduce this. In our desktop client, we routinely have requests taking upwards of a minute before possibly timing out. And that’s just for a single request. I’m sure you can imagine the difference between retrieving a list of 50 thing-a-magoos in one request from a central server versus having to make a call for each one across a network of distributed nodes.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Frequent data retrieval errors&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Consider a popular centralized app like Facebook. How often do you enter a legitimate url and have some type of error return? I would venture to say hardly ever. In a decentralized app this world is destroyed because quite regularly calls for data fail. Perhaps the user isn’t online, nor are any seeders of the data? Perhaps some are online, but are unreachable? Perhaps you’re even making a call for a piece of data that no longer exists (e.g. a deleted listing)? Further complicating the issue is that we often don’t know the root cause of the failure. The error message could basically just be a large “shrug” emoji.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;Shrug_Emoji.png&quot; alt=&quot;Shrug Emoji&quot; title=&quot;Shrug Emoji&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Browsers live in a centralized world&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The OpenBazaar front end is developed with Electron, which uses Chromium, the tech behind the Google Chrome browser. As such, it’s subject to many of the browser’s restrictions. One of those is that you are limited to 6 concurrent requests to the same domain. Even though we’re ultimately getting the data from many nodes, the requests are proxied through each node’s server. In other words, from the browser’s point of view, a fetch of 20 different user profiles are all coming from the same domain.&lt;/p&gt;
+
+&lt;p&gt;If latency weren’t an issue this wouldn’t be so bad. Even if a request took a less than ideal 250ms, you would be able to fully display a grid of 24 users in one second. But when requests routinely take 30 seconds, 45 seconds or 1 minute plus, suddenly it takes a whole lot of time to fully display a page. Even more problematic is that your request queue can clog up. Let’s say one profile comes back in a lightning fast 100ms and we display a user box for that user with a Follow button. If there are still 23 pending requests, even if the user clicks that Follow button, it will be put at the end of the queue and not even be called until all but 5 requests remain, which may easily be a few minutes.&lt;/p&gt;
+
+&lt;h3 id=&quot;an-example-of-how-we-addressed-these-challenges&quot;&gt;An Example of How We Addressed These Challenges&lt;/h3&gt;
+
+&lt;p&gt;OpenBazaar has an integrated chat section that’s really an app within an app. The chat app is present from the time your server starts and remains perpetually in the sidebar. Initially, this was a world destroyer because the little &lt;strong&gt;chat heads&lt;/strong&gt; (the user icons you click to open a conversation with a user) require some profile data from the party you’re conversing with (e.g. avatar, name). If a user is even slightly chatty and has engaged in at least 6 conversations, then those 6 profile calls would be enough to clog up the request queue and potentially prevent critical app functionality from being available.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;Chat Heads in OpenBazaar.png&quot; alt=&quot;Chat Heads in OpenBazaar&quot; title=&quot;Chat Heads in OpenBazaar&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;heres-how-we-handled-some-of-the-challenges-decentralization-presented-us-in-openbazaar-chat&quot;&gt;Here’s how we handled some of the challenges decentralization presented us in OpenBazaar chat:&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Latency&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The server stores a list of your conversations. Within that data set is the peer ID of each person you are chatting with and the last message in the conversation. This allows us to create a chat head with a default avatar and use the peer ID as the name. The peer ID is also enough to make a link to the user’s page. While it may take up to a minute for the user’s avatar and name show up, at least you’ll have something showing in the client and you won’t be prevented from starting the conversation.&lt;/p&gt;
+
+&lt;p&gt;Additionally, we implement multiple layers of caching. We can’t do this for all requests because for some it’s important you have fresh data. In this case, however, the user’s name and avatar will likely not change that often and if you do see data that is a few minutes (or occasionally a few days) old, it doesn’t degrade your experience.&lt;/p&gt;
+
+&lt;p&gt;One level of caching is done on the server where it will store the user’s profile on disk. Then, when you make a call and indicate a cached response is acceptable, the server will immediately send back the cached version and behind-the-scenes make an IPFS query to update the cache. In theory, the cached version will never be more than one revision behind.&lt;/p&gt;
+
+&lt;p&gt;The other layer of cache is an in-memory client cache. The next time you request a profile where a cached version is ok, it won’t even go to the server, it would use what the client has in-memory. Since this is in-memory, it will only be available until you shut down the app.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Frequent data retrieval errors&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Our approach here is exactly the same as our approach to latency: The user will initially see a default avatar and a peer ID but still have everything they need to start a conversation. The fact that the profile fetch may not succeed is really just a visual shortcoming. This is a form of progressive enhancement where we are starting with the bare minimum functionality and attempting to augment the experience along the way.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Browsers live in a centralized world&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This challenge was almost literally a world destroyer. If my memory serves me well, in OpenBazaar version 1.0 we had the chat app initialize before other important start-up functionality. For instance, while the chat app would be waiting on it’s multiple profiles to come back, the Notifications mini-app would be showing you a spinner. Even worse, if you wanted to actually navigate to a page in the app, the data needed to show the page would be queued until all those profile calls finished…which, lest we forget, could be minutes.&lt;/p&gt;
+
+&lt;p&gt;It was a user experience deal breaker for those requests to be clogging up the queue and preventing critical functionality. But our hands were tied. If the browser imposes such a restriction, what could we do? Eventually, we stumbled upon the fact that the restriction is limited to HTTP requests. Incoming socket messages (which use TCP) have no such restriction. We added an &lt;code class=&quot;highlighter-rouge&quot;&gt;async&lt;/code&gt; flag to most of our APIs so that the HTTP request would immediately return with a unique &lt;code class=&quot;highlighter-rouge&quot;&gt;requestId&lt;/code&gt;. Subsequently, the profiles would come individually via socket messages. They would each include the &lt;code class=&quot;highlighter-rouge&quot;&gt;requestId&lt;/code&gt; so we could map the profile to the initial request.&lt;/p&gt;
+
+&lt;p&gt;Boom! We could kick off as many profile calls as we wanted and have virtually no impact on the HTTP request queue.&lt;/p&gt;
+
+&lt;h3 id=&quot;in-summary&quot;&gt;In Summary&lt;/h3&gt;
+
+&lt;p&gt;While “world destroying” is a bit dramatic, these challenges were indeed &lt;em&gt;quite&lt;/em&gt; challenging! Decentralized applications with an intended user base of non-engineers (i.e. a client not meant to be used from the shell of your favorite exotic Unix distribution), are still rare and there just aren’t that many best practices in place yet. Existing best practices for front end development are for centralized apps and a lot of them go right out the window when you introduce the challenges of decentralized data retrieval.&lt;/p&gt;
+
+&lt;p&gt;Decentralization is important though and, in my humble opinion, is here to stay. Over time, we’ll get there. Client developers will continue to come up with clever solutions and P2P libraries and browsers will iterate and improve. Similar to how email clients have come from being limited to the engineering labs of universities to now being used by your Grandma on her iPad, decentralized computing is coming soon to a grandma near you.&lt;/p&gt;</content><author><name></name></author><summary type="html">By Rob Misiorowski, OpenBazaar Front End Developer</summary></entry><entry><title type="html">How To Get More Buyers on OpenBazaar with Categories and Tags</title><link href="https://openbazaar.org/blog/how-to-get-more-buyers-on-openbazaar-with-categories-and-tags/" rel="alternate" type="text/html" title="How To Get &lt;span class='post-title-extra'&gt;More Buyers&lt;/span&gt; on OpenBazaar with &lt;span class='post-title-extra'&gt;Categories and Tags&lt;/span&gt;" /><published>2018-09-12T03:30:00+00:00</published><updated>2018-09-12T03:30:00+00:00</updated><id>https://openbazaar.org/blog/how-to-get-more-buyers-on-openbazaar-with-categories-and-tags</id><content type="html" xml:base="https://openbazaar.org/blog/how-to-get-more-buyers-on-openbazaar-with-categories-and-tags/">&lt;p&gt;&lt;em&gt;by Jason Hotelling, OpenBazaar Front End Developer&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Hello! We hope you’re having a great time selling and sharing on the OpenBazaar platform.&lt;/p&gt;
 
@@ -695,82 +783,4 @@ peerIDs to your database every time one of your nodes receives a new connection.
 
 &lt;h4 id=&quot;talk-to-us&quot;&gt;Talk To Us!&lt;/h4&gt;
 
-&lt;p&gt;We hope this guide was helpful for getting started using OpenBazaar. Please let us know what you think in our &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt; and let us know any additional questions that you may have that would make this even easier for you!&lt;/p&gt;</content><author><name></name></author><summary type="html">Hello and welcome! We’re glad you want to buy goods, services and cryptocurrency on OpenBazaar.</summary></entry><entry><title type="html">OpenBazaar Developer Call - August 2, 2018</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-August-2-2018/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - August 2, 2018" /><published>2018-08-02T14:30:00+00:00</published><updated>2018-08-02T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-August-2-2018</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-August-2-2018/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on August 2, 2018.&lt;/p&gt;
-
-&lt;p&gt;Want to join the call in real time? Sign up at &lt;a href=&quot;https://openbazaar.org/developers&quot;&gt;openbazaar.org/developers&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Join our ongoing conversations on Slack at &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;openbazaar.org/slack&lt;/a&gt;&lt;/p&gt;
-
-&lt;div class=&quot;embed-responsive embed-responsive-16by9 mb-5&quot;&gt;
-    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/pZRYFsMgQLI&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Chat log:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;11:13 chris.troutner: Would love an update on the user metrics and if that’s been giving OB1 good feedback.&lt;/p&gt;
-
-&lt;p&gt;11:14 mg (OB1): Heard.&lt;/p&gt;
-
-&lt;p&gt;11:18 chris.troutner: Thanks Sam&lt;/p&gt;
-
-&lt;p&gt;11:21 Matt: Sorry I missed that, who is when in Berlin? (since I would like to meet up there)&lt;/p&gt;
-
-&lt;p&gt;11:21 Matt: ahh ok&lt;/p&gt;
-
-&lt;p&gt;11:23 chris.troutner: ‘Wallet developers’ &amp;lt;– I like that. One you guys come out with the new multicurrency wallet, I’m going to want to create a plugin for my ERC20 token.&lt;/p&gt;
-
-&lt;p&gt;11:24 crasch: Is anyone working on porting Monero to work with OB?  I know it’s often difficult to incorporate due it’s non-BTC derived code base.&lt;/p&gt;
-
-&lt;p&gt;11:24 chris.troutner: Very appriciated! I love the uptick on blog posts!&lt;/p&gt;
-
-&lt;p&gt;11:26 Daniel: Does zcash still require you to run a node?&lt;/p&gt;
-
-&lt;p&gt;11:26 crasch: * nods *   Thanks for the update re: Monero, plugin architecture.&lt;/p&gt;
-
-&lt;p&gt;11:27 Daniel: Ok&lt;/p&gt;
-
-&lt;p&gt;11:28 Daniel: Thanks&lt;/p&gt;
-
-&lt;p&gt;11:28 chris.troutner: Not sure if you guys want to go down that rabbit hole, but I’m very excited at the prospect of OB working with arbitrary tokens, be they ERC20 or soon-to-be colored coins on the BCH network.&lt;/p&gt;
-
-&lt;p&gt;11:30 chris.troutner: Ya, Chris Pacia on on the forefront of that. BCH colored coins are not nailed down yet.&lt;/p&gt;
-
-&lt;p&gt;11:30 Daniel: Would these tokens be used for payments only? Or something else?&lt;/p&gt;
-
-&lt;p&gt;11:31 Daniel: Ok thanks.&lt;/p&gt;
-
-&lt;p&gt;11:32 crasch: Have there been any changes to your roadmap that was published 3 months ago?&lt;/p&gt;
-
-&lt;p&gt;11:35 Daniel: What do you see when you go to openbazaar.com?&lt;/p&gt;
-
-&lt;p&gt;11:36 Daniel: Oh, it wasn’t resolving the URL for a while&lt;/p&gt;
-
-&lt;p&gt;11:36 Daniel: it’s working now&lt;/p&gt;
-
-&lt;p&gt;11:37 Daniel: yes&lt;/p&gt;
-
-&lt;p&gt;11:37 crasch: Where do you think community members who wanted to contribute to documentation could best help?&lt;/p&gt;
-
-&lt;p&gt;11:37 Daniel: are you targeting specific communities yet?&lt;/p&gt;
-
-&lt;p&gt;11:37 Daniel: for example, people that play magic the gathering&lt;/p&gt;
-
-&lt;p&gt;11:38 Daniel: i.e. getting OpenBazaar popular within a single community (maybe a non-crypto related community) to find out the blocks to adoption&lt;/p&gt;
-
-&lt;p&gt;11:38 Daniel: or do you only expect people to use OpenBazaar if they already hold crypto?&lt;/p&gt;
-
-&lt;p&gt;11:39 crasch: Thanks for the info:  re: doc channel on Slack, mg.&lt;/p&gt;
-
-&lt;p&gt;11:39 chris.troutner: Ya, for those interested, just type #documentation_2-0 in slack to join the channel.&lt;/p&gt;
-
-&lt;p&gt;11:40 mg (OB1): Thanks Chris&lt;/p&gt;
-
-&lt;p&gt;11:41 crasch: What would be your pitch to use OB1 for crypto trading vs say, bisq?&lt;/p&gt;
-
-&lt;p&gt;11:41 Daniel: Ok, so only people that hold crypto so far. Makes sense.&lt;/p&gt;
-
-&lt;p&gt;11:45 chris.troutner: Great summary, Sam.&lt;/p&gt;
-
-&lt;p&gt;11:45 crasch: Thanks!&lt;/p&gt;
-
-&lt;p&gt;11:45 Daniel: Thank you&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on August 2, 2018.</summary></entry></feed>
+&lt;p&gt;We hope this guide was helpful for getting started using OpenBazaar. Please let us know what you think in our &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt; and let us know any additional questions that you may have that would make this even easier for you!&lt;/p&gt;</content><author><name></name></author><summary type="html">Hello and welcome! We’re glad you want to buy goods, services and cryptocurrency on OpenBazaar.</summary></entry></feed>
