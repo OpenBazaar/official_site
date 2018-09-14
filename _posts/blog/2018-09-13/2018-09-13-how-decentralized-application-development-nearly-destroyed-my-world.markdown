@@ -37,7 +37,7 @@ The speed difference is significant between retrieving a single piece of data fr
 
 Consider a popular centralized app like Facebook. How often do you enter a legitimate url and have some type of error return? I would venture to say hardly ever. In a decentralized app this world is destroyed because quite regularly calls for data fail. Perhaps the user isn't online, nor are any seeders of the data? Perhaps some are online, but are unreachable? Perhaps you're even making a call for a piece of data that no longer exists (e.g. a deleted listing)? Further complicating the issue is that we often don't know the root cause of the failure. The error message could basically just be a large "shrug" emoji.
 
-![Shrug Emoji](Shrug Emoji.png "Shrug Emoji")
+![Shrug Emoji](Shrug_Emoji.png "Shrug Emoji")
 
 - **Browsers live in a centralized world**
 
