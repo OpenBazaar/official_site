@@ -3,17 +3,17 @@ title: "<span class='post-title-extra'>5 Tips</span> To Make Your OpenBazaar Lis
 layout: post
 date: '2018-09-18 06:30:00 -0300'
 social_title: '5 Tips To Make Your OpenBazaar Listings POP!'
-social_description: 'With OpenBazaar, the largest decentralized marketplace in the world, you can build your store and listings faster than on any other network and we have some tips that will help your store stand out.'
+social_description: 'With OpenBazaar, the largest decentralized marketplace in the world, you can build your store and listings faster than on any other network. We have some tips that will help your store stand out.'
 social_image: OpenBazaar Store on OpenBazaar.png
 ---
 
 _By Monique Boediono, OpenBazaar UX Designer_
 
-Ecommerce is an exciting and flexible way to start your own business. With some ecommerce business models you can even earn money from the comfort of your own home. While there are many opportunities to get started though, there are also many ways to get lost in the crowd. 
+E-commerce is an exciting and flexible way to start your own business. With some e-commerce business models you can even earn money from the comfort of your own home. While there are many opportunities to get started, there are also many ways to get lost in the crowd. 
 
 ![OpenBazaar Store on OpenBazaar](OpenBazaar Store on OpenBazaar.png "OpenBazaar Store on OpenBazaar")
 
-With OpenBazaar, the world's largest decentralized marketplace, you can build your store and listings faster than on any other network and we have some tips that will help your store stand out.
+With OpenBazaar, the world's largest decentralized marketplace, you can build your store and listings faster than on any other network. We have some tips that will help your store stand out.
 
 If you have something you’ve been itching to sell on OpenBazaar, here are 5 tips to help make your listings **POP** on the network! 🎈
 
@@ -25,7 +25,7 @@ Your title should give your buyers a clear idea of what you’re selling. When w
 
 ### 2. Take many, many photos 📸
 
-If a picture is worth a thousand words and you can attach up to 30 photos for every listing, that should save you 30,000 words, right? (And way too many headaches.) Take advantage of this.
+If a picture is worth a thousand words and you can attach up to 30 photos for every listing, that should save you 30,000 words (and way too many headaches), right? Take advantage of this.
 
 Photos are arguably the most important part of a listing -- it’s the closest a buyer can come to seeing your product in person. Take clear, high-quality pictures in plenty of light to really let your product shine.
 
@@ -39,7 +39,7 @@ Don’t detract from the star of the show. Stage your product against a plain ba
 
 #### Give us variety
 
-Show us how your product looks in different angles and settings. Snap some closeups to capture unique and intricate details. Showcase your product in action. If you’re selling a t-shirt, take photos of the shirt on a model so your buyers can see how much cooler it looks on a human being. 
+Show us how your product looks with different angles and settings. Snap some closeups to capture unique and intricate details. Showcase your product in action. If you’re selling a t-shirt, take photos of the shirt on a model so your buyers can see how much cooler it looks on a human being. 
 
 Don’t forget to include photos of variants too! If you’re selling the same dress in red, white, and black, show us what each of them looks like.
 
@@ -47,7 +47,7 @@ Don’t forget to include photos of variants too! If you’re selling the same d
 
 #### Choose your primary photo
 
-Your primary photo is the first thing a buyer will see when they find your listing. It’s both the thumbnail image and the cover photo on your listing’s main page. You want to make a stellar first impression, so use your most captivating photo as your listing’s primary photo. To do this, click your chosen photo and drag it to the front of the gallery.
+Your primary photo is the first thing a buyer will see when they find your listing. It’s both the thumbnail image and the cover photo on your listing’s main page. You want to make a stellar first impression, so use your most captivating photo as your listing’s primary photo. To do this, click your chosen photo and drag it left to the the first spot in the list of pictures.
 
 ![Setting Your Primary Listing Photo on OpenBazaar](Setting Your Primary Listing Photo on OpenBazaar.gif "Setting Your Primary Listing Photo on OpenBazaar")
 
@@ -97,7 +97,7 @@ Inspire your buyers. Show them different ways to use your product. If you’re s
 
 On top of that, you can also give them some ideas for how a product might fit into their lives --
 
-- _This kindle would be a great gift for your neighborhood bookworm who may or may not have a hoarding problem!_
+- _This Kindle would be a great gift for your neighborhood bookworm who may or may not have a hoarding problem!_
 - _Does your cat take massive poops? Our double-duty clothespin doubles as a nostril clamp!_
 
 Absolutely irresistible.
@@ -122,9 +122,11 @@ A little text formatting can go a long way. Call out important tidbits in **bold
 
 Get creative! Break up your text with photos and GIFs. Visuals can add an instant POP to your content, making it dynamic and engaging. For example, check out [this listing by Crypto Republic - BCH](https://openbazaar.com/store/QmU5ZSKVz2GhsqE6EmBGVCtrui4YhUXny6rbvsSf5h2xvH/mini-metro-cd-key-steam).
 
-![Creating Listing Tags on OpenBazaar](Creating Listing Tags on OpenBazaar.gif "Creating Listing Tags on OpenBazaar")
+**Note:** OpenBazaar doesn't store images that you can include in the description. You need to store them somewhere else on the internet and use their URL to add them.
 
-### 5. Add [tags](https://openbazaar.org/blog/how-to-get-more-buyers-on-openbazaar-with-categories-and-tags/) to get your listing discovered!
+### 5. Add [tags](https://openbazaar.org/blog/how-to-get-more-buyers-on-openbazaar-with-categories-and-tags) to get your listing discovered!
+
+![Creating Listing Tags on OpenBazaar](Creating Listing Tags on OpenBazaar.gif "Creating Listing Tags on OpenBazaar")
 
 Finally, make sure you tag your products so people can find them on the network. You’ve put a lot of blood and sweat into creating this listing, so you deserve to get some eyeballs on it. 
 
@@ -153,6 +155,6 @@ For more information about tagging, check out our blog post [here](https://openb
 
 Don't get lost in the ecommerce crowd. Make sure your OpenBazaar listings are optimized with great titles, photos, details, formatting and tags so that shoppers are so delighted to discover them they can't help but buy.
 
-Once your listings are all set up, make sure to find your store link on the web at [openbazaar.com](https://openbazaar.com) so you can share them with your audience on social media!
+Once your listings are all set up, make sure to find your store link on the web at [openbazaar.com](https://openbazaar.com) so you can share them with your audience on social media! It may take a bit for them to show up there so please be patient.
 
-I hope you enjoyed this post and found it useful. This is the second in a series focused on getting the most out of your OpenBazaar store experience. Check back soon for the next installments.
+I hope you enjoyed this post and found it useful. This is the second in a series focused on getting the most out of your OpenBazaar store experience. Check back soon for more.
