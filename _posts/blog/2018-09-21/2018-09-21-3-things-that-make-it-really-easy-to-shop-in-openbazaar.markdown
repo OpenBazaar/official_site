@@ -13,7 +13,13 @@ It’s a _decentralized_ online marketplace.
 
 OpenBazaar is like its own separate part of the internet. It’s a network of users who connect directly to one another instead of to centralized websites like Amazon or Ebay. 
 
-The decentralized architecture that makes it powerful can also make it a bit hard to understand at first. [Why does it have to be downloaded?](https://openbazaar.org/blog/why-do-i-have-to-download-openbazaar/) [Why does it only use cryptocurrency for payments?](https://openbazaar.zendesk.com/hc/en-us/articles/207678086) [How do the different payment types work?](https://openbazaar.zendesk.com/hc/en-us/articles/360000303371-What-are-the-different-payment-types-in-OpenBazaar-)
+The decentralized architecture that makes it powerful can also make it a bit hard to understand at first. 
+
+- [Why does it have to be downloaded?](https://openbazaar.org/blog/why-do-i-have-to-download-openbazaar/) 
+
+- [Why does it only use cryptocurrency for payments?](https://openbazaar.zendesk.com/hc/en-us/articles/207678086) 
+
+- [How do the different payment types work?](https://openbazaar.zendesk.com/hc/en-us/articles/360000303371-What-are-the-different-payment-types-in-OpenBazaar-)
 
 [OB1](https://ob1.io), the team leading the development of OpenBazaar, has designed a few things that make it easier to use.
 
