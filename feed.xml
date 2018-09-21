@@ -1,4 +1,54 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-09-18T21:42:52+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">5 Tips To Make Your OpenBazaar Listings Pop</title><link href="https://openbazaar.org/blog/5-tips-to-make-your-openbazaar-listings-pop/" rel="alternate" type="text/html" title="&lt;span class='post-title-extra'&gt;5 Tips&lt;/span&gt; To Make Your OpenBazaar Listings &lt;span class='post-title-extra'&gt;Pop&lt;/span&gt;" /><published>2018-09-18T09:30:00+00:00</published><updated>2018-09-18T09:30:00+00:00</updated><id>https://openbazaar.org/blog/5%20-tips-to-make-your-openbazaar-listings-pop</id><content type="html" xml:base="https://openbazaar.org/blog/5-tips-to-make-your-openbazaar-listings-pop/">&lt;p&gt;&lt;em&gt;By Monique Boediono, OpenBazaar UX Designer&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-09-21T19:39:45+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">3 Things That Make It Really Easy to Shop on OpenBazaar</title><link href="https://openbazaar.org/blog/3-things-that-make-it-really-easy-to-shop-on-openbazaar/" rel="alternate" type="text/html" title="3 Things That Make It &lt;span class='post-title-extra'&gt;Really Easy to Shop&lt;/span&gt; on OpenBazaar" /><published>2018-09-21T09:30:00+00:00</published><updated>2018-09-21T09:30:00+00:00</updated><id>https://openbazaar.org/blog/3-things-that-make-it-really-easy-to-shop-on-openbazaar</id><content type="html" xml:base="https://openbazaar.org/blog/3-things-that-make-it-really-easy-to-shop-on-openbazaar/">&lt;p&gt;OpenBazaar is not like a regular online marketplace.&lt;/p&gt;
+
+&lt;p&gt;It’s a &lt;em&gt;decentralized&lt;/em&gt; online marketplace.&lt;/p&gt;
+
+&lt;p&gt;OpenBazaar is like its own separate part of the internet. It’s a network of users who connect directly to one another instead of to centralized websites like Amazon or Ebay.&lt;/p&gt;
+
+&lt;p&gt;The decentralized architecture that makes it powerful can also make it a bit hard to understand at first.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://openbazaar.org/blog/why-do-i-have-to-download-openbazaar/&quot;&gt;Why does it have to be downloaded?&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://openbazaar.zendesk.com/hc/en-us/articles/207678086&quot;&gt;Why does it only use cryptocurrency for payments?&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://openbazaar.zendesk.com/hc/en-us/articles/360000303371-What-are-the-different-payment-types-in-OpenBazaar-&quot;&gt;How do the different payment types work?&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ob1.io&quot;&gt;OB1&lt;/a&gt;, the team leading the development of OpenBazaar, has designed a few things that make it easier to use.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;These items are add-ons and are &lt;a href=&quot;https://openbazaar.org/blog/the-beginners-guide-to-decentralization/&quot;&gt;less decentralized&lt;/a&gt; than the network itself. They make shopping easier but they do not change the decentralized protocol nor the privacy or security of your transactions.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;1-easy-discovery&quot;&gt;1. Easy Discovery&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;Search Providers in OpenBazaar.gif&quot; alt=&quot;Search Providers in OpenBazaar&quot; title=&quot;Search Providers in OpenBazaar&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There are &lt;a href=&quot;https://openbazaar.org/blog/decentralized-search-and-content-discovery-on-openbazaar/&quot;&gt;search engines&lt;/a&gt; within the application that help you discover items. OB1 created the first search engine but anyone is welcome to build one and make it available for others to add to their own OpenBazaar instance.&lt;/p&gt;
+
+&lt;p&gt;With OB1 search you can choose from a selection of suggested categories or search by shipping location, coin payment type, moderator type, or rating. You can also toggle adult filters on and off or search within different product types including physical goods, cryptocurrencies, digital goods, and services.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-ob1-verified-moderators&quot;&gt;2. OB1 Verified Moderators&lt;/h3&gt;
+
+&lt;div class=&quot;embed-responsive embed-responsive-16by9 mb-5&quot;&gt;
+    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/hrYheJdyNfk&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://openbazaar.zendesk.com/hc/en-us/articles/207548366-What-are-moderated-payments-&quot;&gt;Moderators&lt;/a&gt; are a type of user on the OpenBazaar network who can be added to a transaction to help in case of a dispute. It’s important to choose a quality moderator for this type of payment. OB1 offers a &lt;a href=&quot;https://ob1.io/verified-moderators.html&quot;&gt;Verified Moderator&lt;/a&gt; service to help users determine which moderators are more likely to be trustworthy.&lt;/p&gt;
+
+&lt;h3 id=&quot;3-browse-the-website&quot;&gt;3. Browse The Website&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;OpenBazaar Website Browsing Experience.gif&quot; alt=&quot;OpenBazaar Website Browsing Experience.gif&quot; title=&quot;OpenBazaar Website Browsing Experience.gif&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There is now a &lt;a href=&quot;https://openbazaar.com/&quot;&gt;website&lt;/a&gt; where buyers can see what’s available and start shopping right in their browser! Check it out at OpenBazaar.com or from within the application click “View on web” in the top right of the address bar to view a store or item page in your browser.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;Emerging technology that focuses on decentralizing the Internet is exciting, but still new. There are &lt;a href=&quot;https://openbazaar.org/blog/how-decentralized-application-development-nearly-destroyed-my-world/&quot;&gt;many challenges to overcome when building decentralized applications&lt;/a&gt; but we are optimistic about industry progress. Working through these challenges is a point of pride for the development team and we are excited to keep building a better and better user experience for OpenBazaar.&lt;/p&gt;</content><author><name></name></author><summary type="html">OpenBazaar is not like a regular online marketplace.</summary></entry><entry><title type="html">5 Tips To Make Your OpenBazaar Listings Pop</title><link href="https://openbazaar.org/blog/5-tips-to-make-your-openbazaar-listings-pop/" rel="alternate" type="text/html" title="&lt;span class='post-title-extra'&gt;5 Tips&lt;/span&gt; To Make Your OpenBazaar Listings &lt;span class='post-title-extra'&gt;Pop&lt;/span&gt;" /><published>2018-09-18T09:30:00+00:00</published><updated>2018-09-18T09:30:00+00:00</updated><id>https://openbazaar.org/blog/5%20-tips-to-make-your-openbazaar-listings-pop</id><content type="html" xml:base="https://openbazaar.org/blog/5-tips-to-make-your-openbazaar-listings-pop/">&lt;p&gt;&lt;em&gt;By Monique Boediono, OpenBazaar UX Designer&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;E-commerce is an exciting and flexible way to start your own business. With some e-commerce business models you can even earn money from the comfort of your own home. While there are many opportunities to get started, there are also many ways to get lost in the crowd.&lt;/p&gt;
 
@@ -845,32 +895,4 @@ peerIDs to your database every time one of your nodes receives a new connection.
 
 &lt;p&gt;This is a general overview of the technical work required for building an OpenBazaar search engine. We’re aware of some areas we would like to improve upon such as creating an API that allows us to stream newly found peerIDs and also have APIs that allow us to inspect IPNS records or pubsub publishes to update our timestamp associated with each peer. We could likely combine all of this into one streaming API that pulls data from all these sources and streams not only new peerIDs that it finds, but also the most up-to-date timestamp for that peer that it is able to decipher. This way search engines only need a single API to update their peers database.&lt;/p&gt;
 
-&lt;p&gt;We are constantly working to make it easier for anyone to jump right in and start building on the OpenBazaar platform. If you have any questions or comments about any of this, please join our conversation in &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt; and tell us what you think.&lt;/p&gt;</content><author><name></name></author><summary type="html">by OpenBazaar Lead Backend Developer Chris Pacia</summary></entry><entry><title type="html">OpenBazaar Developer Call - August 16, 2018</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-August-16-2018/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - August 16, 2018" /><published>2018-08-16T14:30:00+00:00</published><updated>2018-08-16T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-August-16-2018</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-August-16-2018/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on August 16, 2018.&lt;/p&gt;
-
-&lt;p&gt;Want to join the call in real time? Sign up at &lt;a href=&quot;https://openbazaar.org/developers&quot;&gt;openbazaar.org/developers&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Join our ongoing conversations on Slack at &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;openbazaar.org/slack&lt;/a&gt;&lt;/p&gt;
-
-&lt;div class=&quot;embed-responsive embed-responsive-16by9 mb-5&quot;&gt;
-    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/tB0wCl4Hsik&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Chat log:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;[10:09] chris.troutner: There have been some new hires and a lot of changes. Could we get a brief run-down of an org chart. Like who is kind of overseeing what subcomponents of OB?&lt;/p&gt;
-
-&lt;p&gt;[10:13] chris.troutner: I’d love to hear some details/preview of the API wallet vs Etherium. Technical difficulties/gotchas, etc. Other than the OB token, what is the goals of the Ethereum wallet?&lt;/p&gt;
-
-&lt;p&gt;[10:17] Gustavo Frederico: Hi - is there any known project for integration between OB and other traditional e-commerce platforms? (SAP Hybris, Oracle ATG commerce, Elastic Path, Magento, Sitecore, etc )&lt;/p&gt;
-
-&lt;p&gt;[10:21] Gustavo Frederico: Excellent!&lt;/p&gt;
-
-&lt;p&gt;[10:22] chris.troutner: Can you guys remind me on the difference between hitting the ‘Reload Transactions’ button vs deleting the header.bin file?&lt;/p&gt;
-
-&lt;p&gt;[10:23] mg (OB): Reload button is a soft reset. Deleting the headers.bin is the hard reset. Let me know if you want more.&lt;/p&gt;
-
-&lt;p&gt;[10:23] chris.troutner: Thats good&lt;/p&gt;
-
-&lt;p&gt;[10:24] chris.troutner: Since we’re on the topic of APIs and integrations, I’ll put this link here to the node.js library for interfacing with the OB API:&lt;/p&gt;
-
-&lt;p&gt;[10:25] mg (OB): Gustavo, it sounds like you may have a use case in mind. If there is, I’d be curious what so we can make sure to improve those docs to that end.&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on August 16, 2018.</summary></entry></feed>
+&lt;p&gt;We are constantly working to make it easier for anyone to jump right in and start building on the OpenBazaar platform. If you have any questions or comments about any of this, please join our conversation in &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt; and tell us what you think.&lt;/p&gt;</content><author><name></name></author><summary type="html">by OpenBazaar Lead Backend Developer Chris Pacia</summary></entry></feed>
