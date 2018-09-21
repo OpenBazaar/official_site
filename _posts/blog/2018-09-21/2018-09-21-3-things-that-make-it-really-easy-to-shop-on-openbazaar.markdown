@@ -37,7 +37,7 @@ With OB1 search you can choose from a selection of suggested categories or searc
 
 {% include modules/embeded-video.html url="https://www.youtube.com/embed/hrYheJdyNfk"%} 
 
-[Moderators](https://openbazaar.zendesk.com/hc/en-us/articles/207548366-What-are-moderated-payments-) are a type of user on the OpenBazaar network who can be added to a transaction and help in case of a dispute. It's important to choose a quality moderator for this type of payment. OB1 offers a [Verified Moderator](https://ob1.io/verified-moderators.html) service to help users determine which moderators are more likely to be trustworthy. 
+[Moderators](https://openbazaar.zendesk.com/hc/en-us/articles/207548366-What-are-moderated-payments-) are a type of user on the OpenBazaar network who can be added to a transaction to help in case of a dispute. It's important to choose a quality moderator for this type of payment. OB1 offers a [Verified Moderator](https://ob1.io/verified-moderators.html) service to help users determine which moderators are more likely to be trustworthy. 
 
 ### 3. Browse The Website
 
