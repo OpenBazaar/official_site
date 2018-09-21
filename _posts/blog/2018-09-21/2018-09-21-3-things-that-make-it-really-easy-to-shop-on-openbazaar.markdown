@@ -29,7 +29,7 @@ The decentralized architecture that makes it powerful can also make it a bit har
 
 ![Search Providers in OpenBazaar](Search Providers in OpenBazaar.gif "Search Providers in OpenBazaar")
 
-There are [search engines](https://openbazaar.org/blog/decentralized-search-and-content-discovery-on-openbazaar/) within the application that help you discover items. OB1 created the first search engine available within OpenBazaar but anyone else is welcome to build one and add it to their own client.
+There are [search engines](https://openbazaar.org/blog/decentralized-search-and-content-discovery-on-openbazaar/) within the application that help you discover items. OB1 created the first search engine but anyone is welcome to build one and make it available for others to add to their own OpenBazaar instance.
 
 With OB1 search you can choose from a selection of suggested categories or search by shipping location, coin payment type, moderator type, or rating. You can also toggle adult filters on and off or search within different product types including physical goods, cryptocurrencies, digital goods, and services. 
 
