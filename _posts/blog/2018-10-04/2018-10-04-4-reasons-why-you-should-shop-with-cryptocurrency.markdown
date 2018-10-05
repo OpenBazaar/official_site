@@ -3,8 +3,8 @@ title: "4 Reasons Why You Should <span class='post-title-extra'>Shop with Crypto
 layout: post
 date: '2018-10-04 06:30:00 -0300'
 social_title: '4 Reasons Why You Should Shop with Cryptocurrency'
-social_description: 'OpenBazaar is a decentralized online marketplace. OB1, the team leading the development, has designed a few things that make it easier to use.'
-social_image: 
+social_description: 'Can cryptocurrency really be used as a currency? People who are buying and selling on OpenBazaar believe in using cryptocurrencies AS currencies to exchange for goods and services they need or want. If you believe this too, then OpenBazaar is a great place for you.'
+social_image: Download OpenBazaar Now.gif
 ---
 
 Can cryptocurrency _really_ be used as a “currency?” Is it something we should spend on everyday goods and services? What about when the price shoots up and we know how valuable it can be if we hodl it?
@@ -19,7 +19,7 @@ For example, how do you know that a t-shirt is worth $20? It’s because that’
 
 #### Do cryptocurrencies have value we can measure?
 
-Yes, cryptocurrencies that are traded on exchanges have value measured next to national currencies so you can track their value at any given time. They also have value on their own, but due to their newness most people make sense of cryptocurrency value in terms of other existing currencies. For now it’s still easier to understand what exchanging $20 for a t-shirt means rather than “0.0031 BTC.”
+Yes, cryptocurrencies that are traded on exchanges have value measured next to national currencies so you can track their value at any given time. They also have value on their own, but due to their newness most people make sense of cryptocurrency values in terms of other existing currencies. For now it’s still easier to understand what exchanging $20 for a t-shirt means rather than “0.0031 BTC.”
 
 Here are **4 reasons why you should buy things with your cryptocurrency!**
 <br>  
@@ -48,14 +48,12 @@ On OpenBazaar you can use your cryptocurrency to shop at great stores like these
 <br>  
 <br>  
 
-**Visit stores from around the world** where people just like you, who believe in the power of cryptocurrency, are working on their entrepreneurial hustle. Some people be selling on OpenBazaar because they don’t have access to other online marketplaces due to the cost of participating or restrictions based on their location. Some users are also on OpenBazaar because their products are very fringe or niche such as religious objects or political items. It’s exciting to see how a decentralized marketplace can connect all types of people!
+**Visit stores from around the world** where people just like you, who believe in the power of cryptocurrency, are working on their entrepreneurial hustle. Some people are selling on OpenBazaar because they don’t have access to other online marketplaces due to the cost of participating or restrictions based on their location. Some users are also on OpenBazaar because their products are very fringe or niche such as religious objects or political items. It’s exciting to see how a decentralized marketplace can connect all types of people!
 <br>  
 <br>  
 ### 3. Protect your privacy by using cryptocurrency
 
 Each time you buy something on a large e-commerce platform with a credit card you are forced to share your personal data with multiple companies, who then add this data into a profile they've built about you.
-
-While cryptocurrencies don't offer complete privacy, they are more private than credit cards, Each time you buy something on a large e-commerce platform with a credit card you are forced to share your personal data with multiple companies, who then add this data into a profile they've built about you.
 
 While cryptocurrencies don't offer complete privacy, they are more private than credit cards. By purchasing on a platform like OpenBazaar **you never share personal data with a centralized platform**, only with the vendor you are purchasing a physical item from. If you purchase digital goods or services you aren't forced to give any personal information at all.
 <br>  
