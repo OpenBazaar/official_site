@@ -75,7 +75,7 @@ Once the seller fulfills the order you should see it showing “fulfilled,” an
 
 If you don’t receive the funds in a reasonable period, message the seller to ask why. If you get no response after a while or something else is wrong with your order, you can choose to open a dispute with the moderator by clicking the “Dispute Order” button when viewing the order in your purchases.
 
-OpenBazaar is also a platform for goods and services. While you’re waiting for the vendor to send your new coin, check out what the marketplace has to offer.
+OpenBazaar is also a platform for goods and services. While you’re waiting for the vendor to send your new coins, check out what the marketplace has to offer.
 
 Now you know how to purchase cryptocurrencies privately and with no fees using OpenBazaar.
 
