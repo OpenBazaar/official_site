@@ -1,4 +1,79 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-10-10T17:47:41+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">4 Reasons Why You Should Shop with Cryptocurrency</title><link href="https://openbazaar.org/blog/4-reasons-why-you-should-shop-with-cryptocurrency/" rel="alternate" type="text/html" title="4 Reasons Why You Should &lt;span class='post-title-extra'&gt;Shop with Cryptocurrency&lt;/span&gt;" /><published>2018-10-04T09:30:00+00:00</published><updated>2018-10-04T09:30:00+00:00</updated><id>https://openbazaar.org/blog/4-reasons-why-you-should-shop-with-cryptocurrency</id><content type="html" xml:base="https://openbazaar.org/blog/4-reasons-why-you-should-shop-with-cryptocurrency/">&lt;p&gt;Can cryptocurrency &lt;em&gt;really&lt;/em&gt; be used as a “currency?” Is it something we should spend on everyday goods and services? What about when the price shoots up and we know how valuable it can be if we hodl it?&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-10-11T15:49:16+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">How to Buy Cryptocurrencies Privately with no Fees</title><link href="https://openbazaar.org/blog/how-to-buy-cryptocurrencies-privately-with-no-fees/" rel="alternate" type="text/html" title="How to Buy Cryptocurrencies &lt;span class='post-title-extra'&gt;Privately with no Fees&lt;/span&gt;" /><published>2018-10-10T09:30:00+00:00</published><updated>2018-10-10T09:30:00+00:00</updated><id>https://openbazaar.org/blog/how-to-buy-cryptocurrencies-privately-with-no-fees</id><content type="html" xml:base="https://openbazaar.org/blog/how-to-buy-cryptocurrencies-privately-with-no-fees/">&lt;p&gt;This tutorial will explain how to purchase cryptocurrencies on OpenBazaar, a decentralized marketplace which never has platform fees and doesn’t require registering an account. You’ll learn how to buy cryptocurrency with a different cryptocurrency, such as Bitcoin. At the moment OpenBazaar doesn’t support people buying cryptocurrency with regular fiat money such as US Dollars or Euros, though it’s a feature that will hopefully be supported in the future.&lt;/p&gt;
+
+&lt;p&gt;Here’s a video tutorial explaining the process:&lt;/p&gt;
+
+&lt;div class=&quot;embed-responsive embed-responsive-16by9 mb-5&quot;&gt;
+    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/q6ki3_1Io-U&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;step-1-download-openbazaar&quot;&gt;Step #1: Download OpenBazaar&lt;/h2&gt;
+
+&lt;p&gt;Visit &lt;a href=&quot;https://openbazaar.org/download&quot;&gt;OpenBazaar.org&lt;/a&gt; and click on the installer link for your operating system. Once the installer file is downloaded, open the file and it will begin the process of installing OpenBazaar.
+&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;step-2-select-cryptocurrency&quot;&gt;Step #2: Select cryptocurrency&lt;/h2&gt;
+
+&lt;p&gt;You will be asked which cryptocurrency you want to use. This is the cryptocurrency that you will pay with as a buyer, or receive as a seller. This is not the currency that you wish to purchase.
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;selectingcurrency.gif&quot; alt=&quot;Select Purchasing Cryptocurrency&quot; title=&quot;Select Purchasing Cryptocurrency&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;
+At the moment OpenBazaar users are limited to using only one cryptocurrency at a time, and can only choose BTC, BCH, or ZEC. However in the near future users will be able to use multiple currencies at the same time, and will have LTC, ETH, and other coins available to use.
+&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;step-3-complete-onboarding&quot;&gt;Step #3: Complete Onboarding&lt;/h2&gt;
+
+&lt;p&gt;Go through the onboarding process and enter whatever information you choose. If you want to remain private then keep the randomly generated name assigned to you. Choose the currency you want to have prices displayed in; you’ll want this to be the currency that you most commonly use so that the prices of goods and services are familiar to you.&lt;/p&gt;
+
+&lt;p&gt;Read the terms of service, and if you agree then accept them.
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;onboarding.gif&quot; alt=&quot;Complete Onboarding&quot; title=&quot;Complete Onboarding&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;step-4-search-for-cryptocurrency-listings&quot;&gt;Step #4: Search for cryptocurrency listings&lt;/h2&gt;
+
+&lt;p&gt;You’re now up and running on OpenBazaar, so let’s find some cryptocurrency listings. Click the “Discover” button on the top right of the client (the blue tent). After selecting a search provider, you’ll now see lots of listings on the network. To filter down to only cryptocurrency offerings, use the search provider’s filters on the left. You’ll now see a list of cryptocurrencies for sale. Find what you want and click on the listing to view it.
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;searchcurrency.gif&quot; alt=&quot;Search for Cryptocurrency&quot; title=&quot;Search for Cryptocurrency&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;step-5-buy-the-cryptocurrency&quot;&gt;Step #5: Buy the cryptocurrency&lt;/h2&gt;
+
+&lt;p&gt;It’s recommended that you find a vendor who has a “Verified Moderator” on their listings. This means you will be able to choose escrow from a reputable third party. You can tell if they offer a verified moderator by looking for a little orange badge underneath the seller’s name.&lt;/p&gt;
+
+&lt;p&gt;Now that you’ve found some crypto you want to buy, click the “Trade now” button to start the checkout process. You’ll need to enter a receiving address for the funds you’re buying. As in the example below, if you’re buying Decred then you’ll need to put in a Decred address that you control where the seller will send the cryptocurrency you buy.&lt;/p&gt;
+
+&lt;p&gt;Then choose payment type. Unless you fully trust the vendor, you should use a moderated payment with a verified moderator. Enter the amount you wish to buy, then review your order and click “Pay.” You’ll now see the payment screen.
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;examplepurchase.gif&quot; alt=&quot;Buy the Cryptocurrency&quot; title=&quot;Buy the Cryptocurrency&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;step-6-send-payment&quot;&gt;Step #6: Send Payment&lt;/h2&gt;
+
+&lt;p&gt;Once you’ve placed the order you now need to pay for it. There are two ways to pay in OpenBazaar. One is by scanning the QR code on a mobile wallet or copying the details on the payment screen into a separate wallet and sending payment. The other method is using the internal OpenBazaar wallet.&lt;/p&gt;
+
+&lt;p&gt;If you don’t want to use a separate wallet, or you try using an external wallet and you receive an error message, then it’s best to use the internal OpenBazaar wallet and click the “Pay from Wallet” button.&lt;/p&gt;
+
+&lt;p&gt;Before you can pay from the OpenBazaar wallet, you’ll need to fund it. To do this, click on the wallet button, then in the wallet interface click “Receive Money.” This will display a QR code and address you can use to fund the wallet. Note that you’ll need to wait for one confirmation on the blockchain before the funds are spendable.
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;obwalletreceive.gif&quot; alt=&quot;Receive funds in OpenBazaar Wallet&quot; title=&quot;Receive funds in OpenBazaar Wallet&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;To pay for orders you’ve already placed, click on “Purchases” in the dropdown menu on the top right (your profile picture) and then click on the specific order.&lt;/p&gt;
+
+&lt;p&gt;Once payment has been sent you’ll see a green check mark appear and it’s now up to the vendor to fulfill your order.
+&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;step-7-check-your-order&quot;&gt;Step #7: Check your order&lt;/h2&gt;
+
+&lt;p&gt;To check your order, click on “Purchases” in the dropdown menu on the top right (your profile picture) and then click on the specific order. You’ll see a bar showing the progress of the order.&lt;/p&gt;
+
+&lt;p&gt;Once the seller fulfills the order you should see it showing “fulfilled,” and the vendor should send confirmation such as a transaction hash to prove they sent the funds to the address you provided. Enter the transaction hash into a block explorer to verify, or just check the wallet where you expected the funds to be sent. If you’ve received them, leave a review and close the order out. It’s important that you do finish the order, otherwise the funds will not be released from escrow and the seller will be forced to open a dispute to claim their funds.&lt;/p&gt;
+
+&lt;p&gt;If you don’t receive the funds in a reasonable period, message the seller to ask why. If you get no response after a while or something else is wrong with your order, you can choose to open a dispute with the moderator by clicking the “Dispute Order” button when viewing the order in your purchases.&lt;/p&gt;
+
+&lt;p&gt;OpenBazaar is also a platform for goods and services. While you’re waiting for the vendor to send your new coin, check out what the marketplace has to offer.&lt;/p&gt;
+
+&lt;p&gt;Now you know how to purchase cryptocurrencies privately and with no fees using OpenBazaar.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Get involved with our community on &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt; and &lt;a href=&quot;https://reddit.com/r/openbazaar&quot;&gt;Reddit&lt;/a&gt; and make even a small purchase on OpenBazaar today to see what you think! If you’re not sure where to start, you can check out the official OpenBazaar stores—&lt;a href=&quot;https://openbazaar.com/store/QmcUDmZK8PsPYWw5FRHKNZFjszm2K6e68BQSTpnJYUsML7&quot;&gt;BTC Store&lt;/a&gt; and &lt;a href=&quot;https://openbazaar.com/store/QmSkkZpNFzWubxE4p9Ejjo2CLqq61jxuRF26ZzCmCKaHcJ&quot;&gt;BCH Store&lt;/a&gt; and make a small donation or score some great OpenBazaar gear!&lt;/p&gt;</content><author><name></name></author><summary type="html">This tutorial will explain how to purchase cryptocurrencies on OpenBazaar, a decentralized marketplace which never has platform fees and doesn’t require registering an account. You’ll learn how to buy cryptocurrency with a different cryptocurrency, such as Bitcoin. At the moment OpenBazaar doesn’t support people buying cryptocurrency with regular fiat money such as US Dollars or Euros, though it’s a feature that will hopefully be supported in the future.</summary></entry><entry><title type="html">4 Reasons Why You Should Shop with Cryptocurrency</title><link href="https://openbazaar.org/blog/4-reasons-why-you-should-shop-with-cryptocurrency/" rel="alternate" type="text/html" title="4 Reasons Why You Should &lt;span class='post-title-extra'&gt;Shop with Cryptocurrency&lt;/span&gt;" /><published>2018-10-04T09:30:00+00:00</published><updated>2018-10-04T09:30:00+00:00</updated><id>https://openbazaar.org/blog/4-reasons-why-you-should-shop-with-cryptocurrency</id><content type="html" xml:base="https://openbazaar.org/blog/4-reasons-why-you-should-shop-with-cryptocurrency/">&lt;p&gt;Can cryptocurrency &lt;em&gt;really&lt;/em&gt; be used as a “currency?” Is it something we should spend on everyday goods and services? What about when the price shoots up and we know how valuable it can be if we hodl it?&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Here’s a broad definition of a currency:&lt;/strong&gt;&lt;/p&gt;
 
@@ -815,38 +890,4 @@ If you are unfamiliar with Github then you may also file a report using &lt;a hr
 
 &lt;p&gt;[10:29] chris.troutner: My handle on different platforms is usually @chris.troutner or @christroutner&lt;/p&gt;
 
-&lt;p&gt;[10:30] Yeshe: Thanks all&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on August 30, 2018.</summary></entry><entry><title type="html">Decentralized Search and Content Discovery on OpenBazaar</title><link href="https://openbazaar.org/blog/decentralized-search-and-content-discovery-on-openbazaar/" rel="alternate" type="text/html" title="Decentralized &lt;span class='post-title-extra'&gt;Search and Content Discovery&lt;/span&gt; on OpenBazaar" /><published>2018-08-21T14:30:00+00:00</published><updated>2018-08-21T14:30:00+00:00</updated><id>https://openbazaar.org/blog/decentralized-search-and-content-discovery-on-openbazaar</id><content type="html" xml:base="https://openbazaar.org/blog/decentralized-search-and-content-discovery-on-openbazaar/">&lt;p&gt;&lt;em&gt;by OpenBazaar Developer Tyler Smith&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Content discovery&lt;/strong&gt; is a crucial component to any ecommerce system, especially 2-sided marketplaces where users are both the buyers and the sellers. Even if vendors have listed a number of great products, if users can’t find things they want then they won’t become buyers. &lt;strong&gt;Centralized&lt;/strong&gt; 2-sided marketplaces like Amazon and Etsy have been able to build robust discovery tools because they control the platform and are able to collect every bit of user data generated there.&lt;/p&gt;
-
-&lt;p&gt;A &lt;strong&gt;decentralized&lt;/strong&gt; marketplace like OpenBazaar removes the opportunity for a single organization to own and control all data which creates advantages for users in giving them more freedom and privacy but it also presents some challenges for creating a good content discovery system.&lt;/p&gt;
-
-&lt;p&gt;A truly decentralized answer to easy and elegant content discovery does not yet exist but we have developed an approach to help buyers find things they want and need in this growing marketplace while still honoring a valuable principle that decentralization provides: &lt;strong&gt;choice.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;Search Providers in OpenBazaar.gif&quot; alt=&quot;Search Providers in OpenBazaar&quot; title=&quot;Search Providers in OpenBazaar&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;federation-a-stop-between-centralization-and-full-decentralization&quot;&gt;Federation: A stop between centralization and full decentralization&lt;/h3&gt;
-&lt;p&gt;In version 1.0 of OpenBazaar we tried our hand at a truly decentralized search index but the results were less than ideal. The technology is just not there yet. In response to the search deficiencies then, the market acted in the form of DuoSearch, which was a company that decided to build a crawler for the network and maintain their own centralized index. Users had to leave the OpenBazaar app and go to the DuoSearch website to easily browse items. Once they discovered items they wanted to by, they had to return to the app to make the purchase.&lt;/p&gt;
-
-&lt;p&gt;For version 2.0 we knew we wanted a system that could be as nice to use as DuoSearch, from inside the app, and without requiring all users to use a single, centralized search engine. The solution is &lt;strong&gt;a federated search system&lt;/strong&gt; that anybody can participate in. In version 2.0, each search provider can build and maintain their own view of the network but conform with a common interface that allows them to be used interchangably in systems. Nobody has an upper hand and everybody can compete on quality and features.&lt;/p&gt;
-
-&lt;h3 id=&quot;basics-of-building-a-search-api-for-openbazaar&quot;&gt;Basics of building a search API for OpenBazaar&lt;/h3&gt;
-&lt;p&gt;Anybody can build a search provider that can be added to the client by ensuring their API is compliant with &lt;a href=&quot;https://gist.github.com/tyler-smith/44b5cc8065042f221630cb5c8be505bf&quot;&gt;OBIP2&lt;/a&gt; which defines a spec for how the OpenBazaar client and search providers interact. Any API following the spec can be consumed by OBIP2 clients which means anybody can build their own search engine any way they’d like to. They show any listings they want, any filters they want, and score results any way they want.&lt;/p&gt;
-
-&lt;p&gt;In order to serve search results a, search developer needs to crawl the network using the OpenBazaar server API and index the results into a system like &lt;a href=&quot;https://www.elastic.co/&quot;&gt;Elasticsearch&lt;/a&gt; or &lt;a href=&quot;https://www.algolia.com/&quot;&gt;Algolia&lt;/a&gt;. They also need to frequently re-check their data to ensure the content is still available on the network.&lt;/p&gt;
-
-&lt;p&gt;After indexing all the data they need to build an API satisfying the OBIP2 interface so that OpenBazaar users can add the root URL to their client and begin using the search engine.&lt;/p&gt;
-
-&lt;h3 id=&quot;customizing-your-search-experience&quot;&gt;Customizing your search experience&lt;/h3&gt;
-&lt;p&gt;A search provider could be completely free for use, monetize their search by selling paid promotion slots, or sell premium search endpoints. It’s entirely up to them how they’d like to run it.&lt;/p&gt;
-
-&lt;p&gt;Every provider decides what results to show for any given query and they define their own filtering and sorting options. This allows them do things like experiment with new features or specialize in only certain types of listings.&lt;/p&gt;
-
-&lt;p&gt;Someone could create a food-oriented search where users can filter by types of food or ingredients and sort by nutritional value. Or a search engine for clothing with options related sizes and styles. The OpenBazaar protocol and applications have no concern for what data is being served, as long as it’s being served in the proper format for users to access.&lt;/p&gt;
-
-&lt;h3 id=&quot;common-issues-and-future-improvements&quot;&gt;Common issues and future improvements&lt;/h3&gt;
-&lt;p&gt;Crawling the network and keeping the data fresh is the most challenging part of building a search provider. Search providers want to make sure everything they serve is still available on the network. They also don’t want to serve listings whose names have expired on the network which can be tricky to track.&lt;/p&gt;
-
-&lt;p&gt;In the future we plan to make this much easier and more reliable by utilizing &lt;a href=&quot;https://ipfs.io/blog/25-pubsub/&quot;&gt;PubSub in IPFS&lt;/a&gt; to broadcast updates that anybody can listen for. Providers will only need to listen on the update channel to get all the information necessary to update their index.&lt;/p&gt;
-
-&lt;p&gt;We’re aware that the tooling and documentation around the lower level details on how to build a working crawler could stand to be improved. We are working on a future post that goes into more technical details and explanations and are considering how we can create open tooling to make it as easy as possible for anybody to participate in the OpenBazaar content provider ecosystem.&lt;/p&gt;</content><author><name></name></author><summary type="html">by OpenBazaar Developer Tyler Smith</summary></entry></feed>
+&lt;p&gt;[10:30] Yeshe: Thanks all&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on August 30, 2018.</summary></entry></feed>
