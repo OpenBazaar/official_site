@@ -6,7 +6,7 @@ social_title: 'How to Buy Cryptocurrencies Privately with no Fees'
 social_description: 'This tutorial explains how to use OpenBazaar to purchase cryptocurrencies.'
 ---
 
-This tutorial will explain how to purchase cryptocurrencies on OpenBazaar, a decentralized marketplace which never has fees and doesn’t require opening an account. This is for people buying cryptocurrency with a different cryptocurrency, such as Bitcoin. At the moment OpenBazaar doesn’t support people buying cryptocurrency with regular fiat money such as US Dollars or Euros, though it’s a feature that will hopefully be supported in the future.
+This tutorial will explain how to purchase cryptocurrencies on OpenBazaar, a decentralized marketplace which never has platform fees and doesn’t require registering an account. You'll learn how to buy cryptocurrency with a different cryptocurrency, such as Bitcoin. At the moment OpenBazaar doesn’t support people buying cryptocurrency with regular fiat money such as US Dollars or Euros, though it’s a feature that will hopefully be supported in the future.
 
 Here’s a video tutorial explaining the process:
 
@@ -16,7 +16,7 @@ Here’s a video tutorial explaining the process:
 
 ## Step #1: Download OpenBazaar
 
-Visit [OpenBazaar.org](https://openbazaar.org/download) and click on the installer for your operating system. Once downloaded, open the file and it will begin the process of installing OpenBazaar.
+Visit [OpenBazaar.org](https://openbazaar.org/download) and click on the installer link for your operating system. Once the installer file is downloaded, open the file and it will begin the process of installing OpenBazaar.
 <br>  
 ## Step #2: Select cryptocurrency
 
@@ -44,17 +44,17 @@ You’re now up and running on OpenBazaar, so let’s find some cryptocurrency l
 
 ## Step #5: Buy the cryptocurrency
 
-It’s recommended to find a vendor who has a “Verified Moderator” on their listings. This means you will be able to choose escrow from a reputable third party. You can tell if they offer a verified moderator by looking for a little orange badge next to the seller’s name.
+It’s recommended that you find a vendor who has a “Verified Moderator” on their listings. This means you will be able to choose escrow from a reputable third party. You can tell if they offer a verified moderator by looking for a little orange badge underneath the seller’s name.
 
 Now that you’ve found some crypto you want to buy, click the “Trade now” button to start the checkout process. You’ll need to enter a receiving address for the funds you’re buying. As in the example below, if you’re buying Decred then you’ll need to put in a Decred address that you control where the seller will send the cryptocurrency you buy.
 
-Then choose payment type. Unless you fully trust the vendor, you should use a moderator payment with a verified moderator. Enter the amount you wish to buy, then review your order and click “Pay.” You’ll now see the payment screen.
+Then choose payment type. Unless you fully trust the vendor, you should use a moderated payment with a verified moderator. Enter the amount you wish to buy, then review your order and click “Pay.” You’ll now see the payment screen.
 <br>  
 ![Buy the Cryptocurrency](examplepurchase.gif "Buy the Cryptocurrency")
 <br>  
 ## Step #6: Send Payment
 
-Once you’ve placed the order you now need to pay for it. There are two ways to pay in OpenBazaar. One is by scanning the QR code on a mobile wallet or copying the details at the payment screen into a separate wallet and sending payment. The other method is using the internal OpenBazaar wallet.
+Once you’ve placed the order you now need to pay for it. There are two ways to pay in OpenBazaar. One is by scanning the QR code on a mobile wallet or copying the details on the payment screen into a separate wallet and sending payment. The other method is using the internal OpenBazaar wallet.
 
 If you don’t want to use a separate wallet, or you try using an external wallet and you receive an error message, then it’s best to use the internal OpenBazaar wallet and click the “Pay from Wallet” button. 
 
@@ -75,7 +75,7 @@ Once the seller fulfills the order you should see it showing “fulfilled,” an
 
 If you don’t receive the funds in a reasonable period, message the seller to ask why. If you get no response after a while or something else is wrong with your order, you can choose to open a dispute with the moderator by clicking the “Dispute Order” button when viewing the order in your purchases.
 
-OpenBazaar is also a platform for goods and services as well. While you’re waiting for the vendor to send your new coin, check out what the marketplace has to offer.
+OpenBazaar is also a platform for goods and services. While you’re waiting for the vendor to send your new coin, check out what the marketplace has to offer.
 
 Now you know how to purchase cryptocurrencies privately and with no fees using OpenBazaar.
 
