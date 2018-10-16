@@ -1,4 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-10-15T18:56:54+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">Shop OpenBazaar - Casa Store, Crypto Greeting Cards, and Crypto Republic</title><link href="https://openbazaar.org/blog/Shop-OpenBazaar-Casa-Store-Crypto-Greeting-Cards-and-Crypto-Republic/" rel="alternate" type="text/html" title="Shop OpenBazaar - &lt;span class='post-title-extra'&gt;Casa Store, Crypto Greeting Cards, and Crypto Republic&lt;/span&gt;" /><published>2018-10-12T09:30:00+00:00</published><updated>2018-10-12T09:30:00+00:00</updated><id>https://openbazaar.org/blog/Shop-OpenBazaar-Casa%20Store-Crypto-Greeting-Cards-and-Crypto-Republic</id><content type="html" xml:base="https://openbazaar.org/blog/Shop-OpenBazaar-Casa-Store-Crypto-Greeting-Cards-and-Crypto-Republic/">&lt;p&gt;Want to know what you can buy with Bitcoin? (Or Bitcoin Cash, or &lt;a href=&quot;https://z.cash/&quot;&gt;Zcash&lt;/a&gt;?)&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-10-16T15:29:41+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">OpenBazaar Developer Call - October 11, 2018</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-October-11-2018/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - October 11, 2018" /><published>2018-10-15T14:30:00+00:00</published><updated>2018-10-15T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-October-11-2018</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-October-11-2018/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on October 11, 2018.&lt;/p&gt;
+
+&lt;p&gt;Want to join the call in real time? Sign up at &lt;a href=&quot;https://openbazaar.org/developers&quot;&gt;openbazaar.org/developers&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Join our ongoing conversations on Slack at &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;openbazaar.org/slack&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Browse OpenBazaar now at &lt;a href=&quot;https://openbazaar.com&quot;&gt;openbazaar.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;embed-responsive embed-responsive-16by9 mb-5&quot;&gt;
+    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/MOMeiER0Deg&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Chat log:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:04] chris.troutner: Hey everyone!&lt;/p&gt;
+
+&lt;p&gt;[10:04] Sam - OB1: Welcome Chris&lt;/p&gt;
+
+&lt;p&gt;[10:10] chris.troutner: I’ve been doing some work on Insight servers for Bitcoin Cash. I Dockerized Bitpays insight server: &lt;a href=&quot;https://github.com/christroutner/insight-docker&quot;&gt;https://github.com/christroutner/insight-docker&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:12] szollo: That’s awesome, I’ll take a look - thanks Chris.&lt;/p&gt;
+
+&lt;p&gt;[10:12] 🌪 mg (ob1): +1&lt;/p&gt;
+
+&lt;p&gt;[10:15] 🌪 mg (ob1): Hacktoberfest issues: &lt;a href=&quot;https://github.com/OpenBazaar/openbazaar-go/issues?g=is%3Aissue_is%3Aopen+label%3Ahacktoberfest&quot;&gt;https://github.com/OpenBazaar/openbazaar-go/issues?g=is%3Aissue_is%3Aopen+label%3Ahacktoberfest&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:16] 🌪 mg (ob1): Program details: &lt;a href=&quot;https://hacktoberfest.digitalocean.com&quot;&gt;https://hacktoberfest.digitalocean.com&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on October 11, 2018.</summary></entry><entry><title type="html">Shop OpenBazaar - Casa Store, Crypto Greeting Cards, and Crypto Republic</title><link href="https://openbazaar.org/blog/Shop-OpenBazaar-Casa-Store-Crypto-Greeting-Cards-and-Crypto-Republic/" rel="alternate" type="text/html" title="Shop OpenBazaar - &lt;span class='post-title-extra'&gt;Casa Store, Crypto Greeting Cards, and Crypto Republic&lt;/span&gt;" /><published>2018-10-12T09:30:00+00:00</published><updated>2018-10-12T09:30:00+00:00</updated><id>https://openbazaar.org/blog/Shop-OpenBazaar-Casa%20Store-Crypto-Greeting-Cards-and-Crypto-Republic</id><content type="html" xml:base="https://openbazaar.org/blog/Shop-OpenBazaar-Casa-Store-Crypto-Greeting-Cards-and-Crypto-Republic/">&lt;p&gt;Want to know what you can buy with Bitcoin? (Or Bitcoin Cash, or &lt;a href=&quot;https://z.cash/&quot;&gt;Zcash&lt;/a&gt;?)&lt;/p&gt;
 
 &lt;p&gt;All &lt;em&gt;kinds&lt;/em&gt; of things on OpenBazaar! It is a marketplace where you can buy and sell what you want and connect to people all around the world who are using cryptocurrencies like Bitcoin.&lt;/p&gt;
 
@@ -787,117 +813,4 @@ items.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Centralized&lt;/strong&gt; and &lt;strong&gt;decentralized&lt;/strong&gt; systems exist on a spectrum and each have pros and cons. No current human system is completely one or the other. One thing they share though is that neither structure is an end goal in itself. What’s important is &lt;em&gt;how these structures enable the participation of all involved parties&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;OpenBazaar is not compelling &lt;em&gt;just&lt;/em&gt; because it’s decentralized. OpenBazaar is excellent because the decentralization of the network gives users incredible freedom, privacy and autonomy in how they buy and sell online.&lt;/p&gt;</content><author><name></name></author><summary type="html">OpenBazaar is a decentralized marketplace. What does decentralized mean, and why does it matter? This article will explain the concept of decentralization without any technical jargon.</summary></entry><entry><title type="html">Troubleshooting and How to Help with The Development of OpenBazaar</title><link href="https://openbazaar.org/blog/troubleshooting-and-how-to-help-with-development-on-openbazaar/" rel="alternate" type="text/html" title="&lt;span class='post-title-extra'&gt;Troubleshooting&lt;/span&gt; and How to Help with The &lt;span class='post-title-extra'&gt;Development&lt;/span&gt; of OpenBazaar" /><published>2018-09-05T14:30:00+00:00</published><updated>2018-09-05T14:30:00+00:00</updated><id>https://openbazaar.org/blog/troubleshooting-and-how-to-help-with-development-on-openbazaar</id><content type="html" xml:base="https://openbazaar.org/blog/troubleshooting-and-how-to-help-with-development-on-openbazaar/">&lt;p&gt;&lt;em&gt;By Mike Greenberg, OpenBazaar Backend Developer&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;When we use any kind of software we are likely to encounter issues from time to time. With closed-source software, or software that we generally pay for, there’s usually an easy way to contact someone for support as needed. You pay them, they fix your issues and it’s a very closed, one-on-one discussion.&lt;/p&gt;
-
-&lt;p&gt;But there’s a tradeoff: if that company changes their policies, pumps up their prices, or shuts down, that will have some effect on your ability to get that help—or even &lt;em&gt;keep using the software at all.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://coincenter.org/entry/what-is-open-source-and-why-is-it-important-for-cryptocurrency-and-open-blockchain-projects&quot;&gt;Open source software&lt;/a&gt; is a different kind of animal. It’s the result of many people coming together, sometimes from all around the world, to build programs that are transparent and inclusive, where contribution to the code base is easy and collaborative. This decentralization of technology is a major part of what we love about cryptocurrencies like &lt;a href=&quot;https://bitcoin.org/&quot;&gt;Bitcoin&lt;/a&gt; because &lt;strong&gt;it’s all about giving power back to individual users and contributors&lt;/strong&gt;. It allows them to be in control and make decisions for themselves.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://openbazaar.org/download&quot;&gt;OpenBazaar&lt;/a&gt; is an open source application that is designed to be the fabric of future ecommerce with no middlemen involved and sometimes it presents some unique challenges. As the development leaders of this marketplace, we at &lt;a href=&quot;https://ob1.io&quot;&gt;OB1&lt;/a&gt; are focused on providing a quality user experience &lt;em&gt;within&lt;/em&gt; the app but also want to ensure users are empowered &lt;em&gt;outside&lt;/em&gt; of it as well so they can troubleshoot issues and help the platform keep growing. Which brings us to today’s topic…&lt;/p&gt;
-
-&lt;h4 id=&quot;troubleshooting-and-reporting-issues-with-openbazaar-cue-applause&quot;&gt;Troubleshooting and Reporting Issues with OpenBazaar! (Cue applause)&lt;/h4&gt;
-
-&lt;p&gt;OpenBazaar not only has the benefit of a company like OB1 ensuring its team is available, transparent and engaged with the community when people need assistance, it also has the communal benefits of an open source project.&lt;/p&gt;
-
-&lt;p&gt;Being able to navigate the resources of an open source project efficiently could save you time and headaches but may be different than what you’re accustomed to. This post should help clear up the support options that are available when you need help and show you how to give back to the OpenBazaar community at the same time.&lt;/p&gt;
-
-&lt;p&gt;Let’s dig in.&lt;/p&gt;
-
-&lt;h3 id=&quot;what-just-happened&quot;&gt;What Just Happened?&lt;/h3&gt;
-
-&lt;p&gt;Uh oh. Your screen is displaying a cryptic error or the thing you expected never happened. Now what? The next steps are important to follow specifically in order to get to the bottom of it.&lt;/p&gt;
-
-&lt;p&gt;The first thing to do is record the specific error messages you see and/or take screenshots of the problem. &lt;strong&gt;This part is critical for the developers to properly identify the root cause&lt;/strong&gt;. You are an archeologist making an archive of this bizarre behavior and you need to ensure it is preserved perfectly.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Text errors should always be copied and pasted where possible.&lt;/li&gt;
-  &lt;li&gt;Visual anomalies should be screen captured.&lt;/li&gt;
-  &lt;li&gt;Original file output relevant to the failure should be saved.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Capturing these artifacts up-front will make sure they don’t accidentally get lost by the application changing state automatically or losing power on your computer.&lt;/p&gt;
-
-&lt;h3 id=&quot;finding-solutions&quot;&gt;Finding Solutions&lt;/h3&gt;
-
-&lt;p&gt;Now that you have the details of the problem, we should make sure that someone else hasn’t already reported the problem or found a fix. Often a problem has already been discussed and it’s just a matter of using the right tools to find some answers. As a developer on the project, I usually spend 2-3 minutes searching for unique phrases in the error or picking search terms which are going to identify my problem uniquely from other problems.&lt;/p&gt;
-
-&lt;p&gt;For example, consider the following error message:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;There was an error following.png&quot; alt=&quot;OpenBazaar error message indicating error following&quot; title=&quot;OpenBazaar error message indicating error following&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The unique parts of this error are &lt;strong&gt;error following&lt;/strong&gt; and the phrase &lt;strong&gt;cannot start a transaction within a transaction&lt;/strong&gt;. Pay extra attention for developer misspellings if you’re transcribing an error from a screengrab too. While misspellings are embarrassing, they may occur sometimes. Pasting these search phrases into your search engine of choice should reveal pretty quickly if anyone else has reported this issue yet. Making use of double-quotes around phrases which should match exactly is recommended to filter out unrelated results.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;Searching for OpenBazaar error following.png&quot; alt=&quot;Searching for OpenBazaar error message indicating error following&amp;quot;&quot; title=&quot;Searching for OpenBazaar error message indicating error following&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;A search for &lt;strong&gt;OpenBazaar “error following”&lt;/strong&gt; produced a Github issue which was reporting the same error. However, when we open the issue we find that the cause of the error is due to something different and probably not related to our problem. I will leave a search for the other phrase as an exercise for you to try. Finding a discussion around an existing problem could lead to a solution that you might be able to apply yourself.&lt;/p&gt;
-
-&lt;h3 id=&quot;researching-resources&quot;&gt;Researching Resources&lt;/h3&gt;
-
-&lt;p&gt;If a solution doesn’t already exist, you will need to get your new problem report into the right hands. We have quite a few places across the internet where the OpenBazaar community offers help to each other. Take advantage of the open community by sharing your challenge in the appropriate channel.&lt;/p&gt;
-
-&lt;p&gt;Let’s quickly walk through the &lt;strong&gt;common resources&lt;/strong&gt; available and how they may be useful.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;1) &lt;a href=&quot;https://openbazaar.zendesk.com/&quot;&gt;Frequently Asked Questions and Knowledge Base&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Here we keep instructions for common tasks such as software setup, establishing your store, and handling moderation tasks. There’s also information about features which are unique to OpenBazaar like our multi-signature escrow or how vacation mode is used. This is primarily a read-only site which will surface the most regular questions from our users.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2) Active Updates on &lt;a href=&quot;https://twitter.com/openbazaar&quot;&gt;Twitter&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Twitter can be a good source of up-to-the-minute news as well as a way to reach out to our team for urgent requests. Here you can find dialogue with fans, critics, news, updates, and promotions from our marketing team. It is an open platform for discussion with a short-form approach to dialogue.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3) Community Discussion on &lt;a href=&quot;https://reddit.com/r/openbazaar&quot;&gt;Reddit&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Reddit allows for topical, threaded discussions and lets users discuss all sorts of things. Some leading topics in the OpenBazaar subreddit include: new stores, decentralized ecommerce news, cryptocurrency mechanics and issues which are hard to track down. The discussion on Reddit shifts over time but its persistence gives a good archive of past issues and thought-provoking conversation. Participating in the OpenBazaar subreddit can be anonymous and has no barrier to posting a question or comment short of creating a Reddit account. Most anything even slightly related to OpenBazaar can be posted here.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;4) Real-time Discussion on &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt; and &lt;a href=&quot;https://t.me/OpenBazaarGroup&quot;&gt;Telegram&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;For high-bandwidth conversation with other users and contributors, our team and community congregate in these 2 discussion forums that function a lot like real-time chatrooms. Some areas of these communities focus on 3rd party search providers, moderators and escrow, and new ideas being tested on OpenBazaar, as well as offering each other help and support on common issues. Slack, by far the more popular of the two, has the most regular activity, as the OB1 team and many other developers are engaged there. Telegram is not quite as active but is a nice addition to Slack were people can pop in to ask quick questions about OpenBazaar or determine their next steps troubleshooting an issue.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;5) Development on &lt;a href=&quot;https://github.com/openbazaar&quot;&gt;Github&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Github contains the technical discussions and objectives of our various projects. Each repository contains a history of commits from previous contributors, a list of issues that represent pending work, and in some cases further technical documentation which is coupled to the software. This is where the rubber meets road as far as where improvements are discussed and added. It’s safe to assume if a problem or issue is not being tracked in Github, it is not being worked on.&lt;/p&gt;
-
-&lt;h3 id=&quot;reporting-the-problem&quot;&gt;Reporting The Problem&lt;/h3&gt;
-
-&lt;p&gt;Okay, so what happens when you have exhausted all avenues of personal research and are still stumped? OB1 funnels all code changes through &lt;a href=&quot;https://github.com/OpenBazaar/openbazaar-desktop/issues&quot;&gt;Github’s issue tracker&lt;/a&gt;. When providing a bug report, including enough information in order to reproduce–and then fix–the problem is the primary objective.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Here is a brief checklist of useful information that should be included in the report:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Mention your &lt;strong&gt;operating system (OS) and version&lt;/strong&gt;. If the OS type and version is unknown for your computer, you can visit &lt;a href=&quot;http://whatsmyos.com/&quot;&gt;http://whatsmyos.com&lt;/a&gt; to help. (ex: Windows 10, MacOS 10.12.16, Ubuntu 16.04)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Mention your &lt;strong&gt;OpenBazar software version&lt;/strong&gt;. This is indicated in the top right corner of the About screen, which can be launched from the navigation menu in the upper right. (ex: client 2.2.4, server 0.12.3)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Share any &lt;strong&gt;specific error messages and screenshots&lt;/strong&gt; you have previously recorded.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Describe any &lt;strong&gt;context or steps leading up to the error&lt;/strong&gt;. A bug may be unique to the original environment it was created in or it may only be triggered by following steps in a specific order. Developers will use this information to attempt to reproduce the error in a controlled environment. Only once the problem can be demonstrated can developers begin to isolate and repair the root cause.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Clearly indicate &lt;strong&gt;what you expected to happen&lt;/strong&gt;. The error you’re experiencing may not be completely obvious to the developer that is reading your report. You may consider including your reason for wanting the problem to be solved the way you described. A developer may value this insight for improving the user experience of the feature.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Reporting a bug is as simple as opening an issue in the appropriate Github repository, which will most often be &lt;a href=&quot;https://github.com/OpenBazaar/openbazaar-go&quot;&gt;openbazaar-go&lt;/a&gt; or &lt;a href=&quot;https://github.com/OpenBazaar/openbazaar-desktop&quot;&gt;openbazaar-desktop&lt;/a&gt;. OB1 separates the repositories for the frontend user interface and the backend server. If you are unsure which repository a report should be put into, take a good guess and we’ll fix it if necessary. Once you have the information prepared, you can visit the Issues tab and click “New Issue” and paste the prepared information.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;Submitting an OpenBazaar Issue on Github.png&quot; alt=&quot;Submitting an OpenBazaar Issue on Github&quot; title=&quot;Submitting an OpenBazaar Issue on Github&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;What if you don’t have a Github account to report the issue? That’s okay. 
-If you are unfamiliar with Github then you may also file a report using &lt;a href=&quot;https://openbazaar.zendesk.com/hc/en-us/requests/new&quot;&gt;Zendesk&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Posting your report in Github is likely to get a faster solution, but you can also share your issue in any of the other official channels mentioned to begin a discussion. Who knows, you might even find another user is having the same issue later and puts both of your reports into Github. Our community IS pretty helpful!&lt;/p&gt;
-
-&lt;h3 id=&quot;following-up-and-fixing&quot;&gt;Following Up and Fixing&lt;/h3&gt;
-
-&lt;p&gt;There may be some additional questions the team has. Please be sure to check back on your report from time to time to see if progress on your fix is being made and if more information about your problem may be needed.&lt;/p&gt;
-
-&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;Reporting an issue to the OpenBazar community can be a bit of work but you can be an active part of finding or even building the solution. Since OpenBazaar is open source software, this is a huge part of how the marketplace grows. By taking the time to share your experiences with OB1 and other community developers you can contribute to making this software better for everyone—and maybe make some friends along the way.&lt;/p&gt;
-
-&lt;p&gt;If you haven’t already, please make sure you come join us on &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt;, our most active community forum, and say hello!&lt;/p&gt;</content><author><name></name></author><summary type="html">By Mike Greenberg, OpenBazaar Backend Developer</summary></entry></feed>
+&lt;p&gt;OpenBazaar is not compelling &lt;em&gt;just&lt;/em&gt; because it’s decentralized. OpenBazaar is excellent because the decentralization of the network gives users incredible freedom, privacy and autonomy in how they buy and sell online.&lt;/p&gt;</content><author><name></name></author><summary type="html">OpenBazaar is a decentralized marketplace. What does decentralized mean, and why does it matter? This article will explain the concept of decentralization without any technical jargon.</summary></entry></feed>
