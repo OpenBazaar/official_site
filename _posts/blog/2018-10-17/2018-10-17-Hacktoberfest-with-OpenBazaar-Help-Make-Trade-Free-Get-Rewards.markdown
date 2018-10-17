@@ -7,17 +7,17 @@ social_description: 'Hacktoberfest with OpenBazaar: Help Make Trade Free, Get Re
 social_image: Hacktoberfest_2018_poster1_1600x850.png
 ---
 
-[OB1](https://ob1.io) believes open source is important for sharing knowledge and capability with everyone equally. An important way this works is by sharing the problem (and solution) with as many individuals as possible and enabling us all to collectively bootstrap new ideas and possibilities seemingly out of nothing. There are a ton of projects out there which are trying to improve the world which could use your help. Which is why we're excited about participating in [Hacktoberfest](https://hacktoberfest.digitalocean.com/details) this year.
+We believe open source is important, which is why we’re excited about participating in  [Hacktoberfest](https://hacktoberfest.digitalocean.com/details) this year.
 
 ![Hacktoberfest with OpenBazaar: Help Make Trade Free, Get Rewards](Hacktoberfest_2018_poster1_1600x850.png "Hacktoberfest with OpenBazaar: Help Make Trade Free, Get Rewards")
 
-For the entire month of October people around the world are working to motivate each other to contribute to open source projects. **Until October 31st** you can [register your Github account](https://hacktoberfest.digitalocean.com/details) and commit at least five pull requests to any public project hosted on Github to earn your own limited edition tee commemorating your participation.
+During the month of October people around the world are working to motivate each other to contribute to open source projects. You can [register your Github account](https://hacktoberfest.digitalocean.com/details) and commit at least five pull requests to any public project hosted on Github to earn your own limited edition tee commemorating your participation. **Hacktoberfest ends October 31st**.
 
-OB1 has [curated a few issues](https://github.com/OpenBazaar/openbazaar-go/issues?g=is%3Aissue_is%3Aopen+label%3Ahacktoberfest) for OpenBazaar and will be adding more throughout the month. This is an ideal time for new developers to get involved in OpenBazaar and become familiar with the codebase. But don't wait long, some of them have been snatched up already.
+OB1 has [curated a few issues](https://github.com/OpenBazaar/openbazaar-go/issues?g=is%3Aissue_is%3Aopen+label%3Ahacktoberfest) for OpenBazaar and will be adding more throughout the month. This is an ideal time for new developers to get involved in OpenBazaar and become familiar with the codebase. Don't wait long! Some of these issues have been snatched up already, and we're already more than halfway through October.
 
 **There are other ways to contribute to OpenBazaar, including:**
 
-- Offering [translations](https://www.transifex.com/ob1/openbazaar/) for one of our 63 supported languages
+- Offering [translations](https://www.transifex.com/ob1/openbazaar/) for one of our 63 supported languages or translate a new language
 - Assisting with code documentation
 - Being [a brand ambassador at a local meetup](https://openbazaar.org/meet). 
 
