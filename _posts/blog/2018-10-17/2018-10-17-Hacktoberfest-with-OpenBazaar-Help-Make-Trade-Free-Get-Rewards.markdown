@@ -13,7 +13,9 @@ We believe open source is important, which is why we’re excited about particip
 
 During the month of October people around the world are working to motivate each other to contribute to open source projects. You can [register your Github account](https://hacktoberfest.digitalocean.com/details) and commit at least five pull requests to any public project hosted on Github to earn your own limited edition tee commemorating your participation. **Hacktoberfest ends October 31st**.
 
+
 OB1 has [curated a few issues](https://github.com/OpenBazaar/openbazaar-go/issues?g=is%3Aissue_is%3Aopen+label%3Ahacktoberfest) for OpenBazaar and will be adding more throughout the month. This is an ideal time for new developers to get involved in OpenBazaar and become familiar with the codebase. Don't wait long! Some of these issues have been snatched up already, and we're already more than halfway through October.
+
 
 **There are other ways to contribute to OpenBazaar, including:**
 
