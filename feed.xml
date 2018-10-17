@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-10-16T15:29:41+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">OpenBazaar Developer Call - October 11, 2018</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-October-11-2018/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - October 11, 2018" /><published>2018-10-15T14:30:00+00:00</published><updated>2018-10-15T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-October-11-2018</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-October-11-2018/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on October 11, 2018.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-10-17T19:18:45+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">Hacktoberfest with OpenBazaar: Help Make Trade Free, Get Rewards</title><link href="https://openbazaar.org/blog/Hacktoberfest-with-OpenBazaar-Help-Make-Trade-Free-Get-Rewards/" rel="alternate" type="text/html" title="&lt;span class='post-title-extra'&gt;Hacktoberfest&lt;/span&gt; with OpenBazaar: &lt;span class='post-title-extra'&gt;Help Make Trade Free,&lt;/span&gt; Get Rewards" /><published>2018-10-17T14:30:00+00:00</published><updated>2018-10-17T14:30:00+00:00</updated><id>https://openbazaar.org/blog/Hacktoberfest-with-OpenBazaar-Help-Make-Trade-Free-Get-Rewards</id><content type="html" xml:base="https://openbazaar.org/blog/Hacktoberfest-with-OpenBazaar-Help-Make-Trade-Free-Get-Rewards/">&lt;p&gt;We believe collaboration and individual empowerment are important which is why we love digital currencies like Bitcoin, and why we built OpenBazaar as an open source marketplace. We support events that bring together people from all around the world to encourage them to create and we’re excited about participating in &lt;a href=&quot;https://hacktoberfest.digitalocean.com/details&quot;&gt;Hacktoberfest&lt;/a&gt; this year.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;Hacktoberfest_2018_poster1_1600x850.png&quot; alt=&quot;Hacktoberfest with OpenBazaar: Help Make Trade Free, Get Rewards&quot; title=&quot;Hacktoberfest with OpenBazaar: Help Make Trade Free, Get Rewards&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;During the month of October people around the world are working to motivate each other to contribute to open source projects. You can &lt;a href=&quot;https://hacktoberfest.digitalocean.com/details&quot;&gt;register your Github account&lt;/a&gt; and commit at least five pull requests to any public project hosted on Github to earn your own limited edition tee commemorating your participation. &lt;strong&gt;Hacktoberfest ends October 31st&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;OB1 has &lt;a href=&quot;https://github.com/OpenBazaar/openbazaar-go/issues?g=is%3Aissue_is%3Aopen+label%3Ahacktoberfest&quot;&gt;curated a few issues&lt;/a&gt; for OpenBazaar and will be adding more throughout the month. This is an ideal time for new developers to get involved in OpenBazaar and become familiar with the codebase. Don’t wait long! Some of these issues have been snatched up already, and we’re already more than halfway through October.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;There are other ways to contribute to OpenBazaar, including:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Offering &lt;a href=&quot;https://www.transifex.com/ob1/openbazaar/&quot;&gt;translations&lt;/a&gt; for one of our 63 supported languages or translate a new language&lt;/li&gt;
+  &lt;li&gt;Assisting with code documentation&lt;/li&gt;
+  &lt;li&gt;Being &lt;a href=&quot;https://openbazaar.org/meet&quot;&gt;a brand ambassador at a local meetup&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;While you may not get a Hacktoberfest tee for activities outside of Github, OB1 will hook you up with other sweet OpenBazaar gear including an &lt;a href=&quot;https://openbazaar.com/store/QmcUDmZK8PsPYWw5FRHKNZFjszm2K6e68BQSTpnJYUsML7/openbazaar-t-shirt&quot;&gt;OpenBazaar tshirt&lt;/a&gt; for completed work. To find out more, follow the above links to join the project you are interested in and mention &lt;strong&gt;Hacktoberfest swag&lt;/strong&gt; when you contact us. The easiest way to connect is to join us on &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt; and let us know who you are and what you’re up to.&lt;/p&gt;
+
+&lt;p&gt;We’re excited to meet you. Let’s get started!&lt;/p&gt;</content><author><name></name></author><summary type="html">We believe collaboration and individual empowerment are important which is why we love digital currencies like Bitcoin, and why we built OpenBazaar as an open source marketplace. We support events that bring together people from all around the world to encourage them to create and we’re excited about participating in Hacktoberfest this year.</summary></entry><entry><title type="html">OpenBazaar Developer Call - October 11, 2018</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-October-11-2018/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - October 11, 2018" /><published>2018-10-15T14:30:00+00:00</published><updated>2018-10-15T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-October-11-2018</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-October-11-2018/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on October 11, 2018.&lt;/p&gt;
 
 &lt;p&gt;Want to join the call in real time? Sign up at &lt;a href=&quot;https://openbazaar.org/developers&quot;&gt;openbazaar.org/developers&lt;/a&gt;&lt;/p&gt;
 
@@ -713,104 +731,4 @@ items.&lt;/p&gt;
 
 &lt;p&gt;Taking a bit of extra time to plan and set up your store with care is important to drive its success. Achieving discoverability and browse-ability gets buyers in and keeps them around. Relevant tags added to your listings will increase discovery in search. Providing proper categories helps browsing users see what you offer. Finally, being familiar with your buyers’ experience will inform the best listing setup for your store.&lt;/p&gt;
 
-&lt;p&gt;This is the first in a series focused on getting the most out of your OpenBazaar store experience. Check back soon for the next installments!&lt;/p&gt;</content><author><name></name></author><summary type="html">by Jason Hotelling, OpenBazaar Front End Developer</summary></entry><entry><title type="html">The Beginner’s Guide to Decentralization</title><link href="https://openbazaar.org/blog/the-beginners-guide-to-decentralization/" rel="alternate" type="text/html" title="The Beginner's Guide to &lt;span class='post-title-extra'&gt;Decentralization&lt;/span&gt;" /><published>2018-09-10T03:30:00+00:00</published><updated>2018-09-10T03:30:00+00:00</updated><id>https://openbazaar.org/blog/the-beginners-guide-to-decentralization</id><content type="html" xml:base="https://openbazaar.org/blog/the-beginners-guide-to-decentralization/">&lt;p&gt;OpenBazaar is a decentralized marketplace. What does &lt;em&gt;decentralized&lt;/em&gt; mean, and why does it matter? This article will explain the concept of decentralization without any technical jargon.&lt;/p&gt;
-
-&lt;p&gt;Decentralization is a way to describe how a system works. These systems can be nearly anything:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A political system, such as a government&lt;/li&gt;
-  &lt;li&gt;A technical system, such as a computer network&lt;/li&gt;
-  &lt;li&gt;A corporate system, such as the structure of a company&lt;/li&gt;
-  &lt;li&gt;A legal system, such as the laws of a particular nation&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Here’s a quick definition: &lt;em&gt;decentralized&lt;/em&gt; means that no single person or organization has control over everyone else in a given system.&lt;/p&gt;
-
-&lt;p&gt;To better understand the concept I’ll give you some examples, but first, you need to understand decentralization’s opposite: &lt;em&gt;centralization&lt;/em&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;defining-centralized-systems&quot;&gt;Defining Centralized Systems&lt;/h3&gt;
-
-&lt;p&gt;If a system is “centralized,” that means one person or organization has control over everyone else. This means that the person or organization in control is able to make decisions on behalf of other people within the system, whether they like it or not. Let’s look at two examples.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;A centralized political system&lt;/strong&gt; is one where one person or organization has control over everyone else and can make decisions for them. Monarchies and dictatorships are examples of highly centralized political systems where the leader of the nation is in control.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;A centralized marketplace&lt;/strong&gt; is one where the owner of the marketplace has control over all their users and can make decisions for them. Amazon, eBay, Etsy, Alibaba and all the popular ecommerce platforms are centralized. These companies get to make and enforce the rules for all the users on their platform, such as taking a cut of every transaction, monitoring all their data, and censoring trade whenever they choose.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Centralized systems are &lt;em&gt;permissioned&lt;/em&gt;. You need the permission of the person or organization in control in order to participate. In a country with a highly centralized political system, permission must be granted for things like printing newspapers or even traveling. If you try to use a centralized payment system such as PayPal you need their permission. Most social media platforms are centralized and require the permission of the company to use them. Permission can be granted or revoked at any time.&lt;/p&gt;
-
-&lt;p&gt;This image shows what a centralized system looks like. The participants in the system are on the outside, and there is one person or organization in the middle that everyone else is dependent upon.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;Centralized-network.png&quot; alt=&quot;Visual model of a centralized network&quot; title=&quot;Visual model of a centralized network&quot; /&gt;
-&lt;em&gt;Centralized network with a central point of control&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Centralization has its benefits. It removes ambiguity about who is in control and allows for swift action to remedy problems. For computer networks, it’s much easier to build and maintain centralized systems than decentralized ones. Having a strong leader controlling a company can help keep everyone focused.&lt;/p&gt;
-
-&lt;p&gt;Centralization also has drawbacks. There may not be ambiguity about who is in control, but that doesn’t mean those in control are actually competent, or moral. Centralized systems are easier to build technically, but they are also more fragile, since they have a single point of failure (if the person / organization in charge is gone, so is the system). Being permissioned means that those in power might exclude people they don’t like or agree with.&lt;/p&gt;
-
-&lt;p&gt;Centralized systems can change based on who is in control. Even if the system is run well by competent and moral people today, it could be run poorly by different people tomorrow.&lt;/p&gt;
-
-&lt;p&gt;There is an alternative to having systems so tightly controlled: Decentralization.&lt;/p&gt;
-
-&lt;h3 id=&quot;what-are-decentralized-systems&quot;&gt;What Are Decentralized Systems?&lt;/h3&gt;
-
-&lt;p&gt;As we’ve said, &lt;em&gt;decentralized&lt;/em&gt; means that there is no single person or organization that has control over everyone else in a given system.&lt;/p&gt;
-
-&lt;p&gt;Participants in decentralized systems have the ability to make decisions themselves and aren’t forced to rely on anyone who controls the system. Let’s look at two examples.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;A decentralized political system&lt;/strong&gt; is one where no person or organization has the ability to govern everyone else. A completely decentralized political system would be an anarchy (absence of a governing structure). Modern democratic systems have some elements of decentralization, where participants in the system do have some control over the decision-making process and there are multiple organizations which exist to ensure power doesn’t become centralized within one portion of the government.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;A decentralized computer network&lt;/strong&gt; is a system where the computers talk directly to each other and there is no central point of control. Most online platforms today work by having a lot of computers called servers that their users are forced to connect to if they want to use the service. They are centralized and completely control the system. A decentralized computer network has no central servers that control access to the network: each users’ computer connects directly to other users’ computers, making a network of computers that no one controls. OpenBazaar is such a network, as are networks like Bitcoin and Bittorrent.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;This image shows what a decentralized system looks like. The participants in the system are equal and connect with each other instead of depending on a central party.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;Decentralized-network.png&quot; alt=&quot;Visual model of a decentralized network&quot; title=&quot;Visual model of a decentralized network&quot; /&gt;
-&lt;em&gt;Decentralized network with no center&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Decentralized systems are &lt;em&gt;permissionless&lt;/em&gt;. Since no one controls the system, there’s no one who can stop people from joining it nor force them to leave. You can join or leave the OpenBazaar or Bitcoin networks anytime you want to.&lt;/p&gt;
-
-&lt;p&gt;Decentralization has its benefits. There are no gatekeepers preventing you from doing what you want to do. Decentralized systems offer more freedom than centralized systems. There is no single point of failure which makes decentralized systems more resilient. Since there’s no one in charge there is no one that everyone depends on.&lt;/p&gt;
-
-&lt;p&gt;Decentralization also has drawbacks. Designing systems that have no one in control is difficult to do, and if not done properly will mean the system won’t work. Being permissionless does prevent gatekeepers from excluding people, but it’s also difficult (or even impossible) to remove bad actors from the system. Decentralized networks also tend to be more difficult to use than their centralized counterparts.&lt;/p&gt;
-
-&lt;h3 id=&quot;the-spectrum-of-decentralization&quot;&gt;The Spectrum of Decentralization&lt;/h3&gt;
-
-&lt;p&gt;Centralization and decentralization aren’t black and white. It’s not one or the other. Most systems have a mix of centralized and decentralized attributes that fall on a spectrum. When I say “centralized systems” I mean systems that have a clear central point of control. When I say “decentralized systems” I mean systems with no clear central point of control. In practice, there are gray areas.&lt;/p&gt;
-
-&lt;p&gt;For example, a monarchy is a highly centralized form of governance.  However, there are historical examples of monarchs’ power being constrained by other groups, such as aristocracy or religious groups, so even the most centralized form of governance imaginable isn’t fully centralized in practice.&lt;/p&gt;
-
-&lt;p&gt;The same is true with decentralized systems. One criticism of “flat hierarchies” within companies (an attempt at eliminating management) is that they remain flat in name only, while some people effectively become managers again over time. Or when computers in decentralized networks communicate peer-to-peer for most communications but are forced to connect to a specific server the first time they start up (called a “bootstrap node”). Maintaining perfect decentralization within a given system is nearly impossible.&lt;/p&gt;
-
-&lt;p&gt;It’s also true that the same system can have strong decentralized elements and strong centralized elements at the same time. This can happen in open source software projects. The software itself might be built to communicate in a fully decentralized manner, but the development process itself is completely centralized within a small group or even an individual. There are some companies who offer a platform for users which they fully control and is completely centralized, but their corporate structure itself is decentralized. In these cases, you can’t label the entire system centralized or decentralized, but only certain attributes such as governance or technical architecture.&lt;/p&gt;
-
-&lt;h3 id=&quot;the-importance-of-decentralization-on-openbazaar&quot;&gt;The Importance of Decentralization on OpenBazaar&lt;/h3&gt;
-
-&lt;p&gt;OpenBazaar is unique because of its decentralization, but that alone though isn’t what makes it compelling. What’s important about OpenBazaar being decentralized is &lt;em&gt;what it enables users to do&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;There is no company or organization that runs the OpenBazaar network. It’s a collection of people around the world connecting directly to each other to engage in free trade using cryptocurrencies. This lack of gatekeepers means OpenBazaar is permissionless, has no fees, is private, and has no censorship.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It wouldn’t be possible to have these attributes without being decentralized.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;If a company controlled the OpenBazaar network then…&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;It wouldn’t be &lt;strong&gt;permissionless&lt;/strong&gt;, since they could deny access.&lt;/li&gt;
-  &lt;li&gt;It wouldn’t be &lt;strong&gt;private&lt;/strong&gt;, since they could watch users’ actions on their servers.&lt;/li&gt;
-  &lt;li&gt;It wouldn’t be &lt;strong&gt;free to use&lt;/strong&gt;, since they would own the infrastructure and need to take a cut to pay for it.&lt;/li&gt;
-  &lt;li&gt;It wouldn’t be &lt;strong&gt;censorship-resistant&lt;/strong&gt;, since the company would need to control the network based on business and market pressures.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Centralized&lt;/strong&gt; and &lt;strong&gt;decentralized&lt;/strong&gt; systems exist on a spectrum and each have pros and cons. No current human system is completely one or the other. One thing they share though is that neither structure is an end goal in itself. What’s important is &lt;em&gt;how these structures enable the participation of all involved parties&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;OpenBazaar is not compelling &lt;em&gt;just&lt;/em&gt; because it’s decentralized. OpenBazaar is excellent because the decentralization of the network gives users incredible freedom, privacy and autonomy in how they buy and sell online.&lt;/p&gt;</content><author><name></name></author><summary type="html">OpenBazaar is a decentralized marketplace. What does decentralized mean, and why does it matter? This article will explain the concept of decentralization without any technical jargon.</summary></entry></feed>
+&lt;p&gt;This is the first in a series focused on getting the most out of your OpenBazaar store experience. Check back soon for the next installments!&lt;/p&gt;</content><author><name></name></author><summary type="html">by Jason Hotelling, OpenBazaar Front End Developer</summary></entry></feed>
