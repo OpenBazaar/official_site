@@ -13,7 +13,7 @@ social_image: Hacktoberfest_2018_poster1_1600x850.png
 
 For the entire month of October people around the world are working to motivate each other to contribute to open source projects. **Until October 31st** you can [register your Github account](https://hacktoberfest.digitalocean.com/details) and commit at least five pull requests to any public project hosted on Github to earn your own limited edition tee commemorating your participation.
 
-OB1 has [curated a few issues](https://github.com/OpenBazaar/openbazaar-go/issues?g=is%3Aissue_is%3Aopen+label%3Ahacktoberfest) for OpenBazaar and will be adding more throughout the month. This is an ideal time for new developers to get involved in OpenBazaar and become familiar with the codebase. But don't wait long, some of them have been snatched up already.
+OB1 has [curated a few issues](https://github.com/OpenBazaar/openbazaar-go/issues?q=is%3Aissue+is%3Aopen+label%3Ahacktoberfest) for OpenBazaar and will be adding more throughout the month. This is an ideal time for new developers to get involved in OpenBazaar and become familiar with the codebase. But don't wait long, some of them have been snatched up already.
 
 **There are other ways to contribute to OpenBazaar, including:**
 
