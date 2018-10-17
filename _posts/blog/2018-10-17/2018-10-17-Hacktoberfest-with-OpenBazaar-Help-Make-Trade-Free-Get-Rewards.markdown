@@ -7,7 +7,7 @@ social_description: 'Hacktoberfest with OpenBazaar: Help Make Trade Free, Get Re
 social_image: Hacktoberfest_2018_poster1_1600x850.png
 ---
 
-We believe open source is important, which is why we’re excited about participating in  [Hacktoberfest](https://hacktoberfest.digitalocean.com/details) this year.
+We believe collaboration and individual empowerment are important which is why we love digital currencies like Bitcoin, and why we built OpenBazaar as an open source marketplace. We support events that bring together people from all around the world to encourage them to create and we’re excited about participating in [Hacktoberfest](https://hacktoberfest.digitalocean.com/details) this year.
 
 ![Hacktoberfest with OpenBazaar: Help Make Trade Free, Get Rewards](Hacktoberfest_2018_poster1_1600x850.png "Hacktoberfest with OpenBazaar: Help Make Trade Free, Get Rewards")
 
