@@ -857,6 +857,9 @@
 <loc>https://openbazaar.org/bitcoin/</loc>
 </url>
 <url>
+<loc>https://openbazaar.org/buyer-survey/</loc>
+</url>
+<url>
 <loc>https://openbazaar.org/contributors/</loc>
 </url>
 <url>
@@ -903,6 +906,9 @@
 </url>
 <url>
 <loc>https://openbazaar.org/search/</loc>
+</url>
+<url>
+<loc>https://openbazaar.org/seller-survey/</loc>
 </url>
 <url>
 <loc>https://openbazaar.org/slack/</loc>
