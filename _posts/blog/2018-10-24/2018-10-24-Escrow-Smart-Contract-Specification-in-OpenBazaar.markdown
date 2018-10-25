@@ -33,7 +33,7 @@ The seller can also unilaterally release funds from escrow after a previously ag
 
 Buyers have the option of _not_ using a moderator when making an OpenBazaar trade. While this isn’t recommended, it may be an acceptable risk for the buyer if the buyer trusts the seller. Direct or unmoderated payments come in two forms: online payments and offline payments.
 
-**Online direct payments** occur when the buyer knows the seller is online. For online payments, the buyer simply sends the funds directly to the sellers wallet after requesting an address to pay to. These are simple, classic transfers of value from one account to another.
+**Online direct payments** occur when the buyer knows the seller is online. For online payments, the buyer simply sends the funds directly to the seller's wallet after requesting an address to pay to. These are simple, classic transfers of value from one account to another.
 
 **Offline payments** occur when the buyer sees that the seller is offline and is _uncertain_ whether the seller will ever come back online. In this case the buyer sends the funds to a 1-of-2 multisig address with one key held by the buyer and the other held by the seller. If the seller comes back online, they can accept the funds. If the seller doesn’t come back online, the buyer can reclaim the funds.
 
@@ -57,7 +57,7 @@ Buyers initiate a trade by creating/storing a `Transaction` struct in the Escrow
 
 While the transaction is in the `FUNDED` state, the escrowed funds can be released only if:
 
-1. Two of the three participants (buyer, seller, and moderator) agree on how the escrowed funds are to be distributed, or 
+1. Two of the three participants (buyer, seller, and moderator) agree on how the escrowed funds are to be distributed.
 2. An amount of time (`timeoutHourse`) has passed since the last time the buyer added funds to escrow.
    
 The reasoning behind (2) is that it is very common for buyers to not release funds after they’ve received their goods (this is due more to buyer laziness than malice). In that event, we want to make it easy for the seller to claim the escrowed funds without having to coordinate with a moderator.
@@ -92,7 +92,7 @@ For this reason, we consider the DoS possibility caused by use of push payments 
 
 #### Quality assurance
 
-The code for the escrow smart contract can be found in Github here, and we invite the community to examine the code and post issues or suggestions. Furthermore, we have written 37 tests for the contract to achieve >90% code coverage.
+The code for the escrow smart contract can be found in Github [here](https://github.com/OpenBazaar/smart-contracts/blob/master/contracts/escrow/Escrow_v1_0.sol). We invite the community to examine the code and post issues or suggestions. Furthermore, we have written 37 tests for the contract to achieve >90% code coverage.
 
 #### Audit
 
