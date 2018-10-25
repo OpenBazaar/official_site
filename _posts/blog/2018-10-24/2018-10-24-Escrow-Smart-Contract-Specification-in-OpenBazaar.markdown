@@ -6,6 +6,8 @@ social_title: 'Escrow Smart Contract Specification in OpenBazaar'
 social_description: 'Escrow Smart Contract Specification in OpenBazaar'
 ---
 
+_By Austin Williams, OpenBazaar Researcher_
+
 The integration of Ethereum into OpenBazaar represents one of the most challenging and rewarding tasks we’ve done for the project so far. We are so excited to bring our vision of seeing cryptocurrency and tokens used for real-world commerce to the Ethereum community!
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Welcome to the family! Look forward to seeing what you and openbazaar come up with</p>&mdash; Vitalik Non-giver of Ether (@VitalikButerin) <a href="https://twitter.com/VitalikButerin/status/987001278764118018?ref_src=twsrc%5Etfw">April 19, 2018</a></blockquote>
