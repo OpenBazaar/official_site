@@ -98,7 +98,7 @@ The code for the escrow smart contract can be found in Github [here](https://git
 
 #### Audit
 
-The escrow smart contract was audited by [OpenZeppelin](https://openzeppelin.org/), with all issues addressed.
+We’ll be working with [OpenZeppelin](https://openzeppelin.org/) to have the contracts audited and hope to have the audit process completed before the end of the year.
 
 ### Special thanks
 
