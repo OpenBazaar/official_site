@@ -4,19 +4,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="google-site-verification" content="zI3sAn6GTCII6X2rmUMR1uHZG5crfyuVmzRoaqXmDq4" /><!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>OpenBazaar 2.1 Released - Bitcoin Cash and Zcash Integrated | OpenBazaar</title>
+<title>Escrow Smart Contract Specification in OpenBazaar | OpenBazaar</title>
 <meta name="generator" content="Jekyll v3.8.4" />
-<meta property="og:title" content="OpenBazaar 2.1 Released - Bitcoin Cash and Zcash Integrated" />
+<meta property="og:title" content="Escrow Smart Contract Specification in OpenBazaar" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Today we are proud to announce Bitcoin Cash and Zcash (Beta) integration in OpenBazaar! With this update users will have the option to create new nodes for processing Bitcoin Cash and Zcash (Beta) payments, respectively." />
-<meta property="og:description" content="Today we are proud to announce Bitcoin Cash and Zcash (Beta) integration in OpenBazaar! With this update users will have the option to create new nodes for processing Bitcoin Cash and Zcash (Beta) payments, respectively." />
-<link rel="canonical" href="https://openbazaar.org/blog/openbazaar-2-1-released-bitcoin-cash-and-zcash-integrated/" />
-<meta property="og:url" content="https://openbazaar.org/blog/openbazaar-2-1-released-bitcoin-cash-and-zcash-integrated/" />
+<meta name="description" content="By Austin Williams, OpenBazaar Researcher" />
+<meta property="og:description" content="By Austin Williams, OpenBazaar Researcher" />
+<link rel="canonical" href="https://openbazaar.org/blog/Escrow-Smart-Contract-Specification-in-OpenBazaar/" />
+<meta property="og:url" content="https://openbazaar.org/blog/Escrow-Smart-Contract-Specification-in-OpenBazaar/" />
 <meta property="og:site_name" content="OpenBazaar" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2018-01-30T03:30:00+00:00" />
+<meta property="article:published_time" content="2018-10-24T14:30:00+00:00" />
 <script type="application/ld+json">
-{"description":"Today we are proud to announce Bitcoin Cash and Zcash (Beta) integration in OpenBazaar! With this update users will have the option to create new nodes for processing Bitcoin Cash and Zcash (Beta) payments, respectively.","@type":"BlogPosting","url":"https://openbazaar.org/blog/openbazaar-2-1-released-bitcoin-cash-and-zcash-integrated/","headline":"OpenBazaar 2.1 Released - Bitcoin Cash and Zcash Integrated","dateModified":"2018-01-30T03:30:00+00:00","datePublished":"2018-01-30T03:30:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://openbazaar.org/blog/openbazaar-2-1-released-bitcoin-cash-and-zcash-integrated/"},"@context":"http://schema.org"}</script>
+{"description":"By Austin Williams, OpenBazaar Researcher","@type":"BlogPosting","url":"https://openbazaar.org/blog/Escrow-Smart-Contract-Specification-in-OpenBazaar/","headline":"Escrow Smart Contract Specification in OpenBazaar","dateModified":"2018-10-24T14:30:00+00:00","datePublished":"2018-10-24T14:30:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://openbazaar.org/blog/Escrow-Smart-Contract-Specification-in-OpenBazaar/"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="shortcut icon" type="image/png" href="/favicon.png">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
@@ -24,8 +24,8 @@
   <link rel="stylesheet" href="/assets/main.css">
   
     <meta property="og:image" content="https://openbazaar.org/blog/">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
+    <meta property="og:title" content="Escrow Smart Contract Specification in OpenBazaar">
+    <meta property="og:description" content="Escrow Smart Contract Specification in OpenBazaar">
   <link type="application/atom+xml" rel="alternate" href="https://openbazaar.org/feed.xml" title="OpenBazaar" /><script>
   (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -109,9 +109,9 @@
             
                 <div class="col"></div>
                 <div class="col-8">
-                    <a href="/blog/openbazaar-2-1-released-bitcoin-cash-and-zcash-integrated/">
+                    <a href="/blog/Escrow-Smart-Contract-Specification-in-OpenBazaar/">
                         <h3 class="post-title">
-                            OpenBazaar 2.1 Released - <span class='post-title-extra-alternative'>Bitcoin Cash and Zcash Integrated</span>
+                            <span class='post-title-extra'>Escrow Smart Contract Specification</span> in OpenBazaar
                         </h3>
                     </a>
                 </div>
@@ -126,70 +126,118 @@
                 </div>
             
             <div class="col-12 post-date text-left mb-3">
-                Jan 30, 2018
+                Oct 24, 2018
             </div>
             
                 <div class="col-12 text-left post-container">
-                    <p>Today we are proud to announce Bitcoin Cash and Zcash (Beta) integration in OpenBazaar! With this update users will have the option to create new nodes for processing Bitcoin Cash and Zcash (Beta) payments, respectively.</p>
+                    <p><em>By Austin Williams, OpenBazaar Researcher</em></p>
 
-<p>OpenBazaar already allows buyers to fund their wallets with a variety of cryptocurrencies through <a href="https://shapeshift.io">Shapeshift</a>, but before this release all transactions were still resolved with Bitcoin. With<a href="https://www.openbazaar.org/blog/openbazaar-bitcoin-fees/"> the rise in Bitcoin network fees in 2017</a>, it became clear that OpenBazaar users needed support for cryptocurrencies with fees that are more suited for small to medium sized transactions ASAP.</p>
+<p>The integration of Ethereum into OpenBazaar represents one of the most challenging and rewarding tasks we’ve done for the project so far. We are so excited to bring our vision of seeing cryptocurrency and tokens used for real-world commerce to the Ethereum community!</p>
 
-<p>This release is the first step towards allowing more options for cryptocurrencies in OpenBazaar. It includes native support for nodes using one cryptocurrency at a time, Bitcoin, Bitcoin Cash, or ZCash.</p>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Welcome to the family! Look forward to seeing what you and openbazaar come up with</p>&mdash; Vitalik Non-giver of Ether (@VitalikButerin) <a href="https://twitter.com/VitalikButerin/status/987001278764118018?ref_src=twsrc%5Etfw">April 19, 2018</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<p>More currencies and multiple currency support per node are on our roadmap for future releases.</p>
+<h3 id="introduction">Introduction</h3>
 
-<h2 id="openbazaar-21-release-notes">OpenBazaar 2.1  Release Notes</h2>
+<p><a href="https://openbazaar.org">OpenBazaar</a> facilitates trades between arbitrary third parties on the internet. Currently, only UTXO-based cryptocurrencies can be used as a medium of exchange on OpenBazaar. The escrow contract is intended to be used as a way to shoehorn Ethereum functionality into OpenBazaar’s existing framework so that users can trade using ETH and ERC20 tokens as their medium of exchange.</p>
 
-<p>This is a major milestone release, which incorporates support for Bitcoin Cash and ZCash into the OpenBazaar platform.</p>
+<h3 id="how-openbazaar-trades-currently-work-in-utxo-land">How OpenBazaar Trades Currently Work (in UTXO land)</h3>
 
-<p><strong>New Features</strong></p>
+<h4 id="moderated-payments">Moderated Payments</h4>
+
+<p>When a buyer and seller have agreed on a product and a price, the buyer sends their funds to an escrow address, which is a 2-of-3 multisig address with one key controlled by the buyer, one key controlled by the seller, and one key controlled by a <a href="https://openbazaar.org/blog/how-to-choose-a-good-moderator-on-openbazaar">moderator</a> that has been agreed upon by both the buyer and the seller.</p>
+
+<p>On the “happy path”, the seller delivers the goods, then the buyer releases the funds to the seller (with the buyer and seller signing the payout transaction from the escrow address).</p>
+
+<p>In the event that the seller does not deliver the goods as promised, the buyer pleads their case to the moderator, and the buyer &amp; moderator can send the funds from escrow back to the buyer.</p>
+
+<p>In the (very common) case where the buyer receives their goods but doesn’t release the funds to the seller, the seller presents their case to the moderator, and the seller &amp; moderator sign the funds from escrow to the seller.</p>
+
+<p>The seller can also unilaterally release funds from escrow after a previously agreed upon amount of time has passed. This allows the seller to release the funds from escrow without the moderator in the event that the buyer disappears. With UTXO-based coins, this is achieved by requiring that the buyer sign an nLockTime transaction releasing funds to the seller, and then passing that transaction to the seller (off-chain) before the seller delivers the product or service.</p>
+
+<h4 id="direct-payments">Direct Payments</h4>
+
+<p>Buyers have the option of <em>not</em> using a moderator when making an OpenBazaar trade. While this isn’t recommended, it may be an acceptable risk for the buyer if the buyer trusts the seller. Direct or unmoderated payments come in two forms: online payments and offline payments.</p>
+
+<p><strong>Online direct payments</strong> occur when the buyer knows the seller is online. For online payments, the buyer simply sends the funds directly to the seller’s wallet after requesting an address to pay to. These are simple, classic transfers of value from one account to another.</p>
+
+<p><strong>Offline payments</strong> occur when the buyer sees that the seller is offline and is <em>uncertain</em> whether the seller will ever come back online. In this case the buyer sends the funds to a 1-of-2 multisig address with one key held by the buyer and the other held by the seller. If the seller comes back online, they can accept the funds. If the seller doesn’t come back online, the buyer can reclaim the funds.</p>
+
+<p><strong>Limitations Imposed by OpenBazaar’s Wallet Interface</strong></p>
+
+<p>OpenBazaar interacts with all supported coins through its <a href="https://github.com/OpenBazaar/wallet-interface/blob/master/wallet.go#L77">wallet interface</a>. This means that OpenBazaar’s Ethereum smart contracts must be designed in such a way as to be compatible with that interface. OpenBazaar is a live/launched product, so making big changes to the wallet interface in order to support Ethereum is non-trivial. Instead, we’ve decided to keep the wallet interface fixed (for now), and design the smart contract to be compatible with it.</p>
+
+<h3 id="intended-use-of-the-escrow-contract">Intended Use of the Escrow contract</h3>
+
+<p>The Escrow contract will store the escrowed funds and state information for <em>every</em> OpenBazaar trade that is using Ethereum (or ERC20 tokens) as the medium of exchange.</p>
+
+<p>We could have, instead, opted to deploy a new escrow contract for each Ethereum-based trade — thereby siloing escrowed funds from each trade in their own smart contract. However, we think the gas requirements for doing so are cost prohibitive, and we fear that would introduce too much friction into Ethereum-based trades.</p>
+
+<p>OpenBazaar trades that use ETH/ERC20 as the medium of exchange are intended to follow the same protocol as those that use a UTXO-based coin as the medium of exchange — and the escrow smart contract is intended to facilitate that.</p>
+
+<h4 id="funding-the-trade">Funding the Trade</h4>
+
+<p>Buyers initiate a trade by creating/storing a <code class="highlighter-rouge">Transaction</code> struct in the Escrow contract and (simultaneously) funding the transaction by sending ETH (or ERC20 tokens) to the Escrow contract. At this point the transaction is in the <code class="highlighter-rouge">FUNDED</code> state. While in the <code class="highlighter-rouge">FUNDED</code> state, the buyer may add more ETH (or ERC20 tokens) to escrow if necessary.</p>
+
+<h4 id="releasing-funds-from-escrow">Releasing Funds from Escrow</h4>
+
+<p>While the transaction is in the <code class="highlighter-rouge">FUNDED</code> state, the escrowed funds can be released only if:</p>
+
+<ol>
+  <li>Two of the three participants (buyer, seller, and moderator) agree on how the escrowed funds are to be distributed.</li>
+  <li>An amount of time (<code class="highlighter-rouge">timeoutHourse</code>) has passed since the last time the buyer added funds to escrow.</li>
+</ol>
+
+<p>The reasoning behind (2) is that it is very common for buyers to not release funds after they’ve received their goods (this is due more to buyer laziness than malice). In that event, we want to make it easy for the seller to claim the escrowed funds without having to coordinate with a moderator.</p>
+
+<p>Funds released from escrow can be split up and sent to various addresses. However, the receiving addresses <em>must be</em> the addresses of the trade’s buyer, seller, or moderator. To reiterate, funds cannot be sent to an address that is not affiliated with the trade in question, but the escrowed funds can be divided up among the participants in any way — so long as 2-of-3 of the parties agree.</p>
+
+<p>Upon release of funds from escrow, the trade is put into the <code class="highlighter-rouge">RELEASED</code> state. Once in the <code class="highlighter-rouge">RELEASED</code> state, trades can no longer be altered. All participants who received some of the escrowed funds are noted in the trade’s Transaction struct (via the <code class="highlighter-rouge">beneficiaries</code> mapping).</p>
+
+<p>(The <code class="highlighter-rouge">beneficiaries</code> information will be used later, by other contracts, to determine whether or not a given trade was disputed, refunded, etc.).</p>
+
+<h4 id="offline-direct-payments">Offline Direct Payments</h4>
+
+<p>The escrow contract can mirror the behavior of UTXO-based offline payments by calling <code class="highlighter-rouge">addTransaction</code> (or <code class="highlighter-rouge">addTokenTransaction</code> if it is an ERC20 transaction), setting the <code class="highlighter-rouge">threshold</code> value to 1, and setting the moderator address to a known, non-zero burn address. The effect is the equivalent of a 1-of-2 multisig address where the buyer holds one key and the seller holds the other.</p>
+
+<h3 id="known-issues--misc">Known Issues / Misc</h3>
+
+<h4 id="moderator-selection">Moderator selection</h4>
+
+<p>It is assumed that the moderator is <em>trusted</em> by both the buyer and the seller before the trade begins. The obvious threat of collusion between a buyer and moderator — or seller and moderator — is beyond the scope of this contract.</p>
+
+<h4 id="push-vs-pull">Push vs pull</h4>
+
+<p>The <code class="highlighter-rouge">transferFunds</code> function uses push payments (rather than the pull model) due to limitations imposed by OpenBazaar’s wallet interface. Hence any of the beneficiaries of a payout from escrow can cause the payout to fail (for example, by putting a <code class="highlighter-rouge">revert()</code> in their fallback function).</p>
+
+<p>Game theoretically speaking, such a DoS attack is irrational for any of the participants capable of causing such an issue, because the honest parties can always benefit by removing the offending party as a beneficiary and taking her share of the payout.</p>
+
+<p>For example, suppose the three parties agreed that the moderator would received 5% of the funds, and that the buyer and seller would split the remaining funds. The seller, being unhappy with the result, could cause the payout to fail until she could negotiate a more favorable agreement. However, the buyer &amp; moderator — upon seeing the seller’s misbehavior — could simply agree to remove the seller as a beneficiary — thus removing the seller’s ability to DoS the payout.)</p>
+
+<p>For this reason, we consider the DoS possibility caused by use of push payments in the <code class="highlighter-rouge">transferFunds</code> function to be low risk.</p>
+
+<h3 id="security">Security</h3>
+
+<h4 id="quality-assurance">Quality assurance</h4>
+
+<p>The code for the escrow smart contract can be found in Github <a href="https://github.com/OpenBazaar/smart-contracts/blob/master/contracts/escrow/Escrow_v1_0.sol">here</a>. We invite the community to examine the code and post issues or suggestions. Furthermore, we have written 37 tests for the contract to achieve &gt;90% code coverage.</p>
+
+<h4 id="audit">Audit</h4>
+
+<p>The escrow smart contract was audited by <a href="https://openzeppelin.org/">OpenZeppelin</a>, with all issues addressed.</p>
+
+<h3 id="special-thanks">Special thanks</h3>
+
+<p>We’d like to extend a special thanks to the following folks who helped us get here:</p>
 
 <ul>
-  <li>Users can now choose BTC, BCH, or ZEC when installing OpenBazaar, and can switch between currencies by creating and using a new server.</li>
-  <li>Users can now block nodes they no longer want to see content from.<br />
-A warning about potential scams that links to an external page about scam prevention was added to the purchase flow.</li>
+  <li>Andrey 🦃 Petrov</li>
+  <li>Ashwin Mangale</li>
+  <li>Sameep Singhania</li>
+  <li>Austin Williams</li>
+  <li>Chris Pacia</li>
+  <li><a href="https://openzeppelin.org/">OpenZeppelin</a></li>
 </ul>
-
-<p><strong>Improvements</strong></p>
-
-<ul>
-  <li>The way the client shuts down the server when closing was improved.</li>
-  <li>The link to the obsolete docs page was replaced by a link to the main OB website in the right click menu.</li>
-  <li>The Rawflood search provider is no longer being supported by its creator, it has been removed as a default.</li>
-  <li>When in search, the search provider call automatically includes the user’s current crypto currency.</li>
-  <li>Ratings are now shown if they are zero, so it’s more clear if a listing or user has zero ratings.</li>
-  <li>Electron was updated to v1.7.11.</li>
-  <li>If a default search provider’s logo doesn’t load, the local version is used instead.</li>
-  <li>The code for getting the version from package.json was simplified.</li>
-  <li>Line breaks are now preserved in the order details chat and the order memo.</li>
-  <li>Search now supports checkboxes in filters.</li>
-  <li>Moderators now show the crypto currency (currently just one per node) they support, and users cannot add one if they don’t support the same currency the user’s node is set to.</li>
-</ul>
-
-<p><strong>Bug Fixes</strong></p>
-
-<ul>
-  <li>Fixed typos.</li>
-  <li>Fixed an issue with categories.</li>
-  <li>The name of the store in the note on a transaction is no longer missing from the order details.</li>
-  <li>The order details avatar no longer gets stuck in a loading state.</li>
-  <li>Formatting was fixed on the reviews page.</li>
-  <li>A bug in moderating orders was corrected.</li>
-  <li>The payment details address in a moderated case is now correct.</li>
-  <li>The missing shipping method was added to the order details screen.</li>
-  <li>If an order is disputed, sellers can no longer refund it.</li>
-  <li>The QR code was fixed for all supported cryptocurrencies.</li>
-  <li>A bug in the View Listing link was fixed.</li>
-  <li>Order IDs are no longer incorrectly treated as links in chat.</li>
-</ul>
-
-<p><strong>Internationalization</strong><br />
-We are actively translating the text in the OpenBazaar reference client. If you are interested in volunteering as a translator, you can sign up at https://www.transifex.com/ob1/openbazaar</p>
-
-<p><strong>Special Thanks</strong><br />
-A special thank you goes out to contributors BillStrait, hegjon and ab10460ef3, the many volunteers that provide translations, and to our testers that discovered important issues.</p>
-
-<p>For more development details, please see <a href="https://github.com/OpenBazaar/openbazaar-desktop/releases/tag/v2.1.0">the release notes on Github</a></p>
 
                 </div>
             
