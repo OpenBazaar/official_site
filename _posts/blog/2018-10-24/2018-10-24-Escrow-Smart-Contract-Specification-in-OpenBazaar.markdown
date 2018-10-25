@@ -66,7 +66,7 @@ Funds released from escrow can be split up and sent to various addresses. Howeve
 
 Upon release of funds from escrow, the trade is put into the `RELEASED` state. Once in the `RELEASED` state, trades can no longer be altered. All participants who received some of the escrowed funds are noted in the trade’s Transaction struct (via the `beneficiaries` mapping).
 
-(The `beneficiaries` information will be used later, by other contracts, to determine whether or not a given trade was disputed, refunded, etc).
+(The `beneficiaries` information will be used later, by other contracts, to determine whether or not a given trade was disputed, refunded, etc.).
 
 #### Offline Direct Payments
 
