@@ -30,12 +30,12 @@ Because OpenBazaar has been built with privacy in mind, the development team isn
 This is a major release, which adds buying and selling cryptocurrencies, opt in analytics, and many optimizations and bug fixes.
 
 ## New Features
-– The ability to buy and sell cryptocurrencies was added. The currencies can be sold at market rates. This feature is experimental, and is expected to be rapidly iterated on as we recieve feedback from users. #1308
+– The ability to buy and sell cryptocurrencies was added. The currencies can be sold at market rates. This feature is experimental, and is expected to be rapidly iterated on as we receive feedback from users. #1308
 – An opt-in analytics package was added. Users are able to choose to share non-identifying data with the development team. This will facilitate identifying bugs and improving the app. Users can start or stop sharing data at any time. #1277
 
 ## Improvements
 
-- Norweigan, Polish, and Ukranian translations reached the 80% translated requirement, and were added as options for the client. #1324
+- Norweigan, Polish, and Ukrainian translations reached the 80% translated requirement, and were added as options for the client. #1324
 - When viewing your sales, unfunded orders will now be hidden by default, since you cannot take action on those orders, and they clutter up the list of orders. You can still chose to view those orders. #1310
 - Listing card image loads will now cancel when the image card is no longer on the screen. This primarily improves the experience when changing pages in the search results or navigating away from a page of search results that hasn’t finished loading. #1309
 - Verified moderators are now lazy-loaded. This will speed up startup, and notify the user if the list of verified moderators changes while they are looking at information that will be affected by that change. #1298

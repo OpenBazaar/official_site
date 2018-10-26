@@ -47,7 +47,7 @@ I put my store up on the OpenBazaar network in the first week of your release.
 
 I was excited to see 2 sales come in within the first 48 hours. A 50 gram silver bar to a customer in France and a silver "CopBlock Quarter" to someone in the USA. I have also sold this week a "1766 Spanish Piece of Eight" Coin along with several other rare silver coins. I moved my site from my windows laptop after the first 2 days and I was unable to migrate my store to the new server. So I built a new one and my existing customers found me and were happy to report that there orders had arrived and wanted to make sure I would get the BTC before they released it. So far,  500.00 in a week! I put it up on a Digital Ocean VPS and had a difficult time keeping it up for more than 2 days at a time without it hanging and requiring me to restart the server. I have automated that process with a "cron script" for now. Recently I did an "git pull" update on both of my servers and they haven't had issues yet.
 
-I launched a second store @thefarmersmarket  a few days ago and have had 3 sales of homemade caramels to people from around the country. I am impressed with OpenBazaar. I sell alot on ebay and I cant wait to spread the word for OpenBazaar Bitcoin.
+I launched a second store @thefarmersmarket  a few days ago and have had 3 sales of homemade caramels to people from around the country. I am impressed with OpenBazaar. I sell a lot on ebay and I can't wait to spread the word for OpenBazaar Bitcoin.
 
 I am looking forward to the future of OpenBazaar.
 
