@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-10-25T18:33:00+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">Escrow Smart Contract Specification in OpenBazaar</title><link href="https://openbazaar.org/blog/Escrow-Smart-Contract-Specification-in-OpenBazaar/" rel="alternate" type="text/html" title="&lt;span class='post-title-extra'&gt;Escrow Smart Contract Specification&lt;/span&gt; in OpenBazaar" /><published>2018-10-24T14:30:00+00:00</published><updated>2018-10-24T14:30:00+00:00</updated><id>https://openbazaar.org/blog/Escrow-Smart-Contract-Specification-in-OpenBazaar</id><content type="html" xml:base="https://openbazaar.org/blog/Escrow-Smart-Contract-Specification-in-OpenBazaar/">&lt;p&gt;&lt;em&gt;By Austin Williams, OpenBazaar Researcher&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-10-29T21:51:57+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">Shop OpenBazaar - Satoshi Doodles, CryptoCollectibles and Matthew Zipkin</title><link href="https://openbazaar.org/blog/Shop-OpenBazaar-Satoshi-Doodles-CryptoCollectibles-and-Matthew-Zipkin/" rel="alternate" type="text/html" title="Shop OpenBazaar - &lt;span class='post-title-extra'&gt;Satoshi Doodles, CryptoCollectibles and Matthew Zipkin&lt;/span&gt;" /><published>2018-10-29T09:30:00+00:00</published><updated>2018-10-29T09:30:00+00:00</updated><id>https://openbazaar.org/blog/Shop-OpenBazaar-Satoshi-Doodles-CryptoCollectibles-and-Matthew-Zipkin</id><content type="html" xml:base="https://openbazaar.org/blog/Shop-OpenBazaar-Satoshi-Doodles-CryptoCollectibles-and-Matthew-Zipkin/">&lt;p&gt;OpenBazaar is the perfect place to put your &lt;a href=&quot;https://bitcoin.org/&quot;&gt;Bitcoin&lt;/a&gt;, &lt;a href=&quot;https://www.bitcoincash.org/&quot;&gt;Bitcoin Cash&lt;/a&gt;, or &lt;a href=&quot;https://z.cash/&quot;&gt;Zcash&lt;/a&gt; to work. It’s like a bitcoin Ebay alternative for digital currency enthusiasts who are looking for a change.&lt;/p&gt;
+
+&lt;p&gt;You can buy all &lt;em&gt;kinds&lt;/em&gt; of things with cryptocurrency on OpenBazaar! It’s an open source marketplace where you can buy (and/or sell!) what you want and &lt;strong&gt;you&lt;/strong&gt; are in control—not some centralized network.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Here are 3 great stores for you to shop at today:&lt;/strong&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;satoshi-doodles&quot;&gt;Satoshi Doodles&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;Satoshi_Doodles_on_OpenBazaar.png&quot; alt=&quot;Satoshi Doodles on OpenBazaar&quot; title=&quot;Satoshi Doodles on OpenBazaar&quot; /&gt;&lt;a href=&quot;https://openbazaar.com/store/QmXFvx9Hjw2EDcNECRQXpSybKVdZRLEHjC4CnJFr6bCCfh&quot;&gt;Satoshi Doodles on OpenBazaar&lt;/a&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+Satoshi Doodles is a brand new store on OpenBazaar and we think it’s a perfect fit. Check out these cute and often hilarious art prints available for BCH.
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;cryptocollectibles&quot;&gt;CryptoCollectibles&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;CryptoCollectibles_comic_books_on_OpenBazaar.png&quot; alt=&quot;CryptoCollectibles Comic Books on OpenBazaar&quot; title=&quot;CryptoCollectibles Comic Books on OpenBazaar&quot; /&gt;&lt;a href=&quot;https://openbazaar.com/store/QmakxNv9Y5YFuAuvjvx4mEda3TmFBaHDtacd1KtEL56mP4&quot;&gt;CryptoCollectibles on OpenBazaar&lt;/a&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+CryptoCollectibles has been a constant and consistent presence on OpenBazaar since way back in version 1.0. We’re glad to have their &lt;em&gt;extensive&lt;/em&gt; selection of premium comic books available to purchase for BTC on OpenBazaar!
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;matthew-zipkin&quot;&gt;Matthew Zipkin&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;Matthew_Zipkin_Bitcoin_Clocks_and_CryptoCuddlies_on_OpenBazaar.png&quot; alt=&quot;Matthew Zipkin Bitcoin Clocks and CryptoCuddlies on OpenBazaar&quot; title=&quot;Matthew Zipkin Bitcoin Clocks and CryptoCuddlies on OpenBazaar&quot; /&gt;&lt;a href=&quot;https://openbazaar.com/store/QmeSyTRaNZMD8ajcfbhC8eYibWgnSZtSGUp3Vn59bCnPWC&quot;&gt;Matthew Zipkin on OpenBazaar&lt;/a&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+Matthew Zipkin is another longtime friend to the OpenBazaar community and he has some neat, practical art pieces available in his store. Another fun fact, Matthew is also an &lt;a href=&quot;https://ob1.io/verified-moderators.html&quot;&gt;OB1 Verified Moderator&lt;/a&gt; who is available for you to add to your transactions and provide assistance in case of a dispute. Send him a message and say hello!&lt;/p&gt;
+
+&lt;h4 id=&quot;like-what-you-see&quot;&gt;Like what you see?&lt;/h4&gt;
+
+&lt;p&gt;Shop these stores and so many more on the brand new browsing website, &lt;a href=&quot;https://openbazaar.com&quot;&gt;openbazaar.com&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">OpenBazaar is the perfect place to put your Bitcoin, Bitcoin Cash, or Zcash to work. It’s like a bitcoin Ebay alternative for digital currency enthusiasts who are looking for a change.</summary></entry><entry><title type="html">Escrow Smart Contract Specification in OpenBazaar</title><link href="https://openbazaar.org/blog/Escrow-Smart-Contract-Specification-in-OpenBazaar/" rel="alternate" type="text/html" title="&lt;span class='post-title-extra'&gt;Escrow Smart Contract Specification&lt;/span&gt; in OpenBazaar" /><published>2018-10-24T14:30:00+00:00</published><updated>2018-10-24T14:30:00+00:00</updated><id>https://openbazaar.org/blog/Escrow-Smart-Contract-Specification-in-OpenBazaar</id><content type="html" xml:base="https://openbazaar.org/blog/Escrow-Smart-Contract-Specification-in-OpenBazaar/">&lt;p&gt;&lt;em&gt;By Austin Williams, OpenBazaar Researcher&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;The integration of Ethereum into OpenBazaar represents one of the most challenging and rewarding tasks we’ve done for the project so far. We are so excited to bring our vision of seeing cryptocurrency and tokens used for real-world commerce to the Ethereum community!&lt;/p&gt;
 
@@ -621,92 +653,4 @@ At the moment OpenBazaar users are limited to using only one cryptocurrency at a
 
 &lt;p&gt;[11:44] roka: thanks&lt;/p&gt;
 
-&lt;p&gt;[11:44] Jenn_OB1: Thanks everyone!&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on September 13, 2018.</summary></entry><entry><title type="html">How Decentralized Application Development Nearly Destroyed My World</title><link href="https://openbazaar.org/blog/how-decentralized-application-development-nearly-destroyed-my-world/" rel="alternate" type="text/html" title="How &lt;span class='post-title-extra'&gt;Decentralized Application Development&lt;/span&gt; Nearly &lt;span class='post-title-extra'&gt;Destroyed My World&lt;/span&gt;" /><published>2018-09-13T11:30:00+00:00</published><updated>2018-09-13T11:30:00+00:00</updated><id>https://openbazaar.org/blog/how-decentralized-application-development-nearly-destroyed-my-world</id><content type="html" xml:base="https://openbazaar.org/blog/how-decentralized-application-development-nearly-destroyed-my-world/">&lt;p&gt;&lt;em&gt;By Rob Misiorowski, OpenBazaar Front End Developer&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Ok, that title is a little hyperbolic, but decentralized applications with modern user experiences are few and far between and present some unique challenges for front-end developers. In this post I’ll describe some of these challenges and give examples of how we addressed them when developing the OpenBazaar desktop client.&lt;/p&gt;
-
-&lt;h3 id=&quot;fundamentally-different-paradigms&quot;&gt;Fundamentally Different Paradigms&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;In a &lt;strong&gt;centralized application&lt;/strong&gt;, the data is primarily stored in and retrieved from one central source.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;For example, an app has 10,000 thing-a-magoos and they are all stored on a central server that’s administered by professional engineers and has professional quality hardware and software behind it. It’s optimized to process large numbers of client requests for data in a highly streamlined way.&lt;/p&gt;
-
-&lt;p&gt;This is useful when you need to retrieve and organize many pieces of data, like on a webpage that displays the top 50 thing-a-magoos on the network. With a centralized server, a client can efficiently retrieve the data it needs for all 50 thing-a-magoos in one single call.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Now, let’s consider a similar app, but one that is &lt;strong&gt;decentralized&lt;/strong&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The data doesn’t live in one central location. Each user stores their own data and distributes it to other peers on the network as those peers view the data. Instead of highly optimized hardware, this is a blend of computers ranging from Joe’s 8 year old desktop PC to Jennie’s brand new macbook pro. While some of these may be high end, it’s doubtful that most of these users will have production server level hardware or software. Now, instead of retrieving data from one central location, you likely have to go through all types of home routers and firewalls to get it.&lt;/p&gt;
-
-&lt;p&gt;Going back to our landing page example from above, instead of making a &lt;em&gt;single&lt;/em&gt; call to retrieve data for 50 thing-a-magoos, now we need to make &lt;em&gt;50 calls&lt;/em&gt; (one to each user) to retrieve the data. Actually, it will almost certainly be many multiple multiples of 50, since P2P libraries like &lt;a href=&quot;https://ipfs.io&quot;&gt;IPFS&lt;/a&gt; will retrieve the same pieces of data from multiple nodes to compare for authenticity.&lt;/p&gt;
-
-&lt;h3 id=&quot;what-challenges-does-this-cause&quot;&gt;What Challenges Does This Cause?&lt;/h3&gt;
-
-&lt;p&gt;It’s hopefully getting clearer why there is much more leg-work involved in retrieving data in a decentralized way, but what challenges does this pose for clients?&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Latency&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The speed difference is significant between retrieving a single piece of data from a highly optimized production server verses from the home computer of the average person. For example, in the centralized world, if the average server request takes more than a fraction of a second to return—let’s say 250ms—it would often be considered slow and teams of engineers would be having meetings on how to reduce this. In our desktop client, we routinely have requests taking upwards of a minute before possibly timing out. And that’s just for a single request. I’m sure you can imagine the difference between retrieving a list of 50 thing-a-magoos in one request from a central server versus having to make a call for each one across a network of distributed nodes.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Frequent data retrieval errors&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Consider a popular centralized app like Facebook. How often do you enter a legitimate url and have some type of error return? I would venture to say hardly ever. In a decentralized app this world is destroyed because quite regularly calls for data fail. Perhaps the user isn’t online, nor are any seeders of the data? Perhaps some are online, but are unreachable? Perhaps you’re even making a call for a piece of data that no longer exists (e.g. a deleted listing)? Further complicating the issue is that we often don’t know the root cause of the failure. The error message could basically just be a large “shrug” emoji.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;Shrug_Emoji.png&quot; alt=&quot;Shrug Emoji&quot; title=&quot;Shrug Emoji&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Browsers live in a centralized world&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The OpenBazaar front end is developed with Electron, which uses Chromium, the tech behind the Google Chrome browser. As such, it’s subject to many of the browser’s restrictions. One of those is that you are limited to 6 concurrent requests to the same domain. Even though we’re ultimately getting the data from many nodes, the requests are proxied through each node’s server. In other words, from the browser’s point of view, a fetch of 20 different user profiles are all coming from the same domain.&lt;/p&gt;
-
-&lt;p&gt;If latency weren’t an issue this wouldn’t be so bad. Even if a request took a less than ideal 250ms, you would be able to fully display a grid of 24 users in one second. But when requests routinely take 30 seconds, 45 seconds or 1 minute plus, suddenly it takes a whole lot of time to fully display a page. Even more problematic is that your request queue can clog up. Let’s say one profile comes back in a lightning fast 100ms and we display a user box for that user with a Follow button. If there are still 23 pending requests, even if the user clicks that Follow button, it will be put at the end of the queue and not even be called until all but 5 requests remain, which may easily be a few minutes.&lt;/p&gt;
-
-&lt;h3 id=&quot;an-example-of-how-we-addressed-these-challenges&quot;&gt;An Example of How We Addressed These Challenges&lt;/h3&gt;
-
-&lt;p&gt;OpenBazaar has an integrated chat section that’s really an app within an app. The chat app is present from the time your server starts and remains perpetually in the sidebar. Initially, this was a world destroyer because the little &lt;strong&gt;chat heads&lt;/strong&gt; (the user icons you click to open a conversation with a user) require some profile data from the party you’re conversing with (e.g. avatar, name). If a user is even slightly chatty and has engaged in at least 6 conversations, then those 6 profile calls would be enough to clog up the request queue and potentially prevent critical app functionality from being available.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;Chat Heads in OpenBazaar.png&quot; alt=&quot;Chat Heads in OpenBazaar&quot; title=&quot;Chat Heads in OpenBazaar&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;heres-how-we-handled-some-of-the-challenges-decentralization-presented-us-in-openbazaar-chat&quot;&gt;Here’s how we handled some of the challenges decentralization presented us in OpenBazaar chat:&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Latency&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The server stores a list of your conversations. Within that data set is the peer ID of each person you are chatting with and the last message in the conversation. This allows us to create a chat head with a default avatar and use the peer ID as the name. The peer ID is also enough to make a link to the user’s page. While it may take up to a minute for the user’s avatar and name show up, at least you’ll have something showing in the client and you won’t be prevented from starting the conversation.&lt;/p&gt;
-
-&lt;p&gt;Additionally, we implement multiple layers of caching. We can’t do this for all requests because for some it’s important you have fresh data. In this case, however, the user’s name and avatar will likely not change that often and if you do see data that is a few minutes (or occasionally a few days) old, it doesn’t degrade your experience.&lt;/p&gt;
-
-&lt;p&gt;One level of caching is done on the server where it will store the user’s profile on disk. Then, when you make a call and indicate a cached response is acceptable, the server will immediately send back the cached version and behind-the-scenes make an IPFS query to update the cache. In theory, the cached version will never be more than one revision behind.&lt;/p&gt;
-
-&lt;p&gt;The other layer of cache is an in-memory client cache. The next time you request a profile where a cached version is ok, it won’t even go to the server, it would use what the client has in-memory. Since this is in-memory, it will only be available until you shut down the app.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Frequent data retrieval errors&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Our approach here is exactly the same as our approach to latency: The user will initially see a default avatar and a peer ID but still have everything they need to start a conversation. The fact that the profile fetch may not succeed is really just a visual shortcoming. This is a form of progressive enhancement where we are starting with the bare minimum functionality and attempting to augment the experience along the way.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Browsers live in a centralized world&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This challenge was almost literally a world destroyer. If my memory serves me well, in OpenBazaar version 1.0 we had the chat app initialize before other important start-up functionality. For instance, while the chat app would be waiting on it’s multiple profiles to come back, the Notifications mini-app would be showing you a spinner. Even worse, if you wanted to actually navigate to a page in the app, the data needed to show the page would be queued until all those profile calls finished…which, lest we forget, could be minutes.&lt;/p&gt;
-
-&lt;p&gt;It was a user experience deal breaker for those requests to be clogging up the queue and preventing critical functionality. But our hands were tied. If the browser imposes such a restriction, what could we do? Eventually, we stumbled upon the fact that the restriction is limited to HTTP requests. Incoming socket messages (which use TCP) have no such restriction. We added an &lt;code class=&quot;highlighter-rouge&quot;&gt;async&lt;/code&gt; flag to most of our APIs so that the HTTP request would immediately return with a unique &lt;code class=&quot;highlighter-rouge&quot;&gt;requestId&lt;/code&gt;. Subsequently, the profiles would come individually via socket messages. They would each include the &lt;code class=&quot;highlighter-rouge&quot;&gt;requestId&lt;/code&gt; so we could map the profile to the initial request.&lt;/p&gt;
-
-&lt;p&gt;Boom! We could kick off as many profile calls as we wanted and have virtually no impact on the HTTP request queue.&lt;/p&gt;
-
-&lt;h3 id=&quot;in-summary&quot;&gt;In Summary&lt;/h3&gt;
-
-&lt;p&gt;While “world destroying” is a bit dramatic, these challenges were indeed &lt;em&gt;quite&lt;/em&gt; challenging! Decentralized applications with an intended user base of non-engineers (i.e. a client not meant to be used from the shell of your favorite exotic Unix distribution), are still rare and there just aren’t that many best practices in place yet. Existing best practices for front end development are for centralized apps and a lot of them go right out the window when you introduce the challenges of decentralized data retrieval.&lt;/p&gt;
-
-&lt;p&gt;Decentralization is important though and, in my humble opinion, is here to stay. Over time, we’ll get there. Client developers will continue to come up with clever solutions and P2P libraries and browsers will iterate and improve. Similar to how email clients have come from being limited to the engineering labs of universities to now being used by your Grandma on her iPad, decentralized computing is coming soon to a grandma near you.&lt;/p&gt;</content><author><name></name></author><summary type="html">By Rob Misiorowski, OpenBazaar Front End Developer</summary></entry></feed>
+&lt;p&gt;[11:44] Jenn_OB1: Thanks everyone!&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on September 13, 2018.</summary></entry></feed>
