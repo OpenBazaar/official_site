@@ -32,7 +32,7 @@ CryptoCollectibles has been a constant and consistent presence on OpenBazaar sin
 <br>  
 #### Matthew Zipkin
 
-![Matthew Zipkin Bitcoin Clocks and CryptoCuddlies on OpenBazaar](Matthew_Zipkin_Bitcoin_Clocks_and_CryptoCuddlies_on_OpenBazaar.png "Matthew Zipkin Bitcoin Clocks and CryptoCuddlies on OpenBazaar")[Matthew Zipkin on OpenBazaar](https://openbazaar.com/store/QmU5ZSKVz2GhsqE6EmBGVCtrui4YhUXny6rbvsSf5h2xvH)
+![Matthew Zipkin Bitcoin Clocks and CryptoCuddlies on OpenBazaar](Matthew_Zipkin_Bitcoin_Clocks_and_CryptoCuddlies_on_OpenBazaar.png "Matthew Zipkin Bitcoin Clocks and CryptoCuddlies on OpenBazaar")[Matthew Zipkin on OpenBazaar](https://openbazaar.com/store/QmeSyTRaNZMD8ajcfbhC8eYibWgnSZtSGUp3Vn59bCnPWC)
 <br>  
 <br>  
 Matthew Zipkin is another longtime friend to the OpenBazaar community and he has some neat, practical art pieces available in his store. Another fun fact, Matthew is also an [OB1 Verified Moderator](https://ob1.io/verified-moderators.html) who is available for you to add to your transactions and provide assistance in case of a dispute. Send him a message and say hello!
