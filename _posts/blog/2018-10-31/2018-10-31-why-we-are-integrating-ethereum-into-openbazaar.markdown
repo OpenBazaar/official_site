@@ -8,7 +8,7 @@ social_description: 'Why We Are Integrating Ethereum into OpenBazaar'
 
 In a previous article we explained [how we’re integrating Ethereum into OpenBazaar](https://openbazaar.org/blog/Escrow-Smart-Contract-Specification-in-OpenBazaar/). In this article we want to talk about _why_ we're integrating [Ethereum](https://www.ethereum.org/).
 
-#### Bitcoin Beginnings
+####Bitcoin Beginnings
 
 OpenBazaar began as a Bitcoin-only project, with the intention of creating an open, permissionless marketplace with no fees and no middlemen. From the beginning, users wanted the ability to accept payments in cryptocurrencies other than bitcoin. While that was possible via our [Shapeshift](https://shapeshift.io/) integration, such payments weren't really trustless. Non-bitcoin payments would just be Shapeshifted into bitcoin payments. Users effectively had to use Shapeshift as a middleman, had to trust them not to steal their funds, and had to pay them for the privilege. In that sense, non-bitcoin payments weren't really _native_ to OpenBazaar.
 
