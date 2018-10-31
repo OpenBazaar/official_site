@@ -4,17 +4,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="google-site-verification" content="zI3sAn6GTCII6X2rmUMR1uHZG5crfyuVmzRoaqXmDq4" /><!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Weekly Development Update: November 4, 2016 | OpenBazaar</title>
+<title>Why We Are Integrating Ethereum into OpenBazaar | OpenBazaar</title>
 <meta name="generator" content="Jekyll v3.8.4" />
-<meta property="og:title" content="Weekly Development Update: November 4, 2016" />
+<meta property="og:title" content="Why We Are Integrating Ethereum into OpenBazaar" />
 <meta property="og:locale" content="en_US" />
-<link rel="canonical" href="https://openbazaar.org/blog/weekly-development-update-november-4-2016/" />
-<meta property="og:url" content="https://openbazaar.org/blog/weekly-development-update-november-4-2016/" />
+<meta name="description" content="In a previous article we explained how we’re integrating Ethereum into OpenBazaar in addition to Bitcoin, Bitcoin Cash and Zcash. In this article we want to talk about why we’re integrating Ethereum." />
+<meta property="og:description" content="In a previous article we explained how we’re integrating Ethereum into OpenBazaar in addition to Bitcoin, Bitcoin Cash and Zcash. In this article we want to talk about why we’re integrating Ethereum." />
+<link rel="canonical" href="https://openbazaar.org/blog/why-we-are-integrating-ethereum-into-openbazaar/" />
+<meta property="og:url" content="https://openbazaar.org/blog/why-we-are-integrating-ethereum-into-openbazaar/" />
 <meta property="og:site_name" content="OpenBazaar" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2016-11-04T03:30:00+00:00" />
+<meta property="article:published_time" content="2018-10-31T14:30:00+00:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","url":"https://openbazaar.org/blog/weekly-development-update-november-4-2016/","headline":"Weekly Development Update: November 4, 2016","dateModified":"2016-11-04T03:30:00+00:00","datePublished":"2016-11-04T03:30:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://openbazaar.org/blog/weekly-development-update-november-4-2016/"},"@context":"http://schema.org"}</script>
+{"description":"In a previous article we explained how we’re integrating Ethereum into OpenBazaar in addition to Bitcoin, Bitcoin Cash and Zcash. In this article we want to talk about why we’re integrating Ethereum.","@type":"BlogPosting","url":"https://openbazaar.org/blog/why-we-are-integrating-ethereum-into-openbazaar/","headline":"Why We Are Integrating Ethereum into OpenBazaar","dateModified":"2018-10-31T14:30:00+00:00","datePublished":"2018-10-31T14:30:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://openbazaar.org/blog/why-we-are-integrating-ethereum-into-openbazaar/"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="shortcut icon" type="image/png" href="/favicon.png">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
@@ -22,8 +24,8 @@
   <link rel="stylesheet" href="/assets/main.css">
   
     <meta property="og:image" content="https://openbazaar.org/blog/">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
+    <meta property="og:title" content="Why We Are Integrating Ethereum into OpenBazaar">
+    <meta property="og:description" content="Why We Are Integrating Ethereum into OpenBazaar">
   <link type="application/atom+xml" rel="alternate" href="https://openbazaar.org/feed.xml" title="OpenBazaar" /><script>
   (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -107,9 +109,9 @@
             
                 <div class="col"></div>
                 <div class="col-8">
-                    <a href="/blog/weekly-development-update-november-4-2016/">
+                    <a href="/blog/why-we-are-integrating-ethereum-into-openbazaar/">
                         <h3 class="post-title">
-                            Weekly Development Update: November 4, 2016
+                            Why We Are Integrating <span class='post-title-extra'>Ethereum</span> into OpenBazaar
                         </h3>
                     </a>
                 </div>
@@ -124,28 +126,41 @@
                 </div>
             
             <div class="col-12 post-date text-left mb-3">
-                Nov 4, 2016
+                Oct 31, 2018
             </div>
             
                 <div class="col-12 text-left post-container">
-                    <h2><a href="Screen-Shot-2016-11-05-at-10.40.33-AM.png"><img src="Screen-Shot-2016-11-05-at-10.40.33-AM.png" alt="Marketing Your OpenBazaar Shop - Online Webinar" /></a></h2>
+                    <p>In a previous article we explained <a href="https://openbazaar.org/blog/Escrow-Smart-Contract-Specification-in-OpenBazaar/">how we’re integrating Ethereum into OpenBazaar</a> in addition to Bitcoin, <a href="https://www.bitcoincash.org/">Bitcoin Cash</a> and <a href="https://z.cash/">Zcash</a>. In this article we want to talk about <em>why</em> we’re integrating <a href="https://www.ethereum.org/">Ethereum</a>.</p>
 
-<h2 id="special-event">Special Event</h2>
+<h4 id="bitcoin-beginnings">Bitcoin Beginnings</h4>
 
-<p>This month we are offering our first special webinar event to empower OpenBazaar vendors to attract customers in this unique space. Read more about this event on November 14th and sign up <a href="https://blog.openbazaar.org/special-webinar-event-marketing-your-openbazaar-shop/">here</a>!</p>
+<p>OpenBazaar began as a Bitcoin-only project, with the intent of creating an open, permissionless marketplace with no fees and no middlemen. From the beginning users wanted the ability to accept payments in cryptocurrencies other than bitcoin. While that was possible via our <a href="https://shapeshift.io/">Shapeshift</a> integration, such payments weren’t really trustless. Non-bitcoin payments would just be Shapeshifted into bitcoin payments. Users effectively had to use Shapeshift as a middleman, had to trust them not to steal their funds, and had to pay them for the privilege. In that sense, non-bitcoin payments weren’t really <em>native</em> to OpenBazaar.</p>
 
-<h2 id="current-version">Current version</h2>
+<p>Then, in late 2017, bitcoin transaction fees began to rise. <a href="https://bitinfocharts.com/comparison/bitcoin-transactionfees.htm">A lot</a>. Using bitcoin for payments on OpenBazaar became impractical for months. Since payments in non-bitcoin currencies weren’t native on OpenBazaar (they were simply Shapefshifted into bitcoin payments) that meant <em>all</em> payments on OpenBazaar were impractical. Users wanted to use alternative currencies, but we were – effectively – forcing them to use bitcoin. Use of the platform ground to a halt. It was obvious something needed to change.</p>
+
+<h4 id="becoming-crypto-inclusive">Becoming Crypto-Inclusive</h4>
+
+<p>We want users to be able to trade using <strong>any cryptocurrency they desire</strong>, without exposure to risks caused by other chains. In early 2018, in response to urgent demand from our users, we began integrating native altcoin payments into OpenBazaar. We’re refactoring our codebase to make it much easier to integrate new cryptocurrencies natively. The low hanging fruits are coins that are forks of Bitcoin, as their codebases are closest to what OpenBazaar was already supporting. Bitcoin Cash and Zcash were the first such integrations, and <a href="https://litecoin.org/">Litecoin</a> integration is almost complete.</p>
+
+<h4 id="enter-ethereum">Enter Ethereum</h4>
+
+<p>A natural continuation of that effort is to integrate Ethereum. Since Ethereum doesn’t share Bitcoin’s codebase, it has been more challenging to integrate than forks of Bitcoin. But we think it’s worth the effort because:</p>
 
 <ul>
-  <li>1.1.8 release fixes</li>
-  <li>Testing for version 1.1.9</li>
+  <li>Ethereum has the largest community outside of Bitcoin.</li>
+  <li>Developer activity on Ethereum is huge and enthusiastic.</li>
+  <li>The community has a special eagerness for its coin and tokens to be used for real-world commerce.</li>
 </ul>
 
-<h2 id="20">2.0</h2>
+<p>Integrating <strong>ETH</strong> and <strong>ERC20 payments</strong> is a natural next-step for OpenBazaar.</p>
 
-<ul>
-  <li>Continuing work on the store–Shipping and Category filters, as well as Search and Sort within a store</li>
-</ul>
+<p>Beyond simple payments, <strong>smart contracts</strong> built on Ethereum – with its rich Turing-complete scripting language – may allow us to support markets that would be extremely challenging to support with Bitcoin-like script-based cryptocurrencies. Trustless auctions, DAO-based stores, insurance contracts, and affiliate marketing are just a few of the ideas we are exploring. Integrating Ethereum has the potential expand the types of products and services offered on the platform.</p>
+
+<p>Users won’t be required to use Ethereum to use OpenBazaar, and can still stick to paying and being paid in Bitcoin or other supported cryptocurrencies.</p>
+
+<h4 id="in-summary">In Summary</h4>
+
+<p>In short, the landscape isn’t what is was when OpenBazaar first started. There is a rich ecosystem we cannot afford to ignore, and Ethereum is a huge part of that. We’re excited about implementing ETH and ERC20 payments, and are looking forward to working with the Ethereum community as we explore how we can leverage smart contracts in OpenBazaar.</p>
 
                 </div>
             

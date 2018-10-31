@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-10-29T21:51:57+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">Shop OpenBazaar - Satoshi Doodles, CryptoCollectibles and Matthew Zipkin</title><link href="https://openbazaar.org/blog/Shop-OpenBazaar-Satoshi-Doodles-CryptoCollectibles-and-Matthew-Zipkin/" rel="alternate" type="text/html" title="Shop OpenBazaar - &lt;span class='post-title-extra'&gt;Satoshi Doodles, CryptoCollectibles and Matthew Zipkin&lt;/span&gt;" /><published>2018-10-29T09:30:00+00:00</published><updated>2018-10-29T09:30:00+00:00</updated><id>https://openbazaar.org/blog/Shop-OpenBazaar-Satoshi-Doodles-CryptoCollectibles-and-Matthew-Zipkin</id><content type="html" xml:base="https://openbazaar.org/blog/Shop-OpenBazaar-Satoshi-Doodles-CryptoCollectibles-and-Matthew-Zipkin/">&lt;p&gt;OpenBazaar is the perfect place to put your &lt;a href=&quot;https://bitcoin.org/&quot;&gt;Bitcoin&lt;/a&gt;, &lt;a href=&quot;https://www.bitcoincash.org/&quot;&gt;Bitcoin Cash&lt;/a&gt;, or &lt;a href=&quot;https://z.cash/&quot;&gt;Zcash&lt;/a&gt; to work. It’s like a bitcoin Ebay alternative for digital currency enthusiasts who are looking for a change.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-10-31T19:33:53+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">Why We Are Integrating Ethereum into OpenBazaar</title><link href="https://openbazaar.org/blog/why-we-are-integrating-ethereum-into-openbazaar/" rel="alternate" type="text/html" title="Why We Are Integrating &lt;span class='post-title-extra'&gt;Ethereum&lt;/span&gt; into OpenBazaar" /><published>2018-10-31T14:30:00+00:00</published><updated>2018-10-31T14:30:00+00:00</updated><id>https://openbazaar.org/blog/why-we-are-integrating-ethereum-into-openbazaar</id><content type="html" xml:base="https://openbazaar.org/blog/why-we-are-integrating-ethereum-into-openbazaar/">&lt;p&gt;In a previous article we explained &lt;a href=&quot;https://openbazaar.org/blog/Escrow-Smart-Contract-Specification-in-OpenBazaar/&quot;&gt;how we’re integrating Ethereum into OpenBazaar&lt;/a&gt; in addition to Bitcoin, &lt;a href=&quot;https://www.bitcoincash.org/&quot;&gt;Bitcoin Cash&lt;/a&gt; and &lt;a href=&quot;https://z.cash/&quot;&gt;Zcash&lt;/a&gt;. In this article we want to talk about &lt;em&gt;why&lt;/em&gt; we’re integrating &lt;a href=&quot;https://www.ethereum.org/&quot;&gt;Ethereum&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;bitcoin-beginnings&quot;&gt;Bitcoin Beginnings&lt;/h4&gt;
+
+&lt;p&gt;OpenBazaar began as a Bitcoin-only project, with the intent of creating an open, permissionless marketplace with no fees and no middlemen. From the beginning users wanted the ability to accept payments in cryptocurrencies other than bitcoin. While that was possible via our &lt;a href=&quot;https://shapeshift.io/&quot;&gt;Shapeshift&lt;/a&gt; integration, such payments weren’t really trustless. Non-bitcoin payments would just be Shapeshifted into bitcoin payments. Users effectively had to use Shapeshift as a middleman, had to trust them not to steal their funds, and had to pay them for the privilege. In that sense, non-bitcoin payments weren’t really &lt;em&gt;native&lt;/em&gt; to OpenBazaar.&lt;/p&gt;
+
+&lt;p&gt;Then, in late 2017, bitcoin transaction fees began to rise. &lt;a href=&quot;https://bitinfocharts.com/comparison/bitcoin-transactionfees.htm&quot;&gt;A lot&lt;/a&gt;. Using bitcoin for payments on OpenBazaar became impractical for months. Since payments in non-bitcoin currencies weren’t native on OpenBazaar (they were simply Shapefshifted into bitcoin payments) that meant &lt;em&gt;all&lt;/em&gt; payments on OpenBazaar were impractical. Users wanted to use alternative currencies, but we were – effectively – forcing them to use bitcoin. Use of the platform ground to a halt. It was obvious something needed to change.&lt;/p&gt;
+
+&lt;h4 id=&quot;becoming-crypto-inclusive&quot;&gt;Becoming Crypto-Inclusive&lt;/h4&gt;
+
+&lt;p&gt;We want users to be able to trade using &lt;strong&gt;any cryptocurrency they desire&lt;/strong&gt;, without exposure to risks caused by other chains. In early 2018, in response to urgent demand from our users, we began integrating native altcoin payments into OpenBazaar. We’re refactoring our codebase to make it much easier to integrate new cryptocurrencies natively. The low hanging fruits are coins that are forks of Bitcoin, as their codebases are closest to what OpenBazaar was already supporting. Bitcoin Cash and Zcash were the first such integrations, and &lt;a href=&quot;https://litecoin.org/&quot;&gt;Litecoin&lt;/a&gt; integration is almost complete.&lt;/p&gt;
+
+&lt;h4 id=&quot;enter-ethereum&quot;&gt;Enter Ethereum&lt;/h4&gt;
+
+&lt;p&gt;A natural continuation of that effort is to integrate Ethereum. Since Ethereum doesn’t share Bitcoin’s codebase, it has been more challenging to integrate than forks of Bitcoin. But we think it’s worth the effort because:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ethereum has the largest community outside of Bitcoin.&lt;/li&gt;
+  &lt;li&gt;Developer activity on Ethereum is huge and enthusiastic.&lt;/li&gt;
+  &lt;li&gt;The community has a special eagerness for its coin and tokens to be used for real-world commerce.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Integrating &lt;strong&gt;ETH&lt;/strong&gt; and &lt;strong&gt;ERC20 payments&lt;/strong&gt; is a natural next-step for OpenBazaar.&lt;/p&gt;
+
+&lt;p&gt;Beyond simple payments, &lt;strong&gt;smart contracts&lt;/strong&gt; built on Ethereum – with its rich Turing-complete scripting language – may allow us to support markets that would be extremely challenging to support with Bitcoin-like script-based cryptocurrencies. Trustless auctions, DAO-based stores, insurance contracts, and affiliate marketing are just a few of the ideas we are exploring. Integrating Ethereum has the potential expand the types of products and services offered on the platform.&lt;/p&gt;
+
+&lt;p&gt;Users won’t be required to use Ethereum to use OpenBazaar, and can still stick to paying and being paid in Bitcoin or other supported cryptocurrencies.&lt;/p&gt;
+
+&lt;h4 id=&quot;in-summary&quot;&gt;In Summary&lt;/h4&gt;
+
+&lt;p&gt;In short, the landscape isn’t what is was when OpenBazaar first started. There is a rich ecosystem we cannot afford to ignore, and Ethereum is a huge part of that. We’re excited about implementing ETH and ERC20 payments, and are looking forward to working with the Ethereum community as we explore how we can leverage smart contracts in OpenBazaar.&lt;/p&gt;</content><author><name></name></author><summary type="html">In a previous article we explained how we’re integrating Ethereum into OpenBazaar in addition to Bitcoin, Bitcoin Cash and Zcash. In this article we want to talk about why we’re integrating Ethereum.</summary></entry><entry><title type="html">Shop OpenBazaar - Satoshi Doodles, CryptoCollectibles and Matthew Zipkin</title><link href="https://openbazaar.org/blog/Shop-OpenBazaar-Satoshi-Doodles-CryptoCollectibles-and-Matthew-Zipkin/" rel="alternate" type="text/html" title="Shop OpenBazaar - &lt;span class='post-title-extra'&gt;Satoshi Doodles, CryptoCollectibles and Matthew Zipkin&lt;/span&gt;" /><published>2018-10-29T09:30:00+00:00</published><updated>2018-10-29T09:30:00+00:00</updated><id>https://openbazaar.org/blog/Shop-OpenBazaar-Satoshi-Doodles-CryptoCollectibles-and-Matthew-Zipkin</id><content type="html" xml:base="https://openbazaar.org/blog/Shop-OpenBazaar-Satoshi-Doodles-CryptoCollectibles-and-Matthew-Zipkin/">&lt;p&gt;OpenBazaar is the perfect place to put your &lt;a href=&quot;https://bitcoin.org/&quot;&gt;Bitcoin&lt;/a&gt;, &lt;a href=&quot;https://www.bitcoincash.org/&quot;&gt;Bitcoin Cash&lt;/a&gt;, or &lt;a href=&quot;https://z.cash/&quot;&gt;Zcash&lt;/a&gt; to work. It’s like a bitcoin Ebay alternative for digital currency enthusiasts who are looking for a change.&lt;/p&gt;
 
 &lt;p&gt;You can buy all &lt;em&gt;kinds&lt;/em&gt; of things with cryptocurrency on OpenBazaar! It’s an open source marketplace where you can buy (and/or sell!) what you want and &lt;strong&gt;you&lt;/strong&gt; are in control—not some centralized network.&lt;/p&gt;
 
@@ -589,68 +619,4 @@ At the moment OpenBazaar users are limited to using only one cryptocurrency at a
 
 &lt;p&gt;Once your listings are all set up, make sure to find your store link on the web at &lt;a href=&quot;https://openbazaar.com&quot;&gt;openbazaar.com&lt;/a&gt; so you can share them with your audience on social media! It may take a bit for them to show up there so please be patient.&lt;/p&gt;
 
-&lt;p&gt;I hope you enjoyed this post and found it useful. This is the second in a series focused on getting the most out of your OpenBazaar store experience. Check back soon for more.&lt;/p&gt;</content><author><name></name></author><summary type="html">By Monique Boediono, OpenBazaar UX Designer</summary></entry><entry><title type="html">OpenBazaar Developer Call - September 13, 2018</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-September-30-2018/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - September 13, 2018" /><published>2018-09-14T14:30:00+00:00</published><updated>2018-09-14T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-September-30-2018</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-September-30-2018/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on September 13, 2018.&lt;/p&gt;
-
-&lt;p&gt;Want to join the call in real time? Sign up at &lt;a href=&quot;https://openbazaar.org/developers&quot;&gt;openbazaar.org/developers&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Join our ongoing conversations on Slack at &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;openbazaar.org/slack&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Browse OpenBazaar now at &lt;a href=&quot;https://openbazaar.com&quot;&gt;openbazaar.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;div class=&quot;embed-responsive embed-responsive-16by9 mb-5&quot;&gt;
-    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/Lt_3RdS30uk&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Chat log:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;[10:57] Sameep: how many mikes are there??&lt;/p&gt;
-
-&lt;p&gt;[10:58] mg (OB1): Not enough!&lt;/p&gt;
-
-&lt;p&gt;[11:04] chris.troutner: The mobile app has not been release yet, right?&lt;/p&gt;
-
-&lt;p&gt;[11:05] mg (OB1): No it hasn’t.&lt;/p&gt;
-
-&lt;p&gt;[11:07] chris.troutner: Who has been leading the charge on understanding the code that makes up an Insight server? I’d like to pick their brain offline.&lt;/p&gt;
-
-&lt;p&gt;[11:12] chris.troutner: That’s exciting. Thanks for the clarification, Josh.&lt;/p&gt;
-
-&lt;p&gt;[11:15] Moonshot: Did you consider having a server work for multiple users? Something that would allow the full server functionality to read the user data stored locally. Is that what the relay node is meant to do?&lt;/p&gt;
-
-&lt;p&gt;[11:16] Moonshot: Ok thanks.&lt;/p&gt;
-
-&lt;p&gt;[11:20] chris.troutner: @mg please keep me in the loop with that Insight testing stuff. Bitcoin.com might be able to help pool resources with OB&lt;/p&gt;
-
-&lt;p&gt;[11:21] mg (OB1): I’m not sure what pooled resources you had in mind, but we’re open to any ideas you had on that. I imagine the blog post that gets produced will have a lot of details.&lt;/p&gt;
-
-&lt;p&gt;[11:24] Rod: Speaking of Bitcoin Cash, what are some of the main barriers to getting the multi-currency support setup right now?&lt;/p&gt;
-
-&lt;p&gt;[11:26] mg (OB1): Do you mean multiple currencies simultaneously?&lt;/p&gt;
-
-&lt;p&gt;[11:27] Rod: I am talking about being able to accept multiple currencies through an individual listing right now instead of setting up separate listings&lt;/p&gt;
-
-&lt;p&gt;[11:29] chris.troutner: Do you guys know if there will be any blowback from Shapeshifts recent announcement about accounts? Will it impact the ability to pay using Shapeshift in OB?&lt;/p&gt;
-
-&lt;p&gt;[11:31] Moonshot: Does that mean the wallets for each coin need to be trusted, since you are not going to be running SPV for each one?&lt;/p&gt;
-
-&lt;p&gt;[11:34] Moonshot: If performance is the obstacle to SPV, did you consider running SPV for all coins and limiting the # of wallets a user can run simultaneously?&lt;/p&gt;
-
-&lt;p&gt;[11:35] chris.troutner: Running for SPV for all coins is not an option.&lt;/p&gt;
-
-&lt;p&gt;[11:38] chris.troutner: Thanks for the clarification, Sam. I hadn’t really used it. Was just curious.&lt;/p&gt;
-
-&lt;p&gt;[11:39] art: Any news on Monero integration?&lt;/p&gt;
-
-&lt;p&gt;[11:41] art: Cool, thanks.&lt;/p&gt;
-
-&lt;p&gt;[11:41] art: If one wanted to use OB for services, is there a tutorial?&lt;/p&gt;
-
-&lt;p&gt;[11:42] chris.troutner: Tutorials:&lt;/p&gt;
-
-&lt;p&gt;[11:43] art: Thanks!&lt;/p&gt;
-
-&lt;p&gt;[11:44] chris.troutner: Thanks!&lt;/p&gt;
-
-&lt;p&gt;[11:44] roka: thanks&lt;/p&gt;
-
-&lt;p&gt;[11:44] Jenn_OB1: Thanks everyone!&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on September 13, 2018.</summary></entry></feed>
+&lt;p&gt;I hope you enjoyed this post and found it useful. This is the second in a series focused on getting the most out of your OpenBazaar store experience. Check back soon for more.&lt;/p&gt;</content><author><name></name></author><summary type="html">By Monique Boediono, OpenBazaar UX Designer</summary></entry></feed>
