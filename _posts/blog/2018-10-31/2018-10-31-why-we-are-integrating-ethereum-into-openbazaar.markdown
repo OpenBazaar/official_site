@@ -6,7 +6,7 @@ social_title: 'Why We Are Integrating Ethereum into OpenBazaar'
 social_description: 'Why We Are Integrating Ethereum into OpenBazaar'
 ---
 
-In a previous article we explained [how we’re integrating Ethereum into OpenBazaar](https://openbazaar.org/blog/Escrow-Smart-Contract-Specification-in-OpenBazaar/). In this article we want to talk about _why_ we're integrating [Ethereum](https://www.ethereum.org/).
+In a previous article we explained [how we’re integrating Ethereum into OpenBazaar](https://openbazaar.org/blog/Escrow-Smart-Contract-Specification-in-OpenBazaar/) in addition to Bitcoin, [Bitcoin Cash](https://www.bitcoincash.org/) and [Zcash](https://z.cash/). In this article we want to talk about _why_ we're integrating [Ethereum](https://www.ethereum.org/).
 
 #### Bitcoin Beginnings
 
@@ -16,11 +16,11 @@ Then, in late 2017, bitcoin transaction fees began to rise. [A lot](https://biti
 
 #### Becoming Crypto-Inclusive
 
-We want users to be able to trade using **any cryptocurrency they desire**, without exposure to risks caused by other chains. In early 2018, in response to urgent demand from our users, we began integrating native altcoin payments into OpenBazaar. We're refactoring our codebase to make it much easier to integrate new cryptocurrencies natively. The low hanging fruit are coins that are forks of Bitcoin, as their codebases are closest to what OpenBazaar was already supporting. [Bitcoin Cash](https://www.bitcoincash.org/) and [Zcash](https://z.cash/) were the first such integrations, and [Litecoin](https://litecoin.org/) integration is almost complete.
+We want users to be able to trade using **any cryptocurrency they desire**, without exposure to risks caused by other chains. In early 2018, in response to urgent demand from our users, we began integrating native altcoin payments into OpenBazaar. We're refactoring our codebase to make it much easier to integrate new cryptocurrencies natively. The low hanging fruits are coins that are forks of Bitcoin, as their codebases are closest to what OpenBazaar was already supporting. Bitcoin Cash and Zcash were the first such integrations, and [Litecoin](https://litecoin.org/) integration is almost complete.
 
 #### Enter Ethereum
 
-A natural continuation of that effort is to integrate Ethereum. Since Ethereum doesn't share Bitcoin's codebase, it will be more challenging to integrate than forks of Bitcoin. But we think it's worth the effort because:
+A natural continuation of that effort is to integrate Ethereum. Since Ethereum doesn't share Bitcoin's codebase, it has been more challenging to integrate than forks of Bitcoin. But we think it's worth the effort because:
 
 - Ethereum has the largest community outside of Bitcoin.
 - Developer activity on Ethereum is huge and enthusiastic.
@@ -29,6 +29,8 @@ A natural continuation of that effort is to integrate Ethereum. Since Ethereum d
 Integrating **ETH** and **ERC20 payments** is a natural next-step for OpenBazaar.
 
 Beyond simple payments, **smart contracts** built on Ethereum -- with its rich Turing-complete scripting language -- may allow us to support markets that would be extremely challenging to support with Bitcoin-like script-based cryptocurrencies. Trustless auctions, DAO-based stores, insurance contracts, and affiliate marketing are just a few of the ideas we are exploring. Integrating Ethereum has the potential expand the types of products and services offered on the platform.
+
+Users won't be required to use Ethereum to use OpenBazaar, and can still stick to paying and being paid in Bitcoin or other supported cryptocurrencies.
 
 #### In Summary
 
