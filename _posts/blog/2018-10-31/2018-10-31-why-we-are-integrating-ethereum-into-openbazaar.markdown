@@ -28,10 +28,10 @@ A natural continuation of that effort is to integrate Ethereum. Since Ethereum d
   
 Integrating **ETH** and **ERC20 payments** is a natural next-step for OpenBazaar.
 
-Beyond simple payments, **smart contracts** built on Ethereum -- with its rich Turing-complete scripting language -- may allow us to support markets that would be extremely challenging to support with Bitcoin-like script-based cryptocurrencies. Trustless auctions, DAO-based stores, insurance contracts, and affiliate marketing are just a few of the ideas we are exploring. Integrating Ethereum has the potential expand the types of products and services offered on the platform.
+Beyond simple payments, **smart contracts** built on Ethereum -- with its rich Turing-complete scripting language -- may allow us to support markets that would be extremely challenging to support with Bitcoin-like script-based cryptocurrencies. Trustless auctions, DAO-based stores, insurance contracts, and affiliate marketing are just a few of the ideas we are exploring. Integrating Ethereum has the potential to expand the types of products and services offered on the platform.
 
 Users won't be required to use Ethereum to use OpenBazaar, and can still stick to paying and being paid in Bitcoin or other supported cryptocurrencies.
 
 #### In Summary
 
-In short, the landscape isn’t what is was when OpenBazaar first started. There is a rich ecosystem we cannot afford to ignore, and Ethereum is a huge part of that. We’re excited about implementing ETH and ERC20 payments, and are looking forward to working with the Ethereum community as we explore how we can leverage smart contracts in OpenBazaar.
+In short, the landscape isn’t what it was when OpenBazaar first started. There is a rich ecosystem we cannot afford to ignore, and Ethereum is a huge part of that. We’re excited about implementing ETH and ERC20 payments, and are looking forward to working with the Ethereum community as we explore how we can leverage smart contracts in OpenBazaar.
