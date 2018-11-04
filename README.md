@@ -1,5 +1,7 @@
 # This is the OpenBazaar site
 
+[![Build Status](https://travis-ci.org/OpenBazaar/official_site.svg?branch=master)](https://travis-ci.org/OpenBazaar/official_site)
+
 ## Tips
 
 ## To run site locally
