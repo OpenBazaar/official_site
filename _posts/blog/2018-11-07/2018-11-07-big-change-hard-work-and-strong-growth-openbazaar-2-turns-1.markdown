@@ -9,7 +9,7 @@ social_image: OpenBazaar_2_Turns_1.jpg
 
 _by Brian Hoffman, CEO, OB1_
 
-The years leading up to [OpenBazaar 2.0](https://openbazaar.org/blog/openbazaar-20-is-live/) went by in a flash, it seems, culminating in our best and most capable software release ever this month last year. Since then it’s been a whirlwind of development milestones, bug fixes, crypto political drama and flying all over the world to promote the good word of private, free trade for everyone. 
+The years leading up to [OpenBazaar 2.0](https://openbazaar.org/blog/openbazaar-20-is-live/) went by in a flash, it seems, culminating in our best and most capable software release ever this month last year. Since then it’s been a whirlwind of development milestones, bug fixes, crypto political drama, and flying all over the world to promote the benefits of private, free trade for everyone. 
 
 ![OpenBazaar 2 Turns 1](OpenBazaar_2_Turns_1.jpg "OpenBazaar 2 Turns 1")
 
