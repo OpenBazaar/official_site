@@ -7,11 +7,11 @@ social_description: 'Big Change, Hard Work and Strong Growth—OpenBazaar 2 Turn
 social_image: OpenBazaar_2_Turns_1.jpg
 ---
 
-![OpenBazaar 2 Turns 1](OpenBazaar_2_Turns_1.jpg "OpenBazaar 2 Turns 1")
-
 _by Brian Hoffman, CEO, OB1_
 
 The years leading up to [OpenBazaar 2.0](https://openbazaar.org/blog/openbazaar-20-is-live/) went by in a flash, it seems, culminating in our best and most capable software release ever this month last year. Since then it’s been a whirlwind of development milestones, bug fixes, crypto political drama and flying all over the world to promote the good word of private, free trade for everyone. 
+
+![OpenBazaar 2 Turns 1](OpenBazaar_2_Turns_1.jpg "OpenBazaar 2 Turns 1")
 
 > Over 100,000 users have experienced the power of **OpenBazaar 2.0** since it launched and it keeps growing bigger and stronger. All of our hard work continues to drive us collectively toward a better future for crypto users.
 
