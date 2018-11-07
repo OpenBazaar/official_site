@@ -6,6 +6,7 @@ social_title: 'Big Change, Hard Work and Strong Growth—OpenBazaar 2 Turns 1'
 social_description: 'Big Change, Hard Work and Strong Growth—OpenBazaar 2 Turns 1'
 social_image: OpenBazaar_2_Turns_1.jpg
 ---
+
 ![OpenBazaar 2 Turns 1](OpenBazaar_2_Turns_1.jpg "OpenBazaar 2 Turns 1")
 
 _by Brian Hoffman, CEO, OB1_
