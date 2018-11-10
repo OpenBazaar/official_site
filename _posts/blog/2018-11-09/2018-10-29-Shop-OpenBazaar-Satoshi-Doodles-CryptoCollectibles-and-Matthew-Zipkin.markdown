@@ -4,7 +4,7 @@ layout: post
 date: '2018-11-09 06:30:00 -0300'
 social_title: 'Shop OpenBazaar - Pascal Boyart, DropShip IO and Boston Zcash Users Group'
 social_description: 'Want to know what you can buy with Bitcoin? (Or Bitcoin Cash, or Zcash?) All kinds of things on OpenBazaar! OpenBazaar is a marketplace where you can buy and sell what you want and connect to people all around the world who are using cryptocurrencies like Bitcoin.'
-social_image: 
+social_image: Pascal_Boyart_on_OpenBazaar.png
 ---
 
 Want to do more with your cryptocurrencies like [Bitcoin](https://bitcoin.org/), [Bitcoin Cash](https://www.bitcoincash.org/), or [Zcash](https://z.cash/)? Check out these stores featuring each of these payment types!
