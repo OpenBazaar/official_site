@@ -3,7 +3,7 @@ title: "Shop OpenBazaar - <span class='post-title-extra'>Pascal Boyart, DropShip
 layout: post
 date: '2018-11-11 06:30:00 -0300'
 social_title: 'Shop OpenBazaar - Pascal Boyart, DropShip IO and Boston Zcash Users Group'
-social_description: 'Want to know what you can buy with Bitcoin? (Or Bitcoin Cash, or Zcash?) All kinds of things on OpenBazaar! OpenBazaar is a marketplace where you can buy and sell what you want and connect to people all around the world who are using cryptocurrencies like Bitcoin.'
+social_description: 'Want to know what you can buy with Bitcoin, Bitcoin Cash, or Zcash? All kinds of things on OpenBazaar! OpenBazaar is a marketplace where you can buy and sell what you want and connect to people all around the world who are using cryptocurrencies like Bitcoin.'
 social_image: Pascal_Boyart_on_OpenBazaar.png
 ---
 
