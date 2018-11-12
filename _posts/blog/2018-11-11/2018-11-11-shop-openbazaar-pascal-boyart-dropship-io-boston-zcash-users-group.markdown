@@ -21,6 +21,8 @@ _Bitcoin (BTC)_
 <br>  
 <br>  
 Pascal Boyart is an accomplished fine artist based in Paris. He began as a graffiti artist but now produces a wide range of art styles. Many of the pieces he has featured on OpenBazaar focus on cryptocurrency and crypto-culture. Read more of his amazing story on his [About page](https://openbazaar.com/store/home/QmYTXDyMNjdUSvqNc88T2VeVF3KdG7PMefnGQKrp9NZ5Tp).
+
+**BONUS:** For a limited time he's offering [a 10% reduction](https://www.reddit.com/r/OpenBazaar/comments/9vm6ou/weekly_spotlight_share_your_openbazaar_stores/e9f00mz/) on the limited edition prints Crypto Anarchist Manifesto and WhitePaper French version. Use coupon code: BTCARTREVOLUTION
 <br>  
 <br>  
 #### DropShip I/O
