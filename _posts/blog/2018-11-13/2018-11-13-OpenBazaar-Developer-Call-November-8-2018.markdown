@@ -10,7 +10,7 @@ This is a video recording of the OpenBazaar Developer call on November 8, 2018.
 
 Want to join the call in real time? Sign up at [openbazaar.org/developers](https://openbazaar.org/developers)
 
-Join our ongoing conversations on Slack at [openbazaar.org/slack](https://openbazaar.org/slack)
+Join our ongoing conversations on [Slack](https://openbazaar.org/slack)
 
 Browse OpenBazaar now at [openbazaar.com](https://openbazaar.com)
 
