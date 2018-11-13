@@ -1,4 +1,56 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-11-12T18:08:04+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">Shop OpenBazaar - Pascal Boyart, DropShip IO and Boston Zcash Users Group</title><link href="https://openbazaar.org/blog/shop-openbazaar-pascal-boyart-dropship-io-boston-zcash-users-group/" rel="alternate" type="text/html" title="Shop OpenBazaar - &lt;span class='post-title-extra'&gt;Pascal Boyart, DropShip IO and Boston Zcash Users Group&lt;/span&gt;" /><published>2018-11-11T09:30:00+00:00</published><updated>2018-11-11T09:30:00+00:00</updated><id>https://openbazaar.org/blog/shop-openbazaar-pascal-boyart-dropship-io-boston-zcash-users-group</id><content type="html" xml:base="https://openbazaar.org/blog/shop-openbazaar-pascal-boyart-dropship-io-boston-zcash-users-group/">&lt;p&gt;Bring your cryptocoins and digital currency to OpenBazaar to shop, sell or trade with people from around the world. This is a bitcoin marketplace that expanded to become a &lt;em&gt;cryptocurrency&lt;/em&gt; marketplace where you can buy and sell what you want — &lt;em&gt;and&lt;/em&gt; pay how you want.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-11-13T20:07:08+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">OpenBazaar Developer Call - November 8, 2018</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-November-8-2018/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - November 8, 2018" /><published>2018-11-13T14:30:00+00:00</published><updated>2018-11-13T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-November-8-2018</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-November-8-2018/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on November 8, 2018.&lt;/p&gt;
+
+&lt;p&gt;Want to join the call in real time? Sign up at &lt;a href=&quot;https://openbazaar.org/developers&quot;&gt;openbazaar.org/developers&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Join our ongoing conversations on Slack at &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;openbazaar.org/slack&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Browse OpenBazaar now at &lt;a href=&quot;https://openbazaar.com&quot;&gt;openbazaar.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;embed-responsive embed-responsive-16by9 mb-5&quot;&gt;
+    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/OlgcS_k_Oa0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Chat log:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;[09:59] mg: Hi kornilov. :)&lt;/p&gt;
+
+&lt;p&gt;[10:00] mg: Heard you learned how to feed chickens over the internet with magic internet money.&lt;/p&gt;
+
+&lt;p&gt;[10:00] kornilov: Hi developers and Jenn. :)&lt;/p&gt;
+
+&lt;p&gt;[10:02] kornilov: Yes, I have learned to make ethereum testnet token - korncoin ;)&lt;/p&gt;
+
+&lt;p&gt;[10:02] mg: I was unaware of that! I was talking about the &lt;a href=&quot;https://www.twitch.tv/redpepper261&quot;&gt;BCH chicken feeder/webcam&lt;/a&gt;. :)&lt;/p&gt;
+
+&lt;p&gt;[10:04] kornilov: Oh, that is supposed to be a secret project available only for NSA. ;)&lt;/p&gt;
+
+&lt;p&gt;[10:04] mg: Haha… I’ll make sure to keep my lips sealed. :X&lt;/p&gt;
+
+&lt;p&gt;[10:10] joshj: One minor clarification, ETH uses Infura, not Insight.&lt;/p&gt;
+
+&lt;p&gt;[10:19] chris.troutner: 18!? That’s fantastic.&lt;/p&gt;
+
+&lt;p&gt;[10:20] Rod: Is there a general timeline/estimate for when 2.3 will be released?&lt;/p&gt;
+
+&lt;p&gt;[10:22] kornilov: How many fulltime employed developers OB has?&lt;/p&gt;
+
+&lt;p&gt;[10:22] kornilov: very nice!&lt;/p&gt;
+
+&lt;p&gt;[10:23] Rod: Have there been any updates for downloading offline messages quicker in the current client?&lt;/p&gt;
+
+&lt;p&gt;[10:23] Rod: I have done some prototypes for putting together OB features in the browser and the amount of time it takes&lt;/p&gt;
+
+&lt;p&gt;[10:26] chris.troutner: Sorry about that. My connection is sketchy.&lt;/p&gt;
+
+&lt;p&gt;[10:26] Rod: I did some testing with doing full IPNS crawl on a shorter interval and did not see any significant increase in resources used. Do you know if there is a specific reason the crawl speed is at the current speed it is&lt;/p&gt;
+
+&lt;p&gt;[10:26] Rod: I can follow up on slack later if needed&lt;/p&gt;
+
+&lt;p&gt;[10:27] chris.troutner: I just wanted to say congrats on the Hacktoberfest results.&lt;/p&gt;
+
+&lt;p&gt;[10:28] Rod: Alright thank you Chris&lt;/p&gt;
+
+&lt;p&gt;[10:28] chris.troutner: If OB wants to investigate BCH token integration (Wormhole or SLP), perhaps we could use it as an opportunity to incentivize community developers through swag and bounties, like gitcash.io or Gitcoin.&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on November 8, 2018.</summary></entry><entry><title type="html">Shop OpenBazaar - Pascal Boyart, DropShip IO and Boston Zcash Users Group</title><link href="https://openbazaar.org/blog/shop-openbazaar-pascal-boyart-dropship-io-boston-zcash-users-group/" rel="alternate" type="text/html" title="Shop OpenBazaar - &lt;span class='post-title-extra'&gt;Pascal Boyart, DropShip IO and Boston Zcash Users Group&lt;/span&gt;" /><published>2018-11-11T09:30:00+00:00</published><updated>2018-11-11T09:30:00+00:00</updated><id>https://openbazaar.org/blog/shop-openbazaar-pascal-boyart-dropship-io-boston-zcash-users-group</id><content type="html" xml:base="https://openbazaar.org/blog/shop-openbazaar-pascal-boyart-dropship-io-boston-zcash-users-group/">&lt;p&gt;Bring your cryptocoins and digital currency to OpenBazaar to shop, sell or trade with people from around the world. This is a bitcoin marketplace that expanded to become a &lt;em&gt;cryptocurrency&lt;/em&gt; marketplace where you can buy and sell what you want — &lt;em&gt;and&lt;/em&gt; pay how you want.&lt;/p&gt;
 
 &lt;p&gt;Check out these stores featuring each of the different payment coins now available on OpenBazaar: &lt;a href=&quot;https://bitcoin.org/&quot;&gt;Bitcoin&lt;/a&gt;, &lt;a href=&quot;https://www.bitcoincash.org/&quot;&gt;Bitcoin Cash&lt;/a&gt;, or &lt;a href=&quot;https://z.cash/&quot;&gt;Zcash&lt;/a&gt;&lt;/p&gt;
 
@@ -275,7 +327,7 @@ Matthew Zipkin is another longtime friend to the OpenBazaar community and he has
 
 &lt;p&gt;Want to join the call in real time? Sign up at &lt;a href=&quot;https://openbazaar.org/developers&quot;&gt;openbazaar.org/developers&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Join our ongoing conversations on Slack at &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;openbazaar.org/slack&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Join our ongoing conversations on &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Browse OpenBazaar now at &lt;a href=&quot;https://openbazaar.com&quot;&gt;openbazaar.com&lt;/a&gt;&lt;/p&gt;
 
@@ -424,71 +476,4 @@ At the moment OpenBazaar users are limited to using only one cryptocurrency at a
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Get involved with our community on &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt; and &lt;a href=&quot;https://reddit.com/r/openbazaar&quot;&gt;Reddit&lt;/a&gt; and make even a small purchase on OpenBazaar today to see what you think! If you’re not sure where to start, you can check out the official OpenBazaar stores—&lt;a href=&quot;https://openbazaar.com/store/QmcUDmZK8PsPYWw5FRHKNZFjszm2K6e68BQSTpnJYUsML7&quot;&gt;BTC Store&lt;/a&gt; and &lt;a href=&quot;https://openbazaar.com/store/QmSkkZpNFzWubxE4p9Ejjo2CLqq61jxuRF26ZzCmCKaHcJ&quot;&gt;BCH Store&lt;/a&gt; and make a small donation or score some great OpenBazaar gear!&lt;/p&gt;</content><author><name></name></author><summary type="html">This tutorial will explain how to purchase cryptocurrencies on OpenBazaar, a decentralized marketplace which never has platform fees and doesn’t require registering an account. You’ll learn how to buy cryptocurrency with a different cryptocurrency, such as Bitcoin. At the moment OpenBazaar doesn’t support people buying cryptocurrency with regular fiat money such as US Dollars or Euros, though it’s a feature that will hopefully be supported in the future.</summary></entry><entry><title type="html">4 Reasons Why You Should Shop with Cryptocurrency</title><link href="https://openbazaar.org/blog/4-reasons-why-you-should-shop-with-cryptocurrency/" rel="alternate" type="text/html" title="4 Reasons Why You Should &lt;span class='post-title-extra'&gt;Shop with Cryptocurrency&lt;/span&gt;" /><published>2018-10-04T09:30:00+00:00</published><updated>2018-10-04T09:30:00+00:00</updated><id>https://openbazaar.org/blog/4-reasons-why-you-should-shop-with-cryptocurrency</id><content type="html" xml:base="https://openbazaar.org/blog/4-reasons-why-you-should-shop-with-cryptocurrency/">&lt;p&gt;Can cryptocurrency &lt;em&gt;really&lt;/em&gt; be used as a “currency?” Is it something we should spend on everyday goods and services? What about when the price shoots up and we know how valuable it can be if we hodl it?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Here’s a broad definition of a currency:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Something (such as coins, treasury notes, and banknotes) that is in circulation as a medium of exchange.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;A currency can be anything that multiple people agree has value and they’re willing to exchange for other things, such as goods or services.&lt;/p&gt;
-
-&lt;p&gt;For example, how do you know that a t-shirt is worth $20? It’s because that’s a generally accepted market price, which leads to you and a specific vendor trading a shirt for $20.&lt;/p&gt;
-
-&lt;h4 id=&quot;do-cryptocurrencies-have-value-we-can-measure&quot;&gt;Do cryptocurrencies have value we can measure?&lt;/h4&gt;
-
-&lt;p&gt;Yes, cryptocurrencies that are traded on exchanges have value measured next to national currencies so you can track their value at any given time. They also have value on their own, but due to their newness most people make sense of cryptocurrency values in terms of other existing currencies. For now it’s still easier to understand what exchanging $20 for a t-shirt means rather than “0.0031 BTC.”&lt;/p&gt;
-
-&lt;p&gt;Here are &lt;strong&gt;4 reasons why you should buy things with your cryptocurrency!&lt;/strong&gt;
-&lt;br /&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-&lt;h3 id=&quot;1-its-easy-with-openbazaar&quot;&gt;1. It’s easy with OpenBazaar&lt;/h3&gt;
-
-&lt;p&gt;It’s now easier than ever to discover things you’d like to buy with the brand new browsing website at &lt;a href=&quot;https://openbazaar.com&quot;&gt;openbazaar.com&lt;/a&gt;. When you’re ready to buy, just download &amp;amp; set up your own node in less than a minute.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;Download OpenBazaar Now.gif&quot; alt=&quot;Download OpenBazaar Now&quot; title=&quot;Download OpenBazaar Now&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;2-there-are-thousands-of-great-items--services-available&quot;&gt;2. There are thousands of great items &amp;amp; services available&lt;/h3&gt;
-
-&lt;p&gt;On OpenBazaar you can use your cryptocurrency to shop at great stores like these:
-&lt;br /&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;br /&gt;
-&lt;img src=&quot;Casa Store on OpenBazaar.png&quot; alt=&quot;Casa Store on OpenBazaar&quot; title=&quot;Casa Store on OpenBazaar&quot; /&gt;
-&lt;a href=&quot;https://openbazaar.com/store/Qmd9hFFuueFrSR7YwUuAfirXXJ7ANZAMc5sx4HFxn7mPkc&quot;&gt;Casa Store on OpenBazaar&lt;/a&gt;
-&lt;br /&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;br /&gt;
-&lt;img src=&quot;Matthew Zipkin Store on OpenBazaar.png&quot; alt=&quot;Matthew Zipkin Store on OpenBazaar&quot; title=&quot;Matthew Zipkin Store on OpenBazaar&quot; /&gt;
-&lt;a href=&quot;https://openbazaar.com/store/QmeSyTRaNZMD8ajcfbhC8eYibWgnSZtSGUp3Vn59bCnPWC&quot;&gt;Matthew Zipkin Store on OpenBazaar&lt;/a&gt;
-&lt;br /&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;br /&gt;
-&lt;img src=&quot;The Queendoms of Plameo on OpenBazaar.png&quot; alt=&quot;The Queendoms of Plameo on OpenBazaar&quot; title=&quot;The Queendoms of Plameo on OpenBazaar&quot; /&gt;
-&lt;a href=&quot;https://openbazaar.com/store/QmaNKgLff6gqs5tSFxbsKhuGrLwhAW74MMUuoLeTNgPmnp&quot;&gt;The Queendoms of Plameo on OpenBazaar&lt;/a&gt;
-&lt;br /&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Visit stores from around the world&lt;/strong&gt; where people just like you, who believe in the power of cryptocurrency, are working on their entrepreneurial hustle. Some people are selling on OpenBazaar because they don’t have access to other online marketplaces due to the cost of participating or restrictions based on their location. Some users are also on OpenBazaar because their products are very fringe or niche such as religious objects or political items. It’s exciting to see how a decentralized marketplace can connect all types of people!
-&lt;br /&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-&lt;h3 id=&quot;3-protect-your-privacy-by-using-cryptocurrency&quot;&gt;3. Protect your privacy by using cryptocurrency&lt;/h3&gt;
-
-&lt;p&gt;Each time you buy something on a large e-commerce platform with a credit card you are forced to share your personal data with multiple companies, who then add this data into a profile they’ve built about you.&lt;/p&gt;
-
-&lt;p&gt;While cryptocurrencies don’t offer complete privacy, they are more private than credit cards. By purchasing on a platform like OpenBazaar &lt;strong&gt;you never share personal data with a centralized platform&lt;/strong&gt;, only with the vendor you are purchasing a physical item from. If you purchase digital goods or services you aren’t forced to give any personal information at all.
-&lt;br /&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-&lt;h3 id=&quot;4-help-build-the-future-you-want-to-see&quot;&gt;4. Help build the future you want to see&lt;/h3&gt;
-
-&lt;p&gt;We have seen ups and downs with the cryptocurrency market but we’re not in this because of the speculation frenzy. We’re in this because it is the ground floor of a huge technological revolution.&lt;/p&gt;
-
-&lt;p&gt;Crypto-commerce still has a way to go but we don’t get to the future we believe in by waiting—we get there by doing. The OpenBazaar development team believes this and built this decentralized marketplace specifically to utilize the special qualities of cryptocurrencies like Bitcoin.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;The bottom line is we like cryptocurrency and we want to see it put to work.&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Wouldn’t you like to use money that lets you be in control of it? Money with values set by markets around the world, not exclusively by too-big-to-fail banks and questionable governments?&lt;/p&gt;
-
-&lt;p&gt;People who are buying and selling on OpenBazaar &lt;strong&gt;believe in using cryptocurrencies AS currencies&lt;/strong&gt; to exchange for goods and services they need or want. If you believe this too, then OpenBazaar is a great place for you.&lt;/p&gt;
-
-&lt;p&gt;Get involved with our community on &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt; and &lt;a href=&quot;https://reddit.com/r/openbazaar&quot;&gt;Reddit&lt;/a&gt; and make even a small purchase on OpenBazaar today to see what you think! If you’re not sure where to start, you can check out the official OpenBazaar stores—&lt;a href=&quot;https://openbazaar.com/store/QmcUDmZK8PsPYWw5FRHKNZFjszm2K6e68BQSTpnJYUsML7&quot;&gt;BTC Store&lt;/a&gt; and &lt;a href=&quot;https://openbazaar.com/store/QmSkkZpNFzWubxE4p9Ejjo2CLqq61jxuRF26ZzCmCKaHcJ&quot;&gt;BCH Store&lt;/a&gt; and make a small donation or score some great OpenBazaar gear!&lt;/p&gt;</content><author><name></name></author><summary type="html">Can cryptocurrency really be used as a “currency?” Is it something we should spend on everyday goods and services? What about when the price shoots up and we know how valuable it can be if we hodl it?</summary></entry></feed>
+&lt;p&gt;Get involved with our community on &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt; and &lt;a href=&quot;https://reddit.com/r/openbazaar&quot;&gt;Reddit&lt;/a&gt; and make even a small purchase on OpenBazaar today to see what you think! If you’re not sure where to start, you can check out the official OpenBazaar stores—&lt;a href=&quot;https://openbazaar.com/store/QmcUDmZK8PsPYWw5FRHKNZFjszm2K6e68BQSTpnJYUsML7&quot;&gt;BTC Store&lt;/a&gt; and &lt;a href=&quot;https://openbazaar.com/store/QmSkkZpNFzWubxE4p9Ejjo2CLqq61jxuRF26ZzCmCKaHcJ&quot;&gt;BCH Store&lt;/a&gt; and make a small donation or score some great OpenBazaar gear!&lt;/p&gt;</content><author><name></name></author><summary type="html">This tutorial will explain how to purchase cryptocurrencies on OpenBazaar, a decentralized marketplace which never has platform fees and doesn’t require registering an account. You’ll learn how to buy cryptocurrency with a different cryptocurrency, such as Bitcoin. At the moment OpenBazaar doesn’t support people buying cryptocurrency with regular fiat money such as US Dollars or Euros, though it’s a feature that will hopefully be supported in the future.</summary></entry></feed>
