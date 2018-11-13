@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-11-13T20:07:08+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">OpenBazaar Developer Call - November 8, 2018</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-November-8-2018/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - November 8, 2018" /><published>2018-11-13T14:30:00+00:00</published><updated>2018-11-13T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-November-8-2018</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-November-8-2018/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on November 8, 2018.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-11-13T23:17:33+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">OpenBazaar Developer Call - November 8, 2018</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-November-8-2018/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - November 8, 2018" /><published>2018-11-13T14:30:00+00:00</published><updated>2018-11-13T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-November-8-2018</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-November-8-2018/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on November 8, 2018.&lt;/p&gt;
 
 &lt;p&gt;Want to join the call in real time? Sign up at &lt;a href=&quot;https://openbazaar.org/developers&quot;&gt;openbazaar.org/developers&lt;/a&gt;&lt;/p&gt;
 
@@ -50,7 +50,33 @@
 
 &lt;p&gt;[10:28] Rod: Alright thank you Chris&lt;/p&gt;
 
-&lt;p&gt;[10:28] chris.troutner: If OB wants to investigate BCH token integration (Wormhole or SLP), perhaps we could use it as an opportunity to incentivize community developers through swag and bounties, like gitcash.io or Gitcoin.&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on November 8, 2018.</summary></entry><entry><title type="html">Shop OpenBazaar - Pascal Boyart, DropShip IO and Boston Zcash Users Group</title><link href="https://openbazaar.org/blog/shop-openbazaar-pascal-boyart-dropship-io-boston-zcash-users-group/" rel="alternate" type="text/html" title="Shop OpenBazaar - &lt;span class='post-title-extra'&gt;Pascal Boyart, DropShip IO and Boston Zcash Users Group&lt;/span&gt;" /><published>2018-11-11T09:30:00+00:00</published><updated>2018-11-11T09:30:00+00:00</updated><id>https://openbazaar.org/blog/shop-openbazaar-pascal-boyart-dropship-io-boston-zcash-users-group</id><content type="html" xml:base="https://openbazaar.org/blog/shop-openbazaar-pascal-boyart-dropship-io-boston-zcash-users-group/">&lt;p&gt;Bring your cryptocoins and digital currency to OpenBazaar to shop, sell or trade with people from around the world. This is a bitcoin marketplace that expanded to become a &lt;em&gt;cryptocurrency&lt;/em&gt; marketplace where you can buy and sell what you want — &lt;em&gt;and&lt;/em&gt; pay how you want.&lt;/p&gt;
+&lt;p&gt;[10:28] chris.troutner: If OB wants to investigate BCH token integration (Wormhole or SLP), perhaps we could use it as an opportunity to incentivize community developers through swag and bounties, like gitcash.io or Gitcoin.&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on November 8, 2018.</summary></entry><entry><title type="html">How Will The BCH Hard Fork Affect OpenBazaar?</title><link href="https://openbazaar.org/blog/how-will-the-bch-hard-fork-on-nov-15-affect-openbazaar/" rel="alternate" type="text/html" title="How Will The &lt;span class='post-title-extra'&gt;BCH Hard Fork&lt;/span&gt; Affect OpenBazaar?" /><published>2018-11-12T09:30:00+00:00</published><updated>2018-11-12T09:30:00+00:00</updated><id>https://openbazaar.org/blog/how-will-the-bch-hard-fork-on-nov-15-affect-openbazaar</id><content type="html" xml:base="https://openbazaar.org/blog/how-will-the-bch-hard-fork-on-nov-15-affect-openbazaar/">&lt;h4 id=&quot;whats-happening-with-bitcoin-cash&quot;&gt;What’s Happening with Bitcoin Cash?&lt;/h4&gt;
+
+&lt;p&gt;There is a &lt;a href=&quot;https://www.bitcoincash.org/&quot;&gt;Bitcoin Cash&lt;/a&gt; network upgrade beginning at 4:40PM UTC on November 15th, 2018. Depending on how the upgrade is accepted by the network, the Bitcoin Cash blockchain could fork into two or more incompatible chains.&lt;/p&gt;
+
+&lt;p&gt;It’s important to note that transacting is dangerous during a hard fork like this unless it’s between addresses you entirely control. If you transact BCH to an address you don’t control you could lose access to your coins on other forks.&lt;/p&gt;
+
+&lt;p&gt;In order to help OpenBazaar users prepare for the hard fork, here is some information about the OpenBazaar wallet that can help you decide how to handle any BCH you may have stored there.&lt;/p&gt;
+
+&lt;h4 id=&quot;how-will-the-bitcoin-cash-upgrade-affect-my-openbazaar-funds&quot;&gt;How Will The Bitcoin Cash Upgrade Affect My OpenBazaar Funds?&lt;/h4&gt;
+
+&lt;p&gt;Users of &lt;strong&gt;OpenBazaar 2.2.5 and prior&lt;/strong&gt; who have an active BCH wallet are using a local SPV-based wallet. &lt;a href=&quot;https://bitcoin.org/en/glossary/simplified-payment-verification&quot;&gt;SPV wallets&lt;/a&gt; are designed to follow the chain that has the most cumulative proof-of-work according to the existing Bitcoin Cash difficulty rules. The SPV wallet in OpenBazaar will follow the longest chain served by the peers it’s able to connect to. We advise that you withdraw your BCH from your OpenBazaar wallet until the chains settle.&lt;/p&gt;
+
+&lt;h4 id=&quot;withdraw-your-bch-to-electron&quot;&gt;Withdraw Your BCH to Electron&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Users of an OpenBazaar wallet control their funds by having sole access to their keys. The wallet maintains its keys and seed locally on your computer which you can &lt;a href=&quot;https://openbazaar.zendesk.com/hc/en-us/articles/115002892791-How-do-I-backup-my-OpenBazaar-wallet-&quot;&gt;backup to a safe location using these steps&lt;/a&gt;. Then, import your seed into a &lt;strong&gt;BIP39-compatible wallet&lt;/strong&gt; (such as &lt;a href=&quot;https://electroncash.org/&quot;&gt;Electron Cash&lt;/a&gt; ) to keep your funds safe through the fork.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://ob1.io&quot;&gt;OB1&lt;/a&gt; team will continue to observe the network upgrade and will take further actions as necessary to ensure the safety of our users’ funds at rest within the OpenBazaar wallet.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-should-i-do-next&quot;&gt;What Should I Do Next?&lt;/h4&gt;
+
+&lt;p&gt;For the next few weeks, make sure you have the keys to your OpenBazaar wallet stored somewhere safe as complications may arise. When things settle it is entirely your choice what you do with your coins, but we also recommend being cautious of a chain with hash power of 50% or more controlled by one entity.&lt;/p&gt;
+
+&lt;h4 id=&quot;in-conclusion&quot;&gt;In Conclusion&lt;/h4&gt;
+
+&lt;p&gt;OpenBazaar is a private, open-source marketplace powered by cryptocurrency that is making trade free for everyone, everywhere. The development team at OB1 is committed to building a secure and reliable transactional envirnoment for users around the world. We do our best to ensure that you have the knowledge you need to make the best decisions for you and your coins. If you have questions please join us on &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt; to chat with our development team and active community.&lt;/p&gt;</content><author><name></name></author><summary type="html">What’s Happening with Bitcoin Cash?</summary></entry><entry><title type="html">Shop OpenBazaar - Pascal Boyart, DropShip IO and Boston Zcash Users Group</title><link href="https://openbazaar.org/blog/shop-openbazaar-pascal-boyart-dropship-io-boston-zcash-users-group/" rel="alternate" type="text/html" title="Shop OpenBazaar - &lt;span class='post-title-extra'&gt;Pascal Boyart, DropShip IO and Boston Zcash Users Group&lt;/span&gt;" /><published>2018-11-11T09:30:00+00:00</published><updated>2018-11-11T09:30:00+00:00</updated><id>https://openbazaar.org/blog/shop-openbazaar-pascal-boyart-dropship-io-boston-zcash-users-group</id><content type="html" xml:base="https://openbazaar.org/blog/shop-openbazaar-pascal-boyart-dropship-io-boston-zcash-users-group/">&lt;p&gt;Bring your cryptocoins and digital currency to OpenBazaar to shop, sell or trade with people from around the world. This is a bitcoin marketplace that expanded to become a &lt;em&gt;cryptocurrency&lt;/em&gt; marketplace where you can buy and sell what you want — &lt;em&gt;and&lt;/em&gt; pay how you want.&lt;/p&gt;
 
 &lt;p&gt;Check out these stores featuring each of the different payment coins now available on OpenBazaar: &lt;a href=&quot;https://bitcoin.org/&quot;&gt;Bitcoin&lt;/a&gt;, &lt;a href=&quot;https://www.bitcoincash.org/&quot;&gt;Bitcoin Cash&lt;/a&gt;, or &lt;a href=&quot;https://z.cash/&quot;&gt;Zcash&lt;/a&gt;&lt;/p&gt;
 
@@ -401,79 +427,4 @@ Spend your Bitcoin Cash on some great items from apparel to video games at Crypt
 
 &lt;p&gt;&lt;strong&gt;Like what you see?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Check out these stores and so many more on the brand new browsing website, &lt;a href=&quot;https://openbazaar.com&quot;&gt;openbazaar.com&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Want to know what you can buy with Bitcoin? (Or Bitcoin Cash, or Zcash?)</summary></entry><entry><title type="html">How to Buy Cryptocurrencies Privately with no Fees</title><link href="https://openbazaar.org/blog/how-to-buy-cryptocurrencies-privately-with-no-fees/" rel="alternate" type="text/html" title="How to Buy Cryptocurrencies &lt;span class='post-title-extra'&gt;Privately with no Fees&lt;/span&gt;" /><published>2018-10-10T09:30:00+00:00</published><updated>2018-10-10T09:30:00+00:00</updated><id>https://openbazaar.org/blog/how-to-buy-cryptocurrencies-privately-with-no-fees</id><content type="html" xml:base="https://openbazaar.org/blog/how-to-buy-cryptocurrencies-privately-with-no-fees/">&lt;p&gt;This tutorial will explain how to purchase cryptocurrencies on OpenBazaar, a decentralized marketplace which never has platform fees and doesn’t require registering an account. You’ll learn how to buy cryptocurrency with a different cryptocurrency, such as Bitcoin. At the moment OpenBazaar doesn’t support people buying cryptocurrency with regular fiat money such as US Dollars or Euros, though it’s a feature that will hopefully be supported in the future.&lt;/p&gt;
-
-&lt;p&gt;Here’s a video tutorial explaining the process:&lt;/p&gt;
-
-&lt;div class=&quot;embed-responsive embed-responsive-16by9 mb-5&quot;&gt;
-    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/q6ki3_1Io-U&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;step-1-download-openbazaar&quot;&gt;Step #1: Download OpenBazaar&lt;/h2&gt;
-
-&lt;p&gt;Visit &lt;a href=&quot;https://openbazaar.org/download&quot;&gt;OpenBazaar.org&lt;/a&gt; and click on the installer link for your operating system. Once the installer file is downloaded, open the file and it will begin the process of installing OpenBazaar.
-&lt;br /&gt;&lt;/p&gt;
-&lt;h2 id=&quot;step-2-select-cryptocurrency&quot;&gt;Step #2: Select cryptocurrency&lt;/h2&gt;
-
-&lt;p&gt;You will be asked which cryptocurrency you want to use. This is the cryptocurrency that you will pay with as a buyer, or receive as a seller. This is not the currency that you wish to purchase.
-&lt;br /&gt;&lt;br /&gt;
-&lt;img src=&quot;selectingcurrency.gif&quot; alt=&quot;Select Purchasing Cryptocurrency&quot; title=&quot;Select Purchasing Cryptocurrency&quot; /&gt;
-&lt;br /&gt;&lt;br /&gt;
-At the moment OpenBazaar users are limited to using only one cryptocurrency at a time, and can only choose BTC, BCH, or ZEC. However in the near future users will be able to use multiple currencies at the same time, and will have LTC, ETH, and other coins available to use.
-&lt;br /&gt;&lt;/p&gt;
-&lt;h2 id=&quot;step-3-complete-onboarding&quot;&gt;Step #3: Complete Onboarding&lt;/h2&gt;
-
-&lt;p&gt;Go through the onboarding process and enter whatever information you choose. If you want to remain private then keep the randomly generated name assigned to you. Choose the currency you want to have prices displayed in; you’ll want this to be the currency that you most commonly use so that the prices of goods and services are familiar to you.&lt;/p&gt;
-
-&lt;p&gt;Read the terms of service, and if you agree then accept them.
-&lt;br /&gt;&lt;br /&gt;
-&lt;img src=&quot;onboarding.gif&quot; alt=&quot;Complete Onboarding&quot; title=&quot;Complete Onboarding&quot; /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;step-4-search-for-cryptocurrency-listings&quot;&gt;Step #4: Search for cryptocurrency listings&lt;/h2&gt;
-
-&lt;p&gt;You’re now up and running on OpenBazaar, so let’s find some cryptocurrency listings. Click the “Discover” button on the top right of the client (the blue tent). After selecting a search provider, you’ll now see lots of listings on the network. To filter down to only cryptocurrency offerings, use the search provider’s filters on the left. You’ll now see a list of cryptocurrencies for sale. Find what you want and click on the listing to view it.
-&lt;br /&gt;&lt;br /&gt;
-&lt;img src=&quot;searchcurrency.gif&quot; alt=&quot;Search for Cryptocurrency&quot; title=&quot;Search for Cryptocurrency&quot; /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;step-5-buy-the-cryptocurrency&quot;&gt;Step #5: Buy the cryptocurrency&lt;/h2&gt;
-
-&lt;p&gt;It’s recommended that you find a vendor who has a “Verified Moderator” on their listings. This means you will be able to choose escrow from a reputable third party. You can tell if they offer a verified moderator by looking for a little orange badge underneath the seller’s name.&lt;/p&gt;
-
-&lt;p&gt;Now that you’ve found some crypto you want to buy, click the “Trade now” button to start the checkout process. You’ll need to enter a receiving address for the funds you’re buying. As in the example below, if you’re buying Decred then you’ll need to put in a Decred address that you control where the seller will send the cryptocurrency you buy.&lt;/p&gt;
-
-&lt;p&gt;Then choose payment type. Unless you fully trust the vendor, you should use a moderated payment with a verified moderator. Enter the amount you wish to buy, then review your order and click “Pay.” You’ll now see the payment screen.
-&lt;br /&gt;&lt;br /&gt;
-&lt;img src=&quot;examplepurchase.gif&quot; alt=&quot;Buy the Cryptocurrency&quot; title=&quot;Buy the Cryptocurrency&quot; /&gt;
-&lt;br /&gt;&lt;/p&gt;
-&lt;h2 id=&quot;step-6-send-payment&quot;&gt;Step #6: Send Payment&lt;/h2&gt;
-
-&lt;p&gt;Once you’ve placed the order you now need to pay for it. There are two ways to pay in OpenBazaar. One is by scanning the QR code on a mobile wallet or copying the details on the payment screen into a separate wallet and sending payment. The other method is using the internal OpenBazaar wallet.&lt;/p&gt;
-
-&lt;p&gt;If you don’t want to use a separate wallet, or you try using an external wallet and you receive an error message, then it’s best to use the internal OpenBazaar wallet and click the “Pay from Wallet” button.&lt;/p&gt;
-
-&lt;p&gt;Before you can pay from the OpenBazaar wallet, you’ll need to fund it. To do this, click on the wallet button, then in the wallet interface click “Receive Money.” This will display a QR code and address you can use to fund the wallet. Note that you’ll need to wait for one confirmation on the blockchain before the funds are spendable.
-&lt;br /&gt;&lt;br /&gt;
-&lt;img src=&quot;obwalletreceive.gif&quot; alt=&quot;Receive funds in OpenBazaar Wallet&quot; title=&quot;Receive funds in OpenBazaar Wallet&quot; /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;To pay for orders you’ve already placed, click on “Purchases” in the dropdown menu on the top right (your profile picture) and then click on the specific order.&lt;/p&gt;
-
-&lt;p&gt;Once payment has been sent you’ll see a green check mark appear and it’s now up to the vendor to fulfill your order.
-&lt;br /&gt;&lt;/p&gt;
-&lt;h2 id=&quot;step-7-check-your-order&quot;&gt;Step #7: Check your order&lt;/h2&gt;
-
-&lt;p&gt;To check your order, click on “Purchases” in the dropdown menu on the top right (your profile picture) and then click on the specific order. You’ll see a bar showing the progress of the order.&lt;/p&gt;
-
-&lt;p&gt;Once the seller fulfills the order you should see it showing “fulfilled,” and the vendor should send confirmation such as a transaction hash to prove they sent the funds to the address you provided. Enter the transaction hash into a block explorer to verify, or just check the wallet where you expected the funds to be sent. If you’ve received them, leave a review and close the order out. It’s important that you do finish the order, otherwise the funds will not be released from escrow and the seller will be forced to open a dispute to claim their funds.&lt;/p&gt;
-
-&lt;p&gt;If you don’t receive the funds in a reasonable period, message the seller to ask why. If you get no response after a while or something else is wrong with your order, you can choose to open a dispute with the moderator by clicking the “Dispute Order” button when viewing the order in your purchases.&lt;/p&gt;
-
-&lt;p&gt;OpenBazaar is also a platform for goods and services. While you’re waiting for the vendor to send your new coins, check out what the marketplace has to offer.&lt;/p&gt;
-
-&lt;p&gt;Now you know how to purchase cryptocurrencies privately and with no fees using OpenBazaar.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Get involved with our community on &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt; and &lt;a href=&quot;https://reddit.com/r/openbazaar&quot;&gt;Reddit&lt;/a&gt; and make even a small purchase on OpenBazaar today to see what you think! If you’re not sure where to start, you can check out the official OpenBazaar stores—&lt;a href=&quot;https://openbazaar.com/store/QmcUDmZK8PsPYWw5FRHKNZFjszm2K6e68BQSTpnJYUsML7&quot;&gt;BTC Store&lt;/a&gt; and &lt;a href=&quot;https://openbazaar.com/store/QmSkkZpNFzWubxE4p9Ejjo2CLqq61jxuRF26ZzCmCKaHcJ&quot;&gt;BCH Store&lt;/a&gt; and make a small donation or score some great OpenBazaar gear!&lt;/p&gt;</content><author><name></name></author><summary type="html">This tutorial will explain how to purchase cryptocurrencies on OpenBazaar, a decentralized marketplace which never has platform fees and doesn’t require registering an account. You’ll learn how to buy cryptocurrency with a different cryptocurrency, such as Bitcoin. At the moment OpenBazaar doesn’t support people buying cryptocurrency with regular fiat money such as US Dollars or Euros, though it’s a feature that will hopefully be supported in the future.</summary></entry></feed>
+&lt;p&gt;Check out these stores and so many more on the brand new browsing website, &lt;a href=&quot;https://openbazaar.com&quot;&gt;openbazaar.com&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Want to know what you can buy with Bitcoin? (Or Bitcoin Cash, or Zcash?)</summary></entry></feed>
