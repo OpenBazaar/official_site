@@ -8,25 +8,25 @@ social_description: 'Here is what you need to know about the Bitcoin Cash hard f
 
 #### What’s Happening with Bitcoin Cash?
 
-There is a [Bitcoin Cash](https://www.bitcoincash.org/) network upgrade due to complete at 4:40PM UTC on November 15th, 2018. Depending on how the upgrade is accepted by the network, the Bitcoin Cash blockchain could fork into two or more incompatible chains. In order to help OpenBazaar users prepare for the fork, here is some information about the OpenBazaar wallet that can help you decide how to handle any BCH funds that you may have stored there.
+There is a [Bitcoin Cash](https://www.bitcoincash.org/) network upgrade beginning at 4:40PM UTC on November 15th, 2018. Depending on how the upgrade is accepted by the network, the Bitcoin Cash blockchain could fork into two or more incompatible chains. 
+
+It's important to note that transacting is dangerous during a hard fork like this unless it's between addresses you entirely control. If you transact BCH to an address you don't control you could lose access to your coins on other forks. 
+
+In order to help OpenBazaar users prepare for the hard fork, here is some information about the OpenBazaar wallet that can help you decide how to handle any BCH you may have stored there. 
 
 #### How Will The Bitcoin Cash Upgrade Affect My OpenBazaar Funds?
 
-Users of OpenBazaar 2.2.5 and prior who have an active BCH wallet are using a local SPV-based wallet. [SPV wallets](https://bitcoin.org/en/glossary/simplified-payment-verification) are designed to follow [Nakamoto Consensus](https://blockonomi.com/nakamoto-consensus/), which means the fork that has the most cumulative proof-of-work according to the existing Bitcoin Cash difficulty rules. 
+Users of OpenBazaar 2.2.5 and prior who have an active BCH wallet are using a local SPV-based wallet. [SPV wallets](https://bitcoin.org/en/glossary/simplified-payment-verification) are designed to follow the chain that has the most cumulative proof-of-work according to the existing Bitcoin Cash difficulty rules. The SPV wallet in OpenBazaar will follow the longest chain served by the peers it’s able to connect to. We advise that you withdraw your BCH from your OpenBazaar wallet until the chains settle.
 
-The changes planned by both the ABC and SV implementations of the BCH network upgrade do not have any technical changes which are expected to interrupt your ability to send or receive funds within this wallet after the fork.
+#### Withdraw Your BCH to Electron
 
-Users of an OpenBazaar wallet are in complete control of their funds through sole access to their keys. The wallet maintains its keys and seed locally on your computer and we recommend you also maintain backups of the seed mnemonic in a safe location. At any time you can also import your seed into a BIP39-compatible wallet (such as [Electron Cash](https://electroncash.org/) ) to access your funds independent of your OpenBazaar installation. This also means that, in the event of a fork, you have the responsibility and choice to move to funds onto whichever side of the fork that you wish.
+Users of an OpenBazaar wallet control their funds by having sole access to their keys. The wallet maintains its keys and seed locally on your computer which you can [backup to a safe location using these steps](https://openbazaar.zendesk.com/hc/en-us/articles/115002892791-How-do-I-backup-my-OpenBazaar-wallet-). Then, import your seed into a **BIP39-compatible wallet** (such as [Electron Cash](https://electroncash.org/) ) to keep your funds safe through the fork.
 
 The [OB1](https://ob1.io) team will continue to observe the network upgrade and will take further actions as necessary to ensure the safety of our users' funds at rest within the OpenBazaar wallet.
 
 #### What Should I Do Next?
 
-First, make sure to [backup your BCH wallet using these steps](https://openbazaar.zendesk.com/hc/en-us/articles/115002892791-How-do-I-backup-my-OpenBazaar-wallet-).
-
-Second, for the next few weeks, make sure you have the keys to your wallets as complications may arise. If you withdraw your coins from OpenBazaar, make sure it is to address you control with your private keys. 
-
-Finally, it is entirely your choice what you do with your coins, but we recommend being cautious of a chain with hash power of 50% or more controlled by one entity. 
+For the next few weeks, make sure you have the keys to your OpenBazaar wallet stored somewhere safe as complications may arise. When things settle it is entirely your choice what you do with your coins, but we also recommend being cautious of a chain with hash power of 50% or more controlled by one entity. 
 
 #### In conclusion
 
