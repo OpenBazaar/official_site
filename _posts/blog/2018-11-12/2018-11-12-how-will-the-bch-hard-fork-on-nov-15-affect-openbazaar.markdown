@@ -30,4 +30,4 @@ For the next few weeks, make sure you have the keys to your OpenBazaar wallet st
 
 #### In Conclusion
 
-OpenBazaar is a private, open-source marketplace powered by cryptocurrency that is making trade free for everyone, everywhere. The development team at OB1 is committed to building a secure and reliable transactional envirnoment for users around the world. We do our best to ensure that you have the knowledge you need to make the best decisions for you and your coins. If you have questions please join us on [Slack](https://openbazaar.org/slack) to chat with our development team and active community.
+OpenBazaar is a private, open-source marketplace powered by cryptocurrency that is making trade free for everyone, everywhere. The development team at OB1 is committed to building a secure and reliable transactional environment for users around the world. We do our best to ensure that you have the knowledge you need to make the best decisions for you and your coins. If you have questions please join us on [Slack](https://openbazaar.org/slack) to chat with our development team and active community.
