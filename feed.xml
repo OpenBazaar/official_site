@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-11-14T03:06:04+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">OpenBazaar Developer Call - November 8, 2018</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-November-8-2018/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - November 8, 2018" /><published>2018-11-13T14:30:00+00:00</published><updated>2018-11-13T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-November-8-2018</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-November-8-2018/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on November 8, 2018.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-11-19T17:19:25+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">These 5 OpenBazaar Stats Are Really Exciting</title><link href="https://openbazaar.org/blog/these-5-openbazaar-stats-are-really-exciting/" rel="alternate" type="text/html" title="These &lt;span class='post-title-extra'&gt;5 OpenBazaar Stats&lt;/span&gt; Are Really Exciting" /><published>2018-11-15T14:30:00+00:00</published><updated>2018-11-15T14:30:00+00:00</updated><id>https://openbazaar.org/blog/these-5-openbazaar-stats-are-really-exciting</id><content type="html" xml:base="https://openbazaar.org/blog/these-5-openbazaar-stats-are-really-exciting/">&lt;p&gt;OpenBazaar 2 has had a powerful year since its launch in November 2017. We are proud of the growth and activity we have seen during this tumultous time in crypto.&lt;/p&gt;
+
+&lt;p&gt;Here are &lt;strong&gt;5 exciting stats&lt;/strong&gt; that show network usage and the growth of our contributing community all around the world:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;OpenBazaar_2_Stats_Infographic.png&quot; alt=&quot;OpenBazaar 2 Stats Infographic&quot; title=&quot;OpenBazaar 2 Stats Infographic&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;100000-nodes&quot;&gt;100,000+ Nodes&lt;/h4&gt;
+&lt;p&gt;The OpenBazaar 2 network has seen over 100k nodes since launch. “Nodes” means the installation of the app and creation of a profile or store that can connect to others on the network and be discovered.&lt;/p&gt;
+
+&lt;h4 id=&quot;150-countries&quot;&gt;150+ Countries&lt;/h4&gt;
+&lt;p&gt;OpenBazaar is truly international. Users from all around the world are represented as both buyers and sellers. There have also been &lt;strong&gt;291 contributors&lt;/strong&gt; to the OpenBazaar language translation project on &lt;a href=&quot;https://www.transifex.com/ob1/openbazaar/languages/&quot;&gt;Transifex&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;1300000-searches&quot;&gt;1,300,000+ Searches&lt;/h4&gt;
+&lt;p&gt;Just since May 2, 2018 when basic tracking was configured. These have returned over &lt;strong&gt;3,000,000,000 results&lt;/strong&gt;. Yeah, that’s 3 &lt;em&gt;billion&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;20000-sellers&quot;&gt;20,000+ Sellers&lt;/h4&gt;
+&lt;p&gt;20k nodes with at least one listing have been seen on the network. Sellers on OpenBazaar get to experience the &lt;strong&gt;easiest e-commerce store setup on the planet&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;60-contributors&quot;&gt;60+ Contributors&lt;/h4&gt;
+&lt;p&gt;Dozens of users have contributed to the OpenBazaar codebase on &lt;a href=&quot;https://github.com/openbazaar&quot;&gt;Github&lt;/a&gt; resulting in &lt;strong&gt;2,258 commits&lt;/strong&gt; and &lt;strong&gt;471 closed issues&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you haven’t had a chance to check it out yet, now is a great time to do so! You can help build the decentralized future you want to see by by shopping or selling in the app or contributing to the open source project. We have big things coming up in year 2 and we promise you won’t want to miss it.&lt;/p&gt;</content><author><name></name></author><summary type="html">OpenBazaar 2 has had a powerful year since its launch in November 2017. We are proud of the growth and activity we have seen during this tumultous time in crypto.</summary></entry><entry><title type="html">OpenBazaar Developer Call - November 8, 2018</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-November-8-2018/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - November 8, 2018" /><published>2018-11-13T14:30:00+00:00</published><updated>2018-11-13T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-November-8-2018</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-November-8-2018/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on November 8, 2018.&lt;/p&gt;
 
 &lt;p&gt;Want to join the call in real time? Sign up at &lt;a href=&quot;https://openbazaar.org/developers&quot;&gt;openbazaar.org/developers&lt;/a&gt;&lt;/p&gt;
 
@@ -375,56 +396,4 @@ Matthew Zipkin is another longtime friend to the OpenBazaar community and he has
 
 &lt;p&gt;[10:15] 🌪 mg (ob1): Hacktoberfest issues: &lt;a href=&quot;https://github.com/OpenBazaar/openbazaar-go/issues?g=is%3Aissue_is%3Aopen+label%3Ahacktoberfest&quot;&gt;https://github.com/OpenBazaar/openbazaar-go/issues?g=is%3Aissue_is%3Aopen+label%3Ahacktoberfest&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;[10:16] 🌪 mg (ob1): Program details: &lt;a href=&quot;https://hacktoberfest.digitalocean.com&quot;&gt;https://hacktoberfest.digitalocean.com&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on October 11, 2018.</summary></entry><entry><title type="html">Shop OpenBazaar - Casa Store, Crypto Greeting Cards, and Crypto Republic</title><link href="https://openbazaar.org/blog/Shop-OpenBazaar-Casa-Store-Crypto-Greeting-Cards-and-Crypto-Republic/" rel="alternate" type="text/html" title="Shop OpenBazaar - &lt;span class='post-title-extra'&gt;Casa Store, Crypto Greeting Cards, and Crypto Republic&lt;/span&gt;" /><published>2018-10-12T09:30:00+00:00</published><updated>2018-10-12T09:30:00+00:00</updated><id>https://openbazaar.org/blog/Shop-OpenBazaar-Casa%20Store-Crypto-Greeting-Cards-and-Crypto-Republic</id><content type="html" xml:base="https://openbazaar.org/blog/Shop-OpenBazaar-Casa-Store-Crypto-Greeting-Cards-and-Crypto-Republic/">&lt;p&gt;Want to know what you can buy with Bitcoin? (Or Bitcoin Cash, or &lt;a href=&quot;https://z.cash/&quot;&gt;Zcash&lt;/a&gt;?)&lt;/p&gt;
-
-&lt;p&gt;All &lt;em&gt;kinds&lt;/em&gt; of things on OpenBazaar! It is a marketplace where you can buy and sell what you want and connect to people all around the world who are using cryptocurrencies like Bitcoin.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Here are 3 great stores for you to shop at today:&lt;/strong&gt;
-&lt;br /&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-&lt;h4 id=&quot;casa-store&quot;&gt;&lt;a href=&quot;https://openbazaar.com/store/Qmd9hFFuueFrSR7YwUuAfirXXJ7ANZAMc5sx4HFxn7mPkc&quot;&gt;Casa Store&lt;/a&gt;&lt;/h4&gt;
-
-&lt;p&gt;&lt;img src=&quot;Casa_Store_on_OpenBazaar.png&quot; alt=&quot;Casa Store on OpenBazaar&quot; title=&quot;Casa Store on OpenBazaar&quot; /&gt;&lt;a href=&quot;https://openbazaar.com/store/Qmd9hFFuueFrSR7YwUuAfirXXJ7ANZAMc5sx4HFxn7mPkc&quot;&gt;Casa Store on OpenBazaar&lt;/a&gt;
-&lt;br /&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;br /&gt;
-Casa began as a personal key management system then expanded to help their customers with hardware solutions as well. They are an Authorized Reseller for &lt;a href=&quot;https://www.ledger.com/&quot;&gt;Ledger&lt;/a&gt; and &lt;a href=&quot;https://trezor.io/&quot;&gt;Trezor&lt;/a&gt; and in September this year they expanded again. They began pre-releases for their brand new &lt;a href=&quot;https://openbazaar.com/store/Qmd9hFFuueFrSR7YwUuAfirXXJ7ANZAMc5sx4HFxn7mPkc/casa-lightning-node&quot;&gt;Lightning Nodes&lt;/a&gt; and sold out the first two shipment waves in the first day.&lt;/p&gt;
-
-&lt;p&gt;However, &lt;em&gt;lucky you&lt;/em&gt;, it does seem that December shipments are still available on OpenBazaar…
-&lt;br /&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-&lt;h4 id=&quot;crypto-greeting-cards&quot;&gt;Crypto Greeting Cards&lt;/h4&gt;
-
-&lt;p&gt;&lt;img src=&quot;Crypto_Greeting_Cards_on_OpenBazaar.png&quot; alt=&quot;Crypto Greeting Cards on OpenBazaar&quot; title=&quot;Crypto Greeting Cards on OpenBazaar&quot; /&gt;&lt;a href=&quot;https://openbazaar.com/store/QmbmytVomWgsBW74QgyPdh17adoPBJeo2g7scihNPAjMmy&quot;&gt;Crypto Greeting Cards on OpenBazaar&lt;/a&gt;
-&lt;br /&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;br /&gt;
-If you are seeking high-quality, cryptocurrency-themed greeting cards for your fellow crypto-enthusiasts, they’ve got you covered.&lt;/p&gt;
-
-&lt;p&gt;If you want greeting cards that allow you to easily give the gift of cryptocurrency along with practical educational materials, they’ve &lt;em&gt;also&lt;/em&gt; got you covered!&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Here’s what they say about their store:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;“After being tired of the stacks of mundane, generic store-brand greeting cards, we set out to pair our passion in cryptocurrency with designs inspired by the community. Each card features a pre-generated cryptocurrency wallet that can be transferred to the recipient. Like cash in an envelope, only better. The goal is to inspire new participants to join the financial revolution!&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Crypto Greeting Cards are an affordable way to introduce friends, family, and loved ones to cryptocurrency. After redeeming the card, the recipient will learn:&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;em&gt;How to set up a wallet app&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;The difference between public address and private key&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;An introduction to transactions (sweeping funds)&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;Is there any better way to spread cryptocurrency than kind words and a small gift?”&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;We think not.
-&lt;br /&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-&lt;h4 id=&quot;crypto-republic---bch&quot;&gt;Crypto Republic - BCH&lt;/h4&gt;
-
-&lt;p&gt;&lt;img src=&quot;Crypto_Republic_BCH_Store_on_OpenBazaar.png&quot; alt=&quot;Crypto Republic BCH Store on OpenBazaar&quot; title=&quot;Crypto Republic BCH Store on OpenBazaar&quot; /&gt;&lt;a href=&quot;https://openbazaar.com/store/QmU5ZSKVz2GhsqE6EmBGVCtrui4YhUXny6rbvsSf5h2xvH&quot;&gt;Crypto Republic - BCH on OpenBazaar&lt;/a&gt;
-&lt;br /&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;br /&gt;
-Spend your Bitcoin Cash on some great items from apparel to video games at Crypto Republic. They have a lot of great information about who they are and what they stand for and how to get around OpenBazaar on their &lt;a href=&quot;https://openbazaar.com/store/home/QmU5ZSKVz2GhsqE6EmBGVCtrui4YhUXny6rbvsSf5h2xvH&quot;&gt;About page&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Like what you see?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Check out these stores and so many more on the brand new browsing website, &lt;a href=&quot;https://openbazaar.com&quot;&gt;openbazaar.com&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Want to know what you can buy with Bitcoin? (Or Bitcoin Cash, or Zcash?)</summary></entry></feed>
+&lt;p&gt;[10:16] 🌪 mg (ob1): Program details: &lt;a href=&quot;https://hacktoberfest.digitalocean.com&quot;&gt;https://hacktoberfest.digitalocean.com&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on October 11, 2018.</summary></entry></feed>
