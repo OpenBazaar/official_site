@@ -7,7 +7,7 @@ social_description: 'To celebrate the launch of OpenBazaar 2 in November last ye
 social_image: Pascal_Boyart_on_OpenBazaar.png
 ---
 
-To celebrate [the launch of OpenBazaar 2](https://openbazaar.org/blog/openbazaar-20-is-live/) in November of last year we are sharing goodies and offers all month long with our users! Clustered loosely around Black Friday this week are a bunch of exciting offers some OpenBazaar vendors have set up just for you. 
+To celebrate the [one year anniversary of OpenBazaar 2](https://openbazaar.org/blog/openbazaar-20-is-live/) we are sharing goodies and offers all month long with our users! Clustered loosely around Black Friday this week are some exciting deals that OpenBazaar vendors have set up just for you. 
 
 >Unless otherwise specified, use coupon code **OB2Turns1** to claim the discounts on the stores or items described!
 
@@ -16,7 +16,7 @@ To celebrate [the launch of OpenBazaar 2](https://openbazaar.org/blog/openbazaar
 #### DrApis
 _75% off_
 
-![DrApis on OpenBazaar](DrApis_on_OpenBazaar.png "DrApis on OpenBazaar")[DrApis on OpenBazaar](https://openbazaar.com/store/QmYTXDyMNjdUSvqNc88T2VeVF3KdG7PMefnGQKrp9NZ5Tp)
+![DrApis on OpenBazaar](DrApis_on_OpenBazaar.png "DrApis on OpenBazaar")[DrApis on OpenBazaar](https://openbazaar.com/store/QmfUNUFM5B4PJh73Ht4Gd7qa1TAWV1BBUAhbrYRa2E9hXe)
 <br>  
 <br>
 DrApis produces and sells premium raw apiculture products from Portugal. Their artisanal raw honey is produced and extracted using exclusively traditional methods, preserving all the natural vitamins, enzymes, phytonutrients and other nutritional elements produced by bees. Now you can enjoy their high-quality products at their lowest prices _ever._ Don't miss this!
@@ -28,7 +28,7 @@ _75% off_
 ![Matthew Zipkin Bitcoin Clocks on OpenBazaar](Matthew_Zipkin_on_OpenBazaar.png "Matthew Zipkin Bitcoin Clocks on OpenBazaar")[Matthew Zipkin on OpenBazaar](https://openbazaar.com/store/QmeSyTRaNZMD8ajcfbhC8eYibWgnSZtSGUp3Vn59bCnPWC)
 <br>  
 <br>  
-Matthew Zipkin is offering this steep discount on his incredibly neat Bitcoin clocks! has some neat, practical art pieces available in his store. 
+Matthew Zipkin is offering this steep discount on his unique Bitcoin clocks. They are practical as well as beautiful pieces of art that any collector would love to have in their home.
 
 Another fun fact, Matthew is also an [OB1 Verified Moderator](https://ob1.io/verified-moderators.html) who is available for you to add to your transactions and provide assistance in case of a dispute. Send him a message and say hello!
 <br>  
@@ -39,7 +39,7 @@ _75% off_
 ![CryptoCollectibles on OpenBazaar](CryptoCollectibles_on_OpenBazaar.png "CryptoCollectibles on OpenBazaar")[CryptoCollectibles on OpenBazaar](https://openbazaar.com/store/QmakxNv9Y5YFuAuvjvx4mEda3TmFBaHDtacd1KtEL56mP4/)
 <br>  
 <br> 
-CryptoCollectibles has curated several items to make available at this crazy discount. In honor of his recent passing they are all vintage Stan Lee comics. Some have art by Jack "The King" Kirby, Gene Colan, Gil Kane, and other forefathers of the comic book game. Check out the full list:
+CryptoCollectibles has curated several items that are available at this crazy discount. In honor of his recent passing they are all vintage Stan Lee comics. Some have art by Jack "The King" Kirby, Gene Colan, Gil Kane, and other forefathers of the comic book industry. Check out the full list:
 
 [Journey into Mystery #111](https://openbazaar.com/store/QmakxNv9Y5YFuAuvjvx4mEda3TmFBaHDtacd1KtEL56mP4/journey-into-mystery-111-1964-comic-book) - ~~$220~~ **$55** with code OB2Turns1
 
@@ -81,21 +81,13 @@ _25% off_
 <br>  
 Put together your own unique art piece with this special kit from Penny Portrait.
 <br>  
-<br>
-#### Stock Media Selling
-_Starting at 25% off_
-![Stock Media Selling on OpenBazaar](Stock_Media_Selling_on_OpenBazaar.png "Stock Media Selling on OpenBazaar")[Stock Media Selling on OpenBazaar](https://openbazaar.com/store/QmcAQszBu3MbDEe6kx4aghmtWCtVnhiHDeaK2DYAwSurVy)
-<br>  
-<br>  
-Discounts are just starting at 25% with Stock Media Selling. Follow the hashtag [#OB2Turns1](https://twitter.com/hashtag/OB2Turns1) on Twitter for their list.
-<br>  
-<br>  
+<br> 
 #### Pascal Boyart 
 _10% off_
 ![Pascal Boyart on OpenBazaar](Pascal_Boyart_on_OpenBazaar.png "Pascal Boyart on OpenBazaar")[Pascal Boyart on OpenBazaar](https://openbazaar.com/store/QmYTXDyMNjdUSvqNc88T2VeVF3KdG7PMefnGQKrp9NZ5Tp)
 <br>  
 <br>  
-Pascal Boyart is an accomplished fine artist based in Paris. He began as a graffiti artist but now produces a wide range of art styles. Many of the pieces he has featured on OpenBazaar focus on cryptocurrency and crypto-culture. Read more of his amazing story on his [About page](https://openbazaar.com/store/home/QmYTXDyMNjdUSvqNc88T2VeVF3KdG7PMefnGQKrp9NZ5Tp).
+Pascal Boyart is an accomplished fine artist based in Paris. He began as a graffiti artist but now produces a wide range of art styles. Many of the pieces he has featured on OpenBazaar focus on cryptocurrency and crypto-culture. Read more of his amazing story on his [About page].(https://openbazaar.com/store/home/QmYTXDyMNjdUSvqNc88T2VeVF3KdG7PMefnGQKrp9NZ5Tp).
 
 For a limited time he's offering [10% off](https://www.reddit.com/r/OpenBazaar/comments/9vm6ou/weekly_spotlight_share_your_openbazaar_stores/e9f00mz/) on the limited edition prints Crypto Anarchist Manifesto and WhitePaper French version. Use coupon code: BTCARTREVOLUTION
 <br>  
