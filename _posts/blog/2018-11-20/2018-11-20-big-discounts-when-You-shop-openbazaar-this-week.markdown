@@ -9,7 +9,7 @@ social_image: Pascal_Boyart_on_OpenBazaar.png
 
 To celebrate [the launch of OpenBazaar 2](https://openbazaar.org/blog/openbazaar-20-is-live/) in November of last year we are sharing goodies and offers all month long with our users! Clustered loosely around Black Friday this week are a bunch of exciting offers some OpenBazaar vendors have set up just for you. 
 
->> Unless otherwise specified, use coupon code **OB2Turns1** to claim the discounts on the stores or items described!
+>Unless otherwise specified, use coupon code **OB2Turns1** to claim the discounts on the stores or items described!
 
 #### Here are some great stores and listings for you to shop this week:
 <br>
