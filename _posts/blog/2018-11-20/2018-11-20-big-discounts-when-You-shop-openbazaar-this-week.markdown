@@ -87,7 +87,7 @@ _10% off_
 ![Pascal Boyart on OpenBazaar](Pascal_Boyart_on_OpenBazaar.png "Pascal Boyart on OpenBazaar")[Pascal Boyart on OpenBazaar](https://openbazaar.com/store/QmYTXDyMNjdUSvqNc88T2VeVF3KdG7PMefnGQKrp9NZ5Tp)
 <br>  
 <br>  
-Pascal Boyart is an accomplished fine artist based in Paris. He began as a graffiti artist but now produces a wide range of art styles. Many of the pieces he has featured on OpenBazaar focus on cryptocurrency and crypto-culture. Read more of his amazing story on his [About page].(https://openbazaar.com/store/home/QmYTXDyMNjdUSvqNc88T2VeVF3KdG7PMefnGQKrp9NZ5Tp).
+Pascal Boyart is an accomplished fine artist based in Paris. He began as a graffiti artist but now produces a wide range of art styles. Many of the pieces he has featured on OpenBazaar focus on cryptocurrency and crypto-culture. Read more of his amazing story on his [About page}(https://openbazaar.com/store/home/QmYTXDyMNjdUSvqNc88T2VeVF3KdG7PMefnGQKrp9NZ5Tp).
 
 For a limited time he's offering [10% off](https://www.reddit.com/r/OpenBazaar/comments/9vm6ou/weekly_spotlight_share_your_openbazaar_stores/e9f00mz/) on the limited edition prints Crypto Anarchist Manifesto and WhitePaper French version. Use coupon code: BTCARTREVOLUTION
 <br>  
