@@ -68,7 +68,7 @@ CryptoCollectibles has curated several items that are available at this crazy di
 <br> 
 #### Kimchi Socks
 _75% off_
-![Kimchi Socks on OpenBazaar](Kimchi_Socks_on_OpenBazaar.png "Kimchi Socks on OpenBazaar")[Kimchi Socks on OpenBazaar](https://openbazaar.com/store/QmT7i3289rVJd76dPDPksEN5wmM4st6RrDy3gLoAWjcRYs)
+![Kimchi Socks on OpenBazaar](Kimchi_Socks_on_OpenBazaar.png "Kimchi Socks on OpenBazaar")[Kimchi Socks on OpenBazaar](https://openbazaar.com/store/Qma4rBjoQ6j2cusFGMrQjbA7mddPAr9gzPQPgatourZvGf)
 <br>  
 <br>  
 Score some high quality socks to show off your love of your favorite crypto coins.
