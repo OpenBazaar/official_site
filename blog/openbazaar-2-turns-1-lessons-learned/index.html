@@ -4,19 +4,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="google-site-verification" content="zI3sAn6GTCII6X2rmUMR1uHZG5crfyuVmzRoaqXmDq4" /><!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Weekly Development Update, Jan 4, 2016 | OpenBazaar</title>
+<title>OpenBazaar 2 Turns 1: Lessons Learned | OpenBazaar</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Weekly Development Update, Jan 4, 2016" />
+<meta property="og:title" content="OpenBazaar 2 Turns 1: Lessons Learned" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Note: We’ve just returned from break so don’t have many updates this week." />
-<meta property="og:description" content="Note: We’ve just returned from break so don’t have many updates this week." />
-<link rel="canonical" href="https://openbazaar.org/blog/weekly-development-update-jan-4-2016/" />
-<meta property="og:url" content="https://openbazaar.org/blog/weekly-development-update-jan-4-2016/" />
+<meta name="description" content="This month we’ve been celebrating the one year anniversary of OpenBazaar 2.0. To read a summary of the last year, read Brian Hoffman’s piece." />
+<meta property="og:description" content="This month we’ve been celebrating the one year anniversary of OpenBazaar 2.0. To read a summary of the last year, read Brian Hoffman’s piece." />
+<link rel="canonical" href="https://openbazaar.org/blog/openbazaar-2-turns-1-lessons-learned/" />
+<meta property="og:url" content="https://openbazaar.org/blog/openbazaar-2-turns-1-lessons-learned/" />
 <meta property="og:site_name" content="OpenBazaar" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2016-01-04T03:30:00+00:00" />
+<meta property="article:published_time" content="2018-11-29T09:30:00+00:00" />
 <script type="application/ld+json">
-{"description":"Note: We’ve just returned from break so don’t have many updates this week.","@type":"BlogPosting","url":"https://openbazaar.org/blog/weekly-development-update-jan-4-2016/","headline":"Weekly Development Update, Jan 4, 2016","dateModified":"2016-01-04T03:30:00+00:00","datePublished":"2016-01-04T03:30:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://openbazaar.org/blog/weekly-development-update-jan-4-2016/"},"@context":"http://schema.org"}</script>
+{"description":"This month we’ve been celebrating the one year anniversary of OpenBazaar 2.0. To read a summary of the last year, read Brian Hoffman’s piece.","@type":"BlogPosting","url":"https://openbazaar.org/blog/openbazaar-2-turns-1-lessons-learned/","headline":"OpenBazaar 2 Turns 1: Lessons Learned","dateModified":"2018-11-29T09:30:00+00:00","datePublished":"2018-11-29T09:30:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://openbazaar.org/blog/openbazaar-2-turns-1-lessons-learned/"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="shortcut icon" type="image/png" href="/favicon.png">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
@@ -24,8 +24,8 @@
   <link rel="stylesheet" href="/assets/main.css">
   
     <meta property="og:image" content="https://openbazaar.org/blog/">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
+    <meta property="og:title" content="OpenBazaar 2 Turns 1: Lessons Learned">
+    <meta property="og:description" content="OpenBazaar started more than four years ago, and for everyone involved it has been a learning experience. Here are a few lessons we’ve learned over the years, with a particular emphasis on the past year.">
   <link type="application/atom+xml" rel="alternate" href="https://openbazaar.org/feed.xml" title="OpenBazaar" /><script>
   (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -109,9 +109,9 @@
             
                 <div class="col"></div>
                 <div class="col-8">
-                    <a href="/blog/weekly-development-update-jan-4-2016/">
+                    <a href="/blog/openbazaar-2-turns-1-lessons-learned/">
                         <h3 class="post-title">
-                            Weekly Development Update, Jan 4, 2016
+                            OpenBazaar 2 Turns 1: <span class='post-title-extra'>Lessons Learned</span>
                         </h3>
                     </a>
                 </div>
@@ -126,19 +126,50 @@
                 </div>
             
             <div class="col-12 post-date text-left mb-3">
-                Jan 4, 2016
+                Nov 29, 2018
             </div>
             
                 <div class="col-12 text-left post-container">
-                    <p><em>Note: We’ve just returned from break so don’t have many updates this week.</em></p>
+                    <p>This month we’ve been celebrating <a href="https://openbazaar.org/blog/these-5-openbazaar-stats-are-really-exciting/">the one year anniversary of OpenBazaar 2.0</a>. To read a summary of the last year, read <a href="https://openbazaar.org/blog/big-change-hard-work-and-strong-growth-openbazaar-2-turns-1/">Brian Hoffman’s piece</a>.</p>
 
-<h3 id="front-end">Front end</h3>
+<p>OpenBazaar started more than four years ago, and for everyone involved it has been an incredible learning experience. Here are a few lessons we’ve learned over the years, with a particular emphasis on the past year.</p>
 
-<p>Bug fixes. Improvements to customizing a user’s page.</p>
+<h4 id="1-expect-politics">1. Expect politics.</h4>
 
-<h3 id="back-end">Back end</h3>
+<p>Just like Bitcoin, OpenBazaar is an open source piece of software and a network of people running the software. As such, it’s incapable of having a “position” on any given issue. However, the individuals and companies building OpenBazaar do have opinions about issues in the cryptocurrency space. When they promote these beliefs – particularly on controversial issues – others will often claim “OpenBazaar believes X” instead of correctly attributing the opinion to the individual or company.</p>
 
-<p>Work continues on API for getting information on individual orders and sales.</p>
+<p>When we started building OpenBazaar in mid-2014 the community of people using cryptocurrencies was smaller, primarily focused on Bitcoin, and the majority of people agreed that building infrastructure in order to use cryptocurrency was worthwhile and necessary for broader adoption.</p>
+
+<p>Over the next few years the community got larger and also began to disagree on the future of Bitcoin, such as how (or even if) it should scale. OpenBazaar itself played no role in this “scaling debate,” remaining neutral and following whichever chain the market decided upon. While the project itself was neutral, the individuals and companies working on OpenBazaar weren’t. In the new tribalist atmosphere created during the block size debate, this caused many to ascribe the individual positions of developers to the project itself, leading some to withdrawal their support and no longer use the marketplace.</p>
+
+<p>For better or worse, the cryptocurrency space has become politicized over the past few years, and we now recognize the importance of emphasizing the project’s neutrality.</p>
+
+<h4 id="2-plan-for-all-possible-future-scenariosincluding-unfavorable-ones">2. Plan for all possible future scenarios—including unfavorable ones.</h4>
+
+<p>This lesson learned is also related to the scaling debate mentioned above. We recognized the possibility that fees could get high enough to prevent people from using Bitcoin for commerce. As individuals and as a company we supported efforts to keep Bitcoin functioning and not get to that point. Unfortunately, it happened anyway.</p>
+
+<blockquote>
+  <p>On the day OpenBazaar 2.0 launched the average Bitcoin fee was ~$5 per transaction and rising.</p>
+</blockquote>
+
+<p>Even though we already knew high fees were a possibility, this all happened in a very short timeframe and forced us to react as quickly as possible. Since Bitcoin <strong>wasn’t usable for commerce at that moment</strong>, we decided to add support for new, usable cryptocurrencies into the client immediately.</p>
+
+<p>This put us in the situation of publishing a Bitcoin-only product in November of 2017 and then needing to put all our development efforts into making it a multi-coin product immediately afterwards, which was several months of work. Had we decided at the beginning to build OpenBazaar 2.0 with support for multiple coins it likely would have been simpler and the resulting UX would have been better.</p>
+
+<p>Knowing about future scenarios and trying to make or prevent them from happening isn’t sufficient. You need to have plans in place for facing whatever reality meets your product.</p>
+
+<h4 id="3-dont-get-overly-focused-on-a-single-product">3. Don’t get overly focused on a single product.</h4>
+
+<p>OpenBazaar is a desktop application. This is primarily for technical reasons; building a completely peer-to-peer application is tough for desktop only and even more so in a web browser or on a mobile device.</p>
+
+<p>The second reason is due to momentum. We started on desktop and have continued iterating on desktop because, while it has been a difficult undertaking, it was one we became very familiar with.</p>
+
+<p><a href="https://openbazaar.com">Web</a> and <a href="http://ob1.io/">mobile</a> are implementations we are actively working on and have dreamed of realizing since the beginning, but they require very different engineering approaches and even philosophies. For them to begin development we had to deliberately choose to direct significant resources to them and many of the decisions made along these paths have not been easy.</p>
+
+<p>Web-connected technology is evolving quickly now and organizations working in a sector like cryptocurrencies need to demonstrate 2 extremes: <strong>focus</strong> and <strong>flexibility</strong>. People are solving hard problems every day using this very new technology while also facing a growing market with changing desires. They need to be both steadfast <em>and</em> nimble to tackle each day that may change all of their grandest plans.</p>
+
+<p>We’ve learned a lot about developing open source software, managing a community and dealing with the changes and growth of cryptocurrencies over the past few years, and we certainly haven’t been perfect. We appreciate the knowledge we have gained, and are executing against it in our daily work. We look forward to learning much more as we continue building the largest and most free decentralized ecommerce platform on the internet with you.</p>
+
 
                 </div>
             
