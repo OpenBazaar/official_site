@@ -54,6 +54,8 @@ Using these platforms is an incremental improvement over the yard sale. It still
 
 #### How OpenBazaar and Bitcoin can Manage Personal Possessions
 
+![Tracking Personal Inventory on OpenBazaar](tracking_personal_inventory_on_openbazaar.png "Tracking Personal Inventory on OpenBazaar")
+
 [OpenBazaar](https://openbazaar.org/download) is a decentralized network for trade; users run the software locally and connect directly to other users to buy and sell goods and services. There is no central institution to take a cut, monitor data, or restrict trade.
 
 [Bitcoin](https://bitcoin.org) is a digital currency and payment network; users control their own money locally and aren't reliant on banks or payment processors.
@@ -62,7 +64,7 @@ Together, these platforms could change the way we keep track of our personal pos
 
 This can be achieved by representing possessions as **Ricardian contracts** (I'll just refer them them as contracts), and publishing them to the OpenBazaar network. Ricardian contracts are a data structure that allows goods and services to be represented electronically; these contracts allow users to put in any information about a possession as well as the price they value the good at. When a user creates a contract, the OpenBazaar client publishes the information to the network, and other users can view that contract. 
 
-If they choose, the user could put in a price for which they'd be willing ot sell the item. If anyone in the world values that possession more than the current owner, they could instantly make an offer.
+If they choose, the user could put in a price for which they'd be willing to sell the item. If anyone in the world values that possession more than the current owner, they could instantly make an offer.
 
 If a user isn't willing to sell a possession, they could simply create a contract and choose to keep the information about it stored locally.
 
