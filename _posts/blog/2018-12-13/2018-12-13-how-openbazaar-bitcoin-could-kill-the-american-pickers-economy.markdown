@@ -42,7 +42,7 @@ Keeping track of personal possessions depends largely on the individual, but it 
 
 > (As an aside, this might explain how 'pickers' can be successful; their physical presence and interest in your possessions is a simpler method for achieving these three functions.)
 
-This method of keeping track of possessions has worked well enough for most people, but it's far from ideal. The largest cost is **time**. Preparation requires manually sorting goods and determining their price, physically assorting them (and putting back what wasn't sold later), then waiting for others to take an interest in them. A yard sale typically takes at least a day's worth of activity. The haggling itself - similar to the pickers - benefits those who have more information about the product.
+This method of keeping track of possessions has worked well enough for most people, but it's far from ideal. The largest cost is **time**. Preparation requires manually sorting goods and determining their price, physically sorting them (and putting back what wasn't sold later), then waiting for others to take an interest in them. A yard sale typically takes at least a day's worth of activity. The haggling itself - similar to the pickers - benefits those who have more information about the product.
 
 The advent of the Internet is already allowing better methods. Online platforms for buying and selling goods allow people to more effectively sell their unwanted possessions by opening up the information beyond the local community. However, these platforms have significant drawbacks:
 
@@ -76,7 +76,7 @@ Retroactively listing possessions as contracts would be time-consuming. However,
 
 Fortunately, much of commerce is already moving to the Internet, and the process of recording information about possessions is moving from a manual task to one which could easily be automated. 
 
-If you acquire an item via OpenBazaar, this could be done easily. Information about the contract purchased would simply change ownership to the new user. Using other major platforms could also be simple with importing tools, likely done via a browser plugin or similar. Anything purchased via Amazon would automatically be represented as a contract. Apps using UPC scanners could automatically create contracts.
+If you acquire an item via OpenBazaar, this could be done easily. Information about the contract purchased would simply change ownership to the new user. Using other major platforms could also be simple with importing tools, likely done via a browser plugin or something similar. Anything purchased via Amazon would automatically be represented as a contract. Apps using UPC scanners could automatically create contracts.
 
 > This system would allow all possessions to have a continuous digital representation, and associated value, at no cost to the user.
 
