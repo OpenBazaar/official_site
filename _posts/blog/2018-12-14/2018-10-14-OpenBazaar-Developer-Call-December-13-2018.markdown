@@ -32,5 +32,3 @@ failures...but hopefully these relay nodes help significantly
 [10:24] Jacob Long: Great job everyone!
 
 [10:28] Jacob Long: Well...being able to enter the same seed would handle that
-
-[10:29] Sam - OB1: null
