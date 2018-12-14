@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-12-14T18:49:15+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">How OpenBazaar &amp;amp; Bitcoin Could Kill the American Pickers Economy</title><link href="https://openbazaar.org/blog/how-openbazaar-bitcoin-could-kill-the-american-pickers-economy/" rel="alternate" type="text/html" title="How OpenBazaar &amp; Bitcoin Could Kill the &lt;span class='post-title-extra'&gt;American Pickers&lt;/span&gt; Economy" /><published>2018-12-13T09:30:00+00:00</published><updated>2018-12-13T09:30:00+00:00</updated><id>https://openbazaar.org/blog/how-openbazaar-bitcoin-could-kill-the-american-pickers-economy</id><content type="html" xml:base="https://openbazaar.org/blog/how-openbazaar-bitcoin-could-kill-the-american-pickers-economy/">&lt;p&gt;&lt;em&gt;By Sam Patterson, OB1 Co-Founder&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2018-12-14T22:46:36+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">OpenBazaar Developer Call - December 13, 2018</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-December-13-2018/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - December 13, 2018" /><published>2018-12-14T14:30:00+00:00</published><updated>2018-12-14T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-December-13-2018</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-December-13-2018/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on December 13, 2018.&lt;/p&gt;
+
+&lt;p&gt;Want to join the call in real time? Sign up at &lt;a href=&quot;https://openbazaar.org/developers&quot;&gt;openbazaar.org/developers&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Join our ongoing conversations on &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Browse OpenBazaar now at &lt;a href=&quot;https://openbazaar.com&quot;&gt;openbazaar.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;embed-responsive embed-responsive-16by9 mb-5&quot;&gt;
+    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/SXwVHR6shR8&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Chat log:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:12] Jacob Long: Does that include erc20?&lt;/p&gt;
+
+&lt;p&gt;[10:12] JoshJ: Eventually.&lt;/p&gt;
+
+&lt;p&gt;[10:12] mg (OB1): It will not include ERC-20 when ETH initially launches, but we will chase it shortly afterward.&lt;/p&gt;
+
+&lt;p&gt;[10:13] Jacob Long: USDC/DAI will help significantly with adoption IMO&lt;/p&gt;
+
+&lt;p&gt;[10:21] Jacob Long: I have been having many issues with disputes relating to the communication 
+failures…but hopefully these relay nodes help significantly&lt;/p&gt;
+
+&lt;p&gt;[10:24] Jacob Long: Great job everyone!&lt;/p&gt;
+
+&lt;p&gt;[10:28] Jacob Long: Well…being able to enter the same seed would handle that&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on December 13, 2018.</summary></entry><entry><title type="html">How OpenBazaar &amp;amp; Bitcoin Could Kill the American Pickers Economy</title><link href="https://openbazaar.org/blog/how-openbazaar-bitcoin-could-kill-the-american-pickers-economy/" rel="alternate" type="text/html" title="How OpenBazaar &amp; Bitcoin Could Kill the &lt;span class='post-title-extra'&gt;American Pickers&lt;/span&gt; Economy" /><published>2018-12-13T09:30:00+00:00</published><updated>2018-12-13T09:30:00+00:00</updated><id>https://openbazaar.org/blog/how-openbazaar-bitcoin-could-kill-the-american-pickers-economy</id><content type="html" xml:base="https://openbazaar.org/blog/how-openbazaar-bitcoin-could-kill-the-american-pickers-economy/">&lt;p&gt;&lt;em&gt;By Sam Patterson, OB1 Co-Founder&lt;/em&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;em&gt;&lt;strong&gt;Note:&lt;/strong&gt; This post is a bit of speculation on creative use cases for OpenBazaar recently re-inspired by &lt;a href=&quot;https://www.reddit.com/r/OpenBazaar/comments/9x4p69/openbazaar_more_than_just_your_standard_storefront/&quot;&gt;this community post on Reddit&lt;/a&gt;. OpenBazaar is a simple cryptocurrency marketplace built on an open-source network that can be used, grown and changed by users around the world.&lt;/em&gt;&lt;/p&gt;
@@ -457,34 +484,4 @@ The Boston Zcash Users Group is putting their principles into action by giving Z
   &lt;p&gt;&lt;strong&gt;This movement is about taking control of the future we want to see for ourselves and our neighbors all around the world.&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;We are excited to keep working with you on this project and to help it grow together. We can only do it with your support so please spread the word and help us make OpenBazaar even better.&lt;/p&gt;</content><author><name></name></author><summary type="html">by Brian Hoffman, CEO, OB1</summary></entry><entry><title type="html">Why We Are Integrating Ethereum into OpenBazaar</title><link href="https://openbazaar.org/blog/why-we-are-integrating-ethereum-into-openbazaar/" rel="alternate" type="text/html" title="Why We Are Integrating &lt;span class='post-title-extra'&gt;Ethereum&lt;/span&gt; into OpenBazaar" /><published>2018-10-31T14:30:00+00:00</published><updated>2018-10-31T14:30:00+00:00</updated><id>https://openbazaar.org/blog/why-we-are-integrating-ethereum-into-openbazaar</id><content type="html" xml:base="https://openbazaar.org/blog/why-we-are-integrating-ethereum-into-openbazaar/">&lt;p&gt;In a previous article we explained &lt;a href=&quot;https://openbazaar.org/blog/Escrow-Smart-Contract-Specification-in-OpenBazaar/&quot;&gt;how we’re integrating Ethereum into OpenBazaar&lt;/a&gt; in addition to Bitcoin, &lt;a href=&quot;https://www.bitcoincash.org/&quot;&gt;Bitcoin Cash&lt;/a&gt; and &lt;a href=&quot;https://z.cash/&quot;&gt;Zcash&lt;/a&gt;. In this article we want to talk about &lt;em&gt;why&lt;/em&gt; we’re integrating &lt;a href=&quot;https://www.ethereum.org/&quot;&gt;Ethereum&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h4 id=&quot;bitcoin-beginnings&quot;&gt;Bitcoin Beginnings&lt;/h4&gt;
-
-&lt;p&gt;OpenBazaar began as a Bitcoin-only project, with the intent of creating an open, permissionless marketplace with no fees and no middlemen. From the beginning users wanted the ability to accept payments in cryptocurrencies other than bitcoin. While that was possible via our &lt;a href=&quot;https://shapeshift.io/&quot;&gt;Shapeshift&lt;/a&gt; integration, such payments weren’t really trustless. Non-bitcoin payments would just be Shapeshifted into bitcoin payments. Users effectively had to use Shapeshift as a middleman, had to trust them not to steal their funds, and had to pay them for the privilege. In that sense, non-bitcoin payments weren’t really &lt;em&gt;native&lt;/em&gt; to OpenBazaar.&lt;/p&gt;
-
-&lt;p&gt;Then, in late 2017, bitcoin transaction fees began to rise. &lt;a href=&quot;https://bitinfocharts.com/comparison/bitcoin-transactionfees.htm&quot;&gt;A lot&lt;/a&gt;. Using bitcoin for payments on OpenBazaar became impractical for months. Since payments in non-bitcoin currencies weren’t native on OpenBazaar (they were simply Shapefshifted into bitcoin payments) that meant &lt;em&gt;all&lt;/em&gt; payments on OpenBazaar were impractical. Users wanted to use alternative currencies, but we were – effectively – forcing them to use bitcoin. Use of the platform ground to a halt. It was obvious something needed to change.&lt;/p&gt;
-
-&lt;h4 id=&quot;becoming-crypto-inclusive&quot;&gt;Becoming Crypto-Inclusive&lt;/h4&gt;
-
-&lt;p&gt;We want users to be able to trade using &lt;strong&gt;any cryptocurrency they desire&lt;/strong&gt;, without exposure to risks caused by other chains. In early 2018, in response to urgent demand from our users, we began integrating native altcoin payments into OpenBazaar. We’re refactoring our codebase to make it much easier to integrate new cryptocurrencies natively. The low hanging fruits are coins that are forks of Bitcoin, as their codebases are closest to what OpenBazaar was already supporting. Bitcoin Cash and Zcash were the first such integrations, and &lt;a href=&quot;https://litecoin.org/&quot;&gt;Litecoin&lt;/a&gt; integration is almost complete.&lt;/p&gt;
-
-&lt;h4 id=&quot;enter-ethereum&quot;&gt;Enter Ethereum&lt;/h4&gt;
-
-&lt;p&gt;A natural continuation of that effort is to integrate Ethereum. Since Ethereum doesn’t share Bitcoin’s codebase, it has been more challenging to integrate than forks of Bitcoin. But we think it’s worth the effort because:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Ethereum has the largest community outside of Bitcoin.&lt;/li&gt;
-  &lt;li&gt;Developer activity on Ethereum is huge and enthusiastic.&lt;/li&gt;
-  &lt;li&gt;The community has a special eagerness for its coin and tokens to be used for real-world commerce.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Integrating &lt;strong&gt;ETH&lt;/strong&gt; and &lt;strong&gt;ERC20 payments&lt;/strong&gt; is a natural next-step for OpenBazaar.&lt;/p&gt;
-
-&lt;p&gt;Beyond simple payments, &lt;strong&gt;smart contracts&lt;/strong&gt; built on Ethereum – with its rich Turing-complete scripting language – may allow us to support markets that would be extremely challenging to support with Bitcoin-like script-based cryptocurrencies. Trustless auctions, DAO-based stores, insurance contracts, and affiliate marketing are just a few of the ideas we are exploring. Integrating Ethereum has the potential to expand the types of products and services offered on the platform.&lt;/p&gt;
-
-&lt;p&gt;Users won’t be required to use Ethereum to use OpenBazaar, and can still stick to paying and being paid in Bitcoin or other supported cryptocurrencies.&lt;/p&gt;
-
-&lt;h4 id=&quot;in-summary&quot;&gt;In Summary&lt;/h4&gt;
-
-&lt;p&gt;In short, the landscape isn’t what it was when OpenBazaar first started. There is a rich ecosystem we cannot afford to ignore, and Ethereum is a huge part of that. We’re excited about implementing ETH and ERC20 payments, and are looking forward to working with the Ethereum community as we explore how we can leverage smart contracts in OpenBazaar.&lt;/p&gt;</content><author><name></name></author><summary type="html">In a previous article we explained how we’re integrating Ethereum into OpenBazaar in addition to Bitcoin, Bitcoin Cash and Zcash. In this article we want to talk about why we’re integrating Ethereum.</summary></entry></feed>
+&lt;p&gt;We are excited to keep working with you on this project and to help it grow together. We can only do it with your support so please spread the word and help us make OpenBazaar even better.&lt;/p&gt;</content><author><name></name></author><summary type="html">by Brian Hoffman, CEO, OB1</summary></entry></feed>
