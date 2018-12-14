@@ -1,7 +1,7 @@
 ---
 title: "OpenBazaar Developer Call - December 13, 2018"
 layout: post
-date: '2018-12-13 08:30:00 -0600'
+date: '2018-12-14 08:30:00 -0600'
 social_title: 'OpenBazaar Developer Call - December 13, 2018'
 social_description: 'OpenBazaar Developer Call - December 13, 2018'
 ---
