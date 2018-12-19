@@ -6,7 +6,7 @@ date: '2016-11-23 00:30:00 -0300'
         
 [![Bitcoin Black Friday Deals on OpenBazaar](Bitcoin-Black-Friday-Deals1.png)](Bitcoin-Black-Friday-Deals1.png) [Bitcoin Black Friday](http://bitcoinblackfriday.com) is almost here again which is great, right? It's an excellent opportunity for vendors and buyers to promote the regular use of Bitcoin while kicking off the holiday shopping frenzy in the U.S. Unfortunately though there is not much information available telling us specifically _what kinds_ of deals and offers to expect so we can plan ahead.
 
-> Hey, getting the most out of Black Friday is difficult, and moreso when planning where to spend your precious cryptocurrencies!
+> Hey, getting the most out of Black Friday is difficult, and more so when planning where to spend your precious cryptocurrencies!
 
 Don't worry though, we're here to help! The OpenBazaar vendor community is excited, with a lot of great deals and offers they want to share, and we get to tell you about them a little early so you can plan ahead what to do with your (Bitcoin) wallet. (What's that? You still only have a digital wallet? Well then see below & pay special attention to what [Ledger](https://duosear.ch/f71cc867c98c171ddbf0d093c3f1046294e81279) will have going on Friday...)
 
