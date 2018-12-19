@@ -18,7 +18,7 @@ _Stuff._
 
 _Things._ 
 
-_Posessions._
+_Possessions._
 
 Those of us in the western world often have a lot of _stuff_ already and this season encourages us to acquire more. It made me think about how many of us even really _know_ how much stuff we already have and my fascination with the TV show American Pickers. If you haven't watched it before, take 2 minutes to watch this clip:
 
@@ -27,7 +27,7 @@ Those of us in the western world often have a lot of _stuff_ already and this se
 **This clip demonstrates a few common themes in the show:**
 
 1. The owner of the item had lost track of where it was. Often in the show, the owners aren't even aware of the item's existence.
-2. The method to determine a price to sell the item was informal, and time consuming. There's a good chance one of the parties in the trade was far away from a 'market price'.
+2. The method to determine a price to sell the item was informal and time-consuming. There's a good chance one of the parties in the trade was far away from a 'market price'.
 3. Transactions are done in person, in cash.
 
 The setting of the show is somewhat unique; they typically find rural collectors who have barns full of old items. But some of the themes of the show are mirrored in the broader economy as well, at least in developed economies.
@@ -62,7 +62,7 @@ Using these platforms is an incremental improvement over the yard sale. It still
 
 Together, these platforms could change the way we keep track of our personal possessions. Our own knowledge of our possessions - and their value - doesn't need to be manually re-evaluated informally and periodically, but instead continually tracked and updated. Nor does this information need to be manually transmitted to the local or global community; it can be automatically (and anonymously) displayed to the world, continuously, at no cost.
 
-This can be achieved by representing possessions as **Ricardian contracts** (I'll just refer them them as contracts), and publishing them to the OpenBazaar network. Ricardian contracts are a data structure that allows goods and services to be represented electronically; these contracts allow users to put in any information about a possession as well as the price they value the good at. When a user creates a contract, the OpenBazaar client publishes the information to the network, and other users can view that contract. 
+This can be achieved by representing possessions as **Ricardian contracts** (I'll just refer to them as contracts), and publishing them to the OpenBazaar network. Ricardian contracts are a data structure that allows goods and services to be represented electronically; these contracts allow users to put in any information about a possession as well as the price they value the good at. When a user creates a contract, the OpenBazaar client publishes the information to the network, and other users can view that contract. 
 
 If they choose, the user could put in a price for which they'd be willing to sell the item. If anyone in the world values that possession more than the current owner, they could instantly make an offer.
 
