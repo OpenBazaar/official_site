@@ -6,9 +6,9 @@ social_title: 'What You Really Need To Know About The Dangers Of Deplatforming'
 social_description: 'What You Really Need To Know About The Dangers Of Deplatforming'
 ---
 
-In this video [OB1](https://ob1.io) Co-Founder, **Sam Patterson**, discusses recent increases in "deplatforming" by major online networks and service providers. 
+In the video below, [OB1](https://ob1.io) Co-Founder **Sam Patterson** discusses recent increases in "deplatforming" by major online networks and service providers. 
 
-**Check it out for answers to these questions:**
+**Check it out for answers to the following questions:**
 
 1. What is "**deplatforming**?"
 2. Which platforms are doing this?
@@ -25,4 +25,3 @@ In this video [OB1](https://ob1.io) Co-Founder, **Sam Patterson**, discusses rec
 - [Bisq](https://bisq.network/)
 - [IPFS](https://ipfs.io/)
 - [Mastadon](https://joinmastodon.org/)
-
