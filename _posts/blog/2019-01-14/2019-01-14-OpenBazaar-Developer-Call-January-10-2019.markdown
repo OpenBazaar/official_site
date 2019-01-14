@@ -20,7 +20,8 @@ Browse OpenBazaar now at [openbazaar.com](https://openbazaar.com)
 
 [10:07] chris.troutner: Seems like incentivizing people to run an API server would be a good use for an OB token.
 
-(
+[10:13] chris.troutner: On the chance that this is helpful to you guys: [https://github.com/christroutner/orbit-tests](https://github.com/christroutner/orbit-tests) this repo has a handful of demos using the IPFS circuit-relay and OrbitDB. It demos the requirements and ability for IPFS to tunnel through firewalls using circuit-relay. It's JavaScript focused, sorry.
+
 [10:17] chris.troutner: Wanted to mention the release of Badger Wallet: [https://badger.bitcoin.com/](https://badger.bitcoin.com/) It's a browser extension for Firefox an Chrome. it's a fork of Metamask. It allow web apps to receive payments in BCH as well as tokens using either the SLP or Wormhole token protocols. It will probably support Keoken soon too, which is a new token protocol by Bitprim.
 
 If you're coming from the Ethereum world, you're probably familiar with Metamask. This is the exact same user experience, but on the BCH network.
