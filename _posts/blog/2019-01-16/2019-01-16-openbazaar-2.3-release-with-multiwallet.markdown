@@ -18,11 +18,6 @@ This video shows you what the multiwallet looks like and how to use it.
 
 {% include modules/embeded-video.html url="https://youtu.be/U3N82PbhezM"%}
 
-**Links discussed in the video:**
 
-- [The Beginner's Guide to Decentralization](https://openbazaar.org/blog/the-beginners-guide-to-decentralization/)
-- [OpenBazaar](https://openbazaar.org/)
-- [Bitcoin](https://bitcoin.org/en/)
-- [Bisq](https://bisq.network/)
-- [IPFS](https://ipfs.io/)
-- [Mastadon](https://joinmastodon.org/)
+
+
