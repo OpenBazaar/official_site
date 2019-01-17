@@ -1,7 +1,7 @@
 ---
 title: "OpenBazaar 2.3 is Released <span class='post-title-extra'>with New Multiwallet Feature</span>"
 layout: post
-date: '2019-10-17 08:30:00 -0600'
+date: '2019-01-17 08:30:00 -0600'
 social_title: 'New OpenBazaar release allows you to use multiple cryptocurrencies'
 social_description: 'New OpenBazaar release allows you to use multiple cryptocurrencies in peer-to-peer marketplace'
 ---
