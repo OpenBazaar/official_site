@@ -1,12 +1,12 @@
 ---
 title: "OpenBazaar 2.3 is Released <span class='post-title-extra'>with New Multiwallet Feature</span>"
 layout: post
-date: '2019-10-16 08:30:00 -0600'
+date: '2019-10-17 08:30:00 -0600'
 social_title: 'New OpenBazaar release allows you to use multiple cryptocurrencies'
 social_description: 'New OpenBazaar release allows you to use multiple cryptocurrencies in peer-to-peer marketplace'
 ---
 
-After several months of work OpenBazaar version 2.3 has [been released](https://github.com/OpenBazaar/openbazaar-desktop/releases). This is a major release which contains significant changes to how the OpenBazaar wallet functions.
+After several months of work OpenBazaar version 2.3 has [been released](https://github.com/OpenBazaar/openbazaar-desktop/releases). This is a major release which contains significant changes to how the OpenBazaar wallet functions. Because of the major changes in this release, we highly recommend you [backup your OpenBazaar data](https://openbazaar.zendesk.com/hc/en-us/articles/115002761312-How-do-I-backup-my-store-) before you update.
 
 Previously, OpenBazaar users were forced to use one cryptocurrency at a time. At startup they choose between Bitcoin, Bitcoin Cash, and Zcash. From that moment they could only use the coin they chose for all sales or purchases. If they wanted to use another coin, they had to run an entirely separate node.
 
