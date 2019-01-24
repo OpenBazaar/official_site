@@ -1,4 +1,54 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2019-01-24T16:25:51+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">OpenBazaar Developer Call - January 10, 2019</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-January-10-2019/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - January 10, 2019" /><published>2019-01-14T14:30:00+00:00</published><updated>2019-01-14T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-January-10-2019</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-January-10-2019/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on January 10, 2019.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2019-01-24T20:28:45+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html"></title><link href="https://openbazaar.org/blog/2019-01-24-which-cryptocurrencies-are-used-in-openbazaar/" rel="alternate" type="text/html" title="" /><published>2019-01-24T20:28:45+00:00</published><updated>2019-01-24T20:28:45+00:00</updated><id>https://openbazaar.org/blog/2019-01-24-which-cryptocurrencies-are-used-in-openbazaar</id><content type="html" xml:base="https://openbazaar.org/blog/2019-01-24-which-cryptocurrencies-are-used-in-openbazaar/">&lt;p&gt;The decentralized marketplace OpenBazaar supports several different cryptocurrencies for buying and selling goods and services between users. This post explains which currencies, and why were they chosen.&lt;/p&gt;
+
+&lt;h2 id=&quot;cryptocurrencies-supported-in-openbazaar&quot;&gt;Cryptocurrencies Supported in OpenBazaar&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Bitcoin&lt;/li&gt;
+  &lt;li&gt;Bitcoin Cash&lt;/li&gt;
+  &lt;li&gt;Litecoin&lt;/li&gt;
+  &lt;li&gt;Zcash&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;why-we-support-these-cryptocurrencies&quot;&gt;Why we Support these Cryptocurrencies&lt;/h2&gt;
+
+&lt;p&gt;OpenBazaar was originally developed with only Bitcoin in mind. At the beginning of 2018 we &lt;a href=&quot;https://youtu.be/H4yW20txnB0&quot;&gt;introduced&lt;/a&gt; a handful of new coins, and in early 2019 version 2.3 was released which added Litecoin and a new wallet which supports multiple coins per instance, which made it easier to integrate new coins moving forward.&lt;/p&gt;
+
+&lt;p&gt;Because of the original reliance on Bitcoin, it’s always been a requirement for any supported cryptocurrency to be architecturally similar to Bitcoin for it to work properly. All the coins supported are forks of Bitcoin, unless otherwise noted.&lt;/p&gt;
+
+&lt;p&gt;Another requirement is multisig. OpenBazaar uses multisig for moderated and offline payments (escrow), and coins must have this feature - or the ability to support escrow payments another way - to be supported.&lt;/p&gt;
+
+&lt;h3 id=&quot;bitcoin&quot;&gt;Bitcoin&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://bitcoin.org/en/&quot;&gt;Bitcoin&lt;/a&gt; is the original cryptocurrency. It is the most secure, with a large industry of miners devoting energy to securing the blockchain. It has the most users of any cryptocurrency, and is used for commerce more frequently.&lt;/p&gt;
+
+&lt;p&gt;Bitcoin was the only currency used in OpenBazaar from the beginning of the project in 2014 until early 2018. It is the most used cryptocurrency within the platform by a wide margin.&lt;/p&gt;
+
+&lt;h3 id=&quot;bitcoin-cash&quot;&gt;Bitcoin Cash&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.bitcoincash.org/&quot;&gt;Bitcoin Cash&lt;/a&gt; was forked from Bitcoin in August 2017. The creators of Bitcoin Cash disagreed with the development decisions of Bitcoin (particularly around scaling), and created new consensus rules. They focus on their cryptocurrency being usable for commerce on-chain.&lt;/p&gt;
+
+&lt;p&gt;OpenBazaar adopted Bitcoin Cash because adoption was technically simple due to its similarity to Bitcoin, and because community members were willing to offer support for the implementation.&lt;/p&gt;
+
+&lt;h3 id=&quot;litecoin&quot;&gt;Litecoin&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://litecoin.org/&quot;&gt;Litecoin&lt;/a&gt; was one of the earliest altcoins. It is very similar to Bitcoin in design, with a few differences such as having a quicker block generation time and different hash algorithm.&lt;/p&gt;
+
+&lt;p&gt;As one of the oldest altcoins it has well-established industry support, and a substantial community of users.&lt;/p&gt;
+
+&lt;p&gt;Just like Bitcoin Cash, OpenBazaar adopted Litecoin because adoption was technically simple due to its similarity to Bitcoin, and because community members were willing to offer support for the implementation.&lt;/p&gt;
+
+&lt;h3 id=&quot;zcash&quot;&gt;Zcash&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://z.cash/&quot;&gt;Zcash&lt;/a&gt; is a cryptocurrency that focuses on privacy. It was forked from Bitcoin, but adds the ability to do “shielded transactions” using zk-SNARKs, which aren’t traceable on the blockchain like typical Bitcoin transactions.&lt;/p&gt;
+
+&lt;p&gt;Within OpenBazaar at the moment, shielded transactions using Zcash aren’t possible, and only transparent transactions (which aren’t private) are possible. At some point we hope to change that.&lt;/p&gt;
+
+&lt;p&gt;As with the other currencies mentioned,  OpenBazaar adopted Zcash because adoption was technically simple due to its similarity to Bitcoin, and because community members were willing to offer support for the implementation.&lt;/p&gt;
+
+&lt;h2 id=&quot;other-cryptocurrencies&quot;&gt;Other cryptocurrencies&lt;/h2&gt;
+&lt;p&gt;Ethereum support is being actively developed now.&lt;/p&gt;
+
+&lt;p&gt;Some ERC-20 tokens will also be supported after Ethereum support is added.&lt;/p&gt;
+
+&lt;p&gt;There is discussion about Monero support, but because of Monero’s multisig design it might only allow direct transactions, not escrowed.&lt;/p&gt;
+
+&lt;p&gt;This post will be updated when new coins are supported, or when new development is occurring.&lt;/p&gt;</content><author><name></name></author></entry><entry><title type="html">OpenBazaar Developer Call - January 10, 2019</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-January-10-2019/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - January 10, 2019" /><published>2019-01-14T14:30:00+00:00</published><updated>2019-01-14T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-January-10-2019</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-January-10-2019/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on January 10, 2019.&lt;/p&gt;
 
 &lt;p&gt;Want to join the call in real time? Sign up at &lt;a href=&quot;https://openbazaar.org/developers&quot;&gt;openbazaar.org/developers&lt;/a&gt;&lt;/p&gt;
 
@@ -402,56 +452,4 @@ Celebrate 1 year of OpenBazaar 2 with this great swag pack. Priced crazy low at 
 &lt;h4 id=&quot;60-contributors&quot;&gt;60+ Contributors&lt;/h4&gt;
 &lt;p&gt;Dozens of users have contributed to the OpenBazaar codebase on &lt;a href=&quot;https://github.com/openbazaar&quot;&gt;Github&lt;/a&gt; resulting in &lt;strong&gt;2,258 commits&lt;/strong&gt; and &lt;strong&gt;471 closed issues&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;If you haven’t had a chance to check it out yet, now is a great time to do so! You can help build the decentralized future you want to see by shopping or selling in the app or contributing to the open source project. We have big things coming up in year 2 and we promise you won’t want to miss it.&lt;/p&gt;</content><author><name></name></author><summary type="html">OpenBazaar 2 has had a powerful year since its launch in November 2017. We are proud of the growth and activity we have seen during this tumultuous time in crypto.</summary></entry><entry><title type="html">OpenBazaar Developer Call - November 8, 2018</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-November-8-2018/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - November 8, 2018" /><published>2018-11-13T14:30:00+00:00</published><updated>2018-11-13T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-November-8-2018</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-November-8-2018/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on November 8, 2018.&lt;/p&gt;
-
-&lt;p&gt;Want to join the call in real time? Sign up at &lt;a href=&quot;https://openbazaar.org/developers&quot;&gt;openbazaar.org/developers&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Join our ongoing conversations on Slack at &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;openbazaar.org/slack&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Browse OpenBazaar now at &lt;a href=&quot;https://openbazaar.com&quot;&gt;openbazaar.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;div class=&quot;embed-responsive embed-responsive-16by9 mb-5&quot;&gt;
-    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/OlgcS_k_Oa0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Chat log:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;[09:59] mg: Hi kornilov. :)&lt;/p&gt;
-
-&lt;p&gt;[10:00] mg: Heard you learned how to feed chickens over the internet with magic internet money.&lt;/p&gt;
-
-&lt;p&gt;[10:00] kornilov: Hi developers and Jenn. :)&lt;/p&gt;
-
-&lt;p&gt;[10:02] kornilov: Yes, I have learned to make ethereum testnet token - korncoin ;)&lt;/p&gt;
-
-&lt;p&gt;[10:02] mg: I was unaware of that! I was talking about the &lt;a href=&quot;https://www.twitch.tv/redpepper261&quot;&gt;BCH chicken feeder/webcam&lt;/a&gt;. :)&lt;/p&gt;
-
-&lt;p&gt;[10:04] kornilov: Oh, that is supposed to be a secret project available only for NSA. ;)&lt;/p&gt;
-
-&lt;p&gt;[10:04] mg: Haha… I’ll make sure to keep my lips sealed. :X&lt;/p&gt;
-
-&lt;p&gt;[10:10] joshj: One minor clarification, ETH uses Infura, not Insight.&lt;/p&gt;
-
-&lt;p&gt;[10:19] chris.troutner: 18!? That’s fantastic.&lt;/p&gt;
-
-&lt;p&gt;[10:20] Rod: Is there a general timeline/estimate for when 2.3 will be released?&lt;/p&gt;
-
-&lt;p&gt;[10:22] kornilov: How many fulltime employed developers OB has?&lt;/p&gt;
-
-&lt;p&gt;[10:22] kornilov: very nice!&lt;/p&gt;
-
-&lt;p&gt;[10:23] Rod: Have there been any updates for downloading offline messages quicker in the current client?&lt;/p&gt;
-
-&lt;p&gt;[10:23] Rod: I have done some prototypes for putting together OB features in the browser and the amount of time it takes&lt;/p&gt;
-
-&lt;p&gt;[10:26] chris.troutner: Sorry about that. My connection is sketchy.&lt;/p&gt;
-
-&lt;p&gt;[10:26] Rod: I did some testing with doing full IPNS crawl on a shorter interval and did not see any significant increase in resources used. Do you know if there is a specific reason the crawl speed is at the current speed it is&lt;/p&gt;
-
-&lt;p&gt;[10:26] Rod: I can follow up on slack later if needed&lt;/p&gt;
-
-&lt;p&gt;[10:27] chris.troutner: I just wanted to say congrats on the Hacktoberfest results.&lt;/p&gt;
-
-&lt;p&gt;[10:28] Rod: Alright thank you Chris&lt;/p&gt;
-
-&lt;p&gt;[10:28] chris.troutner: If OB wants to investigate BCH token integration (Wormhole or SLP), perhaps we could use it as an opportunity to incentivize community developers through swag and bounties, like gitcash.io or Gitcoin.&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on November 8, 2018.</summary></entry></feed>
+&lt;p&gt;If you haven’t had a chance to check it out yet, now is a great time to do so! You can help build the decentralized future you want to see by shopping or selling in the app or contributing to the open source project. We have big things coming up in year 2 and we promise you won’t want to miss it.&lt;/p&gt;</content><author><name></name></author><summary type="html">OpenBazaar 2 has had a powerful year since its launch in November 2017. We are proud of the growth and activity we have seen during this tumultuous time in crypto.</summary></entry></feed>

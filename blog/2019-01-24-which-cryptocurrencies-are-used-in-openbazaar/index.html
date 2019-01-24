@@ -1,0 +1,52 @@
+<p>The decentralized marketplace OpenBazaar supports several different cryptocurrencies for buying and selling goods and services between users. This post explains which currencies, and why were they chosen.</p>
+
+<h2 id="cryptocurrencies-supported-in-openbazaar">Cryptocurrencies Supported in OpenBazaar</h2>
+<ul>
+  <li>Bitcoin</li>
+  <li>Bitcoin Cash</li>
+  <li>Litecoin</li>
+  <li>Zcash</li>
+</ul>
+
+<h2 id="why-we-support-these-cryptocurrencies">Why we Support these Cryptocurrencies</h2>
+
+<p>OpenBazaar was originally developed with only Bitcoin in mind. At the beginning of 2018 we <a href="https://youtu.be/H4yW20txnB0">introduced</a> a handful of new coins, and in early 2019 version 2.3 was released which added Litecoin and a new wallet which supports multiple coins per instance, which made it easier to integrate new coins moving forward.</p>
+
+<p>Because of the original reliance on Bitcoin, it’s always been a requirement for any supported cryptocurrency to be architecturally similar to Bitcoin for it to work properly. All the coins supported are forks of Bitcoin, unless otherwise noted.</p>
+
+<p>Another requirement is multisig. OpenBazaar uses multisig for moderated and offline payments (escrow), and coins must have this feature - or the ability to support escrow payments another way - to be supported.</p>
+
+<h3 id="bitcoin">Bitcoin</h3>
+<p><a href="https://bitcoin.org/en/">Bitcoin</a> is the original cryptocurrency. It is the most secure, with a large industry of miners devoting energy to securing the blockchain. It has the most users of any cryptocurrency, and is used for commerce more frequently.</p>
+
+<p>Bitcoin was the only currency used in OpenBazaar from the beginning of the project in 2014 until early 2018. It is the most used cryptocurrency within the platform by a wide margin.</p>
+
+<h3 id="bitcoin-cash">Bitcoin Cash</h3>
+<p><a href="https://www.bitcoincash.org/">Bitcoin Cash</a> was forked from Bitcoin in August 2017. The creators of Bitcoin Cash disagreed with the development decisions of Bitcoin (particularly around scaling), and created new consensus rules. They focus on their cryptocurrency being usable for commerce on-chain.</p>
+
+<p>OpenBazaar adopted Bitcoin Cash because adoption was technically simple due to its similarity to Bitcoin, and because community members were willing to offer support for the implementation.</p>
+
+<h3 id="litecoin">Litecoin</h3>
+<p><a href="https://litecoin.org/">Litecoin</a> was one of the earliest altcoins. It is very similar to Bitcoin in design, with a few differences such as having a quicker block generation time and different hash algorithm.</p>
+
+<p>As one of the oldest altcoins it has well-established industry support, and a substantial community of users.</p>
+
+<p>Just like Bitcoin Cash, OpenBazaar adopted Litecoin because adoption was technically simple due to its similarity to Bitcoin, and because community members were willing to offer support for the implementation.</p>
+
+<h3 id="zcash">Zcash</h3>
+
+<p><a href="https://z.cash/">Zcash</a> is a cryptocurrency that focuses on privacy. It was forked from Bitcoin, but adds the ability to do “shielded transactions” using zk-SNARKs, which aren’t traceable on the blockchain like typical Bitcoin transactions.</p>
+
+<p>Within OpenBazaar at the moment, shielded transactions using Zcash aren’t possible, and only transparent transactions (which aren’t private) are possible. At some point we hope to change that.</p>
+
+<p>As with the other currencies mentioned,  OpenBazaar adopted Zcash because adoption was technically simple due to its similarity to Bitcoin, and because community members were willing to offer support for the implementation.</p>
+
+<h2 id="other-cryptocurrencies">Other cryptocurrencies</h2>
+<p>Ethereum support is being actively developed now.</p>
+
+<p>Some ERC-20 tokens will also be supported after Ethereum support is added.</p>
+
+<p>There is discussion about Monero support, but because of Monero’s multisig design it might only allow direct transactions, not escrowed.</p>
+
+<p>This post will be updated when new coins are supported, or when new development is occurring.</p>
+
