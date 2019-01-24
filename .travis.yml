@@ -3,7 +3,7 @@ branches:
   only:
   - master
 rvm:
-- 2.3.3
+- 2.6.0
 addons:
   apt:
     packages:
@@ -36,3 +36,4 @@ deploy:
   script: rsync -r --quiet --delete-after _site/* $DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_DIRECTORY
   on:
     branch: master
+cache: bundler
