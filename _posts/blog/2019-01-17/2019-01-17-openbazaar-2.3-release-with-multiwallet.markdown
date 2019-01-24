@@ -16,7 +16,7 @@ At the time of release there are four supported cryptocurrencies: Bitcoin, Bitco
 
 This video shows you what the multiwallet looks like and how to use it.
 
-{% include modules/embeded-video.html url="https://www.youtube.com/U3N82PbhezM"%}
+{% include modules/embeded-video.html url="https://www.youtube.com/embed/U3N82PbhezM"%}
 
 
 
