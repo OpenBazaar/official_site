@@ -3,7 +3,7 @@ title: "Which Cryptocurrencies are used in OpenBazaar, <span class='post-title-e
 layout: post
 date: '2019-01-24 08:30:00 -0600'
 social_title: 'Which Cryptocurrencies are used in OpenBazaar, and Why?'
-social_description: 'Explaining which cryptocurrencies are supported in OpenBazaar, and why they've been picked'
+social_description: 'Explaining which cryptocurrencies are supported in OpenBazaar, and why they’ve been picked'
 ---
 
 The decentralized marketplace OpenBazaar supports several different cryptocurrencies for buying and selling goods and services between users. This post explains which currencies, and why were they chosen.
