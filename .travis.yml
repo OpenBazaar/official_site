@@ -31,7 +31,7 @@ env:
   - secure: eRnnFYJX4t8I4AIAKEwsIUGlhTAby1nucA0hLYi+psJ77NL46ATTcewoDbrd0vZyu87jnAcn+x6tcVcOG+Rpo7Pcry3VnM7Swuhwhb+/wiGOMD+3S18S6u5UZPwvW0Krt6hFRou27kNR8EHR4hElUNovgX9hRgwRTC7Ip7moVcihoierzeDVAlKdUTSQQaaBAX4JNhN8dK1iM+D5iV0RlKx+Hp/vKyGoFHA81odwq3WUMZaYAE1SWA5cAH0mD+JHpbctEMZ0WNeiwBB1/of8ibwCJCWHWgAlMnKLeUmYBSNd/oYQsiZPz9sWWyJmDKbIIiPREI3uM8lwZZ2KHnrMor23VjgTRsDAxb6+Ig7HA/R7/jRlsc3UG4glUIDoIQE98S1Sb15taz50Cq0Ry1UZVOtv0XZhmQWXycK7BLqTbz9gjArZe87OV1HKD1u7ntYk2VBbwJyqyjbFOMCYC1AK217Ezf0jsy3pK1KQWiwyT3QI3sVCMDvNhY5BHi0bdJzZHSrEG9d5LGwt/Z9Nz+pfqkDCNcEKSKQpz1DlgICTXh7xyzyAvvZb7X6RHBxuAOrAYyovxw3Kq2pwQ3rj3puSv7dexAajQhTdRj2QwvvZC1ZVEUizYglNFC4J7IzC4oXbK3B8dk1gR2KL3LTxAPcqNecqYHxmTS+q/pTz25gvFQ8=
 before_script:
 - chmod +x ./script/cibuild
-script: if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then ./script/cibuild; fi
+script: 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then ./script/cibuild; fi'
 deploy:
   provider: script
   skip_cleanup: true
