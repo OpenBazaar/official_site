@@ -16,6 +16,8 @@ mkdir _site
 # clone remote repo to "_site"
 git clone https://${GITHUB_TOKEN}@github.com/OpenBazaar/official_site.git --branch gh-pages _site
 
+gem install nokogiri
+
 # build with Jekyll into "_site"
 JEKYLL_ENV=production bundle exec jekyll build
 
