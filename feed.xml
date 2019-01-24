@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2019-01-24T16:17:53+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">Happy Holidays from OB1 - Your Gifts Are Coming Soon</title><link href="https://openbazaar.org/blog/happy-holidays-from-ob1/" rel="alternate" type="text/html" title="Happy Holidays from OB1 - &lt;span class='post-title-extra'&gt;Your Gifts Are Coming Soon&lt;/span&gt;" /><published>2018-12-25T14:30:00+00:00</published><updated>2018-12-25T14:30:00+00:00</updated><id>https://openbazaar.org/blog/happy-holidays-from-ob1</id><content type="html" xml:base="https://openbazaar.org/blog/happy-holidays-from-ob1/">&lt;p&gt;Happy holidays! The &lt;a href=&quot;https://ob1.io&quot;&gt;OB1&lt;/a&gt; team is taking a bit of time off this week as 2018 comes to a close. We have been working hard on plans for 2019 and can’t wait to give you some gifts. 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2019-01-24T16:25:51+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">OpenBazaar Developer Call - January 10, 2019</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-January-10-2019/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - January 10, 2019" /><published>2019-01-14T14:30:00+00:00</published><updated>2019-01-14T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-January-10-2019</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-January-10-2019/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on January 10, 2019.&lt;/p&gt;
+
+&lt;p&gt;Want to join the call in real time? Sign up at &lt;a href=&quot;https://openbazaar.org/developers&quot;&gt;openbazaar.org/developers&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Join our ongoing conversations on &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Browse OpenBazaar now at &lt;a href=&quot;https://openbazaar.com&quot;&gt;openbazaar.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;embed-responsive embed-responsive-16by9 mb-5&quot;&gt;
+    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/3OdmS-z6yuo&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Chat log:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:07] chris.troutner: Seems like incentivizing people to run an API server would be a good use for an OB token.&lt;/p&gt;
+
+&lt;p&gt;[10:13] chris.troutner: On the chance that this is helpful to you guys: &lt;a href=&quot;https://github.com/christroutner/orbit-tests&quot;&gt;https://github.com/christroutner/orbit-tests&lt;/a&gt; this repo has a handful of demos using the IPFS circuit-relay and OrbitDB. It demos the requirements and ability for IPFS to tunnel through firewalls using circuit-relay. It’s JavaScript focused, sorry.&lt;/p&gt;
+
+&lt;p&gt;[10:17] chris.troutner: Wanted to mention the release of Badger Wallet: &lt;a href=&quot;https://badger.bitcoin.com/&quot;&gt;https://badger.bitcoin.com/&lt;/a&gt; It’s a browser extension for Firefox an Chrome. it’s a fork of Metamask. It allow web apps to receive payments in BCH as well as tokens using either the SLP or Wormhole token protocols. It will probably support Keoken soon too, which is a new token protocol by Bitprim.&lt;/p&gt;
+
+&lt;p&gt;If you’re coming from the Ethereum world, you’re probably familiar with Metamask. This is the exact same user experience, but on the BCH network.&lt;/p&gt;
+
+&lt;p&gt;If interested, I’d love to help the OpenBazaar team to integrate Badger Wallet functionality into openbazaar.com, to allow people to make purchases directly from the website.&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on January 10, 2019.</summary></entry><entry><title type="html">Happy Holidays from OB1 - Your Gifts Are Coming Soon</title><link href="https://openbazaar.org/blog/happy-holidays-from-ob1/" rel="alternate" type="text/html" title="Happy Holidays from OB1 - &lt;span class='post-title-extra'&gt;Your Gifts Are Coming Soon&lt;/span&gt;" /><published>2018-12-25T14:30:00+00:00</published><updated>2018-12-25T14:30:00+00:00</updated><id>https://openbazaar.org/blog/happy-holidays-from-ob1</id><content type="html" xml:base="https://openbazaar.org/blog/happy-holidays-from-ob1/">&lt;p&gt;Happy holidays! The &lt;a href=&quot;https://ob1.io&quot;&gt;OB1&lt;/a&gt; team is taking a bit of time off this week as 2018 comes to a close. We have been working hard on plans for 2019 and can’t wait to give you some gifts. 
  &lt;br /&gt;
  &lt;br /&gt;&lt;/p&gt;
 
@@ -432,30 +454,4 @@ Celebrate 1 year of OpenBazaar 2 with this great swag pack. Priced crazy low at 
 
 &lt;p&gt;[10:28] Rod: Alright thank you Chris&lt;/p&gt;
 
-&lt;p&gt;[10:28] chris.troutner: If OB wants to investigate BCH token integration (Wormhole or SLP), perhaps we could use it as an opportunity to incentivize community developers through swag and bounties, like gitcash.io or Gitcoin.&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on November 8, 2018.</summary></entry><entry><title type="html">How Will The BCH Hard Fork Affect OpenBazaar?</title><link href="https://openbazaar.org/blog/how-will-the-bch-hard-fork-on-nov-15-affect-openbazaar/" rel="alternate" type="text/html" title="How Will The &lt;span class='post-title-extra'&gt;BCH Hard Fork&lt;/span&gt; Affect OpenBazaar?" /><published>2018-11-12T09:30:00+00:00</published><updated>2018-11-12T09:30:00+00:00</updated><id>https://openbazaar.org/blog/how-will-the-bch-hard-fork-on-nov-15-affect-openbazaar</id><content type="html" xml:base="https://openbazaar.org/blog/how-will-the-bch-hard-fork-on-nov-15-affect-openbazaar/">&lt;h4 id=&quot;whats-happening-with-bitcoin-cash&quot;&gt;What’s Happening with Bitcoin Cash?&lt;/h4&gt;
-
-&lt;p&gt;There is a &lt;a href=&quot;https://www.bitcoincash.org/&quot;&gt;Bitcoin Cash&lt;/a&gt; network upgrade beginning at 4:40PM UTC on November 15th, 2018. Depending on how the upgrade is accepted by the network, the Bitcoin Cash blockchain could fork into two or more incompatible chains.&lt;/p&gt;
-
-&lt;p&gt;It’s important to note that transacting is dangerous during a hard fork like this unless it’s between addresses you entirely control. If you transact BCH to an address you don’t control you could lose access to your coins on other forks.&lt;/p&gt;
-
-&lt;p&gt;In order to help OpenBazaar users prepare for the hard fork, here is some information about the OpenBazaar wallet that can help you decide how to handle any BCH you may have stored there.&lt;/p&gt;
-
-&lt;h4 id=&quot;how-will-the-bitcoin-cash-upgrade-affect-my-openbazaar-funds&quot;&gt;How Will The Bitcoin Cash Upgrade Affect My OpenBazaar Funds?&lt;/h4&gt;
-
-&lt;p&gt;Users of &lt;strong&gt;OpenBazaar 2.2.5 and prior&lt;/strong&gt; who have an active BCH wallet are using a local SPV-based wallet. &lt;a href=&quot;https://bitcoin.org/en/glossary/simplified-payment-verification&quot;&gt;SPV wallets&lt;/a&gt; are designed to follow the chain that has the most cumulative proof-of-work according to the existing Bitcoin Cash difficulty rules. The SPV wallet in OpenBazaar will follow the longest chain served by the peers it’s able to connect to. We advise that you withdraw your BCH from your OpenBazaar wallet until the chains settle.&lt;/p&gt;
-
-&lt;h4 id=&quot;withdraw-your-bch-to-electron&quot;&gt;Withdraw Your BCH to Electron&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Users of an OpenBazaar wallet control their funds by having sole access to their keys. The wallet maintains its keys and seed locally on your computer which you can &lt;a href=&quot;https://openbazaar.zendesk.com/hc/en-us/articles/115002892791-How-do-I-backup-my-OpenBazaar-wallet-&quot;&gt;backup to a safe location using these steps&lt;/a&gt;. Then, import your seed into a &lt;strong&gt;BIP39-compatible wallet&lt;/strong&gt; (such as &lt;a href=&quot;https://electroncash.org/&quot;&gt;Electron Cash&lt;/a&gt; ) to keep your funds safe through the fork.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The &lt;a href=&quot;https://ob1.io&quot;&gt;OB1&lt;/a&gt; team will continue to observe the network upgrade and will take further actions as necessary to ensure the safety of our users’ funds at rest within the OpenBazaar wallet.&lt;/p&gt;
-
-&lt;h4 id=&quot;what-should-i-do-next&quot;&gt;What Should I Do Next?&lt;/h4&gt;
-
-&lt;p&gt;For the next few weeks, make sure you have the keys to your OpenBazaar wallet stored somewhere safe as complications may arise. When things settle it is entirely your choice what you do with your coins, but we also recommend being cautious of a chain with hash power of 50% or more controlled by one entity.&lt;/p&gt;
-
-&lt;h4 id=&quot;in-conclusion&quot;&gt;In Conclusion&lt;/h4&gt;
-
-&lt;p&gt;OpenBazaar is a private, open-source marketplace powered by cryptocurrency that is making trade free for everyone, everywhere. The development team at OB1 is committed to building a secure and reliable transactional environment for users around the world. We do our best to ensure that you have the knowledge you need to make the best decisions for you and your coins. If you have questions please join us on &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt; to chat with our development team and active community.&lt;/p&gt;</content><author><name></name></author><summary type="html">What’s Happening with Bitcoin Cash?</summary></entry></feed>
+&lt;p&gt;[10:28] chris.troutner: If OB wants to investigate BCH token integration (Wormhole or SLP), perhaps we could use it as an opportunity to incentivize community developers through swag and bounties, like gitcash.io or Gitcoin.&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on November 8, 2018.</summary></entry></feed>
