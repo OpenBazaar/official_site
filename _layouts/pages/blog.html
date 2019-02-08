@@ -19,10 +19,10 @@ layout: default
             <div class="">
                 {% if paginator.total_pages > 1 %}
                     {% if paginator.next_page %}
-                        <a href="{{ paginator.next_page_path }}" class="alternative-link">&lt;&lt; Older Entries</a>
+                        <a href="/{{ paginator.next_page_path }}" class="alternative-link">&lt;&lt; Older Entries</a>
                     {% endif %}
                     {% if paginator.previous_page %}
-                        <a href="{{ paginator.previous_page_path }}" class="alternative-link float-right">Newer Entries &gt;&gt;</a>
+                        <a href="/{{ paginator.previous_page_path }}" class="alternative-link float-right">Newer Entries &gt;&gt;</a>
                     {% endif %}
                     
                 {% endif %}
