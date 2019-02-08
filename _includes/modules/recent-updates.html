@@ -9,14 +9,13 @@
                     <div class="card-deck text-center">
                         {% for post in site.posts limit:4 %}
                             <div class="card p-3 mb-4">
-                                <div class="card-body d-flex flex-column justify-content-between">
+                                <div class="card-body d-flex flex-column">
                                     <a href="{{ post.url | relative_url }}">
-                                        <h5 class="recent-updates-title">{{ post.title | strip_html}}</h5>
+                                        <h5 class="recent-updates-title">{{ post.title | strip_html | escape }}</h5>
                                     </a>
                                     <div class="recent-updates-body mt-2">
-                                        {{ post.excerpt | truncatewords: 40 | strip_html }}
+                                        {{ post.excerpt | strip_html | escape | truncatewords: 40 }}
                                     </div>
-
                                     <a href="{{ post.url | relative_url }}" class="button small mt-4 mx-auto">read more</a>
                                 </div>
                             </div>
