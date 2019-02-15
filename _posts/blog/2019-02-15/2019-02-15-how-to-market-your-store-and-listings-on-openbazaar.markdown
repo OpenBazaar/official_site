@@ -14,13 +14,13 @@ Some of the earliest feedback we heard from ecommerce sellers who were intereste
 
 [OpenBazaar](https://openbazaar.org/download) is an application that users have to download and run on their own computers to connect to and participate in the network. It is built this way to make the decentralization of the network possible. While the tech isn’t available for a full OpenBazaar buying & selling experience in a browser yet, that doesn’t mean there can’t be just a simple website that looks into the marketplace.
 
-That solved the simplest part of the problem: that sellers wanted to share their links easily and potential buyers—who may or may not know about OpenBazaar yet—wanted to view them in a predictable way. 
+That solved the simplest part of the problem: sellers wanted to share their links easily and potential buyers—who may or may not know about OpenBazaar yet—wanted to view them in a predictable way.
 
 We launched [OpenBazaar.com](https://openbazaar.com) in the middle of last year and it’s been a hit. Traffic to the site is growing **around 40% month over month**. This shows us that users are interested in decentralized applications that uphold some core values, but that are also accessible wherever they may be in their technological adventures.
 
 #### Sharing store & listings from within OpenBazaar
 
-People who want to share stores and listings easily on the web can easily grab their links from OpenBazaar.com several ways:
+People who want to share stores and listings easily on the web can grab their links from OpenBazaar.com several ways:
 
 1. By clicking the green “View on Web” link in the address bar within their OpenBazaar client:
 
