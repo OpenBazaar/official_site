@@ -12,11 +12,11 @@ Some of the earliest feedback we heard from ecommerce sellers who were intereste
 
 #### A regular website to look into a decentralized network
 
-[OpenBazaar](https://openbazaar.org/download) is an application that users have to download and run on their own computers to connect to and participate in the network. It is built this way on purpose because of the decentralized nature of the network. While the tech isn’t available for a full OpenBazaar buying & selling experience in a browser yet, that doesn’t mean there can’t be just a simple website that looks into the marketplace.
+[OpenBazaar](https://openbazaar.org/download) is an application that users have to download and run on their own computers to connect to and participate in the network. It is built this way to make the decentralization of the network possible. While the tech isn’t available for a full OpenBazaar buying & selling experience in a browser yet, that doesn’t mean there can’t be just a simple website that looks into the marketplace.
 
 That solved the simplest part of the problem: that sellers wanted to share their links easily and potential buyers—who may or may not know about OpenBazaar yet—wanted to view them in a predictable way. 
 
-We launched [OpenBazaar.com](https://openbazaar.com) in the middle of last year and it’s been a hit. Traffic to the site is growing **around 40% month over month**. This is clearly showing us that users are interested in decentralized applications that structurally uphold some core values, but that also are accessible wherever they may be in their technological adventures.
+We launched [OpenBazaar.com](https://openbazaar.com) in the middle of last year and it’s been a hit. Traffic to the site is growing **around 40% month over month**. This shows us that users are interested in decentralized applications that uphold some core values, but that are also accessible wherever they may be in their technological adventures.
 
 #### Sharing store & listings from within OpenBazaar
 
@@ -36,7 +36,7 @@ People who want to share stores and listings easily on the web can easily grab t
 
 #### Sharing store & listings from OpenBazaar.com
 
-On OpenBazaar.com there are also additional features including these social share buttons:
+On OpenBazaar.com there are additional features including these social share buttons:
 
 ![OpenBazaar Widget Builder Link and Social Share Buttons](openbazaar_store_widget_builder_link.png "OpenBazaar Widget Builder Link and Social Share Buttons")
 
@@ -44,7 +44,7 @@ There is also [the widget](https://openbazaar.com/widget) for sellers who have w
 
 ![OpenBazaar Store Widget Builder](openbazaar_store_widget_builder.png "OpenBazaar Store Widget Builder")
 
-We are working to build a fully decentralized marketplace and social experience to promote privacy and autonomy for users around the world. It’s clear to us, though, that the road to full decentralization is made up of more decentralized steps rather than a complete jump. 
+We are working to build a fully decentralized marketplace and social experience to promote privacy and autonomy for users around the world. It’s clear to us, though, that the road to full decentralization is made up of multiple decentralized steps rather than a complete jump. 
 
-Moving from centralized systems we are displeased with is a process that will take some time and the ability to make small choices through that process is imperative. Building decentralized apps that also interface with centralized apps that people are used to using right now is important to help them better match their desires for the future with their present reality.
+Moving from centralized systems we are displeased with is a process that will take some time and the ability to make small advances through that process is imperative. Building decentralized apps that also interface with centralized apps that people are used to using right now is important to help them better match their desires for the future with their present reality.
 
