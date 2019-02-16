@@ -1,4 +1,48 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2019-02-11T16:02:32+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">Which Cryptocurrencies are used in OpenBazaar, and Why?</title><link href="https://openbazaar.org/blog/which-cryptocurrencies-are-used-in-openbazaar/" rel="alternate" type="text/html" title="Which Cryptocurrencies are used in OpenBazaar, &lt;span class='post-title-extra'&gt;and Why?&lt;/span&gt;" /><published>2019-01-24T14:30:00+00:00</published><updated>2019-01-24T14:30:00+00:00</updated><id>https://openbazaar.org/blog/which-cryptocurrencies-are-used-in-openbazaar</id><content type="html" xml:base="https://openbazaar.org/blog/which-cryptocurrencies-are-used-in-openbazaar/">&lt;p&gt;The decentralized marketplace OpenBazaar supports several different cryptocurrencies for buying and selling goods and services between users. This post explains which currencies, and why were they chosen.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2019-02-16T00:00:48+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">How To Market Your Store and Listings on OpenBazaar</title><link href="https://openbazaar.org/blog/how-to-market-your-store-and-listings-on-openbazaar/" rel="alternate" type="text/html" title="How To &lt;span class='post-title-extra'&gt;Market Your Store and Listings&lt;/span&gt; on OpenBazaar" /><published>2019-02-15T14:30:00+00:00</published><updated>2019-02-15T14:30:00+00:00</updated><id>https://openbazaar.org/blog/how-to-market-your-store-and-listings-on-openbazaar</id><content type="html" xml:base="https://openbazaar.org/blog/how-to-market-your-store-and-listings-on-openbazaar/">&lt;p&gt;The shift to peer-to-peer online commerce won’t happen overnight. Until this technology becomes widespread, we need tools that help the transition go more smoothly.&lt;/p&gt;
+
+&lt;p&gt;Some of the earliest feedback we heard from ecommerce sellers who were interested in OpenBazaar was that they wanted a way to easily share their store and listings on their social networks. To answer this we built &lt;a href=&quot;https://openbazaar.com&quot;&gt;OpenBazaar.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;a-regular-website-to-look-into-a-decentralized-network&quot;&gt;A regular website to look into a decentralized network&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://openbazaar.org/download&quot;&gt;OpenBazaar&lt;/a&gt; is an application that users have to download and run on their own computers to connect to and participate in the network. It is built this way to make the decentralization of the network possible. While the tech isn’t available for a full OpenBazaar buying &amp;amp; selling experience in a browser yet, that doesn’t mean there can’t be just a simple website that looks into the marketplace.&lt;/p&gt;
+
+&lt;p&gt;That solved the simplest part of the problem: sellers wanted to share their links easily and potential buyers—who may or may not know about OpenBazaar yet—wanted to view them in a predictable way.&lt;/p&gt;
+
+&lt;p&gt;We launched &lt;a href=&quot;https://openbazaar.com&quot;&gt;OpenBazaar.com&lt;/a&gt; in the middle of last year and it’s been a hit. Traffic to the site is growing &lt;strong&gt;around 40% month over month&lt;/strong&gt;. This shows us that users are interested in decentralized applications that uphold some core values, but that are also accessible wherever they may be in their technological adventures.&lt;/p&gt;
+
+&lt;h4 id=&quot;sharing-store--listings-from-within-openbazaar&quot;&gt;Sharing store &amp;amp; listings from within OpenBazaar&lt;/h4&gt;
+
+&lt;p&gt;People who want to share stores and listings easily on the web can grab their links from OpenBazaar.com several ways:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;By clicking the green “View on Web” link in the address bar within their OpenBazaar client:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;openbazaar_view_on_web_link.png&quot; alt=&quot;OpenBazaar View on Web Link&quot; title=&quot;OpenBazaar View on Web Link&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;By copying the store ID and pasting it on the end of https://openbazaar.com/store/ like this:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;openbazaar_peerid_selected.png&quot; alt=&quot;OpenBazaar PeerID Selected&quot; title=&quot;OpenBazaar PeerID Selected&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://openbazaar.com/store/QmcUDmZK8PsPYWw5FRHKNZFjszm2K6e68BQSTpnJYUsML7&quot;&gt;https://openbazaar.com/store/QmcUDmZK8PsPYWw5FRHKNZFjszm2K6e68BQSTpnJYUsML7&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;sharing-store--listings-from-openbazaarcom&quot;&gt;Sharing store &amp;amp; listings from OpenBazaar.com&lt;/h4&gt;
+
+&lt;p&gt;On OpenBazaar.com there are additional features including these social share buttons:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;openbazaar_store_widget_builder_link.png&quot; alt=&quot;OpenBazaar Widget Builder Link and Social Share Buttons&quot; title=&quot;OpenBazaar Widget Builder Link and Social Share Buttons&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There is also &lt;a href=&quot;https://openbazaar.com/widget&quot;&gt;the widget&lt;/a&gt; for sellers who have websites where they want to showcase their OpenBazaar store. Simply copy the code and add it to your site wherever you can post an embed or add HTML.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;openbazaar_store_widget_builder.png&quot; alt=&quot;OpenBazaar Store Widget Builder&quot; title=&quot;OpenBazaar Store Widget Builder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We are working to build a fully decentralized marketplace and social experience to promote privacy and autonomy for users around the world. It’s clear to us, though, that the road to full decentralization is made up of multiple decentralized steps rather than a complete jump.&lt;/p&gt;
+
+&lt;p&gt;Moving from centralized systems we are displeased with is a process that will take some time and the ability to make small advances through that process is imperative. Building decentralized apps that also interface with centralized apps that people are used to using right now is important to help them better match their desires for the future with their present reality.&lt;/p&gt;</content><author><name></name></author><summary type="html">The shift to peer-to-peer online commerce won’t happen overnight. Until this technology becomes widespread, we need tools that help the transition go more smoothly.</summary></entry><entry><title type="html">Which Cryptocurrencies are used in OpenBazaar, and Why?</title><link href="https://openbazaar.org/blog/which-cryptocurrencies-are-used-in-openbazaar/" rel="alternate" type="text/html" title="Which Cryptocurrencies are used in OpenBazaar, &lt;span class='post-title-extra'&gt;and Why?&lt;/span&gt;" /><published>2019-01-24T14:30:00+00:00</published><updated>2019-01-24T14:30:00+00:00</updated><id>https://openbazaar.org/blog/which-cryptocurrencies-are-used-in-openbazaar</id><content type="html" xml:base="https://openbazaar.org/blog/which-cryptocurrencies-are-used-in-openbazaar/">&lt;p&gt;The decentralized marketplace OpenBazaar supports several different cryptocurrencies for buying and selling goods and services between users. This post explains which currencies, and why were they chosen.&lt;/p&gt;
 
 &lt;h2 id=&quot;cryptocurrencies-supported-in-openbazaar&quot;&gt;Cryptocurrencies Supported in OpenBazaar&lt;/h2&gt;
 &lt;ul&gt;
@@ -346,101 +390,4 @@ failures…but hopefully these relay nodes help significantly&lt;/p&gt;
 
 &lt;p&gt;Web-connected technology is evolving quickly now and organizations working in a sector like cryptocurrencies need to demonstrate 2 extremes: &lt;strong&gt;focus&lt;/strong&gt; and &lt;strong&gt;flexibility&lt;/strong&gt;. People are solving hard problems every day using this very new technology while also facing a growing market with changing desires. They need to be both steadfast &lt;em&gt;and&lt;/em&gt; nimble to tackle each day that may change all of their grandest plans.&lt;/p&gt;
 
-&lt;p&gt;We’ve learned a lot about developing open source software, managing a community and dealing with the changes and growth of cryptocurrencies over the past few years, and we certainly haven’t been perfect. We appreciate the knowledge we have gained, and are executing against it in our daily work. We look forward to learning much more as we continue building the largest and most free decentralized ecommerce platform on the internet with you.&lt;/p&gt;</content><author><name></name></author><summary type="html">This month we’ve been celebrating the one year anniversary of OpenBazaar 2.0. To read a summary of the last year, read Brian Hoffman’s piece.</summary></entry><entry><title type="html">Big Discounts When You Shop OpenBazaar This Week</title><link href="https://openbazaar.org/blog/big-discounts-when-You-shop-openbazaar-this-week/" rel="alternate" type="text/html" title="&lt;span class='post-title-extra'&gt;Big Discounts&lt;/span&gt; When You Shop OpenBazaar This Week" /><published>2018-11-20T09:30:00+00:00</published><updated>2018-11-20T09:30:00+00:00</updated><id>https://openbazaar.org/blog/big-discounts-when-You-shop-openbazaar-this-week</id><content type="html" xml:base="https://openbazaar.org/blog/big-discounts-when-You-shop-openbazaar-this-week/">&lt;p&gt;To celebrate the &lt;a href=&quot;https://openbazaar.org/blog/openbazaar-20-is-live/&quot;&gt;one year anniversary of OpenBazaar 2&lt;/a&gt; we are sharing goodies and offers all month long with our users! Clustered loosely around Black Friday this week are some exciting deals that OpenBazaar vendors have set up just for you.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Unless otherwise specified, use coupon code &lt;strong&gt;OB2Turns1&lt;/strong&gt; to claim the discounts on the stores or items described!&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;here-are-some-great-stores-and-listings-for-you-to-shop-this-week&quot;&gt;Here are some great stores and listings for you to shop this week:&lt;/h4&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h4 id=&quot;drapis&quot;&gt;DrApis&lt;/h4&gt;
-&lt;p&gt;&lt;em&gt;75% off&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;DrApis_on_OpenBazaar.png&quot; alt=&quot;DrApis on OpenBazaar&quot; title=&quot;DrApis on OpenBazaar&quot; /&gt;&lt;a href=&quot;https://openbazaar.com/store/QmfUNUFM5B4PJh73Ht4Gd7qa1TAWV1BBUAhbrYRa2E9hXe&quot;&gt;DrApis on OpenBazaar&lt;/a&gt;
-&lt;br /&gt;&lt;br /&gt;
-&lt;br /&gt;
-DrApis produces and sells premium raw apiculture products from Portugal. Their artisanal raw honey is produced and extracted using exclusively traditional methods, preserving all the natural vitamins, enzymes, phytonutrients and other nutritional elements produced by bees. Now you can enjoy their high-quality products at their lowest prices &lt;em&gt;ever.&lt;/em&gt; Don’t miss this!
-&lt;br /&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-&lt;h4 id=&quot;matthew-zipkin&quot;&gt;Matthew Zipkin&lt;/h4&gt;
-&lt;p&gt;&lt;em&gt;75% off&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;Matthew_Zipkin_on_OpenBazaar.png&quot; alt=&quot;Matthew Zipkin Bitcoin Clocks on OpenBazaar&quot; title=&quot;Matthew Zipkin Bitcoin Clocks on OpenBazaar&quot; /&gt;&lt;a href=&quot;https://openbazaar.com/store/QmeSyTRaNZMD8ajcfbhC8eYibWgnSZtSGUp3Vn59bCnPWC&quot;&gt;Matthew Zipkin on OpenBazaar&lt;/a&gt;
-&lt;br /&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;br /&gt;
-Matthew Zipkin is offering this steep discount on his unique Bitcoin clocks. They are practical as well as beautiful pieces of art that any collector would love to have in their home.&lt;/p&gt;
-
-&lt;p&gt;Another fun fact, Matthew is also an &lt;a href=&quot;https://ob1.io/verified-moderators.html&quot;&gt;OB1 Verified Moderator&lt;/a&gt; who is available for you to add to your transactions and provide assistance in case of a dispute. Send him a message and say hello!
-&lt;br /&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-&lt;h4 id=&quot;cryptocollectibles&quot;&gt;CryptoCollectibles&lt;/h4&gt;
-&lt;p&gt;&lt;em&gt;75% off&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;CryptoCollectibles_on_OpenBazaar.png&quot; alt=&quot;CryptoCollectibles on OpenBazaar&quot; title=&quot;CryptoCollectibles on OpenBazaar&quot; /&gt;&lt;a href=&quot;https://openbazaar.com/store/QmakxNv9Y5YFuAuvjvx4mEda3TmFBaHDtacd1KtEL56mP4/&quot;&gt;CryptoCollectibles on OpenBazaar&lt;/a&gt;
-&lt;br /&gt;&lt;br /&gt;
-&lt;br /&gt; 
-CryptoCollectibles has curated several items that are available at this crazy discount. In honor of his recent passing they are all vintage Stan Lee comics. Some have art by Jack “The King” Kirby, Gene Colan, Gil Kane, and other forefathers of the comic book industry. Check out the full list:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://openbazaar.com/store/QmakxNv9Y5YFuAuvjvx4mEda3TmFBaHDtacd1KtEL56mP4/journey-into-mystery-111-1964-comic-book&quot;&gt;Journey into Mystery #111&lt;/a&gt; - &lt;del&gt;$220&lt;/del&gt; &lt;strong&gt;$55&lt;/strong&gt; with code OB2Turns1&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://openbazaar.com/store/QmakxNv9Y5YFuAuvjvx4mEda3TmFBaHDtacd1KtEL56mP4/the-mighty-thor-137-1967-comic-book&quot;&gt;The Mighty Thor #137&lt;/a&gt; - &lt;del&gt;$240&lt;/del&gt; &lt;strong&gt;$60&lt;/strong&gt; with code OB2Turns1&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://openbazaar.com/store/QmakxNv9Y5YFuAuvjvx4mEda3TmFBaHDtacd1KtEL56mP4/tales-of-suspense-80-1966-comic-book&quot;&gt;Tales of Suspense #80&lt;/a&gt; - &lt;del&gt;$100&lt;/del&gt; &lt;strong&gt;$25&lt;/strong&gt; with code OB2Turns1&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://openbazaar.com/store/QmakxNv9Y5YFuAuvjvx4mEda3TmFBaHDtacd1KtEL56mP4/tales-of-suspense-82-featuring-iron-man-and-captain-america-196&quot;&gt;Tales of Suspense #82&lt;/a&gt; - &lt;del&gt;$70&lt;/del&gt; &lt;strong&gt;$17.50&lt;/strong&gt; with code OB2Turns1&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://openbazaar.com/store/QmakxNv9Y5YFuAuvjvx4mEda3TmFBaHDtacd1KtEL56mP4/tales-of-suspense-89-featuring-iron-man-and-captain-america-196&quot;&gt;Tales of Suspense #89&lt;/a&gt; - &lt;del&gt;$55&lt;/del&gt; &lt;strong&gt;$13.75&lt;/strong&gt; with code OB2Turns1&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://openbazaar.com/store/QmakxNv9Y5YFuAuvjvx4mEda3TmFBaHDtacd1KtEL56mP4/tales-of-suspense-95-featuring-iron-man-and-captain-america-196&quot;&gt;Tales of Suspense #95&lt;/a&gt; - &lt;del&gt;$90&lt;/del&gt; &lt;strong&gt;$22.50&lt;/strong&gt; with code OB2Turns1&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://openbazaar.com/store/QmakxNv9Y5YFuAuvjvx4mEda3TmFBaHDtacd1KtEL56mP4/tales-of-suspense-99-featuring-iron-man-and-captain-america-196&quot;&gt;Tales of Suspense #99&lt;/a&gt; - &lt;del&gt;$120&lt;/del&gt; &lt;strong&gt;$30&lt;/strong&gt; with code OB2Turns1&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://openbazaar.com/store/QmakxNv9Y5YFuAuvjvx4mEda3TmFBaHDtacd1KtEL56mP4/captain-america-106-1968-comic-book&quot;&gt;Captain America #106&lt;/a&gt; - &lt;del&gt;$80&lt;/del&gt; &lt;strong&gt;$20&lt;/strong&gt; with code OB2Turns1&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://openbazaar.com/store/QmakxNv9Y5YFuAuvjvx4mEda3TmFBaHDtacd1KtEL56mP4/tales-to-astonish-58-1964-comic-book&quot;&gt;Tales to Astonish #58&lt;/a&gt; - &lt;del&gt;$50&lt;/del&gt; &lt;strong&gt;$12.50&lt;/strong&gt; with code OB2Turns1&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://openbazaar.com/store/QmakxNv9Y5YFuAuvjvx4mEda3TmFBaHDtacd1KtEL56mP4/tales-to-astonish-98-featuring-sub-mariner-and-the-incredible-hu&quot;&gt;Tales to Astonish #98&lt;/a&gt; - &lt;del&gt;$80&lt;/del&gt; &lt;strong&gt;$20&lt;/strong&gt; with code OB2Turns1&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://openbazaar.com/store/QmakxNv9Y5YFuAuvjvx4mEda3TmFBaHDtacd1KtEL56mP4/daredevil-23-1967-comic-book&quot;&gt;Daredevil #23&lt;/a&gt; - &lt;del&gt;$60&lt;/del&gt; &lt;strong&gt;$15&lt;/strong&gt; with code OB2Turns1&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://openbazaar.com/store/QmakxNv9Y5YFuAuvjvx4mEda3TmFBaHDtacd1KtEL56mP4/daredevil-25-1967-comic-book&quot;&gt;Daredevil #25&lt;/a&gt; - &lt;del&gt;$60&lt;/del&gt; &lt;strong&gt;$15&lt;/strong&gt; with code OB2Turns1
-&lt;br /&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-&lt;h4 id=&quot;kimchi-socks&quot;&gt;Kimchi Socks&lt;/h4&gt;
-&lt;p&gt;&lt;em&gt;75% off&lt;/em&gt;
-&lt;img src=&quot;Kimchi_Socks_on_OpenBazaar.png&quot; alt=&quot;Kimchi Socks on OpenBazaar&quot; title=&quot;Kimchi Socks on OpenBazaar&quot; /&gt;&lt;a href=&quot;https://openbazaar.com/store/Qma4rBjoQ6j2cusFGMrQjbA7mddPAr9gzPQPgatourZvGf&quot;&gt;Kimchi Socks on OpenBazaar&lt;/a&gt;
-&lt;br /&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;br /&gt;
-Score some high quality socks to show off your love of your favorite crypto coins.
-&lt;br /&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-&lt;h4 id=&quot;penny-portrait&quot;&gt;Penny Portrait&lt;/h4&gt;
-&lt;p&gt;&lt;em&gt;25% off&lt;/em&gt;
-&lt;img src=&quot;Penny_Portrait_Kit_on_OpenBazaar.png&quot; alt=&quot;Penny Portrait on OpenBazaar&quot; title=&quot;Penny Portrait on OpenBazaar&quot; /&gt;&lt;a href=&quot;https://openbazaar.com/store/QmQE5wCGM91QLo5YL1aPMS7qYVBquectSm17AQDCSWH6jA&quot;&gt;Penny Portrait on OpenBazaar&lt;/a&gt;
-&lt;br /&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;br /&gt;
-Put together your own unique art piece with this special kit from Penny Portrait.
-&lt;br /&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-&lt;h4 id=&quot;pascal-boyart&quot;&gt;Pascal Boyart&lt;/h4&gt;
-&lt;p&gt;&lt;em&gt;10% off&lt;/em&gt;
-&lt;img src=&quot;Pascal_Boyart_on_OpenBazaar.png&quot; alt=&quot;Pascal Boyart on OpenBazaar&quot; title=&quot;Pascal Boyart on OpenBazaar&quot; /&gt;&lt;a href=&quot;https://openbazaar.com/store/QmYTXDyMNjdUSvqNc88T2VeVF3KdG7PMefnGQKrp9NZ5Tp&quot;&gt;Pascal Boyart on OpenBazaar&lt;/a&gt;
-&lt;br /&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;br /&gt;
-Pascal Boyart is an accomplished fine artist based in Paris. He began as a graffiti artist but now produces a wide range of art styles. Many of the pieces he has featured on OpenBazaar focus on cryptocurrency and crypto-culture. Read more of his amazing story on his &lt;a href=&quot;https://openbazaar.com/store/home/QmYTXDyMNjdUSvqNc88T2VeVF3KdG7PMefnGQKrp9NZ5Tp&quot;&gt;About page&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;For a limited time he’s offering &lt;a href=&quot;https://www.reddit.com/r/OpenBazaar/comments/9vm6ou/weekly_spotlight_share_your_openbazaar_stores/e9f00mz/&quot;&gt;10% off&lt;/a&gt; on the limited edition prints Crypto Anarchist Manifesto and WhitePaper French version. Use coupon code: BTCARTREVOLUTION
-&lt;br /&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-&lt;h4 id=&quot;openbazaar-swag-bundle&quot;&gt;OpenBazaar Swag Bundle&lt;/h4&gt;
-&lt;p&gt;&lt;em&gt;Just $1!&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;OpenBazaar_Swag_Bundle_on_OpenBazaar.png&quot; alt=&quot;OpenBazaar Swag Bundle on OpenBazaar&quot; title=&quot;OpenBazaar Swag Bundle on OpenBazaar&quot; /&gt;&lt;a href=&quot;https://openbazaar.com/store/QmcUDmZK8PsPYWw5FRHKNZFjszm2K6e68BQSTpnJYUsML7/openbazaar-2-turns-1-swag-bundle-btc&quot;&gt;OpenBazaar Swag Bundle on OpenBazaar&lt;/a&gt;
-&lt;br /&gt;&lt;br /&gt;
-&lt;br /&gt;
-Celebrate 1 year of OpenBazaar 2 with this great swag pack. Priced crazy low at just $1 with &lt;strong&gt;FREE&lt;/strong&gt; shipping because we want to make sure you have the right gear to show off your support and get to see how easy shopping on OpenBazaar can be.&lt;/p&gt;
-
-&lt;h4 id=&quot;like-what-you-see&quot;&gt;Like what you see?&lt;/h4&gt;
-
-&lt;p&gt;Shop these stores and so many more on the brand new browsing website, &lt;a href=&quot;https://openbazaar.com&quot;&gt;openbazaar.com&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">To celebrate the one year anniversary of OpenBazaar 2 we are sharing goodies and offers all month long with our users! Clustered loosely around Black Friday this week are some exciting deals that OpenBazaar vendors have set up just for you.</summary></entry></feed>
+&lt;p&gt;We’ve learned a lot about developing open source software, managing a community and dealing with the changes and growth of cryptocurrencies over the past few years, and we certainly haven’t been perfect. We appreciate the knowledge we have gained, and are executing against it in our daily work. We look forward to learning much more as we continue building the largest and most free decentralized ecommerce platform on the internet with you.&lt;/p&gt;</content><author><name></name></author><summary type="html">This month we’ve been celebrating the one year anniversary of OpenBazaar 2.0. To read a summary of the last year, read Brian Hoffman’s piece.</summary></entry></feed>
