@@ -1,4 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2019-02-16T00:00:48+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">How To Market Your Store and Listings on OpenBazaar</title><link href="https://openbazaar.org/blog/how-to-market-your-store-and-listings-on-openbazaar/" rel="alternate" type="text/html" title="How To &lt;span class='post-title-extra'&gt;Market Your Store and Listings&lt;/span&gt; on OpenBazaar" /><published>2019-02-15T14:30:00+00:00</published><updated>2019-02-15T14:30:00+00:00</updated><id>https://openbazaar.org/blog/how-to-market-your-store-and-listings-on-openbazaar</id><content type="html" xml:base="https://openbazaar.org/blog/how-to-market-your-store-and-listings-on-openbazaar/">&lt;p&gt;The shift to peer-to-peer online commerce won’t happen overnight. Until this technology becomes widespread, we need tools that help the transition go more smoothly.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2019-02-19T23:32:53+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">OpenBazaar Developer Call - February 14, 2019</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-February-14-2019/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - February 14, 2019" /><published>2019-02-19T14:30:00+00:00</published><updated>2019-02-19T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-February-14-2019</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-February-14-2019/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on February 14, 2019.&lt;/p&gt;
+
+&lt;p&gt;Want to join the call in real time? Sign up at &lt;a href=&quot;https://openbazaar.org/developers&quot;&gt;openbazaar.org/developers&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Join our ongoing conversations on &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Browse OpenBazaar now at &lt;a href=&quot;https://openbazaar.com&quot;&gt;openbazaar.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;embed-responsive embed-responsive-16by9 mb-5&quot;&gt;
+    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/NjsqD1EO1Pg&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Chat log:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:16] chris.troutner: I’ve been using the &lt;a href=&quot;https://github.com/OpenBazaar/openbazaar-desktop/releases/tag/v2.3.0&quot;&gt;v2.3 release&lt;/a&gt; to do cryptocurrency trades. Haven’t run into any issues, but my server is running on DO, so always ‘online’.&lt;/p&gt;
+
+&lt;p&gt;[10:17] mg (OB1): Appreciation to all of you who came out to visit at the conference!&lt;/p&gt;
+
+&lt;p&gt;[10:18] chris.troutner: Can you guys also expand on the differences between &lt;a href=&quot;https://gethaven.app&quot;&gt;Haven&lt;/a&gt; and &lt;a href=&quot;https://openbazaar.org&quot;&gt;OB&lt;/a&gt;? I’m a little unclear on that.&lt;/p&gt;
+
+&lt;p&gt;[10:20] chris.troutner: Very cool. Love the explanation of the &lt;a href=&quot;https://ipfs.io&quot;&gt;IPFS&lt;/a&gt; vs IPNS calls.&lt;/p&gt;
+
+&lt;p&gt;[10:20] Rod: Have the recent IPFS updates helped at all with how long IPNS calls take?&lt;/p&gt;
+
+&lt;p&gt;[10:22] Rod: Got it, thanks&lt;/p&gt;
+
+&lt;p&gt;[10:25] chris.troutner: Makes sense. Thanks. Helps to define the scope between the two projects.&lt;/p&gt;
+
+&lt;p&gt;[10:27] chris.troutner: Thanks, Mike!&lt;/p&gt;
+
+&lt;p&gt;[10:28] Jlong: Talk about the purchase flow and whther OB is willing to change the default to verified mods&lt;/p&gt;
+
+&lt;p&gt;[10:32] Jlong: Cannot the store provide obids?&lt;/p&gt;
+
+&lt;p&gt;[10:32] flavoraid: Plans for allowing geographic search?  For example, if I’m looking for a plumber, I’m probably only interested in plumbers located within in 20 miles of my residence.&lt;/p&gt;
+
+&lt;p&gt;[10:34] ligi: what is the plan for the ethereum support public rollout?&lt;/p&gt;
+
+&lt;p&gt;[10:35] ligi: would so much love to use OB with DAI&lt;/p&gt;
+
+&lt;p&gt;[10:35] Jlong: This can apply mainly to Haven&lt;/p&gt;
+
+&lt;p&gt;[10:35] Jlong: Cool&lt;/p&gt;
+
+&lt;p&gt;[10:36] flavoraid: Also, I might only want someone who is licensed and bonded.  It would be handy if that were a checkbox, so that plumbers could display their license and bonding status on their profile, and select for it.&lt;/p&gt;
+
+&lt;p&gt;[10:37] mg (OB1): Someone was chasing this in the public chat semi-recently.&lt;/p&gt;
+
+&lt;p&gt;[10:37] mg (OB1): (location-association with a store)&lt;/p&gt;
+
+&lt;p&gt;[10:38] flavoraid: Thanks for the response re: location based search.&lt;/p&gt;
+
+&lt;p&gt;[10:40] flavoraid: Maybe Google Plus codes could be used for internal location search (no api call): &lt;a href=&quot;https://en.wikipedia.org/wiki/Open_Location_Code&quot;&gt;https://en.wikipedia.org/wiki/Open_Location_Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:40] ligi: thanks for the info regarding ethereum!&lt;/p&gt;
+
+&lt;p&gt;[10:40] ligi: looking forward to it&lt;/p&gt;
+
+&lt;p&gt;[10:40] mg (OB1): If Google doesn’t discontinue the service from underneath us 2 years from now when they decide it’s not worth supporting anymore. (no thanks)&lt;/p&gt;
+
+&lt;p&gt;[10:41] flavoraid: “Locations close to each other have similar codes. They can be encoded or decoded offline.”&lt;/p&gt;
+
+&lt;p&gt;[10:41] flavoraid: Plus codes are open source.&lt;/p&gt;
+
+&lt;p&gt;[10:41] mg (OB1): That’s a good point.&lt;/p&gt;
+
+&lt;p&gt;[10:42] Rod: I’m making an announcement for my project I’ve been working on for a few months this week&lt;/p&gt;
+
+&lt;p&gt;[10:42] flavoraid: News re: Monero integration?&lt;/p&gt;
+
+&lt;p&gt;[10:42] Rod: &lt;a href=&quot;https://zokos.com&quot;&gt;https://zokos.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:43] mg (OB1): flavoraid: Check out the latest MoneroTalk podcast. They interviewed Brian about that just this last weekend. :)&lt;/p&gt;
+
+&lt;p&gt;[10:44] flavoraid: Thanks for the pointer!&lt;/p&gt;
+
+&lt;p&gt;[10:45] Rod: Thanks Sam :)&lt;/p&gt;
+
+&lt;p&gt;[10:45] mg (OB1): MoneroTalk podcast w OpenBazaar Devs:&lt;/p&gt;
+
+&lt;p&gt;[10:46] flavoraid: OB hosting services?&lt;/p&gt;
+
+&lt;p&gt;[10:46] flavoraid: That y’all would especially like to support?&lt;/p&gt;
+
+&lt;p&gt;[10:47] flavoraid: Thanks, y’all!&lt;/p&gt;
+
+&lt;p&gt;[10:47] chris.troutner: Thanks!&lt;/p&gt;
+
+&lt;p&gt;[10:48] Anup: Cheers guys&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on February 14, 2019.</summary></entry><entry><title type="html">How To Market Your Store and Listings on OpenBazaar</title><link href="https://openbazaar.org/blog/how-to-market-your-store-and-listings-on-openbazaar/" rel="alternate" type="text/html" title="How To &lt;span class='post-title-extra'&gt;Market Your Store and Listings&lt;/span&gt; on OpenBazaar" /><published>2019-02-15T14:30:00+00:00</published><updated>2019-02-15T14:30:00+00:00</updated><id>https://openbazaar.org/blog/how-to-market-your-store-and-listings-on-openbazaar</id><content type="html" xml:base="https://openbazaar.org/blog/how-to-market-your-store-and-listings-on-openbazaar/">&lt;p&gt;The shift to peer-to-peer online commerce won’t happen overnight. Until this technology becomes widespread, we need tools that help the transition go more smoothly.&lt;/p&gt;
 
 &lt;p&gt;Some of the earliest feedback we heard from ecommerce sellers who were interested in OpenBazaar was that they wanted a way to easily share their store and listings on their social networks. To answer this we built &lt;a href=&quot;https://openbazaar.com&quot;&gt;OpenBazaar.com&lt;/a&gt;.&lt;/p&gt;
 
@@ -352,42 +440,4 @@ failures…but hopefully these relay nodes help significantly&lt;/p&gt;
 
 &lt;p&gt;We all still have some work left to do if we celebrate holidays in December so while this may not &lt;em&gt;eliminate&lt;/em&gt; stress, hopefully thinking through these things can help you minimize it.&lt;/p&gt;
 
-&lt;h4 id=&quot;happy-holidays&quot;&gt;Happy holidays!&lt;/h4&gt;</content><author><name></name></author><summary type="html">Staying ahead of the holiday season can be a challenge for shoppers and sellers alike. What’s an OpenBazaar user to do when they find themselves already in December and they still need to buy some gifts and/or squeeze in a few more sales? Thankfully, disaster can still be avoided with a quick pause to regroup.</summary></entry><entry><title type="html">OpenBazaar 2 Turns 1: Lessons Learned</title><link href="https://openbazaar.org/blog/openbazaar-2-turns-1-lessons-learned/" rel="alternate" type="text/html" title="OpenBazaar 2 Turns 1: &lt;span class='post-title-extra'&gt;Lessons Learned&lt;/span&gt;" /><published>2018-11-29T09:30:00+00:00</published><updated>2018-11-29T09:30:00+00:00</updated><id>https://openbazaar.org/blog/openbazaar-2-turns-1-lessons-learned</id><content type="html" xml:base="https://openbazaar.org/blog/openbazaar-2-turns-1-lessons-learned/">&lt;p&gt;This month we’ve been celebrating &lt;a href=&quot;https://openbazaar.org/blog/these-5-openbazaar-stats-are-really-exciting/&quot;&gt;the one year anniversary of OpenBazaar 2.0&lt;/a&gt;. To read a summary of the last year, read &lt;a href=&quot;https://openbazaar.org/blog/big-change-hard-work-and-strong-growth-openbazaar-2-turns-1/&quot;&gt;Brian Hoffman’s piece&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;OpenBazaar started more than four years ago, and for everyone involved it has been an incredible learning experience. Here are a few lessons we’ve learned over the years, with a particular emphasis on the past year.&lt;/p&gt;
-
-&lt;h4 id=&quot;1-expect-politics&quot;&gt;1. Expect politics.&lt;/h4&gt;
-
-&lt;p&gt;Just like Bitcoin, OpenBazaar is an open source piece of software and a network of people running the software. As such, it’s incapable of having a “position” on any given issue. However, the individuals and companies building OpenBazaar do have opinions about issues in the cryptocurrency space. When they promote these beliefs – particularly on controversial issues – others will often claim “OpenBazaar believes X” instead of correctly attributing the opinion to the individual or company.&lt;/p&gt;
-
-&lt;p&gt;When we started building OpenBazaar in mid-2014 the community of people using cryptocurrencies was smaller, primarily focused on Bitcoin, and the majority of people agreed that building infrastructure in order to use cryptocurrency was worthwhile and necessary for broader adoption.&lt;/p&gt;
-
-&lt;p&gt;Over the next few years the community got larger and also began to disagree on the future of Bitcoin, such as how (or even if) it should scale. OpenBazaar itself played no role in this “scaling debate,” remaining neutral and following whichever chain the market decided upon. While the project itself was neutral, the individuals and companies working on OpenBazaar weren’t. In the new tribalist atmosphere created during the block size debate, this caused many to ascribe the individual positions of developers to the project itself, leading some to withdrawal their support and no longer use the marketplace.&lt;/p&gt;
-
-&lt;p&gt;For better or worse, the cryptocurrency space has become politicized over the past few years, and we now recognize the importance of emphasizing the project’s neutrality.&lt;/p&gt;
-
-&lt;h4 id=&quot;2-plan-for-all-possible-future-scenariosincluding-unfavorable-ones&quot;&gt;2. Plan for all possible future scenarios—including unfavorable ones.&lt;/h4&gt;
-
-&lt;p&gt;This lesson learned is also related to the scaling debate mentioned above. We recognized the possibility that fees could get high enough to prevent people from using Bitcoin for commerce. As individuals and as a company we supported efforts to keep Bitcoin functioning and not get to that point. Unfortunately, it happened anyway.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;On the day OpenBazaar 2.0 launched the average Bitcoin fee was ~$5 per transaction and rising.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Even though we already knew high fees were a possibility, this all happened in a very short timeframe and forced us to react as quickly as possible. Since Bitcoin &lt;strong&gt;wasn’t usable for commerce at that moment&lt;/strong&gt;, we decided to add support for new, usable cryptocurrencies into the client immediately.&lt;/p&gt;
-
-&lt;p&gt;This put us in the situation of publishing a Bitcoin-only product in November of 2017 and then needing to put all our development efforts into making it a multi-coin product immediately afterwards, which was several months of work. Had we decided at the beginning to build OpenBazaar 2.0 with support for multiple coins it likely would have been simpler and the resulting UX would have been better.&lt;/p&gt;
-
-&lt;p&gt;Knowing about future scenarios and trying to make or prevent them from happening isn’t sufficient. You need to have plans in place for facing whatever reality meets your product.&lt;/p&gt;
-
-&lt;h4 id=&quot;3-dont-get-overly-focused-on-a-single-product&quot;&gt;3. Don’t get overly focused on a single product.&lt;/h4&gt;
-
-&lt;p&gt;OpenBazaar is a desktop application. This is primarily for technical reasons; building a completely peer-to-peer application is tough for desktop only and even more so in a web browser or on a mobile device.&lt;/p&gt;
-
-&lt;p&gt;The second reason is due to momentum. We started on desktop and have continued iterating on desktop because, while it has been a difficult undertaking, it was one we became very familiar with.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://openbazaar.com&quot;&gt;Web&lt;/a&gt; and &lt;a href=&quot;http://ob1.io/&quot;&gt;mobile&lt;/a&gt; are implementations we are actively working on and have dreamed of realizing since the beginning, but they require very different engineering approaches and even philosophies. For them to begin development we had to deliberately choose to direct significant resources to them and many of the decisions made along these paths have not been easy.&lt;/p&gt;
-
-&lt;p&gt;Web-connected technology is evolving quickly now and organizations working in a sector like cryptocurrencies need to demonstrate 2 extremes: &lt;strong&gt;focus&lt;/strong&gt; and &lt;strong&gt;flexibility&lt;/strong&gt;. People are solving hard problems every day using this very new technology while also facing a growing market with changing desires. They need to be both steadfast &lt;em&gt;and&lt;/em&gt; nimble to tackle each day that may change all of their grandest plans.&lt;/p&gt;
-
-&lt;p&gt;We’ve learned a lot about developing open source software, managing a community and dealing with the changes and growth of cryptocurrencies over the past few years, and we certainly haven’t been perfect. We appreciate the knowledge we have gained, and are executing against it in our daily work. We look forward to learning much more as we continue building the largest and most free decentralized ecommerce platform on the internet with you.&lt;/p&gt;</content><author><name></name></author><summary type="html">This month we’ve been celebrating the one year anniversary of OpenBazaar 2.0. To read a summary of the last year, read Brian Hoffman’s piece.</summary></entry></feed>
+&lt;h4 id=&quot;happy-holidays&quot;&gt;Happy holidays!&lt;/h4&gt;</content><author><name></name></author><summary type="html">Staying ahead of the holiday season can be a challenge for shoppers and sellers alike. What’s an OpenBazaar user to do when they find themselves already in December and they still need to buy some gifts and/or squeeze in a few more sales? Thankfully, disaster can still be avoided with a quick pause to regroup.</summary></entry></feed>
