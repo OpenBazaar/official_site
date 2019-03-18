@@ -1,4 +1,100 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2019-03-16T14:59:04+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">How to Sell Digital Goods for Cryptocurrency on OpenBazaar</title><link href="https://openbazaar.org/blog/how-to-sell-digital-goods-for-cryptocurrency-on-openbazaar/" rel="alternate" type="text/html" title="How to &lt;span class='post-title-extra'&gt;Sell Digital Goods for Cryptocurrency&lt;/span&gt; on OpenBazaar" /><published>2019-03-14T14:30:00+00:00</published><updated>2019-03-14T14:30:00+00:00</updated><id>https://openbazaar.org/blog/how-to-sell-digital-goods-for-cryptocurrency-on-openbazaar</id><content type="html" xml:base="https://openbazaar.org/blog/how-to-sell-digital-goods-for-cryptocurrency-on-openbazaar/">&lt;p&gt;When you think about the world’s largest internet marketplaces, what kind of products do you picture? Maybe you get your coffee or toilet paper or other daily sundries from Amazon or Alibaba. Maybe you buy secondhand or hard-to-find collectible items on Ebay. Maybe you visit Etsy for thoughtful handmade gifts. These sites do have a focus on physical goods but that’s not all they can do.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2019-03-18T21:19:57+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">OpenBazaar Developer Call - March 14, 2019</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-March-14-2019/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - March 14, 2019" /><published>2019-03-18T14:30:00+00:00</published><updated>2019-03-18T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-March-14-2019</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-March-14-2019/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on March 14, 2019.&lt;/p&gt;
+
+&lt;p&gt;Want to join the call in real time? Sign up at &lt;a href=&quot;https://openbazaar.org/developers&quot;&gt;openbazaar.org/developers&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Join our ongoing conversations on &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Browse OpenBazaar now at &lt;a href=&quot;https://openbazaar.com&quot;&gt;openbazaar.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;embed-responsive embed-responsive-16by9 mb-5&quot;&gt;
+    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/mBPcpODsudk&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Chat log:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:17] Rod: I would be 100% interested in the wallet-interface changes, which slack channel are you planning to give updates to?&lt;/p&gt;
+
+&lt;p&gt;[10:18] mg (OB1): Sorry about audio… the public slack would either be #openbazaar-2_0 or a private payments channel that are invite only.&lt;/p&gt;
+
+&lt;p&gt;[10:18] mg (OB1): We can hear your mic….random voice! :D&lt;/p&gt;
+
+&lt;p&gt;[10:18] Sam - OB1: We can hear you cryptoshoppe&lt;/p&gt;
+
+&lt;p&gt;[10:18] Rod: Cryptoshoppe we can all hear you lol&lt;/p&gt;
+
+&lt;p&gt;[10:18] Rod: :p&lt;/p&gt;
+
+&lt;p&gt;[10:19] mg (OB1): Here is the wallet-interface pull requests: &lt;a href=&quot;https://github.com/OpenBazaar/wallet-interface&quot;&gt;https://github.com/OpenBazaar/wallet-interface&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:19] CryptoShoppe: I can’t hear anyone else&lt;/p&gt;
+
+&lt;p&gt;[10:19] mg (OB1): Here is a specific pull request in flight: &lt;a href=&quot;https://github.com/OpenBazaar/wallet-interface/pull/13&quot;&gt;https://github.com/OpenBazaar/wallet-interface/pull/13&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:19] mg (OB1): Cryptoshoppe, we do have your audio coming in. If you have a question, you can ask it and watch the stream later for your answer. :P&lt;/p&gt;
+
+&lt;p&gt;[10:20] mg (OB1): Or ask it here?)&lt;/p&gt;
+
+&lt;p&gt;[10:20] CryptoShoppe: what about resolved store url addresses?&lt;/p&gt;
+
+&lt;p&gt;[10:20] mg (OB1): Like ob://customname?&lt;/p&gt;
+
+&lt;p&gt;[10:21] CryptoShoppe: instead of hashed addresses, which are hard to remember&lt;/p&gt;
+
+&lt;p&gt;[10:21] CryptoShoppe: yeah like that&lt;/p&gt;
+
+&lt;p&gt;[10:21] mg (OB1): Can you hear audio yet?&lt;/p&gt;
+
+&lt;p&gt;[10:21] CryptoShoppe: no I can’t hear Sam speaking&lt;/p&gt;
+
+&lt;p&gt;[10:21] CryptoShoppe: fixed it&lt;/p&gt;
+
+&lt;p&gt;[10:22] mg (OB1): Okay great. We’ll get an answer for you in audio then. :)&lt;/p&gt;
+
+&lt;p&gt;[10:22] Rod: Thank you @mg for the links&lt;/p&gt;
+
+&lt;p&gt;[10:23] mg (OB1): Of course.&lt;/p&gt;
+
+&lt;p&gt;[10:30] Rod: By chance has there been any work/research/talk on speeding up IPNS publishes ?&lt;/p&gt;
+
+&lt;p&gt;[10:30] Tyler: Tiered routing should do that too&lt;/p&gt;
+
+&lt;p&gt;[10:30] Tyler: it should speed up both reads and rights&lt;/p&gt;
+
+&lt;p&gt;[10:30] Tyler: writes*&lt;/p&gt;
+
+&lt;p&gt;[10:31] mg (OB1): Sam: CryptoShoppe asked “what about resolved store url addresses?” like ob://customname&lt;/p&gt;
+
+&lt;p&gt;[10:37] mg (OB1): DID spec: &lt;a href=&quot;https://w3c-ccg.github.io/did-method-registry&quot;&gt;https://w3c-ccg.github.io/did-method-registry&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:38] mg (OB1): I’m not certain what the IPFS team plans to do with this, but they are thinking about the problem, too.&lt;/p&gt;
+
+&lt;p&gt;[10:40] mg (OB1): Report from the Monero community about integration feasibility: &lt;a href=&quot;https://rbrunner7.github.io/openbazaar&quot;&gt;https://rbrunner7.github.io/openbazaar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:41] Rod: Are ERC-20 tokens going to be usable with the first ethereum wallet release w/OB?&lt;/p&gt;
+
+&lt;p&gt;[10:41] mg (OB1): ^^ the above report is completely independent&lt;/p&gt;
+
+&lt;p&gt;[10:42] Rod: Gotcha&lt;/p&gt;
+
+&lt;p&gt;[10:43] Rod: Thanks for the clarification&lt;/p&gt;
+
+&lt;p&gt;[10:46] BeautyBubble: Suggestion on the BBB meeting, can you please make certain that all links shared find a home here on SLACK.  Thank you.&lt;/p&gt;
+
+&lt;p&gt;[10:46] BeautyBubble: Yes.  This chat links.&lt;/p&gt;
+
+&lt;p&gt;[10:47] John Tooker: Thank you all for the work you do&lt;/p&gt;
+
+&lt;p&gt;[10:47] BeautyBubble: Thank you so much.&lt;/p&gt;
+
+&lt;p&gt;[10:47] Rod: Thanks Sam&lt;/p&gt;
+
+&lt;p&gt;[10:47] BeautyBubble: Assuming we just log out?&lt;/p&gt;
+
+&lt;p&gt;[10:47] Sam - OB1: Yes :)&lt;/p&gt;
+
+&lt;p&gt;[10:47] BeautyBubble: Okay, thank you guys.&lt;/p&gt;
+
+&lt;p&gt;[10:48] Sam - OB1: You’re welcome!&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on March 14, 2019.</summary></entry><entry><title type="html">How to Sell Digital Goods for Cryptocurrency on OpenBazaar</title><link href="https://openbazaar.org/blog/how-to-sell-digital-goods-for-cryptocurrency-on-openbazaar/" rel="alternate" type="text/html" title="How to &lt;span class='post-title-extra'&gt;Sell Digital Goods for Cryptocurrency&lt;/span&gt; on OpenBazaar" /><published>2019-03-14T14:30:00+00:00</published><updated>2019-03-14T14:30:00+00:00</updated><id>https://openbazaar.org/blog/how-to-sell-digital-goods-for-cryptocurrency-on-openbazaar</id><content type="html" xml:base="https://openbazaar.org/blog/how-to-sell-digital-goods-for-cryptocurrency-on-openbazaar/">&lt;p&gt;When you think about the world’s largest internet marketplaces, what kind of products do you picture? Maybe you get your coffee or toilet paper or other daily sundries from Amazon or Alibaba. Maybe you buy secondhand or hard-to-find collectible items on Ebay. Maybe you visit Etsy for thoughtful handmade gifts. These sites do have a focus on physical goods but that’s not all they can do.&lt;/p&gt;
 
 &lt;h5 id=&quot;this-may-blow-your-mind-so-proceed-with-caution&quot;&gt;This may blow your mind so proceed with caution.&lt;/h5&gt;
 
@@ -402,31 +498,4 @@ Check out these other posts that will help you get started:&lt;/p&gt;
   &lt;li&gt;&lt;a href=&quot;https://bisq.network/&quot;&gt;Bisq&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://ipfs.io/&quot;&gt;IPFS&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://joinmastodon.org/&quot;&gt;Mastadon&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">In the video below, OB1 Co-Founder Sam Patterson discusses recent increases in “deplatforming” by major online networks and service providers.</summary></entry><entry><title type="html">OpenBazaar Developer Call - December 13, 2018</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-December-13-2018/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - December 13, 2018" /><published>2018-12-14T14:30:00+00:00</published><updated>2018-12-14T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-December-13-2018</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-December-13-2018/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on December 13, 2018.&lt;/p&gt;
-
-&lt;p&gt;Want to join the call in real time? Sign up at &lt;a href=&quot;https://openbazaar.org/developers&quot;&gt;openbazaar.org/developers&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Join our ongoing conversations on &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Browse OpenBazaar now at &lt;a href=&quot;https://openbazaar.com&quot;&gt;openbazaar.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;div class=&quot;embed-responsive embed-responsive-16by9 mb-5&quot;&gt;
-    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/SXwVHR6shR8&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Chat log:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;[10:12] Jacob Long: Does that include erc20?&lt;/p&gt;
-
-&lt;p&gt;[10:12] JoshJ: Eventually.&lt;/p&gt;
-
-&lt;p&gt;[10:12] mg (OB1): It will not include ERC-20 when ETH initially launches, but we will chase it shortly afterward.&lt;/p&gt;
-
-&lt;p&gt;[10:13] Jacob Long: USDC/DAI will help significantly with adoption IMO&lt;/p&gt;
-
-&lt;p&gt;[10:21] Jacob Long: I have been having many issues with disputes relating to the communication 
-failures…but hopefully these relay nodes help significantly&lt;/p&gt;
-
-&lt;p&gt;[10:24] Jacob Long: Great job everyone!&lt;/p&gt;
-
-&lt;p&gt;[10:28] Jacob Long: Well…being able to enter the same seed would handle that&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on December 13, 2018.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">In the video below, OB1 Co-Founder Sam Patterson discusses recent increases in “deplatforming” by major online networks and service providers.</summary></entry></feed>
