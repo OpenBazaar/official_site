@@ -17,7 +17,7 @@ Release Notes
 This is a minor release, focused on an IPFS rebase in the go server. It is important to back up your store before running this update.
 
 This release uses version 0.13.1 of the openbazaar-go server. You can view server changes at this link:
-https://github.com/OpenBazaar/openbazaar-go/releases/tag/v0.13.1
+[https://github.com/OpenBazaar/openbazaar-go/releases/tag/v0.13.1](https://github.com/OpenBazaar/openbazaar-go/releases/tag/v0.13.1)
 
 **New Features**
 
