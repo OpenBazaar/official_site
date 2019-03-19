@@ -1,4 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2019-03-19T19:12:11+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">OpenBazaar Developer Call - March 14, 2019</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-March-14-2019/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - March 14, 2019" /><published>2019-03-18T14:30:00+00:00</published><updated>2019-03-18T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-March-14-2019</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-March-14-2019/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on March 14, 2019.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2019-03-19T22:44:07+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">OpenBazaar 2.3.1 is Released with IPFS Rebase</title><link href="https://openbazaar.org/blog/openbazaar-2-3-1-release-ipfs-rebase/" rel="alternate" type="text/html" title="OpenBazaar 2.3.1 is Released &lt;span class='post-title-extra'&gt;with IPFS Rebase&lt;/span&gt;" /><published>2019-03-19T14:30:00+00:00</published><updated>2019-03-19T14:30:00+00:00</updated><id>https://openbazaar.org/blog/openbazaar-2-3-1-release-ipfs-rebase</id><content type="html" xml:base="https://openbazaar.org/blog/openbazaar-2-3-1-release-ipfs-rebase/">&lt;p&gt;OpenBazaar version 2.3.1 has &lt;a href=&quot;https://github.com/OpenBazaar/openbazaar-desktop/releases/tag/v2.3.1&quot;&gt;been released&lt;/a&gt; and was primarily focused on upgrading the underlying &lt;a href=&quot;https://ipfs.io&quot;&gt;IPFS&lt;/a&gt; library to 0.4.18. This release prepares the development team to enable some features which will improve message deliverability and discovery on the network. In addition to the IPFS update, we have several minor fixes and improvements which resolve some painful timing bugs and general code improvements and reorganizations.&lt;/p&gt;
+
+&lt;p&gt;This is a minor release but we do recommend that you &lt;a href=&quot;https://openbazaar.zendesk.com/hc/en-us/articles/115002761312-How-do-I-backup-my-store-&quot;&gt;backup your OpenBazaar data&lt;/a&gt; before you update.&lt;/p&gt;
+
+&lt;h2 id=&quot;release-notes&quot;&gt;Release Notes&lt;/h2&gt;
+
+&lt;p&gt;This is a minor release, focused on an IPFS rebase in the go server. It is important to back up your store before running this update.&lt;/p&gt;
+
+&lt;p&gt;This release uses version 0.13.1 of the openbazaar-go server. You can view server changes at this link:
+https://github.com/OpenBazaar/openbazaar-go/releases/tag/v0.13.1&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;New Features&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A bulk coin accepted updater control was added in settings/store. This allows a seller to update all the coins accepted by all their listings at the same time.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Improvements&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Blockbooth was removed from the list of default search providers.&lt;/li&gt;
+  &lt;li&gt;Improvements were made in how moderators are loaded in the purchase screen, so the spinner doesn’t continue forever if one of them fails to load.&lt;/li&gt;
+  &lt;li&gt;Code was added to handle upcoming changes to the peerID format.&lt;/li&gt;
+  &lt;li&gt;A few changes were made to the metrics collected.&lt;/li&gt;
+  &lt;li&gt;Some code clean up.&lt;/li&gt;
+  &lt;li&gt;When coping a contract in the order details screen, the JSON is now formatted nicely.&lt;/li&gt;
+  &lt;li&gt;Inputs are sanitized, to prevent any issues with a user entering invalid or harmful characters.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Bug Fixes&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;An adjustment was made to prevent security software from incorrectly flagging the OB update as malware.&lt;/li&gt;
+  &lt;li&gt;A bug that caused the dispute resolve button to not appear in disputes using ZCash was fixed.&lt;/li&gt;
+  &lt;li&gt;If the url is missing a protocol in the fulfillment of a digital order, it will now open correctly.&lt;/li&gt;
+  &lt;li&gt;An issue where the user page wouldn’t update the user’s name if it was changed was corrected.&lt;/li&gt;
+  &lt;li&gt;A bug with the warning about external links showing when using Tor was fixed.&lt;/li&gt;
+  &lt;li&gt;Minor fixes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Internationalization&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We are actively translating the text in the OpenBazaar reference client. If you are interested in volunteering as a translator, you can sign up at &lt;a href=&quot;https://www.transifex.com/ob1/openbazaar&quot;&gt;https://www.transifex.com/ob1/openbazaar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Special Thanks&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A special thank you goes out to the many volunteers that provide translations, and to our testers that discovered important issues.&lt;/p&gt;
+
+&lt;p&gt;For more development details, please see &lt;a href=&quot;https://github.com/OpenBazaar/openbazaar-desktop/releases/tag/v2.3.1&quot;&gt;the release notes on Github&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">OpenBazaar version 2.3.1 has been released and was primarily focused on upgrading the underlying IPFS library to 0.4.18. This release prepares the development team to enable some features which will improve message deliverability and discovery on the network. In addition to the IPFS update, we have several minor fixes and improvements which resolve some painful timing bugs and general code improvements and reorganizations.</summary></entry><entry><title type="html">OpenBazaar Developer Call - March 14, 2019</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-March-14-2019/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - March 14, 2019" /><published>2019-03-18T14:30:00+00:00</published><updated>2019-03-18T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-March-14-2019</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-March-14-2019/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on March 14, 2019.&lt;/p&gt;
 
 &lt;p&gt;Want to join the call in real time? Sign up at &lt;a href=&quot;https://openbazaar.org/developers&quot;&gt;openbazaar.org/developers&lt;/a&gt;&lt;/p&gt;
 
@@ -474,28 +522,4 @@ Check out these other posts that will help you get started:&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Ready to go eat more holiday treats?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;If you are taking time for the holidays as well, we hope it’s a restful and rejuvenating time for you. We’ll see you in 2019, ready to take the year by the horns!&lt;/p&gt;</content><author><name></name></author><summary type="html">Happy holidays! The OB1 team is taking a bit of time off this week as 2018 comes to a close. We have been working hard on plans for 2019 and can’t wait to give you some gifts.</summary></entry><entry><title type="html">What You Really Need To Know About The Dangers Of Deplatforming</title><link href="https://openbazaar.org/blog/what-you-really-need-to-know-about-the-dangers-of-deplatforming/" rel="alternate" type="text/html" title="What You Really Need To Know About &lt;span class='post-title-extra'&gt;The Dangers Of Deplatforming&lt;/span&gt;" /><published>2018-12-20T14:30:00+00:00</published><updated>2018-12-20T14:30:00+00:00</updated><id>https://openbazaar.org/blog/what-you-really-need-to-know-about-the-dangers-of-deplatforming</id><content type="html" xml:base="https://openbazaar.org/blog/what-you-really-need-to-know-about-the-dangers-of-deplatforming/">&lt;p&gt;In the video below, &lt;a href=&quot;https://ob1.io&quot;&gt;OB1&lt;/a&gt; Co-Founder &lt;strong&gt;Sam Patterson&lt;/strong&gt; discusses recent increases in “deplatforming” by major online networks and service providers.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Check it out for answers to the following questions:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;What is “&lt;strong&gt;deplatforming&lt;/strong&gt;?”&lt;/li&gt;
-  &lt;li&gt;Which platforms are doing this?&lt;/li&gt;
-  &lt;li&gt;Why is it a problem?&lt;/li&gt;
-  &lt;li&gt;How do we stop it?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;div class=&quot;embed-responsive embed-responsive-16by9 mb-5&quot;&gt;
-    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/IfRw5-NSpnA&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Links discussed in the video:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://openbazaar.org/blog/the-beginners-guide-to-decentralization/&quot;&gt;The Beginner’s Guide to Decentralization&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://openbazaar.org/&quot;&gt;OpenBazaar&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://bitcoin.org/en/&quot;&gt;Bitcoin&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://bisq.network/&quot;&gt;Bisq&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://ipfs.io/&quot;&gt;IPFS&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://joinmastodon.org/&quot;&gt;Mastadon&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">In the video below, OB1 Co-Founder Sam Patterson discusses recent increases in “deplatforming” by major online networks and service providers.</summary></entry></feed>
+&lt;p&gt;If you are taking time for the holidays as well, we hope it’s a restful and rejuvenating time for you. We’ll see you in 2019, ready to take the year by the horns!&lt;/p&gt;</content><author><name></name></author><summary type="html">Happy holidays! The OB1 team is taking a bit of time off this week as 2018 comes to a close. We have been working hard on plans for 2019 and can’t wait to give you some gifts.</summary></entry></feed>
