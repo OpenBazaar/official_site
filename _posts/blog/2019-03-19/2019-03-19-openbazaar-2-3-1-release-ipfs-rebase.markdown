@@ -6,10 +6,11 @@ social_title: 'New OpenBazaar Release with IPFS Rebase'
 social_description: 'New OpenBazaar release allows you to use multiple cryptocurrencies in peer-to-peer marketplace'
 ---
 
+#### IMPORTANT: This is a required update
+
+We have tweaked how pricing is calculated to be better aware of currency conversions and changed how content is cached/retrieved as part of the IPFS update. Old nodes and new nodes will be unable to share content. We recommend that you [backup your OpenBazaar data](https://openbazaar.zendesk.com/hc/en-us/articles/115002761312-How-do-I-backup-my-store-) before you update.
+
 OpenBazaar version 2.3.1 has [been released](https://github.com/OpenBazaar/openbazaar-desktop/releases/tag/v2.3.1) and was primarily focused on upgrading the underlying [IPFS](https://ipfs.io) library to 0.4.18. This release prepares the development team to enable some features which will improve message deliverability and discovery on the network. In addition to the IPFS update, we have several minor fixes and improvements which resolve some painful timing bugs and general code improvements and reorganizations.
-
-This is a minor release but we do recommend that you [backup your OpenBazaar data](https://openbazaar.zendesk.com/hc/en-us/articles/115002761312-How-do-I-backup-my-store-) before you update.
-
 
 Release Notes
 -----------------------------
