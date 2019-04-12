@@ -1,4 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2019-03-27T22:08:49+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">OpenBazaar 2.3.1 is Released with IPFS Rebase</title><link href="https://openbazaar.org/blog/openbazaar-2-3-1-release-ipfs-rebase/" rel="alternate" type="text/html" title="OpenBazaar 2.3.1 is Released &lt;span class='post-title-extra'&gt;with IPFS Rebase&lt;/span&gt;" /><published>2019-03-19T14:30:00+00:00</published><updated>2019-03-19T14:30:00+00:00</updated><id>https://openbazaar.org/blog/openbazaar-2-3-1-release-ipfs-rebase</id><content type="html" xml:base="https://openbazaar.org/blog/openbazaar-2-3-1-release-ipfs-rebase/">&lt;h4 id=&quot;important-this-is-a-required-update&quot;&gt;IMPORTANT: This is a required update&lt;/h4&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2019-04-12T22:23:53+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">OpenBazaar Developer Call - April 11, 2019</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-April-11-2019/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - April 11, 2019" /><published>2019-04-12T14:30:00+00:00</published><updated>2019-04-12T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-April-11-2019</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-April-11-2019/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on April 11, 2019.&lt;/p&gt;
+
+&lt;p&gt;Want to join the call in real time? Sign up at &lt;a href=&quot;https://openbazaar.org/developers&quot;&gt;openbazaar.org/developers&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Join our ongoing conversations on &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Browse OpenBazaar now at &lt;a href=&quot;https://openbazaar.com&quot;&gt;openbazaar.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;embed-responsive embed-responsive-16by9 mb-5&quot;&gt;
+    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/2z1UZo5S7WU&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Chat log:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:04]  mg (ob1): Good morning all, FYI we monitor and interact in the chat during the call. If you think of questions, feel free to post them here and we’ll get them answered. :)&lt;/p&gt;
+
+&lt;p&gt;[10:07] DiarioBitcoin.com: are the relay servers custom relay servers for the OB protocol, or are they generic protocol agnostic relay servers (TURN)?&lt;/p&gt;
+
+&lt;p&gt;[10:10]  mg (ob1): The relay servers are specific to IPFS but are transport agnostic.&lt;/p&gt;
+
+&lt;p&gt;[10:10]  mg (ob1): They were designed to ensure that if one transport were blocked, the IPFS relay could bridge across transports as needed.&lt;/p&gt;
+
+&lt;p&gt;[10:11]  mg (ob1): More information: &lt;a href=&quot;https://github.com/ipfs/js-ipfs/tree/master/examples/circuit-relaying&quot;&gt;https://github.com/ipfs/js-ipfs/tree/master/examples/circuit-relaying&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:11] DiarioBitcoin.com: thanks!&lt;/p&gt;
+
+&lt;p&gt;[10:11] DiarioBitcoin.com: Q: when DAI support?&lt;/p&gt;
+
+&lt;p&gt;[10:12]  mg (ob1): We’ll get that one at the end. :)&lt;/p&gt;
+
+&lt;p&gt;[10:15]  mg (ob1): Thanks :) &lt;a href=&quot;https://github.com/OpenBazaar/samulator&quot;&gt;https://github.com/OpenBazaar/samulator&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:20] Matt: what platform will tokens be based on?&lt;/p&gt;
+
+&lt;p&gt;[10:20]  mg (ob1): ERC-20&lt;/p&gt;
+
+&lt;p&gt;[10:20] Matt: you should consider &lt;a href=&quot;https://github.com/Bitcoin-com/slp-sdk&quot;&gt;https://github.com/Bitcoin-com/slp-sdk&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:21]  mg (ob1): We might depending on our initial token success. SLP was barely ready when we began work on the token development.&lt;/p&gt;
+
+&lt;p&gt;[10:22] Rod: Has there been any news on the web buying/client side?&lt;/p&gt;
+
+&lt;p&gt;[10:22] DiarioBitcoin.com: thanks!&lt;/p&gt;
+
+&lt;p&gt;[10:22] MatthewZipkin: Possible to start signing releases? And post dev public keys&lt;/p&gt;
+
+&lt;p&gt;[10:24]  mg (ob1): Yes and on our radar in the near future. We do sign the commits but I don’t think those keys are public.&lt;/p&gt;
+
+&lt;p&gt;[10:24]  mg (ob1): (but github.com verifies them, if you trust them)&lt;/p&gt;
+
+&lt;p&gt;[10:25] Rod: Thanks for the update 👍&lt;/p&gt;
+
+&lt;p&gt;[10:25]  mg (ob1): I think we’d end up with something like signed checksums per release. If you have something specific in mind, LMK.&lt;/p&gt;
+
+&lt;p&gt;[10:30]  mg (ob1): That’s a great update Rod! Thanks for sharing.&lt;/p&gt;
+
+&lt;p&gt;[10:31] Matt: how will the import aliexpress thing prevent spoofing?&lt;/p&gt;
+
+&lt;p&gt;[10:31] Rod: ^^ Appreciate it mg 😄&lt;/p&gt;
+
+&lt;p&gt;[10:32] Matt: pretending to be a user on aliexpress&lt;/p&gt;
+
+&lt;p&gt;[10:32] Matt: yes thats what i mean&lt;/p&gt;
+
+&lt;p&gt;[10:32] Matt: thanks&lt;/p&gt;
+
+&lt;p&gt;[10:33] John: Thank you for the updates&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on April 11, 2019.</summary></entry><entry><title type="html">OpenBazaar 2.3.1 is Released with IPFS Rebase</title><link href="https://openbazaar.org/blog/openbazaar-2-3-1-release-ipfs-rebase/" rel="alternate" type="text/html" title="OpenBazaar 2.3.1 is Released &lt;span class='post-title-extra'&gt;with IPFS Rebase&lt;/span&gt;" /><published>2019-03-19T14:30:00+00:00</published><updated>2019-03-19T14:30:00+00:00</updated><id>https://openbazaar.org/blog/openbazaar-2-3-1-release-ipfs-rebase</id><content type="html" xml:base="https://openbazaar.org/blog/openbazaar-2-3-1-release-ipfs-rebase/">&lt;h4 id=&quot;important-this-is-a-required-update&quot;&gt;IMPORTANT: This is a required update&lt;/h4&gt;
 
 &lt;p&gt;We have tweaked how pricing is calculated to be better aware of currency conversions and changed how content is cached/retrieved as part of the IPFS update. Old nodes and new nodes will be unable to share content. We recommend that you &lt;a href=&quot;https://openbazaar.zendesk.com/hc/en-us/articles/115002761312-How-do-I-backup-my-store-&quot;&gt;backup your OpenBazaar data&lt;/a&gt; before you update.&lt;/p&gt;
 
@@ -488,40 +554,4 @@ Check out these other posts that will help you get started:&lt;/p&gt;
 
 &lt;p&gt;If you’re coming from the Ethereum world, you’re probably familiar with Metamask. This is the exact same user experience, but on the BCH network.&lt;/p&gt;
 
-&lt;p&gt;If interested, I’d love to help the OpenBazaar team to integrate Badger Wallet functionality into openbazaar.com, to allow people to make purchases directly from the website.&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on January 10, 2019.</summary></entry><entry><title type="html">Happy Holidays from OB1 - Your Gifts Are Coming Soon</title><link href="https://openbazaar.org/blog/happy-holidays-from-ob1/" rel="alternate" type="text/html" title="Happy Holidays from OB1 - &lt;span class='post-title-extra'&gt;Your Gifts Are Coming Soon&lt;/span&gt;" /><published>2018-12-25T14:30:00+00:00</published><updated>2018-12-25T14:30:00+00:00</updated><id>https://openbazaar.org/blog/happy-holidays-from-ob1</id><content type="html" xml:base="https://openbazaar.org/blog/happy-holidays-from-ob1/">&lt;p&gt;Happy holidays! The &lt;a href=&quot;https://ob1.io&quot;&gt;OB1&lt;/a&gt; team is taking a bit of time off this week as 2018 comes to a close. We have been working hard on plans for 2019 and can’t wait to give you some gifts. 
- &lt;br /&gt;
- &lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;Happy_Holidays_from_OB1.png&quot; alt=&quot;Happy Holidays from OB1&quot; title=&quot;Happy holidays from OB1&quot; /&gt;
- &lt;br /&gt;
- &lt;br /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;multi-wallet&quot;&gt;Multi Wallet&lt;/h4&gt;
-
-&lt;p&gt;Coming up first in 2019 is the release of the &lt;strong&gt;OpenBazaar &lt;a href=&quot;https://openbazaar.org/blog/Freedom-To-Trade-Means-Freedom-To-Choose-Currencies-The-OpenBazaar-Multiwallet/&quot;&gt;multi wallet&lt;/a&gt;&lt;/strong&gt;. This is a major release that will allow users to send and receive multiple cryptocurrencies from one node. Bitcoin, Bitcoin Cash, Zcash, Litecoin and Ether will be supported to start and more are coming soon.
- &lt;br /&gt;
- &lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;openbazaar-multiwallet-design.png&quot; alt=&quot;OpenBazaar Multi Wallet Design&quot; title=&quot;OpenBazaar Multi Wallet Design&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Want to see more? Click &lt;a href=&quot;https://projects.invisionapp.com/share/5XMZC8DT8HM#/screens/308962050_Openbazaar-2-0-Wallet&quot;&gt;here&lt;/a&gt; for an interactive demo!&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;br /&gt;
- &lt;br /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;mobile-app&quot;&gt;Mobile App&lt;/h4&gt;
-
-&lt;p&gt;Next is a special &lt;strong&gt;mobile application&lt;/strong&gt; for Android and iOS that has some exciting new features. We will be sharing details about it in January.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
- &lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Like what you’re reading?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Make sure you are on the &lt;a href=&quot;https://openbazaar.org/newsletter&quot;&gt;newsletter list&lt;/a&gt; to get the latest updates on features like these and more.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Ready to go eat more holiday treats?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;If you are taking time for the holidays as well, we hope it’s a restful and rejuvenating time for you. We’ll see you in 2019, ready to take the year by the horns!&lt;/p&gt;</content><author><name></name></author><summary type="html">Happy holidays! The OB1 team is taking a bit of time off this week as 2018 comes to a close. We have been working hard on plans for 2019 and can’t wait to give you some gifts.</summary></entry></feed>
+&lt;p&gt;If interested, I’d love to help the OpenBazaar team to integrate Badger Wallet functionality into openbazaar.com, to allow people to make purchases directly from the website.&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on January 10, 2019.</summary></entry></feed>
