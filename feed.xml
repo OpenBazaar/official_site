@@ -1,4 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2019-04-23T19:26:31+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">OpenBazaar Developer Call - April 11, 2019</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-April-11-2019/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - April 11, 2019" /><published>2019-04-12T14:30:00+00:00</published><updated>2019-04-12T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-April-11-2019</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-April-11-2019/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on April 11, 2019.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2019-04-29T23:07:09+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">How to Sell Services for Cryptocurrency on OpenBazaar</title><link href="https://openbazaar.org/blog/how-to-sell-services-for-cryptocurrency-on-openbazaar/" rel="alternate" type="text/html" title="How to &lt;span class='post-title-extra'&gt;Sell Services for Cryptocurrency&lt;/span&gt; on OpenBazaar" /><published>2019-04-25T14:30:00+00:00</published><updated>2019-04-25T14:30:00+00:00</updated><id>https://openbazaar.org/blog/how-to-sell-services-for-cryptocurrency-on-openbazaar</id><content type="html" xml:base="https://openbazaar.org/blog/how-to-sell-services-for-cryptocurrency-on-openbazaar/">&lt;p&gt;Making sales is about more than just moving physical products. People also make entire careers—and often very high level careers!—out of selling the services they perform. These can be things done from anywhere in the world like like web design, software development and copywriting, or very local things like medical assistance, legal representation and lawn care.&lt;/p&gt;
+
+&lt;p&gt;In fact, &lt;a href=&quot;https://www2.deloitte.com/insights/us/en/economy/issues-by-the-numbers/trade-in-services-economy-growth.html&quot;&gt;services make up almost 70% of value added to the world’s economy&lt;/a&gt;. This kind of market share shows an enormous opportunity!&lt;/p&gt;
+
+&lt;h3 id=&quot;sell-your-services-online&quot;&gt;Sell Your Services Online&lt;/h3&gt;
+
+&lt;p&gt;OpenBazaar’s unique approach to an escrow account makes it easy for a provider to list and bill for their services. By setting up a moderated transaction a service seller can be sure that their client has the funds for contract they are agreeing to and upon successful completion of the work the funds can simply be released to the seller.&lt;/p&gt;
+
+&lt;p&gt;On OpenBazaar you can easily sell services for cryptocurrency. Here’s how.&lt;/p&gt;
+
+&lt;h4 id=&quot;1-define-your-service&quot;&gt;1. Define your service&lt;/h4&gt;
+
+&lt;p&gt;What services do you sell? How do you usually price them? Many providers offer services by the hour or on a custom basis, but to list services for sale on OpenBazaar it’s easiest to start by “productizing” them, or structuring them to be constrained to a set cost. For example, if you provide language translation services you may create 3 different products with different prices. For example:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;100 - 200 words translated&lt;/li&gt;
+  &lt;li&gt;200 - 400 words translated&lt;/li&gt;
+  &lt;li&gt;400 - 600 words translated&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;2-create-your-listings&quot;&gt;2. Create your listings&lt;/h4&gt;
+
+&lt;p&gt;Once you have your services defined you can create listings for them on OpenBazaar. Create a &lt;strong&gt;new listing&lt;/strong&gt; and under &lt;strong&gt;Type&lt;/strong&gt;, select “&lt;strong&gt;Service&lt;/strong&gt;.”&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;Sell_Services_for_Cryptocurrency_on_OpenBazaar.gif&quot; alt=&quot;Sell Services for Cryptocurrency on OpenBazaar&quot; title=&quot;Sell Services for Cryptocurrency on OpenBazaar&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Give it a great &lt;strong&gt;title&lt;/strong&gt; and &lt;strong&gt;description&lt;/strong&gt; that relates to keywords people may use in search that will help them find it easily. Make sure to describe exactly what a buyer will receive and consider adding more information such as examples of past work or testimonials to make the offer compelling.&lt;/p&gt;
+
+&lt;p&gt;Include at least 1 great &lt;strong&gt;image&lt;/strong&gt; that describes your service such as a photo of you providing the service or an photo of the completed service with simple text overlaid, such as “500-700 Words Translated English to Chinese.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tags&lt;/strong&gt; can be added to boost the searchability of your item. Include obvious ones that relate to the item itself like “website design” or “manuscript editing,” then more as relates to broader categories it represents such as “business or “writing.”&lt;/p&gt;
+
+&lt;p&gt;A &lt;strong&gt;category&lt;/strong&gt; is to help keep your store organized. If you plan to sell both “software development” and “language translation,” you’d just type in the appropriate category for the appropriate listing.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Variants&lt;/strong&gt; and &lt;strong&gt;inventory&lt;/strong&gt; can likely be left blank. These are helpful for things like physical goods where you may offer the exact same shirt but in 3 different colors and you only have a certain number of each. If you have variations with your services it is generally a good approach to create separate listings for each.&lt;/p&gt;
+
+&lt;p&gt;With the &lt;strong&gt;return policy&lt;/strong&gt; you can set this up however you’d like. You may want to say no refunds or perhaps offer a 100% satisfaction guarantee with a full refund option.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terms &amp;amp; conditions&lt;/strong&gt; can be added if you have any conditions or advisories you want to make people aware of when accessing or using your digital good.&lt;/p&gt;
+
+&lt;p&gt;Select the &lt;strong&gt;coins&lt;/strong&gt; you’d like to receive as payment: &lt;a href=&quot;https://bitcoin.org&quot;&gt;Bitcoin&lt;/a&gt;, &lt;a href=&quot;https://bitcoincash.org&quot;&gt;Bitcoin Cash&lt;/a&gt;, &lt;a href=&quot;https://litecoin.org&quot;&gt;Litecoin&lt;/a&gt; and/or &lt;a href=&quot;https://z.cash&quot;&gt;Zcash&lt;/a&gt;. it can be just one of them or any combination.&lt;/p&gt;
+
+&lt;h4 id=&quot;3-share-your-services-from-openbazaarcom&quot;&gt;3. Share your services from OpenBazaar.com&lt;/h4&gt;
+
+&lt;p&gt;OpenBazaar is a marketplace where people can browse and discover the items that you have for sale—but that’s not the only way they can find them! &lt;a href=&quot;https://openbazaar.com&quot;&gt;OpenBazaar.com&lt;/a&gt; exists to make it easy for you and others to share stores and listings to your social media and other communities.&lt;/p&gt;
+
+&lt;p&gt;Once your listing is live you can click “View on web” in the address bar at the top to see it and share it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;view_on_web_link_in_openbazaar.png&quot; alt=&quot;View on Web Link in OpenBazaar&quot; title=&quot;View on Web Link in OpenBazaar&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;more-than-a-marketplace&quot;&gt;More Than a Marketplace&lt;/h5&gt;
+
+&lt;p&gt;OpenBazaar is still new and it is very niche because it exclusively uses cryptocurrency for payments. It needs every true believer’s help to grow into a phenomenon worldwide and that starts with our community. Make sure to connect with us to market your store and service listings and meet other like-minded people all around the world. Meet us on &lt;a href=&quot;https://twitter.com/openbazaar&quot;&gt;Twitter&lt;/a&gt;, &lt;a href=&quot;https://reddit.com/r/openbazaar&quot;&gt;Reddit&lt;/a&gt;, &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt; and &lt;a href=&quot;https://t.me/OpenBazaarGroup&quot;&gt;Telegram&lt;/a&gt;!
+&lt;br /&gt; 
+&lt;br /&gt; 
+&lt;strong&gt;Want To Learn More about Selling Goods and Services on OpenBazaar?&lt;/strong&gt;
+&lt;br /&gt; 
+Check out these other posts that will help you get started:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://openbazaar.org/blog/openbazaar-seller-guide-what-to-expect-in-this-decentralized-marketplace/&quot;&gt;OpenBazaar Seller Guide - What To Expect in This Decentralized Marketplace&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://openbazaar.org/blog/how-to-market-your-store-and-listings-on-openbazaar/&quot;&gt;How To Market Your Store and Listings on OpenBazaar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://openbazaar.org/blog/5-tips-to-make-your-openbazaar-listings-pop/&quot;&gt;5 Tips To Make Your OpenBazaar Listings Pop&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://openbazaar.org/blog/how-to-sell-digital-goods-for-cryptocurrency-on-openbazaar/&quot;&gt;How to Sell Digital Goods for Cryptocurrency on OpenBazaar&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Making sales is about more than just moving physical products. People also make entire careers—and often very high level careers!—out of selling the services they perform. These can be things done from anywhere in the world like like web design, software development and copywriting, or very local things like medical assistance, legal representation and lawn care.</summary></entry><entry><title type="html">OpenBazaar Developer Call - April 11, 2019</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-April-11-2019/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - April 11, 2019" /><published>2019-04-12T14:30:00+00:00</published><updated>2019-04-12T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-April-11-2019</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-April-11-2019/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on April 11, 2019.&lt;/p&gt;
 
 &lt;p&gt;Want to join the call in real time? Sign up at &lt;a href=&quot;https://openbazaar.org/developers&quot;&gt;openbazaar.org/developers&lt;/a&gt;&lt;/p&gt;
 
@@ -532,26 +597,4 @@ Check out these other posts that will help you get started:&lt;/p&gt;
 
 &lt;div class=&quot;embed-responsive embed-responsive-16by9 mb-5&quot;&gt;
     &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/U3N82PbhezM&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">After several months of work OpenBazaar version 2.3 has been released. This is a major release which contains significant changes to how the OpenBazaar wallet functions. Because of the major changes in this release, we highly recommend you backup your OpenBazaar data before you update.</summary></entry><entry><title type="html">OpenBazaar Developer Call - January 10, 2019</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-January-10-2019/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - January 10, 2019" /><published>2019-01-14T14:30:00+00:00</published><updated>2019-01-14T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-January-10-2019</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-January-10-2019/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on January 10, 2019.&lt;/p&gt;
-
-&lt;p&gt;Want to join the call in real time? Sign up at &lt;a href=&quot;https://openbazaar.org/developers&quot;&gt;openbazaar.org/developers&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Join our ongoing conversations on &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Browse OpenBazaar now at &lt;a href=&quot;https://openbazaar.com&quot;&gt;openbazaar.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;div class=&quot;embed-responsive embed-responsive-16by9 mb-5&quot;&gt;
-    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/3OdmS-z6yuo&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Chat log:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;[10:07] chris.troutner: Seems like incentivizing people to run an API server would be a good use for an OB token.&lt;/p&gt;
-
-&lt;p&gt;[10:13] chris.troutner: On the chance that this is helpful to you guys: &lt;a href=&quot;https://github.com/christroutner/orbit-tests&quot;&gt;https://github.com/christroutner/orbit-tests&lt;/a&gt; this repo has a handful of demos using the IPFS circuit-relay and OrbitDB. It demos the requirements and ability for IPFS to tunnel through firewalls using circuit-relay. It’s JavaScript focused, sorry.&lt;/p&gt;
-
-&lt;p&gt;[10:17] chris.troutner: Wanted to mention the release of Badger Wallet: &lt;a href=&quot;https://badger.bitcoin.com/&quot;&gt;https://badger.bitcoin.com/&lt;/a&gt; It’s a browser extension for Firefox an Chrome. it’s a fork of Metamask. It allow web apps to receive payments in BCH as well as tokens using either the SLP or Wormhole token protocols. It will probably support Keoken soon too, which is a new token protocol by Bitprim.&lt;/p&gt;
-
-&lt;p&gt;If you’re coming from the Ethereum world, you’re probably familiar with Metamask. This is the exact same user experience, but on the BCH network.&lt;/p&gt;
-
-&lt;p&gt;If interested, I’d love to help the OpenBazaar team to integrate Badger Wallet functionality into openbazaar.com, to allow people to make purchases directly from the website.&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on January 10, 2019.</summary></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><summary type="html">After several months of work OpenBazaar version 2.3 has been released. This is a major release which contains significant changes to how the OpenBazaar wallet functions. Because of the major changes in this release, we highly recommend you backup your OpenBazaar data before you update.</summary></entry></feed>
