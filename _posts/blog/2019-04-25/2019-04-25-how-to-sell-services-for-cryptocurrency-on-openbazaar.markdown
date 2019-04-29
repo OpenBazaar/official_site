@@ -12,7 +12,7 @@ In fact, [services make up almost 70% of value added to the world's economy](htt
 
 ### Sell Your Services Online
 
-OpenBazaar’s unique approach to an escrow account makes it even easier for a provider to list and bill their services. By setting up a moderated transaction a service seller can be sure that their client has the funds for contract they are agreeing to and upon successful completion of the work the funds can simply be released to the seller.
+OpenBazaar’s unique approach to an escrow account makes it easy for a provider to list and bill for their services. By setting up a moderated transaction a service seller can be sure that their client has the funds for contract they are agreeing to and upon successful completion of the work the funds can simply be released to the seller.
 
 On OpenBazaar you can easily sell services for cryptocurrency. Here’s how.
 
@@ -21,8 +21,8 @@ On OpenBazaar you can easily sell services for cryptocurrency. Here’s how.
 What services do you sell? How do you usually price them? Many providers offer services by the hour or on a custom basis, but to list services for sale on OpenBazaar it’s easiest to start by “productizing” them, or structuring them to be constrained to a set cost. For example, if you provide language translation services you may create 3 different products with different prices. For example:
 
 1. 100 - 200 words translated
-2. 300 - 500 words translated
-3. 500 - 750 words translated
+2. 200 - 400 words translated
+3. 400 - 600 words translated
 
 #### 2. Create your listings
 
