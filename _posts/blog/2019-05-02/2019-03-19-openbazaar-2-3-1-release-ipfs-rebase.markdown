@@ -1,12 +1,12 @@
 ---
-title: "OpenBazaar, but Fast: New 2.3.3 Release <span class='post-title-extra'>Dramatically</span> Improves Speed"
+title: "OpenBazaar, but Fast: New Release <span class='post-title-extra'>Dramatically</span> Improves Speed"
 layout: post
 date: '2019-05-02 08:30:00 -0600'
-social_title: 'OpenBazaar, but Fast: New 2.3.3 Release Dramatically Improves Speed'
+social_title: 'OpenBazaar, but Fast: New Release Dramatically Improves Speed'
 social_description: 'This is a minor release, focused on improvements to the network and an enhanced Discover experience.'
 ---
 
-This is a minor release, focused on improvements to the network and an enhanced Discover experience. 
+OpenBazaar 2.3.3 released today. This is a minor release, but delivers substantial improvements to the user experience, such as rapid loading of listings from search.
 
 We recommend that you [backup your OpenBazaar data](https://openbazaar.zendesk.com/hc/en-us/articles/115002761312-How-do-I-backup-my-store-) before you update.
 
