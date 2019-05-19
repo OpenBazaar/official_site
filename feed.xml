@@ -1,4 +1,158 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2019-05-02T21:51:53+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">OpenBazaar, but Fast: New Release Dramatically Improves Speed</title><link href="https://openbazaar.org/blog/openbazaar-but-fast-new-release-dramatically-improves-speed/" rel="alternate" type="text/html" title="OpenBazaar, but Fast: New Release &lt;span class='post-title-extra'&gt;Dramatically&lt;/span&gt; Improves Speed" /><published>2019-05-02T14:30:00+00:00</published><updated>2019-05-02T14:30:00+00:00</updated><id>https://openbazaar.org/blog/openbazaar-but-fast-new-release-dramatically-improves-speed</id><content type="html" xml:base="https://openbazaar.org/blog/openbazaar-but-fast-new-release-dramatically-improves-speed/">&lt;p&gt;OpenBazaar 2.3.3 released today. This is a minor release, but delivers substantial improvements to the user experience, such as rapid loading of listings from search.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2019-05-19T22:27:04+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">OpenBazaar Developer Call - May 16, 2019</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-May-16-2019/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - May 16, 2019" /><published>2019-05-17T14:30:00+00:00</published><updated>2019-05-17T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-May-16-2019</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-May-16-2019/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on May 16, 2019.&lt;/p&gt;
+
+&lt;p&gt;Want to join the call in real time? Sign up at &lt;a href=&quot;https://openbazaar.org/developers&quot;&gt;openbazaar.org/developers&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Join our ongoing conversations on &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Browse OpenBazaar now at &lt;a href=&quot;https://openbazaar.com&quot;&gt;openbazaar.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;embed-responsive embed-responsive-16by9 mb-5&quot;&gt;
+    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/ydQszqXk8Pc&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Chat log:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;[09:52] Impartial Mod: Hello all :-)&lt;/p&gt;
+
+&lt;p&gt;[09:53] Impartial Mod: I will stay as long as possible but need to leave shortly.&lt;/p&gt;
+
+&lt;p&gt;[09:53] Impartial Mod: Just here to listen tho :-)&lt;/p&gt;
+
+&lt;p&gt;[09:55] Jenn_OB1: You are welcome to stay as long as you’d like and interact as much or as little as you’d like! Glad you’re here! :)&lt;/p&gt;
+
+&lt;p&gt;[09:58] Impartial Mod: :-)&lt;/p&gt;
+
+&lt;p&gt;[10:00] ASCiiDiTY: Hi :)&lt;/p&gt;
+
+&lt;p&gt;[10:00] 🌪 mg (ob1): Hi chat!&lt;/p&gt;
+
+&lt;p&gt;[10:04] Tim Felsky: Hi all, excited for the work  you’re doing and the progress on Haven! D-Commerce should be a huge industry in large part to your contributions!&lt;/p&gt;
+
+&lt;p&gt;[10:14] Impartial Mod: Steam as in Steam games?&lt;/p&gt;
+
+&lt;p&gt;[10:14] Impartial Mod: ok Thanks :-)&lt;/p&gt;
+
+&lt;p&gt;[10:15] 🌪 mg (ob1): &lt;a href=&quot;https://rbrunner7.github.io/openbazaar&quot;&gt;https://rbrunner7.github.io/openbazaar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:16] Rod: Really great work @rbrunner&lt;/p&gt;
+
+&lt;p&gt;[10:16] rbrunner7: Thanks! One does what one can :)&lt;/p&gt;
+
+&lt;p&gt;[10:16] 🌪 mg (ob1): &lt;a href=&quot;https://steemit.com/utopian-io/@travelersmemoire/an-openbazaar-steem-integration-feasibility-report&quot;&gt;https://steemit.com/utopian-io/@travelersmemoire/an-openbazaar-steem-integration-feasibility-report&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:17] 🌪 mg (ob1): (sorry to out you, Rene… thanks for your contributions!)&lt;/p&gt;
+
+&lt;p&gt;[10:17] rbrunner7: No, it’s ok. Don’t have a mike, and not a good speaker anyway&lt;/p&gt;
+
+&lt;p&gt;[10:20] ASCiiDiTY: People are having issues leaving feedback. It’s not publishing.&lt;/p&gt;
+
+&lt;p&gt;[10:21] Impartial Mod: I think this relates to purchases being marked complete.&lt;/p&gt;
+
+&lt;p&gt;[10:21] Impartial Mod: …at least they happen at the same time I’ve noticed.&lt;/p&gt;
+
+&lt;p&gt;[10:23] ASCiiDiTY: Thanks&lt;/p&gt;
+
+&lt;p&gt;[10:24] Impartial Mod: Zokos !!! Woot&lt;/p&gt;
+
+&lt;p&gt;[10:24] 🌪 mg (ob1): Providing Reliable Messaging in OpenBazaar: &lt;a href=&quot;https://github.com/OpenBazaar/openbazaar-go/issues/1442&quot;&gt;https://github.com/OpenBazaar/openbazaar-go/issues/1442&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:25] ASCiiDiTY: The crypto listing feature is great. I’ve made a few trades very fast. The issue I’ve had though is it lets buyers pay for more coin than is in inventory. I had to cancel a trade because of this.&lt;/p&gt;
+
+&lt;p&gt;[10:25] Rod: Thanks Sam  :p&lt;/p&gt;
+
+&lt;p&gt;[10:28] Rod: Since becoming a moderator we’ve seen two cases where buyers were unable to send offline messages/write to the DHT. Would Chris’s work with the webrelay code be helpful at all for delivering messages for client users?&lt;/p&gt;
+
+&lt;p&gt;[10:28] Jimmy Jam: Search feature seems finicky. Looking for a certain user or item doesn’t always get the desired result.&lt;/p&gt;
+
+&lt;p&gt;[10:28] Jimmy Jam: But I love the project overall.&lt;/p&gt;
+
+&lt;p&gt;[10:28] ASCiiDiTY: I got trades very fast, that was why I was so impressed. I did list at -0.5% market price though.&lt;/p&gt;
+
+&lt;p&gt;[10:29] Jimmy Jam: AsciiDiTy - what do you sell?&lt;/p&gt;
+
+&lt;p&gt;[10:29] ASCiiDiTY: CBD isolate.&lt;/p&gt;
+
+&lt;p&gt;[10:29] Jimmy Jam: ah, nice&lt;/p&gt;
+
+&lt;p&gt;[10:29] ASCiiDiTY: I do sell hemp flower as well but it’s not listed on my OB store.&lt;/p&gt;
+
+&lt;p&gt;[10:30] ASCiiDiTY: You can find my main website by searching “CBDwire”.&lt;/p&gt;
+
+&lt;p&gt;[10:30] Jimmy Jam: if I type in CBD will I find it easily - some of the people I speak to told me that they’ve had difficulty finding what they’re looking for on openbazaar&lt;/p&gt;
+
+&lt;p&gt;[10:30] ASCiiDiTY: Yes you should be able to find it easily in OB search&lt;/p&gt;
+
+&lt;p&gt;[10:32] Tim Felsky: Have been speaking with another OpenBazaar user about bringing forward some media in the form of a podcast related to D-Commerce. Still early in the discussion but invite you to connect if you’d like to share or participate!&lt;/p&gt;
+
+&lt;p&gt;[10:32] Impartial Mod: How do you check which listings are legal?&lt;/p&gt;
+
+&lt;p&gt;[10:33] uzuz: Any plans or roadmap for v3 onions support or generally Tor easy setup, like one click setup or clearnet shop versus onion shop and everything else goes by itself easily even for nontech anonymity people? Also is there any plan to add different admin levels/permissions. Sometimes I would need someone else to take care of some tasks, but without need to give the guy full access to ne shop. Would be nice.&lt;/p&gt;
+
+&lt;p&gt;[10:34] Matt: Any plans to create a way to do search in an uncensorable way by default? Or a 1 click way to do that, without having to rely on 3rd party search provider?&lt;/p&gt;
+
+&lt;p&gt;[10:34] ASCiiDiTY: I’ve noticed people selling illegal drugs are just following hundreds of users so they appear in followed by tab of my store.&lt;/p&gt;
+
+&lt;p&gt;[10:35] 🌪 mg (ob1): Embedded Tor: &lt;a href=&quot;https://github.com/OpenBazaar/openbazaar-go/pull/1515&quot;&gt;https://github.com/OpenBazaar/openbazaar-go/pull/1515&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:35] 🌪 mg (ob1): Matt, would that be something like a self-initiated crawl?&lt;/p&gt;
+
+&lt;p&gt;[10:37] Rod: &lt;a href=&quot;https://github.com/OpenBazaar/obips/blob/master/obip-0003.mediawiki&quot;&gt;https://github.com/OpenBazaar/obips/blob/master/obip-0003.mediawiki&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:37] Matt: sure, or easy way to create a search server that only you could use, or share&lt;/p&gt;
+
+&lt;p&gt;[10:39] Matt: bascially, or something functionally the same&lt;/p&gt;
+
+&lt;p&gt;[10:39] Rod: &lt;a href=&quot;https://github.com/rodkeys/rawflood&quot;&gt;https://github.com/rodkeys/rawflood&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:39] 🌪 mg (ob1): Thanks Rod…beat me by seconds. :P&lt;/p&gt;
+
+&lt;p&gt;[10:40] Rod: &lt;a href=&quot;https://zokos.com/blog/site/public/2019/04/04/RawFlood%20setup%20instructions/&quot;&gt;https://zokos.com/blog/site/public/2019/04/04/RawFlood%20setup%20instructions/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:41] uzuz: Thank you for the v3 or tor support out of the box. This deature will help a lot to people of need in an unfriendly environment, where being possibly exposed as a successfull man could be dangerous.&lt;/p&gt;
+
+&lt;p&gt;[10:41] raz: to run a store&lt;/p&gt;
+
+&lt;p&gt;[10:41] raz: do I need to keep my windows box running 24x7&lt;/p&gt;
+
+&lt;p&gt;[10:41] raz: newbie&lt;/p&gt;
+
+&lt;p&gt;[10:41] raz: question&lt;/p&gt;
+
+&lt;p&gt;[10:42] 🌪 mg (ob1): No worries, Raz. You do not need to. OpenBazaar supports sending messages to an offline node for them to retrieve later.&lt;/p&gt;
+
+&lt;p&gt;[10:42] raz: tks&lt;/p&gt;
+
+&lt;p&gt;[10:42] 🌪 mg (ob1): (As long as the node comes online to check the DHT for these messages at least every 7 days…as they expire then)&lt;/p&gt;
+
+&lt;p&gt;[10:43] 🌪 mg (ob1): ((If you do this…it usually takes 20-30 minutes to crawl the DHT looking for their messages, so be sure to run it for a bit…not just on and off.))&lt;/p&gt;
+
+&lt;p&gt;[10:43] uzuz: Once tor easy will be there in OB the community will sure make effort to port it also to secure OSes.&lt;/p&gt;
+
+&lt;p&gt;[10:43] 🌪 mg (ob1): usually = it could take as much as depending on how connected your node is.&lt;/p&gt;
+
+&lt;p&gt;[10:44] raz: If I change my ip becase of vpn does it messup anything&lt;/p&gt;
+
+&lt;p&gt;[10:44] raz: ok tks&lt;/p&gt;
+
+&lt;p&gt;[10:45] 🌪 mg (ob1): &lt;a href=&quot;https://openbazaar.zendesk.com/hc/en-us/articles/115002761932-Why-am-I-not-seeing-messages-in-real-time-&quot;&gt;https://openbazaar.zendesk.com/hc/en-us/articles/115002761932-Why-am-I-not-seeing-messages-in-real-time-&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:45] uzuz: Tor or i2p :)&lt;/p&gt;
+
+&lt;p&gt;[10:46] uzuz: Thanks 😎&lt;/p&gt;
+
+&lt;p&gt;[10:47] Impartial Mod: Thanks :-)&lt;/p&gt;
+
+&lt;p&gt;[10:47] 🌪 mg (ob1): Thanks for joining all!&lt;/p&gt;
+
+&lt;p&gt;[10:47] uzuz: 👏&lt;/p&gt;
+
+&lt;p&gt;[10:47] Rod: Thanks Sam&lt;/p&gt;
+
+&lt;p&gt;[10:47] Jimmy Jam: Merci&lt;/p&gt;
+
+&lt;p&gt;[10:47] rbrunner7: Thanks&lt;/p&gt;
+
+&lt;p&gt;[10:47] Sam - OB1: Thank you Rod&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on May 16, 2019.</summary></entry><entry><title type="html">OpenBazaar, but Fast: New Release Dramatically Improves Speed</title><link href="https://openbazaar.org/blog/openbazaar-but-fast-new-release-dramatically-improves-speed/" rel="alternate" type="text/html" title="OpenBazaar, but Fast: New Release &lt;span class='post-title-extra'&gt;Dramatically&lt;/span&gt; Improves Speed" /><published>2019-05-02T14:30:00+00:00</published><updated>2019-05-02T14:30:00+00:00</updated><id>https://openbazaar.org/blog/openbazaar-but-fast-new-release-dramatically-improves-speed</id><content type="html" xml:base="https://openbazaar.org/blog/openbazaar-but-fast-new-release-dramatically-improves-speed/">&lt;p&gt;OpenBazaar 2.3.3 released today. This is a minor release, but delivers substantial improvements to the user experience, such as rapid loading of listings from search.&lt;/p&gt;
 
 &lt;p&gt;We recommend that you &lt;a href=&quot;https://openbazaar.zendesk.com/hc/en-us/articles/115002761312-How-do-I-backup-my-store-&quot;&gt;backup your OpenBazaar data&lt;/a&gt; before you update.&lt;/p&gt;
 
@@ -619,54 +773,4 @@ Check out these other posts that will help you get started:&lt;/p&gt;
 
 &lt;p&gt;We are working to build a fully decentralized marketplace and social experience to promote privacy and autonomy for users around the world. It’s clear to us, though, that the road to full decentralization is made up of multiple decentralized steps rather than a complete jump.&lt;/p&gt;
 
-&lt;p&gt;Moving from centralized systems we are displeased with is a process that will take some time and the ability to make small advances through that process is imperative. Building decentralized apps that also interface with centralized apps that people are used to using right now is important to help them better match their desires for the future with their present reality.&lt;/p&gt;</content><author><name></name></author><summary type="html">The shift to peer-to-peer online commerce won’t happen overnight. Until this technology becomes widespread, we need tools that help the transition go more smoothly.</summary></entry><entry><title type="html">Which Cryptocurrencies are used in OpenBazaar, and Why?</title><link href="https://openbazaar.org/blog/which-cryptocurrencies-are-used-in-openbazaar/" rel="alternate" type="text/html" title="Which Cryptocurrencies are used in OpenBazaar, &lt;span class='post-title-extra'&gt;and Why?&lt;/span&gt;" /><published>2019-01-24T14:30:00+00:00</published><updated>2019-01-24T14:30:00+00:00</updated><id>https://openbazaar.org/blog/which-cryptocurrencies-are-used-in-openbazaar</id><content type="html" xml:base="https://openbazaar.org/blog/which-cryptocurrencies-are-used-in-openbazaar/">&lt;p&gt;The decentralized marketplace OpenBazaar supports several different cryptocurrencies for buying and selling goods and services between users. This post explains which currencies, and why were they chosen.&lt;/p&gt;
-
-&lt;h2 id=&quot;cryptocurrencies-supported-in-openbazaar&quot;&gt;Cryptocurrencies Supported in OpenBazaar&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Bitcoin&lt;/li&gt;
-  &lt;li&gt;Bitcoin Cash&lt;/li&gt;
-  &lt;li&gt;Litecoin&lt;/li&gt;
-  &lt;li&gt;Zcash&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;why-we-support-these-cryptocurrencies&quot;&gt;Why we Support these Cryptocurrencies&lt;/h2&gt;
-
-&lt;p&gt;OpenBazaar was originally developed with only Bitcoin in mind. At the beginning of 2018 we &lt;a href=&quot;https://youtu.be/H4yW20txnB0&quot;&gt;introduced&lt;/a&gt; a handful of new coins, and in early 2019 version 2.3 was released which added Litecoin and a new wallet which supports multiple coins per instance, which made it easier to integrate new coins moving forward.&lt;/p&gt;
-
-&lt;p&gt;Because of the original reliance on Bitcoin, it’s always been a requirement for any supported cryptocurrency to be architecturally similar to Bitcoin for it to work properly. All the coins supported are forks of Bitcoin, unless otherwise noted.&lt;/p&gt;
-
-&lt;p&gt;Another requirement is multisig. OpenBazaar uses multisig for moderated and offline payments (escrow), and coins must have this feature - or the ability to support escrow payments another way - to be supported.&lt;/p&gt;
-
-&lt;h3 id=&quot;bitcoin&quot;&gt;Bitcoin&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://bitcoin.org/en/&quot;&gt;Bitcoin&lt;/a&gt; is the original cryptocurrency. It is the most secure, with a large industry of miners devoting energy to securing the blockchain. It has the most users of any cryptocurrency, and is used for commerce more frequently.&lt;/p&gt;
-
-&lt;p&gt;Bitcoin was the only currency used in OpenBazaar from the beginning of the project in 2014 until early 2018. It is the most used cryptocurrency within the platform by a wide margin.&lt;/p&gt;
-
-&lt;h3 id=&quot;bitcoin-cash&quot;&gt;Bitcoin Cash&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.bitcoincash.org/&quot;&gt;Bitcoin Cash&lt;/a&gt; was forked from Bitcoin in August 2017. The creators of Bitcoin Cash disagreed with the development decisions of Bitcoin (particularly around scaling), and created new consensus rules. They focus on their cryptocurrency being usable for commerce on-chain.&lt;/p&gt;
-
-&lt;p&gt;OpenBazaar adopted Bitcoin Cash because adoption was technically simple due to its similarity to Bitcoin, and because community members were willing to offer support for the implementation.&lt;/p&gt;
-
-&lt;h3 id=&quot;litecoin&quot;&gt;Litecoin&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://litecoin.org/&quot;&gt;Litecoin&lt;/a&gt; was one of the earliest altcoins. It is very similar to Bitcoin in design, with a few differences such as having a quicker block generation time and different hash algorithm.&lt;/p&gt;
-
-&lt;p&gt;As one of the oldest altcoins it has well-established industry support, and a substantial community of users.&lt;/p&gt;
-
-&lt;p&gt;Just like Bitcoin Cash, OpenBazaar adopted Litecoin because adoption was technically simple due to its similarity to Bitcoin, and because community members were willing to offer support for the implementation.&lt;/p&gt;
-
-&lt;h3 id=&quot;zcash&quot;&gt;Zcash&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://z.cash/&quot;&gt;Zcash&lt;/a&gt; is a cryptocurrency that focuses on privacy. It was forked from Bitcoin, but adds the ability to do “shielded transactions” using zk-SNARKs, which aren’t traceable on the blockchain like typical Bitcoin transactions.&lt;/p&gt;
-
-&lt;p&gt;Within OpenBazaar at the moment, shielded transactions using Zcash aren’t possible, and only transparent transactions (which aren’t private) are possible. At some point we hope to change that.&lt;/p&gt;
-
-&lt;p&gt;As with the other currencies mentioned,  OpenBazaar adopted Zcash because adoption was technically simple due to its similarity to Bitcoin, and because community members were willing to offer support for the implementation.&lt;/p&gt;
-
-&lt;h2 id=&quot;other-cryptocurrencies&quot;&gt;Other cryptocurrencies&lt;/h2&gt;
-&lt;p&gt;Ethereum support is being actively developed now.&lt;/p&gt;
-
-&lt;p&gt;Some ERC-20 tokens will also be supported after Ethereum support is added.&lt;/p&gt;
-
-&lt;p&gt;There is discussion about Monero support, but because of Monero’s multisig design it might only allow direct transactions, not escrowed.&lt;/p&gt;
-
-&lt;p&gt;This post will be updated when new coins are supported, or when new development is occurring.&lt;/p&gt;</content><author><name></name></author><summary type="html">The decentralized marketplace OpenBazaar supports several different cryptocurrencies for buying and selling goods and services between users. This post explains which currencies, and why were they chosen.</summary></entry></feed>
+&lt;p&gt;Moving from centralized systems we are displeased with is a process that will take some time and the ability to make small advances through that process is imperative. Building decentralized apps that also interface with centralized apps that people are used to using right now is important to help them better match their desires for the future with their present reality.&lt;/p&gt;</content><author><name></name></author><summary type="html">The shift to peer-to-peer online commerce won’t happen overnight. Until this technology becomes widespread, we need tools that help the transition go more smoothly.</summary></entry></feed>
