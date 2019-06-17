@@ -1,4 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2019-06-12T22:19:56+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">OpenBazaar Developer Call - May 16, 2019</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-May-16-2019/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - May 16, 2019" /><published>2019-05-17T14:30:00+00:00</published><updated>2019-05-17T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-May-16-2019</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-May-16-2019/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on May 16, 2019.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2019-06-17T21:56:51+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">OpenBazaar Developer Call - June 13, 2019</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-June-13-2019/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - June 13, 2019" /><published>2019-06-17T14:30:00+00:00</published><updated>2019-06-17T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-June-13-2019</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-June-13-2019/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on June 13, 2019.&lt;/p&gt;
+
+&lt;p&gt;Want to join the call in real time? Sign up at &lt;a href=&quot;https://openbazaar.org/developers&quot;&gt;openbazaar.org/developers&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Join our ongoing conversations on &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Browse OpenBazaar now at &lt;a href=&quot;https://openbazaar.com&quot;&gt;openbazaar.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;embed-responsive embed-responsive-16by9 mb-5&quot;&gt;
+    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/Fd3flKEmtsw&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Chat log:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;[09:57] Jenn_OB1: Hello everyone!&lt;/p&gt;
+
+&lt;p&gt;[10:11] Rod: Can you speak a little bit about the relay servers?&lt;/p&gt;
+
+&lt;p&gt;[10:14] Rod: Gotcha, will that code be OS’d?&lt;/p&gt;
+
+&lt;p&gt;[10:15] Rod: 👍&lt;/p&gt;
+
+&lt;p&gt;[10:16] JoshJ: &lt;a href=&quot;https://gethaven.app&quot;&gt;gethaven.app&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:17] Rastislav: Multiplatform app? Open source?&lt;/p&gt;
+
+&lt;p&gt;[10:18] 🌪 mg (ob1): Yes, iOS and Android has been developed.&lt;/p&gt;
+
+&lt;p&gt;[10:19] Rastislav: Thanks&lt;/p&gt;
+
+&lt;p&gt;[10:21] Rod: Thanks Josh for leading it&lt;/p&gt;
+
+&lt;p&gt;[10:21] BeautyBubble: Thank you so much.&lt;/p&gt;
+
+&lt;p&gt;[10:21] Jenn_OB1: Thanks everyone &amp;amp; Josh for hosting!&lt;/p&gt;
+
+&lt;p&gt;[10:21] Rastislav: Can you probably say something more about ETH?&lt;/p&gt;
+
+&lt;p&gt;[10:22] Rastislav: Sorry guys&lt;/p&gt;
+
+&lt;p&gt;[10:22] Rastislav: :)&lt;/p&gt;
+
+&lt;p&gt;[10:22] Rastislav: Thanks, I will check…&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on June 13, 2019.</summary></entry><entry><title type="html">OpenBazaar Developer Call - May 16, 2019</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-May-16-2019/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - May 16, 2019" /><published>2019-05-17T14:30:00+00:00</published><updated>2019-05-17T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-May-16-2019</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-May-16-2019/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on May 16, 2019.&lt;/p&gt;
 
 &lt;p&gt;Want to join the call in real time? Sign up at &lt;a href=&quot;https://openbazaar.org/developers&quot;&gt;openbazaar.org/developers&lt;/a&gt;&lt;/p&gt;
 
@@ -729,48 +771,4 @@ Check out these other posts that will help you get started:&lt;/p&gt;
 
 &lt;p&gt;[10:47] chris.troutner: Thanks!&lt;/p&gt;
 
-&lt;p&gt;[10:48] Anup: Cheers guys&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on February 14, 2019.</summary></entry><entry><title type="html">How To Market Your Store and Listings on OpenBazaar</title><link href="https://openbazaar.org/blog/how-to-market-your-store-and-listings-on-openbazaar/" rel="alternate" type="text/html" title="How To &lt;span class='post-title-extra'&gt;Market Your Store and Listings&lt;/span&gt; on OpenBazaar" /><published>2019-02-15T14:30:00+00:00</published><updated>2019-02-15T14:30:00+00:00</updated><id>https://openbazaar.org/blog/how-to-market-your-store-and-listings-on-openbazaar</id><content type="html" xml:base="https://openbazaar.org/blog/how-to-market-your-store-and-listings-on-openbazaar/">&lt;p&gt;The shift to peer-to-peer online commerce won’t happen overnight. Until this technology becomes widespread, we need tools that help the transition go more smoothly.&lt;/p&gt;
-
-&lt;p&gt;Some of the earliest feedback we heard from ecommerce sellers who were interested in OpenBazaar was that they wanted a way to easily share their store and listings on their social networks. To answer this we built &lt;a href=&quot;https://openbazaar.com&quot;&gt;OpenBazaar.com&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h4 id=&quot;a-regular-website-to-look-into-a-decentralized-network&quot;&gt;A regular website to look into a decentralized network&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://openbazaar.org/download&quot;&gt;OpenBazaar&lt;/a&gt; is an application that users have to download and run on their own computers to connect to and participate in the network. It is built this way to make the decentralization of the network possible. While the tech isn’t available for a full OpenBazaar buying &amp;amp; selling experience in a browser yet, that doesn’t mean there can’t be just a simple website that looks into the marketplace.&lt;/p&gt;
-
-&lt;p&gt;That solved the simplest part of the problem: sellers wanted to share their links easily and potential buyers—who may or may not know about OpenBazaar yet—wanted to view them in a predictable way.&lt;/p&gt;
-
-&lt;p&gt;We launched &lt;a href=&quot;https://openbazaar.com&quot;&gt;OpenBazaar.com&lt;/a&gt; in the middle of last year and it’s been a hit. Traffic to the site is growing &lt;strong&gt;around 40% month over month&lt;/strong&gt;. This shows us that users are interested in decentralized applications that uphold some core values, but that are also accessible wherever they may be in their technological adventures.&lt;/p&gt;
-
-&lt;h4 id=&quot;sharing-store--listings-from-within-openbazaar&quot;&gt;Sharing store &amp;amp; listings from within OpenBazaar&lt;/h4&gt;
-
-&lt;p&gt;People who want to share stores and listings easily on the web can grab their links from OpenBazaar.com several ways:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;By clicking the green “View on Web” link in the address bar within their OpenBazaar client:&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;img src=&quot;openbazaar_view_on_web_link.png&quot; alt=&quot;OpenBazaar View on Web Link&quot; title=&quot;OpenBazaar View on Web Link&quot; /&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;By copying the store ID and pasting it on the end of https://openbazaar.com/store/ like this:&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;img src=&quot;openbazaar_peerid_selected.png&quot; alt=&quot;OpenBazaar PeerID Selected&quot; title=&quot;OpenBazaar PeerID Selected&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://openbazaar.com/store/QmcUDmZK8PsPYWw5FRHKNZFjszm2K6e68BQSTpnJYUsML7&quot;&gt;https://openbazaar.com/store/QmcUDmZK8PsPYWw5FRHKNZFjszm2K6e68BQSTpnJYUsML7&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;sharing-store--listings-from-openbazaarcom&quot;&gt;Sharing store &amp;amp; listings from OpenBazaar.com&lt;/h4&gt;
-
-&lt;p&gt;On OpenBazaar.com there are additional features including these social share buttons:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;openbazaar_store_widget_builder_link.png&quot; alt=&quot;OpenBazaar Widget Builder Link and Social Share Buttons&quot; title=&quot;OpenBazaar Widget Builder Link and Social Share Buttons&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;There is also &lt;a href=&quot;https://openbazaar.com/widget&quot;&gt;the widget&lt;/a&gt; for sellers who have websites where they want to showcase their OpenBazaar store. Simply copy the code and add it to your site wherever you can post an embed or add HTML.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;openbazaar_store_widget_builder.png&quot; alt=&quot;OpenBazaar Store Widget Builder&quot; title=&quot;OpenBazaar Store Widget Builder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We are working to build a fully decentralized marketplace and social experience to promote privacy and autonomy for users around the world. It’s clear to us, though, that the road to full decentralization is made up of multiple decentralized steps rather than a complete jump.&lt;/p&gt;
-
-&lt;p&gt;Moving from centralized systems we are displeased with is a process that will take some time and the ability to make small advances through that process is imperative. Building decentralized apps that also interface with centralized apps that people are used to using right now is important to help them better match their desires for the future with their present reality.&lt;/p&gt;</content><author><name></name></author><summary type="html">The shift to peer-to-peer online commerce won’t happen overnight. Until this technology becomes widespread, we need tools that help the transition go more smoothly.</summary></entry></feed>
+&lt;p&gt;[10:48] Anup: Cheers guys&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on February 14, 2019.</summary></entry></feed>
