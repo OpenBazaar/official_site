@@ -1,4 +1,150 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2019-07-01T20:07:35+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">OpenBazaar Developer Call - June 13, 2019</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-June-13-2019/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - June 13, 2019" /><published>2019-06-17T14:30:00+00:00</published><updated>2019-06-17T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-June-13-2019</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-June-13-2019/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on June 13, 2019.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2019-07-12T21:36:00+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">OpenBazaar Developer Call - July 11, 2019</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-July-11-2019/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - July 11, 2019" /><published>2019-07-12T14:30:00+00:00</published><updated>2019-07-12T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-July-11-2019</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-July-11-2019/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on July 11, 2019.&lt;/p&gt;
+
+&lt;p&gt;Want to join the call in real time? Sign up at &lt;a href=&quot;https://openbazaar.org/developers&quot;&gt;openbazaar.org/developers&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Join our ongoing conversations on &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Browse OpenBazaar now at &lt;a href=&quot;https://openbazaar.com&quot;&gt;openbazaar.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;embed-responsive embed-responsive-16by9 mb-5&quot;&gt;
+    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/4VuK3OCt5Sw&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Chat log:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;[09:46] Jenn_OB1: Testing chat, can everyone see this? Hello!&lt;/p&gt;
+
+&lt;p&gt;[09:46] 🌪 mg (ob1): :waves:&lt;/p&gt;
+
+&lt;p&gt;[09:46] Sam - OB1: +1&lt;/p&gt;
+
+&lt;p&gt;[09:49] 🌪 mg (ob1): It’s for the best.&lt;/p&gt;
+
+&lt;p&gt;[09:49] joshj: 10 minutes to the call.&lt;/p&gt;
+
+&lt;p&gt;[09:52] Sam - OB1: We should have a list of 6 subjects to discuss during pre-meeting and roll a d6 to determine which we discuss.&lt;/p&gt;
+
+&lt;p&gt;[09:53] joshj: 6 Needs to be DM Special, or Roll on Table A. #nerdlife&lt;/p&gt;
+
+&lt;p&gt;[09:53] Jenn_OB1: 🤣🤣🤣&lt;/p&gt;
+
+&lt;p&gt;[09:53] 🌪 mg (ob1): I’m sure we could rig up a random die roll in the chat to facilitate that. (Reminds me of Skype’s glory days.)&lt;/p&gt;
+
+&lt;p&gt;[09:54] joshj: We’re pivoting to a decentralized rpg, surprise!&lt;/p&gt;
+
+&lt;p&gt;[09:54] joshj: 6 minutes to call.&lt;/p&gt;
+
+&lt;p&gt;[09:55] 🌪 mg (ob1): 🎶The Final Countdown… 🎸&lt;/p&gt;
+
+&lt;p&gt;[09:56] 🌪 mg (ob1): null&lt;/p&gt;
+
+&lt;p&gt;[09:56] Sam - OB1: I’ve thought seriously about implementing a game into OB. Depending on the complexity of the game it’s not that hard to use the ricardian contract structure to swap moves back and forth, like a correspondence chess game.&lt;/p&gt;
+
+&lt;p&gt;[09:57] Sam - OB1: But I never pitched it because, well, there’s like 1,000 things more important to get working first :)&lt;/p&gt;
+
+&lt;p&gt;[09:58] Alexander Elbanna: Great application, its amazing btw&lt;/p&gt;
+
+&lt;p&gt;[09:58] joshj: thanks!&lt;/p&gt;
+
+&lt;p&gt;[09:59] Alexander Elbanna: We are from Digital World Exchange and I have been trying to do something for a year and you guys make it look so easy&lt;/p&gt;
+
+&lt;p&gt;[09:59] Alexander Elbanna: It is a very nice project I hope we can become a part of it&lt;/p&gt;
+
+&lt;p&gt;[09:59] Sam - OB1: Great to hear!&lt;/p&gt;
+
+&lt;p&gt;[10:00] chris.troutner: Good turn-out today.&lt;/p&gt;
+
+&lt;p&gt;[10:00] Jenn_OB1: recording!&lt;/p&gt;
+
+&lt;p&gt;[10:01] Jenn_OB1: Hello!&lt;/p&gt;
+
+&lt;p&gt;[10:01] 🌪 mg (ob1): Thanks for the kind words, Alex. We’re very open to collaborations. Feel free to reach out with any ideas you have.&lt;/p&gt;
+
+&lt;p&gt;[10:02] Jenn_OB1: I’m recording so doing a brief intro here! I’m Jenn Cloud, Marketing &amp;amp; Communications Lead for OB1&lt;/p&gt;
+
+&lt;p&gt;[10:02] Alexander Elbanna: Are we allowed to talk?&lt;/p&gt;
+
+&lt;p&gt;[10:03] Jenn_OB1: We will open it up for discussion after we do updates!&lt;/p&gt;
+
+&lt;p&gt;[10:03] Alexander Elbanna: perfect&lt;/p&gt;
+
+&lt;p&gt;[10:03] Sam - OB1: Releases: &lt;a href=&quot;https://github.com/OpenBazaar/openbazaar-desktop/releases&quot;&gt;https://github.com/OpenBazaar/openbazaar-desktop/releases&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:03] joshj: &lt;a href=&quot;https://github.com/OpenBazaar/openbazaar-desktop/releases/tag/v2.3.4-rc3&quot;&gt;https://github.com/OpenBazaar/openbazaar-desktop/releases/tag/v2.3.4-rc3&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:04] Sam - OB1: Where to find your data folder (to backup):&lt;/p&gt;
+
+&lt;p&gt;[10:04] 🌪 mg (ob1): Alex, feel free to chat in here during the talk. I’m monitoring and responding in chat. :)&lt;/p&gt;
+
+&lt;p&gt;[10:05] 🌪 mg (ob1): Voice questions/comments will be available at the end of the call.&lt;/p&gt;
+
+&lt;p&gt;[10:09] Sam - OB1: Analysis of Monero implementation in OB: &lt;a href=&quot;https://brunner7.github.io/openbazaar&quot;&gt;https://brunner7.github.io/openbazaar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:09] 🌪 mg (ob1): &lt;a href=&quot;https://github.com/OpenBazaar/openbazaar-go/issues/1638&quot;&gt;https://github.com/OpenBazaar/openbazaar-go/issues/1638&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:10] 🌪 mg (ob1): Monero Proof of Concept integration ^^&lt;/p&gt;
+
+&lt;p&gt;[10:11] 🌪 mg (ob1): IPFS Camp: &lt;a href=&quot;https://blog.ipfs.io/2019-07-08-ipfs-camp-recap/&quot;&gt;https://blog.ipfs.io/2019-07-08-ipfs-camp-recap/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:17] Jim: Listings load really really fast, but vendors still take a long time to load, is there work being done to improve this?&lt;/p&gt;
+
+&lt;p&gt;[10:17] pinheadmz: worried about privacy with blockbooth&lt;/p&gt;
+
+&lt;p&gt;[10:17] pinheadmz: i noticed in the logs ALL my addresses are sent ot server&lt;/p&gt;
+
+&lt;p&gt;[10:17] pinheadmz: not a bloom filter, etc&lt;/p&gt;
+
+&lt;p&gt;[10:18] pinheadmz: would love to connect to BTC full node locally …?&lt;/p&gt;
+
+&lt;p&gt;[10:18] Alexander Elbanna: I would like toI will wait my turn&lt;/p&gt;
+
+&lt;p&gt;[10:18] Alexander Elbanna: just let me know when&lt;/p&gt;
+
+&lt;p&gt;[10:19] Jim: Cool, thank you for the updates&lt;/p&gt;
+
+&lt;p&gt;[10:22] Impartial Moderation: Hi. Sorry late to the game :-)&lt;/p&gt;
+
+&lt;p&gt;[10:22] pinheadmz: API -&amp;gt; SPV, awesome tnx&lt;/p&gt;
+
+&lt;p&gt;[10:24] rod: Mind if I give a quick Zokos.com update after Alexander?&lt;/p&gt;
+
+&lt;p&gt;[10:24] Sam - OB1: Please do&lt;/p&gt;
+
+&lt;p&gt;[10:24] joshj: Sounds good.&lt;/p&gt;
+
+&lt;p&gt;[10:34] Alexander Elbanna: (build process for coin daemon given)&lt;/p&gt;
+
+&lt;p&gt;[10:36] Alexander Elbanna: &lt;a href=&quot;https://mercatox.com&quot;&gt;https://mercatox.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:36] Alexander Elbanna: &lt;a href=&quot;https://www.dobiexchange.com&quot;&gt;https://www.dobiexchange.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:37] Alexander Elbanna: &lt;a href=&quot;https://mercatox.com/exchange/DWE/BTC&quot;&gt;https://mercatox.com/exchange/DWE/BTC&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[10:38] Alexander Elbanna: (email address given)&lt;/p&gt;
+
+&lt;p&gt;[10:40] Impartial Moderation: Rod, very cool! Importing to Zokos. That’s awesome.&lt;/p&gt;
+
+&lt;p&gt;[10:40] rod: Thanks for the support :)&lt;/p&gt;
+
+&lt;p&gt;[10:40] Mike: We’d love to accept a pull request for your import code. Love to hear your progress! :D &amp;lt;3&lt;/p&gt;
+
+&lt;p&gt;[10:41] Mike: (Seriously, great progress report! Glad to hear you’re doing well!)&lt;/p&gt;
+
+&lt;p&gt;[10:41] BazzarBaby: when will Haven open for iOS?&lt;/p&gt;
+
+&lt;p&gt;[10:41] joshj: Soon.&lt;/p&gt;
+
+&lt;p&gt;[10:42] BazzarBaby: +1 thanks&lt;/p&gt;
+
+&lt;p&gt;[10:44] Mike: &amp;lt;3&lt;/p&gt;
+
+&lt;p&gt;[10:44] Impartial Moderation: :-)&lt;/p&gt;
+
+&lt;p&gt;[10:45] rod: Thanks for hosting the call&lt;/p&gt;
+
+&lt;p&gt;[10:45] Jenn_OB1: Thanks everyone! Have a great day!&lt;/p&gt;
+
+&lt;p&gt;[10:45] fcl1892: thanks&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on July 11, 2019.</summary></entry><entry><title type="html">OpenBazaar Developer Call - June 13, 2019</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-June-13-2019/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - June 13, 2019" /><published>2019-06-17T14:30:00+00:00</published><updated>2019-06-17T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-June-13-2019</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-June-13-2019/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on June 13, 2019.&lt;/p&gt;
 
 &lt;p&gt;Want to join the call in real time? Sign up at &lt;a href=&quot;https://openbazaar.org/developers&quot;&gt;openbazaar.org/developers&lt;/a&gt;&lt;/p&gt;
 
@@ -683,92 +829,4 @@ Check out these other posts that will help you get started:&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://openbazaar.org/blog/The-Beginners-Guide-to-Buying-Goods-Services-and-Cryptocurrency-on-OpenBazaar/&quot;&gt;The Beginner’s Guide to Buying Goods, Services and Cryptocurrency on OpenBazaar&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://openbazaar.org/blog/3-things-that-make-it-really-easy-to-shop-on-openbazaar/&quot;&gt;3 Things That Make It Really Easy to Shop on OpenBazaar&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Shopping online is pretty excellent, right? It’s really one of the most powerful features of the internet today. How great is it that we can connect to businesses around the world from just about anywhere we are and have things delivered right to us?</summary></entry><entry><title type="html">OpenBazaar Developer Call - February 14, 2019</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-February-14-2019/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - February 14, 2019" /><published>2019-02-19T14:30:00+00:00</published><updated>2019-02-19T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-February-14-2019</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-February-14-2019/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on February 14, 2019.&lt;/p&gt;
-
-&lt;p&gt;Want to join the call in real time? Sign up at &lt;a href=&quot;https://openbazaar.org/developers&quot;&gt;openbazaar.org/developers&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Join our ongoing conversations on &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Browse OpenBazaar now at &lt;a href=&quot;https://openbazaar.com&quot;&gt;openbazaar.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;div class=&quot;embed-responsive embed-responsive-16by9 mb-5&quot;&gt;
-    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/NjsqD1EO1Pg&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Chat log:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;[10:16] chris.troutner: I’ve been using the &lt;a href=&quot;https://github.com/OpenBazaar/openbazaar-desktop/releases/tag/v2.3.0&quot;&gt;v2.3 release&lt;/a&gt; to do cryptocurrency trades. Haven’t run into any issues, but my server is running on DO, so always ‘online’.&lt;/p&gt;
-
-&lt;p&gt;[10:17] mg (OB1): Appreciation to all of you who came out to visit at the conference!&lt;/p&gt;
-
-&lt;p&gt;[10:18] chris.troutner: Can you guys also expand on the differences between &lt;a href=&quot;https://gethaven.app&quot;&gt;Haven&lt;/a&gt; and &lt;a href=&quot;https://openbazaar.org&quot;&gt;OB&lt;/a&gt;? I’m a little unclear on that.&lt;/p&gt;
-
-&lt;p&gt;[10:20] chris.troutner: Very cool. Love the explanation of the &lt;a href=&quot;https://ipfs.io&quot;&gt;IPFS&lt;/a&gt; vs IPNS calls.&lt;/p&gt;
-
-&lt;p&gt;[10:20] Rod: Have the recent IPFS updates helped at all with how long IPNS calls take?&lt;/p&gt;
-
-&lt;p&gt;[10:22] Rod: Got it, thanks&lt;/p&gt;
-
-&lt;p&gt;[10:25] chris.troutner: Makes sense. Thanks. Helps to define the scope between the two projects.&lt;/p&gt;
-
-&lt;p&gt;[10:27] chris.troutner: Thanks, Mike!&lt;/p&gt;
-
-&lt;p&gt;[10:28] Jlong: Talk about the purchase flow and whther OB is willing to change the default to verified mods&lt;/p&gt;
-
-&lt;p&gt;[10:32] Jlong: Cannot the store provide obids?&lt;/p&gt;
-
-&lt;p&gt;[10:32] flavoraid: Plans for allowing geographic search?  For example, if I’m looking for a plumber, I’m probably only interested in plumbers located within in 20 miles of my residence.&lt;/p&gt;
-
-&lt;p&gt;[10:34] ligi: what is the plan for the ethereum support public rollout?&lt;/p&gt;
-
-&lt;p&gt;[10:35] ligi: would so much love to use OB with DAI&lt;/p&gt;
-
-&lt;p&gt;[10:35] Jlong: This can apply mainly to Haven&lt;/p&gt;
-
-&lt;p&gt;[10:35] Jlong: Cool&lt;/p&gt;
-
-&lt;p&gt;[10:36] flavoraid: Also, I might only want someone who is licensed and bonded.  It would be handy if that were a checkbox, so that plumbers could display their license and bonding status on their profile, and select for it.&lt;/p&gt;
-
-&lt;p&gt;[10:37] mg (OB1): Someone was chasing this in the public chat semi-recently.&lt;/p&gt;
-
-&lt;p&gt;[10:37] mg (OB1): (location-association with a store)&lt;/p&gt;
-
-&lt;p&gt;[10:38] flavoraid: Thanks for the response re: location based search.&lt;/p&gt;
-
-&lt;p&gt;[10:40] flavoraid: Maybe Google Plus codes could be used for internal location search (no api call): &lt;a href=&quot;https://en.wikipedia.org/wiki/Open_Location_Code&quot;&gt;https://en.wikipedia.org/wiki/Open_Location_Code&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;[10:40] ligi: thanks for the info regarding ethereum!&lt;/p&gt;
-
-&lt;p&gt;[10:40] ligi: looking forward to it&lt;/p&gt;
-
-&lt;p&gt;[10:40] mg (OB1): If Google doesn’t discontinue the service from underneath us 2 years from now when they decide it’s not worth supporting anymore. (no thanks)&lt;/p&gt;
-
-&lt;p&gt;[10:41] flavoraid: “Locations close to each other have similar codes. They can be encoded or decoded offline.”&lt;/p&gt;
-
-&lt;p&gt;[10:41] flavoraid: Plus codes are open source.&lt;/p&gt;
-
-&lt;p&gt;[10:41] mg (OB1): That’s a good point.&lt;/p&gt;
-
-&lt;p&gt;[10:42] Rod: I’m making an announcement for my project I’ve been working on for a few months this week&lt;/p&gt;
-
-&lt;p&gt;[10:42] flavoraid: News re: Monero integration?&lt;/p&gt;
-
-&lt;p&gt;[10:42] Rod: &lt;a href=&quot;https://zokos.com&quot;&gt;https://zokos.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;[10:43] mg (OB1): flavoraid: Check out the latest MoneroTalk podcast. They interviewed Brian about that just this last weekend. :)&lt;/p&gt;
-
-&lt;p&gt;[10:44] flavoraid: Thanks for the pointer!&lt;/p&gt;
-
-&lt;p&gt;[10:45] Rod: Thanks Sam :)&lt;/p&gt;
-
-&lt;p&gt;[10:45] mg (OB1): MoneroTalk podcast w OpenBazaar Devs:&lt;/p&gt;
-
-&lt;p&gt;[10:46] flavoraid: OB hosting services?&lt;/p&gt;
-
-&lt;p&gt;[10:46] flavoraid: That y’all would especially like to support?&lt;/p&gt;
-
-&lt;p&gt;[10:47] flavoraid: Thanks, y’all!&lt;/p&gt;
-
-&lt;p&gt;[10:47] chris.troutner: Thanks!&lt;/p&gt;
-
-&lt;p&gt;[10:48] Anup: Cheers guys&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on February 14, 2019.</summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;https://openbazaar.org/blog/3-things-that-make-it-really-easy-to-shop-on-openbazaar/&quot;&gt;3 Things That Make It Really Easy to Shop on OpenBazaar&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Shopping online is pretty excellent, right? It’s really one of the most powerful features of the internet today. How great is it that we can connect to businesses around the world from just about anywhere we are and have things delivered right to us?</summary></entry></feed>
