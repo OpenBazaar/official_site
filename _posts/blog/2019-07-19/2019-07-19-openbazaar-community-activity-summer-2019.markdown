@@ -6,9 +6,6 @@ social_title: 'OpenBazaar Community Activity - Summer 2019'
 social_description: 'Many crypto projects are taking deeper root now and putting out more practical and easy to use applications that allow people to do more with the coins they love. They’re making exciting strides getting the power of decentralized networks into people’s hands.'
 ---
 
-This year has been an exciting time in the cryptocurrency space. Many projects are taking deeper root and putting out more practical and easy to use applications that enable people to do more with the coins they love. They’re making exciting strides getting the power of (notoriously hard-to-use!) decentralized networks into people’s hands. The OpenBazaar community has seen a surge of great activity lately too doing just the same! 
-
-
 This year has been an exciting time in the cryptocurrency space. Many projects are taking deeper root and putting out applications that are more practical and easy to use to enable people to do more with the coins they love. They’re making exciting strides getting the power of (notoriously hard-to-use!) decentralized networks into people’s hands. The OpenBazaar community has seen a surge of great activity lately too doing just the same! 
 
 **Here are some of the biggest things going on in the OpenBazaar community this summer:**
