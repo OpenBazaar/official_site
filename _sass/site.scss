@@ -262,8 +262,28 @@ hr.title-separator {
 
 .button-subtitle {
   @extend %primary-text;
-  font-size: 0.8125em;
-  margin-top: 2px;
+  margin-top: 20px;
+  font-style: italic;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.havenBtn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  padding: 0 46px;
+  border: none;
+  border-radius: 28px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #f97016;
+
+  &:visited, &:hover, &:active {
+    color: #fff;
+  }
 }
 
 img.big-centered-image {
