@@ -262,6 +262,12 @@ hr.title-separator {
 
 .button-subtitle {
   @extend %primary-text;
+  font-size: 0.8125em;
+  margin-top: 2px;
+}
+
+.button-subtitleMobilePage {
+  @extend %primary-text;
   margin-top: 20px;
   font-style: italic;
   padding: 0 20px;
