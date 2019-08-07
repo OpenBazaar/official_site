@@ -266,6 +266,33 @@ hr.title-separator {
   margin-top: 2px;
 }
 
+.button-subtitleMobilePage {
+  @extend %primary-text;
+  margin-top: 20px;
+  font-style: italic;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.havenBtn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  padding: 0 46px;
+  margin: 20px 0 10px 0;
+  border: none;
+  border-radius: 28px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #0cc16b;
+
+  &:visited, &:hover, &:active {
+    color: #fff;
+  }
+}
+
 img.big-centered-image {
   width: 100%;
   max-width: 850px;
