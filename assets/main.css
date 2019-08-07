@@ -6780,7 +6780,7 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
-.navbar, h3, .button-subtitle {
+.navbar, h3, .button-subtitle, .button-subtitleMobilePage {
   color: #9a9a9a; }
 
 .emphasis-text, h1.title, h2.title, .event-group-title {
@@ -6991,6 +6991,28 @@ hr.title-separator {
 .button-subtitle {
   font-size: 0.8125em;
   margin-top: 2px; }
+
+.button-subtitleMobilePage {
+  margin-top: 20px;
+  font-style: italic;
+  padding: 0 20px;
+  text-align: center; }
+
+.havenBtn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  padding: 0 46px;
+  margin: 20px 0 10px 0;
+  border: none;
+  border-radius: 28px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #0cc16b; }
+  .havenBtn:visited, .havenBtn:hover, .havenBtn:active {
+    color: #fff; }
 
 img.big-centered-image {
   width: 100%;
