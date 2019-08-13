@@ -1,4 +1,58 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2019-08-12T18:18:21+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">OpenBazaar Community Activity - Summer 2019</title><link href="https://openbazaar.org/blog/openbazaar-community-activity-summer-2019/" rel="alternate" type="text/html" title="OpenBazaar Community Activity - &lt;span class='post-title-extra'&gt;Summer 2019&lt;/span&gt;" /><published>2019-07-19T14:30:00+00:00</published><updated>2019-07-19T14:30:00+00:00</updated><id>https://openbazaar.org/blog/openbazaar-community-activity-summer-2019</id><content type="html" xml:base="https://openbazaar.org/blog/openbazaar-community-activity-summer-2019/">&lt;p&gt;This year has been an exciting time in the cryptocurrency space. Many projects are taking deeper root and putting out applications that are more practical and easy to use to enable people to do more with the coins they love. They’re making exciting strides getting the power of (notoriously hard-to-use!) decentralized networks into people’s hands. The OpenBazaar community has seen a surge of great activity lately too doing just the same!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://openbazaar.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openbazaar.org/" rel="alternate" type="text/html" /><updated>2019-08-13T20:29:37+00:00</updated><id>https://openbazaar.org/feed.xml</id><title type="html">OpenBazaar</title><entry><title type="html">OpenBazaar Developer Call - August 8, 2019</title><link href="https://openbazaar.org/blog/OpenBazaar-Developer-Call-Aug-8-2019/" rel="alternate" type="text/html" title="OpenBazaar Developer Call - August 8, 2019" /><published>2019-08-13T14:30:00+00:00</published><updated>2019-08-13T14:30:00+00:00</updated><id>https://openbazaar.org/blog/OpenBazaar-Developer-Call-Aug-8-2019</id><content type="html" xml:base="https://openbazaar.org/blog/OpenBazaar-Developer-Call-Aug-8-2019/">&lt;p&gt;This is a video recording of the OpenBazaar Developer call on August 8, 2019.&lt;/p&gt;
+
+&lt;p&gt;Want to join the call in real time? Sign up at &lt;a href=&quot;https://openbazaar.org/developers&quot;&gt;openbazaar.org/developers&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Join our ongoing conversations on &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Browse OpenBazaar now at &lt;a href=&quot;https://openbazaar.com&quot;&gt;openbazaar.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;embed-responsive embed-responsive-16by9 mb-5&quot;&gt;
+    &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/u6o52tJ2Rp4&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Chat log:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;[09:59] Sam - OB1: We’ll be starting a few minutes later than usual today to help people find the correct link to join (oops!).&lt;/p&gt;
+
+&lt;p&gt;[10:02] CryptoShoppe: switched web browsers so my mic works now.&lt;/p&gt;
+
+&lt;p&gt;[10:14] rod: Will/can there ever be a public list of IPNS key/values from OB1?&lt;/p&gt;
+
+&lt;p&gt;[10:15] Impartial Moderation: I recently updated to 2.3.4. Wondered why I wasn’t continuing to get that flood of new users :-)&lt;/p&gt;
+
+&lt;p&gt;[10:15] 🌪 mg (ob1): You’re welcome. ;)&lt;/p&gt;
+
+&lt;p&gt;[10:15] 🌪 mg (ob1): You’re welcome?&lt;/p&gt;
+
+&lt;p&gt;[10:15] Impartial Moderation: Yes!&lt;/p&gt;
+
+&lt;p&gt;[10:15] 🌪 mg (ob1): !&lt;/p&gt;
+
+&lt;p&gt;[10:16] 🌪 mg (ob1): Rod, I think that’s very doable. I’ll share the suggestion.&lt;/p&gt;
+
+&lt;p&gt;[10:17] rod: Something like all IPNS keys + their records. I am going to do a full rewrite of RawFlood and it would be amazing to be able to not have to individually resolve every IPNS record (or at least most of them)&lt;/p&gt;
+
+&lt;p&gt;[10:17] rod: Sweet, thanks Mike&lt;/p&gt;
+
+&lt;p&gt;[10:22] 🌪 mg (ob1): It would be nice to see the IPNS ingestion work become part of the formal search spec, so that the search provider that has been opted-into will begin to receive that node’s IPNS updates as part of the publish… it doesn’t quite handle the part of the network who hasn’t opted-into the provider.&lt;/p&gt;
+
+&lt;p&gt;[10:23] Impartial Moderation: OB web implementation… will it work like a normal node? Buyers only?&lt;/p&gt;
+
+&lt;p&gt;[10:24] rod: @mg If there is a formal spec that’s eventually written up, I would be happy to integrate it&lt;/p&gt;
+
+&lt;p&gt;[10:25] Impartial Moderation: Thanks all :-)&lt;/p&gt;
+
+&lt;p&gt;[10:25] 🌪 mg (ob1): Unsure if this will be part of  the existing search provider spec or a separate one. Please follow up later. :)&lt;/p&gt;
+
+&lt;p&gt;[10:25] rod: Will do&lt;/p&gt;
+
+&lt;p&gt;[10:37] Leonardo José: Ty&lt;/p&gt;
+
+&lt;p&gt;[10:37] rod: Thanks Sam&lt;/p&gt;
+
+&lt;p&gt;[10:37] Impartial Moderation: Have a nice day all :-)&lt;/p&gt;
+
+&lt;p&gt;[10:37] Sam - OB1: Thank you! Bye!&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on August 8, 2019.</summary></entry><entry><title type="html">OpenBazaar Community Activity - Summer 2019</title><link href="https://openbazaar.org/blog/openbazaar-community-activity-summer-2019/" rel="alternate" type="text/html" title="OpenBazaar Community Activity - &lt;span class='post-title-extra'&gt;Summer 2019&lt;/span&gt;" /><published>2019-07-19T14:30:00+00:00</published><updated>2019-07-19T14:30:00+00:00</updated><id>https://openbazaar.org/blog/openbazaar-community-activity-summer-2019</id><content type="html" xml:base="https://openbazaar.org/blog/openbazaar-community-activity-summer-2019/">&lt;p&gt;This year has been an exciting time in the cryptocurrency space. Many projects are taking deeper root and putting out applications that are more practical and easy to use to enable people to do more with the coins they love. They’re making exciting strides getting the power of (notoriously hard-to-use!) decentralized networks into people’s hands. The OpenBazaar community has seen a surge of great activity lately too doing just the same!&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Here are some of the biggest things going on in the OpenBazaar community this summer:&lt;/strong&gt;&lt;/p&gt;
 
@@ -729,66 +783,4 @@ Check out these other posts that will help you get started:&lt;/p&gt;
 
 &lt;p&gt;[10:47] BeautyBubble: Okay, thank you guys.&lt;/p&gt;
 
-&lt;p&gt;[10:48] Sam - OB1: You’re welcome!&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on March 14, 2019.</summary></entry><entry><title type="html">How to Sell Digital Goods for Cryptocurrency on OpenBazaar</title><link href="https://openbazaar.org/blog/how-to-sell-digital-goods-for-cryptocurrency-on-openbazaar/" rel="alternate" type="text/html" title="How to &lt;span class='post-title-extra'&gt;Sell Digital Goods for Cryptocurrency&lt;/span&gt; on OpenBazaar" /><published>2019-03-14T14:30:00+00:00</published><updated>2019-03-14T14:30:00+00:00</updated><id>https://openbazaar.org/blog/how-to-sell-digital-goods-for-cryptocurrency-on-openbazaar</id><content type="html" xml:base="https://openbazaar.org/blog/how-to-sell-digital-goods-for-cryptocurrency-on-openbazaar/">&lt;p&gt;When you think about the world’s largest internet marketplaces, what kind of products do you picture? Maybe you get your coffee or toilet paper or other daily sundries from Amazon or Alibaba. Maybe you buy secondhand or hard-to-find collectible items on Ebay. Maybe you visit Etsy for thoughtful handmade gifts. These sites do have a focus on physical goods but that’s not all they can do.&lt;/p&gt;
-
-&lt;h5 id=&quot;this-may-blow-your-mind-so-proceed-with-caution&quot;&gt;This may blow your mind so proceed with caution.&lt;/h5&gt;
-
-&lt;p&gt;Where do you buy your ebooks? Okay, maybe still Amazon or similar… What about music and movies? Oh, now we’re starting to get a little weird. What about online courses? Digital access codes? Video game codes? Data bundles like fonts or photo editing presets?&lt;/p&gt;
-
-&lt;p&gt;Online marketplaces aren’t all about physical goods. Digital goods are just as sellable as physical goods and there are many places where many people buy and sell them around the web.&lt;/p&gt;
-
-&lt;p&gt;On OpenBazaar you can easily sell digital goods for cryptocurrency. Here’s how.&lt;/p&gt;
-
-&lt;h4 id=&quot;1-file-hosting&quot;&gt;1. File Hosting&lt;/h4&gt;
-
-&lt;p&gt;&lt;strong&gt;File hosting&lt;/strong&gt; and &lt;strong&gt;automatic delivery&lt;/strong&gt; within OpenBazaar is a features we plan to build in the future but they are still on ice at the moment. In the meantime, if you are selling things like game codes or gift cards, you will have to send them manually to your buyers when you receive a payment. If you are selling a file that users will need to download, you will need to host it somewhere.&lt;/p&gt;
-
-&lt;p&gt;We would love to recommend a decentralized file hosting solution but the most promising projects are still in an early release stage or pre-release. If you’d like to learn more about projects like &lt;a href=&quot;https://filecoin.io/&quot;&gt;Filecoin&lt;/a&gt;, &lt;a href=&quot;https://storj.io/&quot;&gt;Storj&lt;/a&gt; and &lt;a href=&quot;https://sia.tech/&quot;&gt;Sia&lt;/a&gt; you can do so &lt;a href=&quot;https://coingeek.com/p2p-decentralized-file-storage-dropbox-killer/&quot;&gt;here&lt;/a&gt; and &lt;a href=&quot;https://medium.com/bitfwd/what-is-decentralised-storage-ipfs-filecoin-sia-storj-swarm-5509e476995f&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;You can host files somewhere like your own external website or server, or by using a storage service like Dropbox or Google Drive. Dropbox Professional and Business plans are paid services but they allow you to set a password on files for an extra layer of security around who can access it.&lt;/p&gt;
-
-&lt;p&gt;When you receive a payment you can then share a link with your buyer that they can click to download their file. Or, if you want to keep it very simple and your file is small enough you can let buyers know that they need to provide an email address so you can email the file to them when their payment is confirmed.&lt;/p&gt;
-
-&lt;h4 id=&quot;2-create-your-listing&quot;&gt;2. Create Your Listing&lt;/h4&gt;
-
-&lt;p&gt;Now that you have a plan for hosting and sharing your digital product you can create a listing for it on OpenBazaar. Create a &lt;strong&gt;new listing&lt;/strong&gt; and under &lt;strong&gt;Type&lt;/strong&gt; select &lt;strong&gt;“Digital Good.”&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;create_digital_listing_on_openbazaar_2.gif&quot; alt=&quot;Create a Digital Listing on OpenBazaar&quot; title=&quot;Create a Digital Listing on OpenBazaar&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Give it a great &lt;strong&gt;title&lt;/strong&gt; and &lt;strong&gt;description&lt;/strong&gt; that relate to keywords people may use in search to find it easily. Make sure to also describe how you will send the file to users when they complete their purchase and let them if you need something from them such as an email address. It’s also helpful to include any instructions they may need for setting up or installing your file if it requires that.&lt;/p&gt;
-
-&lt;p&gt;Include at least 1 great &lt;strong&gt;image&lt;/strong&gt; that describes your item such as a book jacket mockup for an ebook or the cover art for a music album.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tags&lt;/strong&gt; can be added to boost the searchability of your item. Include obvious ones as relate to the item itself like “book” or “music” then more as relates to broader categories it represents such as “fiction” or “bluegrass.”&lt;/p&gt;
-
-&lt;p&gt;A &lt;strong&gt;category&lt;/strong&gt; helps keep your store organized. If you plan to sell both ebooks AND music albums, you’d just type in the corresponding category for each of your listings.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Variants&lt;/strong&gt; and &lt;strong&gt;inventory&lt;/strong&gt; can likely be left blank. These are helpful for things like physical goods where you may offer the same hat but in 3 different colors with only a certian number of each available. If you have variations of your digital goods it may be worth creating separate listings for each.&lt;/p&gt;
-
-&lt;p&gt;With the &lt;strong&gt;return policy&lt;/strong&gt; you can set this up however you’d like. You may want to say no refunds if the price point is very low on the item or perhaps offer a 100% satisfaction guarantee with a full refund option.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Terms &amp;amp; conditions&lt;/strong&gt; can be added if you have any conditions or advisories you want to make people aware of when accessing or using your digital good.&lt;/p&gt;
-
-&lt;p&gt;Select the &lt;strong&gt;coins&lt;/strong&gt; you’d like to receive as payment–it can be just one of them or any combination.&lt;/p&gt;
-
-&lt;h4 id=&quot;3-share-your-item-from-openbazaarcom&quot;&gt;3. Share your item from OpenBazaar.com&lt;/h4&gt;
-
-&lt;p&gt;OpenBazaar is a marketplace where people can browse and discover the items that you have for sale—but that’s not the only way they can find them! &lt;a href=&quot;https://openbazaar.com&quot;&gt;OpenBazaar.com&lt;/a&gt; exists to make it easy for you and others to share stores and listings to your social media and other communities.&lt;/p&gt;
-
-&lt;p&gt;Once your listing is live you can click “View on web” in the address bar at the top to see it and share it.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;view_on_web_link_in_openbazaar.png&quot; alt=&quot;View on Web Link in OpenBazaar&quot; title=&quot;View on Web Link in OpenBazaar&quot; /&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;more-than-a-marketplace&quot;&gt;More Than a Marketplace&lt;/h5&gt;
-
-&lt;p&gt;The software is still new and it is very niche because it exclusively uses cryptocurrency for payments. It needs every true believer’s help to grow into a phenomenon worldwide and that starts with our community. Make sure to connect with us to market your store and meet other like-minded people all around the world. Meet us on &lt;a href=&quot;https://twitter.com/openbazaar&quot;&gt;Twitter&lt;/a&gt;, &lt;a href=&quot;https://reddit.com/r/openbazaar&quot;&gt;Reddit&lt;/a&gt;, &lt;a href=&quot;https://openbazaar.org/slack&quot;&gt;Slack&lt;/a&gt; and &lt;a href=&quot;https://t.me/OpenBazaarGroup&quot;&gt;Telegram&lt;/a&gt;!&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Want To Learn More about Selling on OpenBazaar?&lt;/strong&gt;
-&lt;br /&gt;
-Check out these other posts that will help you get started:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://openbazaar.org/blog/openbazaar-seller-guide-what-to-expect-in-this-decentralized-marketplace/&quot;&gt;OpenBazaar Seller Guide - What To Expect in This Decentralized Marketplace&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://openbazaar.org/blog/how-to-market-your-store-and-listings-on-openbazaar/&quot;&gt;How To Market Your Store and Listings on OpenBazaar&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://openbazaar.org/blog/5-tips-to-make-your-openbazaar-listings-pop/&quot;&gt;5 Tips To Make Your OpenBazaar Listings Pop&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">When you think about the world’s largest internet marketplaces, what kind of products do you picture? Maybe you get your coffee or toilet paper or other daily sundries from Amazon or Alibaba. Maybe you buy secondhand or hard-to-find collectible items on Ebay. Maybe you visit Etsy for thoughtful handmade gifts. These sites do have a focus on physical goods but that’s not all they can do.</summary></entry></feed>
+&lt;p&gt;[10:48] Sam - OB1: You’re welcome!&lt;/p&gt;</content><author><name></name></author><summary type="html">This is a video recording of the OpenBazaar Developer call on March 14, 2019.</summary></entry></feed>
