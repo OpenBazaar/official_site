@@ -10,6 +10,7 @@ addons:
     - sshpass
 before_install:
     - gem install bundler    
+    - bundle install --jobs=3 --retry=3 --verbose
 before_deploy:
 - echo -e "Host $DEPLOY_HOST\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 - openssl aes-256-cbc -K $encrypted_10978a7f2d99_key -iv $encrypted_10978a7f2d99_iv
